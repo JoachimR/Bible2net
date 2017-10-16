@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion versions.compile_sdk
+    buildToolsVersion versions.build_tools
+
+    defaultConfig {
+        minSdkVersion versions.min_sdk
+        targetSdkVersion versions.target_sdk
+    }
+
+}
+
+dependencies {
+    compile project(':model')
+    compile "android.arch.persistence.room:runtime:$versions.arch"
+    annotationProcessor "android.arch.persistence.room:compiler:$versions.arch"
+}

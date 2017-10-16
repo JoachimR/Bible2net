@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.reiss.bible2net.theword">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d457eb0b0027f507330abbd4d12282f89b4fbe83" />
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bible.BibleActivity"
+            android:label="@string/bible_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/main_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".preferences.AppPreferencesActivity"
+            android:label="@string/preferences_title" />
+
+        <activity
+            android:name=".note.edit.EditNoteActivity"
+            android:label="@string/edit_note_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".note.list.NoteListActivity"
+            android:label="@string/note_list_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".note.details.NoteDetailsActivity"
+            android:label="@string/note_details_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".note.export.NoteExportActivity"
+            android:label="@string/note_export_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".about.AboutActivity"
+            android:label="@string/about_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".notification.NotificationService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".widget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver android:name=".widget.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+    </application>
+
+</manifest>

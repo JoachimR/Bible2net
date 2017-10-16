@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_fontsize_default" translatable="false">20</string>
+    <string name="pref_fontsize_min" translatable="false">10</string>
+    <string name="pref_fontsize_max" translatable="false">40</string>
+
+    <string name="pref_widget_fontsize_default" translatable="false">26</string>
+    <string name="pref_widget_fontsize_min" translatable="false">10</string>
+    <string name="pref_widget_fontsize_max" translatable="false">40</string>
+
+    <string name="pref_theme_value_red_teal" translatable="false">red_teal</string>
+    <string name="pref_theme_value_blue_orange" translatable="false">blue_orange</string>
+    <string name="pref_theme_value_grey_cyan" translatable="false">grey_cyan</string>
+    <string name="pref_theme_value_green_brown" translatable="false">green_brown</string>
+
+    <string name="pref_theme_default" translatable="false">@string/pref_theme_value_red_teal</string>
+
+    <string-array name="pref_theme_themes_values" translatable="false">
+        <item>@string/pref_theme_value_red_teal</item>
+        <item>@string/pref_theme_value_blue_orange</item>
+        <item>@string/pref_theme_value_grey_cyan</item>
+        <item>@string/pref_theme_value_green_brown</item>
+    </string-array>
+
+    <string name="pref_widget_backgroundcolor_default" translatable="false">widgetbg_full_border_content_transparent</string>
+    <string-array name="pref_widget_backgroundcolor_colors_values" translatable="false">
+        <item>widgetbg_full_transparent</item>
+        <item>widgetbg_full_border_content_transparent</item>
+        <item>widgetbg_full_white</item>
+        <item>widgetbg_full_black</item>
+        <item>widgetbg_full_blue</item>
+        <item>widgetbg_full_darkgreen</item>
+        <item>widgetbg_full_green</item>
+        <item>widgetbg_full_grey</item>
+        <item>widgetbg_full_lightblue</item>
+        <item>widgetbg_full_pink</item>
+        <item>widgetbg_full_purple</item>
+        <item>widgetbg_full_red</item>
+        <item>widgetbg_full_yellow</item>
+        <item>widgetbg_transpimg_transparent</item>
+        <item>widgetbg_transpimg_black</item>
+        <item>widgetbg_transpimg_blue</item>
+        <item>widgetbg_transpimg_darkgreen</item>
+        <item>widgetbg_transpimg_green</item>
+        <item>widgetbg_transpimg_grey</item>
+        <item>widgetbg_transpimg_lightblue</item>
+        <item>widgetbg_transpimg_pink</item>
+        <item>widgetbg_transpimg_purple</item>
+        <item>widgetbg_transpimg_red</item>
+        <item>widgetbg_transpimg_white</item>
+        <item>widgetbg_transpimg_yellow</item>
+    </string-array>
+
+    <integer-array name="pref_font_colors" translatable="false">
+        <item>@color/font_white</item>
+        <item>@color/font_grey</item>
+        <item>@color/font_black</item>
+        <item>@color/font_blue</item>
+        <item>@color/font_red</item>
+        <item>@color/font_light_blue</item>
+        <item>@color/font_yellow</item>
+        <item>@color/font_green</item>
+        <item>@color/font_dark_green</item>
+        <item>@color/font_purple</item>
+        <item>@color/font_pink</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,5428 @@
+<?xml version='1.0' encoding='utf-8' standalone='no' ?>
+<thewordfile dtdvers='1.1' xml:lang='en' year='2018' bible='EnglishStandardVersion'>
+<head>
+<updated rev='$Id: $'>2017-07-24T18:06:19Z</updated>
+<biblename>English Standard Version</biblename>
+<copyright>Copyright The Word - English Standard Version
+
+Project "Bible 2.0" (http://bible2.net), 2017.
+
+1. Related Bible References
+
+The project Bible 2.0 provides pairs of related Bible references.
+The Word associates one pair of Bible references with a certain day, respectively.
+The association of Bible references into pairs and of such pairs to days of a certain year is subject to
+
+  Licence "Creative Commons 2.0
+  http://creativecommons.org/licenses/by-nc-nd/2.0/
+  (Attribution, Noncommercial, No Derivative Works).
+
+With each publication, the following statement
+with a link to http://bible2.net must be available for the user
+(e.g. by adding a link to the copyright page):
+
+  Association of Bible references by project Bible 2.0
+
+2. Bible Texts
+
+<biblecopyright>Taken from The Holy Bible, English Standard Version
+copyright (c) 2001 by Crossway Bibles,
+a division of Good News Publishers.
+Used by permission.  All rights reserved.</biblecopyright></copyright>
+</head>
+<theword date='2018-01-01'>
+<title>The Word for Monday, 1 January 2018</title>
+<parol book='45' chapter='8' verse='25' id='R8v25'>
+<text>If we hope for what we do not see,
+we wait for it with patience.</text>
+<ref>Romans 8:25 (ESV)</ref>
+</parol>
+<parol book='58' chapter='10' verse='35' id='H10v35-36'>
+<text>Do not throw away your confidence,
+which has a great reward.
+For you have need of endurance,
+so that when you have done the will of God
+you may receive what is promised.</text>
+<ref>Hebrews 10:35-36 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-02'>
+<title>The Word for Tuesday, 2 January 2018</title>
+<parol book='42' chapter='19' verse='9' id='L19v9'>
+<text>Jesus said to Zacchaeus,
+Today salvation has come to this house.</text>
+<ref>Luke 19:9 (ESV)</ref>
+</parol>
+<parol book='58' chapter='7' verse='25' id='H7v25'>
+<text>Jesus is able to save to the uttermost
+those who draw near to God through him,
+since he always lives to make intercession for them.</text>
+<ref>Hebrews 7:25 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-03'>
+<title>The Word for Wednesday, 3 January 2018</title>
+<parol book='44' chapter='8' verse='30' id='Act8v30'>
+<intro>Philip asked the court official:</intro>
+<text>Do you understand what you are reading?</text>
+<ref>Acts 8:30 (ESV)</ref>
+</parol>
+<parol book='62' chapter='5' verse='20' id='1J5v20'>
+<text>We know that the Son of God has come
+and has given us understanding,
+so that we may know him who is true.</text>
+<ref>1 John 5:20 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-04'>
+<title>The Word for Thursday, 4 January 2018</title>
+<parol book='19' chapter='103' verse='15' id='Ps103v15-16'>
+<text>As for man, his days are like grass;
+he flourishes like a flower of the field;
+for the wind passes over it, and it is gone,
+and its place knows it no more.</text>
+<ref>Psalm 103:15-16</ref>
+</parol>
+<parol book='18' chapter='14' verse='1' id='Job14v1-2'>
+<text>Man who is born of a woman
+is few of days and full of trouble.
+He comes out like a flower and withers;
+he flees like a shadow and continues not.</text>
+<ref>Job 14:1-2</ref>
+</parol>
+</theword>
+<theword date='2018-01-05'>
+<title>The Word for Friday, 5 January 2018</title>
+<parol book='46' chapter='13' verse='6' id='1K13v6'>
+<text>Love does not rejoice at wrongdoing,
+but rejoices with the truth.</text>
+<ref>1 Corinthians 13:6 (ESV)</ref>
+</parol>
+<parol book='50' chapter='4' verse='8' id='Ph4v8'>
+<text>Whatever is true, whatever is honorable,
+whatever is just, whatever is pure,
+whatever is lovely, whatever is commendable,
+if there is any excellence,
+if there is anything worthy of praise,
+think about these things.</text>
+<ref>Philippians 4:8</ref>
+</parol>
+</theword>
+<theword date='2018-01-06'>
+<title>The Word for Saturday, 6 January 2018</title>
+<parol book='5' chapter='33' verse='27' id='Dt33v27'>
+<text>The eternal God is your dwelling place,
+and underneath are the everlasting arms.</text>
+<ref>Deuteronomy 33:27 (ESV)</ref>
+</parol>
+<parol book='58' chapter='13' verse='8' id='H13v8'>
+<text>Jesus Christ is the same yesterday and today and forever.</text>
+<ref>Hebrews 13:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-07'>
+<title>The Word for Sunday, 7 January 2018</title>
+<parol book='40' chapter='6' verse='25' id='Mt6v25'>
+<text>Do not be anxious about your life,
+what you will eat or what you will drink,
+nor about your body, what you will put on.
+Is not life more than food,
+and the body more than clothing?</text>
+<ref>Matthew 6:25 (ESV)</ref>
+</parol>
+<parol book='19' chapter='94' verse='19' id='Ps94v19'>
+<text>When the cares of my heart are many,
+your consolations cheer my soul.</text>
+<ref>Psalm 94:19</ref>
+</parol>
+</theword>
+<theword date='2018-01-08'>
+<title>The Word for Monday, 8 January 2018</title>
+<parol book='3' chapter='19' verse='34' id='Lv19v34_D'>
+<text>You shall treat the stranger who sojourns with you
+as the native among you.</text>
+<ref>Leviticus 19:34</ref>
+</parol>
+<parol book='40' chapter='25' verse='35' id='Mt25v35'>
+<text>I was hungry and you gave me food,
+I was thirsty and you gave me drink,
+I was a stranger and you welcomed me.</text>
+<ref>Matthew 25:35 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-09'>
+<title>The Word for Tuesday, 9 January 2018</title>
+<parol book='50' chapter='2' verse='2' id='Ph2v2'>
+<intro>Paul writes:</intro>
+<text>Complete my joy by being of the same mind,
+having the same love,
+being in full accord and of one mind.</text>
+<ref>Philippians 2:2</ref>
+</parol>
+<parol book='45' chapter='15' verse='5' id='R15v5-6'>
+<text>May the God of endurance and encouragement grant you
+to live in such harmony with one another,
+in accord with Christ Jesus,
+that together you may with one voice
+glorify the God and Father of our Lord Jesus Christ.</text>
+<ref>Romans 15:5-6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-10'>
+<title>The Word for Wednesday, 10 January 2018</title>
+<parol book='1' chapter='35' verse='15' id='Gn35v15'>
+<text>Jacob called the name of the place
+where God had spoken with him Bethel.</text>
+<ref>Genesis 35:15</ref>
+</parol>
+<parol book='1' chapter='16' verse='13' id='Gn16v13'>
+<text>Hagar called the name of the Lord who spoke to her,
+“You are a God of seeing.”</text>
+<ref>Genesis 16:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-11'>
+<title>The Word for Thursday, 11 January 2018</title>
+<parol book='40' chapter='6' verse='28' id='Mt6v28-29'>
+<intro>Christ says:</intro>
+<text>Why are you anxious about clothing?
+Consider the lilies of the field,
+how they grow: they neither toil nor spin,
+yet I tell you, even Solomon in all his glory
+was not arrayed like one of these.</text>
+<ref>Matthew 6:28-29 (ESV)</ref>
+</parol>
+<parol book='60' chapter='5' verse='7' id='1P5v7'>
+<text>Cast all your anxieties on him,
+because he cares for you.</text>
+<ref>1 Peter 5:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-12'>
+<title>The Word for Friday, 12 January 2018</title>
+<parol book='19' chapter='128' verse='6' id='Ps128v6'>
+<text>Peace be upon Israel!</text>
+<ref>Psalm 128:6</ref>
+</parol>
+<parol book='58' chapter='8' verse='10' id='H8v10'>
+<text>This is the covenant that I will make with the house of Israel
+after those days, declares the Lord:
+I will put my laws into their minds,
+and write them on their hearts,
+and I will be their God,
+and they shall be my people.</text>
+<ref>Hebrews 8:10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-13'>
+<title>The Word for Saturday, 13 January 2018</title>
+<parol book='23' chapter='49' verse='3' id='Is49v3'>
+<text>The Lord said to me,
+You are my servant, Israel,
+in whom I will be glorified.</text>
+<ref>Isaiah 49:3 (ESV)</ref>
+</parol>
+<parol book='23' chapter='61' verse='11' id='Is61v11'>
+<text>As the earth brings forth its sprouts,
+and as a garden causes what is sown in it to sprout up,
+so the Lord God will cause righteousness and praise
+to sprout up before all the nations.</text>
+<ref>Isaiah 61:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-14'>
+<title>The Word for Sunday, 14 January 2018</title>
+<parol book='24' chapter='30' verse='19' id='Jr30v19'>
+<text>I will multiply them, and they shall not be few;
+I will make them honored, and they shall not be small.</text>
+<ref>Jeremiah 30:19</ref>
+</parol>
+<parol book='9' chapter='14' verse='6' id='1Sm14v6_2'>
+<text>Jonathan said,
+It may be that the Lord will work for us,
+for nothing can hinder the Lord
+from saving by many or by few.</text>
+<ref>1 Samuel 14:6</ref>
+</parol>
+</theword>
+<theword date='2018-01-15'>
+<title>The Word for Monday, 15 January 2018</title>
+<parol book='19' chapter='89' verse='9' id='Ps89v9'>
+<text>O Lord God of hosts,
+who is mighty as you are, O Lord,
+with your faithfulness all around you?</text>
+<ref>Psalm 89:8 (ESV)</ref>
+</parol>
+<parol book='55' chapter='2' verse='13' id='2T2v13'>
+<text>If we are faithless, he remains faithful
+— for he cannot deny himself.</text>
+<ref>2 Timothy 2:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-16'>
+<title>The Word for Tuesday, 16 January 2018</title>
+<parol book='2' chapter='20' verse='23' id='Ex20v23'>
+<text>You shall not make gods of silver to be with me,
+nor shall you make for yourselves gods of gold.</text>
+<ref>Exodus 20:23 (ESV)</ref>
+</parol>
+<parol book='42' chapter='12' verse='34' id='L12v34'>
+<text>Where your treasure is,
+there will your heart be also.</text>
+<ref>Luke 12:34</ref>
+</parol>
+</theword>
+<theword date='2018-01-17'>
+<title>The Word for Wednesday, 17 January 2018</title>
+<parol book='40' chapter='7' verse='12' id='Mt7v12'>
+<text>Whatever you wish that others would do to you,
+do also to them,
+for this is the Law and the Prophets.</text>
+<ref>Matthew 7:12 (ESV)</ref>
+</parol>
+<parol book='3' chapter='19' verse='18' id='Lv19v18'>
+<text>You shall love your neighbor as yourself:
+I am the Lord.</text>
+<ref>Leviticus 19:18 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-18'>
+<title>The Word for Thursday, 18 January 2018</title>
+<parol book='19' chapter='119' verse='81' id='Ps119v81'>
+<text>My soul longs for your salvation;
+I hope in your word.</text>
+<ref>Psalm 119:81 (ESV)</ref>
+</parol>
+<parol book='42' chapter='2' verse='19' id='L2v19'>
+<text>Mary treasured up all these things,
+pondering them in her heart.</text>
+<ref>Luke 2:19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-19'>
+<title>The Word for Friday, 19 January 2018</title>
+<parol book='2' chapter='4' verse='31' id='Ex4v31'>
+<text>When the people heard
+that the Lord had visited the people of Israel
+and that he had seen their affliction,
+they bowed their heads and worshiped.</text>
+<ref>Exodus 4:31 (ESV)</ref>
+</parol>
+<parol book='58' chapter='11' verse='27' id='H11v27'>
+<text>By faith Moses left Egypt,
+not being afraid of the anger of the king,
+for he endured as seeing him who is invisible.</text>
+<ref>Hebrews 11:27</ref>
+</parol>
+</theword>
+<theword date='2018-01-20'>
+<title>The Word for Saturday, 20 January 2018</title>
+<parol book='46' chapter='10' verse='24' id='1K10v24'>
+<text>Let no one seek his own good,
+but the good of his neighbor.</text>
+<ref>1 Corinthians 10:24 (ESV)</ref>
+</parol>
+<parol book='23' chapter='53' verse='6' id='Is53v6'>
+<text>All we like sheep have gone astray;
+we have turned—every one—to his own way;
+and the Lord has laid on him the iniquity of us all.</text>
+<ref>Isaiah 53:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-21'>
+<title>The Word for Sunday, 21 January 2018</title>
+<parol book='9' chapter='3' verse='4' id='1Sm3v4'>
+<text>The Lord called Samuel,
+and he said, Here I am!</text>
+<ref>1 Samuel 3:4</ref>
+</parol>
+<parol book='40' chapter='13' verse='23' id='Mt13v23'>
+<text>As for what was sown on good soil,
+this is the one who hears the word and understands it.
+He indeed bears fruit.</text>
+<ref>Matthew 13:23</ref>
+</parol>
+</theword>
+<theword date='2018-01-22'>
+<title>The Word for Monday, 22 January 2018</title>
+<parol book='19' chapter='7' verse='9' id='Ps7v9'>
+<text>The Lord judges the peoples.</text>
+<ref>Psalm 7:8</ref>
+</parol>
+<parol book='66' chapter='16' verse='7' id='Ap16v7'>
+<text>I heard the altar saying,
+Yes, Lord God the Almighty,
+true and just are your judgments!</text>
+<ref>Revelation 16:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-23'>
+<title>The Word for Tuesday, 23 January 2018</title>
+<parol book='19' chapter='25' verse='18' id='Ps25v18'>
+<text>Consider my affliction and my trouble,
+and forgive all my sins.</text>
+<ref>Psalm 25:18 (ESV)</ref>
+</parol>
+<parol book='62' chapter='1' verse='9' id='1J1v9'>
+<text>If we confess our sins,
+he is faithful and just to forgive us our sins
+and to cleanse us from all unrighteousness.</text>
+<ref>1 John 1:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-24'>
+<title>The Word for Wednesday, 24 January 2018</title>
+<parol book='24' chapter='6' verse='16' id='Jr6v16'>
+<text>Ask for the ancient paths,
+where the good way is; and walk in it,
+and find rest for your souls.</text>
+<ref>Jeremiah 6:16 (ESV)</ref>
+</parol>
+<parol book='40' chapter='11' verse='28' id='Mt11v28'>
+<intro>Jesus says:</intro>
+<text>Come to me,
+all who labor and are heavy laden,
+and I will give you rest.</text>
+<ref>Matthew 11:28 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-25'>
+<title>The Word for Thursday, 25 January 2018</title>
+<parol book='19' chapter='19' verse='13' id='Ps19v13'>
+<text>Who can discern his errors?
+Declare me innocent from hidden faults.</text>
+<ref>Psalm 19:12 (ESV)</ref>
+</parol>
+<parol book='14' chapter='30' verse='18' id='2Chr30v18-19'>
+<text>May the good Lord pardon everyone
+who sets his heart to seek God, the Lord,
+the God of his fathers.</text>
+<ref>2 Chronicles 30:18-19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-26'>
+<title>The Word for Friday, 26 January 2018</title>
+<parol book='43' chapter='14' verse='7' id='J14v7'>
+<intro>Jesus said:</intro>
+<text>If you had known me, you would have known my Father also.
+From now on you do know him and have seen him.</text>
+<ref>John 14:7 (ESV)</ref>
+</parol>
+<parol book='43' chapter='17' verse='3' id='J17v3'>
+<intro>Jesus prayed:</intro>
+<text>This is eternal life,
+that they know you the only true God,
+and Jesus Christ whom you have sent.</text>
+<ref>John 17:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-27'>
+<title>The Word for Saturday, 27 January 2018</title>
+<parol book='41' chapter='4' verse='22' id='Mc4v22'>
+<text>Nothing is hidden except to be made manifest;
+nor is anything secret except to come to light.</text>
+<ref>Mark 4:22 (ESV)</ref>
+</parol>
+<parol book='18' chapter='28' verse='24' id='Job28v24'>
+<text>God looks to the ends of the earth
+and sees everything under the heavens.</text>
+<ref>Job 28:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-28'>
+<title>The Word for Sunday, 28 January 2018</title>
+<parol book='22' chapter='3' verse='1' id='Ct3v1'>
+<text>On my bed by night
+I sought him whom my soul loves;
+I sought him, but found him not.</text>
+<ref>Song of Solomon 3:1 (ESV)</ref>
+</parol>
+<parol book='19' chapter='121' verse='5' id='Ps121v5-6'>
+<text>The Lord is your keeper;
+the Lord is your shade on your right hand.
+The sun shall not strike you by day,
+nor the moon by night.</text>
+<ref>Psalm 121:5-6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-29'>
+<title>The Word for Monday, 29 January 2018</title>
+<parol book='58' chapter='9' verse='12' id='H9v12'>
+<text>Christ entered once for all into the holy places,
+not by means of the blood of goats and calves
+but by means of his own blood,
+thus securing an eternal redemption.</text>
+<ref>Hebrews 9:12</ref>
+</parol>
+<parol book='42' chapter='23' verse='45' id='L23v45'>
+<intro>Before Jesus breathed his last:</intro>
+<text>The sun's light failed.
+And the curtain of the temple was torn in two.</text>
+<ref>Luke 23:45</ref>
+</parol>
+</theword>
+<theword date='2018-01-30'>
+<title>The Word for Tuesday, 30 January 2018</title>
+<parol book='11' chapter='19' verse='18' id='1Rg19v18'>
+<text>I will leave seven thousand in Israel,
+all the knees that have not bowed to Baal,
+and every mouth that has not kissed him.</text>
+<ref>1 Kings 19:18 (ESV)</ref>
+</parol>
+<parol book='27' chapter='6' verse='11' id='Dn6v11'>
+<text>Daniel had windows in his upper chamber open toward Jerusalem.
+He got down on his knees three times a day
+and prayed and gave thanks before his God.</text>
+<ref>Daniel 6:10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-01-31'>
+<title>The Word for Wednesday, 31 January 2018</title>
+<parol book='23' chapter='41' verse='4' id='Is41v4'>
+<text>Who has performed and done this,
+calling the generations from the beginning?
+I, the Lord, the first, and with the last; I am he.</text>
+<ref>Isaiah 41:4 (ESV)</ref>
+</parol>
+<parol book='21' chapter='3' verse='11' id='Eccl3v11'>
+<text>He has made everything beautiful in its time.
+Also, he has put eternity into man's heart,
+yet so that he cannot find out what God has done
+from the beginning to the end.</text>
+<ref>Ecclesiastes 3:11</ref>
+</parol>
+</theword>
+<theword date='2018-02-01'>
+<title>The Word for Thursday, 1 February 2018</title>
+<parol book='18' chapter='42' verse='5' id='Job42v5-6'>
+<text>I had heard of you by the hearing of the ear,
+but now my eye sees you;
+therefore I despise myself,
+and repent in dust and ashes.</text>
+<ref>Job 42:5-6 (ESV)</ref>
+</parol>
+<parol book='27' chapter='9' verse='9' id='Dn9v9'>
+<text>To the Lord our God belong mercy and forgiveness.</text>
+<ref>Daniel 9:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-02'>
+<title>The Word for Friday, 2 February 2018</title>
+<parol book='2' chapter='4' verse='10' id='Ex4v10'>
+<text>Moses said to the Lord,
+Oh, my Lord, I am not eloquent,
+either in the past or since you have spoken to your servant,
+but I am slow of speech and of tongue.</text>
+<ref>Exodus 4:10</ref>
+</parol>
+<parol book='40' chapter='10' verse='19' id='Mt10v19'>
+<text>When they deliver you over,
+do not be anxious how you are to speak or what you are to say,
+for what you are to say will be given to you in that hour.</text>
+<ref>Matthew 10:19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-03'>
+<title>The Word for Saturday, 3 February 2018</title>
+<parol book='43' chapter='15' verse='10' id='J15v10-11'>
+<text>If you keep my commandments,
+you will abide in my love,
+just as I have kept my Father's commandments
+and abide in his love.
+These things I have spoken to you,
+that my joy may be in you,
+and that your joy may be full.</text>
+<ref>John 15:10-11 (ESV)</ref>
+</parol>
+<parol book='48' chapter='2' verse='20' id='G2v20'>
+<intro>Paul writes:</intro>
+<text>It is no longer I who live,
+but Christ who lives in me.</text>
+<ref>Galatians 2:20 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-04'>
+<title>The Word for Sunday, 4 February 2018</title>
+<parol book='62' chapter='2' verse='2' id='1J2v2'>
+<text>Jesus Christ is the propitiation for our sins,
+and not for ours only but also for the sins of the whole world.</text>
+<ref>1 John 2:2 (ESV)</ref>
+</parol>
+<parol book='43' chapter='3' verse='17' id='J3v17'>
+<text>God did not send his Son into the world to condemn the world,
+but in order that the world might be saved through him.</text>
+<ref>John 3:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-05'>
+<title>The Word for Monday, 5 February 2018</title>
+<parol book='47' chapter='1' verse='2' id='2K1v2'>
+<text>Grace to you and peace from God our Father
+and the Lord Jesus Christ.</text>
+<ref>2 Corinthians 1:2</ref>
+</parol>
+<parol book='19' chapter='67' verse='2' id='Ps67v2-3'>
+<text>May God be gracious to us and bless us
+and make his face to shine upon us,
+that your way may be known on earth,
+your saving power among all nations.</text>
+<ref>Psalm 67:1-2</ref>
+</parol>
+</theword>
+<theword date='2018-02-06'>
+<title>The Word for Tuesday, 6 February 2018</title>
+<parol book='9' chapter='2' verse='8' id='1Sm2v8'>
+<text>The pillars of the earth are the Lord's,
+and on them he has set the world.</text>
+<ref>1 Samuel 2:8 (ESV)</ref>
+</parol>
+<parol book='44' chapter='14' verse='15' id='Act14v15'>
+<intro>Barnabas and Paul said:</intro>
+<text>We bring you good news,
+that you should turn from these vain things to a living God,
+who made the heaven and the earth
+and the sea and all that is in them.</text>
+<ref>Acts 14:15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-07'>
+<title>The Word for Wednesday, 7 February 2018</title>
+<parol book='40' chapter='19' verse='14' id='Mt19v14'>
+<text>Jesus said,
+Let the little children come to me and do not hinder them,
+for to such belongs the kingdom of heaven.</text>
+<ref>Matthew 19:14</ref>
+</parol>
+<parol book='42' chapter='18' verse='17' id='L18v17'>
+<text>Whoever does not receive the kingdom of God like a child
+shall not enter it.</text>
+<ref>Luke 18:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-08'>
+<title>The Word for Thursday, 8 February 2018</title>
+<parol book='23' chapter='53' verse='3' id='Is53v3'>
+<text>As one from whom men hide their faces
+he was despised, and we esteemed him not.</text>
+<ref>Isaiah 53:3 (ESV)</ref>
+</parol>
+<parol book='43' chapter='1' verse='11' id='J1v11'>
+<text>He came to his own,
+and his own people did not receive him.</text>
+<ref>John 1:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-09'>
+<title>The Word for Friday, 9 February 2018</title>
+<parol book='42' chapter='9' verse='11' id='L9v11'>
+<text>Jesus welcomed the crowds
+and spoke to them of the kingdom of God
+and cured those who had need of healing.</text>
+<ref>Luke 9:11 (ESV)</ref>
+</parol>
+<parol book='62' chapter='4' verse='9' id='1J4v9'>
+<text>In this the love of God was made manifest among us,
+that God sent his only Son into the world,
+so that we might live through him.</text>
+<ref>1 John 4:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-10'>
+<title>The Word for Saturday, 10 February 2018</title>
+<parol book='2' chapter='23' verse='20' id='Ex23v20'>
+<text>Behold, I send an angel before you
+to guard you on the way
+and to bring you to the place that I have prepared.</text>
+<ref>Exodus 23:20 (ESV)</ref>
+</parol>
+<parol book='19' chapter='91' verse='11' id='Ps91v11'>
+<text>He will command his angels concerning you
+to guard you in all your ways.</text>
+<ref>Psalm 91:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-11'>
+<title>The Word for Sunday, 11 February 2018</title>
+<parol book='23' chapter='6' verse='8' id='Is6v8'>
+<text>I heard the voice of the Lord saying,
+Whom shall I send, and who will go for us?
+Then I said, Here am I! Send me.</text>
+<ref>Isaiah 6:8</ref>
+</parol>
+<parol book='44' chapter='18' verse='9' id='Act18v9-10'>
+<text>The Lord said to Paul one night in a vision,
+Do not be afraid, but go on speaking and do not be silent,
+for I am with you, and no one will attack you to harm you,
+for I have many in this city who are my people.</text>
+<ref>Acts 18:9-10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-12'>
+<title>The Word for Monday, 12 February 2018</title>
+<parol book='23' chapter='5' verse='8' id='Is5v8'>
+<text>Woe to those who join house to house,
+who add field to field, until there is no more room,
+and you are made to dwell alone in the midst of the land.</text>
+<ref>Isaiah 5:8</ref>
+</parol>
+<parol book='54' chapter='6' verse='7' id='1T6v7-8'>
+<text>We brought nothing into the world,
+and we cannot take anything out of the world.
+But if we have food and clothing,
+with these we will be content.</text>
+<ref>1 Timothy 6:7-8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-13'>
+<title>The Word for Tuesday, 13 February 2018</title>
+<parol book='19' chapter='143' verse='2' id='Ps143v2'>
+<text>Enter not into judgment with your servant,
+for no one living is righteous before you.</text>
+<ref>Psalm 143:2 (ESV)</ref>
+</parol>
+<parol book='24' chapter='3' verse='12' id='Jr3v12-13'>
+<text>I am merciful, declares the Lord;
+I will not be angry forever.
+Only acknowledge your guilt,
+that you rebelled against the Lord your God.</text>
+<ref>Jeremiah 3:12-13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-14'>
+<title>The Word for Wednesday, 14 February 2018</title>
+<parol book='1' chapter='31' verse='42' id='Gn31v42'>
+<text>God saw my affliction
+and the labor of my hands.</text>
+<ref>Genesis 31:42 (ESV)</ref>
+</parol>
+<parol book='46' chapter='15' verse='58' id='1K15v58'>
+<text>Be steadfast, immovable,
+always abounding in the work of the Lord,
+knowing that in the Lord your labor is not in vain.</text>
+<ref>1 Corinthians 15:58 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-15'>
+<title>The Word for Thursday, 15 February 2018</title>
+<parol book='19' chapter='29' verse='11' id='Ps29v11'>
+<text>May the Lord give strength to his people!
+May the Lord bless his people with peace!</text>
+<ref>Psalm 29:11 (ESV)</ref>
+</parol>
+<parol book='44' chapter='6' verse='7' id='Act6v7'>
+<text>The word of God continued to increase,
+and the number of the disciples
+multiplied greatly in Jerusalem.</text>
+<ref>Acts 6:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-16'>
+<title>The Word for Friday, 16 February 2018</title>
+<parol book='51' chapter='1' verse='19' id='Kol1v19-20'>
+<text>In Christ all the fullness of God was pleased to dwell,
+and through him to reconcile to himself all things,
+whether on earth or in heaven,
+making peace by the blood of his cross.</text>
+<ref>Colossians 1:19-20 (ESV)</ref>
+</parol>
+<parol book='47' chapter='5' verse='20' id='2K5v20'>
+<text>We are ambassadors for Christ,
+God making his appeal through us.
+We implore you on behalf of Christ,
+be reconciled to God.</text>
+<ref>2 Corinthians 5:20 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-17'>
+<title>The Word for Saturday, 17 February 2018</title>
+<parol book='26' chapter='16' verse='60' id='Ez16v60'>
+<text>I will remember my covenant with you in the days of your youth,
+and I will establish for you an everlasting covenant.</text>
+<ref>Ezekiel 16:60 (ESV)</ref>
+</parol>
+<parol book='43' chapter='3' verse='16' id='J3v16'>
+<text>God so loved the world,
+that he gave his only Son,
+that whoever believes in him
+should not perish but have eternal life.</text>
+<ref>John 3:16 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-18'>
+<title>The Word for Sunday, 18 February 2018</title>
+<parol book='1' chapter='3' verse='8' id='Gn3v8'>
+<text>The man and his wife hid themselves
+from the presence of the Lord God.</text>
+<ref>Genesis 3:8 (ESV)</ref>
+</parol>
+<parol book='21' chapter='12' verse='14' id='Eccl12v14'>
+<text>God will bring every deed into judgment,
+with every secret thing, whether good or evil.</text>
+<ref>Ecclesiastes 12:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-19'>
+<title>The Word for Monday, 19 February 2018</title>
+<parol book='2' chapter='23' verse='2' id='Ex23v2'>
+<text>You shall not fall in with the many to do evil.</text>
+<ref>Exodus 23:2 (ESV)</ref>
+</parol>
+<parol book='19' chapter='118' verse='8' id='Ps118v8'>
+<text>It is better to take refuge in the Lord
+than to trust in man.</text>
+<ref>Psalm 118:8</ref>
+</parol>
+</theword>
+<theword date='2018-02-20'>
+<title>The Word for Tuesday, 20 February 2018</title>
+<parol book='19' chapter='115' verse='12' id='Ps115v12'>
+<text>The Lord has remembered us;
+he will bless us.</text>
+<ref>Psalm 115:12</ref>
+</parol>
+<parol book='19' chapter='103' verse='17' id='Ps103v17-18'>
+<text>The steadfast love of the Lord
+is from everlasting to everlasting on those who fear him,
+and his righteousness to children's children,
+to those who keep his covenant
+and remember to do his commandments.</text>
+<ref>Psalm 103:17-18</ref>
+</parol>
+</theword>
+<theword date='2018-02-21'>
+<title>The Word for Wednesday, 21 February 2018</title>
+<parol book='19' chapter='30' verse='12' id='Ps30v12'>
+<text>You have turned for me my mourning into dancing;
+you have loosed my sackcloth
+and clothed me with gladness.</text>
+<ref>Psalm 30:11 (ESV)</ref>
+</parol>
+<parol book='19' chapter='97' verse='12' id='Ps97v12'>
+<text>Rejoice in the Lord, O you righteous,
+and give thanks to his holy name!</text>
+<ref>Psalm 97:12</ref>
+</parol>
+</theword>
+<theword date='2018-02-22'>
+<title>The Word for Thursday, 22 February 2018</title>
+<parol book='30' chapter='9' verse='15' id='Am9v15'>
+<text>I will plant them on their land,
+and they shall never again be uprooted
+out of the land that I have given them,
+says the Lord your God.</text>
+<ref>Amos 9:15</ref>
+</parol>
+<parol book='26' chapter='37' verse='14' id='Ez37v14'>
+<text>I will put my Spirit within you,
+and you shall live,
+and I will place you in your own land.
+Then you shall know that I am the Lord.</text>
+<ref>Ezekiel 37:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-23'>
+<title>The Word for Friday, 23 February 2018</title>
+<parol book='19' chapter='85' verse='10' id='Ps85v10-11'>
+<text>Surely his salvation is near to those who fear him,
+that glory may dwell in our land.
+Steadfast love and faithfulness meet;
+righteousness and peace kiss each other.</text>
+<ref>Psalm 85:9-10 (ESV)</ref>
+</parol>
+<parol book='23' chapter='9' verse='5' id='Is9v5'>
+<text>His name shall be called
+Wonderful Counselor,
+Mighty God,
+Everlasting Father,
+Prince of Peace.</text>
+<ref>Isaiah 9:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-24'>
+<title>The Word for Saturday, 24 February 2018</title>
+<parol book='60' chapter='3' verse='18' id='1P3v18_C'>
+<text>Christ was put to death in the flesh
+but made alive in the spirit.</text>
+<ref>1 Peter 3:18 (ESV)</ref>
+</parol>
+<parol book='45' chapter='8' verse='11' id='R8v11'>
+<text>If the Spirit of him
+who raised Jesus from the dead dwells in you,
+he who raised Christ Jesus from the dead
+will also give life to your mortal bodies
+through his Spirit who dwells in you.</text>
+<ref>Romans 8:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-25'>
+<title>The Word for Sunday, 25 February 2018</title>
+<parol book='5' chapter='2' verse='7' id='Dt2v7'>
+<text>The Lord your God has blessed you in all the work of your hands.
+He knows your going through this great wilderness.</text>
+<ref>Deuteronomy 2:7 (ESV)</ref>
+</parol>
+<parol book='42' chapter='22' verse='35' id='L22v35'>
+<text>Jesus said to the apostles,
+When I sent you out with no moneybag
+or knapsack or sandals, did you lack anything?
+They said, Nothing.</text>
+<ref>Luke 22:35</ref>
+</parol>
+</theword>
+<theword date='2018-02-26'>
+<title>The Word for Monday, 26 February 2018</title>
+<parol book='46' chapter='1' verse='5' id='1K1v5'>
+<text>In every way you were enriched in him
+in all speech and all knowledge.</text>
+<ref>1 Corinthians 1:5 (ESV)</ref>
+</parol>
+<parol book='50' chapter='4' verse='19' id='Ph4v19'>
+<intro>Paul writes:</intro>
+<text>My God will supply every need of yours
+according to his riches in glory in Christ Jesus.</text>
+<ref>Philippians 4:19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-02-27'>
+<title>The Word for Tuesday, 27 February 2018</title>
+<parol book='19' chapter='91' verse='14' id='Ps91v14'>
+<intro>The Lord says:</intro>
+<text>Because he holds fast to me in love,
+I will deliver him;
+I will protect him,
+because he knows my name.</text>
+<ref>Psalm 91:14</ref>
+</parol>
+<parol book='40' chapter='15' verse='25' id='Mt15v25'>
+<text>The Canaanite woman came
+and knelt before Jesus, saying,
+Lord, help me.</text>
+<ref>Matthew 15:25</ref>
+</parol>
+</theword>
+<theword date='2018-02-28'>
+<title>The Word for Wednesday, 28 February 2018</title>
+<parol book='1' chapter='39' verse='23' id='Gn39v23'>
+<text>The Lord was with Joseph.
+And whatever he did, the Lord made it succeed.</text>
+<ref>Genesis 39:23 (ESV)</ref>
+</parol>
+<parol book='44' chapter='7' verse='9' id='Act7v9-10'>
+<text>The patriarchs, jealous of Joseph, sold him into Egypt;
+but God was with him
+and rescued him out of all his afflictions
+and gave him favor and wisdom before Pharaoh, king of Egypt.</text>
+<ref>Acts 7:9-10</ref>
+</parol>
+</theword>
+<theword date='2018-03-01'>
+<title>The Word for Thursday, 1 March 2018</title>
+<parol book='45' chapter='1' verse='19' id='R1v19'>
+<text>Wat can be known about God is plain to men,
+because God has shown it to them.</text>
+<ref>Romans 1:19</ref>
+</parol>
+<parol book='46' chapter='13' verse='12' id='1K13v12'>
+<text>Now we see in a mirror dimly, but then face to face.
+Now I know in part; then I shall know fully,
+even as I have been fully known.</text>
+<ref>1 Corinthians 13:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-02'>
+<title>The Word for Friday, 2 March 2018</title>
+<parol book='19' chapter='120' verse='6' id='Ps120v6-7'>
+<text>Too long have I had my dwelling
+among those who hate peace.
+I am for peace,
+but when I speak, they are for war!</text>
+<ref>Psalm 120:6-7 (ESV)</ref>
+</parol>
+<parol book='45' chapter='14' verse='19' id='R14v19'>
+<text>Let us pursue what makes for peace
+and for mutual upbuilding.</text>
+<ref>Romans 14:19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-03'>
+<title>The Word for Saturday, 3 March 2018</title>
+<parol book='47' chapter='1' verse='21' id='2K1v21-22'>
+<intro>Paul writes:</intro>
+<text>It is God who establishes us with you in Christ,
+and has anointed us, and who has also put his seal on us
+and given us his Spirit in our hearts as a guarantee.</text>
+<ref>2 Corinthians 1:21-22</ref>
+</parol>
+<parol book='1' chapter='28' verse='15' id='Gn28v15_I'>
+<intro>The Lord said to Jacob:</intro>
+<text>I will not leave you
+until I have done what I have promised you.</text>
+<ref>Genesis 28:15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-04'>
+<title>The Word for Sunday, 4 March 2018</title>
+<parol book='20' chapter='19' verse='21' id='Prv19v21'>
+<text>Many are the plans in the mind of a man,
+but it is the purpose of the Lord that will stand.</text>
+<ref>Proverbs 19:21 (ESV)</ref>
+</parol>
+<parol book='19' chapter='33' verse='11' id='Ps33v11'>
+<text>The counsel of the Lord stands forever,
+the plans of his heart to all generations.</text>
+<ref>Psalm 33:11</ref>
+</parol>
+</theword>
+<theword date='2018-03-05'>
+<title>The Word for Monday, 5 March 2018</title>
+<parol book='5' chapter='6' verse='13' id='Dt6v13'>
+<text>It is the Lord your God you shall fear.
+Him you shall serve.</text>
+<ref>Deuteronomy 6:13 (ESV)</ref>
+</parol>
+<parol book='23' chapter='33' verse='6' id='Is33v6'>
+<text>The fear of the Lord is Zion's treasure.</text>
+<ref>Isaiah 33:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-06'>
+<title>The Word for Tuesday, 6 March 2018</title>
+<parol book='58' chapter='9' verse='28' id='H9v28'>
+<text>Christ, having been offered once to bear the sins of many,
+will appear a second time, not to deal with sin
+but to save those who are eagerly waiting for him.</text>
+<ref>Hebrews 9:28</ref>
+</parol>
+<parol book='44' chapter='1' verse='11' id='Act1v11'>
+<intro>Two men in white robes said to the apostles:</intro>
+<text>Men of Galilee, why do you stand looking into heaven?
+This Jesus, who was taken up from you into heaven,
+will come in the same way as you saw him go into heaven.</text>
+<ref>Acts 1:11</ref>
+</parol>
+</theword>
+<theword date='2018-03-07'>
+<title>The Word for Wednesday, 7 March 2018</title>
+<parol book='19' chapter='119' verse='133' id='Ps119v133'>
+<text>Keep steady my steps according to your promise,
+and let no iniquity get dominion over me.</text>
+<ref>Psalm 119:133 (ESV)</ref>
+</parol>
+<parol book='46' chapter='16' verse='13' id='1K16v13'>
+<text>Be watchful, stand firm in the faith,
+act like men, be strong.</text>
+<ref>1 Corinthians 16:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-08'>
+<title>The Word for Thursday, 8 March 2018</title>
+<parol book='23' chapter='8' verse='23' id='Is8v23'>
+<text>There will be no gloom for her who was in anguish.</text>
+<ref>Isaiah 9:1 (ESV)</ref>
+</parol>
+<parol book='43' chapter='1' verse='5' id='J1v5'>
+<text>The light shines in the darkness,
+and the darkness has not overcome it.</text>
+<ref>John 1:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-09'>
+<title>The Word for Friday, 9 March 2018</title>
+<parol book='43' chapter='3' verse='36' id='J3v36'>
+<text>Whoever believes in the Son has eternal life;
+whoever does not obey the Son shall not see life,
+but the wrath of God remains on him.</text>
+<ref>John 3:36 (ESV)</ref>
+</parol>
+<parol book='19' chapter='30' verse='6' id='Ps30v6'>
+<text>His anger is but for a moment,
+and his favor is for a lifetime.
+Weeping may tarry for the night,
+but joy comes with the morning.</text>
+<ref>Psalm 30:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-10'>
+<title>The Word for Saturday, 10 March 2018</title>
+<parol book='1' chapter='32' verse='27' id='Gn32v27'>
+<text>I will not let you go unless you bless me.</text>
+<ref>Genesis 32:26</ref>
+</parol>
+<parol book='58' chapter='3' verse='14' id='H3v14'>
+<text>We have come to share in Christ,
+if indeed we hold our original confidence firm to the end.</text>
+<ref>Hebrews 3:14</ref>
+</parol>
+</theword>
+<theword date='2018-03-11'>
+<title>The Word for Sunday, 11 March 2018</title>
+<parol book='24' chapter='13' verse='16' id='Jr13v16'>
+<text>Give glory to the Lord your God
+before he brings darkness.</text>
+<ref>Jeremiah 13:16</ref>
+</parol>
+<parol book='43' chapter='1' verse='9' id='J1v9'>
+<text>The true light, which enlightens everyone,
+was coming into the world.</text>
+<ref>John 1:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-12'>
+<title>The Word for Monday, 12 March 2018</title>
+<parol book='23' chapter='45' verse='15' id='Is45v15'>
+<text>Truly, you are a God who hides himself,
+O God of Israel, the Savior.</text>
+<ref>Isaiah 45:15 (ESV)</ref>
+</parol>
+<parol book='43' chapter='13' verse='7' id='J13v7'>
+<text>Jesus answered Simon Peter,
+What I am doing you do not understand now,
+but afterward you will understand.</text>
+<ref>John 13:7</ref>
+</parol>
+</theword>
+<theword date='2018-03-13'>
+<title>The Word for Tuesday, 13 March 2018</title>
+<parol book='45' chapter='12' verse='10' id='R12v10'>
+<text>Outdo one another in showing honor.</text>
+<ref>Romans 12:10 (ESV)</ref>
+</parol>
+<parol book='50' chapter='2' verse='3' id='Ph2v3'>
+<text>Do nothing from rivalry or conceit,
+but in humility count others more significant than yourselves.</text>
+<ref>Philippians 2:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-14'>
+<title>The Word for Wednesday, 14 March 2018</title>
+<parol book='45' chapter='6' verse='9' id='R6v9'>
+<text>We know that Christ,
+being raised from the dead, will never die again;
+death no longer has dominion over him.</text>
+<ref>Romans 6:9 (ESV)</ref>
+</parol>
+<parol book='43' chapter='10' verse='28' id='J10v28'>
+<intro>Jesus said:</intro>
+<text>I give them eternal life, and they will never perish,
+and no one will snatch them out of my hand.</text>
+<ref>John 10:28 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-15'>
+<title>The Word for Thursday, 15 March 2018</title>
+<parol book='9' chapter='2' verse='10' id='1Sm2v10'>
+<text>The Lord will judge the ends of the earth;
+he will give strength to his king
+and exalt the power of his anointed.</text>
+<ref>1 Samuel 2:10 (ESV)</ref>
+</parol>
+<parol book='40' chapter='25' verse='31' id='Mt25v31-32'>
+<text>When the Son of Man comes in his glory,
+and all the angels with him,
+then he will sit on his glorious throne.
+Before him will be gathered all the nations.</text>
+<ref>Matthew 25:31-32</ref>
+</parol>
+</theword>
+<theword date='2018-03-16'>
+<title>The Word for Friday, 16 March 2018</title>
+<parol book='19' chapter='24' verse='1' id='Ps24v1'>
+<text>The earth is the Lord's and the fullness thereof,
+the world and those who dwell therein.</text>
+<ref>Psalm 24:1 (ESV)</ref>
+</parol>
+<parol book='51' chapter='1' verse='16' id='Kol1v16'>
+<text>By him all things were created,
+in heaven and on earth, visible and invisible,
+whether thrones or dominions or rulers or authorities
+— all things were created through him and for him.</text>
+<ref>Colossians 1:16 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-17'>
+<title>The Word for Saturday, 17 March 2018</title>
+<parol book='42' chapter='6' verse='39' id='L6v39-40'>
+<text>Can a blind man lead a blind man?
+Will they not both fall into a pit?
+A disciple is not above his teacher,
+but everyone when he is fully trained will be like his teacher.</text>
+<ref>Luke 6:39-40 (ESV)</ref>
+</parol>
+<parol book='19' chapter='146' verse='8' id='Ps146v8_D'>
+<text>The Lord opens the eyes of the blind.</text>
+<ref>Psalm 146:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-18'>
+<title>The Word for Sunday, 18 March 2018</title>
+<parol book='27' chapter='11' verse='32' id='Dn11v32'>
+<text>The people who know their God
+shall stand firm and take action.</text>
+<ref>Daniel 11:32</ref>
+</parol>
+<parol book='19' chapter='73' verse='23' id='Ps73v23'>
+<text>Nevertheless, I am continually with you;
+you hold my right hand.</text>
+<ref>Psalm 73:23 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-19'>
+<title>The Word for Monday, 19 March 2018</title>
+<parol book='19' chapter='16' verse='3' id='Ps16v3'>
+<intro>David prayed:</intro>
+<text>As for the saints in the land,
+they are the excellent ones,
+in whom is all my delight.</text>
+<ref>Psalm 16:3</ref>
+</parol>
+<parol book='45' chapter='8' verse='33' id='R8v33'>
+<text>Who shall bring any charge against God's elect?
+It is God who justifies.</text>
+<ref>Romans 8:33 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-20'>
+<title>The Word for Tuesday, 20 March 2018</title>
+<parol book='19' chapter='65' verse='4' id='Ps65v4'>
+<text>When iniquities prevail against me,
+you atone for our transgressions.</text>
+<ref>Psalm 65:3 (ESV)</ref>
+</parol>
+<parol book='45' chapter='4' verse='25' id='R4v25'>
+<text>Jesus our Lord was delivered up for our trespasses
+and raised for our justification.</text>
+<ref>Romans 4:25 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-21'>
+<title>The Word for Wednesday, 21 March 2018</title>
+<parol book='40' chapter='28' verse='8' id='Mt28v8'>
+<text>The women departed quickly from the tomb
+with fear and great joy,
+and ran to tell his disciples.</text>
+<ref>Matthew 28:8</ref>
+</parol>
+<parol book='42' chapter='24' verse='34' id='L24v34'>
+<intro>The eleven and those who were with them said:</intro>
+<text>The Lord has risen indeed,
+and has appeared to Simon!</text>
+<ref>Luke 24:34</ref>
+</parol>
+</theword>
+<theword date='2018-03-22'>
+<title>The Word for Thursday, 22 March 2018</title>
+<parol book='19' chapter='119' verse='63' id='Ps119v63'>
+<text>I am a companion of all who fear you,
+of those who keep your precepts.</text>
+<ref>Psalm 119:63 (ESV)</ref>
+</parol>
+<parol book='42' chapter='8' verse='21' id='L8v21'>
+<intro>Jesus said:</intro>
+<text>My mother and my brothers are those
+who hear the word of God and do it.</text>
+<ref>Luke 8:21 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-23'>
+<title>The Word for Friday, 23 March 2018</title>
+<parol book='19' chapter='34' verse='16' id='Ps34v16'>
+<text>The eyes of the Lord are toward the righteous
+and his ears toward their cry.</text>
+<ref>Psalm 34:15</ref>
+</parol>
+<parol book='39' chapter='3' verse='20' id='Ml3v20'>
+<text>For you who fear my name,
+the sun of righteousness shall rise
+with healing in its wings.
+You shall go out leaping like calves from the stall.</text>
+<ref>Malachi 4:2</ref>
+</parol>
+</theword>
+<theword date='2018-03-24'>
+<title>The Word for Saturday, 24 March 2018</title>
+<parol book='52' chapter='5' verse='18' id='1Th5v18'>
+<text>Give thanks in all circumstances;
+for this is the will of God in Christ Jesus for you.</text>
+<ref>1 Thessalonians 5:18 (ESV)</ref>
+</parol>
+<parol book='19' chapter='106' verse='1' id='Ps106v1'>
+<text>Give thanks to the Lord, for he is good,
+for his steadfast love endures forever!</text>
+<ref>Psalm 106:1 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-25'>
+<title>The Word for Sunday, 25 March 2018</title>
+<parol book='19' chapter='84' verse='8' id='Ps84v8'>
+<intro>About those whose strength is in the Lord:</intro>
+<text>They go from strength to strength;
+each one appears before God in Zion.</text>
+<ref>Psalm 84:7</ref>
+</parol>
+<parol book='23' chapter='12' verse='2' id='Is12v2'>
+<text>Behold, God is my salvation;
+I will trust, and will not be afraid;
+for the Lord God is my strength and my song,
+and he has become my salvation.</text>
+<ref>Isaiah 12:2</ref>
+</parol>
+</theword>
+<theword date='2018-03-26'>
+<title>The Word for Monday, 26 March 2018</title>
+<parol book='23' chapter='42' verse='3' id='Is42v3'>
+<text>A bruised reed he will not break,
+and a faintly burning wick he will not quench;
+he will faithfully bring forth justice.</text>
+<ref>Isaiah 42:3 (ESV)</ref>
+</parol>
+<parol book='43' chapter='3' verse='18' id='J3v18'>
+<text>Whoever believes in the Son is not condemned,
+but whoever does not believe is condemned already.</text>
+<ref>John 3:18</ref>
+</parol>
+</theword>
+<theword date='2018-03-27'>
+<title>The Word for Tuesday, 27 March 2018</title>
+<parol book='24' chapter='20' verse='9' id='Jr20v9'>
+<text>If I say,
+“I will not mention him,
+or speak any more in his name,”
+there is in my heart
+as it were a burning fire shut up in my bones.</text>
+<ref>Jeremiah 20:9 (ESV)</ref>
+</parol>
+<parol book='19' chapter='32' verse='3' id='Ps32v3'>
+<intro>About the iniquity of man:</intro>
+<text>When I kept silent, my bones wasted away
+through my groaning all day long.</text>
+<ref>Psalm 32:3</ref>
+</parol>
+</theword>
+<theword date='2018-03-28'>
+<title>The Word for Wednesday, 28 March 2018</title>
+<parol book='19' chapter='147' verse='3' id='Ps147v3'>
+<text>He heals the brokenhearted
+and binds up their wounds.</text>
+<ref>Psalm 147:3</ref>
+</parol>
+<parol book='18' chapter='9' verse='4' id='Job9v4'>
+<text>God is wise in heart and mighty in strength
+— who has hardened himself against him, and succeeded?</text>
+<ref>Job 9:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-29'>
+<title>The Word for Thursday, 29 March 2018</title>
+<parol book='12' chapter='19' verse='30' id='2Rg19v30'>
+<intro>Isaiah sent to Hezekiah, saying:</intro>
+<text>The surviving remnant of the house of Judah
+shall again take root downward
+and bear fruit upward.</text>
+<ref>2 Kings 19:30 (ESV)</ref>
+</parol>
+<parol book='23' chapter='11' verse='1' id='Is11v1'>
+<text>There shall come forth a shoot from the stump of Jesse,
+and a branch from his roots shall bear fruit.</text>
+<ref>Isaiah 11:1 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-30'>
+<title>The Word for Friday, 30 March 2018</title>
+<parol book='44' chapter='5' verse='31' id='Act5v31'>
+<text>God exalted Jesus at his right hand as Leader and Savior,
+to give repentance to Israel and forgiveness of sins.</text>
+<ref>Acts 5:31</ref>
+</parol>
+<parol book='51' chapter='2' verse='14' id='Kol2v14'>
+<text>God cancelled the record of debt
+that stood against us with its legal demands.
+This he set aside, nailing it to the cross.</text>
+<ref>Colossians 2:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-03-31'>
+<title>The Word for Saturday, 31 March 2018</title>
+<parol book='24' chapter='2' verse='27' id='Jr2v27'>
+<text>They have turned their back to me, and not their face.
+But in the time of their trouble they say,
+Arise and save us!</text>
+<ref>Jeremiah 2:27 (ESV)</ref>
+</parol>
+<parol book='51' chapter='3' verse='25' id='Kol3v25'>
+<text>The wrongdoer will be paid back
+for the wrong he has done,
+and there is no partiality.</text>
+<ref>Colossians 3:25 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-01'>
+<title>The Word for Sunday, 1 April 2018</title>
+<parol book='19' chapter='18' verse='30' id='Ps18v30'>
+<text>By my God I can leap over a wall.</text>
+<ref>Psalm 18:29 (ESV)</ref>
+</parol>
+<parol book='44' chapter='3' verse='8' id='Act3v8'>
+<text>Leaping up the lame man stood and began to walk,
+and entered the temple with them,
+walking and leaping and praising God.</text>
+<ref>Acts 3:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-02'>
+<title>The Word for Monday, 2 April 2018</title>
+<parol book='19' chapter='116' verse='10' id='Ps116v10'>
+<text>I believed, even when I spoke,
+“I am greatly afflicted”.</text>
+<ref>Psalm 116:10</ref>
+</parol>
+<parol book='45' chapter='5' verse='3' id='R5v3-4'>
+<text>We rejoice in our sufferings,
+knowing that suffering produces endurance,
+and endurance produces character,
+and character produces hope.</text>
+<ref>Romans 5:3-4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-03'>
+<title>The Word for Tuesday, 3 April 2018</title>
+<parol book='58' chapter='13' verse='15' id='H13v15'>
+<text>Through Jesus let us continually offer up
+a sacrifice of praise to God,
+that is, the fruit of lips that acknowledge his name.</text>
+<ref>Hebrews 13:15 (ESV)</ref>
+</parol>
+<parol book='19' chapter='22' verse='23' id='Ps22v23'>
+<text>I will tell of your name to my brothers;
+in the midst of the congregation I will praise you.</text>
+<ref>Psalm 22:22 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-04'>
+<title>The Word for Wednesday, 4 April 2018</title>
+<parol book='47' chapter='1' verse='4' id='2K1v4'>
+<text>God comforts us in all our affliction,
+so that we may be able
+to comfort those who are in any affliction,
+with the comfort with which we ourselves are comforted by God.</text>
+<ref>2 Corinthians 1:4 (ESV)</ref>
+</parol>
+<parol book='14' chapter='20' verse='17' id='2Chr20v17'>
+<text>Stand firm, hold your position,
+and see the salvation of the Lord on your behalf.</text>
+<ref>2 Chronicles 20:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-05'>
+<title>The Word for Thursday, 5 April 2018</title>
+<parol book='39' chapter='3' verse='10' id='Ml3v10'>
+<text>Bring the full tithe into the storehouse,
+that there may be food in my house.
+And thereby put me to the test, says the Lord of hosts,
+if I will not open the windows of heaven for you
+and pour down for you a blessing until there is no more need.</text>
+<ref>Malachi 3:10</ref>
+</parol>
+<parol book='41' chapter='12' verse='44' id='Mc12v44'>
+<intro>Jesus said about a poor widow:</intro>
+<text>They all contributed out of their abundance,
+but she out of her poverty has put in
+everything she had, all she had to live on.</text>
+<ref>Mark 12:44</ref>
+</parol>
+</theword>
+<theword date='2018-04-06'>
+<title>The Word for Friday, 6 April 2018</title>
+<parol book='57' chapter='1' verse='4' id='Phm1v4'>
+<intro>Paulus writes to Philemon:</intro>
+<text>I thank my God always
+when I remember you in my prayers.</text>
+<ref>Philemon 1:4 (ESV)</ref>
+</parol>
+<parol book='49' chapter='1' verse='16' id='E1v16-17'>
+<intro>Paul writes:</intro>
+<text>I remember you in my prayers,
+that the God of our Lord Jesus Christ,
+the Father of glory, may give you a spirit of wisdom
+and of revelation in the knowledge of him.</text>
+<ref>Ephesians 1:16-17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-07'>
+<title>The Word for Saturday, 7 April 2018</title>
+<parol book='5' chapter='1' verse='31' id='Dt1v31'>
+<text>You have seen how the Lord your God carried you,
+as a man carries his son.</text>
+<ref>Deuteronomy 1:31 (ESV)</ref>
+</parol>
+<parol book='19' chapter='103' verse='13' id='Ps103v13'>
+<text>As a father shows compassion to his children,
+so the Lord shows compassion to those who fear him.</text>
+<ref>Psalm 103:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-08'>
+<title>The Word for Sunday, 8 April 2018</title>
+<parol book='19' chapter='95' verse='4' id='Ps95v4'>
+<text>In the Lord's hand are the depths of the earth;
+the heights of the mountains are his also.</text>
+<ref>Psalm 95:4 (ESV)</ref>
+</parol>
+<parol book='4' chapter='14' verse='17' id='Nu14v17'>
+<text>And now, please let the power of the Lord be great
+as you have promised.</text>
+<ref>Numbers 14:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-09'>
+<title>The Word for Monday, 9 April 2018</title>
+<parol book='51' chapter='2' verse='15' id='Kol2v15'>
+<text>God disarmed the rulers and authorities
+and put them to open shame,
+by triumphing over them in him.</text>
+<ref>Colossians 2:15</ref>
+</parol>
+<parol book='42' chapter='10' verse='18' id='L10v18'>
+<text>Jesus said to the seventy-two,
+I saw Satan fall like lightning from heaven.</text>
+<ref>Luke 10:18</ref>
+</parol>
+</theword>
+<theword date='2018-04-10'>
+<title>The Word for Tuesday, 10 April 2018</title>
+<parol book='46' chapter='3' verse='6' id='1K3v6'>
+<intro>Paul writes:</intro>
+<text>I planted, Apollos watered,
+but God gave the growth.</text>
+<ref>1 Corinthians 3:6</ref>
+</parol>
+<parol book='19' chapter='78' verse='4' id='Ps78v4'>
+<text>We will not hide them from their children,
+but tell to the coming generation
+the glorious deeds of the Lord, and his might,
+and the wonders that he has done.</text>
+<ref>Psalm 78:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-11'>
+<title>The Word for Wednesday, 11 April 2018</title>
+<parol book='40' chapter='5' verse='13' id='Mt5v13'>
+<text>You are the salt of the earth,
+but if salt has lost its taste,
+how shall its saltiness be restored?</text>
+<ref>Matthew 5:13 (ESV)</ref>
+</parol>
+<parol book='54' chapter='6' verse='12' id='1T6v12'>
+<text>Fight the good fight of the faith.</text>
+<ref>1 Timothy 6:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-12'>
+<title>The Word for Thursday, 12 April 2018</title>
+<parol book='24' chapter='8' verse='4' id='Jr8v4'>
+<text>When men fall, do they not rise again?
+If one turns away, does he not return?</text>
+<ref>Jeremiah 8:4 (ESV)</ref>
+</parol>
+<parol book='19' chapter='37' verse='23' id='Ps37v23-24'>
+<text>The steps of a man are established by the Lord,
+when he delights in his way;
+though he fall, he shall not be cast headlong,
+for the Lord upholds his hand.</text>
+<ref>Psalm 37:23-24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-13'>
+<title>The Word for Friday, 13 April 2018</title>
+<parol book='58' chapter='13' verse='16' id='H13v16'>
+<text>Do not neglect to do good and to share what you have,
+for such sacrifices are pleasing to God.</text>
+<ref>Hebrews 13:16 (ESV)</ref>
+</parol>
+<parol book='20' chapter='3' verse='27' id='Prv3v27'>
+<text>Do not withhold good from those to whom it is due,
+when it is in your power to do it.</text>
+<ref>Proverbs 3:27 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-14'>
+<title>The Word for Saturday, 14 April 2018</title>
+<parol book='19' chapter='44' verse='27' id='Ps44v27'>
+<text>Rise up; come to our help!
+Redeem us for the sake of your steadfast love!</text>
+<ref>Psalm 44:26 (ESV)</ref>
+</parol>
+<parol book='55' chapter='4' verse='18' id='2T4v18'>
+<text>The Lord will rescue me from every evil deed
+and bring me safely into his heavenly kingdom.
+To him be the glory forever and ever.</text>
+<ref>2 Timothy 4:18 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-15'>
+<title>The Word for Sunday, 15 April 2018</title>
+<parol book='43' chapter='20' verse='21' id='J20v21'>
+<text>Jesus said to the disciples,
+Peace be with you.
+As the Father has sent me,
+even so I am sending you.</text>
+<ref>John 20:21 (ESV)</ref>
+</parol>
+<parol book='41' chapter='6' verse='7' id='Mc6v7'>
+<text>Jesus called the twelve
+and began to send them out two by two,
+and gave them authority over the unclean spirits.</text>
+<ref>Mark 6:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-16'>
+<title>The Word for Monday, 16 April 2018</title>
+<parol book='19' chapter='27' verse='14' id='Ps27v14'>
+<text>Wait for the Lord;
+be strong, and let your heart take courage;
+wait for the Lord!</text>
+<ref>Psalm 27:14 (ESV)</ref>
+</parol>
+<parol book='58' chapter='3' verse='6' id='H3v6'>
+<text>Christ is faithful over God's house as a son.
+And we are his house if indeed we hold fast our confidence
+and our boasting in our hope.</text>
+<ref>Hebrews 3:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-17'>
+<title>The Word for Tuesday, 17 April 2018</title>
+<parol book='1' chapter='2' verse='3' id='Gn2v3'>
+<text>God blessed the seventh day and made it holy,
+because on it God rested from all his work
+that he had done in creation.</text>
+<ref>Genesis 2:3</ref>
+</parol>
+<parol book='26' chapter='20' verse='12' id='Ez20v12'>
+<text>I gave them my Sabbaths,
+as a sign between me and them,
+that they might know
+that I am the Lord who sanctifies them.</text>
+<ref>Ezekiel 20:12</ref>
+</parol>
+</theword>
+<theword date='2018-04-18'>
+<title>The Word for Wednesday, 18 April 2018</title>
+<parol book='3' chapter='22' verse='32' id='Lv22v32'>
+<text>You shall not profane my holy name.</text>
+<ref>Leviticus 22:32</ref>
+</parol>
+<parol book='9' chapter='2' verse='2' id='1Sm2v2'>
+<text>There is none holy like the Lord;
+there is none besides you;
+there is no rock like our God.</text>
+<ref>1 Samuel 2:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-19'>
+<title>The Word for Thursday, 19 April 2018</title>
+<parol book='40' chapter='5' verse='19' id='Mt5v19'>
+<text>Whoever relaxes one of the least of these commandments
+and teaches others to do the same
+will be called least in the kingdom of heaven,
+but whoever does them and teaches them
+will be called great in the kingdom of heaven.</text>
+<ref>Matthew 5:19</ref>
+</parol>
+<parol book='5' chapter='4' verse='2' id='Dt4v2'>
+<text>You shall not add to the word
+that I command you, nor take from it,
+that you may keep the commandments
+of the Lord your God that I command you.</text>
+<ref>Deuteronomy 4:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-20'>
+<title>The Word for Friday, 20 April 2018</title>
+<parol book='42' chapter='6' verse='37' id='L6v37'>
+<text>Judge not, and you will not be judged;
+condemn not, and you will not be condemned;
+forgive, and you will be forgiven.</text>
+<ref>Luke 6:37</ref>
+</parol>
+<parol book='43' chapter='15' verse='12' id='J15v12'>
+<intro>Christ says:</intro>
+<text>This is my commandment,
+that you love one another as I have loved you.</text>
+<ref>John 15:12</ref>
+</parol>
+</theword>
+<theword date='2018-04-21'>
+<title>The Word for Saturday, 21 April 2018</title>
+<parol book='10' chapter='12' verse='9' id='2Sm12v9'>
+<intro>Nathan spoke to David:</intro>
+<text>Why have you despised the word of the Lord,
+to do what is evil in his sight?</text>
+<ref>2 Samuel 12:9 (ESV)</ref>
+</parol>
+<parol book='45' chapter='2' verse='4' id='R2v4'>
+<text>Do you presume on the riches
+of his kindness and forbearance and patience,
+not knowing that God's kindness
+is meant to lead you to repentance?</text>
+<ref>Romans 2:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-22'>
+<title>The Word for Sunday, 22 April 2018</title>
+<parol book='44' chapter='4' verse='19' id='Act4v19'>
+<intro>Peter and John replied the council:</intro>
+<text>Whether it is right in the sight of God
+to listen to you rather than to God,
+you must judge.</text>
+<ref>Acts 4:19 (ESV)</ref>
+</parol>
+<parol book='24' chapter='32' verse='39' id='Jr32v39'>
+<text>I will give them one heart and one way,
+that they may fear me forever,
+for their own good and the good of their children after them.</text>
+<ref>Jeremiah 32:39 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-23'>
+<title>The Word for Monday, 23 April 2018</title>
+<parol book='41' chapter='9' verse='7' id='Mc9v7'>
+<text>A voice came out of the cloud,
+This is my beloved Son;
+listen to him.</text>
+<ref>Mark 9:7 (ESV)</ref>
+</parol>
+<parol book='58' chapter='1' verse='3' id='H1v3'>
+<text>The Son is the radiance of the glory of God
+and the exact imprint of his nature,
+and he upholds the universe by the word of his power.
+After making purification for sins,
+he sat down at the right hand of the Majesty on high.</text>
+<ref>Hebrews 1:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-24'>
+<title>The Word for Tuesday, 24 April 2018</title>
+<parol book='44' chapter='2' verse='41' id='Act2v41'>
+<text>Those who received the word of Peter were baptized,
+and there were added that day about three thousand souls.</text>
+<ref>Acts 2:41 (ESV)</ref>
+</parol>
+<parol book='23' chapter='55' verse='11' id='Is55v11'>
+<text>My word shall not return to me empty,
+but it shall accomplish that which I purpose,
+and shall succeed in the thing for which I sent it.</text>
+<ref>Isaiah 55:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-25'>
+<title>The Word for Wednesday, 25 April 2018</title>
+<parol book='46' chapter='3' verse='8' id='1K3v8'>
+<text>He who plants and he who waters are one,
+and each will receive his wages according to his labor.</text>
+<ref>1 Corinthians 3:8</ref>
+</parol>
+<parol book='66' chapter='22' verse='12' id='Ap22v12'>
+<text>Behold, I am coming soon,
+bringing my recompense with me,
+to repay everyone for what he has done.</text>
+<ref>Revelation 22:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-26'>
+<title>The Word for Thursday, 26 April 2018</title>
+<parol book='19' chapter='18' verse='36' id='Ps18v36'>
+<text>You have given me the shield of your salvation,
+and your right hand supported me,
+and your gentleness made me great.</text>
+<ref>Psalm 18:35 (ESV)</ref>
+</parol>
+<parol book='18' chapter='5' verse='11' id='Job5v11'>
+<text>God sets on high those who are lowly,
+and those who mourn are lifted to safety.</text>
+<ref>Job 5:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-27'>
+<title>The Word for Friday, 27 April 2018</title>
+<parol book='40' chapter='5' verse='14' id='Mt5v14'>
+<text>You are the light of the world.</text>
+<ref>Matthew 5:14 (ESV)</ref>
+</parol>
+<parol book='50' chapter='2' verse='14' id='Ph2v14-15'>
+<text>Do all things without grumbling or questioning,
+that you may be blameless and innocent,
+children of God without blemish
+in the midst of a crooked and twisted generation,
+among whom you shine as lights in the world.</text>
+<ref>Philippians 2:14-15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-28'>
+<title>The Word for Saturday, 28 April 2018</title>
+<parol book='42' chapter='9' verse='57' id='L9v57'>
+<text>As they were going along the road,
+someone said to Jesus,
+I will follow you wherever you go.</text>
+<ref>Luke 9:57 (ESV)</ref>
+</parol>
+<parol book='19' chapter='139' verse='23' id='Ps139v23-24'>
+<text>Search me, O God, and know my heart!
+Try me and know my thoughts!
+And see if there be any grievous way in me,
+and lead me in the way everlasting!</text>
+<ref>Psalm 139:23-24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-29'>
+<title>The Word for Sunday, 29 April 2018</title>
+<parol book='43' chapter='13' verse='14' id='J13v14'>
+<intro>Jesus said to the disciples:</intro>
+<text>If I then, your Lord and Teacher, have washed your feet,
+you also ought to wash one another's feet.</text>
+<ref>John 13:14 (ESV)</ref>
+</parol>
+<parol book='59' chapter='4' verse='17' id='Jc4v17'>
+<text>Whoever knows the right thing to do
+and fails to do it, for him it is sin.</text>
+<ref>James 4:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-04-30'>
+<title>The Word for Monday, 30 April 2018</title>
+<parol book='41' chapter='4' verse='20' id='Mc4v20'>
+<text>Those that were sown on the good soil
+are the ones who hear the word
+and accept it and bear fruit,
+thirtyfold and sixtyfold and a hundredfold.</text>
+<ref>Mark 4:20 (ESV)</ref>
+</parol>
+<parol book='43' chapter='15' verse='5' id='J15v5'>
+<intro>Jesus said:</intro>
+<text>I am the vine; you are the branches.
+Whoever abides in me and I in him,
+he it is that bears much fruit,
+for apart from me you can do nothing.</text>
+<ref>John 15:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-01'>
+<title>The Word for Tuesday, 1 May 2018</title>
+<parol book='14' chapter='14' verse='10' id='2Chr14v10'>
+<text>O Lord, there is none like you to help,
+between the mighty and the weak.
+Help us, O Lord our God, for we rely on you.</text>
+<ref>2 Chronicles 14:11</ref>
+</parol>
+<parol book='19' chapter='18' verse='2' id='Ps18v2'>
+<text>I love you, O Lord, my strength.</text>
+<ref>Psalm 18:1 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-02'>
+<title>The Word for Wednesday, 2 May 2018</title>
+<parol book='41' chapter='13' verse='37' id='Mc13v37'>
+<intro>Jesus said:</intro>
+<text>What I say to you I say to all:
+Stay awake.</text>
+<ref>Mark 13:37</ref>
+</parol>
+<parol book='66' chapter='3' verse='11' id='Ap3v11'>
+<text>I am coming soon.
+Hold fast what you have,
+so that no one may seize your crown.</text>
+<ref>Revelation 3:11</ref>
+</parol>
+</theword>
+<theword date='2018-05-03'>
+<title>The Word for Thursday, 3 May 2018</title>
+<parol book='43' chapter='13' verse='8' id='J13v8'>
+<text>Peter said to Jesus,
+You shall never wash my feet.
+Jesus answered him,
+If I do not wash you, you have no share with me.</text>
+<ref>John 13:8</ref>
+</parol>
+<parol book='46' chapter='1' verse='9' id='1K1v9'>
+<text>God is faithful, by whom you were called
+into the fellowship of his Son, Jesus Christ our Lord.</text>
+<ref>1 Corinthians 1:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-04'>
+<title>The Word for Friday, 4 May 2018</title>
+<parol book='7' chapter='6' verse='13' id='Jdc6v13'>
+<text>Gideon said to the angel of the Lord,
+Please, sir, if the Lord is with us,
+why then has all this happened to us?</text>
+<ref>Judges 6:13 (ESV)</ref>
+</parol>
+<parol book='45' chapter='8' verse='28' id='R8v28'>
+<text>We know that for those who love God
+all things work together for good,
+for those who are called according to his purpose.</text>
+<ref>Romans 8:28 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-05'>
+<title>The Word for Saturday, 5 May 2018</title>
+<parol book='19' chapter='57' verse='10' id='Ps57v10'>
+<text>I will give thanks to you, O Lord, among the peoples;
+I will sing praises to you among the nations.</text>
+<ref>Psalm 57:9 (ESV)</ref>
+</parol>
+<parol book='19' chapter='92' verse='2' id='Ps92v2-3'>
+<text>It is good to give thanks to the Lord,
+to sing praises to your name, O Most High;
+to declare your steadfast love in the morning,
+and your faithfulness by night.</text>
+<ref>Psalm 92:1-2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-06'>
+<title>The Word for Sunday, 6 May 2018</title>
+<parol book='19' chapter='127' verse='3' id='Ps127v3'>
+<text>Behold, children are a heritage from the Lord.</text>
+<ref>Psalm 127:3 (ESV)</ref>
+</parol>
+<parol book='40' chapter='18' verse='3' id='Mt18v3'>
+<intro>Jesus said:</intro>
+<text>Unless you turn and become like children,
+you will never enter the kingdom of heaven.</text>
+<ref>Matthew 18:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-07'>
+<title>The Word for Monday, 7 May 2018</title>
+<parol book='43' chapter='16' verse='7' id='J16v7'>
+<intro>Jesus said to the disciples:</intro>
+<text>It is to your advantage that I go away,
+for if I do not go away, the Helper will not come to you.
+But if I go, I will send him to you.</text>
+<ref>John 16:7 (ESV)</ref>
+</parol>
+<parol book='44' chapter='8' verse='17' id='Act8v17'>
+<text>The apostles laid their hands on them
+and they received the Holy Spirit.</text>
+<ref>Acts 8:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-08'>
+<title>The Word for Tuesday, 8 May 2018</title>
+<parol book='42' chapter='12' verse='7' id='L12v7'>
+<intro>Jesus said to his disciples:</intro>
+<text>Even the hairs of your head are all numbered.
+Fear not.</text>
+<ref>Luke 12:7 (ESV)</ref>
+</parol>
+<parol book='18' chapter='12' verse='10' id='Job12v10'>
+<text>In the hand of the Lord is the life of every living thing
+and the breath of all mankind.</text>
+<ref>Job 12:10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-09'>
+<title>The Word for Wednesday, 9 May 2018</title>
+<parol book='66' chapter='14' verse='13' id='Ap14v13'>
+<text>Blessed are the dead who die in the Lord from now on.
+“Blessed indeed,” says the Spirit,
+“that they may rest from their labors,
+for their deeds follow them!”</text>
+<ref>Revelation 14:13 (ESV)</ref>
+</parol>
+<parol book='43' chapter='10' verse='27' id='J10v27-28'>
+<intro>Christ says:</intro>
+<text>My sheep hear my voice,
+and I know them,
+and they follow me.
+I give them eternal life.</text>
+<ref>John 10:27-28 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-10'>
+<title>The Word for Thursday, 10 May 2018</title>
+<parol book='43' chapter='15' verse='9' id='J15v9'>
+<text>As the Father has loved me,
+so have I loved you.
+Abide in my love.</text>
+<ref>John 15:9 (ESV)</ref>
+</parol>
+<parol book='43' chapter='13' verse='35' id='J13v35'>
+<text>By this all people will know that you are my disciples,
+if you have love for one another.</text>
+<ref>John 13:35 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-11'>
+<title>The Word for Friday, 11 May 2018</title>
+<parol book='58' chapter='12' verse='8' id='H12v8'>
+<text>If you are left without discipline,
+in which all have participated,
+then you are illegitimate children and not sons.</text>
+<ref>Hebrews 12:8</ref>
+</parol>
+<parol book='19' chapter='118' verse='18' id='Ps118v18'>
+<text>The Lord has disciplined me severely,
+but he has not given me over to death.</text>
+<ref>Psalm 118:18 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-12'>
+<title>The Word for Saturday, 12 May 2018</title>
+<parol book='45' chapter='5' verse='19' id='R5v19'>
+<text>As by the one man's disobedience the many were made sinners,
+so by the one man's obedience the many will be made righteous.</text>
+<ref>Romans 5:19 (ESV)</ref>
+</parol>
+<parol book='23' chapter='53' verse='11' id='Is53v11_D'>
+<text>By his knowledge shall the righteous one, my servant,
+make many to be accounted righteous,
+and he shall bear their iniquities.</text>
+<ref>Isaiah 53:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-13'>
+<title>The Word for Sunday, 13 May 2018</title>
+<parol book='19' chapter='34' verse='3' id='Ps34v3'>
+<text>My soul makes its boast in the Lord;
+let the humble hear and be glad.</text>
+<ref>Psalm 34:2</ref>
+</parol>
+<parol book='42' chapter='24' verse='52' id='L24v52-53'>
+<text>The disciples worshiped Jesus
+and returned to Jerusalem with great joy,
+and were continually in the temple blessing God.</text>
+<ref>Luke 24:52-53 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-14'>
+<title>The Word for Monday, 14 May 2018</title>
+<parol book='5' chapter='8' verse='18' id='Dt8v18'>
+<text>You shall remember the Lord your God,
+for it is he who gives you power to get wealth.</text>
+<ref>Deuteronomy 8:18</ref>
+</parol>
+<parol book='54' chapter='6' verse='17' id='1T6v17'>
+<text>As for the rich in this present age,
+charge them not to be haughty,
+nor to set their hopes on the uncertainty of riches,
+but on God, who richly provides us with everything to enjoy.</text>
+<ref>1 Timothy 6:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-15'>
+<title>The Word for Tuesday, 15 May 2018</title>
+<parol book='20' chapter='3' verse='26' id='Prv3v26'>
+<text>The Lord will be your confidence
+and will keep your foot from being caught.</text>
+<ref>Proverbs 3:26 (ESV)</ref>
+</parol>
+<parol book='19' chapter='119' verse='105' id='Ps119v105'>
+<text>Your word is a lamp to my feet
+and a light to my path.</text>
+<ref>Psalm 119:105 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-16'>
+<title>The Word for Wednesday, 16 May 2018</title>
+<parol book='1' chapter='1' verse='31' id='Gn1v31'>
+<text>God saw everything that he had made,
+and behold, it was very good.</text>
+<ref>Genesis 1:31 (ESV)</ref>
+</parol>
+<parol book='66' chapter='21' verse='5' id='Ap21v5'>
+<text>He who was seated on the throne said,
+Behold, I am making all things new.</text>
+<ref>Revelation 21:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-17'>
+<title>The Word for Thursday, 17 May 2018</title>
+<parol book='19' chapter='129' verse='2' id='Ps129v2'>
+<text>Greatly have they afflicted me from my youth,
+yet they have not prevailed against me.</text>
+<ref>Psalm 129:2 (ESV)</ref>
+</parol>
+<parol book='47' chapter='4' verse='8' id='2K4v8'>
+<text>We are afflicted in every way, but not crushed;
+perplexed, but not driven to despair.</text>
+<ref>2 Corinthians 4:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-18'>
+<title>The Word for Friday, 18 May 2018</title>
+<parol book='42' chapter='2' verse='25' id='L2v25'>
+<text>There was a man in Jerusalem, whose name was Simeon,
+and this man was righteous and devout,
+waiting for the consolation of Israel,
+and the Holy Spirit was upon him.</text>
+<ref>Luke 2:25 (ESV)</ref>
+</parol>
+<parol book='19' chapter='119' verse='76' id='Ps119v76'>
+<text>Let your steadfast love comfort me
+according to your promise to your servant.</text>
+<ref>Psalm 119:76 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-19'>
+<title>The Word for Saturday, 19 May 2018</title>
+<parol book='30' chapter='7' verse='14' id='Am7v14-15'>
+<intro>Amos said:</intro>
+<text>I was a herdsman and a dresser of sycamore figs.
+But the Lord took me from following the flock,
+and the Lord said to me,
+Go, prophesy to my people Israel.</text>
+<ref>Amos 7:14-15</ref>
+</parol>
+<parol book='23' chapter='44' verse='26' id='Is44v26'>
+<text>The Lord confirms the word of his servant
+and fulfills the counsel of his messengers.</text>
+<ref>Isaiah 44:26 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-20'>
+<title>The Word for Sunday, 20 May 2018</title>
+<parol book='43' chapter='19' verse='11' id='J19v11'>
+<text>Jesus answered Pilate,
+You would have no authority over me at all
+unless it had been given you from above.
+Therefore he who delivered me over to you has the greater sin.</text>
+<ref>John 19:11 (ESV)</ref>
+</parol>
+<parol book='44' chapter='2' verse='36' id='Act2v36'>
+<text>Let all the house of Israel therefore know for certain
+that God has made him both Lord and Christ,
+this Jesus whom you crucified.</text>
+<ref>Acts 2:36 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-21'>
+<title>The Word for Monday, 21 May 2018</title>
+<parol book='28' chapter='12' verse='7' id='Hos12v7'>
+<text>So you, by the help of your God, return,
+hold fast to love and justice,
+and wait continually for your God.</text>
+<ref>Hosea 12:6 (ESV)</ref>
+</parol>
+<parol book='51' chapter='3' verse='17' id='Kol3v17'>
+<text>Whatever you do, in word or deed,
+do everything in the name of the Lord Jesus,
+giving thanks to God the Father through him.</text>
+<ref>Colossians 3:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-22'>
+<title>The Word for Tuesday, 22 May 2018</title>
+<parol book='43' chapter='3' verse='34' id='J3v34'>
+<text>He whom God has sent utters the words of God,
+for he gives the Spirit without measure.</text>
+<ref>John 3:34 (ESV)</ref>
+</parol>
+<parol book='23' chapter='50' verse='4' id='Is50v4_G'>
+<text>The Lord God has given me
+the tongue of those who are taught,
+that I may know how to sustain with a word
+him who is weary.</text>
+<ref>Isaiah 50:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-23'>
+<title>The Word for Wednesday, 23 May 2018</title>
+<parol book='8' chapter='2' verse='4' id='Rth2v4'>
+<text>Boaz said to the reapers, The Lord be with you!
+And they answered, The Lord bless you.</text>
+<ref>Ruth 2:4</ref>
+</parol>
+<parol book='24' chapter='5' verse='24' id='Jr5v24'>
+<text>Let us fear the Lord our God,
+who gives the rain in its season,
+the autumn rain and the spring rain,
+and keeps for us the weeks appointed for the harvest.</text>
+<ref>Jeremiah 5:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-24'>
+<title>The Word for Thursday, 24 May 2018</title>
+<parol book='40' chapter='5' verse='11' id='Mt5v11-12'>
+<text>Blessed are you
+when others revile you and persecute you
+and utter all kinds of evil against you falsely on my account.
+Rejoice and be glad,
+for your reward is great in heaven.</text>
+<ref>Matthew 5:11-12 (ESV)</ref>
+</parol>
+<parol book='44' chapter='7' verse='55' id='Act7v55-56'>
+<text>Stephen, full of the Holy Spirit,
+gazed into heaven and saw the glory of God,
+and Jesus standing at the right hand of God.
+And he said, Behold, I see the heavens opened,
+and the Son of Man standing at the right hand of God.</text>
+<ref>Acts 7:55-56 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-25'>
+<title>The Word for Friday, 25 May 2018</title>
+<parol book='20' chapter='31' verse='8' id='Prv31v8'>
+<text>Open your mouth for the mute,
+for the rights of all who are destitute.</text>
+<ref>Proverbs 31:8 (ESV)</ref>
+</parol>
+<parol book='42' chapter='18' verse='7' id='L18v7-8'>
+<text>Will not God give justice to his elect,
+who cry to him day and night?
+Will he delay long over them?
+I tell you, he will give justice to them speedily.</text>
+<ref>Luke 18:7-8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-26'>
+<title>The Word for Saturday, 26 May 2018</title>
+<parol book='20' chapter='21' verse='2' id='Prv21v2'>
+<text>Every way of a man is right in his own eyes,
+but the Lord weighs the heart.</text>
+<ref>Proverbs 21:2</ref>
+</parol>
+<parol book='41' chapter='8' verse='36' id='Mc8v36'>
+<text>What does it profit a man
+to gain the whole world
+and forfeit his soul?</text>
+<ref>Mark 8:36 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-27'>
+<title>The Word for Sunday, 27 May 2018</title>
+<parol book='1' chapter='24' verse='56' id='Gn24v56'>
+<text>Do not delay me,
+since the Lord has prospered my way.</text>
+<ref>Genesis 24:56</ref>
+</parol>
+<parol book='50' chapter='1' verse='23' id='Ph1v23-24'>
+<text>My desire is to depart and be with Christ,
+for that is far better.
+But to remain in the flesh
+is more necessary on your account.</text>
+<ref>Philippians 1:23-24</ref>
+</parol>
+</theword>
+<theword date='2018-05-28'>
+<title>The Word for Monday, 28 May 2018</title>
+<parol book='51' chapter='1' verse='16' id='Kol1v16-17'>
+<text>All things were created through him and for him.
+And he is before all things, and in him all things hold together.</text>
+<ref>Colossians 1:16-17 (ESV)</ref>
+</parol>
+<parol book='42' chapter='8' verse='25' id='L8v25'>
+<text>The disciples were afraid,
+and they marveled, saying to one another,
+Who then is this, that he commands even winds and water,
+and they obey him?</text>
+<ref>Luke 8:25 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-29'>
+<title>The Word for Tuesday, 29 May 2018</title>
+<parol book='19' chapter='111' verse='9' id='Ps111v9'>
+<text>He sent redemption to his people;
+he has commanded his covenant forever.
+Holy and awesome is his name!</text>
+<ref>Psalm 111:9 (ESV)</ref>
+</parol>
+<parol book='41' chapter='1' verse='39' id='Mc1v39'>
+<text>Jesus went throughout all Galilee,
+preaching in their synagogues and casting out demons.</text>
+<ref>Mark 1:39</ref>
+</parol>
+</theword>
+<theword date='2018-05-30'>
+<title>The Word for Wednesday, 30 May 2018</title>
+<parol book='1' chapter='26' verse='3' id='Gn26v3'>
+<text>Sojourn in this land,
+and I will be with you and will bless you.</text>
+<ref>Genesis 26:3 (ESV)</ref>
+</parol>
+<parol book='58' chapter='13' verse='14' id='H13v14'>
+<text>Here we have no lasting city,
+but we seek the city that is to come.</text>
+<ref>Hebrews 13:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-05-31'>
+<title>The Word for Thursday, 31 May 2018</title>
+<parol book='23' chapter='29' verse='13' id='Is29v13_M'>
+<text>Their fear of me is a commandment taught by men.</text>
+<ref>Isaiah 29:13</ref>
+</parol>
+<parol book='21' chapter='12' verse='13' id='Eccl12v13'>
+<text>The end of the matter; all has been heard.
+Fear God and keep his commandments,
+for this is the whole duty of man.</text>
+<ref>Ecclesiastes 12:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-01'>
+<title>The Word for Friday, 1 June 2018</title>
+<parol book='19' chapter='102' verse='20' id='Ps102v20-21'>
+<text>He looked down from his holy height;
+from heaven the Lord looked at the earth,
+to hear the groans of the prisoners,
+to set free those who were doomed to die.</text>
+<ref>Psalm 102:19-20 (ESV)</ref>
+</parol>
+<parol book='40' chapter='5' verse='3' id='Mt5v3'>
+<text>Blessed are the poor in spirit,
+for theirs is the kingdom of heaven.</text>
+<ref>Matthew 5:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-02'>
+<title>The Word for Saturday, 2 June 2018</title>
+<parol book='39' chapter='3' verse='23' id='Ml3v23'>
+<text>Behold, I will send you Elijah the prophet
+before the great and awesome day of the Lord comes.</text>
+<ref>Malachi 4:5</ref>
+</parol>
+<parol book='40' chapter='11' verse='14' id='Mt11v14'>
+<intro>Jesus said to the crowds concerning John:</intro>
+<text>If you are willing to accept it,
+he is Elijah who is to come.</text>
+<ref>Matthew 11:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-03'>
+<title>The Word for Sunday, 3 June 2018</title>
+<parol book='30' chapter='8' verse='7' id='Am8v7'>
+<intro>Amos about injustice in Israel:</intro>
+<text>The Lord has sworn by the pride of Jacob:
+Surely I will never forget any of their deeds.</text>
+<ref>Amos 8:7</ref>
+</parol>
+<parol book='19' chapter='41' verse='5' id='Ps41v5'>
+<text>O Lord, be gracious to me;
+heal me, for I have sinned against you!</text>
+<ref>Psalm 41:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-04'>
+<title>The Word for Monday, 4 June 2018</title>
+<parol book='45' chapter='1' verse='25' id='R1v25'>
+<text>They exchanged the truth about God for a lie
+and worshiped and served the creature
+rather than the Creator, who is blessed forever!</text>
+<ref>Romans 1:25 (ESV)</ref>
+</parol>
+<parol book='49' chapter='5' verse='8' id='E5v8-9'>
+<text>At one time you were darkness,
+but now you are light in the Lord.
+Walk as children of light
+(for the fruit of light is found
+in all that is good and right and true).</text>
+<ref>Ephesians 5:8-9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-05'>
+<title>The Word for Tuesday, 5 June 2018</title>
+<parol book='19' chapter='108' verse='5' id='Ps108v5'>
+<text>Your steadfast love is great above the heavens;
+your faithfulness reaches to the clouds.</text>
+<ref>Psalm 108:4</ref>
+</parol>
+<parol book='44' chapter='1' verse='8' id='Act1v8'>
+<intro>Jesus said to the apostles:</intro>
+<text>You will receive power
+when the Holy Spirit has come upon you,
+and you will be my witnesses in Jerusalem
+and in all Judea and Samaria,
+and to the end of the earth.</text>
+<ref>Acts 1:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-06'>
+<title>The Word for Wednesday, 6 June 2018</title>
+<parol book='42' chapter='6' verse='45' id='L6v45'>
+<text>Out of the abundance of the heart the person's mouth speaks.</text>
+<ref>Luke 6:45 (ESV)</ref>
+</parol>
+<parol book='19' chapter='119' verse='172' id='Ps119v172'>
+<text>My tongue will sing of your word,
+for all your commandments are right.</text>
+<ref>Psalm 119:172 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-07'>
+<title>The Word for Thursday, 7 June 2018</title>
+<parol book='19' chapter='57' verse='3' id='Ps57v3'>
+<text>I cry out to God Most High,
+to God who fulfills his purpose for me.</text>
+<ref>Psalm 57:2 (ESV)</ref>
+</parol>
+<parol book='58' chapter='13' verse='6' id='H13v6'>
+<text>So we can confidently say,
+The Lord is my helper;
+I will not fear;
+what can man do to me?</text>
+<ref>Hebrews 13:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-08'>
+<title>The Word for Friday, 8 June 2018</title>
+<parol book='24' chapter='2' verse='21' id='Jr2v21'>
+<text>I planted you a choice vine,
+wholly of pure seed.
+How then have you turned degenerate
+and become a wild vine?</text>
+<ref>Jeremiah 2:21 (ESV)</ref>
+</parol>
+<parol book='43' chapter='15' verse='4' id='J15v4'>
+<intro>Jesus said:</intro>
+<text>Abide in me, and I in you.
+As the branch cannot bear fruit by itself,
+unless it abides in the vine,
+neither can you,
+unless you abide in me.</text>
+<ref>John 15:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-09'>
+<title>The Word for Saturday, 9 June 2018</title>
+<parol book='42' chapter='5' verse='27' id='L5v27-28'>
+<text>Jesus saw a tax collector named Levi,
+sitting at the tax booth.
+And he said to him, “Follow me.”
+And leaving everything, he rose and followed him.</text>
+<ref>Luke 5:27-28 (ESV)</ref>
+</parol>
+<parol book='42' chapter='9' verse='62' id='L9v62'>
+<text>Jesus said to the man,
+No one who puts his hand to the plow and looks back
+is fit for the kingdom of God.</text>
+<ref>Luke 9:62 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-10'>
+<title>The Word for Sunday, 10 June 2018</title>
+<parol book='11' chapter='18' verse='27' id='1Rg18v27'>
+<intro>Elijah mocked the prophets of Baal:</intro>
+<text>Cry aloud, for he is a god. Either he is musing,
+or he is relieving himself, or he is on a journey,
+or perhaps he is asleep and must be awakened.</text>
+<ref>1 Kings 18:27</ref>
+</parol>
+<parol book='66' chapter='1' verse='17' id='Ap1v17-18'>
+<text>Fear not,
+I am the first and the last, and the living one.
+I died, and behold I am alive forevermore,
+and I have the keys of Death and Hades.</text>
+<ref>Revelation 1:17-18 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-11'>
+<title>The Word for Monday, 11 June 2018</title>
+<parol book='58' chapter='12' verse='7' id='H12v7'>
+<text>What son is there whom his father does not discipline?</text>
+<ref>Hebrews 12:7</ref>
+</parol>
+<parol book='49' chapter='6' verse='4' id='E6v4'>
+<text>Fathers, do not provoke your children to anger,
+but bring them up in the discipline
+and instruction of the Lord.</text>
+<ref>Ephesians 6:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-12'>
+<title>The Word for Tuesday, 12 June 2018</title>
+<parol book='19' chapter='88' verse='9' id='Ps88v9'>
+<text>You have caused my companions to shun me;
+you have made me a horror to them.
+I am shut in so that I cannot escape.</text>
+<ref>Psalm 88:8 (ESV)</ref>
+</parol>
+<parol book='19' chapter='91' verse='15' id='Ps91v15'>
+<intro>The Lord says:</intro>
+<text>When he calls to me, I will answer him;
+I will be with him in trouble;
+I will rescue him and honor him.</text>
+<ref>Psalm 91:15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-13'>
+<title>The Word for Wednesday, 13 June 2018</title>
+<parol book='44' chapter='3' verse='19' id='Act3v19'>
+<text>Repent therefore, and turn again,
+that your sins may be blotted out.</text>
+<ref>Acts 3:19 (ESV)</ref>
+</parol>
+<parol book='23' chapter='30' verse='15' id='Is30v15'>
+<text>In returning and rest you shall be saved;
+in quietness and in trust shall be your strength.</text>
+<ref>Isaiah 30:15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-14'>
+<title>The Word for Thursday, 14 June 2018</title>
+<parol book='46' chapter='13' verse='5' id='1K13v5'>
+<text>Love is not rude.
+It does not insist on its own way.</text>
+<ref>1 Corinthians 13:5 (ESV)</ref>
+</parol>
+<parol book='48' chapter='5' verse='14' id='G5v14'>
+<text>The whole law is fulfilled in one word:
+You shall love your neighbor as yourself.</text>
+<ref>Galatians 5:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-15'>
+<title>The Word for Friday, 15 June 2018</title>
+<parol book='17' chapter='8' verse='17' id='Esth8v17'>
+<text>In every province and in every city,
+wherever the king's command and his edict reached,
+there was gladness and joy among the Jews,
+a feast and a holiday.
+And many from the peoples of the country
+declared themselves Jews,
+for fear of the Jews had fallen on them.</text>
+<ref>Esther 8:17</ref>
+</parol>
+<parol book='44' chapter='2' verse='46' id='Act2v46-47'>
+<text>Day by day, attending the temple together
+and breaking bread in their homes,
+they received their food with glad and generous hearts,
+praising God and having favor with all the people.</text>
+<ref>Acts 2:46-47 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-16'>
+<title>The Word for Saturday, 16 June 2018</title>
+<parol book='39' chapter='1' verse='2' id='Ml1v2'>
+<text>I have loved you, says the Lord.</text>
+<ref>Malachi 1:2</ref>
+</parol>
+<parol book='62' chapter='4' verse='19' id='1J4v19'>
+<text>We love because he first loved us.</text>
+<ref>1 John 4:19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-17'>
+<title>The Word for Sunday, 17 June 2018</title>
+<parol book='19' chapter='31' verse='16' id='Ps31v16'>
+<text>My times are in your hand.</text>
+<ref>Psalm 31:15 (ESV)</ref>
+</parol>
+<parol book='19' chapter='54' verse='6' id='Ps54v6'>
+<text>Behold, God is my helper;
+the Lord is the upholder of my life.</text>
+<ref>Psalm 54:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-18'>
+<title>The Word for Monday, 18 June 2018</title>
+<parol book='58' chapter='4' verse='10' id='H4v10'>
+<text>Whoever has entered God's rest
+has also rested from his works
+as God did from his.</text>
+<ref>Hebrews 4:10 (ESV)</ref>
+</parol>
+<parol book='61' chapter='3' verse='13' id='2P3v13'>
+<text>According to his promise we are waiting
+for new heavens and a new earth
+in which righteousness dwells.</text>
+<ref>2 Peter 3:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-19'>
+<title>The Word for Tuesday, 19 June 2018</title>
+<parol book='43' chapter='15' verse='20' id='J15v20'>
+<intro>Jesus said to the disciples:</intro>
+<text>Remember the word that I said to you:
+A servant is not greater than his master.</text>
+<ref>John 15:20 (ESV)</ref>
+</parol>
+<parol book='20' chapter='16' verse='18' id='Prv16v18'>
+<text>Pride goes before destruction,
+and a haughty spirit before a fall.</text>
+<ref>Proverbs 16:18 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-20'>
+<title>The Word for Wednesday, 20 June 2018</title>
+<parol book='9' chapter='30' verse='6' id='1Sm30v6'>
+<text>David strengthened himself in the Lord his God.</text>
+<ref>1 Samuel 30:6 (ESV)</ref>
+</parol>
+<parol book='19' chapter='31' verse='25' id='Ps31v25'>
+<text>Be strong, and let your heart take courage,
+all you who wait for the Lord!</text>
+<ref>Psalm 31:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-21'>
+<title>The Word for Thursday, 21 June 2018</title>
+<parol book='19' chapter='145' verse='13' id='Ps145v13'>
+<text>Your kingdom is an everlasting kingdom,
+and your dominion endures throughout all generations.</text>
+<ref>Psalm 145:13 (ESV)</ref>
+</parol>
+<parol book='66' chapter='12' verse='10' id='Ap12v10'>
+<intro>John writes:</intro>
+<text>I heard a loud voice in heaven, saying,
+Now the salvation and the power
+and the kingdom of our God
+and the authority of his Christ have come.</text>
+<ref>Revelation 12:10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-22'>
+<title>The Word for Friday, 22 June 2018</title>
+<parol book='19' chapter='22' verse='3' id='Ps22v3'>
+<text>O my God, I cry by day, but you do not answer,
+and by night, but I find no rest.</text>
+<ref>Psalm 22:2 (ESV)</ref>
+</parol>
+<parol book='23' chapter='65' verse='24' id='Is65v24'>
+<text>Before they call I will answer;
+while they are yet speaking I will hear.</text>
+<ref>Isaiah 65:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-23'>
+<title>The Word for Saturday, 23 June 2018</title>
+<parol book='45' chapter='12' verse='8' id='R12v8'>
+<intro>Paul appeals to use the gifts:</intro>
+<text>The one who exhorts, in his exhortation;
+the one who contributes, in generosity;
+the one who leads, with zeal;
+the one who does acts of mercy, with cheerfulness.</text>
+<ref>Romans 12:8 (ESV)</ref>
+</parol>
+<parol book='51' chapter='3' verse='23' id='Kol3v23'>
+<text>Whatever you do, work heartily,
+as for the Lord and not for men.</text>
+<ref>Colossians 3:23 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-24'>
+<title>The Word for Sunday, 24 June 2018</title>
+<parol book='1' chapter='17' verse='9' id='Gn17v9'>
+<text>God said to Abraham,
+As for you, you shall keep my covenant,
+you and your offspring after you
+throughout their generations.</text>
+<ref>Genesis 17:9 (ESV)</ref>
+</parol>
+<parol book='45' chapter='3' verse='23' id='R3v23-24'>
+<text>There is no distinction:
+for all have sinned and fall short of the glory of God,
+and are justified by his grace as a gift,
+through the redemption that is in Christ Jesus.</text>
+<ref>Romans 3:22-24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-25'>
+<title>The Word for Monday, 25 June 2018</title>
+<parol book='19' chapter='87' verse='7' id='Ps87v7'>
+<text>All my springs are in you.</text>
+<ref>Psalm 87:7 (ESV)</ref>
+</parol>
+<parol book='66' chapter='21' verse='6' id='Ap21v6'>
+<text>I am the Alpha and the Omega, the beginning and the end.
+To the thirsty I will give from the spring of the water of life
+without payment.</text>
+<ref>Revelation 21:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-26'>
+<title>The Word for Tuesday, 26 June 2018</title>
+<parol book='24' chapter='16' verse='19' id='Jr16v19_Z'>
+<text>To you shall the nations come
+from the ends of the earth and say:
+Our fathers have inherited nothing but lies,
+worthless things in which there is no profit.</text>
+<ref>Jeremiah 16:19 (ESV)</ref>
+</parol>
+<parol book='42' chapter='2' verse='30' id='L2v30-32'>
+<intro>Simeon praised God:</intro>
+<text>My eyes have seen your salvation
+that you have prepared in the presence of all peoples,
+a light for revelation to the Gentiles,
+and for glory to your people Israel.</text>
+<ref>Luke 2:30-32 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-27'>
+<title>The Word for Wednesday, 27 June 2018</title>
+<parol book='19' chapter='90' verse='1' id='Ps90v1-2'>
+<text>Lord, you have been our dwelling place in all generations.
+Before the mountains were brought forth,
+or ever you had formed the earth and the world,
+from everlasting to everlasting you are God.</text>
+<ref>Psalm 90:1-2 (ESV)</ref>
+</parol>
+<parol book='66' chapter='1' verse='8' id='Ap1v8'>
+<text>“I am the Alpha and the Omega,” says the Lord God,
+“who is and who was and who is to come, the Almighty.”</text>
+<ref>Revelation 1:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-28'>
+<title>The Word for Thursday, 28 June 2018</title>
+<parol book='58' chapter='12' verse='28' id='H12v28'>
+<text>Let us be grateful
+for receiving a kingdom that cannot be shaken,
+and thus let us offer to God acceptable worship,
+with reverence and awe.</text>
+<ref>Hebrews 12:28 (ESV)</ref>
+</parol>
+<parol book='46' chapter='3' verse='11' id='1K3v11'>
+<text>No one can lay a foundation
+other than that which is laid,
+which is Jesus Christ.</text>
+<ref>1 Corinthians 3:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-29'>
+<title>The Word for Friday, 29 June 2018</title>
+<parol book='41' chapter='10' verse='47' id='Mc10v47'>
+<text>Bartimaeus, a blind beggar, began to cry out and say,
+Jesus, Son of David, have mercy on me!</text>
+<ref>Mark 10:47 (ESV)</ref>
+</parol>
+<parol book='19' chapter='86' verse='5' id='Ps86v5'>
+<text>You, O Lord, are good and forgiving,
+abounding in steadfast love to all who call upon you.</text>
+<ref>Psalm 86:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-06-30'>
+<title>The Word for Saturday, 30 June 2018</title>
+<parol book='19' chapter='127' verse='2' id='Ps127v2'>
+<text>It is in vain that you rise up early
+and go late to rest,
+eating the bread of anxious toil;
+for he gives to his beloved sleep.</text>
+<ref>Psalm 127:2 (ESV)</ref>
+</parol>
+<parol book='40' chapter='6' verse='26' id='Mt6v26'>
+<text>Look at the birds of the air:
+they neither sow nor reap nor gather into barns,
+and yet your heavenly Father feeds them.
+Are you not of more value than they?</text>
+<ref>Matthew 6:26 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-01'>
+<title>The Word for Sunday, 1 July 2018</title>
+<parol book='50' chapter='2' verse='4' id='Ph2v4'>
+<text>Let each of you look not only to his own interests,
+but also to the interests of others.</text>
+<ref>Philippians 2:4 (ESV)</ref>
+</parol>
+<parol book='48' chapter='6' verse='2' id='G6v2'>
+<text>Bear one another's burdens,
+and so fulfill the law of Christ.</text>
+<ref>Galatians 6:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-02'>
+<title>The Word for Monday, 2 July 2018</title>
+<parol book='19' chapter='104' verse='33' id='Ps104v33'>
+<text>I will sing to the Lord as long as I live;
+I will sing praise to my God while I have being.</text>
+<ref>Psalm 104:33 (ESV)</ref>
+</parol>
+<parol book='51' chapter='3' verse='16' id='Kol3v16'>
+<text>Let the word of Christ dwell in you richly,
+teaching and admonishing one another in all wisdom,
+singing psalms and hymns and spiritual songs,
+with thankfulness in your hearts to God.</text>
+<ref>Colossians 3:16 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-03'>
+<title>The Word for Tuesday, 3 July 2018</title>
+<parol book='45' chapter='6' verse='16' id='R6v16'>
+<text>Do you not know that
+if you present yourselves to anyone as obedient slaves,
+you are slaves of the one whom you obey,
+either of sin, which leads to death,
+or of obedience, which leads to righteousness?</text>
+<ref>Romans 6:16 (ESV)</ref>
+</parol>
+<parol book='58' chapter='5' verse='8' id='H5v8'>
+<text>Although Jesus was a son,
+he learned obedience through what he suffered.</text>
+<ref>Hebrews 5:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-04'>
+<title>The Word for Wednesday, 4 July 2018</title>
+<parol book='46' chapter='13' verse='13' id='1K13v13'>
+<text>Now faith, hope, and love abide, these three;
+but the greatest of these is love.</text>
+<ref>1 Corinthians 13:13</ref>
+</parol>
+<parol book='62' chapter='2' verse='5' id='1J2v5'>
+<text>Whoever keeps his word,
+in him truly the love of God is perfected.
+By this we may know that we are in him.</text>
+<ref>1 John 2:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-05'>
+<title>The Word for Thursday, 5 July 2018</title>
+<parol book='43' chapter='5' verse='15' id='J5v15'>
+<text>The man went away and told the Jews
+that it was Jesus who had healed him.</text>
+<ref>John 5:15 (ESV)</ref>
+</parol>
+<parol book='40' chapter='28' verse='18' id='Mt28v18-20'>
+<intro>Jesus said:</intro>
+<text>All authority in heaven and on earth has been given to me.
+Go therefore and make disciples of all nations,
+baptizing them in the name of the Father
+and of the Son and of the Holy Spirit,
+teaching them to observe all that I have commanded you.</text>
+<ref>Matthew 28:18-20 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-06'>
+<title>The Word for Friday, 6 July 2018</title>
+<parol book='19' chapter='63' verse='9' id='Ps63v9'>
+<text>My soul clings to you;
+your right hand upholds me.</text>
+<ref>Psalm 63:8 (ESV)</ref>
+</parol>
+<parol book='19' chapter='23' verse='4' id='Ps23v4'>
+<text>Even though I walk through the valley of the shadow of death,
+I will fear no evil, for you are with me;
+your rod and your staff, they comfort me.</text>
+<ref>Psalm 23:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-07'>
+<title>The Word for Saturday, 7 July 2018</title>
+<parol book='1' chapter='2' verse='15' id='Gn2v15'>
+<text>The Lord God took the man
+and put him in the garden of Eden
+to work it and keep it.</text>
+<ref>Genesis 2:15 (ESV)</ref>
+</parol>
+<parol book='45' chapter='8' verse='20' id='R8v20-21'>
+<text>The creation was subjected to futility, not willingly,
+but because of him who subjected it,
+in hope that the creation itself
+will be set free from its bondage to corruption
+and obtain the freedom of the glory of the children of God.</text>
+<ref>Romans 8:20-21</ref>
+</parol>
+</theword>
+<theword date='2018-07-08'>
+<title>The Word for Sunday, 8 July 2018</title>
+<parol book='24' chapter='42' verse='12' id='Jr42v12'>
+<intro>The Lord said about the king of Babylon:</intro>
+<text>I will grant you mercy,
+that he may have mercy on you
+and let you remain in your own land.</text>
+<ref>Jeremiah 42:12</ref>
+</parol>
+<parol book='23' chapter='49' verse='10' id='Is49v10'>
+<text>They shall not hunger or thirst,
+neither scorching wind nor sun shall strike them,
+for he who has pity on them will lead them,
+and by springs of water will guide them.</text>
+<ref>Isaiah 49:10</ref>
+</parol>
+</theword>
+<theword date='2018-07-09'>
+<title>The Word for Monday, 9 July 2018</title>
+<parol book='60' chapter='4' verse='1' id='1P4v1'>
+<text>Since Christ suffered in the flesh,
+arm yourselves with the same way of thinking,
+for whoever has suffered in the flesh has ceased from sin.</text>
+<ref>1 Peter 4:1</ref>
+</parol>
+<parol book='44' chapter='3' verse='18' id='Act3v18'>
+<text>What God foretold by the mouth of all the prophets,
+that his Christ would suffer, he thus fulfilled.</text>
+<ref>Acts 3:18 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-10'>
+<title>The Word for Tuesday, 10 July 2018</title>
+<parol book='16' chapter='9' verse='20' id='Neh9v20'>
+<text>You gave your good Spirit to instruct them.</text>
+<ref>Nehemiah 9:20 (ESV)</ref>
+</parol>
+<parol book='43' chapter='14' verse='26' id='J14v26'>
+<text>The Helper, the Holy Spirit,
+whom the Father will send in my name,
+he will teach you all things
+and bring to your remembrance
+all that I have said to you.</text>
+<ref>John 14:26 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-11'>
+<title>The Word for Wednesday, 11 July 2018</title>
+<parol book='46' chapter='1' verse='18' id='1K1v18'>
+<text>The word of the cross is folly to those who are perishing,
+but to us who are being saved it is the power of God.</text>
+<ref>1 Corinthians 1:18 (ESV)</ref>
+</parol>
+<parol book='45' chapter='1' verse='16' id='R1v16'>
+<text>I am not ashamed of the gospel,
+for it is the power of God for salvation
+to everyone who believes,
+to the Jew first and also to the Greek.</text>
+<ref>Romans 1:16</ref>
+</parol>
+</theword>
+<theword date='2018-07-12'>
+<title>The Word for Thursday, 12 July 2018</title>
+<parol book='30' chapter='3' verse='6' id='Am3v6'>
+<text>Does disaster come to a city,
+unless the Lord has done it?</text>
+<ref>Amos 3:6 (ESV)</ref>
+</parol>
+<parol book='30' chapter='5' verse='14' id='Am5v14'>
+<text>Seek good, and not evil, that you may live.</text>
+<ref>Amos 5:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-13'>
+<title>The Word for Friday, 13 July 2018</title>
+<parol book='19' chapter='74' verse='10' id='Ps74v10'>
+<text>How long, O God, is the foe to scoff?
+Is the enemy to revile your name forever?</text>
+<ref>Psalm 74:10 (ESV)</ref>
+</parol>
+<parol book='5' chapter='7' verse='9' id='Dt7v9'>
+<text>Know that the Lord your God is God,
+the faithful God who keeps covenant and steadfast love
+with those who love him and keep his commandments,
+to a thousand generations.</text>
+<ref>Deuteronomy 7:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-14'>
+<title>The Word for Saturday, 14 July 2018</title>
+<parol book='5' chapter='11' verse='7' id='Dt11v7'>
+<text>Your eyes have seen
+all the great work of the Lord that he did.</text>
+<ref>Deuteronomy 11:7</ref>
+</parol>
+<parol book='62' chapter='4' verse='14' id='1J4v14'>
+<text>We have seen and testify
+that the Father has sent his Son
+to be the Savior of the world.</text>
+<ref>1 John 4:14</ref>
+</parol>
+</theword>
+<theword date='2018-07-15'>
+<title>The Word for Sunday, 15 July 2018</title>
+<parol book='42' chapter='11' verse='4' id='L11v4_V'>
+<text>Forgive us our sins,
+for we ourselves forgive everyone who is indebted to us.</text>
+<ref>Luke 11:4</ref>
+</parol>
+<parol book='40' chapter='18' verse='21' id='Mt18v21-22'>
+<text>Peter came up and said to Jesus,
+Lord, how often will my brother sin against me,
+and I forgive him? As many as seven times?
+Jesus said to him,
+I do not say to you seven times,
+but seventy times seven.</text>
+<ref>Matthew 18:21-22</ref>
+</parol>
+</theword>
+<theword date='2018-07-16'>
+<title>The Word for Monday, 16 July 2018</title>
+<parol book='19' chapter='89' verse='35' id='Ps89v35'>
+<intro>God said:</intro>
+<text>I will not violate my covenant
+or alter the word that went forth from my lips.</text>
+<ref>Psalm 89:34 (ESV)</ref>
+</parol>
+<parol book='1' chapter='6' verse='9' id='Gn6v9'>
+<text>Noah was a righteous man,
+blameless in his generation.
+Noah walked with God.</text>
+<ref>Genesis 6:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-17'>
+<title>The Word for Tuesday, 17 July 2018</title>
+<parol book='2' chapter='35' verse='29' id='Ex35v29'>
+<text>All the men and women, the people of Israel,
+whose heart moved them to bring anything for the work
+that the Lord had commanded by Moses to be done
+brought it as a freewill offering to the Lord.</text>
+<ref>Exodus 35:29 (ESV)</ref>
+</parol>
+<parol book='47' chapter='9' verse='7' id='2K9v7'>
+<text>God loves a cheerful giver.</text>
+<ref>2 Corinthians 9:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-18'>
+<title>The Word for Wednesday, 18 July 2018</title>
+<parol book='43' chapter='8' verse='39' id='J8v39'>
+<intro>Jesus said to the Jews who had believed in him:</intro>
+<text>If you were Abraham's children,
+you would be doing the works Abraham did.</text>
+<ref>John 8:39</ref>
+</parol>
+<parol book='62' chapter='3' verse='10' id='1J3v10'>
+<text>By this it is evident who are the children of God,
+and who are the children of the devil:
+whoever does not practice righteousness is not of God,
+nor is the one who does not love his brother.</text>
+<ref>1 John 3:10</ref>
+</parol>
+</theword>
+<theword date='2018-07-19'>
+<title>The Word for Thursday, 19 July 2018</title>
+<parol book='19' chapter='32' verse='9' id='Ps32v9'>
+<text>Be not like a horse or a mule, without understanding,
+which must be curbed with bit and bridle,
+or it will not stay near you.</text>
+<ref>Psalm 32:9 (ESV)</ref>
+</parol>
+<parol book='14' chapter='30' verse='9' id='2Chr30v9'>
+<text>The Lord your God is gracious and merciful
+and will not turn away his face from you,
+if you return to him.</text>
+<ref>2 Chronicles 30:9 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-20'>
+<title>The Word for Friday, 20 July 2018</title>
+<parol book='54' chapter='1' verse='15' id='1T1v15'>
+<intro>Paul writes:</intro>
+<text>The saying is trustworthy and deserving of full acceptance,
+that Christ Jesus came into the world to save sinners,
+of whom I am the foremost.</text>
+<ref>1 Timothy 1:15</ref>
+</parol>
+<parol book='44' chapter='2' verse='32' id='Act2v32'>
+<intro>Peter said to the Jews:</intro>
+<text>This Jesus God raised up,
+and of that we all are witnesses.</text>
+<ref>Acts 2:32</ref>
+</parol>
+</theword>
+<theword date='2018-07-21'>
+<title>The Word for Saturday, 21 July 2018</title>
+<parol book='26' chapter='34' verse='28' id='Ez34v28'>
+<text>They shall dwell securely,
+and none shall make them afraid.</text>
+<ref>Ezekiel 34:28 (ESV)</ref>
+</parol>
+<parol book='43' chapter='14' verse='1' id='J14v1'>
+<intro>Jesus said:</intro>
+<text>Let not your hearts be troubled.
+Believe in God; believe also in me.</text>
+<ref>John 14:1 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-22'>
+<title>The Word for Sunday, 22 July 2018</title>
+<parol book='58' chapter='9' verse='27' id='H9v27'>
+<text>It is appointed for man to die once,
+and after that comes judgment.</text>
+<ref>Hebrews 9:27 (ESV)</ref>
+</parol>
+<parol book='43' chapter='11' verse='26' id='J11v26'>
+<intro>Jesus said:</intro>
+<text>Everyone who lives and believes in me shall never die.</text>
+<ref>John 11:26 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-23'>
+<title>The Word for Monday, 23 July 2018</title>
+<parol book='20' chapter='11' verse='19' id='Prv11v19'>
+<text>Whoever is steadfast in righteousness will live,
+but he who pursues evil will die.</text>
+<ref>Proverbs 11:19 (ESV)</ref>
+</parol>
+<parol book='45' chapter='6' verse='23' id='R6v23'>
+<text>The wages of sin is death,
+but the free gift of God is eternal life
+in Christ Jesus our Lord.</text>
+<ref>Romans 6:23 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-24'>
+<title>The Word for Tuesday, 24 July 2018</title>
+<parol book='47' chapter='6' verse='1' id='2K6v1'>
+<intro>Paul writes:</intro>
+<text>Working together with him, then,
+we appeal to you not to receive the grace of God in vain.</text>
+<ref>2 Corinthians 6:1 (ESV)</ref>
+</parol>
+<parol book='47' chapter='13' verse='11' id='2K13v11'>
+<text>Finally, brothers, rejoice.
+Aim for restoration, comfort one another,
+agree with one another, live in peace;
+and the God of love and peace will be with you.</text>
+<ref>2 Corinthians 13:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-25'>
+<title>The Word for Wednesday, 25 July 2018</title>
+<parol book='24' chapter='2' verse='17' id='Jr2v17'>
+<text>Have you not brought this upon yourself
+by forsaking the Lord your God,
+when he led you in the way?</text>
+<ref>Jeremiah 2:17 (ESV)</ref>
+</parol>
+<parol book='42' chapter='15' verse='20' id='L15v20'>
+<text>He arose and came to his father.
+But while he was still a long way off,
+his father saw him and felt compassion,
+and ran and embraced him and kissed him.</text>
+<ref>Luke 15:20</ref>
+</parol>
+</theword>
+<theword date='2018-07-26'>
+<title>The Word for Thursday, 26 July 2018</title>
+<parol book='9' chapter='18' verse='12' id='1Sm18v12'>
+<text>Saul was afraid of David
+because the Lord was with him
+but had departed from Saul.</text>
+<ref>1 Samuel 18:12</ref>
+</parol>
+<parol book='19' chapter='1' verse='6' id='Ps1v6'>
+<text>The Lord knows the way of the righteous,
+but the way of the wicked will perish.</text>
+<ref>Psalm 1:6</ref>
+</parol>
+</theword>
+<theword date='2018-07-27'>
+<title>The Word for Friday, 27 July 2018</title>
+<parol book='43' chapter='14' verse='3' id='J14v3'>
+<intro>Jesus said to the disciples:</intro>
+<text>If I go and prepare a place for you,
+I will come again and will take you to myself,
+that where I am you may be also.</text>
+<ref>John 14:3 (ESV)</ref>
+</parol>
+<parol book='42' chapter='23' verse='42' id='L23v42-43'>
+<text>The criminal said,
+Jesus, remember me when you come into your kingdom.
+And he said to him,
+Truly, I say to you, today you will be with me in Paradise.</text>
+<ref>Luke 23:42-43 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-28'>
+<title>The Word for Saturday, 28 July 2018</title>
+<parol book='19' chapter='34' verse='13' id='Ps34v13-14'>
+<text>What man is there who desires life
+and loves many days, that he may see good?
+Keep your tongue from evil
+and your lips from speaking deceit.</text>
+<ref>Psalm 34:12-13 (ESV)</ref>
+</parol>
+<parol book='19' chapter='141' verse='3' id='Ps141v3'>
+<text>Set a guard, O Lord, over my mouth;
+keep watch over the door of my lips!</text>
+<ref>Psalm 141:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-29'>
+<title>The Word for Sunday, 29 July 2018</title>
+<parol book='62' chapter='1' verse='6' id='1J1v6'>
+<text>If we say we have fellowship with him
+while we walk in darkness,
+we lie and do not practice the truth.</text>
+<ref>1 John 1:6 (ESV)</ref>
+</parol>
+<parol book='5' chapter='13' verse='4' id='Dt13v4'>
+<text>The Lord your God is testing you,
+to know whether you love the Lord your God
+with all your heart and with all your soul.</text>
+<ref>Deuteronomy 13:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-07-30'>
+<title>The Word for Monday, 30 July 2018</title>
+<parol book='3' chapter='26' verse='6' id='Lv26v6'>
+<text>I will give peace in the land,
+and you shall lie down,
+and none shall make you afraid.</text>
+<ref>Leviticus 26:6</ref>
+</parol>
+<parol book='26' chapter='34' verse='25' id='Ez34v25_2'>
+<intro>The Lord God says:</intro>
+<text>I will make with them a covenant of peace
+and banish wild beasts from the land,
+so that they may dwell securely in the wilderness
+and sleep in the woods.</text>
+<ref>Ezekiel 34:25</ref>
+</parol>
+</theword>
+<theword date='2018-07-31'>
+<title>The Word for Tuesday, 31 July 2018</title>
+<parol book='42' chapter='9' verse='23' id='L9v23'>
+<intro>Jesus said:</intro>
+<text>If anyone would come after me,
+let him deny himself
+and take up his cross daily
+and follow me.</text>
+<ref>Luke 9:23 (ESV)</ref>
+</parol>
+<parol book='19' chapter='86' verse='11' id='Ps86v11'>
+<text>Teach me your way, O Lord,
+that I may walk in your truth;
+unite my heart to fear your name.</text>
+<ref>Psalm 86:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-01'>
+<title>The Word for Wednesday, 1 August 2018</title>
+<parol book='2' chapter='23' verse='7' id='Ex23v7'>
+<text>Keep far from a false charge.</text>
+<ref>Exodus 23:7</ref>
+</parol>
+<parol book='49' chapter='4' verse='28' id='E4v28'>
+<text>Let the thief no longer steal, but rather let him labor,
+doing honest work with his own hands,
+so that he may have something to share with anyone in need.</text>
+<ref>Ephesians 4:28</ref>
+</parol>
+</theword>
+<theword date='2018-08-02'>
+<title>The Word for Thursday, 2 August 2018</title>
+<parol book='41' chapter='7' verse='34' id='Mc7v34-35'>
+<text>Looking up to heaven, Jesus sighed
+and said to the man who was deaf and had a speech impediment,
+“Ephphatha,” that is, “Be opened.”
+And his ears were opened, his tongue was released,
+and he spoke plainly.</text>
+<ref>Mark 7:34-35 (ESV)</ref>
+</parol>
+<parol book='20' chapter='20' verse='12' id='Prv20v12'>
+<text>The hearing ear and the seeing eye,
+the Lord has made them both.</text>
+<ref>Proverbs 20:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-03'>
+<title>The Word for Friday, 3 August 2018</title>
+<parol book='52' chapter='5' verse='2' id='1Th5v2'>
+<text>You yourselves are fully aware
+that the day of the Lord
+will come like a thief in the night.</text>
+<ref>1 Thessalonians 5:2 (ESV)</ref>
+</parol>
+<parol book='66' chapter='21' verse='4' id='Ap21v4'>
+<text>God will wipe away every tear from their eyes,
+and death shall be no more,
+neither shall there be mourning,
+nor crying, nor pain anymore,
+for the former things have passed away.</text>
+<ref>Revelation 21:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-04'>
+<title>The Word for Saturday, 4 August 2018</title>
+<parol book='47' chapter='4' verse='11' id='2K4v11'>
+<text>We who live are always being given over to death for Jesus' sake,
+so that the life of Jesus also may be manifested
+in our mortal flesh.</text>
+<ref>2 Corinthians 4:11 (ESV)</ref>
+</parol>
+<parol book='42' chapter='10' verse='20' id='L10v20'>
+<text>Rejoice that your names are written in heaven.</text>
+<ref>Luke 10:20 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-05'>
+<title>The Word for Sunday, 5 August 2018</title>
+<parol book='48' chapter='5' verse='21' id='G5v21'>
+<text>Those who do such things
+will not inherit the kingdom of God.</text>
+<ref>Galatians 5:21 (ESV)</ref>
+</parol>
+<parol book='43' chapter='14' verse='6' id='J14v6'>
+<intro>Christ says:</intro>
+<text>I am the way, and the truth, and the life.
+No one comes to the Father except through me.</text>
+<ref>John 14:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-06'>
+<title>The Word for Monday, 6 August 2018</title>
+<parol book='19' chapter='14' verse='3' id='Ps14v3'>
+<text>They have all turned aside;
+together they have become corrupt;
+there is none who does good, not even one.</text>
+<ref>Psalm 14:3 (ESV)</ref>
+</parol>
+<parol book='19' chapter='32' verse='2' id='Ps32v2'>
+<text>Blessed is the man against whom the Lord counts no iniquity,
+and in whose spirit there is no deceit.</text>
+<ref>Psalm 32:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-07'>
+<title>The Word for Tuesday, 7 August 2018</title>
+<parol book='19' chapter='74' verse='2' id='Ps74v2'>
+<text>Remember your congregation, which you have purchased of old,
+which you have redeemed to be the tribe of your heritage!</text>
+<ref>Psalm 74:2</ref>
+</parol>
+<parol book='26' chapter='34' verse='30' id='Ez34v30'>
+<text>They shall know that I am the Lord their God with them,
+and that they, the house of Israel, are my people,
+declares the Lord God.</text>
+<ref>Ezekiel 34:30 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-08'>
+<title>The Word for Wednesday, 8 August 2018</title>
+<parol book='9' chapter='7' verse='12' id='1Sm7v12'>
+<text>Till now the Lord has helped us.</text>
+<ref>1 Samuel 7:12</ref>
+</parol>
+<parol book='19' chapter='146' verse='5' id='Ps146v5'>
+<text>Blessed is he whose help is the God of Jacob,
+whose hope is in the Lord his God.</text>
+<ref>Psalm 146:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-09'>
+<title>The Word for Thursday, 9 August 2018</title>
+<parol book='42' chapter='10' verse='21' id='L10v21'>
+<intro>Jesus said:</intro>
+<text>I thank you, Father, Lord of heaven and earth,
+that you have hidden these things
+from the wise and understanding
+and revealed them to little children;
+yes, Father, for such was your gracious will.</text>
+<ref>Luke 10:21 (ESV)</ref>
+</parol>
+<parol book='46' chapter='1' verse='21' id='1K1v21'>
+<text>Since, in the wisdom of God,
+the world did not know God through wisdom,
+it pleased God through the folly of what we preach
+to save those who believe.</text>
+<ref>1 Corinthians 1:21 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-10'>
+<title>The Word for Friday, 10 August 2018</title>
+<parol book='19' chapter='30' verse='2' id='Ps30v2'>
+<text>I will extol you, O Lord, for you have drawn me up.</text>
+<ref>Psalm 30:1 (ESV)</ref>
+</parol>
+<parol book='19' chapter='40' verse='3' id='Ps40v3'>
+<text>The Lord drew me up from the pit of destruction,
+out of the miry bog,
+and set my feet upon a rock,
+making my steps secure.</text>
+<ref>Psalm 40:2</ref>
+</parol>
+</theword>
+<theword date='2018-08-11'>
+<title>The Word for Saturday, 11 August 2018</title>
+<parol book='24' chapter='20' verse='13' id='Jr20v13'>
+<text>Sing to the Lord; praise the Lord!
+For he has delivered the life of the needy
+from the hand of evildoers.</text>
+<ref>Jeremiah 20:13 (ESV)</ref>
+</parol>
+<parol book='42' chapter='13' verse='16' id='L13v16'>
+<intro>Jesus said:</intro>
+<text>Ought not this woman, a daughter of Abraham
+whom Satan bound for eighteen years,
+be loosed from this bond on the Sabbath day?</text>
+<ref>Luke 13:16 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-12'>
+<title>The Word for Sunday, 12 August 2018</title>
+<parol book='19' chapter='135' verse='14' id='Ps135v14'>
+<text>The Lord will vindicate his people
+and have compassion on his servants.</text>
+<ref>Psalm 135:14 (ESV)</ref>
+</parol>
+<parol book='42' chapter='1' verse='50' id='L1v50'>
+<text>His mercy is for those who fear him
+from generation to generation.</text>
+<ref>Luke 1:50 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-13'>
+<title>The Word for Monday, 13 August 2018</title>
+<parol book='19' chapter='119' verse='19' id='Ps119v19'>
+<text>I am a sojourner on the earth.</text>
+<ref>Psalm 119:19</ref>
+</parol>
+<parol book='60' chapter='1' verse='17' id='1P1v17'>
+<text>If you call on him as Father
+who judges impartially according to each one's deeds,
+conduct yourselves with fear throughout the time of your exile.</text>
+<ref>1 Peter 1:17 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-14'>
+<title>The Word for Tuesday, 14 August 2018</title>
+<parol book='24' chapter='32' verse='40' id='Jr32v40-41'>
+<text>I will put the fear of me in their hearts,
+that they may not turn from me.
+I will rejoice in doing them good.</text>
+<ref>Jeremiah 32:40-41</ref>
+</parol>
+<parol book='20' chapter='1' verse='7' id='Prv1v7'>
+<text>The fear of the Lord is the beginning of knowledge.</text>
+<ref>Proverbs 1:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-15'>
+<title>The Word for Wednesday, 15 August 2018</title>
+<parol book='58' chapter='11' verse='29' id='H11v29'>
+<text>By faith the people crossed the Red Sea as on dry land,
+but the Egyptians, when they attempted
+to do the same, were drowned.</text>
+<ref>Hebrews 11:29 (ESV)</ref>
+</parol>
+<parol book='23' chapter='43' verse='2' id='Is43v2'>
+<text>When you pass through the waters, I will be with you;
+and through the rivers, they shall not overwhelm you;
+when you walk through fire you shall not be burned,
+and the flame shall not consume you.</text>
+<ref>Isaiah 43:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-16'>
+<title>The Word for Thursday, 16 August 2018</title>
+<parol book='41' chapter='6' verse='41' id='Mc6v41-42'>
+<text>Taking the five loaves and the two fish
+Jesus looked up to heaven
+and said a blessing and broke the loaves
+and gave them to the disciples to set before the people.
+And he divided the two fish among them all.
+And they all ate and were satisfied.</text>
+<ref>Mark 6:41-42</ref>
+</parol>
+<parol book='19' chapter='22' verse='27' id='Ps22v27'>
+<text>The afflicted shall eat and be satisfied;
+those who seek him shall praise the Lord!
+May your hearts live forever!</text>
+<ref>Psalm 22:26</ref>
+</parol>
+</theword>
+<theword date='2018-08-17'>
+<title>The Word for Friday, 17 August 2018</title>
+<parol book='11' chapter='19' verse='7' id='1Rg19v7'>
+<text>The angel of the Lord came again a second time
+and touched Elijah and said,
+Arise and eat, for the journey is too great for you.</text>
+<ref>1 Kings 19:7 (ESV)</ref>
+</parol>
+<parol book='43' chapter='6' verse='35' id='J6v35'>
+<intro>Christ says:</intro>
+<text>I am the bread of life;
+whoever comes to me shall not hunger,
+and whoever believes in me shall never thirst.</text>
+<ref>John 6:35 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-18'>
+<title>The Word for Saturday, 18 August 2018</title>
+<parol book='24' chapter='15' verse='20' id='Jr15v20'>
+<text>I am with you
+to save you and deliver you,
+declares the Lord.</text>
+<ref>Jeremiah 15:20</ref>
+</parol>
+<parol book='19' chapter='118' verse='13' id='Ps118v13'>
+<text>I was pushed hard, so that I was falling,
+but the Lord helped me.</text>
+<ref>Psalm 118:13</ref>
+</parol>
+</theword>
+<theword date='2018-08-19'>
+<title>The Word for Sunday, 19 August 2018</title>
+<parol book='45' chapter='1' verse='18' id='R1v18'>
+<text>The wrath of God is revealed from heaven
+against all ungodliness and unrighteousness of men,
+who by their unrighteousness suppress the truth.</text>
+<ref>Romans 1:18 (ESV)</ref>
+</parol>
+<parol book='26' chapter='18' verse='27' id='Ez18v27'>
+<text>When a wicked person turns away
+from the wickedness he has committed
+and does what is just and right,
+he shall save his life.</text>
+<ref>Ezekiel 18:27 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-20'>
+<title>The Word for Monday, 20 August 2018</title>
+<parol book='43' chapter='5' verse='7' id='J5v7-8'>
+<text>The sick man answered Jesus,
+Sir, I have no one
+to put me into the pool when the water is stirred up,
+and while I am going another steps down before me.
+Jesus said to him,
+Get up, take up your bed, and walk.</text>
+<ref>John 5:7-8 (ESV)</ref>
+</parol>
+<parol book='40' chapter='15' verse='28' id='Mt15v28'>
+<text>Jesus answered the Canaanite woman,
+O woman, great is your faith!
+Be it done for you as you desire.
+And her daughter was healed instantly.</text>
+<ref>Matthew 15:28 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-21'>
+<title>The Word for Tuesday, 21 August 2018</title>
+<parol book='52' chapter='2' verse='13' id='1Th2v13'>
+<text>We thank God constantly for this,
+that when you received the word of God,
+which you heard from us,
+you accepted it not as the word of men
+but as what it really is, the word of God,
+which is at work in you believers.</text>
+<ref>1 Thessalonians 2:13</ref>
+</parol>
+<parol book='43' chapter='1' verse='14' id='J1v14'>
+<text>The Word became flesh and dwelt among us,
+and we have seen his glory,
+glory as of the only Son from the Father,
+full of grace and truth.</text>
+<ref>John 1:14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-22'>
+<title>The Word for Wednesday, 22 August 2018</title>
+<parol book='19' chapter='13' verse='2' id='Ps13v2'>
+<text>How long, O Lord?
+Will you forget me forever?
+How long will you hide your face from me?</text>
+<ref>Psalm 13:1 (ESV)</ref>
+</parol>
+<parol book='5' chapter='4' verse='29' id='Dt4v29'>
+<intro>Moses said about Israel, scattered among the peoples:</intro>
+<text>From there you will seek the Lord your God
+and you will find him,
+if you search after him with all your heart
+and with all your soul.</text>
+<ref>Deuteronomy 4:29</ref>
+</parol>
+</theword>
+<theword date='2018-08-23'>
+<title>The Word for Thursday, 23 August 2018</title>
+<parol book='42' chapter='6' verse='42' id='L6v42_S'>
+<text>You hypocrite, first take the log out of your own eye,
+and then you will see clearly
+to take out the speck
+that is in your brother's eye.</text>
+<ref>Luke 6:42 (ESV)</ref>
+</parol>
+<parol book='45' chapter='2' verse='1' id='R2v1'>
+<text>You have no excuse, O man,
+every one of you who judges.
+For in passing judgment on another you condemn yourself,
+because you, the judge, practice the very same things.</text>
+<ref>Romans 2:1 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-24'>
+<title>The Word for Friday, 24 August 2018</title>
+<parol book='19' chapter='36' verse='8' id='Ps36v8'>
+<text>How precious is your steadfast love, O God!
+The children of mankind take refuge in the shadow of your wings.</text>
+<ref>Psalm 36:7 (ESV)</ref>
+</parol>
+<parol book='19' chapter='2' verse='12' id='Ps2v12'>
+<text>Blessed are all who take refuge in him.</text>
+<ref>Psalm 2:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-25'>
+<title>The Word for Saturday, 25 August 2018</title>
+<parol book='3' chapter='19' verse='31' id='Lv19v31'>
+<text>Do not turn to mediums or necromancers;
+do not seek them out,
+and so make yourselves unclean by them:
+I am the Lord your God.</text>
+<ref>Leviticus 19:31 (ESV)</ref>
+</parol>
+<parol book='60' chapter='5' verse='8' id='1P5v8'>
+<text>Be sober-minded; be watchful.
+Your adversary the devil prowls around like a roaring lion,
+seeking someone to devour.</text>
+<ref>1 Peter 5:8</ref>
+</parol>
+</theword>
+<theword date='2018-08-26'>
+<title>The Word for Sunday, 26 August 2018</title>
+<parol book='43' chapter='14' verse='13' id='J14v13'>
+<intro>Christ says:</intro>
+<text>Whatever you ask in my name,
+this I will do,
+that the Father may be glorified in the Son.</text>
+<ref>John 14:13</ref>
+</parol>
+<parol book='43' chapter='15' verse='7' id='J15v7'>
+<intro>Christ says:</intro>
+<text>If you abide in me, and my words abide in you,
+ask whatever you wish, and it will be done for you.</text>
+<ref>John 15:7</ref>
+</parol>
+</theword>
+<theword date='2018-08-27'>
+<title>The Word for Monday, 27 August 2018</title>
+<parol book='1' chapter='13' verse='8' id='Gn13v8'>
+<text>Abram said to Lot,
+Let there be no strife between you and me,
+and between your herdsmen and my herdsmen,
+for we are kinsmen.</text>
+<ref>Genesis 13:8 (ESV)</ref>
+</parol>
+<parol book='59' chapter='3' verse='16' id='Jc3v16'>
+<text>Where jealousy and selfish ambition exist,
+there will be disorder and every vile practice.</text>
+<ref>James 3:16 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-28'>
+<title>The Word for Tuesday, 28 August 2018</title>
+<parol book='19' chapter='28' verse='9' id='Ps28v9'>
+<text>Oh, save your people and bless your heritage!
+Be their shepherd and carry them forever.</text>
+<ref>Psalm 28:9 (ESV)</ref>
+</parol>
+<parol book='19' chapter='16' verse='11' id='Ps16v11'>
+<text>You make known to me the path of life;
+in your presence there is fullness of joy;
+at your right hand are pleasures forevermore.</text>
+<ref>Psalm 16:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-29'>
+<title>The Word for Wednesday, 29 August 2018</title>
+<parol book='18' chapter='16' verse='19' id='Job16v19'>
+<text>Even now, behold, my witness is in heaven,
+and he who testifies for me is on high.</text>
+<ref>Job 16:19 (ESV)</ref>
+</parol>
+<parol book='32' chapter='2' verse='8' id='Jon2v8'>
+<text>When my life was fainting away,
+I remembered the Lord,
+and my prayer came to you,
+into your holy temple.</text>
+<ref>Jonah 2:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-30'>
+<title>The Word for Thursday, 30 August 2018</title>
+<parol book='44' chapter='12' verse='5' id='Act12v5'>
+<text>Peter was kept in prison,
+but earnest prayer for him was made to God by the church.</text>
+<ref>Acts 12:5 (ESV)</ref>
+</parol>
+<parol book='1' chapter='39' verse='20' id='Gn39v20-21'>
+<text>Joseph was in prison.
+But the Lord was with him.</text>
+<ref>Genesis 39:20-21 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-08-31'>
+<title>The Word for Friday, 31 August 2018</title>
+<parol book='45' chapter='2' verse='3' id='R2v3'>
+<text>Do you suppose, O man
+— you who judge those who practice such things
+and yet do them yourself —
+that you will escape the judgment of God?</text>
+<ref>Romans 2:3 (ESV)</ref>
+</parol>
+<parol book='42' chapter='6' verse='42' id='L6v42'>
+<text>How can you say to your brother,
+“Brother, let me take out the speck that is in your eye,”
+when you yourself do not see the log that is in your own eye?</text>
+<ref>Luke 6:42 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-01'>
+<title>The Word for Saturday, 1 September 2018</title>
+<parol book='19' chapter='101' verse='2' id='Ps101v2'>
+<text>I will ponder the way that is blameless.
+Oh when will you come to me?
+I will walk with integrity of heart within my house.</text>
+<ref>Psalm 101:2</ref>
+</parol>
+<parol book='52' chapter='4' verse='7' id='1Th4v7'>
+<text>God has not called us for impurity,
+but in holiness.</text>
+<ref>1 Thessalonians 4:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-02'>
+<title>The Word for Sunday, 2 September 2018</title>
+<parol book='48' chapter='3' verse='27' id='G3v27'>
+<text>For as many of you as were baptized into Christ
+have put on Christ.</text>
+<ref>Galatians 3:27</ref>
+</parol>
+<parol book='50' chapter='1' verse='21' id='Ph1v21'>
+<text>To me to live is Christ,
+and to die is gain.</text>
+<ref>Philippians 1:21 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-03'>
+<title>The Word for Monday, 3 September 2018</title>
+<parol book='42' chapter='16' verse='13' id='L16v13'>
+<text>No servant can serve two masters,
+for either he will hate the one and love the other,
+or he will be devoted to the one and despise the other.
+You cannot serve God and money.</text>
+<ref>Luke 16:13</ref>
+</parol>
+<parol book='43' chapter='12' verse='26' id='J12v26'>
+<text>If anyone serves me, he must follow me;
+and where I am, there will my servant be also.
+If anyone serves me, the Father will honor him.</text>
+<ref>John 12:26 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-04'>
+<title>The Word for Tuesday, 4 September 2018</title>
+<parol book='19' chapter='119' verse='126' id='Ps119v126'>
+<text>It is time for the Lord to act,
+for your law has been broken.</text>
+<ref>Psalm 119:126 (ESV)</ref>
+</parol>
+<parol book='45' chapter='8' verse='2' id='R8v2'>
+<text>The law of the Spirit of life has set you free in Christ Jesus
+from the law of sin and death.</text>
+<ref>Romans 8:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-05'>
+<title>The Word for Wednesday, 5 September 2018</title>
+<parol book='44' chapter='5' verse='4' id='Act5v4'>
+<intro>Peter said to Ananias:</intro>
+<text>You have not lied to men but to God.</text>
+<ref>Acts 5:4</ref>
+</parol>
+<parol book='3' chapter='19' verse='11' id='Lv19v11'>
+<text>You shall not steal;
+you shall not deal falsely;
+you shall not lie to one another.</text>
+<ref>Leviticus 19:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-06'>
+<title>The Word for Thursday, 6 September 2018</title>
+<parol book='11' chapter='3' verse='9' id='1Rg3v9'>
+<intro>Solomon prayed:</intro>
+<text>Give your servant an understanding mind to govern your people,
+that I may discern between good and evil.</text>
+<ref>1 Kings 3:9</ref>
+</parol>
+<parol book='51' chapter='3' verse='2' id='Kol3v2'>
+<text>Set your minds on things that are above,
+not on things that are on earth.</text>
+<ref>Colossians 3:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-07'>
+<title>The Word for Friday, 7 September 2018</title>
+<parol book='50' chapter='4' verse='5' id='Ph4v5'>
+<text>Let your reasonableness be known to everyone.
+The Lord is at hand.</text>
+<ref>Philippians 4:5 (ESV)</ref>
+</parol>
+<parol book='45' chapter='15' verse='7' id='R15v7'>
+<text>Welcome one another
+as Christ has welcomed you,
+for the glory of God.</text>
+<ref>Romans 15:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-08'>
+<title>The Word for Saturday, 8 September 2018</title>
+<parol book='19' chapter='25' verse='5' id='Ps25v5'>
+<text>Lead me in your truth and teach me,
+for you are the God of my salvation;
+for you I wait all the day long.</text>
+<ref>Psalm 25:5 (ESV)</ref>
+</parol>
+<parol book='19' chapter='25' verse='10' id='Ps25v10'>
+<text>All the paths of the Lord are steadfast love and faithfulness,
+for those who keep his covenant and his testimonies.</text>
+<ref>Psalm 25:10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-09'>
+<title>The Word for Sunday, 9 September 2018</title>
+<parol book='19' chapter='146' verse='2' id='Ps146v2'>
+<text>I will praise the Lord as long as I live;
+I will sing praises to my God while I have my being.</text>
+<ref>Psalm 146:2</ref>
+</parol>
+<parol book='19' chapter='118' verse='28' id='Ps118v28'>
+<text>You are my God, and I will give thanks to you;
+you are my God; I will extol you.</text>
+<ref>Psalm 118:28 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-10'>
+<title>The Word for Monday, 10 September 2018</title>
+<parol book='59' chapter='5' verse='8' id='Jc5v8'>
+<text>You also, be patient.
+Establish your hearts,
+for the coming of the Lord is at hand.</text>
+<ref>James 5:8 (ESV)</ref>
+</parol>
+<parol book='40' chapter='24' verse='44' id='Mt24v44'>
+<text>You must be ready,
+for the Son of Man is coming at an hour
+you do not expect.</text>
+<ref>Matthew 24:44</ref>
+</parol>
+</theword>
+<theword date='2018-09-11'>
+<title>The Word for Tuesday, 11 September 2018</title>
+<parol book='9' chapter='2' verse='1' id='1Sm2v1_M'>
+<text>My heart exults in the Lord.</text>
+<ref>1 Samuel 2:1</ref>
+</parol>
+<parol book='50' chapter='4' verse='4' id='Ph4v4'>
+<text>Rejoice in the Lord always;
+again I will say, Rejoice.</text>
+<ref>Philippians 4:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-12'>
+<title>The Word for Wednesday, 12 September 2018</title>
+<parol book='20' chapter='4' verse='26' id='Prv4v26-27'>
+<text>Ponder the path of your feet;
+then all your ways will be sure.
+Do not swerve to the right or to the left;
+turn your foot away from evil.</text>
+<ref>Proverbs 4:26-27</ref>
+</parol>
+<parol book='19' chapter='128' verse='1' id='Ps128v1-2'>
+<text>Blessed is everyone who fears the Lord,
+who walks in his ways!
+You shall eat the fruit of the labor of your hands;
+you shall be blessed, and it shall be well with you.</text>
+<ref>Psalm 128:1-2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-13'>
+<title>The Word for Thursday, 13 September 2018</title>
+<parol book='60' chapter='1' verse='6' id='1P1v6'>
+<text>In this you rejoice,
+though now for a little while, if necessary,
+you have been grieved by various trials.</text>
+<ref>1 Peter 1:6 (ESV)</ref>
+</parol>
+<parol book='59' chapter='1' verse='2' id='Jc1v2'>
+<text>Count it all joy, my brothers,
+when you meet trials of various kinds.</text>
+<ref>James 1:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-14'>
+<title>The Word for Friday, 14 September 2018</title>
+<parol book='38' chapter='14' verse='6' id='Zch14v6-7'>
+<text>On that day there shall be no light, cold, or frost.
+And there shall be a unique day,
+which is known to the Lord,
+neither day nor night,
+but at evening time there shall be light.</text>
+<ref>Zechariah 14:6-7</ref>
+</parol>
+<parol book='24' chapter='23' verse='29' id='Jr23v29'>
+<text>Is not my word like fire, declares the Lord,
+and like a hammer that breaks the rock in pieces?</text>
+<ref>Jeremiah 23:29 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-15'>
+<title>The Word for Saturday, 15 September 2018</title>
+<parol book='58' chapter='12' verse='15' id='H12v15'>
+<text>See to it that no one fails to obtain the grace of God;
+that no “root of bitterness” springs up and causes trouble,
+and by it many become defiled.</text>
+<ref>Hebrews 12:15 (ESV)</ref>
+</parol>
+<parol book='54' chapter='2' verse='4' id='1T2v4'>
+<text>God desires all people to be saved
+and to come to the knowledge of the truth.</text>
+<ref>1 Timothy 2:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-16'>
+<title>The Word for Sunday, 16 September 2018</title>
+<parol book='26' chapter='34' verse='11' id='Ez34v11'>
+<text>Behold, I, I myself will search for my sheep
+and will seek them out.</text>
+<ref>Ezekiel 34:11 (ESV)</ref>
+</parol>
+<parol book='43' chapter='17' verse='12' id='J17v12'>
+<intro>Jesus prayed:</intro>
+<text>While I was with them,
+I kept them in your name, which you have given me.
+I have guarded them, and not one of them has been lost
+except the son of destruction,
+that the Scripture might be fulfilled.</text>
+<ref>John 17:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-17'>
+<title>The Word for Monday, 17 September 2018</title>
+<parol book='62' chapter='4' verse='15' id='1J4v15'>
+<text>Whoever confesses that Jesus is the Son of God,
+God abides in him, and he in God.</text>
+<ref>1 John 4:15 (ESV)</ref>
+</parol>
+<parol book='40' chapter='10' verse='32' id='Mt10v32'>
+<text>Everyone who acknowledges me before men,
+I also will acknowledge before my Father who is in heaven.</text>
+<ref>Matthew 10:32 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-18'>
+<title>The Word for Tuesday, 18 September 2018</title>
+<parol book='5' chapter='32' verse='10' id='Dt32v10-11'>
+<intro>Mose sings about Jacob, the Lord's people:</intro>
+<text>He kept him as the apple of his eye.
+Like an eagle that stirs up its nest,
+that flutters over its young,
+spreading out its wings, catching them,
+bearing them on its pinions.</text>
+<ref>Deuteronomy 32:10-11 (ESV)</ref>
+</parol>
+<parol book='19' chapter='125' verse='2' id='Ps125v2'>
+<text>As the mountains surround Jerusalem,
+so the Lord surrounds his people,
+from this time forth and forevermore.</text>
+<ref>Psalm 125:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-19'>
+<title>The Word for Wednesday, 19 September 2018</title>
+<parol book='19' chapter='71' verse='8' id='Ps71v8'>
+<text>My mouth is filled with your praise,
+and with your glory all the day.</text>
+<ref>Psalm 71:8 (ESV)</ref>
+</parol>
+<parol book='2' chapter='15' verse='2' id='Ex15v2'>
+<text>The Lord is my strength and my song,
+and he has become my salvation.</text>
+<ref>Exodus 15:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-20'>
+<title>The Word for Thursday, 20 September 2018</title>
+<parol book='39' chapter='1' verse='5' id='Ml1v5'>
+<text>Great is the Lord beyond the border of Israel!</text>
+<ref>Malachi 1:5</ref>
+</parol>
+<parol book='44' chapter='10' verse='34' id='Act10v34-35'>
+<text>So Peter opened his mouth and said:
+Truly I understand that God shows no partiality,
+but in every nation anyone who fears him
+and does what is right is acceptable to him.</text>
+<ref>Acts 10:34-35 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-21'>
+<title>The Word for Friday, 21 September 2018</title>
+<parol book='19' chapter='27' verse='13' id='Ps27v13'>
+<intro>David prays:</intro>
+<text>I believe that I shall look upon the goodness of the Lord
+in the land of the living!</text>
+<ref>Psalm 27:13 (ESV)</ref>
+</parol>
+<parol book='40' chapter='7' verse='24' id='Mt7v24'>
+<intro>Jesus said:</intro>
+<text>Everyone who hears these words of mine and does them
+will be like a wise man who built his house on the rock.</text>
+<ref>Matthew 7:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-22'>
+<title>The Word for Saturday, 22 September 2018</title>
+<parol book='43' chapter='3' verse='35' id='J3v35'>
+<text>The Father loves the Son
+and has given all things into his hand.</text>
+<ref>John 3:35 (ESV)</ref>
+</parol>
+<parol book='40' chapter='11' verse='27' id='Mt11v27'>
+<intro>Jesus said:</intro>
+<text>All things have been handed over to me by my Father,
+and no one knows the Son except the Father,
+and no one knows the Father except the Son
+and anyone to whom the Son chooses to reveal him.</text>
+<ref>Matthew 11:27 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-23'>
+<title>The Word for Sunday, 23 September 2018</title>
+<parol book='62' chapter='1' verse='10' id='1J1v10'>
+<text>If we say we have not sinned,
+we make him a liar,
+and his word is not in us.</text>
+<ref>1 John 1:10 (ESV)</ref>
+</parol>
+<parol book='59' chapter='4' verse='8' id='Jc4v8'>
+<text>Draw near to God, and he will draw near to you.
+Cleanse your hands, you sinners,
+and purify your hearts, you double-minded.</text>
+<ref>James 4:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-24'>
+<title>The Word for Monday, 24 September 2018</title>
+<parol book='23' chapter='55' verse='7' id='Is55v7'>
+<text>Let the wicked forsake his way,
+and the unrighteous man his thoughts;
+let him return to the Lord,
+that he may have compassion on him,
+and to our God, for he will abundantly pardon.</text>
+<ref>Isaiah 55:7 (ESV)</ref>
+</parol>
+<parol book='42' chapter='18' verse='13' id='L18v13'>
+<text>The tax collector, standing far off,
+would not even lift up his eyes to heaven,
+but beat his breast, saying,
+God, be merciful to me, a sinner!</text>
+<ref>Luke 18:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-25'>
+<title>The Word for Tuesday, 25 September 2018</title>
+<parol book='2' chapter='20' verse='12' id='Ex20v12_D'>
+<text>Honor your father and your mother.</text>
+<ref>Exodus 20:12</ref>
+</parol>
+<parol book='49' chapter='6' verse='1' id='E6v1'>
+<text>Children, obey your parents in the Lord,
+for this is right.</text>
+<ref>Ephesians 6:1</ref>
+</parol>
+</theword>
+<theword date='2018-09-26'>
+<title>The Word for Wednesday, 26 September 2018</title>
+<parol book='23' chapter='52' verse='9' id='Is52v9'>
+<text>The Lord has comforted his people;
+he has redeemed Jerusalem.</text>
+<ref>Isaiah 52:9 (ESV)</ref>
+</parol>
+<parol book='40' chapter='11' verse='30' id='Mt11v30'>
+<intro>Jesus says:</intro>
+<text>My yoke is easy,
+and my burden is light.</text>
+<ref>Matthew 11:30</ref>
+</parol>
+</theword>
+<theword date='2018-09-27'>
+<title>The Word for Thursday, 27 September 2018</title>
+<parol book='43' chapter='6' verse='68' id='J6v68'>
+<text>You have the words of eternal life.</text>
+<ref>John 6:68</ref>
+</parol>
+<parol book='42' chapter='7' verse='7' id='L7v7'>
+<intro>The centurion sent friends, saying to Jesus:</intro>
+<text>Say the word, and let my servant be healed.</text>
+<ref>Luke 7:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-28'>
+<title>The Word for Friday, 28 September 2018</title>
+<parol book='23' chapter='26' verse='8' id='Is26v8'>
+<text>In the path of your judgments, O Lord,
+we wait for you.</text>
+<ref>Isaiah 26:8</ref>
+</parol>
+<parol book='58' chapter='12' verse='6' id='H12v6-7'>
+<text>The Lord disciplines the one he loves,
+and chastises every son whom he receives.
+It is for discipline that you have to endure.
+God is treating you as sons.
+For what son is there whom his father does not discipline?</text>
+<ref>Hebrews 12:6-7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-29'>
+<title>The Word for Saturday, 29 September 2018</title>
+<parol book='13' chapter='29' verse='13' id='1Chr29v13'>
+<text>Now we thank you, our God,
+and praise your glorious name.</text>
+<ref>1 Chronicles 29:13</ref>
+</parol>
+<parol book='43' chapter='11' verse='41' id='J11v41-42'>
+<text>Jesus said,
+Father, I thank you that you have heard me.
+I knew that you always hear me,
+but I said this on account of the people standing around,
+that they may believe that you sent me.</text>
+<ref>John 11:41-42 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-09-30'>
+<title>The Word for Sunday, 30 September 2018</title>
+<parol book='46' chapter='9' verse='24' id='1K9v24'>
+<text>Do you not know that in a race all the runners run,
+but only one receives the prize?
+So run that you may obtain it.</text>
+<ref>1 Corinthians 9:24 (ESV)</ref>
+</parol>
+<parol book='23' chapter='40' verse='30' id='Is40v30-31'>
+<text>Even youths shall faint and be weary,
+and young men shall fall exhausted;
+but they who wait for the Lord shall renew their strength;
+they shall mount up with wings like eagles;
+they shall run and not be weary;
+they shall walk and not faint.</text>
+<ref>Isaiah 40:30-31 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-01'>
+<title>The Word for Monday, 1 October 2018</title>
+<parol book='40' chapter='6' verse='11' id='Mt6v11'>
+<text>Give us this day our daily bread.</text>
+<ref>Matthew 6:11</ref>
+</parol>
+<parol book='19' chapter='145' verse='15' id='Ps145v15-16'>
+<text>The eyes of all look to you,
+and you give them their food in due season.
+You open your hand;
+you satisfy the desire of every living thing.</text>
+<ref>Psalm 145:15-16 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-02'>
+<title>The Word for Tuesday, 2 October 2018</title>
+<parol book='23' chapter='26' verse='9' id='Is26v9'>
+<text>My soul yearns for you in the night;
+my spirit within me earnestly seeks you.
+For when your judgments are in the earth,
+the inhabitants of the world learn righteousness.</text>
+<ref>Isaiah 26:9 (ESV)</ref>
+</parol>
+<parol book='19' chapter='63' verse='7' id='Ps63v7'>
+<text>I remember you upon my bed,
+and meditate on you in the watches of the night.</text>
+<ref>Psalm 63:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-03'>
+<title>The Word for Wednesday, 3 October 2018</title>
+<parol book='52' chapter='4' verse='16' id='1Th4v16'>
+<text>The Lord himself will descend from heaven
+with a cry of command, with the voice of an archangel,
+and with the sound of the trumpet of God.
+And the dead in Christ will rise first.</text>
+<ref>1 Thessalonians 4:16 (ESV)</ref>
+</parol>
+<parol book='43' chapter='11' verse='25' id='J11v25'>
+<text>Jesus said to Martha,
+I am the resurrection and the life.
+Whoever believes in me, though he die, yet shall he live.</text>
+<ref>John 11:25 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-04'>
+<title>The Word for Thursday, 4 October 2018</title>
+<parol book='19' chapter='18' verse='31' id='Ps18v31'>
+<text>The Lord is a shield for all those who take refuge in him.</text>
+<ref>Psalm 18:30 (ESV)</ref>
+</parol>
+<parol book='49' chapter='6' verse='16' id='E6v16-17'>
+<text>Take up the shield of faith, with which you can extinguish
+all the flaming darts of the evil one;
+and take the helmet of salvation,
+and the sword of the Spirit, which is the word of God.</text>
+<ref>Ephesians 6:16-17</ref>
+</parol>
+</theword>
+<theword date='2018-10-05'>
+<title>The Word for Friday, 5 October 2018</title>
+<parol book='4' chapter='22' verse='18' id='Nu22v18'>
+<text>Balaam answered and said to the servants of Balak,
+Though Balak were to give me his house full of silver and gold,
+I could not go beyond the command of the Lord my God
+to do less or more.</text>
+<ref>Numbers 22:18 (ESV)</ref>
+</parol>
+<parol book='14' chapter='18' verse='13' id='2Chr18v13'>
+<text>Micaiah said,
+As the Lord lives,
+what my God says, that I will speak.</text>
+<ref>2 Chronicles 18:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-06'>
+<title>The Word for Saturday, 6 October 2018</title>
+<parol book='19' chapter='100' verse='3' id='Ps100v3'>
+<text>Know that the Lord, he is God!
+It is he who made us, and we are his;
+we are his people, and the sheep of his pasture.</text>
+<ref>Psalm 100:3 (ESV)</ref>
+</parol>
+<parol book='26' chapter='36' verse='23' id='Ez36v23'>
+<text>The nations will know that I am the Lord,
+declares the Lord God,
+when through you I vindicate my holiness before their eyes.</text>
+<ref>Ezekiel 36:23 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-07'>
+<title>The Word for Sunday, 7 October 2018</title>
+<parol book='23' chapter='46' verse='3' id='Is46v3'>
+<text>Listen to me, O house of Jacob,
+all the remnant of the house of Israel,
+who have been borne by me from before your birth,
+carried from the womb.</text>
+<ref>Isaiah 46:3</ref>
+</parol>
+<parol book='42' chapter='19' verse='10' id='L19v10'>
+<text>The Son of Man came to seek and to save the lost.</text>
+<ref>Luke 19:10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-08'>
+<title>The Word for Monday, 8 October 2018</title>
+<parol book='19' chapter='34' verse='15' id='Ps34v15'>
+<text>Turn away from evil and do good;
+seek peace and pursue it.</text>
+<ref>Psalm 34:14 (ESV)</ref>
+</parol>
+<parol book='45' chapter='12' verse='21' id='R12v21'>
+<text>Do not be overcome by evil,
+but overcome evil with good.</text>
+<ref>Romans 12:21 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-09'>
+<title>The Word for Tuesday, 9 October 2018</title>
+<parol book='45' chapter='6' verse='4' id='R6v4'>
+<text>We were buried therefore with him by baptism into death,
+in order that, just as Christ was raised from the dead
+by the glory of the Father,
+we too might walk in newness of life.</text>
+<ref>Romans 6:4</ref>
+</parol>
+<parol book='51' chapter='2' verse='12' id='Kol2v12'>
+<text>You have been buried with Christ in baptism,
+in which you were also raised with him through faith
+in the powerful working of God,
+who raised him from the dead.</text>
+<ref>Colossians 2:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-10'>
+<title>The Word for Wednesday, 10 October 2018</title>
+<parol book='40' chapter='5' verse='7' id='Mt5v7'>
+<text>Blessed are the merciful,
+for they shall receive mercy.</text>
+<ref>Matthew 5:7 (ESV)</ref>
+</parol>
+<parol book='42' chapter='6' verse='27' id='L6v27'>
+<text>Love your enemies,
+do good to those who hate you.</text>
+<ref>Luke 6:27 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-11'>
+<title>The Word for Thursday, 11 October 2018</title>
+<parol book='14' chapter='15' verse='2' id='2Chr15v2'>
+<text>The Lord is with you while you are with him.
+If you seek him, he will be found by you,
+but if you forsake him, he will forsake you.</text>
+<ref>2 Chronicles 15:2 (ESV)</ref>
+</parol>
+<parol book='55' chapter='1' verse='13' id='2T1v13'>
+<intro>Paul writes to Timothy:</intro>
+<text>Follow the pattern of the sound words
+that you have heard from me,
+in the faith and love that are in Christ Jesus.</text>
+<ref>2 Timothy 1:13</ref>
+</parol>
+</theword>
+<theword date='2018-10-12'>
+<title>The Word for Friday, 12 October 2018</title>
+<parol book='19' chapter='119' verse='147' id='Ps119v147'>
+<text>I rise before dawn and cry for help;
+I hope in your words.</text>
+<ref>Psalm 119:147 (ESV)</ref>
+</parol>
+<parol book='19' chapter='33' verse='22' id='Ps33v22'>
+<text>Let your steadfast love, O Lord, be upon us,
+even as we hope in you.</text>
+<ref>Psalm 33:22 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-13'>
+<title>The Word for Saturday, 13 October 2018</title>
+<parol book='19' chapter='33' verse='6' id='Ps33v6'>
+<text>By the word of the Lord the heavens were made,
+and by the breath of his mouth all their host.</text>
+<ref>Psalm 33:6 (ESV)</ref>
+</parol>
+<parol book='43' chapter='1' verse='10' id='J1v10'>
+<text>He was in the world,
+and the world was made through him,
+yet the world did not know him.</text>
+<ref>John 1:10</ref>
+</parol>
+</theword>
+<theword date='2018-10-14'>
+<title>The Word for Sunday, 14 October 2018</title>
+<parol book='31' chapter='1' verse='15' id='Ob1v15'>
+<text>The day of the Lord is near upon all the nations.
+As you have done, it shall be done to you;
+your deeds shall return on your own head.</text>
+<ref>Obadiah 15</ref>
+</parol>
+<parol book='60' chapter='2' verse='12' id='1P2v12'>
+<text>Keep your conduct among the Gentiles honorable,
+so that when they speak against you as evildoers,
+they may see your good deeds
+and glorify God on the day of visitation.</text>
+<ref>1 Peter 2:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-15'>
+<title>The Word for Monday, 15 October 2018</title>
+<parol book='2' chapter='15' verse='13' id='Ex15v13'>
+<text>You have led in your steadfast love
+the people whom you have redeemed.</text>
+<ref>Exodus 15:13</ref>
+</parol>
+<parol book='42' chapter='1' verse='54' id='L1v54-55'>
+<intro>Mary said:</intro>
+<text>God has helped his servant Israel,
+in remembrance of his mercy,
+as he spoke to our fathers,
+to Abraham and to his offspring forever.</text>
+<ref>Luke 1:54-55 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-16'>
+<title>The Word for Tuesday, 16 October 2018</title>
+<parol book='40' chapter='2' verse='9' id='Mt2v9'>
+<text>The star that they had seen when it rose
+went before them until it came to rest
+over the place where the child was.</text>
+<ref>Matthew 2:9 (ESV)</ref>
+</parol>
+<parol book='19' chapter='73' verse='24' id='Ps73v24'>
+<text>You guide me with your counsel,
+and afterward you will receive me to glory.</text>
+<ref>Psalm 73:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-17'>
+<title>The Word for Wednesday, 17 October 2018</title>
+<parol book='30' chapter='4' verse='11' id='Am4v11'>
+<text>You were as a brand plucked out of the burning;
+yet you did not return to me,
+declares the Lord.</text>
+<ref>Amos 4:11 (ESV)</ref>
+</parol>
+<parol book='23' chapter='12' verse='1' id='Is12v1'>
+<text>I will give thanks to you, O Lord,
+for though you were angry with me,
+your anger turned away,
+that you might comfort me.</text>
+<ref>Isaiah 12:1</ref>
+</parol>
+</theword>
+<theword date='2018-10-18'>
+<title>The Word for Thursday, 18 October 2018</title>
+<parol book='58' chapter='13' verse='3' id='H13v3'>
+<text>Remember those who are in prison,
+as though in prison with them.</text>
+<ref>Hebrews 13:3 (ESV)</ref>
+</parol>
+<parol book='45' chapter='12' verse='15' id='R12v15'>
+<text>Rejoice with those who rejoice,
+weep with those who weep.</text>
+<ref>Romans 12:15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-19'>
+<title>The Word for Friday, 19 October 2018</title>
+<parol book='45' chapter='8' verse='31' id='R8v31'>
+<text>If God is for us, who can be against us?</text>
+<ref>Romans 8:31 (ESV)</ref>
+</parol>
+<parol book='1' chapter='26' verse='24' id='Gn26v24'>
+<text>Fear not, for I am with you and will bless you.</text>
+<ref>Genesis 26:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-20'>
+<title>The Word for Saturday, 20 October 2018</title>
+<parol book='1' chapter='18' verse='13' id='Gn18v13-14'>
+<text>The Lord said to Abraham,
+Why did Sarah laugh and say,
+“Shall I indeed bear a child, now that I am old?”
+Is anything too hard for the Lord?
+At the appointed time I will return to you,
+about this time next year, and Sarah shall have a son.</text>
+<ref>Genesis 18:13-14 (ESV)</ref>
+</parol>
+<parol book='42' chapter='1' verse='45' id='L1v45'>
+<intro>Elizabeth exclaimed about Mary:</intro>
+<text>Blessed is she who believed that there would be a fulfillment
+of what was spoken to her from the Lord.</text>
+<ref>Luke 1:45 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-21'>
+<title>The Word for Sunday, 21 October 2018</title>
+<parol book='19' chapter='34' verse='9' id='Ps34v9'>
+<text>Oh, taste and see that the Lord is good!
+Blessed is the man who takes refuge in him!</text>
+<ref>Psalm 34:8 (ESV)</ref>
+</parol>
+<parol book='43' chapter='21' verse='13' id='J21v13'>
+<intro>By the Sea of Tiberias after the resurrection of Jesus:</intro>
+<text>Jesus came and took the bread
+and gave it to the disciples,
+and so with the fish.</text>
+<ref>John 21:13</ref>
+</parol>
+</theword>
+<theword date='2018-10-22'>
+<title>The Word for Monday, 22 October 2018</title>
+<parol book='24' chapter='11' verse='20' id='Jr11v20'>
+<text>To you have I committed my cause.</text>
+<ref>Jeremiah 11:20</ref>
+</parol>
+<parol book='23' chapter='33' verse='22' id='Is33v22'>
+<text>The Lord is our judge; the Lord is our lawgiver;
+the Lord is our king; he will save us.</text>
+<ref>Isaiah 33:22</ref>
+</parol>
+</theword>
+<theword date='2018-10-23'>
+<title>The Word for Tuesday, 23 October 2018</title>
+<parol book='35' chapter='1' verse='2' id='Hab1v2'>
+<text>O Lord, how long shall I cry for help, and you will not hear?
+Or cry to you “Violence!” and you will not save?</text>
+<ref>Habakkuk 1:2 (ESV)</ref>
+</parol>
+<parol book='19' chapter='119' verse='67' id='Ps119v67'>
+<text>Before I was afflicted I went astray,
+but now I keep your word.</text>
+<ref>Psalm 119:67 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-24'>
+<title>The Word for Wednesday, 24 October 2018</title>
+<parol book='26' chapter='13' verse='3' id='Ez13v3'>
+<text>Woe to the foolish prophets
+who follow their own spirit,
+and have seen nothing!</text>
+<ref>Ezekiel 13:3 (ESV)</ref>
+</parol>
+<parol book='62' chapter='4' verse='1' id='1J4v1'>
+<text>Beloved, do not believe every spirit,
+but test the spirits to see whether they are from God,
+for many false prophets have gone out into the world.</text>
+<ref>1 John 4:1 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-25'>
+<title>The Word for Thursday, 25 October 2018</title>
+<parol book='1' chapter='21' verse='22' id='Gn21v22'>
+<text>God is with you in all that you do.</text>
+<ref>Genesis 21:22 (ESV)</ref>
+</parol>
+<parol book='46' chapter='10' verse='31' id='1K10v31'>
+<text>Whether you eat or drink, or whatever you do,
+do all to the glory of God.</text>
+<ref>1 Corinthians 10:31</ref>
+</parol>
+</theword>
+<theword date='2018-10-26'>
+<title>The Word for Friday, 26 October 2018</title>
+<parol book='47' chapter='5' verse='7' id='2K5v7'>
+<text>We walk by faith, not by sight.</text>
+<ref>2 Corinthians 5:7 (ESV)</ref>
+</parol>
+<parol book='58' chapter='11' verse='8' id='H11v8'>
+<text>By faith Abraham obeyed when he was called to go out
+to a place that he was to receive as an inheritance.
+And he went out, not knowing where he was going.</text>
+<ref>Hebrews 11:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-27'>
+<title>The Word for Saturday, 27 October 2018</title>
+<parol book='5' chapter='6' verse='18' id='Dt6v18'>
+<text>You shall do what is right and good in the sight of the Lord,
+that it may go well with you,
+and that you may go in and take possession of the good land
+that the Lord swore to give to your fathers.</text>
+<ref>Deuteronomy 6:18 (ESV)</ref>
+</parol>
+<parol book='45' chapter='4' verse='21' id='R4v21'>
+<text>Abraham was fully convinced
+that God was able to do what he had promised.</text>
+<ref>Romans 4:21 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-28'>
+<title>The Word for Sunday, 28 October 2018</title>
+<parol book='19' chapter='60' verse='14' id='Ps60v14'>
+<text>With God we shall do valiantly.</text>
+<ref>Psalm 60:12 (ESV)</ref>
+</parol>
+<parol book='43' chapter='5' verse='20' id='J5v20'>
+<text>The Father loves the Son
+and shows him all that he himself is doing.
+And greater works than these will he show him,
+so that you may marvel.</text>
+<ref>John 5:20</ref>
+</parol>
+</theword>
+<theword date='2018-10-29'>
+<title>The Word for Monday, 29 October 2018</title>
+<parol book='49' chapter='5' verse='13' id='E5v13-14'>
+<text>Anything that becomes visible is light.
+Therefore it says,
+Awake, O sleeper, and arise from the dead,
+and Christ will shine on you.</text>
+<ref>Ephesians 5:13-14</ref>
+</parol>
+<parol book='43' chapter='8' verse='12' id='J8v12'>
+<text>Jesus spoke,
+I am the light of the world.
+Whoever follows me will not walk in darkness,
+but will have the light of life.</text>
+<ref>John 8:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-30'>
+<title>The Word for Tuesday, 30 October 2018</title>
+<parol book='59' chapter='2' verse='8' id='Jc2v8-9'>
+<text>If you really fulfill the royal law according to the Scripture,
+“You shall love your neighbor as yourself,”
+you are doing well.
+But if you show partiality, you are committing sin
+and are convicted by the law as transgressors.</text>
+<ref>James 2:8-9 (ESV)</ref>
+</parol>
+<parol book='14' chapter='19' verse='7' id='2Chr19v7'>
+<text>There is no injustice with the Lord our God,
+or partiality or taking bribes.</text>
+<ref>2 Chronicles 19:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-10-31'>
+<title>The Word for Wednesday, 31 October 2018</title>
+<parol book='24' chapter='10' verse='10' id='Jr10v10'>
+<text>The Lord is the true God;
+he is the living God and the everlasting King.</text>
+<ref>Jeremiah 10:10</ref>
+</parol>
+<parol book='43' chapter='8' verse='31' id='J8v31-32'>
+<text>Jesus said to the Jews who had believed in him,
+If you abide in my word,
+you are truly my disciples,
+and you will know the truth,
+and the truth will set you free.</text>
+<ref>John 8:31-32 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-01'>
+<title>The Word for Thursday, 1 November 2018</title>
+<parol book='19' chapter='81' verse='2' id='Ps81v2'>
+<text>Sing aloud to God our strength;
+shout for joy to the God of Jacob!</text>
+<ref>Psalm 81:1 (ESV)</ref>
+</parol>
+<parol book='34' chapter='2' verse='1' id='Nah2v1'>
+<text>Behold, upon the mountains, the feet of him
+who brings good news,
+who publishes peace!</text>
+<ref>Nahum 1:15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-02'>
+<title>The Word for Friday, 2 November 2018</title>
+<parol book='50' chapter='4' verse='11' id='Ph4v11'>
+<intro>Paul writes:</intro>
+<text>I have learned
+in whatever situation I am
+to be content.</text>
+<ref>Philippians 4:11</ref>
+</parol>
+<parol book='58' chapter='13' verse='5' id='H13v5'>
+<text>Keep your life free from love of money,
+and be content with what you have, for he has said,
+I will never leave you nor forsake you.</text>
+<ref>Hebrews 13:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-03'>
+<title>The Word for Saturday, 3 November 2018</title>
+<parol book='2' chapter='23' verse='1' id='Ex23v1'>
+<text>You shall not spread a false report.</text>
+<ref>Exodus 23:1</ref>
+</parol>
+<parol book='40' chapter='5' verse='37' id='Mt5v37'>
+<text>Let what you say be simply ‘Yes’ or ‘No’;
+anything more than this comes from evil.</text>
+<ref>Matthew 5:37 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-04'>
+<title>The Word for Sunday, 4 November 2018</title>
+<parol book='3' chapter='19' verse='14' id='Lv19v14'>
+<text>You shall not curse the deaf
+or put a stumbling block before the blind,
+but you shall fear your God.</text>
+<ref>Leviticus 19:14 (ESV)</ref>
+</parol>
+<parol book='20' chapter='14' verse='31' id='Prv14v31'>
+<text>Whoever oppresses a poor man insults his Maker,
+but he who is generous to the needy honors him.</text>
+<ref>Proverbs 14:31 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-05'>
+<title>The Word for Monday, 5 November 2018</title>
+<parol book='51' chapter='4' verse='2' id='Kol4v2'>
+<text>Continue steadfastly in prayer,
+being watchful in it with thanksgiving.</text>
+<ref>Colossians 4:2 (ESV)</ref>
+</parol>
+<parol book='40' chapter='26' verse='41' id='Mt26v41'>
+<text>Watch and pray that you may not enter into temptation.
+The spirit indeed is willing, but the flesh is weak.</text>
+<ref>Matthew 26:41</ref>
+</parol>
+</theword>
+<theword date='2018-11-06'>
+<title>The Word for Tuesday, 6 November 2018</title>
+<parol book='1' chapter='18' verse='23' id='Gn18v23-24'>
+<intro>Abraham asked the Lord for Sodom and Gomorrah:</intro>
+<text>Will you indeed sweep away the righteous with the wicked?
+Suppose there are fifty righteous within the city.
+Will you then sweep away the place
+and not spare it for the fifty righteous who are in it?</text>
+<ref>Genesis 18:23-24 (ESV)</ref>
+</parol>
+<parol book='25' chapter='3' verse='22' id='Thr3v22-23'>
+<text>The steadfast love of the Lord never ceases;
+his mercies never come to an end;
+they are new every morning;
+great is your faithfulness.</text>
+<ref>Lamentations 3:22-23 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-07'>
+<title>The Word for Wednesday, 7 November 2018</title>
+<parol book='10' chapter='23' verse='3' id='2Sm23v3-4'>
+<text>When one rules justly over men, ruling in the fear of God,
+he dawns on them like the morning light,
+like the sun shining forth on a cloudless morning.</text>
+<ref>2 Samuel 23:3-4 (ESV)</ref>
+</parol>
+<parol book='7' chapter='5' verse='31' id='Jdc5v31'>
+<intro>Deborah and Barak sang to the Lord:</intro>
+<text>Your friends be like the sun as he rises in his might.</text>
+<ref>Judges 5:31</ref>
+</parol>
+</theword>
+<theword date='2018-11-08'>
+<title>The Word for Thursday, 8 November 2018</title>
+<parol book='1' chapter='15' verse='1' id='Gn15v1'>
+<text>Fear not, Abram, I am your shield;
+your reward shall be very great.</text>
+<ref>Genesis 15:1 (ESV)</ref>
+</parol>
+<parol book='23' chapter='49' verse='4' id='Is49v4'>
+<text>But I said,
+“I have labored in vain;
+I have spent my strength for nothing and vanity;
+yet surely my right is with the Lord,
+and my recompense with my God.”</text>
+<ref>Isaiah 49:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-09'>
+<title>The Word for Friday, 9 November 2018</title>
+<parol book='44' chapter='5' verse='25' id='Act5v25'>
+<text>Someone came and told the council,
+Look! The men whom you put in prison
+are standing in the temple and teaching the people.</text>
+<ref>Acts 5:25 (ESV)</ref>
+</parol>
+<parol book='43' chapter='8' verse='36' id='J8v36'>
+<text>If the Son sets you free,
+you will be free indeed.</text>
+<ref>John 8:36 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-10'>
+<title>The Word for Saturday, 10 November 2018</title>
+<parol book='10' chapter='15' verse='26' id='2Sm15v26'>
+<text>Behold, here I am,
+let the Lord do to me what seems good to him.</text>
+<ref>2 Samuel 15:26 (ESV)</ref>
+</parol>
+<parol book='19' chapter='86' verse='2' id='Ps86v2'>
+<text>Save your servant,
+who trusts in you—you are my God.</text>
+<ref>Psalm 86:2</ref>
+</parol>
+</theword>
+<theword date='2018-11-11'>
+<title>The Word for Sunday, 11 November 2018</title>
+<parol book='19' chapter='145' verse='9' id='Ps145v9'>
+<text>The Lord is good to all,
+and his mercy is over all that he has made.</text>
+<ref>Psalm 145:9 (ESV)</ref>
+</parol>
+<parol book='43' chapter='8' verse='10' id='J8v10-11'>
+<text>Jesus stood up and said to her,
+“Woman, where are they?
+Has no one condemned you?”
+She said, “No one, Lord.”
+And Jesus said,
+“Neither do I condemn you;
+go, and from now on sin no more.”</text>
+<ref>John 8:10-11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-12'>
+<title>The Word for Monday, 12 November 2018</title>
+<parol book='19' chapter='90' verse='4' id='Ps90v4'>
+<text>A thousand years in your sight
+are but as yesterday when it is past,
+or as a watch in the night.</text>
+<ref>Psalm 90:4 (ESV)</ref>
+</parol>
+<parol book='18' chapter='8' verse='9' id='Job8v9'>
+<text>We are but of yesterday and know nothing,
+for our days on earth are a shadow.</text>
+<ref>Job 8:9</ref>
+</parol>
+</theword>
+<theword date='2018-11-13'>
+<title>The Word for Tuesday, 13 November 2018</title>
+<parol book='23' chapter='53' verse='12' id='Is53v12'>
+<text>Therefore I will divide him a portion with the many,
+and he shall divide the spoil with the strong,
+because he poured out his soul to death.</text>
+<ref>Isaiah 53:12 (ESV)</ref>
+</parol>
+<parol book='50' chapter='2' verse='10' id='Ph2v10-11'>
+<text>At the name of Jesus every knee should bow,
+in heaven and on earth and under the earth,
+and every tongue confess that Jesus Christ is Lord,
+to the glory of God the Father.</text>
+<ref>Philippians 2:10-11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-14'>
+<title>The Word for Wednesday, 14 November 2018</title>
+<parol book='19' chapter='38' verse='22' id='Ps38v22'>
+<text>Do not forsake me, O Lord!
+O my God, be not far from me!</text>
+<ref>Psalm 38:21 (ESV)</ref>
+</parol>
+<parol book='19' chapter='33' verse='4' id='Ps33v4'>
+<text>The word of the Lord is upright,
+and all his work is done in faithfulness.</text>
+<ref>Psalm 33:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-15'>
+<title>The Word for Thursday, 15 November 2018</title>
+<parol book='23' chapter='51' verse='16' id='Is51v16'>
+<text>And I have put my words in your mouth
+and covered you in the shadow of my hand.</text>
+<ref>Isaiah 51:16 (ESV)</ref>
+</parol>
+<parol book='41' chapter='13' verse='11' id='Mc13v11'>
+<text>When they bring you to trial and deliver you over,
+do not be anxious beforehand what you are to say,
+but say whatever is given you in that hour,
+for it is not you who speak, but the Holy Spirit.</text>
+<ref>Mark 13:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-16'>
+<title>The Word for Friday, 16 November 2018</title>
+<parol book='11' chapter='8' verse='61' id='1Rg8v61'>
+<text>Let your heart be wholly true to the Lord our God.</text>
+<ref>1 Kings 8:61</ref>
+</parol>
+<parol book='59' chapter='1' verse='7' id='Jc1v7-8'>
+<text>That person must not suppose
+that he will receive anything from the Lord;
+he is a double-minded man,
+unstable in all his ways.</text>
+<ref>James 1:7-8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-17'>
+<title>The Word for Saturday, 17 November 2018</title>
+<parol book='19' chapter='71' verse='17' id='Ps71v17'>
+<text>O God, from my youth you have taught me,
+and I still proclaim your wondrous deeds.</text>
+<ref>Psalm 71:17 (ESV)</ref>
+</parol>
+<parol book='58' chapter='11' verse='6' id='H11v6'>
+<text>Without faith it is impossible to please him,
+for whoever would draw near to God
+must believe that he exists
+and that he rewards those who seek him.</text>
+<ref>Hebrews 11:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-18'>
+<title>The Word for Sunday, 18 November 2018</title>
+<parol book='7' chapter='8' verse='23' id='Jdc8v23'>
+<text>Gideon said to the men of Israel,
+I will not rule over you,
+and my son will not rule over you;
+the Lord will rule over you.</text>
+<ref>Judges 8:23</ref>
+</parol>
+<parol book='45' chapter='9' verse='16' id='R9v16'>
+<text>It depends not on human will or exertion,
+but on God, who has mercy.</text>
+<ref>Romans 9:16 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-19'>
+<title>The Word for Monday, 19 November 2018</title>
+<parol book='66' chapter='2' verse='8' id='Ap2v8'>
+<text>To the angel of the church in Smyrna write:
+The words of the first and the last,
+who died and came to life.</text>
+<ref>Revelation 2:8</ref>
+</parol>
+<parol book='45' chapter='8' verse='34' id='R8v34'>
+<text>Who is to condemn?
+Christ Jesus is the one who died—more than that,
+who was raised—who is at the right hand of God,
+who indeed is interceding for us.</text>
+<ref>Romans 8:34 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-20'>
+<title>The Word for Tuesday, 20 November 2018</title>
+<parol book='19' chapter='9' verse='3' id='Ps9v3'>
+<text>I will be glad and exult in you;
+I will sing praise to your name, O Most High.</text>
+<ref>Psalm 9:2 (ESV)</ref>
+</parol>
+<parol book='40' chapter='12' verse='35' id='Mt12v35'>
+<text>The good person out of his good treasure brings forth good,
+and the evil person out of his evil treasure brings forth evil.</text>
+<ref>Matthew 12:35 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-21'>
+<title>The Word for Wednesday, 21 November 2018</title>
+<parol book='26' chapter='37' verse='12' id='Ez37v12'>
+<text>Thus says the Lord God:
+Behold, I will open your graves
+and raise you from your graves, O my people.
+And I will bring you into the land of Israel.</text>
+<ref>Ezekiel 37:12 (ESV)</ref>
+</parol>
+<parol book='66' chapter='22' verse='5' id='Ap22v5'>
+<intro>John describes the heavenly city:</intro>
+<text>Night will be no more.
+They will need no light of lamp or sun,
+for the Lord God will be their light,
+and they will reign forever and ever.</text>
+<ref>Revelation 22:5 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-22'>
+<title>The Word for Thursday, 22 November 2018</title>
+<parol book='19' chapter='40' verse='12' id='Ps40v12'>
+<text>As for you, O Lord,
+you will not restrain your mercy from me;
+your steadfast love and your faithfulness
+will ever preserve me!</text>
+<ref>Psalm 40:11 (ESV)</ref>
+</parol>
+<parol book='19' chapter='91' verse='11' id='Ps91v11-12'>
+<text>He will command his angels concerning you
+to guard you in all your ways.
+On their hands they will bear you up,
+lest you strike your foot against a stone.</text>
+<ref>Psalm 91:11-12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-23'>
+<title>The Word for Friday, 23 November 2018</title>
+<parol book='66' chapter='14' verse='6' id='Ap14v6'>
+<intro>John writes:</intro>
+<text>I saw another angel flying directly overhead,
+with an eternal gospel
+to proclaim to those who dwell on earth,
+to every nation and tribe and language and people.</text>
+<ref>Revelation 14:6 (ESV)</ref>
+</parol>
+<parol book='41' chapter='13' verse='10' id='Mc13v10'>
+<intro>Jesus said about the end of the world:</intro>
+<text>The gospel must first be proclaimed to all nations.</text>
+<ref>Mark 13:10 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-24'>
+<title>The Word for Saturday, 24 November 2018</title>
+<parol book='58' chapter='2' verse='18' id='H2v18'>
+<text>Because he himself has suffered when tempted,
+he is able to help those who are being tempted.</text>
+<ref>Hebrews 2:18 (ESV)</ref>
+</parol>
+<parol book='23' chapter='53' verse='4' id='Is53v4'>
+<text>Surely he has borne our griefs
+and carried our sorrows;
+yet we esteemed him stricken,
+smitten by God, and afflicted.</text>
+<ref>Isaiah 53:4 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-25'>
+<title>The Word for Sunday, 25 November 2018</title>
+<parol book='43' chapter='7' verse='18' id='J7v18'>
+<text>The one who speaks on his own authority seeks his own glory;
+but the one who seeks the glory of him who sent him is true,
+and in him there is no falsehood.</text>
+<ref>John 7:18</ref>
+</parol>
+<parol book='66' chapter='3' verse='8' id='Ap3v8'>
+<text>I know your works.
+Behold, I have set before you an open door,
+which no one is able to shut.
+I know that you have but little power,
+and yet you have kept my word
+and have not denied my name.</text>
+<ref>Revelation 3:8 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-26'>
+<title>The Word for Monday, 26 November 2018</title>
+<parol book='20' chapter='15' verse='1' id='Prv15v1'>
+<text>A soft answer turns away wrath,
+but a harsh word stirs up anger.</text>
+<ref>Proverbs 15:1</ref>
+</parol>
+<parol book='40' chapter='5' verse='44' id='Mt5v44-45'>
+<text>Love your enemies and pray for those who persecute you,
+so that you may be sons of your Father who is in heaven.</text>
+<ref>Matthew 5:44-45 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-27'>
+<title>The Word for Tuesday, 27 November 2018</title>
+<parol book='27' chapter='9' verse='18' id='Dn9v18'>
+<text>We do not present our pleas before you
+because of our righteousness,
+but because of your great mercy.</text>
+<ref>Daniel 9:18 (ESV)</ref>
+</parol>
+<parol book='42' chapter='6' verse='36' id='L6v36'>
+<text>Be merciful, even as your Father is merciful.</text>
+<ref>Luke 6:36 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-28'>
+<title>The Word for Wednesday, 28 November 2018</title>
+<parol book='19' chapter='147' verse='15' id='Ps147v15'>
+<text>He sends out his command to the earth;
+his word runs swiftly.</text>
+<ref>Psalm 147:15</ref>
+</parol>
+<parol book='45' chapter='16' verse='20' id='R16v20'>
+<text>The God of peace will soon crush Satan under your feet.
+The grace of our Lord Jesus Christ be with you.</text>
+<ref>Romans 16:20</ref>
+</parol>
+</theword>
+<theword date='2018-11-29'>
+<title>The Word for Thursday, 29 November 2018</title>
+<parol book='19' chapter='141' verse='8' id='Ps141v8'>
+<text>My eyes are toward you, O God, my Lord;
+in you I seek refuge;
+leave me not defenseless!</text>
+<ref>Psalm 141:8 (ESV)</ref>
+</parol>
+<parol book='18' chapter='19' verse='25' id='Job19v25-26'>
+<intro>Job said:</intro>
+<text>I know that my Redeemer lives,
+and at the last he will stand upon the earth.
+And after my skin has been thus destroyed,
+yet in my flesh I shall see God.</text>
+<ref>Job 19:25-26 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-11-30'>
+<title>The Word for Friday, 30 November 2018</title>
+<parol book='59' chapter='1' verse='19' id='Jc1v19-20'>
+<text>Let every person be quick to hear,
+slow to speak, slow to anger;
+for the anger of man
+does not produce the righteousness of God.</text>
+<ref>James 1:19-20 (ESV)</ref>
+</parol>
+<parol book='62' chapter='3' verse='18' id='1J3v18'>
+<text>Let us not love in word or talk
+but in deed and in truth.</text>
+<ref>1 John 3:18 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-01'>
+<title>The Word for Saturday, 1 December 2018</title>
+<parol book='19' chapter='81' verse='8' id='Ps81v8'>
+<text>In distress you called, and I delivered you.</text>
+<ref>Psalm 81:7 (ESV)</ref>
+</parol>
+<parol book='23' chapter='43' verse='11' id='Is43v11'>
+<text>I, I am the Lord,
+and besides me there is no savior.</text>
+<ref>Isaiah 43:11 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-02'>
+<title>The Word for Sunday, 2 December 2018</title>
+<parol book='4' chapter='24' verse='17' id='Nu24v17'>
+<text>A star shall come out of Jacob,
+and a scepter shall rise out of Israel.</text>
+<ref>Numbers 24:17 (ESV)</ref>
+</parol>
+<parol book='33' chapter='5' verse='1' id='Mch5v1'>
+<text>You, O Bethlehem Ephrathah,
+who are too little to be among the clans of Judah,
+from you shall come forth for me
+one who is to be ruler in Israel,
+whose coming forth is from of old,
+from ancient days.</text>
+<ref>Micah 5:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-03'>
+<title>The Word for Monday, 3 December 2018</title>
+<parol book='19' chapter='69' verse='33' id='Ps69v33'>
+<text>You who seek God, let your hearts revive.</text>
+<ref>Psalm 69:32 (ESV)</ref>
+</parol>
+<parol book='24' chapter='29' verse='13' id='Jr29v13-14'>
+<text>You will seek me and find me,
+when you seek me with all your heart.
+I will be found by you, declares the Lord.</text>
+<ref>Jeremiah 29:13-14 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-04'>
+<title>The Word for Tuesday, 4 December 2018</title>
+<parol book='19' chapter='57' verse='11' id='Ps57v11'>
+<text>Your steadfast love is great to the heavens,
+your faithfulness to the clouds.</text>
+<ref>Psalm 57:10 (ESV)</ref>
+</parol>
+<parol book='52' chapter='5' verse='24' id='1Th5v24'>
+<text>He who calls you is faithful;
+he will surely do it.</text>
+<ref>1 Thessalonians 5:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-05'>
+<title>The Word for Wednesday, 5 December 2018</title>
+<parol book='19' chapter='147' verse='11' id='Ps147v11'>
+<text>The Lord takes pleasure in those who fear him,
+in those who hope in his steadfast love.</text>
+<ref>Psalm 147:11</ref>
+</parol>
+<parol book='36' chapter='3' verse='12' id='Zph3v12'>
+<text>I will leave in your midst a people humble and lowly.
+They shall seek refuge in the name of the Lord.</text>
+<ref>Zephaniah 3:12</ref>
+</parol>
+</theword>
+<theword date='2018-12-06'>
+<title>The Word for Thursday, 6 December 2018</title>
+<parol book='19' chapter='25' verse='6' id='Ps25v6'>
+<text>Remember your mercy, O Lord,
+and your steadfast love,
+for they have been from of old.</text>
+<ref>Psalm 25:6 (ESV)</ref>
+</parol>
+<parol book='62' chapter='2' verse='25' id='1J2v25'>
+<text>This is the promise that he made to us—eternal life.</text>
+<ref>1 John 2:25 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-07'>
+<title>The Word for Friday, 7 December 2018</title>
+<parol book='2' chapter='32' verse='31' id='Ex32v31-32'>
+<text>This people has sinned a great sin.
+They have made for themselves gods of gold.
+But now, if you will forgive their sin—but if not,
+please blot me out of your book that you have written.</text>
+<ref>Exodus 32:31-32 (ESV)</ref>
+</parol>
+<parol book='42' chapter='23' verse='34' id='L23v34'>
+<text>Jesus said,
+Father, forgive them,
+for they know not what they do.</text>
+<ref>Luke 23:34 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-08'>
+<title>The Word for Saturday, 8 December 2018</title>
+<parol book='19' chapter='71' verse='16' id='Ps71v16'>
+<text>With the mighty deeds of the Lord God I will come;
+I will remind them of your righteousness, yours alone.</text>
+<ref>Psalm 71:16</ref>
+</parol>
+<parol book='19' chapter='24' verse='10' id='Ps24v10'>
+<text>Who is this King of glory?
+The Lord of hosts,
+he is the King of glory!</text>
+<ref>Psalm 24:10</ref>
+</parol>
+</theword>
+<theword date='2018-12-09'>
+<title>The Word for Sunday, 9 December 2018</title>
+<parol book='19' chapter='138' verse='8' id='Ps138v8'>
+<text>Your steadfast love, O Lord, endures forever.
+Do not forsake the work of your hands.</text>
+<ref>Psalm 138:8</ref>
+</parol>
+<parol book='19' chapter='111' verse='4' id='Ps111v4'>
+<text>He has caused his wondrous works to be remembered;
+the Lord is gracious and merciful.</text>
+<ref>Psalm 111:4</ref>
+</parol>
+</theword>
+<theword date='2018-12-10'>
+<title>The Word for Monday, 10 December 2018</title>
+<parol book='44' chapter='7' verse='36' id='Act7v36'>
+<text>Moses led them out,
+performing wonders and signs in Egypt and at the Red Sea
+and in the wilderness for forty years.</text>
+<ref>Acts 7:36 (ESV)</ref>
+</parol>
+<parol book='19' chapter='18' verse='20' id='Ps18v20'>
+<text>He brought me out into a broad place;
+he rescued me, because he delighted in me.</text>
+<ref>Psalm 18:19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-11'>
+<title>The Word for Tuesday, 11 December 2018</title>
+<parol book='19' chapter='71' verse='23' id='Ps71v23'>
+<text>My lips will shout for joy, when I sing praises to you;
+my soul also, which you have redeemed.</text>
+<ref>Psalm 71:23</ref>
+</parol>
+<parol book='66' chapter='5' verse='13' id='Ap5v13'>
+<text>To him who sits on the throne and to the Lamb
+be blessing and honor and glory and might forever and ever!</text>
+<ref>Revelation 5:13 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-12'>
+<title>The Word for Wednesday, 12 December 2018</title>
+<parol book='2' chapter='16' verse='12' id='Ex16v12'>
+<text>You shall know that I am the Lord your God.</text>
+<ref>Exodus 16:12 (ESV)</ref>
+</parol>
+<parol book='43' chapter='6' verse='68' id='J6v68-69'>
+<text>Simon Peter answered Jesus,
+Lord, to whom shall we go?
+You have the words of eternal life,
+and we have believed, and have come to know,
+that you are the Holy One of God.</text>
+<ref>John 6:68-69 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-13'>
+<title>The Word for Thursday, 13 December 2018</title>
+<parol book='2' chapter='34' verse='21' id='Ex34v21'>
+<text>Six days you shall work,
+but on the seventh day you shall rest.
+In plowing time and in harvest you shall rest.</text>
+<ref>Exodus 34:21</ref>
+</parol>
+<parol book='40' chapter='12' verse='12' id='Mt12v12'>
+<text>It is lawful to do good on the Sabbath.</text>
+<ref>Matthew 12:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-14'>
+<title>The Word for Friday, 14 December 2018</title>
+<parol book='19' chapter='74' verse='16' id='Ps74v16-17'>
+<text>Yours is the day, yours also the night;
+you have established the heavenly lights and the sun.
+You have fixed all the boundaries of the earth;
+you have made summer and winter.</text>
+<ref>Psalm 74:16-17</ref>
+</parol>
+<parol book='19' chapter='104' verse='24' id='Ps104v24'>
+<text>O Lord, how manifold are your works!
+In wisdom have you made them all;
+the earth is full of your creatures.</text>
+<ref>Psalm 104:24 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-15'>
+<title>The Word for Saturday, 15 December 2018</title>
+<parol book='19' chapter='16' verse='8' id='Ps16v8'>
+<text>I have set the Lord always before me;
+because he is at my right hand,
+I shall not be shaken.</text>
+<ref>Psalm 16:8 (ESV)</ref>
+</parol>
+<parol book='42' chapter='21' verse='28' id='L21v28'>
+<intro>Jesus said:</intro>
+<text>When these things begin to take place,
+straighten up and raise your heads,
+because your redemption is drawing near.</text>
+<ref>Luke 21:28</ref>
+</parol>
+</theword>
+<theword date='2018-12-16'>
+<title>The Word for Sunday, 16 December 2018</title>
+<parol book='43' chapter='9' verse='5' id='J9v5'>
+<intro>Jesus said:</intro>
+<text>As long as I am in the world,
+I am the light of the world.</text>
+<ref>John 9:5</ref>
+</parol>
+<parol book='62' chapter='1' verse='7' id='1J1v7'>
+<text>If we walk in the light, as he is in the light,
+we have fellowship with one another,
+and the blood of Jesus his Son cleanses us from all sin.</text>
+<ref>1 John 1:7 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-17'>
+<title>The Word for Monday, 17 December 2018</title>
+<parol book='19' chapter='31' verse='23' id='Ps31v23'>
+<text>I had said in my alarm,
+“I am cut off from your sight.”
+But you heard the voice of my pleas for mercy
+when I cried to you for help.</text>
+<ref>Psalm 31:22 (ESV)</ref>
+</parol>
+<parol book='59' chapter='5' verse='15' id='Jc5v15'>
+<text>The prayer of faith will save the one who is sick,
+and the Lord will raise him up.
+And if he has committed sins,
+he will be forgiven.</text>
+<ref>James 5:15 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-18'>
+<title>The Word for Tuesday, 18 December 2018</title>
+<parol book='43' chapter='9' verse='32' id='J9v32'>
+<intro>The man who had been blind said to the Jews:</intro>
+<text>Never since the world began has it been heard
+that anyone opened the eyes of a man born blind.</text>
+<ref>John 9:32</ref>
+</parol>
+<parol book='40' chapter='9' verse='2' id='Mt9v2'>
+<text>Some people brought to him a paralytic, lying on a bed.
+And when Jesus saw their faith, he said to the paralytic,
+Take heart, my son; your sins are forgiven.</text>
+<ref>Matthew 9:2 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-19'>
+<title>The Word for Wednesday, 19 December 2018</title>
+<parol book='44' chapter='16' verse='29' id='Act16v29'>
+<text>The jailer called for lights and rushed in,
+and trembling with fear he fell down before Paul and Silas.</text>
+<ref>Acts 16:29 (ESV)</ref>
+</parol>
+<parol book='19' chapter='34' verse='20' id='Ps34v20'>
+<text>Many are the afflictions of the righteous,
+but the Lord delivers him out of them all.</text>
+<ref>Psalm 34:19 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-20'>
+<title>The Word for Thursday, 20 December 2018</title>
+<parol book='24' chapter='4' verse='3' id='Jr4v3'>
+<text>Break up your fallow ground,
+and sow not among thorns.</text>
+<ref>Jeremiah 4:3 (ESV)</ref>
+</parol>
+<parol book='28' chapter='10' verse='12' id='Hos10v12'>
+<text>Sow for yourselves righteousness;
+reap steadfast love.</text>
+<ref>Hosea 10:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-21'>
+<title>The Word for Friday, 21 December 2018</title>
+<parol book='19' chapter='143' verse='6' id='Ps143v6'>
+<text>I stretch out my hands to you;
+my soul thirsts for you like a parched land.</text>
+<ref>Psalm 143:6 (ESV)</ref>
+</parol>
+<parol book='19' chapter='23' verse='2' id='Ps23v2-3'>
+<text>He makes me lie down in green pastures.
+He leads me beside still waters.
+He restores my soul.</text>
+<ref>Psalm 23:2-3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-22'>
+<title>The Word for Saturday, 22 December 2018</title>
+<parol book='43' chapter='14' verse='15' id='J14v15'>
+<text>If you love me,
+you will keep my commandments.</text>
+<ref>John 14:15 (ESV)</ref>
+</parol>
+<parol book='62' chapter='5' verse='3' id='1J5v3'>
+<text>This is the love of God, that we keep his commandments.
+And his commandments are not burdensome.</text>
+<ref>1 John 5:3 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-23'>
+<title>The Word for Sunday, 23 December 2018</title>
+<parol book='2' chapter='20' verse='9' id='Ex20v9-10'>
+<text>Six days you shall labor, and do all your work,
+but the seventh day is a Sabbath to the Lord your God.
+On it you shall not do any work.</text>
+<ref>Exodus 20:9-10 (ESV)</ref>
+</parol>
+<parol book='41' chapter='2' verse='27' id='Mc2v27'>
+<text>The Sabbath was made for man,
+not man for the Sabbath.</text>
+<ref>Mark 2:27 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-24'>
+<title>The Word for Monday, 24 December 2018</title>
+<parol book='40' chapter='1' verse='21' id='Mt1v21'>
+<intro>The angel of the Lord said to Joseph:</intro>
+<text>Maria will bear a son,
+and you shall call his name Jesus,
+for he will save his people from their sins.</text>
+<ref>Matthew 1:21 (ESV)</ref>
+</parol>
+<parol book='23' chapter='9' verse='5' id='Is9v5_U'>
+<text>To us a child is born, to us a son is given;
+and the government shall be upon his shoulder.</text>
+<ref>Isaiah 9:6 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-25'>
+<title>The Word for Tuesday, 25 December 2018</title>
+<parol book='49' chapter='1' verse='4' id='E1v4'>
+<text>He chose us in him before the foundation of the world,
+that we should be holy and blameless before him.</text>
+<ref>Ephesians 1:4 (ESV)</ref>
+</parol>
+<parol book='60' chapter='1' verse='23' id='1P1v23'>
+<text>You have been born again,
+not of perishable seed but of imperishable,
+through the living and abiding word of God.</text>
+<ref>1 Peter 1:23 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-26'>
+<title>The Word for Wednesday, 26 December 2018</title>
+<parol book='44' chapter='16' verse='25' id='Act16v25'>
+<text>About midnight Paul and Silas were praying
+and singing hymns to God,
+and the prisoners were listening to them.</text>
+<ref>Acts 16:25 (ESV)</ref>
+</parol>
+<parol book='59' chapter='1' verse='12' id='Jc1v12'>
+<text>Blessed is the man who remains steadfast under trial,
+for when he has stood the test he will receive the crown of life,
+which God has promised to those who love him.</text>
+<ref>James 1:12 (ESV)</ref>
+</parol>
+</theword>
+<theword date='2018-12-27'>
+<title>The Word for Thursday, 27 December 2018</title>
+<parol book='19' chapter='37' verse='8' id='Ps37v8'>
+<text>Refrain from anger, and forsake wrath!
+Fret not yourself; it tends only to evil.</text>
+<ref>Psalm 37:8 (ESV)</ref>
+</parol>
+<parol book='49' chapter='4' verse='26' id='E4v26'>
+<text>Be angry and do not sin;
+do not let the sun go down on your anger.</text>
+<ref>Ephesians 4:26</ref>
+</parol>
+</theword>
+<theword date='2018-12-28'>
+<title>The Word for Friday, 28 December 2018</title>
+<parol book='45' chapter='11' verse='32' id='R11v32'>
+<text>God has consigned all to disobedience,
+that he may have mercy on all.</text>
+<ref>Romans 11:32 (ESV)</ref>
+</parol>
+<parol book='40' chapter='18' verse='32' id='Mt18v32-33'>
+<intro>The king said to his servant:</intro>
+<text>I forgave you all that debt because you pleaded with me.
+And should not you have had mercy on your fellow servant,
+as I had mercy on you?</text>
+<ref>Matthew 18:32-33</ref>
+</parol>
+</theword>
+<theword date='2018-12-29'>
+<title>The Word for Saturday, 29 December 2018</title>
+<parol book='26' chapter='34' verse='2' id='Ez34v2'>
+<text>Ah, shepherds of Israel who have been feeding yourselves!
+Should not shepherds feed the sheep?</text>
+<ref>Ezekiel 34:2</ref>
+</parol>
+<parol book='59' chapter='3' verse='1' id='Jc3v1'>
+<text>Not many of you should become teachers, my brothers,
+for you know that we who teach
+will be judged with greater strictness.</text>
+<ref>James 3:1</ref>
+</parol>
+</theword>
+<theword date='2018-12-30'>
+<title>The Word for Sunday, 30 December 2018</title>
+<parol book='19' chapter='51' verse='17' id='Ps51v17'>
+<text>O Lord, open my lips,
+and my mouth will declare your praise.</text>
+<ref>Psalm 51:15</ref>
+</parol>
+<parol book='42' chapter='1' verse='63' id='L1v63-64'>
+<text>Zechariah asked for a writing tablet and wrote,
+“His name is John.” And they all wondered.
+And immediately his mouth was opened
+and his tongue loosed, and he spoke, blessing God.</text>
+<ref>Luke 1:63-64</ref>
+</parol>
+</theword>
+<theword date='2018-12-31'>
+<title>The Word for Monday, 31 December 2018</title>
+<parol book='19' chapter='105' verse='4' id='Ps105v4'>
+<text>Seek the Lord and his strength;
+seek his presence continually!</text>
+<ref>Psalm 105:4 (ESV)</ref>
+</parol>
+<parol book='6' chapter='1' verse='9' id='Jos1v9'>
+<text>Do not be frightened, and do not be dismayed,
+for the Lord your God is with you wherever you go.</text>
+<ref>Joshua 1:9 (ESV)</ref>
+</parol>
+</theword>
+</thewordfile>

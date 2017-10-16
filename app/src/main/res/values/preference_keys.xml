@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_theme_key" translatable="false">theme</string>
+
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_fontsize_key" translatable="false">fontsize</string>
+    <string name="pref_shownotes_key" translatable="false">shownotes</string>
+    <string name="pref_widget_backgroundcolor_key" translatable="false">widget_backgroundcolor</string>
+
+    <string name="pref_widget_fontcolor_key" translatable="false">widget_fontcolor</string>
+    <string name="pref_widget_fontsize_key" translatable="false">widget_fontsize</string>
+    <string name="pref_widget_showdate_key" translatable="false">widget_showdate</string>
+    <string name="pref_widget_centered_text_key" translatable="false">widget_centered_text</string>
+    <string name="pref_show_daily_notification_key" translatable="false">show_daily_notification</string>
+
+</resources>

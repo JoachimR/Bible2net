@@ -1,0 +1,131 @@
+<resources>
+    <string name="navigation_drawer_open">Öffne Navigation</string>
+    <string name="navigation_drawer_close">Schließe Navigation</string>
+    <string name="app_name">Das Wort</string>
+    <string name="info_general">Die app zeigt Das Wort, erstellt von </string>
+    <string name="source_code_prefix">Quellcode:</string>
+    <string name="info_participate">Wenn Sie beim Erstellen von neuen Inhalten mithelfen möchten, bitte besuchen Sie:</string>
+    <string name="pref_screen_settings_title">Einstellungen</string>
+    <string name="pref_theme_title">Thema</string>
+    <string-array name="pref_theme_themes_displayed">
+        <item>Rot/Blaugrün</item>
+        <item>Blau/Orange</item>
+        <item>Grau/Türkis</item>
+        <item>Grün/Braun</item>
+    </string-array>
+    <string name="pref_language_title">Übersetzung</string>
+    <string name="pref_app_category_title">App Einstellungen</string>
+    <string name="pref_fontsize_title">Schriftgröße</string>
+    <string name="pref_shownotes_title">Zeige Notizen</string>
+    <string name="pref_widget_category_title">Widget Einstellungen</string>
+    <string name="pref_widget_showdate_title">Widget Zeige Datum</string>
+    <string name="pref_widget_centered_text_title">Widget Zentrierter Text</string>
+    <string name="pref_widget_backgroundcolor_title">Widget Hintergrund</string>
+    <string-array name="pref_widget_backgroundcolor_colors_displayed">
+        <item>Ohne</item>
+        <item>Mit Schwarzem Rand</item>
+        <item>Weiß</item>
+        <item>Schwarz</item>
+        <item>Blau</item>
+        <item>Dunkelgrün</item>
+        <item>Grün</item>
+        <item>Grau</item>
+        <item>Hellblau</item>
+        <item>Rosa</item>
+        <item>Lila</item>
+        <item>Rot</item>
+        <item>Gelb</item>
+        <item>Transparenter Container</item>
+        <item>Schwarzer Container</item>
+        <item>Blauer Container</item>
+        <item>Dunkelgrüner Container</item>
+        <item>Grüner Container</item>
+        <item>Grauer Container</item>
+        <item>Hellblauer Container</item>
+        <item>Rosa Container</item>
+        <item>Lila Container</item>
+        <item>Roter Container</item>
+        <item>Weißer Container</item>
+        <item>Gelber Container</item>
+    </string-array>
+    <string name="pref_widget_fontcolor_title">Widget Schritfarbe</string>
+    <string-array name="pref_widget_fontcolor_colors_displayed">
+        <item>Weiß</item>
+        <item>Grau</item>
+        <item>Schwarz</item>
+        <item>Blau</item>
+        <item>Rot</item>
+        <item>Hellblau</item>
+        <item>Gelb</item>
+        <item>Grün</item>
+        <item>Dunkelgrün</item>
+        <item>Lila</item>
+        <item>Rosa</item>
+    </string-array>
+    <string name="pref_widget_fontsize_title">Widget Schriftgröße</string>
+    <string name="notes_header">Notizen:</string>
+    <string name="nav_info">Info</string>
+    <string name="menu_date_pick">Wähle Tag</string>
+    <string name="menu_share">Teilen</string>
+    <string name="share_app">Tolle Android app:\n%1$s</string>
+    <string name="nav_all_notes">Alle Notizen</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="app_version">Version %1$s</string>
+    <string name="notes_export_success">Export nach %1$s/%2$s fertig</string>
+    <string name="notes_export_error">Fehler: Konnte nicht erfolgreich exporiteren nach %1$s/%2$s …</string>
+    <string name="btn_export_export_now">Jetzt exportieren</string>
+    <string name="no_notes">Sie haben noch keine Notizen. Sie können jeden Tag Notizen unterhalb des dargestellten Worts hinzufügen.</string>
+    <string name="edit_note">Notiz editieren</string>
+    <string name="snackbar_retry">Nochmal</string>
+    <string name="cd_the_word_no_content">Kein Inhalt für dieses Datum vorhanden</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="view_pager_loading_content">Lade Daten für Übersetzung \'%1$s\'</string>
+    <string name="bible_no_bibles">Es konnten keine Übersetzungen gefunden werden</string>
+    <string name="bible_download_bibles">Übersetzungen aktualisieren</string>
+    <string name="bible_loading_bibles">Aktualisiere Übersetzungen…</string>
+    <string name="no_content">Kein Inhalt gefunden für dieses Datum und dieser Übersetzung</string>
+    <string name="no_content_download">Versuche herunterzuladen</string>
+    <string name="bible_item_language">[%1$s]</string>
+    <string name="bible_please_choose">Bitte wählen Sie eine Übersetzung.</string>
+    <string name="bible_please_choose_subhead">Sie können jederzeit die Übersetzung in den Einstellungen ändern.</string>
+    <string name="cd_bible_item">Bibel</string>
+    <string name="preferences_title">Einstellungen</string>
+    <string name="edit_note_title">Notiz editieren</string>
+    <string name="menu_edit_note_save">Speichern</string>
+    <string name="cd_main_nav_image">App Bild</string>
+    <string name="note_list_title">Alle Notizen</string>
+    <string name="bible_activity_title">@string/app_name</string>
+    <string name="main_activity_title">@string/app_name</string>
+    <string name="the_word_change_translation">Ändere Übersetzung</string>
+    <string name="cd_no_notes">Keine Notizen</string>
+    <string name="share_dialog_title">Teilen</string>
+    <string name="share_dialog_ok">Teilen</string>
+    <string name="share_dialog_input_hint">Text zum Teilen</string>
+    <string name="share_dialog_chooser_title">Teilen</string>
+    <string name="pref_display_category_title">Anzeige Einstellungen</string>
+    <string name="pref_app_show_daily_notification_title">Tägliche Benachrichtigung</string>
+    <string name="can_not_write_to_sdcard">Konnte nicht auf die SD Karte zugreifen</string>
+    <string name="note_export_subhead">Exportiere alle Notizen auf die SD Karte</string>
+    <string name="note_export_title">Notizen Exportieren</string>
+    <string name="notes_export_no_notes">Es gibt keine Notizen zum Exportieren.</string>
+    <string name="cd_widget_background">Widget Hintergrund</string>
+    <string name="edit_note_hint">Notiz zum diesem Tag</string>
+    <string name="edit_note_store_error">Fehler beim Speichern dieser Notiz…</string>
+    <string name="edit_note_load_error">Fehler beim Laden dieser Notiz…</string>
+    <string name="edit_note_load_error_retry">Versuche nochmal</string>
+    <string name="menu_edit_note_share">Teilen</string>
+    <string name="note_details_title">Notiz Details</string>
+    <string name="menu_note_details_share">Teilen</string>
+    <string name="about_title">About</string>
+    <string name="about_share">Teilen</string>
+    <string name="developer_prefix">Android Entwickler:</string>
+    <string name="info_prefix">Info:</string>
+    <string name="share_app_title">Teile App</string>
+    <string name="pref_app_show_daily_notification_summary_off">Keine Benachrichtigungen</string>
+    <string name="pref_app_show_daily_notification_summary_on">Zeige Das Wort jeden Tag als Benachrichtigung an</string>
+    <string name="pref_shownotes_summary_off">Notizen ausgeblendet</string>
+    <string name="pref_shownotes_summary_on">Notizen sichtbar unterhalb der Bibelverse</string>
+    <string name="fontsize_dialog_title">Schriftgröße setzen</string>
+    <string name="fontsize_dialog_ok">Fertig</string>
+    <string name="menu_font_size">Ändere Schriftgröße</string>
+</resources>

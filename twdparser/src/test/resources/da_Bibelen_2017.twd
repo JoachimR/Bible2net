@@ -1,0 +1,5866 @@
+<?xml version='1.0' encoding='utf-8' standalone='no' ?>
+<thewordfile dtdvers='1.1' xml:lang='da' year='2017' bible='Bibelen'>
+<head>
+<updated rev='$Id: $'>2017-01-01T05:11:01Z</updated>
+<biblename>Bibelen</biblename>
+<copyright>Copyright Ordet - Bibelen
+
+Project "Bible 2.0" (http://bible2.net), 2016.
+
+1. Related Bible References
+
+The project Bible 2.0 provides pairs of related Bible references.
+The Word associates one pair of Bible references with a certain day, respectively.
+The association of Bible references into pairs and of such pairs to days of a certain year is subject to
+
+  Licence "Creative Commons 2.0
+  http://creativecommons.org/licenses/by-nc-nd/2.0/
+  (Attribution, Noncommercial, No Derivative Works).
+
+With each publication, the following statement
+with a link to http://bible2.net must be available for the user
+(e.g. by adding a link to the copyright page):
+
+  Association of Bible references by project Bible 2.0
+
+2. Bible Texts
+
+<biblecopyright>Bibelteksten bringes med tilladelse fra Det Danske Bibelselskab
+og er fra den autoriserede oversættelse af Bibelen fra 1992.
+(c) Det Danske Bibelselskab 1992.</biblecopyright></copyright>
+</head>
+<theword date='2017-01-01'>
+<title>Ordet til Søndag, 1. Januar 2017</title>
+<parol book='19' chapter='143' verse='5' id='Ps143v5'>
+<text>Jeg mindes fortids dage,
+jeg grunder over alle dine gerninger
+og tænker over dine hænders værk.</text>
+<ref>Salmernes Bog 143,5</ref>
+</parol>
+<parol book='44' chapter='4' verse='20' id='Act4v20'>
+<intro>Petrus og Johannes svarede præsterne:</intro>
+<text>Vi kan ikke lade være at tale om,
+hvad vi har set og hørt.</text>
+<ref>Ap. Gerninger 4,20</ref>
+</parol>
+</theword>
+<theword date='2017-01-02'>
+<title>Ordet til Mandag, 2. Januar 2017</title>
+<parol book='42' chapter='6' verse='41' id='L6v41'>
+<text>Hvorfor ser du splinten i din broders øje,
+men lægger ikke mærke til bjælken
+i dit eget øje?</text>
+<ref>Lukas 6,41</ref>
+</parol>
+<parol book='40' chapter='6' verse='12' id='Mt6v12'>
+<text>Forlad os vor skyld,
+som også vi forlader vore skyldnere.</text>
+<ref>Mattæus 6,12</ref>
+</parol>
+</theword>
+<theword date='2017-01-03'>
+<title>Ordet til Tirsdag, 3. Januar 2017</title>
+<parol book='43' chapter='4' verse='29' id='J4v29'>
+<text>Kom og se en mand, som har fortalt mig alt,
+hvad jeg har gjort.
+Måske er det ham, der er Kristus?</text>
+<ref>Johannes 4,29</ref>
+</parol>
+<parol book='45' chapter='5' verse='8' id='R5v8'>
+<text>Gud viser sin kærlighed til os,
+ved at Kristus døde for os,
+mens vi endnu var syndere.</text>
+<ref>Romerne 5,8</ref>
+</parol>
+</theword>
+<theword date='2017-01-04'>
+<title>Ordet til Onsdag, 4. Januar 2017</title>
+<parol book='60' chapter='5' verse='5' id='1P5v5'>
+<text>I skal alle være klædt i ydmyghed over for hinanden,
+for Gud står de hovmodige imod,
+de ydmyge viser han nåde.</text>
+<ref>1. Peterbrev 5,5</ref>
+</parol>
+<parol book='19' chapter='119' verse='67' id='Ps119v67'>
+<text>Før jeg blev ydmyget, for jeg vild,
+men nu følger jeg dit ord.</text>
+<ref>Salmernes Bog 119,67</ref>
+</parol>
+</theword>
+<theword date='2017-01-05'>
+<title>Ordet til Torsdag, 5. Januar 2017</title>
+<parol book='5' chapter='10' verse='18' id='Dt10v18-19'>
+<text>Herren, jeres Gud skaffer den faderløse
+og enken ret,
+han elsker den fremmede
+og giver ham føde og klæder.
+Derfor skal I elske den fremmede,
+I var jo selv fremmede i Egypten.</text>
+<ref>5. Mosebog 10,18-19</ref>
+</parol>
+<parol book='38' chapter='7' verse='10' id='Zch7v10'>
+<text>I må ikke undertrykke
+enker og faderløse,
+fremmede og fattige,
+og I må ikke udtænke ondt
+mod hinanden!</text>
+<ref>Zakarias' Bog 7,10</ref>
+</parol>
+</theword>
+<theword date='2017-01-06'>
+<title>Ordet til Fredag, 6. Januar 2017</title>
+<parol book='2' chapter='23' verse='25' id='Ex23v25'>
+<text>I skal dyrke Herren jeres Gud;
+så vil han velsigne dit brød og dit vand.
+Jeg vil tage sygdom bort fra dig.</text>
+<ref>2. Mosebog 23,25</ref>
+</parol>
+<parol book='43' chapter='12' verse='26' id='J12v26'>
+<text>Den, der tjener mig, skal følge mig,
+og hvor jeg er,
+dér skal også min tjener være.
+Den, der tjener mig, ham skal Faderen ære.</text>
+<ref>Johannes 12,26</ref>
+</parol>
+</theword>
+<theword date='2017-01-07'>
+<title>Ordet til Lørdag, 7. Januar 2017</title>
+<parol book='43' chapter='6' verse='40' id='J6v40'>
+<intro>Kristus siger:</intro>
+<text>Min faders vilje er, at enhver,
+som ser Sønnen og tror på ham,
+skal have evigt liv,
+og jeg skal oprejse ham
+på den yderste dag.</text>
+<ref>Johannes 6,40</ref>
+</parol>
+<parol book='43' chapter='3' verse='16' id='J3v16'>
+<text>Således elskede Gud verden,
+at han gav sin enbårne søn,
+for at enhver, som tror på ham,
+ikke skal fortabes, men have evigt liv.</text>
+<ref>Johannes 3,16</ref>
+</parol>
+</theword>
+<theword date='2017-01-08'>
+<title>Ordet til Søndag, 8. Januar 2017</title>
+<parol book='30' chapter='9' verse='15' id='Am9v15'>
+<text>Jeg planter dem på deres jord,
+og de skal aldrig mere rykkes op
+fra den jord, jeg har givet dem,
+siger Herren din Gud.</text>
+<ref>Amos' Bog 9,15</ref>
+</parol>
+<parol book='41' chapter='13' verse='28' id='Mc13v28'>
+<text>Lær denne lignelse af figentræet:
+Når dets grene bliver bløde og får blade,
+ved I, at sommeren er nær.</text>
+<ref>Markus 13,28</ref>
+</parol>
+</theword>
+<theword date='2017-01-09'>
+<title>Ordet til Mandag, 9. Januar 2017</title>
+<parol book='40' chapter='9' verse='15' id='Mt9v15'>
+<intro>Jesus sagde til Johannes' disciplene:</intro>
+<text>Kan brudesvendene sørge,
+så længe brudgommen er sammen med dem?
+Men der kommer dage,
+da brudgommen er taget fra dem,
+og så skal de faste.</text>
+<ref>Mattæus 9,15</ref>
+</parol>
+<parol book='40' chapter='25' verse='1' id='Mt25v1'>
+<intro>Jesus sagde:</intro>
+<text>Da skal Himmeriget ligne ti brudepiger,
+som tog deres lamper og gik ud
+for at møde brudgommen.</text>
+<ref>Mattæus 25,1</ref>
+</parol>
+</theword>
+<theword date='2017-01-10'>
+<title>Ordet til Tirsdag, 10. Januar 2017</title>
+<parol book='1' chapter='11' verse='7' id='Gn11v7'>
+<intro>Herren sagde om menneskerne i Babel:</intro>
+<text>Lad os stige derned og forvirre deres sprog,
+så de ikke forstår hinanden.</text>
+<ref>1. Mosebog 11,7</ref>
+</parol>
+<parol book='44' chapter='17' verse='26' id='Act17v26'>
+<text>Af ét menneske har han skabt alle folk
+og ladet dem bosætte sig overalt på jorden
+og fastsat bestemte tider og grænser for,
+hvor de skal bo.</text>
+<ref>Ap. Gerninger 17,26</ref>
+</parol>
+</theword>
+<theword date='2017-01-11'>
+<title>Ordet til Onsdag, 11. Januar 2017</title>
+<parol book='19' chapter='35' verse='28' id='Ps35v28'>
+<text>Min tunge skal forkynde din retfærdighed
+og lovprise dig dagen lang.</text>
+<ref>Salmernes Bog 35,28</ref>
+</parol>
+<parol book='19' chapter='51' verse='17' id='Ps51v17'>
+<text>Herre, åbn mine læber,
+så min mund kan forkynde din pris.</text>
+<ref>Salmernes Bog 51,17</ref>
+</parol>
+</theword>
+<theword date='2017-01-12'>
+<title>Ordet til Torsdag, 12. Januar 2017</title>
+<parol book='26' chapter='18' verse='4' id='Ez18v4'>
+<text>Alle menneskers liv tilhører mig.</text>
+<ref>Ezekiels Bog 18,4</ref>
+</parol>
+<parol book='43' chapter='17' verse='6' id='J17v6'>
+<intro>Kristus bad:</intro>
+<text>Jeg har åbenbaret dit navn for de mennesker,
+du gav mig fra verden.
+De var dine, og du gav dem til mig,
+og de har holdt fast ved dit ord.</text>
+<ref>Johannes 17,6</ref>
+</parol>
+</theword>
+<theword date='2017-01-13'>
+<title>Ordet til Fredag, 13. Januar 2017</title>
+<parol book='19' chapter='27' verse='1' id='Ps27v1_D'>
+<text>Herren er mit lys og min frelse,
+hvem skal jeg da frygte?
+Herren er værn for mit liv,
+hvem skal jeg da være bange for?</text>
+<ref>Salmernes Bog 27,1</ref>
+</parol>
+<parol book='56' chapter='2' verse='11' id='Tt2v11'>
+<text>Guds nåde er blevet åbenbaret til frelse
+for alle mennesker.</text>
+<ref>Titus 2,11</ref>
+</parol>
+</theword>
+<theword date='2017-01-14'>
+<title>Ordet til Lørdag, 14. Januar 2017</title>
+<parol book='1' chapter='37' verse='22' id='Gn37v22'>
+<text>I må ikke udgyde blod,
+sagde Ruben til sine brødre.</text>
+<ref>1. Mosebog 37,22</ref>
+</parol>
+<parol book='2' chapter='20' verse='13' id='Ex20v13'>
+<text>Du må ikke begå drab.</text>
+<ref>2. Mosebog 20,13</ref>
+</parol>
+</theword>
+<theword date='2017-01-15'>
+<title>Ordet til Søndag, 15. Januar 2017</title>
+<parol book='40' chapter='7' verse='28' id='Mt7v28-29'>
+<text>Da Jesus var færdig med denne tale,
+var skarerne slået af forundring over hans lære;
+for han underviste dem som en, der har myndighed,
+og ikke som deres skriftkloge.</text>
+<ref>Mattæus 7,28-29</ref>
+</parol>
+<parol book='51' chapter='2' verse='3' id='Kol2v3'>
+<text>I Kristus er alle visdommens
+og kundskabens skatte skjult.</text>
+<ref>Kolossenserne 2,3</ref>
+</parol>
+</theword>
+<theword date='2017-01-16'>
+<title>Ordet til Mandag, 16. Januar 2017</title>
+<parol book='24' chapter='7' verse='3' id='Jr7v3'>
+<text>Dette siger Hærskarers Herre, Israels Gud:
+Gør jeres færd og jeres gerninger gode;
+så vil jeg lade jer bo på dette sted.</text>
+<ref>Jeremias' Bog 7,3</ref>
+</parol>
+<parol book='46' chapter='3' verse='16' id='1K3v16'>
+<text>Ved I ikke, at I er Guds tempel,
+og at Guds ånd bor i jer?</text>
+<ref>1. Korinterne 3,16</ref>
+</parol>
+</theword>
+<theword date='2017-01-17'>
+<title>Ordet til Tirsdag, 17. Januar 2017</title>
+<parol book='24' chapter='23' verse='28' id='Jr23v28'>
+<text>Lad den profet, der har haft en drøm,
+fortælle drømmen; men den,
+der har mit ord,
+skal tale mit ord i sandhed.
+Hvad har strå med kerne at gøre?
+siger Herren.</text>
+<ref>Jeremias' Bog 23,28</ref>
+</parol>
+<parol book='40' chapter='2' verse='12' id='Mt2v12'>
+<text>I drømme fik vismændene en åbenbaring
+om ikke at tage tilbage til Herodes,
+og de vendte hjem til deres land
+ad en anden vej.</text>
+<ref>Mattæus 2,12</ref>
+</parol>
+</theword>
+<theword date='2017-01-18'>
+<title>Ordet til Onsdag, 18. Januar 2017</title>
+<parol book='11' chapter='17' verse='16' id='1Rg17v16'>
+<text>Krukken blev ikke tom for mel,
+og kanden kom ikke til at mangle olie,
+efter det ord,
+Herren havde talt ved Elias.</text>
+<ref>1. Kongebog 17,16</ref>
+</parol>
+<parol book='41' chapter='8' verse='18' id='Mc8v18-19'>
+<intro>Jesus spurgde disciplene:</intro>
+<text>Kan I ikke høre, skønt I har ører?
+Husker I ikke, da jeg brød de fem brød
+til de fem tusind, hvor mange kurve fulde
+af stykker I da samlede?
+Tolv, svarede de.</text>
+<ref>Markus 8,18-19</ref>
+</parol>
+</theword>
+<theword date='2017-01-19'>
+<title>Ordet til Torsdag, 19. Januar 2017</title>
+<parol book='30' chapter='4' verse='11' id='Am4v11'>
+<text>I blev som et stykke brænde,
+der er trukket ud fra et bål.
+Men I vendte ikke om til mig,
+siger Herren.</text>
+<ref>Amos' Bog 4,11</ref>
+</parol>
+<parol book='44' chapter='2' verse='40' id='Act2v40'>
+<text>Mange andre ord vidnede Peter
+og formanede dem og sagde:
+Lad jer frelse fra denne forkvaklede slægt!</text>
+<ref>Ap. Gerninger 2,40</ref>
+</parol>
+</theword>
+<theword date='2017-01-20'>
+<title>Ordet til Fredag, 20. Januar 2017</title>
+<parol book='23' chapter='35' verse='3' id='Is35v3'>
+<text>Styrk de synkende hænder,
+gør de kraftesløse knæ stærke.</text>
+<ref>Esajas' Bog 35,3</ref>
+</parol>
+<parol book='58' chapter='12' verse='12' id='H12v12-13'>
+<text>Styrk derfor de synkende hænder
+og de kraftesløse knæ,
+og gå den lige vej på jeres ben,
+så det lamme ikke vrides af led,
+men tværtimod bliver helbredt.</text>
+<ref>Hebræerne 12,12-13</ref>
+</parol>
+</theword>
+<theword date='2017-01-21'>
+<title>Ordet til Lørdag, 21. Januar 2017</title>
+<parol book='1' chapter='3' verse='6' id='Gn3v6'>
+<text>Kvinden så, at træet var godt at spise af
+og tiltrækkende at se på,
+og at det også var godt at få indsigt af,
+og hun tog af frugten og spiste.
+Hun gav den også til sin mand,
+der var hos hende, og han spiste.</text>
+<ref>1. Mosebog 3,6</ref>
+</parol>
+<parol book='42' chapter='11' verse='34' id='L11v34'>
+<text>Dit øje er legemets lys.
+Når dit øje er klart,
+er også hele dit legeme lyst;
+men er det mat,
+er også dit legeme mørkt.</text>
+<ref>Lukas 11,34</ref>
+</parol>
+</theword>
+<theword date='2017-01-22'>
+<title>Ordet til Søndag, 22. Januar 2017</title>
+<parol book='42' chapter='14' verse='12' id='L14v12'>
+<text>Til ham, der havde indbudt ham, sagde Jesus:
+Når du indbyder til frokost eller til middag,
+så undlad at indbyde dine venner, dine brødre,
+dine slægtninge eller dine rige naboer,
+for at de ikke skal indbyde dig igen og gøre gengæld.</text>
+<ref>Lukas 14,12</ref>
+</parol>
+<parol book='20' chapter='19' verse='17' id='Prv19v17'>
+<text>Den, der forbarmer sig over den svage,
+giver et lån til Herren,
+og Herren gengælder ham hans gerning.</text>
+<ref>Ordsprogenes Bog 19,17</ref>
+</parol>
+</theword>
+<theword date='2017-01-23'>
+<title>Ordet til Mandag, 23. Januar 2017</title>
+<parol book='45' chapter='3' verse='30' id='R3v30'>
+<text>Så sandt som Gud er én
+og gør den omskårne retfærdig af tro,
+så gør han også den uomskårne retfærdig
+ved den samme tro.</text>
+<ref>Romerne 3,30</ref>
+</parol>
+<parol book='43' chapter='11' verse='51' id='J11v51-52'>
+<text>Det sagde han ikke af sig selv;
+men som ypperstepræst det år profeterede han,
+at Jesus skulle dø for folket;
+og ikke for folket alene,
+men også for at samle Guds spredte børn til ét.</text>
+<ref>Johannes 11,51-52</ref>
+</parol>
+</theword>
+<theword date='2017-01-24'>
+<title>Ordet til Tirsdag, 24. Januar 2017</title>
+<parol book='19' chapter='39' verse='8' id='Ps39v8'>
+<text>Hvad har jeg så at vente på, Herre?
+Mit håb står til dig!</text>
+<ref>Salmernes Bog 39,8</ref>
+</parol>
+<parol book='45' chapter='5' verse='5' id='R5v5'>
+<text>Det håb gør ikke til skamme,
+for Guds kærlighed er udgydt i vore
+hjerter ved Helligånden, som er givet os.</text>
+<ref>Romerne 5,5</ref>
+</parol>
+</theword>
+<theword date='2017-01-25'>
+<title>Ordet til Onsdag, 25. Januar 2017</title>
+<parol book='19' chapter='72' verse='10' id='Ps72v10'>
+<text>Konger fra Tarshish og fjerne øer
+skal frembære gaver,
+Sabas og Sebas konger
+skal bringe tribut.</text>
+<ref>Salmernes Bog 72,10</ref>
+</parol>
+<parol book='40' chapter='2' verse='11' id='Mt2v11'>
+<text>De gik ind i huset og så barnet
+hos dets mor Maria,
+og de faldt ned og tilbad det.</text>
+<ref>Mattæus 2,11</ref>
+</parol>
+</theword>
+<theword date='2017-01-26'>
+<title>Ordet til Torsdag, 26. Januar 2017</title>
+<parol book='41' chapter='16' verse='15' id='Mc16v15'>
+<text>Jesus sagde til disciplene:
+Gå ud i alverden og prædik evangeliet for
+hele skabningen.</text>
+<ref>Markus 16,15</ref>
+</parol>
+<parol book='44' chapter='18' verse='8' id='Act18v8'>
+<text>Synagogeforstanderen Krispus og alle i hans hus
+kom til tro på Herren.
+Også mange af korintherne hørte
+og troede og blev døbt.</text>
+<ref>Ap. Gerninger 18,8</ref>
+</parol>
+</theword>
+<theword date='2017-01-27'>
+<title>Ordet til Fredag, 27. Januar 2017</title>
+<parol book='51' chapter='3' verse='8' id='Kol3v8-9'>
+<text>Nu skal også I aflægge det alt sammen:
+vrede, hidsighed, ondskab,
+spot og skamløs snak i jeres mund.
+Lyv ikke for hinanden,
+for I har aflagt det gamle menneske med
+dets gerninger.</text>
+<ref>Kolossenserne 3,8-9</ref>
+</parol>
+<parol book='45' chapter='2' verse='3' id='R2v3'>
+<text>Du, menneske, som dømmer dem, der handler sådan,
+og som selv gør det samme – tror du,
+at du vil kunne flygte fra Guds dom?</text>
+<ref>Romerne 2,3</ref>
+</parol>
+</theword>
+<theword date='2017-01-28'>
+<title>Ordet til Lørdag, 28. Januar 2017</title>
+<parol book='1' chapter='3' verse='19' id='Gn3v19'>
+<text>I dit ansigts sved
+skal du spise dit brød,
+indtil du vender tilbage til jorden,
+for af den er du taget.
+Ja, jord er du,
+og til jord skal du blive.</text>
+<ref>1. Mosebog 3,19</ref>
+</parol>
+<parol book='19' chapter='146' verse='4' id='Ps146v4'>
+<text>De udånder og vender tilbage til jorden,
+og den dag er deres planer blevet til intet.</text>
+<ref>Salmernes Bog 146,4</ref>
+</parol>
+</theword>
+<theword date='2017-01-29'>
+<title>Ordet til Søndag, 29. Januar 2017</title>
+<parol book='50' chapter='1' verse='27' id='Ph1v27'>
+<text>Blot skal I føre et liv,
+som svarer til Kristi evangelium.</text>
+<ref>Filipperne 1,27</ref>
+</parol>
+<parol book='1' chapter='6' verse='9' id='Gn6v9'>
+<text>Noa var en retfærdig mand,
+udadlelig blandt sine samtidige,
+og han vandrede med Gud.</text>
+<ref>1. Mosebog 6,9</ref>
+</parol>
+</theword>
+<theword date='2017-01-30'>
+<title>Ordet til Mandag, 30. Januar 2017</title>
+<parol book='42' chapter='4' verse='22' id='L4v22'>
+<text>Alle gav de ham deres bifald og undrede sig
+over de nådefulde ord, som udgik af hans mund,
+og de spurgte: »Er det ikke Josefs søn?«</text>
+<ref>Lukas 4,22</ref>
+</parol>
+<parol book='43' chapter='12' verse='49' id='J12v49'>
+<text>Jeg har ikke talt af mig selv;
+men Faderen, som har sendt mig,
+han har påbudt mig, hvad jeg skal sige,
+og hvad jeg skal tale.</text>
+<ref>Johannes 12,49</ref>
+</parol>
+</theword>
+<theword date='2017-01-31'>
+<title>Ordet til Tirsdag, 31. Januar 2017</title>
+<parol book='40' chapter='1' verse='17' id='Mt1v17'>
+<text>I alt er der altså fra Abraham indtil David
+fjorten slægtled,
+fra David indtil bortførelsen til Babylon
+fjorten slægtled,
+fra bortførelsen til Babylon og indtil Kristus
+fjorten slægtled.</text>
+<ref>Mattæus 1,17</ref>
+</parol>
+<parol book='42' chapter='2' verse='4' id='L2v4-5'>
+<text>Også Josef drog op fra byen Nazaret i Galilæa
+til Judæa, til Davids by, som hedder Betlehem,
+fordi han var af Davids hus og slægt,
+for at lade sig indskrive sammen med Maria,
+sin forlovede, som ventede et barn.</text>
+<ref>Lukas 2,4-5</ref>
+</parol>
+</theword>
+<theword date='2017-02-01'>
+<title>Ordet til Onsdag, 1. Februar 2017</title>
+<parol book='14' chapter='15' verse='2' id='2Chr15v2'>
+<text>Herren er med jer, når I er med ham.
+Hvis I søger ham, finder I ham,
+men hvis I svigter ham,
+svigter han jer.</text>
+<ref>2. Krønikebog 15,2</ref>
+</parol>
+<parol book='55' chapter='1' verse='13' id='2T1v13'>
+<text>Du skal tage det, du har hørt af mig,
+som eksempel på sund forkyndelse,
+i tro og kærlighed ved Kristus Jesus.</text>
+<ref>2. Timoteus 1,13</ref>
+</parol>
+</theword>
+<theword date='2017-02-02'>
+<title>Ordet til Torsdag, 2. Februar 2017</title>
+<parol book='40' chapter='6' verse='31' id='Mt6v31-32'>
+<text>I må ikke være bekymrede og spørge:
+Hvordan får vi noget at spise og drikke?
+Eller: Hvordan får vi tøj på kroppen?
+Alt dette søger hedningerne jo efter,
+og jeres himmelske fader ved,
+at I trænger til alt dette.</text>
+<ref>Mattæus 6,31-32</ref>
+</parol>
+<parol book='44' chapter='17' verse='27' id='Act17v27'>
+<text>Gud er langt borte fra en eneste af os.</text>
+<ref>Ap. Gerninger 17,27</ref>
+</parol>
+</theword>
+<theword date='2017-02-03'>
+<title>Ordet til Fredag, 3. Februar 2017</title>
+<parol book='45' chapter='15' verse='5' id='R15v5-6'>
+<text>Udholdenhedens og trøstens Gud give jer
+ét og samme sind,
+sådan som Kristus Jesus vil det,
+så I enigt med én mund lovpriser Gud,
+vor Herre Jesu Kristi fader!</text>
+<ref>Romerne 15,5-6</ref>
+</parol>
+<parol book='50' chapter='2' verse='2' id='Ph2v2'>
+<text>Så gør min glæde fuldstændig
+ved at have det samme sind,
+ved at have den samme kærlighed,
+med én sjæl og ét sind.</text>
+<ref>Filipperne 2,2</ref>
+</parol>
+</theword>
+<theword date='2017-02-04'>
+<title>Ordet til Lørdag, 4. Februar 2017</title>
+<parol book='49' chapter='4' verse='29' id='E4v29'>
+<text>Intet råddent ord må udgå af jeres mund,
+kun et godt ord til nødvendig opbyggelse,
+så det kan blive til velsignelse for dem,
+der hører det.</text>
+<ref>Efeserne 4,29</ref>
+</parol>
+<parol book='51' chapter='4' verse='6' id='Kol4v6'>
+<text>Jeres tale skal altid være venlig,
+krydret med salt, så I ved,
+hvordan I skal svare hver enkelt.</text>
+<ref>Kolossenserne 4,6</ref>
+</parol>
+</theword>
+<theword date='2017-02-05'>
+<title>Ordet til Søndag, 5. Februar 2017</title>
+<parol book='29' chapter='4' verse='14' id='Joel4v14'>
+<text>Hør de larmende skarer
+i Afgørelsens Dal!
+Herrens dag er nær
+i Afgørelsens Dal.</text>
+<ref>Joels Bog 4,14</ref>
+</parol>
+<parol book='58' chapter='4' verse='9' id='H4v9'>
+<text>Altså venter der Guds folk en sabbatshvile.</text>
+<ref>Hebræerne 4,9</ref>
+</parol>
+</theword>
+<theword date='2017-02-06'>
+<title>Ordet til Mandag, 6. Februar 2017</title>
+<parol book='19' chapter='101' verse='2' id='Ps101v2'>
+<text>Jeg vil følge den fuldkomne vej
+– hvornår kommer du til mig?
+Med oprigtigt hjerte
+vil jeg færdes i mit hus.</text>
+<ref>Salmernes Bog 101,2</ref>
+</parol>
+<parol book='52' chapter='4' verse='7' id='1Th4v7'>
+<text>Gud kaldte os ikke til urenhed,
+men til hellighed.</text>
+<ref>1. Tessalonikerne 4,7</ref>
+</parol>
+</theword>
+<theword date='2017-02-07'>
+<title>Ordet til Tirsdag, 7. Februar 2017</title>
+<parol book='19' chapter='13' verse='6' id='Ps13v6'>
+<text>Jeg vil synge for Herren,
+for han har handlet vel imod mig.</text>
+<ref>Salmernes Bog 13,6</ref>
+</parol>
+<parol book='19' chapter='77' verse='15' id='Ps77v15'>
+<text>Du er den Gud, der gør undere,
+du viste folkene din styrke.</text>
+<ref>Salmernes Bog 77,15</ref>
+</parol>
+</theword>
+<theword date='2017-02-08'>
+<title>Ordet til Onsdag, 8. Februar 2017</title>
+<parol book='19' chapter='31' verse='25' id='Ps31v25'>
+<text>Vær stærke, fat mod,
+alle I som venter på Herren!</text>
+<ref>Salmernes Bog 31,25</ref>
+</parol>
+<parol book='19' chapter='73' verse='26' id='Ps73v26'>
+<text>Om end min krop og mit hjerte forgår,
+så er Gud for evigt mit hjertes
+klippe og min lod.</text>
+<ref>Salmernes Bog 73,26</ref>
+</parol>
+</theword>
+<theword date='2017-02-09'>
+<title>Ordet til Torsdag, 9. Februar 2017</title>
+<parol book='42' chapter='13' verse='19' id='L13v19'>
+<text>Det ligner et sennepsfrø,
+som en mand tog og såede i sin have,
+og det voksede op og blev et helt træ,
+og himlens fugle byggede rede i dets grene.</text>
+<ref>Lukas 13,19</ref>
+</parol>
+<parol book='42' chapter='13' verse='29' id='L13v29'>
+<text>De skal komme fra øst og vest,
+fra nord og syd og sidde til
+bords i Guds rige.</text>
+<ref>Lukas 13,29</ref>
+</parol>
+</theword>
+<theword date='2017-02-10'>
+<title>Ordet til Fredag, 10. Februar 2017</title>
+<parol book='41' chapter='16' verse='14' id='Mc16v14'>
+<text>Til sidst viste han sig for de elleve selv,
+mens de sad til bords,
+og han bebrejdede dem deres vantro og
+hårdhjertethed, fordi de ikke havde troet dem,
+der havde set ham efter hans opstandelse.</text>
+<ref>Markus 16,14</ref>
+</parol>
+<parol book='66' chapter='3' verse='19' id='Ap3v19'>
+<text>Alle dem, jeg elsker, revser og tugter jeg.
+Vær nidkær og omvend dig!</text>
+<ref>Åbenbarelse 3,19</ref>
+</parol>
+</theword>
+<theword date='2017-02-11'>
+<title>Ordet til Lørdag, 11. Februar 2017</title>
+<parol book='2' chapter='20' verse='15' id='Ex20v15'>
+<text>Du må ikke stjæle.</text>
+<ref>2. Mosebog 20,15</ref>
+</parol>
+<parol book='6' chapter='7' verse='11' id='Jos7v11'>
+<text>Israelitterne har syndet og brudt den pagt,
+jeg pålagde dem.
+De har taget noget af det,
+der er lagt band på;
+de har stjålet og skjult det
+og lagt det blandt deres egne ting.</text>
+<ref>Josuabogen 7,11</ref>
+</parol>
+</theword>
+<theword date='2017-02-12'>
+<title>Ordet til Søndag, 12. Februar 2017</title>
+<parol book='20' chapter='24' verse='11' id='Prv24v11-12'>
+<text>Red dem, der føres til døden,
+og dem, der vakler til retterstedet,
+skån dem dog!
+Du siger: »Vi kender jo ikke den mand«;
+men mon ikke han, der prøver hjerterne,
+har indsigt?</text>
+<ref>Ordsprogenes Bog 24,11-12</ref>
+</parol>
+<parol book='10' chapter='15' verse='26' id='2Sm15v26'>
+<text>Så må han gøre ved mig,
+som han finder for godt.</text>
+<ref>2. Samuelsbog 15,26</ref>
+</parol>
+</theword>
+<theword date='2017-02-13'>
+<title>Ordet til Mandag, 13. Februar 2017</title>
+<parol book='23' chapter='55' verse='12' id='Is55v12'>
+<text>I glæde skal I drage ud,
+og i fred skal I føres af sted.</text>
+<ref>Esajas' Bog 55,12</ref>
+</parol>
+<parol book='44' chapter='10' verse='36' id='Act10v36'>
+<text>Det er det ord, Gud sendte til Israels børn,
+da han forkyndte fred ved Jesus Kristus;
+han er alles Herre.</text>
+<ref>Ap. Gerninger 10,36</ref>
+</parol>
+</theword>
+<theword date='2017-02-14'>
+<title>Ordet til Tirsdag, 14. Februar 2017</title>
+<parol book='49' chapter='6' verse='1' id='E6v1'>
+<text>Børn, adlyd jeres forældre i Herren;
+for det er ret og rigtigt.</text>
+<ref>Efeserne 6,1</ref>
+</parol>
+<parol book='20' chapter='6' verse='20' id='Prv6v20'>
+<text>Hold din fars bud, min søn,
+afvis ikke din mors belæring.</text>
+<ref>Ordsprogenes Bog 6,20</ref>
+</parol>
+</theword>
+<theword date='2017-02-15'>
+<title>Ordet til Onsdag, 15. Februar 2017</title>
+<parol book='19' chapter='139' verse='14' id='Ps139v14'>
+<text>Jeg takker dig,
+fordi jeg er underfuldt skabt,
+underfulde er dine gerninger,
+jeg ved det fuldt ud!</text>
+<ref>Salmernes Bog 139,14</ref>
+</parol>
+<parol book='23' chapter='44' verse='24' id='Is44v24'>
+<text>Dette siger Herren, der løskøber dig,
+han som dannede dig fra moders liv:
+Jeg, Herren, har skabt alt.
+Jeg alene har spændt himlen ud,
+jeg har bredt jorden ud, hvem var med mig?</text>
+<ref>Esajas' Bog 44,24</ref>
+</parol>
+</theword>
+<theword date='2017-02-16'>
+<title>Ordet til Torsdag, 16. Februar 2017</title>
+<parol book='44' chapter='3' verse='13' id='Act3v13'>
+<text>Abrahams Gud og Isaks Gud og Jakobs Gud,
+vore fædres Gud,
+har herliggjort sin tjener Jesus.</text>
+<ref>Ap. Gerninger 3,13</ref>
+</parol>
+<parol book='40' chapter='3' verse='16' id='Mt3v16-17'>
+<text>Da Jesus var døbt,
+steg han straks op fra vandet, og se,
+himlene åbnede sig over ham,
+og han så Guds ånd dale ned
+ligesom en due og komme over sig;
+og der lød en røst fra himlene:
+»Det er min elskede søn,
+i ham har jeg fundet velbehag!«</text>
+<ref>Mattæus 3,16-17</ref>
+</parol>
+</theword>
+<theword date='2017-02-17'>
+<title>Ordet til Fredag, 17. Februar 2017</title>
+<parol book='2' chapter='33' verse='20' id='Ex33v20'>
+<intro>Herren sagde til Moses:</intro>
+<text>Du får ikke lov at se mit ansigt,
+for intet menneske kan se mig
+og beholde livet.</text>
+<ref>2. Mosebog 33,20</ref>
+</parol>
+<parol book='36' chapter='1' verse='7' id='Zph1v7'>
+<text>Vær stille for Gud Herren,
+Herrens dag er nær!</text>
+<ref>Zefanias' Bog 1,7</ref>
+</parol>
+</theword>
+<theword date='2017-02-18'>
+<title>Ordet til Lørdag, 18. Februar 2017</title>
+<parol book='19' chapter='118' verse='21' id='Ps118v21'>
+<text>Jeg takker dig, for du svarede mig
+og blev min frelse.</text>
+<ref>Salmernes Bog 118,21</ref>
+</parol>
+<parol book='40' chapter='14' verse='30' id='Mt14v30'>
+<text>Da han så den stærke storm, blev han bange,
+og han begyndte at synke og råbte:
+»Herre, frels mig!«</text>
+<ref>Mattæus 14,30</ref>
+</parol>
+</theword>
+<theword date='2017-02-19'>
+<title>Ordet til Søndag, 19. Februar 2017</title>
+<parol book='52' chapter='4' verse='3' id='1Th4v3'>
+<text>Dette er Guds vilje, at I skal helliges,
+så I afholder jer fra utugt.</text>
+<ref>1. Tessalonikerne 4,3</ref>
+</parol>
+<parol book='19' chapter='1' verse='1' id='Ps1v1-2'>
+<text>Lykkelig den, som ikke vandrer
+efter ugudeliges råd,
+som ikke går på synderes vej
+og ikke sidder blandt spottere,
+men har sin glæde ved Herrens lov
+og grunder på hans lov dag og nat.</text>
+<ref>Salmernes Bog 1,1-2</ref>
+</parol>
+</theword>
+<theword date='2017-02-20'>
+<title>Ordet til Mandag, 20. Februar 2017</title>
+<parol book='23' chapter='28' verse='16' id='Is28v16'>
+<text>Derfor siger Gud Herren:
+Se, i Zion lægger jeg en grundsten,
+en prøvet sten.
+Det er en kostbar hjørnesten, der lægges.
+Den, der tror, skal ikke være urolig.</text>
+<ref>Esajas' Bog 28,16</ref>
+</parol>
+<parol book='43' chapter='4' verse='22' id='J4v22'>
+<intro>Jesus sagde til den samaritiske kvinde:</intro>
+<text>I tilbeder det, I ikke kender;
+vi tilbeder det, vi kender,
+for frelsen kommer fra jøderne.</text>
+<ref>Johannes 4,22</ref>
+</parol>
+</theword>
+<theword date='2017-02-21'>
+<title>Ordet til Tirsdag, 21. Februar 2017</title>
+<parol book='24' chapter='6' verse='13' id='Jr6v13-14'>
+<text>Fra den mindste til den største,
+alle søger uretmæssig vinding;
+fra profet til præst,
+alle handler løgnagtigt.
+De vil helbrede mit lemlæstede folk,
+de siger letsindigt:
+»Fred, fred!«, skønt der ikke er fred.</text>
+<ref>Jeremias' Bog 6,13-14</ref>
+</parol>
+<parol book='60' chapter='5' verse='2' id='1P5v2'>
+<text>Vær hyrder for Guds hjord hos jer, vogt den,
+ikke af tvang, men frivilligt, som Gud vil det,
+ikke for ussel vindings skyld,
+men glad og gerne.</text>
+<ref>1. Peterbrev 5,2</ref>
+</parol>
+</theword>
+<theword date='2017-02-22'>
+<title>Ordet til Onsdag, 22. Februar 2017</title>
+<parol book='43' chapter='13' verse='3' id='J13v3'>
+<text>Jesus vidste, at Faderen havde lagt alt
+i hans hænder, og at han var udgået fra Gud
+og nu gik tilbage til Gud.</text>
+<ref>Johannes 13,3</ref>
+</parol>
+<parol book='40' chapter='26' verse='42' id='Mt26v42'>
+<text>Atter, for anden gang, gik han bort og bad:
+Min fader, hvis det ikke er muligt,
+at dette bæger går mig forbi,
+men jeg skal drikke det, så ske din vilje.</text>
+<ref>Mattæus 26,42</ref>
+</parol>
+</theword>
+<theword date='2017-02-23'>
+<title>Ordet til Torsdag, 23. Februar 2017</title>
+<parol book='44' chapter='9' verse='3' id='Act9v3-5'>
+<text>Undervejs skinnede et lys fra himlen pludselig
+om Saul. Han faldt til jorden og hørte en røst
+sige: Saul, Saul, hvorfor forfølger du mig?
+Han svarede: Hvem er du, herre?
+Han sagde: Jeg er Jesus, som du forfølger.</text>
+<ref>Ap. Gerninger 9,3-5</ref>
+</parol>
+<parol book='47' chapter='4' verse='6' id='2K4v6'>
+<text>Thi Gud, der sagde:
+»Af mørke skal lys skinne frem,«
+han har ladet det skinne i vore hjerter
+til oplysning og til kundskab
+om Guds herlighed på Jesu Kristi ansigt.</text>
+<ref>2. Korinterne 4,6</ref>
+</parol>
+</theword>
+<theword date='2017-02-24'>
+<title>Ordet til Fredag, 24. Februar 2017</title>
+<parol book='40' chapter='14' verse='13' id='Mt14v13-14'>
+<text>Jesus drog bort derfra i en båd til et øde sted
+for at være alene.
+Men skarerne opdagede det og fulgte
+efter ham til fods fra byerne.
+Og da han kom i land, så han en stor folkeskare,
+og han ynkedes over dem og helbredte dem,
+der var syge.</text>
+<ref>Mattæus 14,13-14</ref>
+</parol>
+<parol book='19' chapter='103' verse='13' id='Ps103v13'>
+<text>Som en far er barmhjertig mod sine børn,
+er Herren barmhjertig mod dem,
+der frygter ham.</text>
+<ref>Salmernes Bog 103,13</ref>
+</parol>
+</theword>
+<theword date='2017-02-25'>
+<title>Ordet til Lørdag, 25. Februar 2017</title>
+<parol book='19' chapter='77' verse='14' id='Ps77v14-15'>
+<text>Gud, du handler i hellighed;
+hvilken gud er stor som Gud?
+Du er den Gud, der gør undere,
+du viste folkene din styrke.</text>
+<ref>Salmernes Bog 77,14-15</ref>
+</parol>
+<parol book='43' chapter='6' verse='68' id='J6v68-69'>
+<text>Simon Peter svarede Jesus:
+Herre, hvem skal vi gå til?
+Du har det evige livs ord,
+og vi tror, og vi ved, at du er Guds hellige.</text>
+<ref>Johannes 6,68-69</ref>
+</parol>
+</theword>
+<theword date='2017-02-26'>
+<title>Ordet til Søndag, 26. Februar 2017</title>
+<parol book='66' chapter='3' verse='4' id='Ap3v4'>
+<text>Nogle få har du i Sardes,
+som ikke har sølet deres klæder til,
+og de skal vandre med mig i hvide klæder,
+for det er de værdige til.</text>
+<ref>Åbenbarelse 3,4</ref>
+</parol>
+<parol book='40' chapter='5' verse='8' id='Mt5v8'>
+<text>Salige er de rene af hjertet,
+for de skal se Gud.</text>
+<ref>Mattæus 5,8</ref>
+</parol>
+</theword>
+<theword date='2017-02-27'>
+<title>Ordet til Mandag, 27. Februar 2017</title>
+<parol book='20' chapter='3' verse='29' id='Prv3v29'>
+<text>Udtænk ikke ondt mod din næste,
+han bor trygt hos dig.</text>
+<ref>Ordsprogenes Bog 3,29</ref>
+</parol>
+<parol book='45' chapter='13' verse='8' id='R13v8'>
+<text>Vær ingen noget andet skyldig end at elske hinanden;
+for den, der elsker andre, har opfyldt loven.</text>
+<ref>Romerne 13,8</ref>
+</parol>
+</theword>
+<theword date='2017-02-28'>
+<title>Ordet til Tirsdag, 28. Februar 2017</title>
+<parol book='19' chapter='115' verse='16' id='Ps115v16'>
+<text>Himlen er Herrens himmel,
+men jorden gav han menneskene.</text>
+<ref>Salmernes Bog 115,16</ref>
+</parol>
+<parol book='40' chapter='21' verse='33' id='Mt21v33'>
+<text>Hør endnu en lignelse! Der var en vingårdsejer,
+som plantede en vingård og satte et gærde om den,
+og han gravede en perse i den og byggede et vagttårn.
+Han forpagtede den bort til nogle vinbønder
+og rejste udenlands.</text>
+<ref>Mattæus 21,33</ref>
+</parol>
+</theword>
+<theword date='2017-03-01'>
+<title>Ordet til Onsdag, 1. Marts 2017</title>
+<parol book='19' chapter='119' verse='97' id='Ps119v97'>
+<text>Hvor jeg elsker din lov,
+hele dagen er den i mine tanker.</text>
+<ref>Salmernes Bog 119,97</ref>
+</parol>
+<parol book='40' chapter='5' verse='18' id='Mt5v18'>
+<text>Før himmel og jord forgår,
+skal ikke det mindste bogstav
+eller en eneste tøddel forgå af loven,
+før alt er sket.</text>
+<ref>Mattæus 5,18</ref>
+</parol>
+</theword>
+<theword date='2017-03-02'>
+<title>Ordet til Torsdag, 2. Marts 2017</title>
+<parol book='22' chapter='8' verse='6' id='Ct8v6-7'>
+<text>Kærligheden er stærk som døden,
+lidenskaben er grum som dødsriget,
+dens flammer er flammer af ild,
+en voldsom brand. Vældige vande kan ikke
+slukke kærligheden,
+floder kan ikke skylle den bort.</text>
+<ref>Højsangen 8,6-7</ref>
+</parol>
+<parol book='43' chapter='15' verse='13' id='J15v13'>
+<intro>Kristus siger:</intro>
+<text>Større kærlighed har ingen
+end den at sætte sit liv til for sine venner.</text>
+<ref>Johannes 15,13</ref>
+</parol>
+</theword>
+<theword date='2017-03-03'>
+<title>Ordet til Fredag, 3. Marts 2017</title>
+<parol book='40' chapter='14' verse='23' id='Mt14v23'>
+<text>Jesus gik ene op på bjerget for at bede.</text>
+<ref>Mattæus 14,23</ref>
+</parol>
+<parol book='47' chapter='13' verse='4' id='2K13v4'>
+<text>Han blev korsfæstet i magtesløshed,
+men han lever ved Guds magt.</text>
+<ref>2. Korinterne 13,4</ref>
+</parol>
+</theword>
+<theword date='2017-03-04'>
+<title>Ordet til Lørdag, 4. Marts 2017</title>
+<parol book='20' chapter='16' verse='6' id='Prv16v6'>
+<text>Ved troskab og sandhed sones skyld,
+ved at frygte Herren
+holder man sig fra det onde.</text>
+<ref>Ordsprogenes Bog 16,6</ref>
+</parol>
+<parol book='46' chapter='3' verse='15' id='1K3v15'>
+<text>Men hvis hans arbejde går op i luer,
+skal han gå glip af lønnen,
+men selv blive frelst, dog som gennem ild.</text>
+<ref>1. Korinterne 3,15</ref>
+</parol>
+</theword>
+<theword date='2017-03-05'>
+<title>Ordet til Søndag, 5. Marts 2017</title>
+<parol book='44' chapter='5' verse='25' id='Act5v25'>
+<text>Så kom der en og meldte:
+De mænd, som I satte i fængsel,
+står på tempelpladsen og underviser folket.</text>
+<ref>Ap. Gerninger 5,25</ref>
+</parol>
+<parol book='43' chapter='8' verse='36' id='J8v36'>
+<text>Hvis altså Sønnen får gjort jer frie,
+skal I være virkelig frie.</text>
+<ref>Johannes 8,36</ref>
+</parol>
+</theword>
+<theword date='2017-03-06'>
+<title>Ordet til Mandag, 6. Marts 2017</title>
+<parol book='19' chapter='80' verse='19' id='Ps80v19'>
+<text>Så vil vi ikke vige fra dig.
+Hold os i live,
+så vil vi påkalde dit navn.</text>
+<ref>Salmernes Bog 80,19</ref>
+</parol>
+<parol book='19' chapter='138' verse='3' id='Ps138v3'>
+<text>Den dag jeg råbte, svarede du mig,
+du fyldte mig med stolthed
+og gav mig styrke.</text>
+<ref>Salmernes Bog 138,3</ref>
+</parol>
+</theword>
+<theword date='2017-03-07'>
+<title>Ordet til Tirsdag, 7. Marts 2017</title>
+<parol book='4' chapter='20' verse='11' id='Nu20v11'>
+<text>Så løftede Moses hånden og slog
+to gange på klippen med sin stav,
+og der strømmede rigeligt vand ud,
+så både menigheden og deres kvæg
+kunne drikke.</text>
+<ref>4. Mosebog 20,11</ref>
+</parol>
+<parol book='46' chapter='10' verse='4' id='1K10v4'>
+<text>Drak alle den samme åndelige drik –
+for de drak af en åndelig klippe, som fulgte med,
+og den klippe var Kristus.</text>
+<ref>1. Korinterne 10,4</ref>
+</parol>
+</theword>
+<theword date='2017-03-08'>
+<title>Ordet til Onsdag, 8. Marts 2017</title>
+<parol book='9' chapter='7' verse='3' id='1Sm7v3'>
+<text>Samuel sagde da til hele Israels hus:
+Hvis I vil vende tilbage til Herren af hele jeres hjerte,
+skal I fjerne de fremmede guder og Astarterne og af hjertet
+holde fast ved Herren og tjene ham alene.
+Så vil han redde jer fra filistrene.</text>
+<ref>1. Samuelsbog 7,3</ref>
+</parol>
+<parol book='46' chapter='8' verse='5' id='1K8v5-6'>
+<text>Vel er der såkaldte guder, både i himlen og på jorden –
+der er jo så mange guder og så mange herrer.
+Men for os er der kun én Gud, Faderen;
+fra ham er alle ting, og vi til ham.
+Og for os er der kun én Herre, Jesus Kristus;
+ved ham er alle ting, og vi ved ham.</text>
+<ref>1. Korinterne 8,5-6</ref>
+</parol>
+</theword>
+<theword date='2017-03-09'>
+<title>Ordet til Torsdag, 9. Marts 2017</title>
+<parol book='19' chapter='89' verse='9' id='Ps89v9'>
+<text>Herre, Hærskarers Gud, hvem er som du?
+Stærk er Herren.
+Din trofasthed omgiver dig.</text>
+<ref>Salmernes Bog 89,9</ref>
+</parol>
+<parol book='40' chapter='8' verse='31' id='Mt8v31'>
+<text>Dæmonerne bad Jeusus:
+Driver du os ud, så send os i den flok svin.</text>
+<ref>Mattæus 8,31</ref>
+</parol>
+</theword>
+<theword date='2017-03-10'>
+<title>Ordet til Fredag, 10. Marts 2017</title>
+<parol book='19' chapter='118' verse='6' id='Ps118v6'>
+<text>Herren er hos mig, jeg frygter ikke,
+hvad kan mennesker gøre mig?</text>
+<ref>Salmernes Bog 118,6</ref>
+</parol>
+<parol book='19' chapter='40' verse='5' id='Ps40v5'>
+<text>Lykkelig den mand,
+der tager sin tilflugt til Herren
+og ikke vender sig til dæmoner
+og til dem, der søger løgneguder.</text>
+<ref>Salmernes Bog 40,5</ref>
+</parol>
+</theword>
+<theword date='2017-03-11'>
+<title>Ordet til Lørdag, 11. Marts 2017</title>
+<parol book='19' chapter='119' verse='45' id='Ps119v45'>
+<text>Jeg kan vandre i åbent land,
+for jeg søger dine forordninger.</text>
+<ref>Salmernes Bog 119,45</ref>
+</parol>
+<parol book='47' chapter='3' verse='17' id='2K3v17'>
+<text>Herren er Ånden, og hvor Herrens ånd er,
+dér er der frihed.</text>
+<ref>2. Korinterne 3,17</ref>
+</parol>
+</theword>
+<theword date='2017-03-12'>
+<title>Ordet til Søndag, 12. Marts 2017</title>
+<parol book='48' chapter='3' verse='26' id='G3v26'>
+<text>I er alle Guds børn ved troen,
+i Kristus Jesus.</text>
+<ref>Galaterne 3,26</ref>
+</parol>
+<parol book='62' chapter='3' verse='1' id='1J3v1'>
+<text>Se, hvor stor kærlighed Faderen har vist os,
+at vi kaldes Guds børn, og vi er det!</text>
+<ref>1. Johannes 3,1</ref>
+</parol>
+</theword>
+<theword date='2017-03-13'>
+<title>Ordet til Mandag, 13. Marts 2017</title>
+<parol book='1' chapter='41' verse='55' id='Gn41v55'>
+<text>Hele Egypten sultede,
+og folket råbte til Farao om brød;
+men Farao sagde til alle egypterne:
+Gå til Josef, og gør,
+hvad han siger til jer!</text>
+<ref>1. Mosebog 41,55</ref>
+</parol>
+<parol book='43' chapter='6' verse='13' id='J6v13'>
+<text>Så samlede de dem sammen
+og fyldte tolv kurve med de stykker af de fem bygbrød,
+som var tilovers efter dem, der havde spist.</text>
+<ref>Johannes 6,13</ref>
+</parol>
+</theword>
+<theword date='2017-03-14'>
+<title>Ordet til Tirsdag, 14. Marts 2017</title>
+<parol book='40' chapter='26' verse='75' id='Mt26v75'>
+<text>Peter huskede det ord, Jesus havde sagt:
+»Før hanen galer,
+vil du fornægte mig tre gange.«
+Og han gik udenfor og græd bitterligt.</text>
+<ref>Mattæus 26,75</ref>
+</parol>
+<parol book='40' chapter='16' verse='24' id='Mt16v24'>
+<text>Da sagde Jesus til sine disciple:
+Hvis nogen vil følge efter mig,
+skal han fornægte sig selv
+og tage sit kors op og følge mig.</text>
+<ref>Mattæus 16,24</ref>
+</parol>
+</theword>
+<theword date='2017-03-15'>
+<title>Ordet til Onsdag, 15. Marts 2017</title>
+<parol book='19' chapter='78' verse='4' id='Ps78v4'>
+<text>Skjuler vi ikke for deres børn;
+vi fortæller den kommende slægt
+om Herrens glorværdige gerninger og styrke,
+om de undere, han har gjort.</text>
+<ref>Salmernes Bog 78,4</ref>
+</parol>
+<parol book='19' chapter='34' verse='2' id='Ps34v2'>
+<text>Jeg vil prise Herren til alle tider,
+min mund skal altid lovsynge ham.</text>
+<ref>Salmernes Bog 34,2</ref>
+</parol>
+</theword>
+<theword date='2017-03-16'>
+<title>Ordet til Torsdag, 16. Marts 2017</title>
+<parol book='1' chapter='18' verse='23' id='Gn18v23-24'>
+<intro>Abraham bad Herrn for Sodom og Gomorra:</intro>
+<text>Vil du virkelig udrydde retfærdige
+sammen med uretfærdige?
+Måske er der halvtreds retfærdige i byen.
+Vil du så virkelig udrydde dem og ikke tilgive stedet
+på grund af de halvtreds retfærdige,
+som er i den?</text>
+<ref>1. Mosebog 18,23-24</ref>
+</parol>
+<parol book='42' chapter='19' verse='41' id='L19v41-42'>
+<text>Da han kom nærmere og så byen,
+græd han over den og sagde:
+Vidste blot også du på denne dag,
+hvad der tjener til din fred.
+Men nu er det skjult for dine øjne.</text>
+<ref>Lukas 19,41-42</ref>
+</parol>
+</theword>
+<theword date='2017-03-17'>
+<title>Ordet til Fredag, 17. Marts 2017</title>
+<parol book='23' chapter='40' verse='13' id='Is40v13'>
+<text>Hvem kan retlede Herrens ånd,
+hvem kan være hans rådgiver
+og belære ham?</text>
+<ref>Esajas' Bog 40,13</ref>
+</parol>
+<parol book='43' chapter='15' verse='26' id='J15v26'>
+<intro>Jesus sagde til sine disciple:</intro>
+<text>Når Talsmanden kommer,
+som jeg vil sende til jer fra Faderen,
+sandhedens ånd, som udgår fra Faderen,
+skal han vidne om mig.</text>
+<ref>Johannes 15,26</ref>
+</parol>
+</theword>
+<theword date='2017-03-18'>
+<title>Ordet til Lørdag, 18. Marts 2017</title>
+<parol book='42' chapter='24' verse='7' id='L24v7'>
+<text>Menneskesønnen skulle overgives i syndige menneskers
+hænder og korsfæstes og opstå på den tredje dag.</text>
+<ref>Lukas 24,7</ref>
+</parol>
+<parol book='46' chapter='15' verse='43' id='1K15v43'>
+<text>Hvad der bliver sået i vanære,
+opstår i herlighed.
+Hvad der bliver sået i svaghed,
+opstår i kraft.</text>
+<ref>1. Korinterne 15,43</ref>
+</parol>
+</theword>
+<theword date='2017-03-19'>
+<title>Ordet til Søndag, 19. Marts 2017</title>
+<parol book='41' chapter='9' verse='7' id='Mc9v7-8'>
+<text>Så kom der en sky, som overskyggede dem,
+og der lød en røst fra skyen:
+»Det er min elskede søn.
+Hør ham!«
+Og da de så sig omkring,
+kunne de pludselig kun se Jesus
+alene hos sig.</text>
+<ref>Markus 9,7-8</ref>
+</parol>
+<parol book='43' chapter='12' verse='45' id='J12v45'>
+<intro>Jesus kaldte:</intro>
+<text>Den, der ser mig, ser ham,
+som har sendt mig.</text>
+<ref>Johannes 12,45</ref>
+</parol>
+</theword>
+<theword date='2017-03-20'>
+<title>Ordet til Mandag, 20. Marts 2017</title>
+<parol book='49' chapter='4' verse='3' id='E4v3'>
+<text>Stræb efter at fastholde Åndens enhed
+med fredens bånd.</text>
+<ref>Efeserne 4,3</ref>
+</parol>
+<parol book='45' chapter='12' verse='18' id='R12v18'>
+<text>Hold fred med alle mennesker,
+om det er muligt,
+så vidt det står til jer.</text>
+<ref>Romerne 12,18</ref>
+</parol>
+</theword>
+<theword date='2017-03-21'>
+<title>Ordet til Tirsdag, 21. Marts 2017</title>
+<parol book='2' chapter='23' verse='7' id='Ex23v7'>
+<text>Hold dig fra løgnagtige sager.</text>
+<ref>2. Mosebog 23,7</ref>
+</parol>
+<parol book='49' chapter='4' verse='28' id='E4v28'>
+<text>Den, der stjæler, må ikke mere stjæle,
+men skal tværtimod slide i det og selv frembringe noget godt
+med sine hænder, så han har noget at give af til den,
+der har behov for det.</text>
+<ref>Efeserne 4,28</ref>
+</parol>
+</theword>
+<theword date='2017-03-22'>
+<title>Ordet til Onsdag, 22. Marts 2017</title>
+<parol book='43' chapter='4' verse='36' id='J4v36'>
+<text>Den, der høster, får allerede nu sin løn
+og samler afgrøde til evigt liv,
+så at den, der sår, og den, der høster,
+kan glæde sig sammen.</text>
+<ref>Johannes 4,36</ref>
+</parol>
+<parol book='46' chapter='3' verse='8' id='1K3v8'>
+<text>Den, der planter, og den, der vander, er ét,
+og enhver skal få løn efter sit arbejde.</text>
+<ref>1. Korinterne 3,8</ref>
+</parol>
+</theword>
+<theword date='2017-03-23'>
+<title>Ordet til Torsdag, 23. Marts 2017</title>
+<parol book='28' chapter='11' verse='4' id='Hos11v4'>
+<text>Jeg holdt dem i menneskebånd,
+i kærlighedens tøjler.</text>
+<ref>Hoseas Bog 11,4</ref>
+</parol>
+<parol book='44' chapter='16' verse='30' id='Act16v30-31'>
+<text>Så førte han dem udenfor og spurgte dem:
+I gode herrer,
+hvad skal jeg gøre for at blive frelst?
+De svarede:
+Tro på Herren Jesus,
+så skal du og dit hus blive frelst.</text>
+<ref>Ap. Gerninger 16,30-31</ref>
+</parol>
+</theword>
+<theword date='2017-03-24'>
+<title>Ordet til Fredag, 24. Marts 2017</title>
+<parol book='19' chapter='38' verse='22' id='Ps38v22'>
+<text>Svigt mig ikke, Herre,
+hold dig ikke borte fra mig,
+min Gud!</text>
+<ref>Salmernes Bog 38,22</ref>
+</parol>
+<parol book='19' chapter='33' verse='4' id='Ps33v4'>
+<text>Herrens ord er sandt,
+alt, hvad han gør, står fast.</text>
+<ref>Salmernes Bog 33,4</ref>
+</parol>
+</theword>
+<theword date='2017-03-25'>
+<title>Ordet til Lørdag, 25. Marts 2017</title>
+<parol book='23' chapter='65' verse='8' id='Is65v8'>
+<text>Dette siger Herren:
+Når der er saft i druen,
+siger man: »Ødelæg den ikke,
+der er velsignelse i den.«
+Det samme vil jeg gøre for mine tjenere
+for ikke at ødelægge alt.</text>
+<ref>Esajas' Bog 65,8</ref>
+</parol>
+<parol book='45' chapter='11' verse='5' id='R11v5'>
+<intro>Paulus skriver om Israel:</intro>
+<text>Sådan er der også i vor tid
+blevet en rest tilbage,
+som er udvalgt af nåde.</text>
+<ref>Romerne 11,5</ref>
+</parol>
+</theword>
+<theword date='2017-03-26'>
+<title>Ordet til Søndag, 26. Marts 2017</title>
+<parol book='41' chapter='5' verse='33' id='Mc5v33-34'>
+<text>Kvinden kom frem skælvende af skræk,
+for hun vidste, hvad der var sket med hende,
+og hun faldt ned for ham og
+fortalte ham hele sandheden.
+Han sagde til hende: »Datter,
+din tro har frelst dig. Gå bort med fred,
+og vær helbredt for din lidelse!«</text>
+<ref>Markus 5,33-34</ref>
+</parol>
+<parol book='41' chapter='10' verse='52' id='Mc10v52'>
+<text>Jesus sagde til den blinde tigger:
+Gå bort, din tro har frelst dig.
+Og straks kunne han se,
+og han fulgte med ham på vejen.</text>
+<ref>Markus 10,52</ref>
+</parol>
+</theword>
+<theword date='2017-03-27'>
+<title>Ordet til Mandag, 27. Marts 2017</title>
+<parol book='41' chapter='5' verse='19' id='Mc5v19'>
+<text>Jesus sagde til den forrig dæmonbesatte:
+Gå hjem til dine egne,
+og fortæl dem om alt det,
+Herren har gjort mod dig,
+og at han har forbarmet sig over dig.</text>
+<ref>Markus 5,19</ref>
+</parol>
+<parol book='41' chapter='6' verse='12' id='Mc6v12-13'>
+<text>Så drog apostlene ud og prædikede,
+at folk skulle omvende sig;
+og de uddrev mange dæmoner,
+og de salvede mange syge med olie
+og helbredte dem.</text>
+<ref>Markus 6,12-13</ref>
+</parol>
+</theword>
+<theword date='2017-03-28'>
+<title>Ordet til Tirsdag, 28. Marts 2017</title>
+<parol book='19' chapter='34' verse='5' id='Ps34v5'>
+<text>Jeg søgte Herren, og han svarede mig,
+han befriede mig for al min frygt.</text>
+<ref>Salmernes Bog 34,5</ref>
+</parol>
+<parol book='19' chapter='50' verse='15' id='Ps50v15'>
+<text>Råb til mig på nødens dag,
+så vil jeg udfri dig, og du skal ære mig.</text>
+<ref>Salmernes Bog 50,15</ref>
+</parol>
+</theword>
+<theword date='2017-03-29'>
+<title>Ordet til Onsdag, 29. Marts 2017</title>
+<parol book='19' chapter='95' verse='6' id='Ps95v6'>
+<text>Kom, lad os kaste os ned,
+lad os bøje os,
+lad os falde på knæ for Herren,
+vor skaber.</text>
+<ref>Salmernes Bog 95,6</ref>
+</parol>
+<parol book='44' chapter='21' verse='5' id='Act21v5'>
+<text>De fulgte os alle sammen på vej med kvinder og børn,
+helt ud af byen. Dér knælede vi ned på stranden og bad.</text>
+<ref>Ap. Gerninger 21,5</ref>
+</parol>
+</theword>
+<theword date='2017-03-30'>
+<title>Ordet til Torsdag, 30. Marts 2017</title>
+<parol book='1' chapter='9' verse='8' id='Gn9v8-10'>
+<text>Gud sagde til Noa og hans sønner:
+Nu opretter jeg min pagt med jer
+og med jeres efterkommere,
+med hvert levende væsen hos jer.</text>
+<ref>1. Mosebog 9,8-10</ref>
+</parol>
+<parol book='26' chapter='1' verse='28' id='Ez1v28'>
+<text>Som regnbuen, der viser sig i skyerne en regnvejrsdag,
+sådan så den stråleglans ud, der var om ham.
+Sådan så det ud, der lignede Herrens herlighed,
+og da jeg så den, kastede jeg mig ned,
+og jeg hørte en stemme tale.</text>
+<ref>Ezekiels Bog 1,28</ref>
+</parol>
+</theword>
+<theword date='2017-03-31'>
+<title>Ordet til Fredag, 31. Marts 2017</title>
+<parol book='19' chapter='103' verse='11' id='Ps103v11'>
+<text>Så høj som himlen er over jorden,
+så stor er hans nåde mod dem,
+der frygter ham.</text>
+<ref>Salmernes Bog 103,11</ref>
+</parol>
+<parol book='40' chapter='7' verse='11' id='Mt7v11'>
+<text>Når da I, som er onde,
+kan give jeres børn gode gaver,
+hvor meget snarere vil så ikke jeres fader,
+som er i himlene,
+give gode gaver til dem, der beder ham!</text>
+<ref>Mattæus 7,11</ref>
+</parol>
+</theword>
+<theword date='2017-04-01'>
+<title>Ordet til Lørdag, 1. April 2017</title>
+<parol book='48' chapter='1' verse='8' id='G1v8'>
+<intro>Paulus skriver:</intro>
+<text>Om så vi selv eller en engel fra himlen forkyndte jer
+et andet evangelium end det,
+vi har forkyndt jer, forbandet være han.</text>
+<ref>Galaterne 1,8</ref>
+</parol>
+<parol book='54' chapter='4' verse='16' id='1T4v16'>
+<text>Giv agt på dig selv og på den undervisning,
+du giver, hold fast ved det; for når du gør det,
+bliver du til frelse både for dig selv og for dem,
+der hører på dig.</text>
+<ref>1. Timoteus 4,16</ref>
+</parol>
+</theword>
+<theword date='2017-04-02'>
+<title>Ordet til Søndag, 2. April 2017</title>
+<parol book='27' chapter='10' verse='11' id='Dn10v11'>
+<text>Så sagde englen til mig:
+Daniel, du højtelskede mand,
+forstå de ord, jeg nu taler til dig,
+og rejs dig op;
+for nu er jeg udsendt til dig.
+Og da han talte til mig,
+rejste jeg mig skælvende.</text>
+<ref>Daniels Bog 10,11</ref>
+</parol>
+<parol book='2' chapter='24' verse='7' id='Ex24v7'>
+<text>Vi vil adlyde Herren og gøre alt,
+hvad han befaler.</text>
+<ref>2. Mosebog 24,7</ref>
+</parol>
+</theword>
+<theword date='2017-04-03'>
+<title>Ordet til Mandag, 3. April 2017</title>
+<parol book='19' chapter='7' verse='9' id='Ps7v9'>
+<text>Herren holder dom over folkene.</text>
+<ref>Salmernes Bog 7,9</ref>
+</parol>
+<parol book='66' chapter='16' verse='7' id='Ap16v7'>
+<text>Jeg hørte alteret sige:
+Ja, Herre, Gud, Almægtige,
+sande og retfærdige er dine domme.</text>
+<ref>Åbenbarelse 16,7</ref>
+</parol>
+</theword>
+<theword date='2017-04-04'>
+<title>Ordet til Tirsdag, 4. April 2017</title>
+<parol book='41' chapter='1' verse='31' id='Mc1v31'>
+<text>Jesus tog hendes hånd og rejste hende op,
+og feberen forlod hende,
+og hun sørgede for dem.</text>
+<ref>Markus 1,31</ref>
+</parol>
+<parol book='19' chapter='116' verse='12' id='Ps116v12'>
+<text>Hvordan kan jeg gengælde Herren
+alle hans velgerninger mod mig?</text>
+<ref>Salmernes Bog 116,12</ref>
+</parol>
+</theword>
+<theword date='2017-04-05'>
+<title>Ordet til Onsdag, 5. April 2017</title>
+<parol book='47' chapter='2' verse='14' id='2K2v14'>
+<text>Gud ske tak, som altid fører os med
+i Kristi triumftog og overalt lader os udsprede
+kundskaben om ham som en duft.</text>
+<ref>2. Korinterne 2,14</ref>
+</parol>
+<parol book='40' chapter='5' verse='16' id='Mt5v16'>
+<text>Således skal jeres lys skinne for mennesker,
+så de ser jeres gode gerninger
+og priser jeres fader,
+som er i himlene.</text>
+<ref>Mattæus 5,16</ref>
+</parol>
+</theword>
+<theword date='2017-04-06'>
+<title>Ordet til Torsdag, 6. April 2017</title>
+<parol book='1' chapter='1' verse='1' id='Gn1v1'>
+<text>I begyndelsen skabte Gud himlen og jorden.</text>
+<ref>1. Mosebog 1,1</ref>
+</parol>
+<parol book='19' chapter='136' verse='2' id='Ps136v2'>
+<text>Tak gudernes Gud,
+hans trofasthed varer til evig tid.</text>
+<ref>Salmernes Bog 136,2</ref>
+</parol>
+</theword>
+<theword date='2017-04-07'>
+<title>Ordet til Fredag, 7. April 2017</title>
+<parol book='41' chapter='8' verse='29' id='Mc8v29'>
+<text>Peter svarede: Du er Kristus.</text>
+<ref>Markus 8,29</ref>
+</parol>
+<parol book='40' chapter='27' verse='54' id='Mt27v54'>
+<text>Da officeren og hans folk,
+der holdt vagt over Jesus, så jordskælvet
+og det andet, der skete,
+blev de rædselsslagne og sagde:
+Sandelig, han var Guds søn.</text>
+<ref>Mattæus 27,54</ref>
+</parol>
+</theword>
+<theword date='2017-04-08'>
+<title>Ordet til Lørdag, 8. April 2017</title>
+<parol book='19' chapter='91' verse='1' id='Ps91v1-2'>
+<text>Den, der sidder i den Højestes skjul,
+har sin bolig i den Almægtiges skygge;
+han kan sige om Herren:
+Min tilflugt og min borg,
+min Gud, som jeg stoler på.</text>
+<ref>Salmernes Bog 91,1-2</ref>
+</parol>
+<parol book='45' chapter='8' verse='31' id='R8v31'>
+<text>Er Gud for os,
+hvem kan da være imod os?</text>
+<ref>Romerne 8,31</ref>
+</parol>
+</theword>
+<theword date='2017-04-09'>
+<title>Ordet til Søndag, 9. April 2017</title>
+<parol book='40' chapter='11' verse='14' id='Mt11v14'>
+<intro>Jesus sagde til folket om Johannes:</intro>
+<text>Om I vil tage imod det:
+Han er Elias, som skulle komme.</text>
+<ref>Mattæus 11,14</ref>
+</parol>
+<parol book='42' chapter='1' verse='17' id='L1v17'>
+<intro>Englen talde om Johannes Døberen:</intro>
+<text>Han skal gå foran ham i Elias' ånd og kraft
+for at vende fædres hjerte til deres børn
+og give ulydige et retfærdigt sind og
+skaffe Herren et folk, der er gjort rede.</text>
+<ref>Lukas 1,17</ref>
+</parol>
+</theword>
+<theword date='2017-04-10'>
+<title>Ordet til Mandag, 10. April 2017</title>
+<parol book='41' chapter='6' verse='7' id='Mc6v7'>
+<text>Jesus kaldte de tolv til sig og begyndte
+at udsende dem to og to
+og gav dem magt over de urene ånder.</text>
+<ref>Markus 6,7</ref>
+</parol>
+<parol book='40' chapter='28' verse='18' id='Mt28v18-20'>
+<text>Jesus kom hen og talte til dem og sagde:
+Mig er givet al magt i himlen og på jorden.
+Gå derfor hen og gør alle folkeslagene til mine disciple,
+idet I døber dem i Faderens og Sønnens og Helligåndens navn,
+og idet I lærer dem at holde alt det, som jeg har befalet jer.</text>
+<ref>Mattæus 28,18-20</ref>
+</parol>
+</theword>
+<theword date='2017-04-11'>
+<title>Ordet til Tirsdag, 11. April 2017</title>
+<parol book='51' chapter='3' verse='12' id='Kol3v12'>
+<text>Ifør jer da, som Guds udvalgte, hellige og elskede,
+inderlig barmhjertighed, godhed, ydmyghed,
+mildhed, tålmodighed.</text>
+<ref>Kolossenserne 3,12</ref>
+</parol>
+<parol book='40' chapter='5' verse='39' id='Mt5v39'>
+<text>I må ikke sætte jer til modværge mod den,
+der vil jer noget ondt.
+Men slår nogen dig på din højre kind,
+så vend også den anden til.</text>
+<ref>Mattæus 5,39</ref>
+</parol>
+</theword>
+<theword date='2017-04-12'>
+<title>Ordet til Onsdag, 12. April 2017</title>
+<parol book='19' chapter='62' verse='10' id='Ps62v10'>
+<text>Kun et vindpust er menneskene,
+menneskebørnene er blændværk;
+vægtskålen med dem hæver sig,
+de er flygtigere end et vindpust.</text>
+<ref>Salmernes Bog 62,10</ref>
+</parol>
+<parol book='46' chapter='15' verse='42' id='1K15v42'>
+<text>Således er det med de dødes opstandelse.
+Hvad der bliver sået i forgængelighed,
+opstår i uforgængelighed.</text>
+<ref>1. Korinterne 15,42</ref>
+</parol>
+</theword>
+<theword date='2017-04-13'>
+<title>Ordet til Torsdag, 13. April 2017</title>
+<parol book='43' chapter='8' verse='12' id='J8v12'>
+<text>Atter talte Jesus til dem og sagde:
+Jeg er verdens lys.
+Den, der følger mig,
+skal aldrig vandre i mørket,
+men have livets lys.</text>
+<ref>Johannes 8,12</ref>
+</parol>
+<parol book='47' chapter='4' verse='4' id='2K4v4'>
+<text>Deres tanker har denne verdens gud blindet,
+så de ikke ser lyset, der stråler fra evangeliet
+om Kristi herlighed, Kristus, som er Guds billede.</text>
+<ref>2. Korinterne 4,4</ref>
+</parol>
+</theword>
+<theword date='2017-04-14'>
+<title>Ordet til Fredag, 14. April 2017</title>
+<parol book='1' chapter='19' verse='13' id='Gn19v13'>
+<intro>To engler sagde til Lot i Sodom:</intro>
+<text>Vi skal ødelægge dette sted.
+Herren har hørt deres høje skrig,
+og nu har han sendt os for at ødelægge byen.</text>
+<ref>1. Mosebog 19,13</ref>
+</parol>
+<parol book='19' chapter='33' verse='10' id='Ps33v10'>
+<text>Herren gør folkenes råd til intet,
+han hindrer folkeslagenes planer.</text>
+<ref>Salmernes Bog 33,10</ref>
+</parol>
+</theword>
+<theword date='2017-04-15'>
+<title>Ordet til Lørdag, 15. April 2017</title>
+<parol book='51' chapter='3' verse='25' id='Kol3v25'>
+<text>Den, der gør uret, skal få den uret igen,
+han har gjort,
+og der bliver ikke gjort forskel på folk.</text>
+<ref>Kolossenserne 3,25</ref>
+</parol>
+<parol book='60' chapter='1' verse='17' id='1P1v17'>
+<text>Når I påkalder ham som fader,
+der uden at gøre forskel på folk
+dømmer enhver efter hans gerning,
+skal I leve i gudsfrygt,
+så længe I er udlændinge her.</text>
+<ref>1. Peterbrev 1,17</ref>
+</parol>
+</theword>
+<theword date='2017-04-16'>
+<title>Ordet til Søndag, 16. April 2017</title>
+<parol book='19' chapter='10' verse='17' id='Ps10v17'>
+<text>Du har hørt, hvad de hjælpeløse ønsker,
+Herre,
+du giver dem mod, du lytter til dem.</text>
+<ref>Salmernes Bog 10,17</ref>
+</parol>
+<parol book='40' chapter='8' verse='25' id='Mt8v25-26'>
+<text>Disciplene kom hen og vækkede ham og sagde:
+Herre, frels os! Vi går under!
+Men han sagde til dem:
+Hvorfor er I bange, I lidettroende?
+Da rejste han sig og truede ad storm og sø,
+og det blev helt blikstille.</text>
+<ref>Mattæus 8,25-26</ref>
+</parol>
+</theword>
+<theword date='2017-04-17'>
+<title>Ordet til Mandag, 17. April 2017</title>
+<parol book='58' chapter='10' verse='25' id='H10v25'>
+<text>Lad os ikke svigte vor egen forsamling,
+som nogle har for skik,
+men formane hinanden.</text>
+<ref>Hebræerne 10,25</ref>
+</parol>
+<parol book='19' chapter='81' verse='14' id='Ps81v14'>
+<text>Gid mit folk ville høre mig,
+gid Israel ville vandre ad mine veje!</text>
+<ref>Salmernes Bog 81,14</ref>
+</parol>
+</theword>
+<theword date='2017-04-18'>
+<title>Ordet til Tirsdag, 18. April 2017</title>
+<parol book='43' chapter='1' verse='5' id='J1v5'>
+<text>Lyset skinner i mørket,
+og mørket greb det ikke.</text>
+<ref>Johannes 1,5</ref>
+</parol>
+<parol book='49' chapter='5' verse='8' id='E5v8-9'>
+<text>Engang var I mørke,
+men nu er I lys i Herren;
+lev som lysets børn,
+for lysets frugt er lutter godhed,
+retfærdighed og sandhed.</text>
+<ref>Efeserne 5,8-9</ref>
+</parol>
+</theword>
+<theword date='2017-04-19'>
+<title>Ordet til Onsdag, 19. April 2017</title>
+<parol book='40' chapter='16' verse='8' id='Mt16v8-9'>
+<text>Jesus sagde til disciplene:
+Hvorfor siger I til hinanden, I lidettroende,
+at det er, fordi I ikke har brød med?
+Kan I endnu ikke fatte, eller husker I ikke
+de fem brød til de fem tusind,
+og hvor mange kurve I da samlede?</text>
+<ref>Mattæus 16,8-9</ref>
+</parol>
+<parol book='26' chapter='36' verse='23' id='Ez36v23'>
+<text>Så skal folkene forstå,
+at jeg er Herren, siger Gud Herren,
+når jeg for øjnene af dem viser
+min hellighed på jer.</text>
+<ref>Ezekiels Bog 36,23</ref>
+</parol>
+</theword>
+<theword date='2017-04-20'>
+<title>Ordet til Torsdag, 20. April 2017</title>
+<parol book='24' chapter='2' verse='2' id='Jr2v2'>
+<text>Dette siger Herren:
+Jeg husker din trofasthed,
+da du var ung,
+din kærlighed, da du stod brud.
+Du fulgte mig i ørkenen,
+i et land, hvor ingen sår.</text>
+<ref>Jeremias' Bog 2,2</ref>
+</parol>
+<parol book='58' chapter='6' verse='10' id='H6v10'>
+<text>Gud er ikke uretfærdig,
+så han glemmer jeres arbejde og den
+kærlighed, som I har vist hans navn,
+ved at I har tjent og stadig tjener de hellige.</text>
+<ref>Hebræerne 6,10</ref>
+</parol>
+</theword>
+<theword date='2017-04-21'>
+<title>Ordet til Fredag, 21. April 2017</title>
+<parol book='40' chapter='19' verse='17' id='Mt19v17'>
+<text>Jesus svarede den unge mand:
+Hvorfor spørger du mig om det gode?
+Én er den gode.
+Men vil du gå ind til livet, så hold budene!</text>
+<ref>Mattæus 19,17</ref>
+</parol>
+<parol book='24' chapter='9' verse='22' id='Jr9v22-23'>
+<text>Den vise skal ikke være stolt af sin visdom,
+den stærke skal ikke være stolt af sin styrke,
+den rige skal ikke være stolt af sin rigdom.
+Nej, den, der er stolt, skal være stolt af dette,
+at han har indsigt og kender mig.
+For jeg, Herren, øver trofasthed,
+ret og retfærdighed på jorden.</text>
+<ref>Jeremias' Bog 9,22-23</ref>
+</parol>
+</theword>
+<theword date='2017-04-22'>
+<title>Ordet til Lørdag, 22. April 2017</title>
+<parol book='1' chapter='3' verse='8' id='Gn3v8'>
+<text>Ved aftenstid hørte de Gud Herren
+gå rundt i haven. Da gemte Adam og hans
+kvinde sig for Gud Herren mellem havens træer.</text>
+<ref>1. Mosebog 3,8</ref>
+</parol>
+<parol book='19' chapter='100' verse='1' id='Ps100v1-2'>
+<text>Bryd ud i fryderåb for Herren,
+hele jorden!
+Tjen Herren under glædessang,
+træd frem for ham under jubel!</text>
+<ref>Salmernes Bog 100,1-2</ref>
+</parol>
+</theword>
+<theword date='2017-04-23'>
+<title>Ordet til Søndag, 23. April 2017</title>
+<parol book='25' chapter='3' verse='57' id='Thr3v57'>
+<text>Du kom mig nær, da jeg kaldte,
+du sagde: »Frygt ikke!«</text>
+<ref>Klagesangene 3,57</ref>
+</parol>
+<parol book='45' chapter='10' verse='12' id='R10v12-13'>
+<text>Der er ingen forskel på jøder og grækere;
+alle har den samme Herre,
+rig nok for alle, som påkalder ham, for
+»enhver, som påkalder Herrens navn, skal frelses«.</text>
+<ref>Romerne 10,12-13</ref>
+</parol>
+</theword>
+<theword date='2017-04-24'>
+<title>Ordet til Mandag, 24. April 2017</title>
+<parol book='19' chapter='145' verse='17' id='Ps145v17'>
+<text>Herren er retfærdig på alle sine veje,
+han er trofast i alle sine gerninger.</text>
+<ref>Salmernes Bog 145,17</ref>
+</parol>
+<parol book='45' chapter='11' verse='29' id='R11v29'>
+<text>Sine nådegaver og sit kald fortryder Gud ikke.</text>
+<ref>Romerne 11,29</ref>
+</parol>
+</theword>
+<theword date='2017-04-25'>
+<title>Ordet til Tirsdag, 25. April 2017</title>
+<parol book='52' chapter='5' verse='8' id='1Th5v8'>
+<text>Vi, der tilhører dagen, skal være ædru og iføre os troen og
+kærligheden som brynje og håbet om frelse som hjelm.</text>
+<ref>1. Tessalonikerne 5,8</ref>
+</parol>
+<parol book='62' chapter='1' verse='7' id='1J1v7'>
+<text>Hvis vi vandrer i lyset, ligesom han er i lyset,
+har vi fællesskab med hinanden,
+og Jesu, hans søns, blod
+renser os for al synd.</text>
+<ref>1. Johannes 1,7</ref>
+</parol>
+</theword>
+<theword date='2017-04-26'>
+<title>Ordet til Onsdag, 26. April 2017</title>
+<parol book='43' chapter='4' verse='51' id='J4v51'>
+<text>Allerede mens han var på vej hjem,
+kom hans tjenere ham i møde og fortalte,
+at hans dreng var i live.</text>
+<ref>Johannes 4,51</ref>
+</parol>
+<parol book='43' chapter='5' verse='25' id='J5v25'>
+<intro>Jesus sagde:</intro>
+<text>Den time kommer, ja, den er nu,
+da de døde skal høre Guds søns røst,
+og de, der hører den, skal leve.</text>
+<ref>Johannes 5,25</ref>
+</parol>
+</theword>
+<theword date='2017-04-27'>
+<title>Ordet til Torsdag, 27. April 2017</title>
+<parol book='46' chapter='15' verse='5' id='1K15v5'>
+<text>Han blev set af Kefas og dernæst af de tolv.</text>
+<ref>1. Korinterne 15,5</ref>
+</parol>
+<parol book='55' chapter='1' verse='10' id='2T1v10'>
+<text>Som nu er åbenbaret ved vor frelser Kristi Jesu tilsynekomst,
+ved ham, der tilintetgjorde døden og bragte liv
+og uforgængelighed for lyset ved evangeliet.</text>
+<ref>2. Timoteus 1,10</ref>
+</parol>
+</theword>
+<theword date='2017-04-28'>
+<title>Ordet til Fredag, 28. April 2017</title>
+<parol book='23' chapter='60' verse='10' id='Is60v10'>
+<text>I min vrede slog jeg dig,
+men i min nåde forbarmer jeg mig
+over dig.</text>
+<ref>Esajas' Bog 60,10</ref>
+</parol>
+<parol book='33' chapter='7' verse='19' id='Mch7v19'>
+<text>Han viser os atter barmhjertighed
+og træder al vor skyld under fode.
+Du kaster alle vore synder
+i havets dyb!</text>
+<ref>Mikas Bog 7,19</ref>
+</parol>
+</theword>
+<theword date='2017-04-29'>
+<title>Ordet til Lørdag, 29. April 2017</title>
+<parol book='24' chapter='32' verse='42' id='Jr32v42'>
+<text>Dette siger Herren:
+Ligesom jeg bragte hele denne store ulykke
+over dette folk,
+bringer jeg nu alt det gode over dem,
+som jeg lover dem.</text>
+<ref>Jeremias' Bog 32,42</ref>
+</parol>
+<parol book='19' chapter='4' verse='7' id='Ps4v7'>
+<text>Mange siger: Hvem lader os opleve lykke?
+Løft dit ansigts lys mod os, Herre!</text>
+<ref>Salmernes Bog 4,7</ref>
+</parol>
+</theword>
+<theword date='2017-04-30'>
+<title>Ordet til Søndag, 30. April 2017</title>
+<parol book='1' chapter='6' verse='8' id='Gn6v8'>
+<text>Noa fandt nåde for Herrens øjne.</text>
+<ref>1. Mosebog 6,8</ref>
+</parol>
+<parol book='47' chapter='13' verse='13' id='2K13v13'>
+<text>Herren Jesu Kristi nåde og Guds kærlighed
+og Helligåndens fællesskab være med jer alle!</text>
+<ref>2. Korinterne 13,13</ref>
+</parol>
+</theword>
+<theword date='2017-05-01'>
+<title>Ordet til Mandag, 1. Mai 2017</title>
+<parol book='19' chapter='16' verse='8' id='Ps16v8'>
+<text>Jeg har altid Herren for øje,
+han er ved min højre side,
+og jeg vakler ikke.</text>
+<ref>Salmernes Bog 16,8</ref>
+</parol>
+<parol book='42' chapter='21' verse='28' id='L21v28'>
+<intro>Jesus sagde:</intro>
+<text>Når disse ting begynder at ske,
+så ret jer op og løft jeres hoved,
+for jeres forløsning nærmer sig.</text>
+<ref>Lukas 21,28</ref>
+</parol>
+</theword>
+<theword date='2017-05-02'>
+<title>Ordet til Tirsdag, 2. Mai 2017</title>
+<parol book='42' chapter='10' verse='21' id='L10v21'>
+<text>I samme stund jublede Jesus i Helligånden og sagde:
+Jeg priser dig, fader, himlens og jordens Herre,
+fordi du har skjult dette for vise og forstandige
+og åbenbaret det for umyndige;
+ja, fader, for således var det din vilje.</text>
+<ref>Lukas 10,21</ref>
+</parol>
+<parol book='46' chapter='1' verse='20' id='1K1v20'>
+<text>Hvor er de vise henne, hvor er de skriftkloge,
+hvor er denne verdens kloge hoveder?
+Har Gud ikke gjort verdens visdom til dårskab?</text>
+<ref>1. Korinterne 1,20</ref>
+</parol>
+</theword>
+<theword date='2017-05-03'>
+<title>Ordet til Onsdag, 3. Mai 2017</title>
+<parol book='58' chapter='2' verse='3' id='H2v3'>
+<text>Hvordan skal vi da kunne gå fri,
+hvis vi lader hånt om en frelse så stor,
+at den fra først af blev forkyndt af Herren selv
+og senere stadfæstet for os af dem,
+som havde hørt ham.</text>
+<ref>Hebræerne 2,3</ref>
+</parol>
+<parol book='19' chapter='139' verse='9' id='Ps139v9-10'>
+<text>Låner jeg morgenrødens vinger
+og slår mig ned, hvor havet ender,
+så leder din hånd mig også dér,
+din højre hånd holder mig fast.</text>
+<ref>Salmernes Bog 139,9-10</ref>
+</parol>
+</theword>
+<theword date='2017-05-04'>
+<title>Ordet til Torsdag, 4. Mai 2017</title>
+<parol book='26' chapter='37' verse='23' id='Ez37v23'>
+<text>Jeg frelser dem fra deres syndige frafald
+og renser dem;
+de skal være mit folk,
+og jeg vil være deres Gud.</text>
+<ref>Ezekiels Bog 37,23</ref>
+</parol>
+<parol book='66' chapter='21' verse='3' id='Ap21v3'>
+<text>Jeg hørte en høj røst fra tronen sige:
+Nu er Guds bolig hos menneskene,
+han vil bo hos dem,
+og de skal være hans folk,
+og Gud vil selv være hos dem.</text>
+<ref>Åbenbarelse 21,3</ref>
+</parol>
+</theword>
+<theword date='2017-05-05'>
+<title>Ordet til Fredag, 5. Mai 2017</title>
+<parol book='1' chapter='26' verse='3' id='Gn26v3'>
+<text>Du skal bo som fremmed her i landet,
+så vil jeg være med dig og velsigne dig.</text>
+<ref>1. Mosebog 26,3</ref>
+</parol>
+<parol book='45' chapter='9' verse='16' id='R9v16'>
+<text>Så afhænger det altså ikke af menneskers vilje
+eller stræben, men af Guds barmhjertighed.</text>
+<ref>Romerne 9,16</ref>
+</parol>
+</theword>
+<theword date='2017-05-06'>
+<title>Ordet til Lørdag, 6. Mai 2017</title>
+<parol book='19' chapter='33' verse='9' id='Ps33v9'>
+<text>Han talte, og det skete,
+han befalede, og det stod der.</text>
+<ref>Salmernes Bog 33,9</ref>
+</parol>
+<parol book='42' chapter='21' verse='33' id='L21v33'>
+<intro>Jesus siger:</intro>
+<text>Himmel og jord skal forgå,
+men mine ord skal aldrig forgå.</text>
+<ref>Lukas 21,33</ref>
+</parol>
+</theword>
+<theword date='2017-05-07'>
+<title>Ordet til Søndag, 7. Mai 2017</title>
+<parol book='19' chapter='117' verse='1' id='Ps117v1'>
+<text>Halleluja.
+Lovpris Herren, alle folkeslag!
+Lovsyng ham, alle folk!</text>
+<ref>Salmernes Bog 117,1</ref>
+</parol>
+<parol book='11' chapter='8' verse='60' id='1Rg8v60'>
+<text>At alle jordens folk kan vide,
+at Herren og ingen anden er Gud.</text>
+<ref>1. Kongebog 8,60</ref>
+</parol>
+</theword>
+<theword date='2017-05-08'>
+<title>Ordet til Mandag, 8. Mai 2017</title>
+<parol book='46' chapter='4' verse='20' id='1K4v20'>
+<text>Guds rige afhænger ikke af ord, men af kraft.</text>
+<ref>1. Korinterne 4,20</ref>
+</parol>
+<parol book='14' chapter='25' verse='8' id='2Chr25v8'>
+<text>Gud har magt til at hjælpe
+og til at bringe til fald.</text>
+<ref>2. Krønikebog 25,8</ref>
+</parol>
+</theword>
+<theword date='2017-05-09'>
+<title>Ordet til Tirsdag, 9. Mai 2017</title>
+<parol book='40' chapter='5' verse='13' id='Mt5v13'>
+<text>I er jordens salt.
+Men hvis saltet mister sin kraft,
+hvad skal det så saltes med?</text>
+<ref>Mattæus 5,13</ref>
+</parol>
+<parol book='66' chapter='3' verse='15' id='Ap3v15-16'>
+<text>Jeg kender dine gerninger,
+du er hverken kold eller varm.
+Gid du var enten kold eller varm!
+Men nu, da du er lunken
+og hverken varm eller kold,
+vil jeg udspy dig af min mund.</text>
+<ref>Åbenbarelse 3,15-16</ref>
+</parol>
+</theword>
+<theword date='2017-05-10'>
+<title>Ordet til Onsdag, 10. Mai 2017</title>
+<parol book='10' chapter='7' verse='18' id='2Sm7v18'>
+<intro>Kong David sagde:</intro>
+<text>Hvem er jeg, Gud Herre, og hvad er mit hus,
+siden du har ladet mig nå så vidt?</text>
+<ref>2. Samuelsbog 7,18</ref>
+</parol>
+<parol book='46' chapter='15' verse='10' id='1K15v10'>
+<text>Af Guds nåde er jeg, hvad jeg er,
+og hans nåde imod mig har ikke været forgæves;
+jeg har arbejdet mere end nogen af dem,
+det vil sige ikke jeg,
+men Guds nåde, som har været med mig.</text>
+<ref>1. Korinterne 15,10</ref>
+</parol>
+</theword>
+<theword date='2017-05-11'>
+<title>Ordet til Torsdag, 11. Mai 2017</title>
+<parol book='1' chapter='2' verse='15' id='Gn2v15'>
+<text>Gud Herren tog mennesket
+og satte ham i Edens have,
+for at han skulle dyrke og vogte den.</text>
+<ref>1. Mosebog 2,15</ref>
+</parol>
+<parol book='43' chapter='17' verse='15' id='J17v15'>
+<intro>Jesus sagde til Faderen:</intro>
+<text>Jeg beder ikke om,
+at du skal tage dem ud af verden,
+men at du vil bevare dem fra det onde.</text>
+<ref>Johannes 17,15</ref>
+</parol>
+</theword>
+<theword date='2017-05-12'>
+<title>Ordet til Fredag, 12. Mai 2017</title>
+<parol book='33' chapter='5' verse='4' id='Mch5v4'>
+<text>Han skal være fredens herre.
+Når assyrerne går ind i vort land,
+når de tramper ind i vore borge,
+stiller vi imod dem syv hyrder,
+ja, otte menneskefyrster.</text>
+<ref>Mikas Bog 5,4</ref>
+</parol>
+<parol book='42' chapter='2' verse='15' id='L2v15'>
+<text>Da englene havde forladt dem
+og var vendt tilbage til himlen,
+sagde hyrderne til hinanden:
+Lad os gå ind til Betlehem og se
+det, som er sket,
+og som Herren har forkyndt os.</text>
+<ref>Lukas 2,15</ref>
+</parol>
+</theword>
+<theword date='2017-05-13'>
+<title>Ordet til Lørdag, 13. Mai 2017</title>
+<parol book='54' chapter='6' verse='7' id='1T6v7-8'>
+<text>Tomhændet kom vi til verden,
+og tomhændet skal vi gå ud af den;
+har vi føde og klæder, skal vi lade os nøje med det.</text>
+<ref>1. Timoteus 6,7-8</ref>
+</parol>
+<parol book='40' chapter='6' verse='26' id='Mt6v26'>
+<text>Se himlens fugle;
+de sår ikke og høster ikke
+og samler ikke i lade,
+og jeres himmelske fader giver dem føden.
+Er I ikke langt mere værd end de?</text>
+<ref>Mattæus 6,26</ref>
+</parol>
+</theword>
+<theword date='2017-05-14'>
+<title>Ordet til Søndag, 14. Mai 2017</title>
+<parol book='7' chapter='6' verse='23' id='Jdc6v23-24'>
+<text>Herren sagde til Gideon:
+Fred være med dig!
+Vær ikke bange, du skal ikke dø!
+Dér byggede Gideon et alter for Herren
+og kaldte det »Herren er fred«.</text>
+<ref>Dommersbogen 6,23-24</ref>
+</parol>
+<parol book='42' chapter='1' verse='30' id='L1v30'>
+<text>Da sagde englen til hende:
+Frygt ikke, Maria!
+For du har fundet nåde for Gud.</text>
+<ref>Lukas 1,30</ref>
+</parol>
+</theword>
+<theword date='2017-05-15'>
+<title>Ordet til Mandag, 15. Mai 2017</title>
+<parol book='18' chapter='16' verse='19' id='Job16v19'>
+<text>Også nu har jeg mit vidne i himlen,
+min forsvarer i det højeste.</text>
+<ref>Jobs Bog 16,19</ref>
+</parol>
+<parol book='19' chapter='88' verse='9' id='Ps88v9-10'>
+<text>Jeg er spærret inde,
+jeg kan ikke komme ud.
+Mit øje er sløvet af lidelser,
+hver dag råber jeg til dig, Herre,
+og rækker mine hænder op imod dig.</text>
+<ref>Salmernes Bog 88,9-10</ref>
+</parol>
+</theword>
+<theword date='2017-05-16'>
+<title>Ordet til Tirsdag, 16. Mai 2017</title>
+<parol book='43' chapter='14' verse='9' id='J14v9'>
+<text>Jesus sagd:
+Så lang tid har jeg været hos jer,
+og du kender mig ikke, Filip?
+Den, der har set mig, har set Faderen;
+hvordan kan du så sige: Vis os Faderen?</text>
+<ref>Johannes 14,9</ref>
+</parol>
+<parol book='61' chapter='3' verse='18' id='2P3v18'>
+<text>Voks i nåde og erkendelse af vor Herre
+og frelser, Jesus Kristus.
+Æren er hans både nu
+og til evighedens dag!</text>
+<ref>2. Peterbrev 3,18</ref>
+</parol>
+</theword>
+<theword date='2017-05-17'>
+<title>Ordet til Onsdag, 17. Mai 2017</title>
+<parol book='59' chapter='4' verse='10' id='Jc4v10'>
+<text>Ydmyg jer for Herren,
+så vil han ophøje jer.</text>
+<ref>Jakobs Brev 4,10</ref>
+</parol>
+<parol book='42' chapter='18' verse='14' id='L18v14'>
+<text>Enhver, som ophøjer sig selv,
+skal ydmyges,
+og den, der ydmyger sig selv,
+skal ophøjes.</text>
+<ref>Lukas 18,14</ref>
+</parol>
+</theword>
+<theword date='2017-05-18'>
+<title>Ordet til Torsdag, 18. Mai 2017</title>
+<parol book='24' chapter='8' verse='4' id='Jr8v4'>
+<text>Rejser man sig ikke,
+når man er faldet?
+Vender man ikke tilbage,
+når man er vendt om?</text>
+<ref>Jeremias' Bog 8,4</ref>
+</parol>
+<parol book='40' chapter='3' verse='2' id='Mt3v2'>
+<text>Omvend jer,
+for Himmeriget er kommet nær!</text>
+<ref>Mattæus 3,2</ref>
+</parol>
+</theword>
+<theword date='2017-05-19'>
+<title>Ordet til Fredag, 19. Mai 2017</title>
+<parol book='40' chapter='13' verse='33' id='Mt13v33'>
+<text>Han fortalte dem en anden lignelse:
+Himmeriget ligner en surdej,
+som en kvinde tog og kom i tre mål hvedemel,
+til det hele var gennemsyret.</text>
+<ref>Mattæus 13,33</ref>
+</parol>
+<parol book='44' chapter='4' verse='4' id='Act4v4'>
+<text>Mange af dem, som havde hørt ordet,
+kom til tro, og tallet på mændene nåede
+op omkring fem tusind.</text>
+<ref>Ap. Gerninger 4,4</ref>
+</parol>
+</theword>
+<theword date='2017-05-20'>
+<title>Ordet til Lørdag, 20. Mai 2017</title>
+<parol book='19' chapter='27' verse='14' id='Ps27v14'>
+<text>Sæt dit håb til Herren,
+vær stærk, fat mod,
+sæt dit håb til Herren!</text>
+<ref>Salmernes Bog 27,14</ref>
+</parol>
+<parol book='47' chapter='4' verse='16' id='2K4v16'>
+<text>Derfor bliver vi ikke modløse, for selv om vort ydre menneske
+går til grunde, fornyes dog vort indre menneske dag for dag.</text>
+<ref>2. Korinterne 4,16</ref>
+</parol>
+</theword>
+<theword date='2017-05-21'>
+<title>Ordet til Søndag, 21. Mai 2017</title>
+<parol book='52' chapter='5' verse='17' id='1Th5v17'>
+<text>Bed uophørligt.</text>
+<ref>1. Tessalonikerne 5,17</ref>
+</parol>
+<parol book='24' chapter='29' verse='13' id='Jr29v13-14'>
+<text>Søger I mig, skal I finde mig.
+Når I søger mig af hele jeres hjerte,
+er jeg at finde, siger Herren.</text>
+<ref>Jeremias' Bog 29,13-14</ref>
+</parol>
+</theword>
+<theword date='2017-05-22'>
+<title>Ordet til Mandag, 22. Mai 2017</title>
+<parol book='33' chapter='5' verse='3' id='Mch5v3'>
+<text>Da skal han træde frem og vogte
+i Herrens styrke,
+i Herren sin Guds navns storhed;
+de skal bo trygt,
+for hans magt når til jordens ender.</text>
+<ref>Mikas Bog 5,3</ref>
+</parol>
+<parol book='44' chapter='2' verse='39' id='Act2v39'>
+<intro>Petrus sagde til jøderne:</intro>
+<text>Løftet gælder jer og jeres børn
+og alle dem i det fjerne,
+som Herren vor Gud vil kalde på.</text>
+<ref>Ap. Gerninger 2,39</ref>
+</parol>
+</theword>
+<theword date='2017-05-23'>
+<title>Ordet til Tirsdag, 23. Mai 2017</title>
+<parol book='45' chapter='14' verse='9' id='R14v9'>
+<text>Derfor døde Kristus og blev levende igen,
+for at han skulle blive herre over
+både døde og levende.</text>
+<ref>Romerne 14,9</ref>
+</parol>
+<parol book='66' chapter='1' verse='17' id='Ap1v17-18'>
+<text>Frygt ikke!
+Jeg er den første og den sidste og den,
+som lever: Jeg var død, og se,
+jeg lever i evighedernes evigheder,
+og jeg har nøglerne til døden og dødsriget.</text>
+<ref>Åbenbarelse 1,17-18</ref>
+</parol>
+</theword>
+<theword date='2017-05-24'>
+<title>Ordet til Onsdag, 24. Mai 2017</title>
+<parol book='11' chapter='8' verse='58' id='1Rg8v58'>
+<text>Vende vores hjerte til sig,
+så vi vandrer ad alle hans veje.</text>
+<ref>1. Kongebog 8,58</ref>
+</parol>
+<parol book='49' chapter='2' verse='10' id='E2v10'>
+<text>Guds værk er vi,
+skabt i Kristus Jesus til gode gerninger,
+som Gud forud har lagt til rette
+for os at vandre i.</text>
+<ref>Efeserne 2,10</ref>
+</parol>
+</theword>
+<theword date='2017-05-25'>
+<title>Ordet til Torsdag, 25. Mai 2017</title>
+<parol book='62' chapter='3' verse='8' id='1J3v8'>
+<text>Den, der gør synden, er af Djævelen,
+for Djævelen har syndet fra begyndelsen.
+Derfor blev Guds søn åbenbaret:
+for at tilintetgøre Djævelens gerninger.</text>
+<ref>1. Johannes 3,8</ref>
+</parol>
+<parol book='46' chapter='15' verse='26' id='1K15v26'>
+<text>Som den sidste fjende tilintetgøres døden.</text>
+<ref>1. Korinterne 15,26</ref>
+</parol>
+</theword>
+<theword date='2017-05-26'>
+<title>Ordet til Fredag, 26. Mai 2017</title>
+<parol book='48' chapter='1' verse='22' id='G1v22-24'>
+<intro>Paulus skriver:</intro>
+<text>Jeg var personlig ukendt for Kristi menigheder i Judæa;
+de havde bare hørt om, at han, der før forfulgte os,
+nu forkynder den tro, han tidligere ville udrydde,
+og de priste Gud for mig.</text>
+<ref>Galaterne 1,22-24</ref>
+</parol>
+<parol book='46' chapter='13' verse='6' id='1K13v6'>
+<text>Kærligheden finder ikke sin glæde i uretten,
+men glæder sig ved sandheden.</text>
+<ref>1. Korinterne 13,6</ref>
+</parol>
+</theword>
+<theword date='2017-05-27'>
+<title>Ordet til Lørdag, 27. Mai 2017</title>
+<parol book='19' chapter='94' verse='9' id='Ps94v9'>
+<text>Skulle han, som plantede øret, ikke høre,
+skulle han, som dannede øjet, ikke se?</text>
+<ref>Salmernes Bog 94,9</ref>
+</parol>
+<parol book='19' chapter='121' verse='3' id='Ps121v3'>
+<text>Han lader ikke din fod vakle,
+han, som bevarer dig,
+falder ikke i søvn.</text>
+<ref>Salmernes Bog 121,3</ref>
+</parol>
+</theword>
+<theword date='2017-05-28'>
+<title>Ordet til Søndag, 28. Mai 2017</title>
+<parol book='24' chapter='30' verse='20' id='Jr30v20'>
+<text>Jakobs sønner skal være som før,
+hans menighed skal bestå for mit ansigt.
+Jeg straffer alle deres undertrykkere.</text>
+<ref>Jeremias' Bog 30,20</ref>
+</parol>
+<parol book='40' chapter='16' verse='18' id='Mt16v18'>
+<intro>Jesus sagde:</intro>
+<text>Jeg siger dig, at du er Peter,
+og på den klippe vil jeg bygge min kirke,
+og dødsrigets porte skal ikke få magt over den.</text>
+<ref>Mattæus 16,18</ref>
+</parol>
+</theword>
+<theword date='2017-05-29'>
+<title>Ordet til Mandag, 29. Mai 2017</title>
+<parol book='19' chapter='34' verse='12' id='Ps34v12'>
+<text>Kom og hør mig, børn,
+jeg vil lære jer at frygte Herren.</text>
+<ref>Salmernes Bog 34,12</ref>
+</parol>
+<parol book='42' chapter='18' verse='17' id='L18v17'>
+<text>Den, der ikke modtager Guds rige ligesom
+et lille barn,
+kommer slet ikke ind i det.</text>
+<ref>Lukas 18,17</ref>
+</parol>
+</theword>
+<theword date='2017-05-30'>
+<title>Ordet til Tirsdag, 30. Mai 2017</title>
+<parol book='5' chapter='26' verse='15' id='Dt26v15'>
+<text>Se ned fra din hellige bolig,
+fra himlen, og velsign dit folk,
+Israel, og den jord, du har givet os.</text>
+<ref>5. Mosebog 26,15</ref>
+</parol>
+<parol book='43' chapter='16' verse='7' id='J16v7'>
+<text>Det er det bedste for jer,
+at jeg går bort. For går jeg ikke bort,
+vil Talsmanden ikke komme til jer;
+men når jeg går herfra,
+vil jeg sende ham til jer.</text>
+<ref>Johannes 16,7</ref>
+</parol>
+</theword>
+<theword date='2017-05-31'>
+<title>Ordet til Onsdag, 31. Mai 2017</title>
+<parol book='27' chapter='2' verse='44' id='Dn2v44'>
+<text>Himlens Gud skal oprette et kongerige,
+som i al evighed ikke skal gå til grunde,
+og intet andet folk skal få kongemagten.</text>
+<ref>Daniels Bog 2,44</ref>
+</parol>
+<parol book='40' chapter='18' verse='3' id='Mt18v3'>
+<intro>Jesus sagde:</intro>
+<text>Hvis I ikke vender om og bliver som børn,
+kommer I slet ikke ind i Himmeriget.</text>
+<ref>Mattæus 18,3</ref>
+</parol>
+</theword>
+<theword date='2017-06-01'>
+<title>Ordet til Torsdag, 1. Juni 2017</title>
+<parol book='46' chapter='12' verse='4' id='1K12v4-5'>
+<text>Der er forskel på nådegaver,
+men Ånden er den samme.
+Der er forskel på tjenester,
+men Herren er den samme.</text>
+<ref>1. Korinterne 12,4-5</ref>
+</parol>
+<parol book='49' chapter='4' verse='7' id='E4v7'>
+<text>Hver enkelt af os har fået nåden givet
+som gave tilmålt af Kristus.</text>
+<ref>Efeserne 4,7</ref>
+</parol>
+</theword>
+<theword date='2017-06-02'>
+<title>Ordet til Fredag, 2. Juni 2017</title>
+<parol book='9' chapter='10' verse='6' id='1Sm10v6'>
+<text>Herrens ånd vil gribe dig,
+så du kommer i profetisk henrykkelse
+sammen med dem
+og bliver forvandlet til et andet menneske.</text>
+<ref>1. Samuelsbog 10,6</ref>
+</parol>
+<parol book='42' chapter='24' verse='49' id='L24v49'>
+<text>Se, jeg sender det, min fader har lovet jer;
+men bliv i byen, indtil I bliver iført
+kraft fra det høje.</text>
+<ref>Lukas 24,49</ref>
+</parol>
+</theword>
+<theword date='2017-06-03'>
+<title>Ordet til Lørdag, 3. Juni 2017</title>
+<parol book='46' chapter='15' verse='1' id='1K15v1'>
+<text>Brødre, jeg vil gøre jer bekendt med det evangelium,
+som jeg har forkyndt jer,
+det som I også har taget imod,
+som I også står i.</text>
+<ref>1. Korinterne 15,1</ref>
+</parol>
+<parol book='52' chapter='2' verse='4' id='1Th2v4'>
+<text>Men vi forkynder sådan,
+som Gud har fundet os værdige til at få
+evangeliet betroet,
+ikke for at behage mennesker, men Gud,
+som prøver vort hjerte.</text>
+<ref>1. Tessalonikerne 2,4</ref>
+</parol>
+</theword>
+<theword date='2017-06-04'>
+<title>Ordet til Søndag, 4. Juni 2017</title>
+<parol book='44' chapter='7' verse='51' id='Act7v51'>
+<intro>Stephanus sagde til jøderne:</intro>
+<text>I stivnakkede og uomskårne på hjerte og øre!
+I sætter jer altid op imod Helligånden;
+det gjorde jeres fædre, og det gør I.</text>
+<ref>Ap. Gerninger 7,51</ref>
+</parol>
+<parol book='20' chapter='3' verse='34' id='Prv3v34'>
+<text>Med spottere driver han spot,
+men ydmyge viser han velvilje.</text>
+<ref>Ordsprogenes Bog 3,34</ref>
+</parol>
+</theword>
+<theword date='2017-06-05'>
+<title>Ordet til Mandag, 5. Juni 2017</title>
+<parol book='19' chapter='103' verse='8' id='Ps103v8'>
+<text>Herren er barmhjertig og nådig,
+sen til vrede og rig på troskab.</text>
+<ref>Salmernes Bog 103,8</ref>
+</parol>
+<parol book='42' chapter='6' verse='36' id='L6v36'>
+<text>Vær barmhjertige,
+som jeres fader er barmhjertig.</text>
+<ref>Lukas 6,36</ref>
+</parol>
+</theword>
+<theword date='2017-06-06'>
+<title>Ordet til Tirsdag, 6. Juni 2017</title>
+<parol book='45' chapter='13' verse='10' id='R13v10'>
+<text>Kærligheden gør ikke næsten noget ondt.
+Kærligheden er altså lovens fylde.</text>
+<ref>Romerne 13,10</ref>
+</parol>
+<parol book='3' chapter='19' verse='18' id='Lv19v18'>
+<text>Du skal elske din næste som dig selv.
+Jeg er Herren!</text>
+<ref>3. Mosebog 19,18</ref>
+</parol>
+</theword>
+<theword date='2017-06-07'>
+<title>Ordet til Onsdag, 7. Juni 2017</title>
+<parol book='45' chapter='8' verse='34' id='R8v34'>
+<text>Hvem vil fordømme?
+Kristus Jesus er død, ja endnu mere,
+han er opstået og sidder ved Guds højre hånd
+og går i forbøn for os.</text>
+<ref>Romerne 8,34</ref>
+</parol>
+<parol book='58' chapter='1' verse='3' id='H1v3'>
+<text>Kristus er Guds herligheds glans
+og hans væsens udtrykte billede,
+og han bærer alt med sit mægtige ord.</text>
+<ref>Hebræerne 1,3</ref>
+</parol>
+</theword>
+<theword date='2017-06-08'>
+<title>Ordet til Torsdag, 8. Juni 2017</title>
+<parol book='19' chapter='126' verse='1' id='Ps126v1'>
+<text>Valfartssang.
+Da Herren vendte Zions skæbne,
+var det, som om vi drømte.</text>
+<ref>Salmernes Bog 126,1</ref>
+</parol>
+<parol book='45' chapter='5' verse='10' id='R5v10'>
+<text>Mens vi endnu var hans fjender, blev vi forligt med Gud,
+ved at hans søn døde; så skal vi så meget mere,
+når vi er forligt med Gud, frelses, ved at han lever.</text>
+<ref>Romerne 5,10</ref>
+</parol>
+</theword>
+<theword date='2017-06-09'>
+<title>Ordet til Fredag, 9. Juni 2017</title>
+<parol book='1' chapter='37' verse='14' id='Gn37v14'>
+<text>Tag af sted og se,
+hvordan dine brødre har det.</text>
+<ref>1. Mosebog 37,14</ref>
+</parol>
+<parol book='49' chapter='6' verse='22' id='E6v22'>
+<intro>Paulus skriver:</intro>
+<text>Jeg sender Tykikos til jer,
+netop for at I kan få besked om vore forhold,
+og for at han kan trøste jeres hjerter.</text>
+<ref>Efeserne 6,22</ref>
+</parol>
+</theword>
+<theword date='2017-06-10'>
+<title>Ordet til Lørdag, 10. Juni 2017</title>
+<parol book='42' chapter='10' verse='36' id='L10v36-37'>
+<intro>Jesus sagde til den skriftkloge:</intro>
+<text>Hvem af disse tre synes du
+var en næste for ham,
+der faldt i røvernes hænder?
+Den lovkyndige svarede: Han,
+som viste ham barmhjertighed.
+Og Jesus sagde:
+Gå du hen og gør ligeså!</text>
+<ref>Lukas 10,36-37</ref>
+</parol>
+<parol book='45' chapter='15' verse='2' id='R15v2'>
+<text>Vi skal hver især tænke på vor næstes
+gavn og opbyggelse.</text>
+<ref>Romerne 15,2</ref>
+</parol>
+</theword>
+<theword date='2017-06-11'>
+<title>Ordet til Søndag, 11. Juni 2017</title>
+<parol book='19' chapter='111' verse='2' id='Ps111v2'>
+<text>Herrens gerninger er store,
+velegnede til deres formål.</text>
+<ref>Salmernes Bog 111,2</ref>
+</parol>
+<parol book='40' chapter='13' verse='10' id='Mt13v10-11'>
+<text>Disciplene kom hen til ham og spurgte:
+Hvorfor taler du til dem i lignelser?
+Han svarede dem:
+Jer er det givet at kende Himmerigets
+hemmeligheder,
+men de andre er det ikke givet.</text>
+<ref>Mattæus 13,10-11</ref>
+</parol>
+</theword>
+<theword date='2017-06-12'>
+<title>Ordet til Mandag, 12. Juni 2017</title>
+<parol book='19' chapter='41' verse='2' id='Ps41v2'>
+<text>Lykkelig den, der har omsorg for den svage,
+på ulykkens dag redder Herren ham.</text>
+<ref>Salmernes Bog 41,2</ref>
+</parol>
+<parol book='40' chapter='25' verse='34' id='Mt25v34'>
+<text>Da skal kongen sige til dem ved sin højre side: Kom,
+I som er min faders velsignede, og tag det rige i arv,
+som er bestemt for jer, siden verden blev grundlagt.</text>
+<ref>Mattæus 25,34</ref>
+</parol>
+</theword>
+<theword date='2017-06-13'>
+<title>Ordet til Tirsdag, 13. Juni 2017</title>
+<parol book='23' chapter='44' verse='3' id='Is44v3'>
+<text>Jeg udgyder vand over den tørstige jord,
+strømme af vand over det tørre land;
+jeg udgyder min ånd over dit afkom
+og min velsignelse over dine efterkommere.</text>
+<ref>Esajas' Bog 44,3</ref>
+</parol>
+<parol book='23' chapter='45' verse='8' id='Is45v8'>
+<text>Lad det dryppe fra oven, himmel,
+lad retfærd strømme ned fra skyerne!
+Jorden skal åbne sig,
+frelsen gro frem,
+og retfærd skal spire.
+Jeg, Herren, skaber det.</text>
+<ref>Esajas' Bog 45,8</ref>
+</parol>
+</theword>
+<theword date='2017-06-14'>
+<title>Ordet til Onsdag, 14. Juni 2017</title>
+<parol book='60' chapter='2' verse='24' id='1P2v24'>
+<text>På sit legeme bar han selv vore synder op på korset,
+for at vi, døde fra synden,
+skal leve for retfærdigheden.
+Ved hans sår blev I helbredt.</text>
+<ref>1. Peterbrev 2,24</ref>
+</parol>
+<parol book='49' chapter='1' verse='7' id='E1v7'>
+<text>I ham har vi forløsning ved hans blod,
+tilgivelse for vore synder
+ved Guds rige nåde.</text>
+<ref>Efeserne 1,7</ref>
+</parol>
+</theword>
+<theword date='2017-06-15'>
+<title>Ordet til Torsdag, 15. Juni 2017</title>
+<parol book='24' chapter='14' verse='21' id='Jr14v21'>
+<text>Forkast, foragt ikke din herligheds trone
+for dit navns skyld;
+husk din pagt med os,
+bryd den ikke!</text>
+<ref>Jeremias' Bog 14,21</ref>
+</parol>
+<parol book='55' chapter='2' verse='13' id='2T2v13'>
+<text>Er vi utro, forbliver han dog tro,
+thi fornægte sig selv kan han ikke.</text>
+<ref>2. Timoteus 2,13</ref>
+</parol>
+</theword>
+<theword date='2017-06-16'>
+<title>Ordet til Fredag, 16. Juni 2017</title>
+<parol book='19' chapter='32' verse='1' id='Ps32v1'>
+<text>Lykkelig den, hvis overtrædelser er tilgivet,
+og hvis synder er blevet skjult.</text>
+<ref>Salmernes Bog 32,1</ref>
+</parol>
+<parol book='19' chapter='130' verse='4' id='Ps130v4'>
+<text>Hos dig er der tilgivelse,
+for at man skal frygte dig.</text>
+<ref>Salmernes Bog 130,4</ref>
+</parol>
+</theword>
+<theword date='2017-06-17'>
+<title>Ordet til Lørdag, 17. Juni 2017</title>
+<parol book='23' chapter='66' verse='10' id='Is66v10'>
+<text>Glæd jer med Jerusalem,
+fryd jer med hende,
+alle I, der elsker hende;
+tag del i hendes glæde,
+alle I, der sørgede over hende.</text>
+<ref>Esajas' Bog 66,10</ref>
+</parol>
+<parol book='47' chapter='1' verse='24' id='2K1v24'>
+<intro>Paulus skriver:</intro>
+<text>Vi er ikke herrer over jeres tro,
+men medarbejdere på jeres glæde;
+I står jo allerede i troen.</text>
+<ref>2. Korinterne 1,24</ref>
+</parol>
+</theword>
+<theword date='2017-06-18'>
+<title>Ordet til Søndag, 18. Juni 2017</title>
+<parol book='41' chapter='15' verse='17' id='Mc15v17-18'>
+<text>Så gav de ham en purpurkappe på,
+og de flettede en krone af torne
+og satte den på ham.
+Og de gav sig til at hilse ham:
+»Hil dig, jødekonge!«</text>
+<ref>Markus 15,17-18</ref>
+</parol>
+<parol book='41' chapter='15' verse='39' id='Mc15v39'>
+<text>Da officeren, som stod lige over for ham, så,
+at han udåndede sådan, sagde han:
+Sandelig, den mand var Guds søn.</text>
+<ref>Markus 15,39</ref>
+</parol>
+</theword>
+<theword date='2017-06-19'>
+<title>Ordet til Mandag, 19. Juni 2017</title>
+<parol book='28' chapter='6' verse='1' id='Hos6v1'>
+<text>Lad os vende om til Herren;
+han har sønderrevet, men han vil helbrede os,
+han har slået, men han vil læge os.</text>
+<ref>Hoseas Bog 6,1</ref>
+</parol>
+<parol book='45' chapter='9' verse='14' id='R9v14-15'>
+<text>Er der nogen uret hos Gud? Aldeles ikke!
+Han siger jo til Moses:
+Jeg forbarmer mig, over hvem jeg vil,
+og viser nåde, mod hvem jeg vil.</text>
+<ref>Romerne 9,14-15</ref>
+</parol>
+</theword>
+<theword date='2017-06-20'>
+<title>Ordet til Tirsdag, 20. Juni 2017</title>
+<parol book='42' chapter='14' verse='13' id='L14v13-14'>
+<intro>Jesus sagde:</intro>
+<text>Når du vil holde en fest, så indbyd fattige,
+vanføre, lamme og blinde.
+Da skal du være salig,
+for de har ikke noget at give dig til gengæld.
+Men det vil blive gengældt dig ved
+de retfærdiges opstandelse.</text>
+<ref>Lukas 14,13-14</ref>
+</parol>
+<parol book='58' chapter='13' verse='2' id='H13v2'>
+<text>Glem ikke gæstfriheden,
+for ved at være gæstfrie har nogle uden
+selv at vide det haft engle som gæster.</text>
+<ref>Hebræerne 13,2</ref>
+</parol>
+</theword>
+<theword date='2017-06-21'>
+<title>Ordet til Onsdag, 21. Juni 2017</title>
+<parol book='41' chapter='16' verse='16' id='Mc16v16'>
+<text>Den, der tror og bliver døbt, skal frelses;
+men den, der ikke tror, skal dømmes.</text>
+<ref>Markus 16,16</ref>
+</parol>
+<parol book='41' chapter='5' verse='35' id='Mc5v35-36'>
+<text>Endnu mens han talte,
+kommer der nogle fra synagogeforstanderens
+hus og siger: Din datter er død!
+Hvorfor gøre Mesteren ulejlighed mere?
+Men da Jesus hørte, hvad der blev sagt,
+sagde han til synagogeforstanderen:
+Frygt ikke, tro kun!</text>
+<ref>Markus 5,35-36</ref>
+</parol>
+</theword>
+<theword date='2017-06-22'>
+<title>Ordet til Torsdag, 22. Juni 2017</title>
+<parol book='46' chapter='15' verse='51' id='1K15v51'>
+<text>Se, jeg siger jer en hemmelighed:
+Vi skal ikke alle sove hen,
+men vi skal alle forvandles.</text>
+<ref>1. Korinterne 15,51</ref>
+</parol>
+<parol book='40' chapter='24' verse='31' id='Mt24v31'>
+<text>Han skal sende sine engle ud med høj basunklang,
+og de skal samle hans udvalgte fra de fire verdenshjørner,
+fra den ene ende af himlen til den anden.</text>
+<ref>Mattæus 24,31</ref>
+</parol>
+</theword>
+<theword date='2017-06-23'>
+<title>Ordet til Fredag, 23. Juni 2017</title>
+<parol book='38' chapter='1' verse='3' id='Zch1v3'>
+<text>Vend om til mig!
+siger Hærskarers Herre,
+så vil jeg vende om til jer,
+siger Hærskarers Herre.</text>
+<ref>Zakarias' Bog 1,3</ref>
+</parol>
+<parol book='20' chapter='29' verse='1' id='Prv29v1'>
+<text>Den, der bliver irettesat,
+men gør nakken stiv,
+knuses brat og uhelbredeligt.</text>
+<ref>Ordsprogenes Bog 29,1</ref>
+</parol>
+</theword>
+<theword date='2017-06-24'>
+<title>Ordet til Lørdag, 24. Juni 2017</title>
+<parol book='59' chapter='4' verse='17' id='Jc4v17'>
+<text>Den, der altså ved, hvad der er det rette,
+men ikke gør det, er en synder.</text>
+<ref>Jakobs Brev 4,17</ref>
+</parol>
+<parol book='62' chapter='3' verse='17' id='1J3v17'>
+<text>Den, der har jordisk gods
+og ser sin broder lide nød,
+men lukker sit hjerte for ham –
+hvorledes kan Guds kærlighed blive i ham?</text>
+<ref>1. Johannes 3,17</ref>
+</parol>
+</theword>
+<theword date='2017-06-25'>
+<title>Ordet til Søndag, 25. Juni 2017</title>
+<parol book='46' chapter='3' verse='17' id='1K3v17'>
+<text>For Guds tempel er helligt,
+og det tempel er I.</text>
+<ref>1. Korinterne 3,17</ref>
+</parol>
+<parol book='49' chapter='2' verse='19' id='E2v19-20'>
+<text>Så er I da ikke længere fremmede og udlændinge.
+I er de helliges medborgere og hører til Guds husstand.
+I er bygget på apostlenes og profeternes grundvold
+med Kristus Jesus selv som hovedhjørnesten.</text>
+<ref>Efeserne 2,19-20</ref>
+</parol>
+</theword>
+<theword date='2017-06-26'>
+<title>Ordet til Mandag, 26. Juni 2017</title>
+<parol book='19' chapter='147' verse='14' id='Ps147v14'>
+<text>Han skaber fred i dit land
+og mætter dig med hvedens fedme.</text>
+<ref>Salmernes Bog 147,14</ref>
+</parol>
+<parol book='38' chapter='9' verse='8' id='Zch9v8'>
+<intro>Herren sagde:</intro>
+<text>Jeg slår lejr omkring mit hus.</text>
+<ref>Zakarias' Bog 9,8</ref>
+</parol>
+</theword>
+<theword date='2017-06-27'>
+<title>Ordet til Tirsdag, 27. Juni 2017</title>
+<parol book='44' chapter='5' verse='9' id='Act5v9'>
+<text>Da sagde Peter til Safira:
+Hvorfor er I dog blevet enige om at
+udæske Herrens ånd?
+Hør, der lyder fodtrin uden for døren af dem,
+der har begravet din mand;
+de skal også bære dig ud.</text>
+<ref>Ap. Gerninger 5,9</ref>
+</parol>
+<parol book='40' chapter='4' verse='7' id='Mt4v7'>
+<text>Du må ikke udæske Herren din Gud.</text>
+<ref>Mattæus 4,7</ref>
+</parol>
+</theword>
+<theword date='2017-06-28'>
+<title>Ordet til Onsdag, 28. Juni 2017</title>
+<parol book='19' chapter='19' verse='12' id='Ps19v12'>
+<text>Din tjener lader sig advare af dem,
+der er stor løn ved at holde dem.</text>
+<ref>Salmernes Bog 19,12</ref>
+</parol>
+<parol book='63' chapter='1' verse='8' id='2J1v8'>
+<text>Tag jer i agt, at I ikke skal miste det,
+vi har nået ved vort arbejde,
+men få den fulde løn.</text>
+<ref>2. Johannes 8</ref>
+</parol>
+</theword>
+<theword date='2017-06-29'>
+<title>Ordet til Torsdag, 29. Juni 2017</title>
+<parol book='44' chapter='2' verse='41' id='Act2v41'>
+<text>De, som tog imod hans ord, blev døbt,
+og den dag blev der føjet næsten
+tre tusind mennesker til.</text>
+<ref>Ap. Gerninger 2,41</ref>
+</parol>
+<parol book='51' chapter='2' verse='12' id='Kol2v12'>
+<text>Da I blev begravet sammen med ham i dåben,
+og i den blev I også oprejst sammen med ham
+ved troen på Guds kraft,
+der oprejste ham fra de døde.</text>
+<ref>Kolossenserne 2,12</ref>
+</parol>
+</theword>
+<theword date='2017-06-30'>
+<title>Ordet til Fredag, 30. Juni 2017</title>
+<parol book='50' chapter='4' verse='13' id='Ph4v13'>
+<text>Alt formår jeg i ham, der giver mig kraft.</text>
+<ref>Filipperne 4,13</ref>
+</parol>
+<parol book='19' chapter='18' verse='30' id='Ps18v30'>
+<text>Ved din hjælp stormer jeg volde,
+ved min Guds hjælp springer jeg
+over mure.</text>
+<ref>Salmernes Bog 18,30</ref>
+</parol>
+</theword>
+<theword date='2017-07-01'>
+<title>Ordet til Lørdag, 1. Juli 2017</title>
+<parol book='36' chapter='3' verse='14' id='Zph3v14-15'>
+<text>Råb af fryd, Zions datter,
+bryd ud i jubel, Israel,
+glæd dig og fryd dig af hele dit hjerte,
+Jerusalems datter!
+Herren har fjernet dine dommere
+og drevet dine fjender bort.</text>
+<ref>Zefanias' Bog 3,14-15</ref>
+</parol>
+<parol book='9' chapter='30' verse='6' id='1Sm30v6'>
+<text>David hentede nyt mod hos Herren sin Gud.</text>
+<ref>1. Samuelsbog 30,6</ref>
+</parol>
+</theword>
+<theword date='2017-07-02'>
+<title>Ordet til Søndag, 2. Juli 2017</title>
+<parol book='18' chapter='13' verse='9' id='Job13v9'>
+<text>Slipper I godt fra det, når han ransager jer?
+Kan I narre ham, som man narrer et menneske?</text>
+<ref>Jobs Bog 13,9</ref>
+</parol>
+<parol book='48' chapter='6' verse='7' id='G6v7'>
+<text>Far ikke vild! Gud lader sig ikke spotte.
+Hvad et menneske sår, skal det også høste.</text>
+<ref>Galaterne 6,7</ref>
+</parol>
+</theword>
+<theword date='2017-07-03'>
+<title>Ordet til Mandag, 3. Juli 2017</title>
+<parol book='20' chapter='20' verse='9' id='Prv20v9'>
+<text>Hvem kan sige:
+Jeg har holdt mit hjerte rent,
+jeg er ren for synd?</text>
+<ref>Ordsprogenes Bog 20,9</ref>
+</parol>
+<parol book='45' chapter='8' verse='2' id='R8v2'>
+<text>Livets ånds lov har i Kristus Jesus
+befriet mig fra syndens
+og dødens lov.</text>
+<ref>Romerne 8,2</ref>
+</parol>
+</theword>
+<theword date='2017-07-04'>
+<title>Ordet til Tirsdag, 4. Juli 2017</title>
+<parol book='23' chapter='40' verse='3' id='Is40v3'>
+<text>Der er en, der råber:
+Ban Herrens vej i ørkenen,
+jævn en vej for vor Gud
+i det øde land.</text>
+<ref>Esajas' Bog 40,3</ref>
+</parol>
+<parol book='43' chapter='3' verse='30' id='J3v30'>
+<intro>Johannes sagde:</intro>
+<text>Han skal blive større, jeg skal blive mindre.</text>
+<ref>Johannes 3,30</ref>
+</parol>
+</theword>
+<theword date='2017-07-05'>
+<title>Ordet til Onsdag, 5. Juli 2017</title>
+<parol book='24' chapter='4' verse='3' id='Jr4v3'>
+<text>I skal bryde ny jord
+og ikke så blandt tjørne.</text>
+<ref>Jeremias' Bog 4,3</ref>
+</parol>
+<parol book='28' chapter='10' verse='12' id='Hos10v12'>
+<text>I skal så i retfærdighed,
+I skal høste i troskab,
+I skal bryde ny jord.</text>
+<ref>Hoseas Bog 10,12</ref>
+</parol>
+</theword>
+<theword date='2017-07-06'>
+<title>Ordet til Torsdag, 6. Juli 2017</title>
+<parol book='44' chapter='1' verse='5' id='Act1v5'>
+<intro>Jesus sagde:</intro>
+<text>Johannes døbte med vand,
+men I skal døbes med Helligånden om
+ikke mange dage.</text>
+<ref>Ap. Gerninger 1,5</ref>
+</parol>
+<parol book='29' chapter='3' verse='1' id='Joel3v1'>
+<text>Det skal ske derefter:
+Jeg vil udgyde min ånd
+over alle mennesker.
+Jeres sønner og døtre skal profetere,
+jeres gamle skal have drømme,
+jeres unge skal se syner.</text>
+<ref>Joels Bog 3,1</ref>
+</parol>
+</theword>
+<theword date='2017-07-07'>
+<title>Ordet til Fredag, 7. Juli 2017</title>
+<parol book='28' chapter='2' verse='1' id='Hos2v1'>
+<text>Israelitterne skal blive talrige
+som havets sand,
+der ikke kan måles og ikke kan tælles.
+Og dér, hvor det nu lyder til dem:
+I er ikke mit folk,
+dér skal det lyde til dem:
+I er den levende Guds børn.</text>
+<ref>Hoseas Bog 2,1</ref>
+</parol>
+<parol book='62' chapter='5' verse='12' id='1J5v12'>
+<text>Den, der har Sønnen, har livet;
+den, der ikke har Guds søn,
+har ikke livet.</text>
+<ref>1. Johannes 5,12</ref>
+</parol>
+</theword>
+<theword date='2017-07-08'>
+<title>Ordet til Lørdag, 8. Juli 2017</title>
+<parol book='19' chapter='40' verse='18' id='Ps40v18_I'>
+<text>Jeg er hjælpeløs og fattig,
+Herren vil tage sig af mig.
+Du er min hjælper og befrier,
+tøv ikke, min Gud!</text>
+<ref>Salmernes Bog 40,18</ref>
+</parol>
+<parol book='42' chapter='12' verse='11' id='L12v11-12'>
+<intro>Jesus sagde til sine disciple:</intro>
+<text>Når de fremstiller jer i synagoger og for øvrigheder
+og myndigheder, så vær ikke bekymrede for,
+hvordan eller med hvad I skal forsvare jer,
+eller hvad I skal sige.
+For Helligånden vil i samme stund lære
+jer, hvad der skal siges.</text>
+<ref>Lukas 12,11-12</ref>
+</parol>
+</theword>
+<theword date='2017-07-09'>
+<title>Ordet til Søndag, 9. Juli 2017</title>
+<parol book='42' chapter='5' verse='26' id='L5v26'>
+<text>Alle blev ude af sig selv og priste Gud,
+og fyldt af frygt sagde de:
+I dag har vi set det utrolige!</text>
+<ref>Lukas 5,26</ref>
+</parol>
+<parol book='44' chapter='12' verse='14' id='Act12v14-15'>
+<text>Da hun genkendte hans stemme, fik hun af bare glæde ikke åbnet
+døren, men løb ind og fortalte, at Peter stod udenfor.
+De sagde: »Du er vanvittig!« Men hun forsikrede,
+at det forholdt sig sådan. Så sagde de: »Det er hans engel.«</text>
+<ref>Ap. Gerninger 12,14-15</ref>
+</parol>
+</theword>
+<theword date='2017-07-10'>
+<title>Ordet til Mandag, 10. Juli 2017</title>
+<parol book='22' chapter='8' verse='4' id='Ct8v4'>
+<text>Jeg besværger jer,
+Jerusalems døtre:
+I må ikke vække kærligheden,
+I må ikke vække den til live,
+før den selv vil!</text>
+<ref>Højsangen 8,4</ref>
+</parol>
+<parol book='19' chapter='37' verse='4' id='Ps37v4'>
+<text>Find din glæde i Herren,
+så giver han dig,
+hvad dit hjerte ønsker.</text>
+<ref>Salmernes Bog 37,4</ref>
+</parol>
+</theword>
+<theword date='2017-07-11'>
+<title>Ordet til Tirsdag, 11. Juli 2017</title>
+<parol book='2' chapter='23' verse='9' id='Ex23v9'>
+<text>Den fremmede må du ikke undertrykke.
+I kender de fremmedes kår,
+for I selv var fremmede i Egypten.</text>
+<ref>2. Mosebog 23,9</ref>
+</parol>
+<parol book='46' chapter='10' verse='24' id='1K10v24'>
+<text>Søg ikke det, som er til bedste for jer selv,
+men det, som er til bedste for andre.</text>
+<ref>1. Korinterne 10,24</ref>
+</parol>
+</theword>
+<theword date='2017-07-12'>
+<title>Ordet til Onsdag, 12. Juli 2017</title>
+<parol book='40' chapter='24' verse='13' id='Mt24v13'>
+<text>Den, der holder ud til enden, skal frelses.</text>
+<ref>Mattæus 24,13</ref>
+</parol>
+<parol book='58' chapter='3' verse='6' id='H3v6'>
+<text>Men Kristus er det som søn over hans hus.
+Hans hus er vi, dersom vi holder fast ved
+den frimodighed og den stolthed,
+vort håb giver os.</text>
+<ref>Hebræerne 3,6</ref>
+</parol>
+</theword>
+<theword date='2017-07-13'>
+<title>Ordet til Torsdag, 13. Juli 2017</title>
+<parol book='44' chapter='19' verse='11' id='Act19v11'>
+<text>Gud lod usædvanlige undergerninger ske
+ved Paulus' hænder.</text>
+<ref>Ap. Gerninger 19,11</ref>
+</parol>
+<parol book='18' chapter='9' verse='10' id='Job9v10'>
+<text>Han gør store ting, der ikke kan udforskes,
+og undere, der ikke kan tælles.</text>
+<ref>Jobs Bog 9,10</ref>
+</parol>
+</theword>
+<theword date='2017-07-14'>
+<title>Ordet til Fredag, 14. Juli 2017</title>
+<parol book='1' chapter='39' verse='19' id='Gn39v19'>
+<intro>Potifars kone havde beskyldet Josef beskyl med urette:</intro>
+<text>Da hans herre hørte sin kone fortælle,
+at hans træl havde båret sig sådan ad
+mod hende, flammede hans vrede op.</text>
+<ref>1. Mosebog 39,19</ref>
+</parol>
+<parol book='60' chapter='2' verse='23' id='1P2v23'>
+<text>Han svarede ikke med skældsord,
+da han blev skældt ud,
+under sine lidelser truede han ikke,
+men overgav sin sag til ham,
+der dømmer retfærdigt.</text>
+<ref>1. Peterbrev 2,23</ref>
+</parol>
+</theword>
+<theword date='2017-07-15'>
+<title>Ordet til Lørdag, 15. Juli 2017</title>
+<parol book='26' chapter='36' verse='29' id='Ez36v29'>
+<text>Jeg vil frelse jer fra al jeres urenhed.</text>
+<ref>Ezekiels Bog 36,29</ref>
+</parol>
+<parol book='19' chapter='66' verse='10' id='Ps66v10'>
+<text>Du prøvede os, Gud,
+du lutrede os, som man lutrer sølv.</text>
+<ref>Salmernes Bog 66,10</ref>
+</parol>
+</theword>
+<theword date='2017-07-16'>
+<title>Ordet til Søndag, 16. Juli 2017</title>
+<parol book='39' chapter='3' verse='6' id='Ml3v6'>
+<text>Jeg, Herren, er ikke blevet en anden.</text>
+<ref>Malakias' Bog 3,6</ref>
+</parol>
+<parol book='53' chapter='3' verse='3' id='2Th3v3'>
+<text>Trofast er Herren,
+han vil styrke jer og bevare jer
+fra det onde.</text>
+<ref>2. Tessalonikerne 3,3</ref>
+</parol>
+</theword>
+<theword date='2017-07-17'>
+<title>Ordet til Mandag, 17. Juli 2017</title>
+<parol book='5' chapter='1' verse='29' id='Dt1v29-30'>
+<text>Vær ikke bange,
+og nær ikke rædsel for dem!
+Herren jeres Gud, som går foran jer,
+vil selv føre krig for jer,
+ganske som han gjorde for øjnene af
+jer i Egypten.</text>
+<ref>5. Mosebog 1,29-30</ref>
+</parol>
+<parol book='43' chapter='16' verse='33' id='J16v33'>
+<intro>Jesus sagde til disciplene:</intro>
+<text>Sådan har jeg talt til jer,
+for at I skal have fred i mig.
+I verden har I trængsler;
+men vær frimodige,
+jeg har overvundet verden.</text>
+<ref>Johannes 16,33</ref>
+</parol>
+</theword>
+<theword date='2017-07-18'>
+<title>Ordet til Tirsdag, 18. Juli 2017</title>
+<parol book='19' chapter='119' verse='76' id='Ps119v76'>
+<text>Lad din godhed være min trøst
+efter dit ord til din tjener.</text>
+<ref>Salmernes Bog 119,76</ref>
+</parol>
+<parol book='42' chapter='2' verse='25' id='L2v25'>
+<text>I Jerusalem var der en mand ved navn Simeon;
+han var retfærdig og from og ventede Israels trøst.
+Helligånden var over ham.</text>
+<ref>Lukas 2,25</ref>
+</parol>
+</theword>
+<theword date='2017-07-19'>
+<title>Ordet til Onsdag, 19. Juli 2017</title>
+<parol book='24' chapter='10' verse='24' id='Jr10v24'>
+<text>Tugt mig, Herre, men med måde,
+ikke i vrede, så du udsletter mig!</text>
+<ref>Jeremias' Bog 10,24</ref>
+</parol>
+<parol book='20' chapter='3' verse='12' id='Prv3v12'>
+<text>Herren irettesætter den, han elsker,
+som en far den søn, han holder af.</text>
+<ref>Ordsprogenes Bog 3,12</ref>
+</parol>
+</theword>
+<theword date='2017-07-20'>
+<title>Ordet til Torsdag, 20. Juli 2017</title>
+<parol book='6' chapter='21' verse='45' id='Jos21v45'>
+<text>Ikke ét af alle de gode ord,
+Herren talte til Israels hus,
+faldt til jorden;
+alt gik i opfyldelse.</text>
+<ref>Josuabogen 21,45</ref>
+</parol>
+<parol book='23' chapter='25' verse='1' id='Is25v1'>
+<text>Herre, du er min Gud,
+jeg hylder dig, jeg priser dit navn,
+for underfuldt har du ført dine planer igennem,
+fast og sikkert fra fortiden.</text>
+<ref>Esajas' Bog 25,1</ref>
+</parol>
+</theword>
+<theword date='2017-07-21'>
+<title>Ordet til Fredag, 21. Juli 2017</title>
+<parol book='47' chapter='8' verse='9' id='2K8v9'>
+<text>I kender vor Herre Jesu Kristi nåde,
+at han for jeres skyld blev fattig,
+skønt han var rig,
+for at I kunne blive rige ved hans fattigdom.</text>
+<ref>2. Korinterne 8,9</ref>
+</parol>
+<parol book='47' chapter='5' verse='19' id='2K5v19'>
+<text>Det var Gud,
+der i Kristus forligte verden med sig selv
+og ikke tilregnede dem deres overtrædelser,
+men betroede os ordet om forligelsen.</text>
+<ref>2. Korinterne 5,19</ref>
+</parol>
+</theword>
+<theword date='2017-07-22'>
+<title>Ordet til Lørdag, 22. Juli 2017</title>
+<parol book='19' chapter='34' verse='7' id='Ps34v7'>
+<text>Den hjælpeløse råbte, og Herren hørte ham,
+han frelste ham af alle hans trængsler.</text>
+<ref>Salmernes Bog 34,7</ref>
+</parol>
+<parol book='19' chapter='91' verse='15' id='Ps91v15'>
+<text>Når han råber til mig,
+vil jeg svare ham.
+Jeg er med ham i trængslen,
+jeg befrier ham og giver ham ære.</text>
+<ref>Salmernes Bog 91,15</ref>
+</parol>
+</theword>
+<theword date='2017-07-23'>
+<title>Ordet til Søndag, 23. Juli 2017</title>
+<parol book='2' chapter='21' verse='16' id='Ex21v16'>
+<text>Den, der røver et menneske
+og sælger det eller selv beholder det,
+skal lide døden.</text>
+<ref>2. Mosebog 21,16</ref>
+</parol>
+<parol book='45' chapter='6' verse='23' id='R6v23'>
+<text>Syndens løn er død,
+men Guds nådegave er evigt liv
+i Kristus Jesus, vor Herre.</text>
+<ref>Romerne 6,23</ref>
+</parol>
+</theword>
+<theword date='2017-07-24'>
+<title>Ordet til Mandag, 24. Juli 2017</title>
+<parol book='40' chapter='5' verse='23' id='Mt5v23-24'>
+<text>Når du bringer din gave til alteret
+og dér kommer i tanker om,
+at din broder har noget mod dig,
+så lad din gave blive ved alteret
+og gå først hen og forlig dig med din broder;
+så kan du komme og bringe din gave.</text>
+<ref>Mattæus 5,23-24</ref>
+</parol>
+<parol book='3' chapter='19' verse='17' id='Lv19v17'>
+<text>Du må ikke nære had til din broder i dit hjerte,
+men du skal åbent gå i rette med din landsmand,
+så du ikke pådrager dig skyld.</text>
+<ref>3. Mosebog 19,17</ref>
+</parol>
+</theword>
+<theword date='2017-07-25'>
+<title>Ordet til Tirsdag, 25. Juli 2017</title>
+<parol book='43' chapter='15' verse='27' id='J15v27'>
+<intro>Jesus sagde til sine disciple:</intro>
+<text>Også I skal vidne,
+for I har været med mig fra begyndelsen.</text>
+<ref>Johannes 15,27</ref>
+</parol>
+<parol book='44' chapter='26' verse='16' id='Act26v16'>
+<intro>Herren sagde til Paulus:</intro>
+<text>Rejs dig nu op på dine ben!
+For jeg har vist mig for dig netop
+for at udvælge dig til tjener og til vidne både om det,
+du har set, og om det, jeg vil lade dig se.</text>
+<ref>Ap. Gerninger 26,16</ref>
+</parol>
+</theword>
+<theword date='2017-07-26'>
+<title>Ordet til Onsdag, 26. Juli 2017</title>
+<parol book='46' chapter='13' verse='5' id='1K13v5'>
+<text>Kærligheden gør intet usømmeligt,
+søger ikke sit eget.</text>
+<ref>1. Korinterne 13,5</ref>
+</parol>
+<parol book='48' chapter='5' verse='14' id='G5v14'>
+<text>Hele loven er opfyldt i det ene ord:
+»Du skal elske din næste som dig selv.«</text>
+<ref>Galaterne 5,14</ref>
+</parol>
+</theword>
+<theword date='2017-07-27'>
+<title>Ordet til Torsdag, 27. Juli 2017</title>
+<parol book='53' chapter='1' verse='11' id='2Th1v11'>
+<text>Vi beder altid for jer om, at vor Gud vil gøre jer
+værdige til hans kaldelse og med kraft
+fylde jer med alle gode forsætter
+og alle troens gerninger.</text>
+<ref>2. Tessalonikerne 1,11</ref>
+</parol>
+<parol book='40' chapter='25' verse='21' id='Mt25v21'>
+<text>Hans herre sagde til ham:
+Godt, du gode og tro tjener;
+du har været tro i det små,
+jeg vil betro dig meget.
+Gå ind til din herres glæde!</text>
+<ref>Mattæus 25,21</ref>
+</parol>
+</theword>
+<theword date='2017-07-28'>
+<title>Ordet til Fredag, 28. Juli 2017</title>
+<parol book='43' chapter='14' verse='14' id='J14v14'>
+<text>Beder I mig om noget i mit navn,
+vil jeg gøre det.</text>
+<ref>Johannes 14,14</ref>
+</parol>
+<parol book='59' chapter='1' verse='5' id='Jc1v5'>
+<text>Hvis nogen af jer står tilbage i visdom,
+skal han bede om at få den af Gud,
+som giver alle rundhåndet og uden bebrejdelser,
+og så vil han få den.</text>
+<ref>Jakobs Brev 1,5</ref>
+</parol>
+</theword>
+<theword date='2017-07-29'>
+<title>Ordet til Lørdag, 29. Juli 2017</title>
+<parol book='3' chapter='19' verse='34' id='Lv19v34'>
+<text>Du skal elske den fremmede som dig selv.
+I var jo selv fremmede i Egypten.
+Jeg er Herren jeres Gud!</text>
+<ref>3. Mosebog 19,34</ref>
+</parol>
+<parol book='40' chapter='22' verse='39' id='Mt22v39'>
+<text>Du skal elske din næste som dig selv.</text>
+<ref>Mattæus 22,39</ref>
+</parol>
+</theword>
+<theword date='2017-07-30'>
+<title>Ordet til Søndag, 30. Juli 2017</title>
+<parol book='48' chapter='5' verse='25' id='G5v25'>
+<text>Lever vi i Ånden,
+skal vi også vandre i Ånden.</text>
+<ref>Galaterne 5,25</ref>
+</parol>
+<parol book='45' chapter='6' verse='11' id='R6v11'>
+<text>Sådan skal også I se på jer selv:
+I er døde for synden,
+men levende for Gud i Kristus Jesus.</text>
+<ref>Romerne 6,11</ref>
+</parol>
+</theword>
+<theword date='2017-07-31'>
+<title>Ordet til Mandag, 31. Juli 2017</title>
+<parol book='23' chapter='59' verse='1' id='Is59v1'>
+<text>Herrens arm er ikke for kort til at frelse,
+hans ører ikke for døve til at høre.</text>
+<ref>Esajas' Bog 59,1</ref>
+</parol>
+<parol book='43' chapter='10' verse='10' id='J10v10'>
+<intro>Jesus sagde:</intro>
+<text>Tyven kommer kun for at stjæle
+og slagte og ødelægge.
+Jeg er kommet, for at de skal have liv
+og have i overflod.</text>
+<ref>Johannes 10,10</ref>
+</parol>
+</theword>
+<theword date='2017-08-01'>
+<title>Ordet til Tirsdag, 1. August 2017</title>
+<parol book='19' chapter='23' verse='1' id='Ps23v1'>
+<text>Herren er min hyrde,
+jeg lider ingen nød.</text>
+<ref>Salmernes Bog 23,1</ref>
+</parol>
+<parol book='5' chapter='2' verse='7' id='Dt2v7_V'>
+<text>I fyrre år har Herren din Gud været med dig,
+og du har intet manglet.</text>
+<ref>5. Mosebog 2,7</ref>
+</parol>
+</theword>
+<theword date='2017-08-02'>
+<title>Ordet til Onsdag, 2. August 2017</title>
+<parol book='6' chapter='1' verse='9' id='Jos1v9'>
+<text>Jeg har jo indsat dig;
+vær modig og stærk!
+Nær ikke rædsel,
+og lad dig ikke skræmme,
+for Herren din Gud er med dig overalt,
+hvor du går.</text>
+<ref>Josuabogen 1,9</ref>
+</parol>
+<parol book='40' chapter='10' verse='28' id='Mt10v28'>
+<text>Frygt ikke dem, der slår legemet ihjel,
+men ikke kan slå sjælen ihjel,
+men frygt derimod ham,
+der kan lade både sjæl og legeme
+gå fortabt i Helvede.</text>
+<ref>Mattæus 10,28</ref>
+</parol>
+</theword>
+<theword date='2017-08-03'>
+<title>Ordet til Torsdag, 3. August 2017</title>
+<parol book='19' chapter='71' verse='16' id='Ps71v16'>
+<text>Jeg vil komme og lovsynge Gud Herrens
+vælde,
+jeg vil prise dig, kun du er retfærdig.</text>
+<ref>Salmernes Bog 71,16</ref>
+</parol>
+<parol book='19' chapter='24' verse='10' id='Ps24v10'>
+<text>Hvem er han, ærens konge?
+Hærskarers Herre,
+han er ærens konge!</text>
+<ref>Salmernes Bog 24,10</ref>
+</parol>
+</theword>
+<theword date='2017-08-04'>
+<title>Ordet til Fredag, 4. August 2017</title>
+<parol book='20' chapter='21' verse='2' id='Prv21v2'>
+<text>En mands færd kan være retskaffen
+i hans egne øjne,
+men Herren prøver hjerterne.</text>
+<ref>Ordsprogenes Bog 21,2</ref>
+</parol>
+<parol book='41' chapter='8' verse='36' id='Mc8v36'>
+<text>Hvad hjælper det et menneske
+at vinde hele verden og bøde med sit liv?</text>
+<ref>Markus 8,36</ref>
+</parol>
+</theword>
+<theword date='2017-08-05'>
+<title>Ordet til Lørdag, 5. August 2017</title>
+<parol book='46' chapter='12' verse='24' id='1K12v24-25'>
+<text>Sådan som Gud har sammenføjet legemet,
+har han givet det, som mangler ære,
+desto større ære,
+for at der ikke skulle opstå splid i legemet,
+men lemmerne være enige og have omsorg
+for hinanden.</text>
+<ref>1. Korinterne 12,24-25</ref>
+</parol>
+<parol book='20' chapter='14' verse='31' id='Prv14v31'>
+<text>Den, der undertrykker den svage, håner hans skaber,
+den, der forbarmer sig over den fattige, ærer hans skaber.</text>
+<ref>Ordsprogenes Bog 14,31</ref>
+</parol>
+</theword>
+<theword date='2017-08-06'>
+<title>Ordet til Søndag, 6. August 2017</title>
+<parol book='24' chapter='15' verse='18' id='Jr15v18'>
+<text>Hvorfor er min smerte uden ende?
+Hvorfor kan mit sår ikke læges
+og ikke helbredes?
+Du er blevet mig en bæk uden vand,
+et upålideligt vandløb.</text>
+<ref>Jeremias' Bog 15,18</ref>
+</parol>
+<parol book='47' chapter='12' verse='10' id='2K12v10'>
+<intro>Paulus skriver:</intro>
+<text>Derfor er jeg godt tilfreds under magtesløshed,
+under mishandlinger, under trængsler,
+under forfølgelser og vanskeligheder for Kristi skyld.
+For når jeg er magtesløs, så er jeg stærk.</text>
+<ref>2. Korinterne 12,10</ref>
+</parol>
+</theword>
+<theword date='2017-08-07'>
+<title>Ordet til Mandag, 7. August 2017</title>
+<parol book='51' chapter='1' verse='18' id='Kol1v18'>
+<text>Han er hoved for legemet, kirken.
+Han er begyndelsen, den førstefødte af de døde,
+for at han i alle ting skulle være den første.</text>
+<ref>Kolossenserne 1,18</ref>
+</parol>
+<parol book='62' chapter='4' verse='19' id='1J4v19'>
+<text>Vi elsker, fordi han elskede os først.</text>
+<ref>1. Johannes 4,19</ref>
+</parol>
+</theword>
+<theword date='2017-08-08'>
+<title>Ordet til Tirsdag, 8. August 2017</title>
+<parol book='19' chapter='74' verse='21' id='Ps74v21'>
+<text>Den undertrykte skal ikke vige i skændsel;
+den hjælpeløse og fattige skal
+lovprise dit navn.</text>
+<ref>Salmernes Bog 74,21</ref>
+</parol>
+<parol book='42' chapter='8' verse='47' id='L8v47'>
+<text>Da kvinden så, at det ikke var forblevet ubemærket,
+kom hun skælvende frem,
+og hun faldt ned for ham og fortalte i hele folkets påhør,
+hvorfor hun havde rørt ved ham,
+og hvordan hun straks var blevet helbredt.</text>
+<ref>Lukas 8,47</ref>
+</parol>
+</theword>
+<theword date='2017-08-09'>
+<title>Ordet til Onsdag, 9. August 2017</title>
+<parol book='5' chapter='4' verse='10' id='Dt4v10'>
+<text>Kald folket sammen hos mig;
+jeg vil forkynde dem mine ord,
+så de lærer at frygte mig,
+så længe de lever på jorden,
+og så de lærer deres sønner det.</text>
+<ref>5. Mosebog 4,10</ref>
+</parol>
+<parol book='66' chapter='19' verse='5' id='Ap19v5'>
+<text>Lovpris vor Gud, alle hans tjenere,
+I som frygter ham, både små og store.</text>
+<ref>Åbenbarelse 19,5</ref>
+</parol>
+</theword>
+<theword date='2017-08-10'>
+<title>Ordet til Torsdag, 10. August 2017</title>
+<parol book='5' chapter='6' verse='5' id='Dt6v5'>
+<text>Du skal elske Herren din Gud
+af hele dit hjerte
+og af hele din sjæl
+og af hele din styrke.</text>
+<ref>5. Mosebog 6,5</ref>
+</parol>
+<parol book='6' chapter='23' verse='11' id='Jos23v11'>
+<text>Tag jer godt i agt,
+og elsk Herren jeres Gud!</text>
+<ref>Josuabogen 23,11</ref>
+</parol>
+</theword>
+<theword date='2017-08-11'>
+<title>Ordet til Fredag, 11. August 2017</title>
+<parol book='46' chapter='12' verse='6' id='1K12v6-7'>
+<text>Der er forskel på kraftige gerninger,
+men Gud er den samme,
+som virker alt i alle.
+Det, som Ånden åbenbarer,
+får hver enkelt til fælles gavn.</text>
+<ref>1. Korinterne 12,6-7</ref>
+</parol>
+<parol book='45' chapter='12' verse='5' id='R12v5-6'>
+<text>Således er vi alle ét legeme i Kristus,
+og hver især hinandens lemmer.
+Vi har forskellige nådegaver,
+alt efter den nåde, vi har fået.</text>
+<ref>Romerne 12,5-6</ref>
+</parol>
+</theword>
+<theword date='2017-08-12'>
+<title>Ordet til Lørdag, 12. August 2017</title>
+<parol book='27' chapter='4' verse='32' id='Dn4v32'>
+<text>Den Højeste handler, som han vil,
+med himlens hær og jordens beboere,
+ingen kan hindre ham og sige:
+Hvad er det, du gør?</text>
+<ref>Daniels Bog 4,32</ref>
+</parol>
+<parol book='44' chapter='11' verse='17' id='Act11v17'>
+<intro>Petrus sagde:</intro>
+<text>Når nu Gud har givet dem den samme gave, som vi fik,
+da vi var kommet til tro på Herren Jesus Kristus,
+hvordan skulle jeg så kunne hindre Gud i noget?</text>
+<ref>Ap. Gerninger 11,17</ref>
+</parol>
+</theword>
+<theword date='2017-08-13'>
+<title>Ordet til Søndag, 13. August 2017</title>
+<parol book='40' chapter='23' verse='39' id='Mt23v39'>
+<intro>Jesus sagde:</intro>
+<text>Fra nu af skal I ikke se mig, før I siger:
+Velsignet være han, som kommer, i Herrens navn!</text>
+<ref>Mattæus 23,39</ref>
+</parol>
+<parol book='66' chapter='1' verse='7' id='Ap1v7'>
+<text>Se, han kommer med skyerne,
+og hvert øje skal se ham,
+også de, som har gennemboret ham.</text>
+<ref>Åbenbarelse 1,7</ref>
+</parol>
+</theword>
+<theword date='2017-08-14'>
+<title>Ordet til Mandag, 14. August 2017</title>
+<parol book='14' chapter='36' verse='16' id='2Chr36v16'>
+<text>De spottede Guds sendebud
+og lod hånt om hans ord
+og holdt hans profeter for nar,
+indtil Herren blev så vred på sit folk,
+at han ikke længere ville skåne det.</text>
+<ref>2. Krønikebog 36,16</ref>
+</parol>
+<parol book='45' chapter='3' verse='3' id='R3v3-4'>
+<text>Hvad så, når nogle af dem var troløse?
+Vil deres troløshed så ophæve Guds trofasthed?
+Aldeles ikke!</text>
+<ref>Romerne 3,3-4</ref>
+</parol>
+</theword>
+<theword date='2017-08-15'>
+<title>Ordet til Tirsdag, 15. August 2017</title>
+<parol book='42' chapter='9' verse='6' id='L9v6'>
+<text>Så begav de sig af sted og gik
+fra landsby til landsby,
+og de forkyndte evangeliet og helbredte overalt.</text>
+<ref>Lukas 9,6</ref>
+</parol>
+<parol book='44' chapter='5' verse='42' id='Act5v42'>
+<text>Både i templet og hjemme fortsatte de
+hver dag med at undervise
+og forkynde, at Jesus er den Salvede.</text>
+<ref>Ap. Gerninger 5,42</ref>
+</parol>
+</theword>
+<theword date='2017-08-16'>
+<title>Ordet til Onsdag, 16. August 2017</title>
+<parol book='58' chapter='13' verse='5' id='H13v5'>
+<text>Lad ikke kærlighed til penge bestemme jeres adfærd,
+men stil jer tilfreds med det, I har.
+For Gud har selv sagt:
+»Jeg lader dig ikke i stikken
+og svigter dig ikke.«</text>
+<ref>Hebræerne 13,5</ref>
+</parol>
+<parol book='41' chapter='4' verse='19' id='Mc4v19'>
+<text>Men denne verdens bekymringer
+og rigdommens blændværk
+og lyst til alt muligt andet
+kommer til og kvæler ordet,
+så det ikke bærer frugt.</text>
+<ref>Markus 4,19</ref>
+</parol>
+</theword>
+<theword date='2017-08-17'>
+<title>Ordet til Torsdag, 17. August 2017</title>
+<parol book='19' chapter='23' verse='3' id='Ps23v3'>
+<text>Han giver mig kraft på ny,
+han leder mig ad rette stier
+for sit navns skyld.</text>
+<ref>Salmernes Bog 23,3</ref>
+</parol>
+<parol book='60' chapter='2' verse='25' id='1P2v25'>
+<text>I fór vild som får,
+men er nu vendt om til jeres sjæles
+hyrde og tilsynsmand.</text>
+<ref>1. Peterbrev 2,25</ref>
+</parol>
+</theword>
+<theword date='2017-08-18'>
+<title>Ordet til Fredag, 18. August 2017</title>
+<parol book='19' chapter='57' verse='8' id='Ps57v8'>
+<text>Mit hjerte er trygt, Gud,
+mit hjerte er trygt,
+jeg vil synge og spille.</text>
+<ref>Salmernes Bog 57,8</ref>
+</parol>
+<parol book='19' chapter='147' verse='1' id='Ps147v1'>
+<text>Halleluja.
+Det er godt at lovsynge vor Gud,
+det er herligt med dejlig lovprisning.</text>
+<ref>Salmernes Bog 147,1</ref>
+</parol>
+</theword>
+<theword date='2017-08-19'>
+<title>Ordet til Lørdag, 19. August 2017</title>
+<parol book='11' chapter='3' verse='9' id='1Rg3v9'>
+<intro>Salomo bad:</intro>
+<text>Giv din tjener et lydhørt hjerte,
+så jeg kan herske over dit folk
+og skelne mellem godt og ondt;
+for hvem kan herske over dit folk,
+som er så stort?</text>
+<ref>1. Kongebog 3,9</ref>
+</parol>
+<parol book='51' chapter='3' verse='2' id='Kol3v2'>
+<text>Tænk på det, som er i himlen,
+og ikke på det jordiske.</text>
+<ref>Kolossenserne 3,2</ref>
+</parol>
+</theword>
+<theword date='2017-08-20'>
+<title>Ordet til Søndag, 20. August 2017</title>
+<parol book='19' chapter='8' verse='10' id='Ps8v10'>
+<text>Herre, vor Herre!
+Hvor herligt er dit navn
+over hele jorden!</text>
+<ref>Salmernes Bog 8,10</ref>
+</parol>
+<parol book='47' chapter='4' verse='15' id='2K4v15'>
+<text>Alting sker for jeres skyld,
+for at nåden kan nå til flere og
+flere og dermed forøge taksigelsen til Guds ære.</text>
+<ref>2. Korinterne 4,15</ref>
+</parol>
+</theword>
+<theword date='2017-08-21'>
+<title>Ordet til Mandag, 21. August 2017</title>
+<parol book='19' chapter='5' verse='12' id='Ps5v12'>
+<text>Alle, der søger tilflugt hos dig,
+skal glæde sig,
+de skal juble til evig tid.
+Du beskytter dem.</text>
+<ref>Salmernes Bog 5,12</ref>
+</parol>
+<parol book='60' chapter='1' verse='6' id='1P1v6'>
+<text>Da skal I juble, skønt I nu en kort tid,
+hvis det skal være,
+må lide under prøvelser af mange slags.</text>
+<ref>1. Peterbrev 1,6</ref>
+</parol>
+</theword>
+<theword date='2017-08-22'>
+<title>Ordet til Tirsdag, 22. August 2017</title>
+<parol book='43' chapter='21' verse='17' id='J21v17'>
+<text>Petrus sagde til Jesus:
+Herre, du ved alt;
+du ved, at jeg har dig kær.</text>
+<ref>Johannes 21,17</ref>
+</parol>
+<parol book='11' chapter='8' verse='39' id='1Rg8v39'>
+<text>Du alene kender alle menneskers hjerte.</text>
+<ref>1. Kongebog 8,39</ref>
+</parol>
+</theword>
+<theword date='2017-08-23'>
+<title>Ordet til Onsdag, 23. August 2017</title>
+<parol book='19' chapter='150' verse='2' id='Ps150v2'>
+<text>Lovpris ham for hans vælde,
+lovpris ham for hans storhed!</text>
+<ref>Salmernes Bog 150,2</ref>
+</parol>
+<parol book='10' chapter='7' verse='22' id='2Sm7v22'>
+<text>På den måde har du vist, at du er stor,
+Gud Herre.
+Der er ingen som du, ja,
+der er ingen Gud uden dig,
+efter alt hvad vi har hørt med egne ører.</text>
+<ref>2. Samuelsbog 7,22</ref>
+</parol>
+</theword>
+<theword date='2017-08-24'>
+<title>Ordet til Torsdag, 24. August 2017</title>
+<parol book='19' chapter='80' verse='15' id='Ps80v15-16'>
+<text>Hærskarers Gud, vend tilbage,
+se dog ned fra himlen!
+Tag dig af denne vinstok,
+det skud, din hånd har plantet.</text>
+<ref>Salmernes Bog 80,15-16</ref>
+</parol>
+<parol book='45' chapter='8' verse='33' id='R8v33'>
+<text>Hvem vil anklage Guds udvalgte?
+Gud gør retfærdig.</text>
+<ref>Romerne 8,33</ref>
+</parol>
+</theword>
+<theword date='2017-08-25'>
+<title>Ordet til Fredag, 25. August 2017</title>
+<parol book='19' chapter='118' verse='18' id='Ps118v18'>
+<text>Herren tugtede mig hårdt,
+men han overgav mig ikke til døden.</text>
+<ref>Salmernes Bog 118,18</ref>
+</parol>
+<parol book='26' chapter='18' verse='23' id='Ez18v23'>
+<text>Skulle jeg ønske den uretfærdiges død?
+siger Gud Herren.
+Skal han ikke bevare livet,
+når han vender om fra sine handlinger?</text>
+<ref>Ezekiels Bog 18,23</ref>
+</parol>
+</theword>
+<theword date='2017-08-26'>
+<title>Ordet til Lørdag, 26. August 2017</title>
+<parol book='19' chapter='145' verse='15' id='Ps145v15'>
+<text>Alles øjne er rettet mod dig,
+og du giver dem deres føde i rette tid.</text>
+<ref>Salmernes Bog 145,15</ref>
+</parol>
+<parol book='42' chapter='12' verse='6' id='L12v6'>
+<text>Sælges ikke fem spurve for to skilling?
+Og ikke én af dem er glemt af Gud.</text>
+<ref>Lukas 12,6</ref>
+</parol>
+</theword>
+<theword date='2017-08-27'>
+<title>Ordet til Søndag, 27. August 2017</title>
+<parol book='18' chapter='28' verse='24' id='Job28v24'>
+<text>Thi hans øje rækker til jordens ender,
+under himlen ser han alt.</text>
+<ref>Jobs Bog 28,24</ref>
+</parol>
+<parol book='41' chapter='4' verse='22' id='Mc4v22'>
+<text>Der er intet skjult, som ikke skal blive synligt,
+og intet gemt bort,
+som ikke skal komme frem i lyset.</text>
+<ref>Markus 4,22</ref>
+</parol>
+</theword>
+<theword date='2017-08-28'>
+<title>Ordet til Mandag, 28. August 2017</title>
+<parol book='11' chapter='19' verse='11' id='1Rg19v11'>
+<text>Forud for Herren kom en voldsom og
+kraftig storm,
+der splintrede bjerge og knuste klipper,
+men Herren var ikke i stormen.</text>
+<ref>1. Kongebog 19,11</ref>
+</parol>
+<parol book='42' chapter='17' verse='20' id='L17v20-21'>
+<text>Da farisæerne spurgte Jesus,
+hvornår Guds rige kommer,
+svarede han: Guds rige kommer ikke,
+så man kan iagttage det;
+man vil heller ikke kunne sige:
+Se, her er det! eller: Se dér!
+For Guds rige er midt iblandt jer.</text>
+<ref>Lukas 17,20-21</ref>
+</parol>
+</theword>
+<theword date='2017-08-29'>
+<title>Ordet til Tirsdag, 29. August 2017</title>
+<parol book='15' chapter='7' verse='28' id='Esr7v28'>
+<text>Fordi Herren min Guds hånd var over mig,
+fattede jeg mod.</text>
+<ref>Ezras Bog 7,28</ref>
+</parol>
+<parol book='23' chapter='51' verse='16' id='Is51v16'>
+<text>Jeg lægger mine ord i din mund
+og skjuler dig i skyggen af min hånd.</text>
+<ref>Esajas' Bog 51,16</ref>
+</parol>
+</theword>
+<theword date='2017-08-30'>
+<title>Ordet til Onsdag, 30. August 2017</title>
+<parol book='18' chapter='1' verse='21' id='Job1v21'>
+<text>Herren gav, Herren tog,
+Herrens navn være lovet.</text>
+<ref>Jobs Bog 1,21</ref>
+</parol>
+<parol book='43' chapter='1' verse='16' id='J1v16'>
+<text>Af hans fylde har vi alle modtaget,
+og det nåde over nåde.</text>
+<ref>Johannes 1,16</ref>
+</parol>
+</theword>
+<theword date='2017-08-31'>
+<title>Ordet til Torsdag, 31. August 2017</title>
+<parol book='19' chapter='87' verse='7' id='Ps87v7'>
+<text>Dansende synger de:
+Alle mine kilder er i dig.</text>
+<ref>Salmernes Bog 87,7</ref>
+</parol>
+<parol book='43' chapter='4' verse='14' id='J4v14'>
+<intro>Jesus siger:</intro>
+<text>Den, der drikker af det vand, jeg vil give ham,
+skal aldrig i evighed tørste.
+Det vand, jeg vil give ham,
+skal i ham blive en kilde,
+som vælder med vand til evigt liv.</text>
+<ref>Johannes 4,14</ref>
+</parol>
+</theword>
+<theword date='2017-09-01'>
+<title>Ordet til Fredag, 1. September 2017</title>
+<parol book='24' chapter='15' verse='20' id='Jr15v20'>
+<text>Jeg er med dig,
+jeg frelser dig og redder dig,
+siger Herren.</text>
+<ref>Jeremias' Bog 15,20</ref>
+</parol>
+<parol book='44' chapter='5' verse='19' id='Act5v19-20'>
+<text>Om natten åbnede Herrens engel fængslets
+porte og førte dem ud og sagde:
+Gå hen og træd frem på tempelpladsen,
+og forkynd for folket alle dette livs ord!</text>
+<ref>Ap. Gerninger 5,19-20</ref>
+</parol>
+</theword>
+<theword date='2017-09-02'>
+<title>Ordet til Lørdag, 2. September 2017</title>
+<parol book='23' chapter='43' verse='1' id='Is43v1'>
+<text>Nu siger Herren, han som skabte dig,
+Jakob, han som dannede dig, Israel:
+Frygt ikke, for jeg har løskøbt dig,
+jeg kalder dig ved navn, du er min.</text>
+<ref>Esajas' Bog 43,1</ref>
+</parol>
+<parol book='44' chapter='22' verse='16' id='Act22v16'>
+<intro>Ananias sagde til Saul:</intro>
+<text>Hvorfor tøver du?
+Rejs dig og lad dig døbe
+og få dine synder vasket af,
+idet du påkalder Herrens navn!</text>
+<ref>Ap. Gerninger 22,16</ref>
+</parol>
+</theword>
+<theword date='2017-09-03'>
+<title>Ordet til Søndag, 3. September 2017</title>
+<parol book='26' chapter='37' verse='5' id='Ez37v5'>
+<text>Dette siger Gud Herren til disse ben:
+Jeg giver jer livsånde,
+så I bliver levende.</text>
+<ref>Ezekiels Bog 37,5</ref>
+</parol>
+<parol book='27' chapter='12' verse='2' id='Dn12v2'>
+<text>Mange af dem, der sover i jorden,
+skal vågne, nogle til evigt liv,
+andre til forhånelse, til evig afsky.</text>
+<ref>Daniels Bog 12,2</ref>
+</parol>
+</theword>
+<theword date='2017-09-04'>
+<title>Ordet til Mandag, 4. September 2017</title>
+<parol book='27' chapter='2' verse='20' id='Dn2v20'>
+<text>Lovet være Guds navn
+fra evighed til evighed,
+ham tilhører visdommen og styrken.</text>
+<ref>Daniels Bog 2,20</ref>
+</parol>
+<parol book='19' chapter='147' verse='5' id='Ps147v5'>
+<text>Vor Herre er stor, mægtig i styrke,
+hans indsigt er uden mål.</text>
+<ref>Salmernes Bog 147,5</ref>
+</parol>
+</theword>
+<theword date='2017-09-05'>
+<title>Ordet til Tirsdag, 5. September 2017</title>
+<parol book='43' chapter='1' verse='11' id='J1v11'>
+<text>Han kom til sit eget,
+og hans egne tog ikke imod ham.</text>
+<ref>Johannes 1,11</ref>
+</parol>
+<parol book='43' chapter='3' verse='19' id='J3v19'>
+<text>Dette er dommen, at lyset er kommet til verden,
+og menneskene elskede mørket frem for lyset,
+fordi deres gerninger var onde.</text>
+<ref>Johannes 3,19</ref>
+</parol>
+</theword>
+<theword date='2017-09-06'>
+<title>Ordet til Onsdag, 6. September 2017</title>
+<parol book='16' chapter='4' verse='9' id='Neh4v9'>
+<text>Da vore fjender hørte, at vi var blevet underrettet,
+og da Gud således havde kuldkastet deres plan,
+vendte vi alle tilbage til muren,
+hver til sit arbejde.</text>
+<ref>Nehemias' Bog 4,9</ref>
+</parol>
+<parol book='23' chapter='60' verse='18' id='Is60v18'>
+<text>Der høres ikke længere om vold i dit land,
+om undertrykkelse og ulykke
+inden for dine grænser;
+dine mure skal du kalde Frelse
+og dine porte Lovsang.</text>
+<ref>Esajas' Bog 60,18</ref>
+</parol>
+</theword>
+<theword date='2017-09-07'>
+<title>Ordet til Torsdag, 7. September 2017</title>
+<parol book='26' chapter='36' verse='27' id='Ez36v27'>
+<text>Jeg giver jer min ånd i jeres indre,
+så I følger mine love og omhyggeligt holder
+mine bud.</text>
+<ref>Ezekiels Bog 36,27</ref>
+</parol>
+<parol book='43' chapter='3' verse='5' id='J3v5'>
+<text>Jesus svarede Nikodemus:
+Sandelig, sandelig siger jeg dig:
+Den, der ikke bliver født af vand og ånd,
+kan ikke komme ind i Guds rige.</text>
+<ref>Johannes 3,5</ref>
+</parol>
+</theword>
+<theword date='2017-09-08'>
+<title>Ordet til Fredag, 8. September 2017</title>
+<parol book='38' chapter='8' verse='16' id='Zch8v16'>
+<text>Dette er, hvad I skal gøre:
+Tal sandhed med hinanden!
+Fæld redelige domme i porten,
+domme, der skaber tryghed.</text>
+<ref>Zakarias' Bog 8,16</ref>
+</parol>
+<parol book='55' chapter='4' verse='2' id='2T4v2'>
+<text>Prædik ordet, stå frem i tide og utide,
+overbevis, irettesæt, forman, tålmodigt
+og med stadig undervisning!</text>
+<ref>2. Timoteus 4,2</ref>
+</parol>
+</theword>
+<theword date='2017-09-09'>
+<title>Ordet til Lørdag, 9. September 2017</title>
+<parol book='24' chapter='8' verse='10' id='Jr8v10'>
+<text>Fra den mindste til den største,
+alle søger uretmæssig vinding;
+fra profet til præst,
+alle handler løgnagtigt.</text>
+<ref>Jeremias' Bog 8,10</ref>
+</parol>
+<parol book='40' chapter='6' verse='24' id='Mt6v24'>
+<text>Ingen kan tjene to herrer.
+Han vil enten hade den ene og elske den anden
+eller holde sig til den ene og ringeagte den anden.
+I kan ikke tjene både Gud og mammon.</text>
+<ref>Mattæus 6,24</ref>
+</parol>
+</theword>
+<theword date='2017-09-10'>
+<title>Ordet til Søndag, 10. September 2017</title>
+<parol book='1' chapter='13' verse='8' id='Gn13v8'>
+<text>Da sagde Abram til Lot:
+Der må ikke være splid mellem dig og
+mig, mellem dine og mine hyrder,
+for vi er jo i slægt med hinanden.</text>
+<ref>1. Mosebog 13,8</ref>
+</parol>
+<parol book='59' chapter='3' verse='18' id='Jc3v18'>
+<text>Retfærdighed er en frugt af det, der sås i fred,
+og den tilfalder dem, der stifter fred.</text>
+<ref>Jakobs Brev 3,18</ref>
+</parol>
+</theword>
+<theword date='2017-09-11'>
+<title>Ordet til Mandag, 11. September 2017</title>
+<parol book='42' chapter='20' verse='25' id='L20v25'>
+<text>Giv kejseren, hvad kejserens er,
+og Gud, hvad Guds er!</text>
+<ref>Lukas 20,25</ref>
+</parol>
+<parol book='44' chapter='8' verse='20' id='Act8v20-21'>
+<text>Peter svarede ham:
+Gid dit sølv må forgå og du selv med,
+når du tror, at du kan købe Guds gave for penge.
+Du har hverken lod eller del i denne sag,
+for dit hjerte er ikke oprigtigt over for Gud.</text>
+<ref>Ap. Gerninger 8,20-21</ref>
+</parol>
+</theword>
+<theword date='2017-09-12'>
+<title>Ordet til Tirsdag, 12. September 2017</title>
+<parol book='19' chapter='115' verse='2' id='Ps115v2-3'>
+<text>Hvorfor spørger folkene:
+»Hvor er deres Gud?«
+når vores Gud er i himlen
+og gør alt, hvad han vil?</text>
+<ref>Salmernes Bog 115,2-3</ref>
+</parol>
+<parol book='61' chapter='3' verse='3' id='2P3v3-4'>
+<text>I de sidste dage vil der komme spottere,
+som følger deres egne lyster, og som hånligt siger:
+Hvad bliver der af løftet om hans komme?
+Siden vore fædre døde, er alting jo blevet ved at være,
+som det var fra skabelsens begyndelse.</text>
+<ref>2. Peterbrev 3,3-4</ref>
+</parol>
+</theword>
+<theword date='2017-09-13'>
+<title>Ordet til Onsdag, 13. September 2017</title>
+<parol book='26' chapter='18' verse='32' id='Ez18v32'>
+<text>Vend om, så skal I leve!</text>
+<ref>Ezekiels Bog 18,32</ref>
+</parol>
+<parol book='61' chapter='3' verse='9' id='2P3v9'>
+<text>Herren er ikke sen til at opfylde sit løfte,
+sådan som nogle mener,
+men han har tålmodighed med jer,
+fordi han vil, at ingen skal gå fortabt,
+men at alle skal nå til omvendelse.</text>
+<ref>2. Peterbrev 3,9</ref>
+</parol>
+</theword>
+<theword date='2017-09-14'>
+<title>Ordet til Torsdag, 14. September 2017</title>
+<parol book='23' chapter='54' verse='10' id='Is54v10'>
+<text>Bjergene kan rokkes
+og højene vakle,
+men min troskab mod dig rokkes ikke,
+og min fredspagt vakler ikke,
+siger Herren, der viser dig barmhjertighed.</text>
+<ref>Esajas' Bog 54,10</ref>
+</parol>
+<parol book='55' chapter='4' verse='22' id='2T4v22'>
+<text>Herren være med din ånd!
+Nåden være med jer!</text>
+<ref>2. Timoteus 4,22</ref>
+</parol>
+</theword>
+<theword date='2017-09-15'>
+<title>Ordet til Fredag, 15. September 2017</title>
+<parol book='43' chapter='6' verse='27' id='J6v27'>
+<text>Arbejd ikke for den mad, som forgår,
+men for den mad, som består til evigt liv,
+den som Menneskesønnen vil give jer;
+for ham har Faderen, Gud selv,
+sat sit segl på.</text>
+<ref>Johannes 6,27</ref>
+</parol>
+<parol book='61' chapter='3' verse='11' id='2P3v11'>
+<text>Da nu alle disse ting må gå i opløsning,
+hvor helligt og gudfrygtigt
+bør I da ikke leve!</text>
+<ref>2. Peterbrev 3,11</ref>
+</parol>
+</theword>
+<theword date='2017-09-16'>
+<title>Ordet til Lørdag, 16. September 2017</title>
+<parol book='1' chapter='2' verse='2' id='Gn2v2'>
+<text>På den syvende dag var Gud færdig
+med det arbejde, han havde udført,
+og på den syvende dag hvilede han
+efter alt det arbejde, han havde udført.</text>
+<ref>1. Mosebog 2,2</ref>
+</parol>
+<parol book='58' chapter='4' verse='10' id='H4v10'>
+<text>Den, der er kommet ind til hans hvile,
+har også selv fået hvile efter sine gerninger,
+ligesom Gud efter sine.</text>
+<ref>Hebræerne 4,10</ref>
+</parol>
+</theword>
+<theword date='2017-09-17'>
+<title>Ordet til Søndag, 17. September 2017</title>
+<parol book='42' chapter='5' verse='5' id='L5v5'>
+<text>Simon svarede:
+Mester, vi har slidt hele natten
+og ingenting fået;
+men på dit ord vil jeg kaste garnene ud.</text>
+<ref>Lukas 5,5</ref>
+</parol>
+<parol book='44' chapter='5' verse='29' id='Act5v29'>
+<text>Peter og apostlene svarede:
+Man bør adlyde Gud mere endmennesker.</text>
+<ref>Ap. Gerninger 5,29</ref>
+</parol>
+</theword>
+<theword date='2017-09-18'>
+<title>Ordet til Mandag, 18. September 2017</title>
+<parol book='19' chapter='142' verse='8' id='Ps142v8'>
+<text>Før mig ud af fængslet,
+så jeg kan takke dit navn.
+De retfærdige samler sig om mig,
+for du handler vel imod mig.</text>
+<ref>Salmernes Bog 142,8</ref>
+</parol>
+<parol book='51' chapter='3' verse='16' id='Kol3v16'>
+<text>Lad Kristi ord bo i rigt mål hos jer.
+Undervis og forman med al visdom
+hinanden med salmer, hymner og åndelige sange,
+syng med tak i jeres hjerte til Gud.</text>
+<ref>Kolossenserne 3,16</ref>
+</parol>
+</theword>
+<theword date='2017-09-19'>
+<title>Ordet til Tirsdag, 19. September 2017</title>
+<parol book='9' chapter='2' verse='7' id='1Sm2v7-8'>
+<text>Herren gør fattig, og han gør rig,
+han ydmyger, og han ophøjer.
+Fra støvet rejser han de svage,
+fra skarnet løfter han de fattige.</text>
+<ref>1. Samuelsbog 2,7-8</ref>
+</parol>
+<parol book='19' chapter='75' verse='8' id='Ps75v8'>
+<text>Det er Gud, der er dommer,
+den ene ydmyger han,
+den anden ophøjer han.</text>
+<ref>Salmernes Bog 75,8</ref>
+</parol>
+</theword>
+<theword date='2017-09-20'>
+<title>Ordet til Onsdag, 20. September 2017</title>
+<parol book='23' chapter='29' verse='19' id='Is29v19'>
+<text>De hjælpeløse skal igen glæde sig over Herren,
+de fattige skal juble over Israels Hellige.</text>
+<ref>Esajas' Bog 29,19</ref>
+</parol>
+<parol book='42' chapter='6' verse='20' id='L6v20'>
+<text>Han løftede sit blik,
+så på sine disciple og sagde:
+Salige er I, som er fattige,
+for Guds rige er jeres.</text>
+<ref>Lukas 6,20</ref>
+</parol>
+</theword>
+<theword date='2017-09-21'>
+<title>Ordet til Torsdag, 21. September 2017</title>
+<parol book='43' chapter='14' verse='18' id='J14v18'>
+<intro>Jesus sagde:</intro>
+<text>Jeg vil ikke efterlade jer faderløse;
+jeg kommer til jer.</text>
+<ref>Johannes 14,18</ref>
+</parol>
+<parol book='3' chapter='26' verse='12' id='Lv26v12'>
+<text>Jeg vil vandre midt iblandt jer,
+og jeg vil være jeres Gud,
+og I skal være mit folk.</text>
+<ref>3. Mosebog 26,12</ref>
+</parol>
+</theword>
+<theword date='2017-09-22'>
+<title>Ordet til Fredag, 22. September 2017</title>
+<parol book='58' chapter='13' verse='20' id='H13v20-21'>
+<text>Måtte fredens Gud, der førte fårenes store hyrde,
+vor Herre Jesus, op fra de døde med en evig pagts blod,
+sætte jer i stand til alt godt, så I gør hans vilje,
+idet han selv udvirker i os,
+hvad der er ham velbehageligt
+ved Jesus Kristus.</text>
+<ref>Hebræerne 13,20-21</ref>
+</parol>
+<parol book='45' chapter='6' verse='13' id='R6v13'>
+<text>Stil heller ikke jeres lemmer til rådighed for synden
+som redskaber for uretfærdighed,
+men stil jer selv til rådighed for
+Gud som levende, der før var døde,
+så I bruger jeres lemmer for Gud,
+som redskaber for retfærdighed.</text>
+<ref>Romerne 6,13</ref>
+</parol>
+</theword>
+<theword date='2017-09-23'>
+<title>Ordet til Lørdag, 23. September 2017</title>
+<parol book='24' chapter='2' verse='21' id='Jr2v21'>
+<text>Jeg havde dog plantet dig
+som en vinranke, en ægte stikling.
+Hvor kunne du da forvandles
+til et vildskud, en uægte vinstok?</text>
+<ref>Jeremias' Bog 2,21</ref>
+</parol>
+<parol book='58' chapter='3' verse='12' id='H3v12'>
+<text>Se til, brødre, at der aldrig i nogen af jer
+skal være et ondt, vantro hjerte,
+så der sker frafald fra den levende Gud.</text>
+<ref>Hebræerne 3,12</ref>
+</parol>
+</theword>
+<theword date='2017-09-24'>
+<title>Ordet til Søndag, 24. September 2017</title>
+<parol book='43' chapter='7' verse='18' id='J7v18'>
+<text>Den, der taler af sig selv, søger sin egen ære.
+Men den, der søger hans ære,
+som har sendt ham, han er sanddru,
+og der er ingen uret hos ham.</text>
+<ref>Johannes 7,18</ref>
+</parol>
+<parol book='66' chapter='3' verse='8' id='Ap3v8'>
+<text>Jeg kender dine gerninger.
+Jeg har lukket en dør op for dig,
+som ingen kan lukke i, og jeg ved,
+at du kun har svage kræfter
+og dog har holdt fast ved mit ord
+og ikke fornægtet mit navn.</text>
+<ref>Åbenbarelse 3,8</ref>
+</parol>
+</theword>
+<theword date='2017-09-25'>
+<title>Ordet til Mandag, 25. September 2017</title>
+<parol book='7' chapter='10' verse='15' id='Jdc10v15'>
+<text>Da sagde israelitterne til Herren:
+Vi har syndet.
+Gør med os, hvad du vil,
+blot du redder os nu.</text>
+<ref>Dommersbogen 10,15</ref>
+</parol>
+<parol book='42' chapter='18' verse='13' id='L18v13'>
+<text>Tolderen stod afsides og ville ikke engang
+løfte sit blikmod himlen,
+men slog sig for brystet og sagde:
+Gud, vær mig synder nådig!</text>
+<ref>Lukas 18,13</ref>
+</parol>
+</theword>
+<theword date='2017-09-26'>
+<title>Ordet til Tirsdag, 26. September 2017</title>
+<parol book='19' chapter='130' verse='3' id='Ps130v3'>
+<text>Hvis du, Herre, vogtede på skyld,
+hvem kunne da bestå, Herre?</text>
+<ref>Salmernes Bog 130,3</ref>
+</parol>
+<parol book='42' chapter='23' verse='34' id='L23v34'>
+<text>Jesus sagde:
+Fader, tilgiv dem,
+for de ved ikke, hvad de gør.</text>
+<ref>Lukas 23,34</ref>
+</parol>
+</theword>
+<theword date='2017-09-27'>
+<title>Ordet til Onsdag, 27. September 2017</title>
+<parol book='40' chapter='18' verse='13' id='Mt18v13'>
+<text>Lykkes det ham at finde det vildfarne får,
+sandelig, jeg siger jer, han glæder sig mere
+over det end over de nioghalvfems,
+der ikke fór vild.</text>
+<ref>Mattæus 18,13</ref>
+</parol>
+<parol book='42' chapter='15' verse='7' id='L15v7'>
+<text>Sådan bliver der større glæde i himlen
+over én synder, der omvender sig,
+end over nioghalvfems retfærdige,
+som ikke har brug for omvendelse.</text>
+<ref>Lukas 15,7</ref>
+</parol>
+</theword>
+<theword date='2017-09-28'>
+<title>Ordet til Torsdag, 28. September 2017</title>
+<parol book='24' chapter='27' verse='5' id='Jr27v5'>
+<text>I min store styrke og med løftet arm
+har jeg skabt jorden med de mennesker og dyr,
+som er på jorden, og jeg giver den,
+til hvem jeg vil.</text>
+<ref>Jeremias' Bog 27,5</ref>
+</parol>
+<parol book='42' chapter='1' verse='32' id='L1v32'>
+<intro>Englen sagde til Maria om hans søn:</intro>
+<text>Han skal blive stor
+og kaldes den Højestes søn,
+og Gud Herren skal give ham
+hans fader Davids trone.</text>
+<ref>Lukas 1,32</ref>
+</parol>
+</theword>
+<theword date='2017-09-29'>
+<title>Ordet til Fredag, 29. September 2017</title>
+<parol book='5' chapter='32' verse='46' id='Dt32v46-47'>
+<text>Moses sagde til Israelitterne:
+I skal lægge jer alle de ord på sinde,
+som jeg i dag indskærper jer;
+I skal befale jeres sønner
+omhyggeligt at følge alle ordene i denne lov.
+Det er ikke nogen ligegyldig sag for jer,
+det gælder jeres liv.</text>
+<ref>5. Mosebog 32,46-47</ref>
+</parol>
+<parol book='23' chapter='55' verse='3' id='Is55v3'>
+<text>Vend øret til mig, og kom,
+hør på mig, så skal I leve!</text>
+<ref>Esajas' Bog 55,3</ref>
+</parol>
+</theword>
+<theword date='2017-09-30'>
+<title>Ordet til Lørdag, 30. September 2017</title>
+<parol book='43' chapter='14' verse='10' id='J14v10'>
+<text>Tror du ikke, at jeg er i Faderen, og Faderen er i mig?
+De ord, jeg siger til jer, taler jeg ikke af mig selv;
+men Faderen, som bliver i mig, gør sine gerninger.</text>
+<ref>Johannes 14,10</ref>
+</parol>
+<parol book='61' chapter='1' verse='21' id='2P1v21'>
+<text>Ingen profeti har nogen sinde lydt i kraft
+af et menneskes vilje,
+men drevet af Helligånden har mennesker sagt det,
+der kom fra Gud.</text>
+<ref>2. Peterbrev 1,21</ref>
+</parol>
+</theword>
+<theword date='2017-10-01'>
+<title>Ordet til Søndag, 1. Oktober 2017</title>
+<parol book='9' chapter='26' verse='23' id='1Sm26v23_2'>
+<intro>David sagde til Saul:</intro>
+<text>I dag gav Herren dig i min magt,
+men jeg ville ikke lægge hånd på
+Herrens salvede.</text>
+<ref>1. Samuelsbog 26,23</ref>
+</parol>
+<parol book='19' chapter='51' verse='16' id='Ps51v16'>
+<text>Fri mig for blodskyld, Gud,
+min frelses Gud,
+så min tunge kan juble over din
+retfærdighed.</text>
+<ref>Salmernes Bog 51,16</ref>
+</parol>
+</theword>
+<theword date='2017-10-02'>
+<title>Ordet til Mandag, 2. Oktober 2017</title>
+<parol book='40' chapter='4' verse='24' id='Mt4v24'>
+<text>Rygtet om ham nåede ud i hele Syrien,
+og de kom til ham med alle,
+der led af forskellige sygdomme og
+var plaget af lidelser, og med besatte,
+månesyge og lamme,
+og han helbredte dem.</text>
+<ref>Mattæus 4,24</ref>
+</parol>
+<parol book='24' chapter='3' verse='22' id='Jr3v22'>
+<text>Vend tilbage, I frafaldne sønner,
+så vil jeg helbrede jeres frafald.
+Se, vi kommer til dig,
+for du er Herren vor Gud.</text>
+<ref>Jeremias' Bog 3,22</ref>
+</parol>
+</theword>
+<theword date='2017-10-03'>
+<title>Ordet til Tirsdag, 3. Oktober 2017</title>
+<parol book='62' chapter='2' verse='10' id='1J2v10'>
+<text>Den, der elsker sin broder, bliver i lyset,
+og i ham er der intet, som bringer til fald.</text>
+<ref>1. Johannes 2,10</ref>
+</parol>
+<parol book='46' chapter='16' verse='14' id='1K16v14'>
+<text>Alting hos jer skal ske i kærlighed.</text>
+<ref>1. Korinterne 16,14</ref>
+</parol>
+</theword>
+<theword date='2017-10-04'>
+<title>Ordet til Onsdag, 4. Oktober 2017</title>
+<parol book='19' chapter='25' verse='15' id='Ps25v15'>
+<text>Mine øjne er altid rettet mod Herren,
+for han befrier min fod fra nettet.</text>
+<ref>Salmernes Bog 25,15</ref>
+</parol>
+<parol book='55' chapter='4' verse='18' id='2T4v18'>
+<text>Ja, Herren vil fri mig fra alt ondt
+og bringe mig frelst ind i sit himmelske rige.
+Ham være ære i evighedernes evigheder!</text>
+<ref>2. Timoteus 4,18</ref>
+</parol>
+</theword>
+<theword date='2017-10-05'>
+<title>Ordet til Torsdag, 5. Oktober 2017</title>
+<parol book='19' chapter='146' verse='8' id='Ps146v8_l'>
+<text>Herren elsker de retfærdige.</text>
+<ref>Salmernes Bog 146,8</ref>
+</parol>
+<parol book='23' chapter='50' verse='8' id='Is50v8'>
+<text>Han, som skal frikende mig, er nær.
+Vil nogen anklage mig,
+så lad os stå frem sammen!</text>
+<ref>Esajas' Bog 50,8</ref>
+</parol>
+</theword>
+<theword date='2017-10-06'>
+<title>Ordet til Fredag, 6. Oktober 2017</title>
+<parol book='19' chapter='34' verse='9' id='Ps34v9'>
+<text>Smag og se, at Herren er god;
+lykkelig den mand,
+der søger tilflugt hos ham.</text>
+<ref>Salmernes Bog 34,9</ref>
+</parol>
+<parol book='43' chapter='6' verse='55' id='J6v55'>
+<text>Mit kød er sand mad,
+og mit blod er sand drik.</text>
+<ref>Johannes 6,55</ref>
+</parol>
+</theword>
+<theword date='2017-10-07'>
+<title>Ordet til Lørdag, 7. Oktober 2017</title>
+<parol book='23' chapter='60' verse='2' id='Is60v2'>
+<text>Se, mørket dækker jorden,
+mulmet dækker folkene;
+men over dig bryder Herren frem,
+hans herlighed viser sig over dig.</text>
+<ref>Esajas' Bog 60,2</ref>
+</parol>
+<parol book='58' chapter='10' verse='23' id='H10v23'>
+<text>Lad os holde urokkeligt fast ved bekendelsen
+af vort håb, for han,
+som gav os løftet, er trofast.</text>
+<ref>Hebræerne 10,23</ref>
+</parol>
+</theword>
+<theword date='2017-10-08'>
+<title>Ordet til Søndag, 8. Oktober 2017</title>
+<parol book='40' chapter='8' verse='20' id='Mt8v20'>
+<text>Jesus sagde til disciplene:
+Ræve har huler, og himlens fugle har reder,
+men Menneskesønnen har ikke et sted
+at hvile sit hoved.</text>
+<ref>Mattæus 8,20</ref>
+</parol>
+<parol book='42' chapter='9' verse='23' id='L9v23'>
+<text>Henvendt til alle sagde Jesus:
+Hvis nogen vil følge efter mig,
+skal han fornægte sig selv
+og daglig tage sit kors op og følge mig.</text>
+<ref>Lukas 9,23</ref>
+</parol>
+</theword>
+<theword date='2017-10-09'>
+<title>Ordet til Mandag, 9. Oktober 2017</title>
+<parol book='1' chapter='24' verse='40' id='Gn24v40'>
+<intro>Abraham sagde til sin træl:</intro>
+<text>Herren, for hvis ansigt jeg vandrer,
+vil sende sin engel med dig
+og lade dit ærinde lykkes.</text>
+<ref>1. Mosebog 24,40</ref>
+</parol>
+<parol book='59' chapter='4' verse='15' id='Jc4v15'>
+<text>I skulle hellere sige: »Hvis Herren vil,
+så skal vi leve og kan gøre det eller det.«</text>
+<ref>Jakobs Brev 4,15</ref>
+</parol>
+</theword>
+<theword date='2017-10-10'>
+<title>Ordet til Tirsdag, 10. Oktober 2017</title>
+<parol book='4' chapter='11' verse='29' id='Nu11v29'>
+<text>Moses svarede Josua:
+Viser du nidkærhed på mine vegne?
+Gid hele Herrens folk var profeter,
+fordi Herren lagde sin ånd på dem!</text>
+<ref>4. Mosebog 11,29</ref>
+</parol>
+<parol book='43' chapter='14' verse='16' id='J14v16-17'>
+<intro>Kristus siger:</intro>
+<text>Jeg vil bede Faderen,
+og han vil give jer en anden talsmand,
+som skal være hos jer til evig tid:
+sandhedens ånd,
+som verden ikke kan tage imod.</text>
+<ref>Johannes 14,16-17</ref>
+</parol>
+</theword>
+<theword date='2017-10-11'>
+<title>Ordet til Onsdag, 11. Oktober 2017</title>
+<parol book='11' chapter='8' verse='52' id='1Rg8v52'>
+<text>Lad dine øjne være åbne
+for din tjeners bønfaldelse
+og for dit folk Israels bønfaldelse,
+og hør dem, når de råber til dig.</text>
+<ref>1. Kongebog 8,52</ref>
+</parol>
+<parol book='19' chapter='118' verse='25' id='Ps118v25'>
+<text>Herre, frels dog!
+Herre, lad det lykkes!</text>
+<ref>Salmernes Bog 118,25</ref>
+</parol>
+</theword>
+<theword date='2017-10-12'>
+<title>Ordet til Torsdag, 12. Oktober 2017</title>
+<parol book='14' chapter='16' verse='9' id='2Chr16v9'>
+<text>Herrens øjne spejder ud over hele jorden,
+så han kan vise sin styrke og hjælpe dem,
+der helhjertet er med ham.</text>
+<ref>2. Krønikebog 16,9</ref>
+</parol>
+<parol book='19' chapter='119' verse='2' id='Ps119v2'>
+<text>Lykkelig den,
+der overholder hans formaninger
+og søger ham af hele sit hjerte.</text>
+<ref>Salmernes Bog 119,2</ref>
+</parol>
+</theword>
+<theword date='2017-10-13'>
+<title>Ordet til Fredag, 13. Oktober 2017</title>
+<parol book='42' chapter='21' verse='14' id='L21v14'>
+<intro>Jesus sagde:</intro>
+<text>Læg jer så på sinde,
+at I ikke skal forberede jer på,
+hvordan I skal forsvare jer.</text>
+<ref>Lukas 21,14</ref>
+</parol>
+<parol book='44' chapter='4' verse='29' id='Act4v29'>
+<text>Nu, Herre, se dog deres trusler,
+og giv dine tjenere at tale dit ord
+med fuld frimodighed.</text>
+<ref>Ap. Gerninger 4,29</ref>
+</parol>
+</theword>
+<theword date='2017-10-14'>
+<title>Ordet til Lørdag, 14. Oktober 2017</title>
+<parol book='5' chapter='32' verse='39' id='Dt32v39_I'>
+<text>Det er mig, der dræber og gør levende,
+har jeg knust, er det mig, der læger;
+ingen kan rive nogen ud af min hånd.</text>
+<ref>5. Mosebog 32,39</ref>
+</parol>
+<parol book='42' chapter='12' verse='4' id='L12v4'>
+<text>Frygt ikke dem,
+der slår legemet ihjel og derefter ikke
+er i stand til at gøre mere.</text>
+<ref>Lukas 12,4</ref>
+</parol>
+</theword>
+<theword date='2017-10-15'>
+<title>Ordet til Søndag, 15. Oktober 2017</title>
+<parol book='40' chapter='16' verse='21' id='Mt16v21'>
+<text>Fra da af begyndte Jesus at lade
+sine disciple vide,
+at han skulle gå op til Jerusalem
+og lide meget ondt af de ældste
+og ypperstepræsterne og de skriftkloge
+og slås ihjel og opstå på den tredje dag.</text>
+<ref>Mattæus 16,21</ref>
+</parol>
+<parol book='42' chapter='13' verse='33' id='L13v33'>
+<intro>Jesus sagde til farisæerne:</intro>
+<text>I dag og i morgen og i overmorgen skal jeg vandre,
+for en profet kan ikke dræbes andre steder
+end i Jerusalem.</text>
+<ref>Lukas 13,33</ref>
+</parol>
+</theword>
+<theword date='2017-10-16'>
+<title>Ordet til Mandag, 16. Oktober 2017</title>
+<parol book='54' chapter='2' verse='5' id='1T2v5-6'>
+<text>Der er én Gud og én formidler
+mellem Gud og mennesker,
+mennesket Kristus Jesus,
+som gav sig selv som løsesum for alle.</text>
+<ref>1. Timoteus 2,5-6</ref>
+</parol>
+<parol book='48' chapter='1' verse='4' id='G1v4'>
+<text>Jesus Kristus gav sig selv hen for vore synder
+for at rive os ud af den nuværende onde verden,
+efter Guds, vor Faders, vilje!</text>
+<ref>Galaterne 1,4</ref>
+</parol>
+</theword>
+<theword date='2017-10-17'>
+<title>Ordet til Tirsdag, 17. Oktober 2017</title>
+<parol book='43' chapter='16' verse='23' id='J16v23'>
+<intro>Jesus sagde til sine disciple:</intro>
+<text>Beder I Faderen om noget i mit navn,
+skal han give jer det.</text>
+<ref>Johannes 16,23</ref>
+</parol>
+<parol book='66' chapter='22' verse='17' id='Ap22v17'>
+<text>Den, der tørster, skal komme,
+og den, der vil,
+skal få livets vand for intet.</text>
+<ref>Åbenbarelse 22,17</ref>
+</parol>
+</theword>
+<theword date='2017-10-18'>
+<title>Ordet til Onsdag, 18. Oktober 2017</title>
+<parol book='43' chapter='6' verse='37' id='J6v37'>
+<intro>Jesus siger:</intro>
+<text>Alt, hvad Faderen giver mig,
+skal komme til mig, og den,
+der kommer til mig,
+vil jeg aldrig vise bort.</text>
+<ref>Johannes 6,37</ref>
+</parol>
+<parol book='41' chapter='10' verse='48' id='Mc10v48-49'>
+<text>Mange truede ad Bartimæus for at få ham
+til at tie stille; men han råbte bare endnu højere:
+Davids søn, forbarm dig over mig!
+Og Jesus stod stille og sagde: Kald på ham!
+Så kaldte de på den blinde og sagde til ham:
+Vær frimodig, rejs dig, han kalder på dig.</text>
+<ref>Markus 10,48-49</ref>
+</parol>
+</theword>
+<theword date='2017-10-19'>
+<title>Ordet til Torsdag, 19. Oktober 2017</title>
+<parol book='42' chapter='22' verse='29' id='L22v29'>
+<text>Ligesom min fader har overdraget mig Riget,
+overdrager jeg det til jer.</text>
+<ref>Lukas 22,29</ref>
+</parol>
+<parol book='43' chapter='18' verse='36' id='J18v36'>
+<text>Jesus svarede Pilatus:
+Mit rige er ikke af denne verden.
+Var mit rige af denne verden,
+havde mine tjenere kæmpet for,
+at jeg ikke skulle udleveres til jøderne.</text>
+<ref>Johannes 18,36</ref>
+</parol>
+</theword>
+<theword date='2017-10-20'>
+<title>Ordet til Fredag, 20. Oktober 2017</title>
+<parol book='19' chapter='25' verse='18' id='Ps25v18'>
+<text>Se min nød og elendighed,
+og tilgiv alle mine synder!</text>
+<ref>Salmernes Bog 25,18</ref>
+</parol>
+<parol book='62' chapter='1' verse='9' id='1J1v9'>
+<text>Hvis vi bekender vore synder,
+er han trofast og retfærdig,
+så han tilgiver os vore synder og renser os
+for al uretfærdighed.</text>
+<ref>1. Johannes 1,9</ref>
+</parol>
+</theword>
+<theword date='2017-10-21'>
+<title>Ordet til Lørdag, 21. Oktober 2017</title>
+<parol book='42' chapter='19' verse='5' id='L19v5-6'>
+<text>Jesus så op og sagde:
+Zakæus, skynd dig at komme ned!
+I dag skal jeg være gæst i dit hus.
+Så skyndte han sig ned og tog glad imod ham.</text>
+<ref>Lukas 19,5-6</ref>
+</parol>
+<parol book='43' chapter='3' verse='7' id='J3v7'>
+<text>Du skal ikke undre dig over,
+at jeg sagde til dig:
+I må fødes på ny.</text>
+<ref>Johannes 3,7</ref>
+</parol>
+</theword>
+<theword date='2017-10-22'>
+<title>Ordet til Søndag, 22. Oktober 2017</title>
+<parol book='19' chapter='16' verse='6' id='Ps16v6'>
+<text>Målesnorene tildelte mig herlige steder,
+jeg kan fryde mig over min ejendom.</text>
+<ref>Salmernes Bog 16,6</ref>
+</parol>
+<parol book='49' chapter='1' verse='11' id='E1v11'>
+<text>I ham har vi også fået del i arven,
+vi som var forudbestemt dertil ved Guds beslutning;
+for han gennemfører alt efter sin viljes forsæt.</text>
+<ref>Efeserne 1,11</ref>
+</parol>
+</theword>
+<theword date='2017-10-23'>
+<title>Ordet til Mandag, 23. Oktober 2017</title>
+<parol book='2' chapter='23' verse='8' id='Ex23v8'>
+<text>Du må ikke tage imod bestikkelse,
+for bestikkelse blinder de seende
+og forvansker de uskyldiges sag.</text>
+<ref>2. Mosebog 23,8</ref>
+</parol>
+<parol book='54' chapter='6' verse='10' id='1T6v10'>
+<text>Kærlighed til penge er roden til alt ondt;
+drevet af den er nogle blevet ført bort fra troen
+og har voldt sig selv mange smerter.</text>
+<ref>1. Timoteus 6,10</ref>
+</parol>
+</theword>
+<theword date='2017-10-24'>
+<title>Ordet til Tirsdag, 24. Oktober 2017</title>
+<parol book='19' chapter='5' verse='2' id='Ps5v2-3'>
+<text>Herre, lyt til mine ord,
+læg mærke til min stønnen!
+Hør mit råb om hjælp,
+min konge og min Gud!
+Jeg beder til dig.</text>
+<ref>Salmernes Bog 5,2-3</ref>
+</parol>
+<parol book='43' chapter='16' verse='20' id='J16v20'>
+<intro>Jesus sagde til sine disciple:</intro>
+<text>I skal græde og klage,
+men verden skal glæde sig.
+I skal sørge,
+men jeres sorg skal blive til glæde.</text>
+<ref>Johannes 16,20</ref>
+</parol>
+</theword>
+<theword date='2017-10-25'>
+<title>Ordet til Onsdag, 25. Oktober 2017</title>
+<parol book='19' chapter='3' verse='3' id='Ps3v3-4'>
+<text>Mange siger om mig:
+Ham frelser Gud ikke.
+Men du, Herre, er mit skjold,
+min ære, den der løfter mit hoved.</text>
+<ref>Salmernes Bog 3,3-4</ref>
+</parol>
+<parol book='45' chapter='5' verse='2' id='R5v2'>
+<text>Ved ham har vi i troen fået adgang til den nåde,
+som vi står i,
+og vi er stolte af håbet om Guds herlighed.</text>
+<ref>Romerne 5,2</ref>
+</parol>
+</theword>
+<theword date='2017-10-26'>
+<title>Ordet til Torsdag, 26. Oktober 2017</title>
+<parol book='19' chapter='32' verse='10' id='Ps32v10'>
+<text>Mange plager rammer den ugudelige,
+men den, der stoler på Herren,
+omgiver han med godhed.</text>
+<ref>Salmernes Bog 32,10</ref>
+</parol>
+<parol book='39' chapter='3' verse='18' id='Ml3v18'>
+<text>Da kan I atter skelne retfærdig fra uretfærdig,
+ham, der tjener Gud, fra ham, der ikke gør det.</text>
+<ref>Malakias' Bog 3,18</ref>
+</parol>
+</theword>
+<theword date='2017-10-27'>
+<title>Ordet til Fredag, 27. Oktober 2017</title>
+<parol book='43' chapter='6' verse='48' id='J6v48'>
+<intro>Kristus siger:</intro>
+<text>Jeg er livets brød.</text>
+<ref>Johannes 6,48</ref>
+</parol>
+<parol book='19' chapter='105' verse='40' id='Ps105v40-42'>
+<text>Han mættede dem med himmelbrød.
+Han åbnede klippen, så vandet flød,
+i strømme løb det ud over det tørre land.
+Fordi han huskede sit hellige løfte
+til sin tjener Abraham.</text>
+<ref>Salmernes Bog 105,40-42</ref>
+</parol>
+</theword>
+<theword date='2017-10-28'>
+<title>Ordet til Lørdag, 28. Oktober 2017</title>
+<parol book='53' chapter='1' verse='2' id='2Th1v2'>
+<text>Nåde være med jer og fred fra Gud, vor Fader,
+og Herren Jesus Kristus!</text>
+<ref>2. Tessalonikerne 1,2</ref>
+</parol>
+<parol book='4' chapter='6' verse='26' id='Nu6v26'>
+<text>Herren løfte sit ansigt mod dig
+og give dig fred.</text>
+<ref>4. Mosebog 6,26</ref>
+</parol>
+</theword>
+<theword date='2017-10-29'>
+<title>Ordet til Søndag, 29. Oktober 2017</title>
+<parol book='35' chapter='1' verse='2' id='Hab1v2'>
+<text>Hvor længe, Herre,
+skal jeg råbe om hjælp,
+uden at du hører,
+skrige til dig om vold,
+uden at du frelser?</text>
+<ref>Habakkuks Bog 1,2</ref>
+</parol>
+<parol book='19' chapter='130' verse='1' id='Ps130v1-2'>
+<text>Fra det dybe råber jeg til dig, Herre.
+Herre, hør mit råb,
+lad dine ører lytte
+til min tryglen!</text>
+<ref>Salmernes Bog 130,1-2</ref>
+</parol>
+</theword>
+<theword date='2017-10-30'>
+<title>Ordet til Mandag, 30. Oktober 2017</title>
+<parol book='12' chapter='20' verse='3' id='2Rg20v3'>
+<intro>Hiskija blev så syg, at han var ved at dø:</intro>
+<text>Ak, Herre, husk dog på,
+hvordan jeg har vandret for dit ansigt,
+trofast og helhjertet, og altid har gjort det,
+som er godt i dine øjne.
+Og Hizkija græd højt.</text>
+<ref>2. Kongebog 20,3</ref>
+</parol>
+<parol book='19' chapter='30' verse='12' id='Ps30v12'>
+<text>Du forvandlede min klage til dans,
+du tog min sørgedragt af mig
+og klædte mig i glæde.</text>
+<ref>Salmernes Bog 30,12</ref>
+</parol>
+</theword>
+<theword date='2017-10-31'>
+<title>Ordet til Tirsdag, 31. Oktober 2017</title>
+<parol book='23' chapter='53' verse='11' id='Is53v11_D'>
+<text>Min tjener bringer retfærdighed
+til de mange,
+og han bærer på deres synder.</text>
+<ref>Esajas' Bog 53,11</ref>
+</parol>
+<parol book='40' chapter='5' verse='17' id='Mt5v17'>
+<intro>Jesus sagde:</intro>
+<text>Tro ikke, at jeg er kommet for at nedbryde loven
+eller profeterne.
+Jeg er ikke kommet for at nedbryde,
+men for at opfylde.</text>
+<ref>Mattæus 5,17</ref>
+</parol>
+</theword>
+<theword date='2017-11-01'>
+<title>Ordet til Onsdag, 1. November 2017</title>
+<parol book='29' chapter='2' verse='11' id='Joel2v11-12'>
+<text>Stor er Herrens dag,
+frygtelig er den!
+Hvem kan udholde den?
+Men selv nu siger Herren:
+Vend om til mig af hele jeres hjerte
+med faste, gråd og klage!</text>
+<ref>Joels Bog 2,11-12</ref>
+</parol>
+<parol book='42' chapter='15' verse='10' id='L15v10'>
+<intro>Jesus sagde:</intro>
+<text>Sådan bliver der glæde hos Guds engle
+over én synder, som omvender sig.</text>
+<ref>Lukas 15,10</ref>
+</parol>
+</theword>
+<theword date='2017-11-02'>
+<title>Ordet til Torsdag, 2. November 2017</title>
+<parol book='19' chapter='65' verse='8' id='Ps65v8'>
+<text>Du som dæmpede havenes brusen,
+bølgernes brusen
+og folkenes larm.</text>
+<ref>Salmernes Bog 65,8</ref>
+</parol>
+<parol book='40' chapter='8' verse='26' id='Mt8v26'>
+<text>Da rejste Jesus sig og truede ad storm og sø,
+og det blev helt blikstille.</text>
+<ref>Mattæus 8,26</ref>
+</parol>
+</theword>
+<theword date='2017-11-03'>
+<title>Ordet til Fredag, 3. November 2017</title>
+<parol book='1' chapter='1' verse='25' id='Gn1v25'>
+<text>Gud skabte alle slags vilde dyr,
+al slags kvæg og alle slags krybdyr.
+Gud så, at det var godt.</text>
+<ref>1. Mosebog 1,25</ref>
+</parol>
+<parol book='45' chapter='8' verse='20' id='R8v20-21'>
+<text>Skabningen blev jo underlagt tomheden,
+ikke fordi den selv ville,
+men på grund af ham, der gjorde det,
+og med det håb,
+at også skabningen selv vil blive befriet
+fra trældommen under forgængeligheden
+og nå til den frihed,
+som Guds børn får i herligheden.</text>
+<ref>Romerne 8,20-21</ref>
+</parol>
+</theword>
+<theword date='2017-11-04'>
+<title>Ordet til Lørdag, 4. November 2017</title>
+<parol book='18' chapter='9' verse='4' id='Job9v4'>
+<text>Han er vís, og han er stærk,
+hvem kan trodse ham og slippe godt fra det?</text>
+<ref>Jobs Bog 9,4</ref>
+</parol>
+<parol book='19' chapter='147' verse='3' id='Ps147v3'>
+<text>Han læger dem, hvis hjerte er knust,
+og forbinder deres sår.</text>
+<ref>Salmernes Bog 147,3</ref>
+</parol>
+</theword>
+<theword date='2017-11-05'>
+<title>Ordet til Søndag, 5. November 2017</title>
+<parol book='2' chapter='15' verse='2' id='Ex15v2_D'>
+<text>Herren er min styrke og lovsang,
+han blev min frelse.
+Han er min Gud, ham vil jeg prise,
+min faders Gud, ham vil jeg hylde.</text>
+<ref>2. Mosebog 15,2</ref>
+</parol>
+<parol book='19' chapter='20' verse='8' id='Ps20v8'>
+<text>Andre påkalder vogne og heste,
+men vi påkalder Herren vor Guds navn.</text>
+<ref>Salmernes Bog 20,8</ref>
+</parol>
+</theword>
+<theword date='2017-11-06'>
+<title>Ordet til Mandag, 6. November 2017</title>
+<parol book='49' chapter='2' verse='6' id='E2v6'>
+<text>Han oprejste os sammen med ham
+og satte os med ham i himlen,
+i Kristus Jesus.</text>
+<ref>Efeserne 2,6</ref>
+</parol>
+<parol book='45' chapter='6' verse='4' id='R6v4'>
+<text>Vi blev altså begravet sammen med ham ved dåben til døden,
+for at også vi, sådan som Kristus blev oprejst fra de døde ved
+Faderens herlighed, skal leve et nyt liv.</text>
+<ref>Romerne 6,4</ref>
+</parol>
+</theword>
+<theword date='2017-11-07'>
+<title>Ordet til Tirsdag, 7. November 2017</title>
+<parol book='19' chapter='119' verse='77' id='Ps119v77'>
+<text>Lad din barmhjertighed nå mig,
+så jeg må leve,
+for din lov er min opmuntring.</text>
+<ref>Salmernes Bog 119,77</ref>
+</parol>
+<parol book='40' chapter='26' verse='39' id='Mt26v39'>
+<intro>Jesus bad:</intro>
+<text>Min fader, hvis det er muligt,
+så lad dette bæger gå mig forbi.
+Dog, ikke som jeg vil, men som du vil.</text>
+<ref>Mattæus 26,39</ref>
+</parol>
+</theword>
+<theword date='2017-11-08'>
+<title>Ordet til Onsdag, 8. November 2017</title>
+<parol book='19' chapter='109' verse='31' id='Ps109v31'>
+<text>Gud står på den fattiges side
+for at frelse ham fra dem,
+der vil dømme ham.</text>
+<ref>Salmernes Bog 109,31</ref>
+</parol>
+<parol book='14' chapter='19' verse='6' id='2Chr19v6'>
+<text>Konge Joshafat sagde til dommerne:
+Pas på, hvad I gør!
+For det er ikke for mennesker, I fælder dom,
+men for Herren;
+han er til stede, når I afsiger dom.</text>
+<ref>2. Krønikebog 19,6</ref>
+</parol>
+</theword>
+<theword date='2017-11-09'>
+<title>Ordet til Torsdag, 9. November 2017</title>
+<parol book='3' chapter='22' verse='32' id='Lv22v32'>
+<text>I må ikke vanhellige mit hellige navn.</text>
+<ref>3. Mosebog 22,32</ref>
+</parol>
+<parol book='40' chapter='6' verse='9' id='Mt6v9'>
+<text>Derfor skal I bede således:
+Vor Fader, du som er i himlene!
+Helliget blive dit navn.</text>
+<ref>Mattæus 6,9</ref>
+</parol>
+</theword>
+<theword date='2017-11-10'>
+<title>Ordet til Fredag, 10. November 2017</title>
+<parol book='38' chapter='12' verse='10' id='Zch12v10_A'>
+<text>Over Davids hus og Jerusalems indbyggere
+vil jeg udgyde nådens og bønnens ånd.</text>
+<ref>Zakarias' Bog 12,10</ref>
+</parol>
+<parol book='45' chapter='9' verse='4' id='R9v4-5'>
+<text>De er jo israelitter,
+de har loven og tempeltjenesten og løfterne;
+de har fædrene, og fra dem er Kristus kommet
+som menneske – han, som er over alt og alle,
+Gud, være lovet til evig tid!</text>
+<ref>Romerne 9,4-5</ref>
+</parol>
+</theword>
+<theword date='2017-11-11'>
+<title>Ordet til Lørdag, 11. November 2017</title>
+<parol book='42' chapter='1' verse='13' id='L1v13'>
+<text>Englen sagde til ham:
+Frygt ikke, Zakarias! For din bøn er hørt.
+Din hustru Elisabeth skal føde dig en søn,
+og du skal give ham navnet Johannes.</text>
+<ref>Lukas 1,13</ref>
+</parol>
+<parol book='9' chapter='1' verse='27' id='1Sm1v27'>
+<intro>Hanna sagde til Eli:</intro>
+<text>Jeg bad om denne dreng,
+og Herren gav mig,
+hvad jeg bad ham om.</text>
+<ref>1. Samuelsbog 1,27</ref>
+</parol>
+</theword>
+<theword date='2017-11-12'>
+<title>Ordet til Søndag, 12. November 2017</title>
+<parol book='46' chapter='6' verse='12' id='1K6v12'>
+<intro>Paulus skriver:</intro>
+<text>Alt er tilladt mig, men ikke alt gavner.
+Alt er tilladt mig, men jeg skal ikke
+lade noget få magt over mig.</text>
+<ref>1. Korinterne 6,12</ref>
+</parol>
+<parol book='49' chapter='5' verse='10' id='E5v10-11'>
+<text>Lad kun det gælde, som behager Herren,
+og tag ikke del i mørkets frugtesløse gerninger,
+men afslør dem.</text>
+<ref>Efeserne 5,10-11</ref>
+</parol>
+</theword>
+<theword date='2017-11-13'>
+<title>Ordet til Mandag, 13. November 2017</title>
+<parol book='19' chapter='78' verse='3' id='Ps78v3-4'>
+<text>Det, vi har hørt og erfaret,
+det, vore fædre har fortalt os,
+skjuler vi ikke for deres børn.</text>
+<ref>Salmernes Bog 78,3-4</ref>
+</parol>
+<parol book='44' chapter='14' verse='27' id='Act14v27'>
+<text>Da de var ankommet, samlede de menigheden og fortalte om alt,
+hvad Gud havde gjort mod dem, og at Gud havde åbnet en dør til
+tro for hedningerne.</text>
+<ref>Ap. Gerninger 14,27</ref>
+</parol>
+</theword>
+<theword date='2017-11-14'>
+<title>Ordet til Tirsdag, 14. November 2017</title>
+<parol book='23' chapter='55' verse='6' id='Is55v6'>
+<text>Søg Herren, når han er at finde,
+kald på ham, når han er nær.</text>
+<ref>Esajas' Bog 55,6</ref>
+</parol>
+<parol book='42' chapter='11' verse='9' id='L11v9'>
+<text>Bed, så skal der gives jer;
+søg, så skal I finde;
+bank på, så skal der lukkes op for jer.</text>
+<ref>Lukas 11,9</ref>
+</parol>
+</theword>
+<theword date='2017-11-15'>
+<title>Ordet til Onsdag, 15. November 2017</title>
+<parol book='43' chapter='9' verse='2' id='J9v2-3'>
+<text>Hans disciple spurgte ham:
+Rabbi, hvem har syndet,
+han selv eller hans forældre, siden han er født blind?
+Jesus svarede: Hverken han selv eller hans forældre
+har syndet, men det er,
+for at Guds gerninger skal åbenbares på ham.</text>
+<ref>Johannes 9,2-3</ref>
+</parol>
+<parol book='40' chapter='9' verse='2' id='Mt9v2'>
+<text>Der kom nogle til ham med en lam,
+der lå på en seng.
+Da Jesus så deres tro, sagde han til den lamme:
+Vær frimodig, søn, dine synder tilgives dig.</text>
+<ref>Mattæus 9,2</ref>
+</parol>
+</theword>
+<theword date='2017-11-16'>
+<title>Ordet til Torsdag, 16. November 2017</title>
+<parol book='19' chapter='146' verse='8' id='Ps146v8'>
+<text>Herren åbner de blindes øjne,
+Herren rejser de nedbøjede,
+Herren elsker de retfærdige.</text>
+<ref>Salmernes Bog 146,8</ref>
+</parol>
+<parol book='44' chapter='3' verse='6' id='Act3v6'>
+<text>Peter sagde: Sølv eller guld har jeg ikke,
+men jeg giver dig, hvad jeg har:
+I Jesu Kristi, nazaræerens, navn,
+stå op og gå!</text>
+<ref>Ap. Gerninger 3,6</ref>
+</parol>
+</theword>
+<theword date='2017-11-17'>
+<title>Ordet til Fredag, 17. November 2017</title>
+<parol book='41' chapter='14' verse='38' id='Mc14v38'>
+<text>Våg, og bed om ikke at falde i fristelse.
+Ånden er rede, men kødet er skrøbeligt.</text>
+<ref>Markus 14,38</ref>
+</parol>
+<parol book='49' chapter='6' verse='18' id='E6v18'>
+<text>Under stadig bøn og anråbelse
+skal I altid bede i Ånden
+og holde jer vågne til det
+og altid være udholdende i forbøn
+for alle de hellige.</text>
+<ref>Efeserne 6,18</ref>
+</parol>
+</theword>
+<theword date='2017-11-18'>
+<title>Ordet til Lørdag, 18. November 2017</title>
+<parol book='2' chapter='1' verse='7' id='Ex1v7'>
+<text>Israelitterne var frugtbare;
+det vrimlede med dem,
+og de blev mange; de blev uhyre talrige,
+så landet blev fuldt af dem.</text>
+<ref>2. Mosebog 1,7</ref>
+</parol>
+<parol book='3' chapter='26' verse='9' id='Lv26v9'>
+<text>Jeg vender mig til jer og gør jer frugtbare
+og talrige,
+og jeg opretter min pagt med jer.</text>
+<ref>3. Mosebog 26,9</ref>
+</parol>
+</theword>
+<theword date='2017-11-19'>
+<title>Ordet til Søndag, 19. November 2017</title>
+<parol book='23' chapter='40' verse='26' id='Is40v26'>
+<text>Løft jeres øjne mod himlen, og se!
+Hvem skabte den?
+Han, som fører dens hær talstærkt ud
+og kalder dem alle sammen ved navn.</text>
+<ref>Esajas' Bog 40,26</ref>
+</parol>
+<parol book='45' chapter='1' verse='20' id='R1v20'>
+<text>Guds usynlige væsen, både hans
+evige kraft og hans guddommelighed,
+har kunnet ses siden verdens skabelse
+og kendes på hans gerninger.
+De har altså ingen undskyldning.</text>
+<ref>Romerne 1,20</ref>
+</parol>
+</theword>
+<theword date='2017-11-20'>
+<title>Ordet til Mandag, 20. November 2017</title>
+<parol book='37' chapter='2' verse='8' id='Hgg2v8'>
+<text>Mit er sølvet, og mit er guldet,
+siger Hærskarers Herre.</text>
+<ref>Haggajs Bog 2,8</ref>
+</parol>
+<parol book='40' chapter='6' verse='20' id='Mt6v20'>
+<text>Men saml jer skatte i himlen,
+hvor hverken møl eller rust fortærer,
+og hvor tyve ikke bryder ind og stjæler.</text>
+<ref>Mattæus 6,20</ref>
+</parol>
+</theword>
+<theword date='2017-11-21'>
+<title>Ordet til Tirsdag, 21. November 2017</title>
+<parol book='24' chapter='2' verse='35' id='Jr2v35'>
+<text>Siger du: »Jeg er uden skyld,
+hans vrede har vendt sig fra mig.«
+Men jeg bringer dig for retten,
+selv om du siger: »Jeg har ikke syndet.«</text>
+<ref>Jeremias' Bog 2,35</ref>
+</parol>
+<parol book='45' chapter='5' verse='9' id='R5v9'>
+<text>Så meget mere skal vi,
+der nu er blevet gjort retfærdige i kraft
+af hans blod, ved ham frelses fra vreden.</text>
+<ref>Romerne 5,9</ref>
+</parol>
+</theword>
+<theword date='2017-11-22'>
+<title>Ordet til Onsdag, 22. November 2017</title>
+<parol book='19' chapter='77' verse='3' id='Ps77v3'>
+<text>På nødens dag søger jeg Herren,
+utrætteligt rækker jeg min hånd frem
+om natten,
+min sjæl lader sig ikke trøste.</text>
+<ref>Salmernes Bog 77,3</ref>
+</parol>
+<parol book='58' chapter='5' verse='7' id='H5v7'>
+<text>Mens han levede på jorden, opsendte han,
+under høje råb og tårer, bønner og anråbelser til ham,
+som kunne frelse ham fra døden,
+og han blev bønhørt for sin gudsfrygt.</text>
+<ref>Hebræerne 5,7</ref>
+</parol>
+</theword>
+<theword date='2017-11-23'>
+<title>Ordet til Torsdag, 23. November 2017</title>
+<parol book='2' chapter='15' verse='26' id='Ex15v26'>
+<text>Jeg er Herren, der læger dig.</text>
+<ref>2. Mosebog 15,26</ref>
+</parol>
+<parol book='41' chapter='2' verse='17' id='Mc2v17'>
+<text>De raske har ikke brug for læge,
+det har de syge.
+Jeg er ikke kommet for at kalde retfærdige,
+men syndere.</text>
+<ref>Markus 2,17</ref>
+</parol>
+</theword>
+<theword date='2017-11-24'>
+<title>Ordet til Fredag, 24. November 2017</title>
+<parol book='42' chapter='23' verse='45' id='L23v45'>
+<intro>Før Jesus døde:</intro>
+<text>Solen formørkedes; og forhænget i templet
+flængedes midt igennem.</text>
+<ref>Lukas 23,45</ref>
+</parol>
+<parol book='58' chapter='9' verse='12' id='H9v12'>
+<text>Ikke med blod af bukke og kalve,
+men med sit eget blod,
+gik han én gang for alle ind i det Allerhelligste
+og vandt evig forløsning.</text>
+<ref>Hebræerne 9,12</ref>
+</parol>
+</theword>
+<theword date='2017-11-25'>
+<title>Ordet til Lørdag, 25. November 2017</title>
+<parol book='1' chapter='31' verse='3' id='Gn31v3'>
+<text>Herren sagde til Jakob:
+Vend tilbage til dine fædres land
+og til din slægt;
+jeg vil være med dig.</text>
+<ref>1. Mosebog 31,3</ref>
+</parol>
+<parol book='1' chapter='50' verse='24' id='Gn50v24'>
+<text>Josef sagde til sine brødre:
+Jeg skal snart dø.
+Men Gud vil tage sig af jer
+og føre jer op fra dette land til det land,
+han lovede Abraham, Isak og Jakob.</text>
+<ref>1. Mosebog 50,24</ref>
+</parol>
+</theword>
+<theword date='2017-11-26'>
+<title>Ordet til Søndag, 26. November 2017</title>
+<parol book='47' chapter='11' verse='30' id='2K11v30'>
+<text>Hvis jeg skal være stolt,
+vil jeg være stolt af min magtesløshed.</text>
+<ref>2. Korinterne 11,30</ref>
+</parol>
+<parol book='46' chapter='1' verse='31' id='1K1v31'>
+<text>Den, der er stolt,
+skal være stolt af Herren.</text>
+<ref>1. Korinterne 1,31</ref>
+</parol>
+</theword>
+<theword date='2017-11-27'>
+<title>Ordet til Mandag, 27. November 2017</title>
+<parol book='45' chapter='6' verse='22' id='R6v22'>
+<text>Nu, da I er blevet befriet fra synden og er blevet trælle for
+Gud, får I den frugt, at I helliges, og til sidst evigt liv.</text>
+<ref>Romerne 6,22</ref>
+</parol>
+<parol book='66' chapter='2' verse='7' id='Ap2v7'>
+<text>Den, der har øre, skal høre,
+hvad Ånden siger til menighederne.
+Den, der sejrer,
+vil jeg give at spise af livets træ,
+som står i Guds paradis.</text>
+<ref>Åbenbarelse 2,7</ref>
+</parol>
+</theword>
+<theword date='2017-11-28'>
+<title>Ordet til Tirsdag, 28. November 2017</title>
+<parol book='42' chapter='16' verse='16' id='L16v16'>
+<intro>Jesus sagde:</intro>
+<text>Loven og profeterne havde deres tid indtil Johannes.
+Siden da forkyndes Guds rige,
+og alle og enhver trænger ind i det.</text>
+<ref>Lukas 16,16</ref>
+</parol>
+<parol book='40' chapter='18' verse='2' id='Mt18v2-3'>
+<text>Han kaldte et lille barn hen til sig,
+stillede det midt iblandt dem og sagde:
+Sandelig siger jeg jer:
+Hvis I ikke vender om og bliver som
+børn, kommer I slet ikke ind i Himmeriget.</text>
+<ref>Mattæus 18,2-3</ref>
+</parol>
+</theword>
+<theword date='2017-11-29'>
+<title>Ordet til Onsdag, 29. November 2017</title>
+<parol book='23' chapter='43' verse='18' id='Is43v18-19'>
+<text>Husk ikke på det, der skete tidligere,
+giv ikke agt på fortiden;
+nu skaber jeg nyt,
+nu spirer det frem,
+ved I det ikke?</text>
+<ref>Esajas' Bog 43,18-19</ref>
+</parol>
+<parol book='42' chapter='2' verse='18' id='L2v18-19'>
+<text>Alle, der hørte det, undrede sig over,
+hvad hyrderne fortalte dem;
+men Maria gemte alle disse ord i
+sit hjerte og grundede over dem.</text>
+<ref>Lukas 2,18-19</ref>
+</parol>
+</theword>
+<theword date='2017-11-30'>
+<title>Ordet til Torsdag, 30. November 2017</title>
+<parol book='19' chapter='33' verse='5' id='Ps33v5'>
+<text>Han elsker ret og retfærdighed,
+Herrens godhed fylder jorden.</text>
+<ref>Salmernes Bog 33,5</ref>
+</parol>
+<parol book='45' chapter='2' verse='4' id='R2v4'>
+<text>Ringeagter du hans rigdom på godhed o
+g overbærenhed og langmodighed og ved ikke,
+at Guds godhed vil føre dig til omvendelse?</text>
+<ref>Romerne 2,4</ref>
+</parol>
+</theword>
+<theword date='2017-12-01'>
+<title>Ordet til Fredag, 1. December 2017</title>
+<parol book='40' chapter='13' verse='37' id='Mt13v37'>
+<text>Jesus svarede sine disciplene:
+Den, der sår den gode sæd,
+er Menneskesønnen.</text>
+<ref>Mattæus 13,37</ref>
+</parol>
+<parol book='41' chapter='4' verse='31' id='Mc4v31-32'>
+<text>Himmeriget er ligesom et sennepsfrø:
+Når det kommer i jorden,
+er det mindre end alle andre frø på jorden,
+men når det er sået,
+vokser det op og bliver større end alle
+andre planter og får store grene,
+så himlens fugle kan bygge rede i dets skygge.</text>
+<ref>Markus 4,31-32</ref>
+</parol>
+</theword>
+<theword date='2017-12-02'>
+<title>Ordet til Lørdag, 2. December 2017</title>
+<parol book='23' chapter='12' verse='1' id='Is12v1'>
+<text>Jeg takker dig, Herre;
+du var vred på mig,
+men din vrede lagde sig,
+og du trøstede mig.</text>
+<ref>Esajas' Bog 12,1</ref>
+</parol>
+<parol book='40' chapter='15' verse='26' id='Mt15v26-27'>
+<text>Jesus sagde til kvinden fra Samaria:
+Det er ikke rigtigt at tage børnenes brød
+og give det til de små hunde.
+Men hun svarede: Jo, Herre,
+for de små hunde æder da af de smuler,
+som falder fra deres herres bord.</text>
+<ref>Mattæus 15,26-27</ref>
+</parol>
+</theword>
+<theword date='2017-12-03'>
+<title>Ordet til Søndag, 3. December 2017</title>
+<parol book='45' chapter='1' verse='7' id='R1v7'>
+<text>Nåde være med jer og fred fra Gud,
+vor Fader, og Herren Jesus Kristus!</text>
+<ref>Romerne 1,7</ref>
+</parol>
+<parol book='50' chapter='4' verse='7' id='Ph4v7'>
+<text>Guds fred, som overgår al forstand,
+vil bevare jeres hjerter og tanker
+i Kristus Jesus.</text>
+<ref>Filipperne 4,7</ref>
+</parol>
+</theword>
+<theword date='2017-12-04'>
+<title>Ordet til Mandag, 4. December 2017</title>
+<parol book='52' chapter='5' verse='12' id='1Th5v12-13'>
+<text>Brødre, vi beder jer om at skønne på dem,
+der slider iblandt jer og står i spidsen for jer
+i Herren og vejleder jer.
+Dem skal I omfatte med særlig kærlighed
+på grund af deres arbejde.</text>
+<ref>1. Tessalonikerne 5,12-13</ref>
+</parol>
+<parol book='5' chapter='32' verse='7' id='Dt32v7'>
+<text>Tænk på fortids dage,
+giv agt på slægternes år;
+spørg din far, lad ham fortælle,
+lad de gamle berette for dig.</text>
+<ref>5. Mosebog 32,7</ref>
+</parol>
+</theword>
+<theword date='2017-12-05'>
+<title>Ordet til Tirsdag, 5. December 2017</title>
+<parol book='42' chapter='24' verse='26' id='L24v26'>
+<text>Skulle Kristus ikke lide dette
+og gå ind til sin herlighed?</text>
+<ref>Lukas 24,26</ref>
+</parol>
+<parol book='60' chapter='3' verse='18' id='1P3v18'>
+<text>Også Kristus led én gang for menneskers synder,
+som retfærdig led han for uretfærdiges skyld
+for at føre jer til Gud.</text>
+<ref>1. Peterbrev 3,18</ref>
+</parol>
+</theword>
+<theword date='2017-12-06'>
+<title>Ordet til Onsdag, 6. December 2017</title>
+<parol book='19' chapter='119' verse='82' id='Ps119v82'>
+<text>Mine øjne stirrer sig trætte efter dit ord,
+hvornår vil du dog trøste mig?</text>
+<ref>Salmernes Bog 119,82</ref>
+</parol>
+<parol book='42' chapter='11' verse='28' id='L11v28'>
+<text>Jesus svarede: Javist! Salige er de,
+som hører Guds ord og bevarer det!</text>
+<ref>Lukas 11,28</ref>
+</parol>
+</theword>
+<theword date='2017-12-07'>
+<title>Ordet til Torsdag, 7. December 2017</title>
+<parol book='16' chapter='8' verse='8' id='Neh8v8'>
+<text>De læste tydeligt op af bogen med Guds lov
+og forklarede meningen,
+så man kunne forstå det, der blev læst.</text>
+<ref>Nehemias' Bog 8,8</ref>
+</parol>
+<parol book='55' chapter='3' verse='16' id='2T3v16-17'>
+<text>Ethvert skrift er indblæst af Gud
+og nyttigt til undervisning, til bevis,
+til vejledning og til opdragelse i retfærdighed,
+så at det menneske, som hører Gud til,
+kan blive fuldvoksent,
+udrustet til al god gerning.</text>
+<ref>2. Timoteus 3,16-17</ref>
+</parol>
+</theword>
+<theword date='2017-12-08'>
+<title>Ordet til Fredag, 8. December 2017</title>
+<parol book='19' chapter='9' verse='10' id='Ps9v10'>
+<text>Herren bliver en borg for undertrykte,
+en borg i trange tider.</text>
+<ref>Salmernes Bog 9,10</ref>
+</parol>
+<parol book='58' chapter='6' verse='18' id='H6v18'>
+<text>Dermed skulle vi i disse to urokkelige kendsgerninger,
+som udelukker, at Gud lyver, have en sikker trøst,
+vi som har taget vor tilflugt til at gribe det håb,
+som ligger foran os.</text>
+<ref>Hebræerne 6,18</ref>
+</parol>
+</theword>
+<theword date='2017-12-09'>
+<title>Ordet til Lørdag, 9. December 2017</title>
+<parol book='46' chapter='4' verse='5' id='1K4v5'>
+<text>Fæld derfor ikke dom før tiden, før Herren kommer!
+Han skal bringe for lyset, hvad der er skjult i mørket,
+og åbenbare, hvad hjerterne vil.
+Og da skal enhver få sin ros fra Gud.</text>
+<ref>1. Korinterne 4,5</ref>
+</parol>
+<parol book='43' chapter='3' verse='20' id='J3v20-21'>
+<text>Enhver, som øver ondt,
+hader lyset og kommer ikke til lyset,
+for at hans gerninger ikke skal afsløres.
+Men den, der gør sandheden, kommer til lyset,
+for at det skal blive åbenbart,
+at hans gerninger er gjort i Gud.</text>
+<ref>Johannes 3,20-21</ref>
+</parol>
+</theword>
+<theword date='2017-12-10'>
+<title>Ordet til Søndag, 10. December 2017</title>
+<parol book='2' chapter='12' verse='31' id='Ex12v31'>
+<text>Da tilkaldte Farao Moses og Aron
+om natten og sagde:
+Skynd jer bort fra mit folk,
+både I og israelitterne,
+og gå ud og dyrk Herren,
+sådan som I har krævet.</text>
+<ref>2. Mosebog 12,31</ref>
+</parol>
+<parol book='44' chapter='13' verse='17' id='Act13v17'>
+<text>Dette folks Gud, Israels Gud, har udvalgt vore fædre.
+Han gjorde folket stort under opholdet i det fremmede,
+i Egypten, og førte dem ud derfra med løftet arm.</text>
+<ref>Ap. Gerninger 13,17</ref>
+</parol>
+</theword>
+<theword date='2017-12-11'>
+<title>Ordet til Mandag, 11. December 2017</title>
+<parol book='64' chapter='1' verse='13' id='3J1v13-14'>
+<text>Meget havde jeg at skrive til dig,
+men jeg vil ikke skrive til dig med pen og blæk;
+jeg håber snart at se dig,
+så kan vi tales ved ansigt til ansigt.</text>
+<ref>3. Johannes 13-14</ref>
+</parol>
+<parol book='43' chapter='21' verse='25' id='J21v25'>
+<text>Der er også mange andre ting,
+Jesus har gjort;
+hvis der skulle skrives om dem én for én,
+tror jeg ikke, at hele verden kunne rumme
+de bøger, som så måtte skrives.</text>
+<ref>Johannes 21,25</ref>
+</parol>
+</theword>
+<theword date='2017-12-12'>
+<title>Ordet til Tirsdag, 12. December 2017</title>
+<parol book='22' chapter='3' verse='1' id='Ct3v1'>
+<text>På mit leje om natten søgte jeg ham,
+som jeg elsker så højt;
+jeg søgte ham, men fandt ham ikke.</text>
+<ref>Højsangen 3,1</ref>
+</parol>
+<parol book='66' chapter='3' verse='20' id='Ap3v20'>
+<text>Se, jeg står ved døren og banker på;
+hører nogen mig og åbner døren,
+vil jeg gå ind til ham og holde måltid med ham
+og han med mig.</text>
+<ref>Åbenbarelse 3,20</ref>
+</parol>
+</theword>
+<theword date='2017-12-13'>
+<title>Ordet til Onsdag, 13. December 2017</title>
+<parol book='1' chapter='1' verse='27' id='Gn1v27-28'>
+<text>Gud skabte mennesket i sit billede;
+som mand og kvinde skabte han dem.
+Og Gud velsignede dem og sagde til dem:
+Bliv frugtbare og talrige,
+opfyld jorden, og underlæg jer den.</text>
+<ref>1. Mosebog 1,27-28</ref>
+</parol>
+<parol book='40' chapter='7' verse='19' id='Mt7v19'>
+<text>Ethvert træ, som ikke bærer god frugt,
+hugges om og kastes i ilden.</text>
+<ref>Mattæus 7,19</ref>
+</parol>
+</theword>
+<theword date='2017-12-14'>
+<title>Ordet til Torsdag, 14. December 2017</title>
+<parol book='23' chapter='42' verse='1' id='Is42v1'>
+<text>Se min tjener, ham støtter jeg,
+min udvalgte,
+i ham har jeg fundet velbehag.
+Jeg lader min ånd komme over ham,
+og han skal bringe ret til folkene.</text>
+<ref>Esajas' Bog 42,1</ref>
+</parol>
+<parol book='50' chapter='2' verse='7' id='Ph2v7'>
+<text>Kristus tog en tjeners skikkelse på
+og blev mennesker lig
+og var trådt frem som et menneske.</text>
+<ref>Filipperne 2,7</ref>
+</parol>
+</theword>
+<theword date='2017-12-15'>
+<title>Ordet til Fredag, 15. December 2017</title>
+<parol book='42' chapter='22' verse='42' id='L22v42'>
+<text>Fader, hvis du vil, så tag dette bæger fra mig.
+Dog, ske ikke min vilje, men din.</text>
+<ref>Lukas 22,42</ref>
+</parol>
+<parol book='58' chapter='5' verse='8' id='H5v8'>
+<text>Skønt han var søn, måtte han lære lydighed
+af det, han led.</text>
+<ref>Hebræerne 5,8</ref>
+</parol>
+</theword>
+<theword date='2017-12-16'>
+<title>Ordet til Lørdag, 16. December 2017</title>
+<parol book='23' chapter='44' verse='8' id='Is44v8'>
+<text>Vær ikke forfærdede og rædselsslagne!
+Har jeg ikke fortalt og forkyndt dig det
+for længst?
+I er mine vidner.</text>
+<ref>Esajas' Bog 44,8</ref>
+</parol>
+<parol book='44' chapter='1' verse='8' id='Act1v8'>
+<intro>Jesus sagde til apostlene:</intro>
+<text>I skal få kraft,
+når Helligånden kommer over jer,
+og I skal være mine vidner både i Jerusalem
+og i hele Judæa og Samaria
+og lige til jordens ende.</text>
+<ref>Ap. Gerninger 1,8</ref>
+</parol>
+</theword>
+<theword date='2017-12-17'>
+<title>Ordet til Søndag, 17. December 2017</title>
+<parol book='23' chapter='26' verse='16' id='Is26v16'>
+<text>Herre, i nøden søgte de dig;
+da du tugtede dem,
+trængte de ind på dig med bønner.</text>
+<ref>Esajas' Bog 26,16</ref>
+</parol>
+<parol book='52' chapter='2' verse='2' id='1Th2v2'>
+<intro>Paulus skriver:</intro>
+<text>Skønt vi, som I ved, lige var blevet plaget
+og mishandlet i Filippi, fandt vi frimodighed i vor Gud
+til at forkynde hans evangelium for jer
+under megen kamp.</text>
+<ref>1. Tessalonikerne 2,2</ref>
+</parol>
+</theword>
+<theword date='2017-12-18'>
+<title>Ordet til Mandag, 18. December 2017</title>
+<parol book='27' chapter='3' verse='17' id='Dn3v17'>
+<intro>Sadrach, Mesach og Abednego sagde til kongen Nebukadnezar:</intro>
+<text>Vores Gud, som vi dyrker, kan redde os.
+Han kan redde os ud af ovnen med flammende ild
+og ud af din magt, konge.</text>
+<ref>Daniels Bog 3,17</ref>
+</parol>
+<parol book='58' chapter='13' verse='6' id='H13v6'>
+<text>Derfor kan vi frimodigt sige:
+Herren er min hjælper,
+jeg skal ikke frygte,
+hvad kan et menneske gøre mig?</text>
+<ref>Hebræerne 13,6</ref>
+</parol>
+</theword>
+<theword date='2017-12-19'>
+<title>Ordet til Tirsdag, 19. December 2017</title>
+<parol book='19' chapter='48' verse='15' id='Ps48v15'>
+<text>At sådan er Gud,
+vor Gud i al evighed,
+han skal lede os!</text>
+<ref>Salmernes Bog 48,15</ref>
+</parol>
+<parol book='19' chapter='100' verse='5' id='Ps100v5'>
+<text>Herren er god,
+hans trofasthed varer til evig tid,
+hans troskab i slægt efter slægt.</text>
+<ref>Salmernes Bog 100,5</ref>
+</parol>
+</theword>
+<theword date='2017-12-20'>
+<title>Ordet til Onsdag, 20. December 2017</title>
+<parol book='24' chapter='21' verse='14' id='Jr21v14'>
+<text>Jeg vil straffe jer
+efter jeres gerninger, siger Herren.</text>
+<ref>Jeremias' Bog 21,14</ref>
+</parol>
+<parol book='63' chapter='1' verse='9' id='2J1v9'>
+<text>Enhver, som går ud over Kristi lære
+og ikke bliver i den, har ikke Gud;
+men den, der bliver i hans lære,
+har både Faderen og Sønnen.</text>
+<ref>2. Johannes 9</ref>
+</parol>
+</theword>
+<theword date='2017-12-21'>
+<title>Ordet til Torsdag, 21. December 2017</title>
+<parol book='5' chapter='7' verse='6' id='Dt7v6'>
+<text>Du er et helligt folk for Herren din Gud;
+dig har Herren din Gud udvalgt
+af alle folk på jorden som sit ejendomsfolk.</text>
+<ref>5. Mosebog 7,6</ref>
+</parol>
+<parol book='59' chapter='2' verse='5' id='Jc2v5'>
+<text>Hør, mine kære brødre, har Gud da ikke udvalgt dem,
+som er fattige i denne verden,
+til at være rige i troen og arvinger til det rige,
+som han har lovet dem, der elsker ham?</text>
+<ref>Jakobs Brev 2,5</ref>
+</parol>
+</theword>
+<theword date='2017-12-22'>
+<title>Ordet til Fredag, 22. December 2017</title>
+<parol book='2' chapter='23' verse='1' id='Ex23v1'>
+<text>Du må ikke sprede løgnagtige rygter.</text>
+<ref>2. Mosebog 23,1</ref>
+</parol>
+<parol book='40' chapter='28' verse='15' id='Mt28v15'>
+<text>I skal sige: "Hans disciple kom om natten
+og stjal ham, mens vi sov."
+Soldaterne tog imod pengene og gjorde,
+som de havde fået besked på.
+Og dette rygte er i omløb blandt jøderne
+den dag i dag.</text>
+<ref>Mattæus 28,15</ref>
+</parol>
+</theword>
+<theword date='2017-12-23'>
+<title>Ordet til Lørdag, 23. December 2017</title>
+<parol book='11' chapter='18' verse='21' id='1Rg18v21'>
+<text>Elias trådte frem for hele folket og sagde:
+Hvor længe vil I halte til begge sider?
+Hvis det er Herren, der er Gud,
+så følg ham;
+hvis det er Ba'al, så følg ham!</text>
+<ref>1. Kongebog 18,21</ref>
+</parol>
+<parol book='64' chapter='1' verse='11' id='3J1v11'>
+<text>Min kære, du skal ikke efterligne det onde,
+men det gode.
+Den, der gør det gode, er af Gud;
+den, der gør det onde,
+har ikke set Gud.</text>
+<ref>3. Johannes 11</ref>
+</parol>
+</theword>
+<theword date='2017-12-24'>
+<title>Ordet til Søndag, 24. December 2017</title>
+<parol book='54' chapter='6' verse='17' id='1T6v17'>
+<text>Dem, der er rige i den nuværende verden,
+skal du byde, at de ikke må være overmodige
+og ikke skal sætte deres håb til usikker rigdom,
+men til Gud, som rigeligt skænker os alt,
+hvad vi behøver.</text>
+<ref>1. Timoteus 6,17</ref>
+</parol>
+<parol book='25' chapter='3' verse='24' id='Thr3v24'>
+<text>Jeg siger: Herren er min lod,
+derfor venter jeg på ham.</text>
+<ref>Klagesangene 3,24</ref>
+</parol>
+</theword>
+<theword date='2017-12-25'>
+<title>Ordet til Mandag, 25. December 2017</title>
+<parol book='19' chapter='115' verse='13' id='Ps115v13'>
+<text>Han velsigner dem,
+der frygter Herren,
+både små og store.</text>
+<ref>Salmernes Bog 115,13</ref>
+</parol>
+<parol book='44' chapter='10' verse='34' id='Act10v34-35'>
+<text>Så tog Peter ordet og sagde:
+Nu forstår jeg,
+at Gud ikke gør forskel på nogen,
+men at han i et hvilket som helst folk
+tager imod den, der frygter ham
+og øver retfærdighed.</text>
+<ref>Ap. Gerninger 10,34-35</ref>
+</parol>
+</theword>
+<theword date='2017-12-26'>
+<title>Ordet til Tirsdag, 26. December 2017</title>
+<parol book='12' chapter='19' verse='15' id='2Rg19v15'>
+<text>Herre, Israels Gud,
+du som troner på keruberne!
+Du alene er Gud over alle jordens kongeriger.
+Du har skabt himlen og jorden.</text>
+<ref>2. Kongebog 19,15</ref>
+</parol>
+<parol book='19' chapter='72' verse='11' id='Ps72v11'>
+<text>Alle konger skal kaste sig ned for ham,
+alle folkeslag skal tjene ham.</text>
+<ref>Salmernes Bog 72,11</ref>
+</parol>
+</theword>
+<theword date='2017-12-27'>
+<title>Ordet til Onsdag, 27. December 2017</title>
+<parol book='43' chapter='5' verse='30' id='J5v30'>
+<intro>Jesus sagde:</intro>
+<text>Jeg kan intet gøre af mig selv;
+som jeg hører, dømmer jeg,
+og min dom er retfærdig,
+for jeg søger ikke at gøre min egen vilje,
+men hans vilje, som har sendt mig.</text>
+<ref>Johannes 5,30</ref>
+</parol>
+<parol book='62' chapter='2' verse='17' id='1J2v17'>
+<text>Verden og dens begær går til grunde,
+men den, der gør Guds vilje,
+bliver til evig tid.</text>
+<ref>1. Johannes 2,17</ref>
+</parol>
+</theword>
+<theword date='2017-12-28'>
+<title>Ordet til Torsdag, 28. December 2017</title>
+<parol book='43' chapter='11' verse='26' id='J11v26'>
+<intro>Kristus siger:</intro>
+<text>Enhver, som lever og tror på mig,
+skal aldrig i evighed dø.
+Tror du det?</text>
+<ref>Johannes 11,26</ref>
+</parol>
+<parol book='62' chapter='2' verse='25' id='1J2v25'>
+<text>Det er det løfte, som han har givet os:
+det evige liv.</text>
+<ref>1. Johannes 2,25</ref>
+</parol>
+</theword>
+<theword date='2017-12-29'>
+<title>Ordet til Fredag, 29. December 2017</title>
+<parol book='43' chapter='1' verse='6' id='J1v6-7'>
+<text>Der kom et menneske, udsendt af Gud,
+hans navn var Johannes.
+Han kom for at aflægge vidnesbyrd,
+han skulle vidne om lyset,
+for at alle skulle komme til tro ved ham.</text>
+<ref>Johannes 1,6-7</ref>
+</parol>
+<parol book='45' chapter='10' verse='17' id='R10v17'>
+<text>Troen kommer altså af det, der høres,
+og det, der høres,
+kommer i kraft af Kristi ord.</text>
+<ref>Romerne 10,17</ref>
+</parol>
+</theword>
+<theword date='2017-12-30'>
+<title>Ordet til Lørdag, 30. December 2017</title>
+<parol book='19' chapter='71' verse='9' id='Ps71v9'>
+<text>Kast mig ikke bort,
+når jeg bliver gammel,
+forlad mig ikke,
+når kræfterne svigter.</text>
+<ref>Salmernes Bog 71,9</ref>
+</parol>
+<parol book='43' chapter='19' verse='26' id='J19v26-27'>
+<text>Da Jesus så sin mor og ved siden af hende
+den discipel, han elskede,
+sagde han til sin mor: Kvinde, dér er din søn.
+Derpå sagde han til disciplen: Dér er din mor.
+Fra den time tog disciplen hende hjem til sig.</text>
+<ref>Johannes 19,26-27</ref>
+</parol>
+</theword>
+<theword date='2017-12-31'>
+<title>Ordet til Søndag, 31. December 2017</title>
+<parol book='26' chapter='37' verse='12' id='Ez37v12'>
+<text>Dette siger Gud Herren: Mit folk,
+jeg åbner jeres grave og fører jer op
+af dem for at bringe jer
+til Israels land.</text>
+<ref>Ezekiels Bog 37,12</ref>
+</parol>
+<parol book='49' chapter='2' verse='4' id='E2v4-5'>
+<text>I sin rige barmhjertighed og på grund af den
+store kærlighed, han elskede os med,
+gjorde Gud os, der var døde i vore overtrædelser,
+levende med Kristus.</text>
+<ref>Efeserne 2,4-5</ref>
+</parol>
+</theword>
+</thewordfile>

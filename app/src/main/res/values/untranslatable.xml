@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play_store_url" translatable="false">https://play.google.com/store/apps/details?id=de.reiss.bible2net.theword</string>
+    <string name="info_participate_url" translatable="false">https://bible2.net/page/BibleStudio</string>
+    <string name="info_copyright_url" translatable="false">https://bible2.net/page/copyright/</string>
+    <string name="developer_name" translatable="false">Joachim Reiß</string>
+    <string name="developer_mail" translatable="false">JoaReiss@gmail.com</string>
+    <string name="developer_github" translatable="false">https://github.com/JoachimR</string>
+    <string name="info_general_url" translatable="false">https://bible2.net</string>
+    <string name="source_code_url" translatable="false">https://github.com/JoachimR/Bible2net</string>
+</resources>

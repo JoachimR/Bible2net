@@ -1,0 +1,5576 @@
+<?xml version='1.0' encoding='utf-8' standalone='no' ?>
+<thewordfile dtdvers='1.1' xml:lang='zh-Hans' year='2017' bible='ChineseUnionVersionSimplified'>
+<head>
+<updated rev='$Id: $'>2016-12-14T17:34:56Z</updated>
+<biblename>Chinese Union Version (Simplified Chinese)</biblename>
+<copyright>Copyright The Word - Chinese Union Version (Simplified Chinese)
+
+Project "Bible 2.0" (http://bible2.net), 2015-2016.
+
+1. Related Bible References
+
+The project Bible 2.0 provides pairs of related Bible references.
+The Word associates one pair of Bible references with a certain day, respectively.
+The association of Bible references into pairs and of such pairs to days of a certain year is subject to
+
+  Licence "Creative Commons 2.0
+  http://creativecommons.org/licenses/by-nc-nd/2.0/
+  (Attribution, Noncommercial, No Derivative Works).
+
+With each publication, the following statement
+with a link to http://bible2.net must be available for the user
+(e.g. by adding a link to the copyright page):
+
+  Association of Bible references by project Bible 2.0
+
+2. Bible Texts
+
+<biblecopyright>Chinese Union Version (Simplified Chinese)</biblecopyright>
+</copyright>
+</head>
+<theword date='2017-01-01'>
+<title>每日金句 一月一日 星期日</title>
+<parol book='19' chapter='143' verse='5' id='Ps143v5'>
+<text>我 追 想 古 时 之 日 ，
+思 想 你 的 一 切 作 为 ，
+默 念 你 手 的 工 作 。</text>
+<ref>诗篇 143:5</ref>
+</parol>
+<parol book='44' chapter='4' verse='20' id='Act4v20'>
+<text>我们所看见所听见的，不能不说。</text>
+<ref>使徒行传 4:20</ref>
+</parol>
+</theword>
+<theword date='2017-01-02'>
+<title>每日金句 一月二日 星期一</title>
+<parol book='42' chapter='6' verse='41' id='L6v41'>
+<text>为 甚 麽 看 见 你 弟 兄 眼 中 有 刺 ，
+却 不 想 自 己 眼 中 有 梁 木 呢 ？</text>
+<ref>路加福音 6:41</ref>
+</parol>
+<parol book='40' chapter='6' verse='12' id='Mt6v12'>
+<text>免 我 们 的 债 ，
+如 同 我 们 免 了 人 的 债 。</text>
+<ref>马太福音 6:12</ref>
+</parol>
+</theword>
+<theword date='2017-01-03'>
+<title>每日金句 一月三日 星期二</title>
+<parol book='43' chapter='4' verse='29' id='J4v29'>
+<text>「 你 们 来 看 ！ 有 一 个 人
+将 我 素 来 所 行 的 一 切 事 都 给 我 说 出 来 了 ，
+莫 非 这 就 是 基 督 吗 ？ 」</text>
+<ref>约翰福音 4:29</ref>
+</parol>
+<parol book='45' chapter='5' verse='8' id='R5v8'>
+<text>惟有基督在我们还作罪人
+的时候为我们死，
+神的爱就在此向我们显明了。</text>
+<ref>罗马书 5:8</ref>
+</parol>
+</theword>
+<theword date='2017-01-04'>
+<title>每日金句 一月四日 星期三</title>
+<parol book='60' chapter='5' verse='5' id='1P5v5'>
+<text>你 们 年 幼 的 ， 也 要 顺 服 年 长 的 。
+就 是 你 们 众 人 ， 也 都 要 以 谦 卑 束 腰 ， 彼 此 顺 服 。
+因 为 神 阻 挡 骄 傲 的 人 ，
+赐 恩 给 谦 卑 的 人 。</text>
+<ref>彼得前书 5:5</ref>
+</parol>
+<parol book='19' chapter='119' verse='67' id='Ps119v67'>
+<text>我 未 受 苦 以 先 走 迷 了 路 ，
+现 在 却 遵 守 你 的 话 。</text>
+<ref>诗篇 119:67</ref>
+</parol>
+</theword>
+<theword date='2017-01-05'>
+<title>每日金句 一月五日 星期四</title>
+<parol book='5' chapter='10' verse='18' id='Dt10v18-19'>
+<text>他 为 孤 儿 寡 妇 伸 冤 ，
+又 怜 爱 寄 居 的 ，
+赐 给 他 衣 食 。
+所 以 你 们 要 怜 爱 寄 居 的 ，
+因 为 你 们 在 埃 及 地 也 作 过 寄 居 的 。</text>
+<ref>申命记 10:18-19</ref>
+</parol>
+<parol book='38' chapter='7' verse='10' id='Zch7v10'>
+<text>不 可 欺 压 寡 妇 、 孤 儿 、
+寄 居 的 ， 和 贫 穷 人 。
+谁 都 不 可 心 里 谋 害 弟 兄 。</text>
+<ref>撒迦利亚书 7:10</ref>
+</parol>
+</theword>
+<theword date='2017-01-06'>
+<title>每日金句 一月六日 星期五</title>
+<parol book='2' chapter='23' verse='25' id='Ex23v25'>
+<text>你 们 要 事 奉 耶 和 华 ─ 你 们 的 神 ，
+他 必 赐 福 与 你 的 粮 与 你 的 水 ，
+也 必 从 你 们 中 间 除 去 疾 病 。</text>
+<ref>出埃及记 23:25</ref>
+</parol>
+<parol book='43' chapter='12' verse='26' id='J12v26'>
+<text>若有人服事我，就当跟从我。
+我在那里，服事我的人，也要在那里。
+若有人服事我，我父必尊重他。</text>
+<ref>约翰福音 12:26</ref>
+</parol>
+</theword>
+<theword date='2017-01-07'>
+<title>每日金句 一月七日 星期六</title>
+<parol book='43' chapter='6' verse='40' id='J6v40'>
+<intro>耶 稣 说:</intro>
+<text>因 为 我 父 的 意 思
+是 叫 一 切 见 子 而 信 的 人 得 永 生 ，
+并 且 在 末 日 我 要 叫 他 复 活 。</text>
+<ref>约翰福音 6:40</ref>
+</parol>
+<parol book='43' chapter='3' verse='16' id='J3v16'>
+<text>神爱世人，甚至将他的独生子赐给他们，
+叫一切信他的，不至灭亡，反得永生。</text>
+<ref>约翰福音 3:16</ref>
+</parol>
+</theword>
+<theword date='2017-01-08'>
+<title>每日金句 一月八日 星期日</title>
+<parol book='30' chapter='9' verse='15' id='Am9v15'>
+<text>我 要 将 他 们 栽 於 本 地 ，
+他 们 不 再 从 我 所 赐 给 他 们 的 地 上 拔 出 来 。
+这 是 耶 和 华 ─ 你 的 神 说 的 。</text>
+<ref>阿摩司书 9:15</ref>
+</parol>
+<parol book='41' chapter='13' verse='28' id='Mc13v28'>
+<text>你 们 可 以 从 无 花 果 树 学 个 比 方 ：
+当 树 枝 发 嫩 长 叶 的 时 候 ，
+你 们 就 知 道 夏 天 近 了 。</text>
+<ref>马可福音 13:28</ref>
+</parol>
+</theword>
+<theword date='2017-01-09'>
+<title>每日金句 一月九日 星期一</title>
+<parol book='40' chapter='9' verse='15' id='Mt9v15'>
+<intro>耶 稣 对 约 翰 的 门 徒 说 ：</intro>
+<text>新 郎 和 陪 伴 之 人 同 在 的 时 候 ，
+陪 伴 之 人 岂 能 哀 恸 呢 ？
+但 日 子 将 到 ，新 郎 要 离 开 他 们 ，
+那 时 候 他 们 就 要 禁 食 。</text>
+<ref>马太福音 9:15</ref>
+</parol>
+<parol book='40' chapter='25' verse='1' id='Mt25v1'>
+<intro>耶 稣 说:</intro>
+<text>那 时 ， 天 国 好 比 十 个 童 女
+拿 着 灯 出 去 迎 接 新 郎 。</text>
+<ref>马太福音 25:1</ref>
+</parol>
+</theword>
+<theword date='2017-01-10'>
+<title>每日金句 一月十日 星期二</title>
+<parol book='1' chapter='11' verse='7' id='Gn11v7'>
+<intro>耶 和 华 说 关于 巴 别 的 人 民 说:</intro>
+<text>我 们 下 去 ， 在 那 里 变 乱 他 们 的 口 音 ，
+使 他 们 的 言 语 彼 此 不 通 。</text>
+<ref>创世记 11:7</ref>
+</parol>
+<parol book='44' chapter='17' verse='26' id='Act17v26'>
+<text>他 从 一 本 造 出 万 族 的 人 ，
+住 在 全 地 上 ，
+并 且 预 先 定 准 他 们 的 年 限 和 所 住 的 疆 界。</text>
+<ref>使徒行传 17:26</ref>
+</parol>
+</theword>
+<theword date='2017-01-11'>
+<title>每日金句 一月十一日 星期三</title>
+<parol book='19' chapter='35' verse='28' id='Ps35v28'>
+<text>我的舌头，
+要终日论说你的公义，
+时常赞美你。</text>
+<ref>诗篇 35:28</ref>
+</parol>
+<parol book='19' chapter='51' verse='17' id='Ps51v17'>
+<text>主 啊 ， 求 你 使 我 嘴 唇 张 开 ，
+我 的 口 便 传 扬 赞 美 你 的 话 ！</text>
+<ref>诗篇 51:15</ref>
+</parol>
+</theword>
+<theword date='2017-01-12'>
+<title>每日金句 一月十二日 星期四</title>
+<parol book='26' chapter='18' verse='4' id='Ez18v4'>
+<text>看 哪 ， 世 人 都 是 属 我 的 .</text>
+<ref>以西结书 18:4 上</ref>
+</parol>
+<parol book='43' chapter='17' verse='6' id='J17v6'>
+<intro>耶 稣 祷 告 说 :</intro>
+<text>你 从 世 上 赐 给 我 的 人 ，
+我 已 将 你 的 名 显 明 与 他 们 。
+他 们 本 是 你 的 ， 你 将 他 们 赐 给 我 ，
+他 们 也 遵 守 了 你 的 道 。</text>
+<ref>约翰福音 17:6</ref>
+</parol>
+</theword>
+<theword date='2017-01-13'>
+<title>每日金句 一月十三日 星期五</title>
+<parol book='19' chapter='27' verse='1' id='Ps27v1_D'>
+<text>耶 和 华 是 我 的 亮 光 ，是 我 的 拯 救 ，
+我 还 怕 谁 呢 ？</text>
+<ref>诗篇 27:1 上</ref>
+</parol>
+<parol book='56' chapter='2' verse='11' id='Tt2v11'>
+<text>神救众人的恩典，
+已经显明出来。</text>
+<ref>提多书 2:11</ref>
+</parol>
+</theword>
+<theword date='2017-01-14'>
+<title>每日金句 一月十四日 星期六</title>
+<parol book='1' chapter='37' verse='22' id='Gn37v22'>
+<intro>流 便 对 他 的众 弟 兄 说:</intro>
+<text>不 可 流 他 的 血!</text>
+<ref>创世记 37:22上</ref>
+</parol>
+<parol book='2' chapter='20' verse='13' id='Ex20v13'>
+<text>不 可 杀 人 。</text>
+<ref>出埃及记 20:13</ref>
+</parol>
+</theword>
+<theword date='2017-01-15'>
+<title>每日金句 一月十五日 星期日</title>
+<parol book='40' chapter='7' verse='28' id='Mt7v28-29'>
+<text>耶 稣 讲 完 了 这 些 话 ，
+众 人 都 希 奇 他 的 教 训 ； 因 为 他 教 训 他 们 ，
+正 像 有 权 柄 的 人 ， 不 像 他 们 的 文 士 。</text>
+<ref>马太福音 7:28-29</ref>
+</parol>
+<parol book='51' chapter='2' verse='3' id='Kol2v3'>
+<text>所积蓄的一切智慧知识，
+都在耶稣里面藏着。</text>
+<ref>歌罗西书 2:3</ref>
+</parol>
+</theword>
+<theword date='2017-01-16'>
+<title>每日金句 一月十六日 星期一</title>
+<parol book='24' chapter='7' verse='3' id='Jr7v3'>
+<text>你 们 改 正 行 动 作 为 ，
+我 就 使 你 们 在 这 地 方 仍 然 居 住 。</text>
+<ref>耶利米书 7:3 下</ref>
+</parol>
+<parol book='46' chapter='3' verse='16' id='1K3v16'>
+<text>岂 不 知 你 们 是 神 的 殿 ，
+神 的 灵 住 在 你 们 里 头 麽 ？</text>
+<ref>哥林多前书 3:16</ref>
+</parol>
+</theword>
+<theword date='2017-01-17'>
+<title>每日金句 一月十七日 星期二</title>
+<parol book='24' chapter='23' verse='28' id='Jr23v28'>
+<text>得 梦 的 先 知 可 以 述 说 那 梦 ；
+得 我 话 的 人 可 以 诚 实 讲 说 我 的 话 。
+糠 秕 怎 能 与 麦 子 比 较 呢 ？
+这 是 耶 和 华 说 的 。</text>
+<ref>耶利米书 23:28</ref>
+</parol>
+<parol book='40' chapter='2' verse='12' id='Mt2v12'>
+<text>博 士 因 为 在 梦 中 被 主 指 示 不 要 回 去 见 希 律 ，
+就 从 别 的 路 回 本 地 去 了 。</text>
+<ref>马太福音 2:12</ref>
+</parol>
+</theword>
+<theword date='2017-01-18'>
+<title>每日金句 一月十八日 星期三</title>
+<parol book='11' chapter='17' verse='16' id='1Rg17v16'>
+<text>坛 内 的 面 果 不 减 少 ，
+瓶 里 的 油 也 不 缺 短 ，
+正 如 耶 和 华 藉 以 利 亚 所 说 的 话 。</text>
+<ref>列王纪上 17:16</ref>
+</parol>
+<parol book='41' chapter='8' verse='18' id='Mc8v18-19'>
+<intro>耶 稣 嘱 咐 门 徒 说 :</intro>
+<text>也 不 记 得 麽 ？
+我 擘 开 那 五 个 饼 分 给 五 千 人 ，
+你 们 收 拾 的 零 碎 装 满 了 多 少 篮 子 呢 ？
+他 们 说 ： 十 二 个 。</text>
+<ref>马可福音 8:18-19下</ref>
+</parol>
+</theword>
+<theword date='2017-01-19'>
+<title>每日金句 一月十九日 星期四</title>
+<parol book='30' chapter='4' verse='11' id='Am4v11'>
+<text>使你们好像从火中抽出来的一根柴。
+你们仍不归向我。
+这是耶和华说的。</text>
+<ref>阿摩司书 4:11</ref>
+</parol>
+<parol book='44' chapter='2' verse='40' id='Act2v40'>
+<text>彼 得 还 用 许 多 话 作 见 证 ，
+劝 勉 他 们 说 ：
+你 们 当 救 自 己 脱 离 这 弯 曲 的 世 代 。</text>
+<ref>使徒行传 2:40</ref>
+</parol>
+</theword>
+<theword date='2017-01-20'>
+<title>每日金句 一月二十日 星期五</title>
+<parol book='23' chapter='35' verse='3' id='Is35v3'>
+<text>你 们 要 使 软 弱 的 手 坚 壮 ，
+无 力 的 膝 稳 固 。</text>
+<ref>以赛亚书 35:3</ref>
+</parol>
+<parol book='58' chapter='12' verse='12' id='H12v12-13'>
+<text>所以你们要把下垂的手，
+发酸的腿，梃起来。
+也要为自己的脚把道路修直了，
+使瘸子不至歪脚，反得痊愈。</text>
+<ref>希伯来书 12:12-13</ref>
+</parol>
+</theword>
+<theword date='2017-01-21'>
+<title>每日金句 一月二十一日 星期六</title>
+<parol book='1' chapter='3' verse='6' id='Gn3v6'>
+<text>於 是 女 人 见 那 棵 树 的 果 子 好 作 食 物 ，
+也 悦 人 的 眼 目 ，
+且 是 可 喜 爱 的 ， 能 使 人 有 智 慧 ，
+就 摘 下 果 子 来 吃 了 ， 又 给 他 丈 夫 ，
+他 丈 夫 也 吃 了 。</text>
+<ref>创世记 3:6</ref>
+</parol>
+<parol book='42' chapter='11' verse='34' id='L11v34'>
+<text>你眼睛就是身上的灯，你的眼睛若了亮，
+全身就光明。眼睛若昏花，全身就黑暗。</text>
+<ref>路加福音 11:34</ref>
+</parol>
+</theword>
+<theword date='2017-01-22'>
+<title>每日金句 一月二十二日 星期日</title>
+<parol book='42' chapter='14' verse='12' id='L14v12'>
+<text>耶 稣 又 对 请 他 的 人 说 ：
+你 摆 设 午 饭 或 晚 饭 ，
+不 要 请 你 的 朋 友 、 弟 兄 、 亲 属 ，
+和 富 足 的 邻 舍 ，
+恐 怕 他 们 也 请 你 ， 你 就 得 了 报 答 。</text>
+<ref>路加福音 14:12</ref>
+</parol>
+<parol book='20' chapter='19' verse='17' id='Prv19v17'>
+<text>怜 悯 贫 穷 的 ， 就 是 借 给 耶 和 华 ；
+他 的 善 行 ， 耶 和 华 必 偿 还 。</text>
+<ref>箴言 19:17</ref>
+</parol>
+</theword>
+<theword date='2017-01-23'>
+<title>每日金句 一月二十三日 星期一</title>
+<parol book='45' chapter='3' verse='30' id='R3v30'>
+<text>神 既 是 一 位 ，他 就 要 因 信 称 那 受 割 礼 的 为 义 ，
+也 要 因 信 称 那 未 受 割 礼 的 为 义 。</text>
+<ref>罗马书 3:30</ref>
+</parol>
+<parol book='43' chapter='11' verse='51' id='J11v51-52'>
+<text>该 亚 法 预 言 耶 稣 将 要 替 这 一 国 死 ；
+也 不 但 替 这 一 国 死 ，
+并 要 将 神 四 散 的 子 民 都 聚 集 归 一 。</text>
+<ref>约翰福音 11:51-52 下</ref>
+</parol>
+</theword>
+<theword date='2017-01-24'>
+<title>每日金句 一月二十四日 星期二</title>
+<parol book='19' chapter='39' verse='8' id='Ps39v8'>
+<text>主 啊 ， 如 今 我 等 甚 麽 呢 ？
+我 的 指 望 在 乎 你 ！</text>
+<ref>诗篇 39:7</ref>
+</parol>
+<parol book='45' chapter='5' verse='5' id='R5v5'>
+<text>盼望不至于羞耻，
+因为所赐给我们的圣灵
+将神的爱浇灌在我们心里。</text>
+<ref>罗马书 5:5</ref>
+</parol>
+</theword>
+<theword date='2017-01-25'>
+<title>每日金句 一月二十五日 星期三</title>
+<parol book='19' chapter='72' verse='10' id='Ps72v10'>
+<text>他 施 和 海 岛 的 王 要 进 贡 ；
+示 巴 和 西 巴 的 王 要 献 礼 物 。</text>
+<ref>诗篇 72:10</ref>
+</parol>
+<parol book='40' chapter='2' verse='11' id='Mt2v11'>
+<text>进 了 房 子 ，
+看 见 小 孩 子 和 他 母 亲 马 利 亚 ，
+就 俯 伏 拜 那 小 孩 子...</text>
+<ref>马太福音 2:11上</ref>
+</parol>
+</theword>
+<theword date='2017-01-26'>
+<title>每日金句 一月二十六日 星期四</title>
+<parol book='41' chapter='16' verse='15' id='Mc16v15'>
+<text>耶 稣 又 对 他 们 说 ：
+你 们 往 普 天 下 去 ，
+传 福 音 给 万 民 听 。</text>
+<ref>马可福音 16:15</ref>
+</parol>
+<parol book='44' chapter='18' verse='8' id='Act18v8'>
+<text>管 会 堂 的 基 利 司 布 和 全 家
+都 信 了 主 ，
+还 有 许 多 哥 林 多 人 听 了 ，
+就 相 信 受 洗 。</text>
+<ref>使徒行传 18:8</ref>
+</parol>
+</theword>
+<theword date='2017-01-27'>
+<title>每日金句 一月二十七日 星期五</title>
+<parol book='51' chapter='3' verse='8' id='Kol3v8-9'>
+<text>但 现 在 你 们 要 弃 绝 这 一 切 的 事 ，
+以 及 恼 恨 、 忿 怒 、 恶 毒 、毁 谤 ，
+并 口 中 污 秽 的 言 语 。
+不 要 彼 此 说 谎 ；
+因 你 们 已 经 脱 去 旧 人 和 旧 人 的 行 为 ...</text>
+<ref>歌罗西书 3:8-9</ref>
+</parol>
+<parol book='45' chapter='2' verse='3' id='R2v3'>
+<text>你 这 人 哪 ，
+你 论 断 行 这 事 的 人 ，
+自 己 所 行 的 却 和 别 人 一 样 ，
+你 以 为 能 逃 脱 神 的 审 判 麽 。</text>
+<ref>罗马书 2:3</ref>
+</parol>
+</theword>
+<theword date='2017-01-28'>
+<title>每日金句 一月二十八日 星期六</title>
+<parol book='1' chapter='3' verse='19' id='Gn3v19'>
+<text>你 必 汗 流 满 面 才 得 糊 口 ，
+直 到 你 归 了 土 ，
+因 为 你 是 从 土 而 出 的 。
+你 本 是 尘 土 ，
+仍 要 归 於 尘 土 。</text>
+<ref>创世记 3:19</ref>
+</parol>
+<parol book='19' chapter='146' verse='4' id='Ps146v4'>
+<text>他的气一断，就归回尘土。
+他所打算的，当日就消灭了。</text>
+<ref>诗篇 146:4</ref>
+</parol>
+</theword>
+<theword date='2017-01-29'>
+<title>每日金句 一月二十九日 星期日</title>
+<parol book='50' chapter='1' verse='27' id='Ph1v27'>
+<text>... 你 们 行 事 为 人 与 基 督 的 福 音 相 称 ...</text>
+<ref>腓立比书 1:27 上</ref>
+</parol>
+<parol book='1' chapter='6' verse='9' id='Gn6v9'>
+<text>挪亚是个义人，
+在当时的世代是个完全人。
+挪亚与神同行。</text>
+<ref>创世记 6:9</ref>
+</parol>
+</theword>
+<theword date='2017-01-30'>
+<title>每日金句 一月三十日 星期一</title>
+<parol book='42' chapter='4' verse='22' id='L4v22'>
+<text>众 人 都 称 赞 他 ，
+并 希 奇 他 口 中 所 出 的 恩 言 。
+又 说 ， 这 不 是 约 瑟 的 儿 子 麽 。</text>
+<ref>路加福音 4:22</ref>
+</parol>
+<parol book='43' chapter='12' verse='49' id='J12v49'>
+<intro>耶 稣 大 声 说:</intro>
+<text>因 为 我 没 有 凭 着 自 己 讲 。
+惟 有 差 我 来 的 父 ，
+已 经 给 我 命 令 ，
+叫 我 说 什 么 ， 讲 什 么 。</text>
+<ref>约翰福音 12:49</ref>
+</parol>
+</theword>
+<theword date='2017-01-31'>
+<title>每日金句 一月三十一日 星期二</title>
+<parol book='40' chapter='1' verse='17' id='Mt1v17'>
+<text>这 样 ， 从 亚 伯 拉 罕 到 大 卫 ，
+共 有 十 四 代 。
+从 大 卫 到 迁 至 巴 比 伦 的 时 候 ，
+也 有 十 四 代 。
+从 迁 至 巴 比 伦 的 时 候 到 基 督 ，
+又 有 十 四 代 。</text>
+<ref>马太福音 1:17</ref>
+</parol>
+<parol book='42' chapter='2' verse='4' id='L2v4-5'>
+<text>约 瑟 也 从 加 利 利 的 拿 撒 勒 城 上 犹 太 去 ，
+到 了 大 卫 的 城 ， 名 叫 伯 利 恒 ，
+因 他 本 是 大 卫 一 族 一 家 的 人 。
+要 和 他 所 聘 之 妻 马 利 亚 ， 一 同 报 名 上 册 。
+那 时 马 利 亚 的 身 孕 已 经 重 了 。</text>
+<ref>路加福音 2:4-5</ref>
+</parol>
+</theword>
+<theword date='2017-02-01'>
+<title>每日金句 二月一日 星期三</title>
+<parol book='14' chapter='15' verse='2' id='2Chr15v2'>
+<text>你们若顺从耶和华，耶和华必与你们同在。
+你们若寻求他，就必寻见。
+你们若离弃他，他必离弃你们。</text>
+<ref>历代志下 15:2</ref>
+</parol>
+<parol book='55' chapter='1' verse='13' id='2T1v13'>
+<intro>保 罗 写 信 给 提 摩 太：</intro>
+<text>你 从 我 听 的 那 纯 正 话 语 的 规 模 ，
+要 用 在 基 督 耶 稣 里 的 信 心 和 爱 心 ，
+常 常 守 着 。</text>
+<ref>提摩太后书 1:13</ref>
+</parol>
+</theword>
+<theword date='2017-02-02'>
+<title>每日金句 二月二日 星期四</title>
+<parol book='40' chapter='6' verse='31' id='Mt6v31-32'>
+<text>所 以 ， 不 要 忧 虑 说 ：
+吃 甚 麽 ？ 喝 甚 麽 ？ 穿 甚 麽 ？
+这 都 是 外 邦 人 所 求 的 ，
+你 们 需 用 的 这 一 切 东 西 ，
+你 们 的 天 父 是 知 道 的 。</text>
+<ref>马太福音 6:31-32</ref>
+</parol>
+<parol book='44' chapter='17' verse='27' id='Act17v27'>
+<text>其实神离我们各人不远。</text>
+<ref>使徒行传 17:27 下</ref>
+</parol>
+</theword>
+<theword date='2017-02-03'>
+<title>每日金句 二月三日 星期五</title>
+<parol book='45' chapter='15' verse='5' id='R15v5-6'>
+<text>但 愿 赐 忍 耐 安 慰 的 神
+叫 你 们 彼 此 同 心 ，
+效 法 基 督 耶 稣 ，
+一 心 一 口 荣 耀 神
+─ 我 们 主 耶 稣 基 督 的 父 ！</text>
+<ref>罗马书 15:5-6</ref>
+</parol>
+<parol book='50' chapter='2' verse='2' id='Ph2v2'>
+<intro>保 罗 写 道：</intro>
+<text>你 们 就 要 意 念 相 同 ，爱 心 相 同 ，
+有 一 样 的 心 思 ， 有 一 样 的 意 念 ，
+使 我 的 喜 乐 可 以 满 足 。</text>
+<ref>腓立比书 2:2</ref>
+</parol>
+</theword>
+<theword date='2017-02-04'>
+<title>每日金句 二月四日 星期六</title>
+<parol book='49' chapter='4' verse='29' id='E4v29'>
+<text>污 秽 的 言 语 一 句 不 可 出 口 ，
+只 要 随 事 说 造 就 人 的 好 话 ，
+叫 听 见 的 人 得 益 处 。</text>
+<ref>以弗所书 4:29</ref>
+</parol>
+<parol book='51' chapter='4' verse='6' id='Kol4v6'>
+<text>你 们 的 言 语 要 常 常 带 着 和 气 ， 好 像 用 盐 调 和 ，
+就 可 知 道 该 怎 样 回 答 各 人 。</text>
+<ref>歌罗西书 4:6</ref>
+</parol>
+</theword>
+<theword date='2017-02-05'>
+<title>每日金句 二月五日 星期日</title>
+<parol book='29' chapter='4' verse='14' id='Joel4v14'>
+<intro>约 珥 描 述 最 后 的 日 子:</intro>
+<text>许 多 许 多 的 人 在 断 定 谷 ，
+因 为 耶 和 华 的 日 子
+临 近 断 定 谷 。</text>
+<ref>约珥书 3:14</ref>
+</parol>
+<parol book='58' chapter='4' verse='9' id='H4v9'>
+<text>... 必 另 有 一 安 息 日 的 安 息 ， 为 神 的 子 民 存 留 。</text>
+<ref>希伯来书 4:9</ref>
+</parol>
+</theword>
+<theword date='2017-02-06'>
+<title>每日金句 二月六日 星期一</title>
+<parol book='19' chapter='101' verse='2' id='Ps101v2'>
+<intro>大 卫 禱 告 說  :</intro>
+<text>我 要 用 智 慧 行 完 全 的 道 。
+你 几 时 到 我 这 里 来 呢 ？
+我 要 存 完 全 的 心 行 在 我 家 中 。</text>
+<ref>诗篇 101:2</ref>
+</parol>
+<parol book='52' chapter='4' verse='7' id='1Th4v7'>
+<text>神 召 我 们 ，
+本 不 是 要 我 们 沾 染 污 秽 ，
+乃 是 要 我 们 成 为 圣 洁 。</text>
+<ref>帖撒罗尼迦前书 4:7</ref>
+</parol>
+</theword>
+<theword date='2017-02-07'>
+<title>每日金句 二月七日 星期二</title>
+<parol book='19' chapter='13' verse='6' id='Ps13v6'>
+<text>我 要 向 耶 和 华 歌 唱 ，
+因 他 用 厚 恩 待 我 。</text>
+<ref>诗篇 13:5-6 下</ref>
+</parol>
+<parol book='19' chapter='77' verse='15' id='Ps77v15'>
+<text>你 是 行 奇 事 的 神 ；
+你 曾 在 列 邦 中 彰 显 你 的 能 力 。</text>
+<ref>诗篇 77:14</ref>
+</parol>
+</theword>
+<theword date='2017-02-08'>
+<title>每日金句 二月八日 星期三</title>
+<parol book='19' chapter='31' verse='25' id='Ps31v25'>
+<text>凡 仰 望 耶 和 华 的 人 ，
+你 们 都 要 壮 胆 ， 坚 固 你 们 的 心 。</text>
+<ref>诗篇 31:24</ref>
+</parol>
+<parol book='19' chapter='73' verse='26' id='Ps73v26'>
+<text>我 的 肉 体 和 我 的 心 肠 衰 残 ；
+但 神 是 我 心 里 的 力 量 ，
+又 是 我 的 福 分 ， 直 到 永 远 。</text>
+<ref>诗篇 73:26</ref>
+</parol>
+</theword>
+<theword date='2017-02-09'>
+<title>每日金句 二月九日 星期四</title>
+<parol book='42' chapter='13' verse='19' id='L13v19'>
+<text>好 像 一 粒 芥 菜 种 ，
+有 人 拿 去 种 在 园 子 里 ，
+长 大 成 树 ，
+天 上 的 飞 鸟 宿 在 他 的 枝 上 。</text>
+<ref>路加福音 13:19</ref>
+</parol>
+<parol book='42' chapter='13' verse='29' id='L13v29'>
+<text>从 东 ， 从 西 ， 从 南 ， 从 北 ，
+将 有 人 来 ，
+在 神 的 国 里 坐 席 。</text>
+<ref>路加福音 13:29</ref>
+</parol>
+</theword>
+<theword date='2017-02-10'>
+<title>每日金句 二月十日 星期五</title>
+<parol book='41' chapter='16' verse='14' id='Mc16v14'>
+<text>十 一 个 门 徒 坐 席 的 时 候 ，
+耶 稣 向 他 们 显 现 ，
+责 备 他 们 不 信 ， 心 里 刚 硬 ，
+因 为 他 们 不 信
+那 些 在 他 复 活 以 後 看 见 他 的 人 。</text>
+<ref>马可福音 16:14</ref>
+</parol>
+<parol book='66' chapter='3' verse='19' id='Ap3v19'>
+<text>凡 我 所 疼 爱 的 ， 我 就 责 备 管 教 他 ；
+所 以 你 要 发 热 心 ， 也 要 悔 改 。</text>
+<ref>启示录 3:19</ref>
+</parol>
+</theword>
+<theword date='2017-02-11'>
+<title>每日金句 二月十一日 星期六</title>
+<parol book='2' chapter='20' verse='15' id='Ex20v15'>
+<text>不 可 偷 盗 。</text>
+<ref>出埃及记 20:15</ref>
+</parol>
+<parol book='6' chapter='7' verse='11' id='Jos7v11'>
+<text>以 色 列 人 犯 了 罪 ，
+违 背 了 我 所 吩 咐 他 们 的 约 ，
+取 了 当 灭 的 物 ；
+又 偷 窃 ， 又 行 诡 诈 ，
+又 把 那 当 灭 的 放 在 他 们 的 家 具 里 。</text>
+<ref>约书亚记 7:11</ref>
+</parol>
+</theword>
+<theword date='2017-02-12'>
+<title>每日金句 二月十二日 星期日</title>
+<parol book='20' chapter='24' verse='11' id='Prv24v11-12'>
+<text>人被拉到死地，你要解救。
+人将被杀，你须拦阻。
+你若说，这事我未曾知道。
+那衡量人心的，岂不明白麽？</text>
+<ref>箴言 24:11-12</ref>
+</parol>
+<parol book='10' chapter='15' verse='26' id='2Sm15v26'>
+<text>看 哪 ， 我 在 这 里 ，
+愿 他 凭 自 己 的 意 旨 待 我 ！</text>
+<ref>撒母耳记下 15:26 下</ref>
+</parol>
+</theword>
+<theword date='2017-02-13'>
+<title>每日金句 二月十三日 星期一</title>
+<parol book='23' chapter='55' verse='12' id='Is55v12'>
+<text>你们必欢欢喜喜而出来，
+平平安安蒙引导。</text>
+<ref>以赛亚书 55:12</ref>
+</parol>
+<parol book='44' chapter='10' verse='36' id='Act10v36'>
+<text>神 藉 着 耶 稣 基 督 （ 他 是 万 有 的 主 ）
+传 和 平 的 福 音 ，
+将 这 道 赐 给 以 色 列 人 。</text>
+<ref>使徒行传 10:36</ref>
+</parol>
+</theword>
+<theword date='2017-02-14'>
+<title>每日金句 二月十四日 星期二</title>
+<parol book='49' chapter='6' verse='1' id='E6v1'>
+<text>你 们 作 儿 女 的 ，
+要 在 主 里 听 从 父 母 ，
+这 是 理 所 当 然 的 。</text>
+<ref>以弗所书 6:1</ref>
+</parol>
+<parol book='20' chapter='6' verse='20' id='Prv6v20'>
+<text>我 儿 ， 要 谨 守 你 父 亲 的 诫 命 ；
+不 可 离 弃 你 母 亲 的 法 则 ...</text>
+<ref>箴言 6:20</ref>
+</parol>
+</theword>
+<theword date='2017-02-15'>
+<title>每日金句 二月十五日 星期三</title>
+<parol book='19' chapter='139' verse='14' id='Ps139v14'>
+<text>我 要 称 谢 你 ，
+因 我 受 造 ， 奇 妙 可 畏 ；
+你 的 作 为 奇 妙 ，
+这 是 我 心 深 知 道 的 。</text>
+<ref>诗篇 139:14</ref>
+</parol>
+<parol book='23' chapter='44' verse='24' id='Is44v24'>
+<text>从你出胎，造就你的救赎主耶和华如此说，
+我耶和华是创造万物的，
+是独自铺张诸天，
+铺开大地的。</text>
+<ref>以赛亚书 44:24</ref>
+</parol>
+</theword>
+<theword date='2017-02-16'>
+<title>每日金句 二月十六日 星期四</title>
+<parol book='44' chapter='3' verse='13' id='Act3v13'>
+<text>亚 伯 拉 罕 、以 撒 、雅 各 的 神 ，
+就 是 我 们 列 祖 的 神 ，
+已 经 荣 耀 了 他 的 仆 人 耶 稣 。</text>
+<ref>使徒行传 3:13 上</ref>
+</parol>
+<parol book='40' chapter='3' verse='16' id='Mt3v16-17'>
+<text>耶 稣 受 了 洗 ， 随 即 从 水 里 上 来 。
+天 忽 然 为 他 开 了 ，
+他 就 看 见 神 的 灵 彷 佛 鸽 子 降 下 ，
+落 在 他 身 上 。
+从 天 上 有 声 音 说 ：
+这 是 我 的 爱 子 ， 我 所 喜 悦 的 。</text>
+<ref>马太福音 3:16-17</ref>
+</parol>
+</theword>
+<theword date='2017-02-17'>
+<title>每日金句 二月十七日 星期五</title>
+<parol book='2' chapter='33' verse='20' id='Ex33v20'>
+<intro>耶 和 华 对 摩 西 说：</intro>
+<text>你 不 能 看 见 我 的 面 ，
+因 为 人 见 我 的 面 不 能 存 活 。</text>
+<ref>出埃及记 33:20</ref>
+</parol>
+<parol book='36' chapter='1' verse='7' id='Zph1v7'>
+<text>你 要 在 主 耶 和 华 面 前 静 默 无 声 ，
+因 为 耶 和 华 的 日 子 快 到 。</text>
+<ref>西番雅书 1:7 上</ref>
+</parol>
+</theword>
+<theword date='2017-02-18'>
+<title>每日金句 二月十八日 星期六</title>
+<parol book='19' chapter='118' verse='21' id='Ps118v21'>
+<text>我 要 称 谢 你 ， 因 为 你 已 经 应 允 我 ，
+又 成 了 我 的 拯 救 ！</text>
+<ref>诗篇 118:21</ref>
+</parol>
+<parol book='40' chapter='14' verse='30' id='Mt14v30'>
+<text>只 因 彼 得 见 风 甚 大 ， 就 害 怕 ，
+将 要 沉 下 去 ， 便 喊 着 说 ：
+主 阿 ， 救 我 ！</text>
+<ref>马太福音 14:30</ref>
+</parol>
+</theword>
+<theword date='2017-02-19'>
+<title>每日金句 二月十九日 星期日</title>
+<parol book='52' chapter='4' verse='3' id='1Th4v3'>
+<text>神 的 旨 意 就 是 要 你 们 成 为 圣 洁 ，
+远 避 淫 行 ...</text>
+<ref>帖撒罗尼迦前书 4:3</ref>
+</parol>
+<parol book='19' chapter='1' verse='1' id='Ps1v1-2'>
+<text>不 从 恶 人 的 计 谋 ，
+不 站 罪 人 的 道 路 ，
+不 坐 亵 慢 人 的 座 位 。
+惟 喜 爱 耶 和 华 的 律 法 ，
+昼 夜 思 想 ， 这 人 便 为 有 福 。</text>
+<ref>诗篇 1:1-2</ref>
+</parol>
+</theword>
+<theword date='2017-02-20'>
+<title>每日金句 二月二十日 星期一</title>
+<parol book='23' chapter='28' verse='16' id='Is28v16'>
+<text>... 看 哪 ， 我 在 锡 安 放 一 块 石 头 作 为 根 基 ，
+是 试 验 过 的 石 头 ， 是 稳 固 根 基 ，
+宝 贵 的 房 角 石 ； 信 靠 的 人 必 不 着 急 。</text>
+<ref>以赛亚书 28:16</ref>
+</parol>
+<parol book='43' chapter='4' verse='22' id='J4v22'>
+<intro>耶 稣 对 撒 玛 列 亚 妇 人 说 :</intro>
+<text>你 们 所 拜 的 ，你 们 不 知 道 ；
+我 们 所 拜 的 ， 我 们 知 道 ，
+因 为 救 恩 是 从 犹 太 人 出 来 的 。</text>
+<ref>约翰福音 4:22</ref>
+</parol>
+</theword>
+<theword date='2017-02-21'>
+<title>每日金句 二月二十一日 星期二</title>
+<parol book='24' chapter='6' verse='13' id='Jr6v13-14'>
+<text>他 们 从 最 小 的 到 至 大 的 都 一 味 地 贪 婪 ，
+从 先 知 到 祭 司 都 行 事 虚 谎 。
+他 们 轻 轻 忽 忽 地 医 治 我 百 姓 的 损 伤 ，
+说 ， 平 安 了 。 平 安 了 。 其 实 没 有 平 安 。</text>
+<ref>耶利米书 6:13-14</ref>
+</parol>
+<parol book='60' chapter='5' verse='2' id='1P5v2'>
+<text>务 要 牧 养 在 你 们 中 间 神 的 群 羊 ，
+按 着 神 旨 意 照 管 他 们 。
+不 是 出 于 勉 强 ， 乃 是 出 于 甘 心 。
+也 不 是 因 为 贪 财 ， 乃 是 出 于 乐 意 。</text>
+<ref>彼得前书 5:2</ref>
+</parol>
+</theword>
+<theword date='2017-02-22'>
+<title>每日金句 二月二十二日 星期三</title>
+<parol book='43' chapter='13' verse='3' id='J13v3'>
+<text>耶 稣 知 道 父 已 将 万 有 交 在 他 手 里 ，
+且 知 道 自 己 是 从 神 出 来 的 ， 又 要 归 到 神 那 里 去 ...</text>
+<ref>约翰福音 13:3</ref>
+</parol>
+<parol book='40' chapter='26' verse='42' id='Mt26v42'>
+<text>第 二 次 耶 稣 又 去 祷 告 说 ，
+我 父 阿 ， 这 杯 若 不 能 离 开 我 ，
+必 要 我 喝 ， 就 愿 你 的 旨 意 成 全 。</text>
+<ref>马太福音 26:42</ref>
+</parol>
+</theword>
+<theword date='2017-02-23'>
+<title>每日金句 二月二十三日 星期四</title>
+<parol book='44' chapter='9' verse='3' id='Act9v3-5'>
+<text>忽 然 从 天 上 发 光 ，四 面 照 着 扫 罗 ；
+他 就 仆 倒 在 地 ， 听 见 有 声 音 对 他 说 ：
+扫 罗 ！ 扫 罗！ 你 为 甚 麽 逼 迫 我 ？
+他 说 ： 主 阿 ！ 你 是 谁 ？
+主 说 ： 我 就 是 你 所 逼 迫 的 耶 稣 。</text>
+<ref>使徒行传 9:3-5</ref>
+</parol>
+<parol book='47' chapter='4' verse='6' id='2K4v6'>
+<text>那 吩 咐 光 从 黑 暗 里
+照 出 来 的 神 ，
+已 经 照 在 我 们 心 里 ，
+叫 我 们 得 知 神 荣 耀 的 光
+显 在 耶 稣 基 督 的 面 上 。</text>
+<ref>哥林多后书 4:6</ref>
+</parol>
+</theword>
+<theword date='2017-02-24'>
+<title>每日金句 二月二十四日 星期五</title>
+<parol book='40' chapter='14' verse='13' id='Mt14v13-14'>
+<text>耶 稣 听 见 了 ，
+就 上 船 从 那 里 独 自 退 到 野 地 里 去 。
+众 人 听 见 ，
+就 从 各 城 里 步 行 跟 随 他 。
+耶 稣 出 来 ， 见 有 许 多 的 人 ，
+就 怜 悯 他 们 ， 治 好 了 他 们 的 病 人 。</text>
+<ref>马太福音 14:13-14</ref>
+</parol>
+<parol book='19' chapter='103' verse='13' id='Ps103v13'>
+<text>父亲怎样怜恤他的儿女，
+耶和华也怎样怜恤敬畏他的人。</text>
+<ref>诗篇 103:13</ref>
+</parol>
+</theword>
+<theword date='2017-02-25'>
+<title>每日金句 二月二十五日 星期六</title>
+<parol book='19' chapter='77' verse='14' id='Ps77v14-15'>
+<text>神 啊 ， 你 的 作 为 是 洁 净 的 ；
+有 何 神 大 如 神 呢 ？
+你 是 行 奇 事 的 神 ；
+你 曾 在 列 邦 中 彰 显 你 的 能 力 。</text>
+<ref>诗篇 77:13-14</ref>
+</parol>
+<parol book='43' chapter='6' verse='68' id='J6v68-69'>
+<text>西门彼得回答说，
+主阿，你有永生之道，
+我们还归从谁呢？
+我们已经信了，
+又知道你是神的圣者。</text>
+<ref>约翰福音 6:68-69</ref>
+</parol>
+</theword>
+<theword date='2017-02-26'>
+<title>每日金句 二月二十六日 星期日</title>
+<parol book='66' chapter='3' verse='4' id='Ap3v4'>
+<intro>保 罗 按 着 基 督 的 吩 咐 写：</intro>
+<text>然 而 在 撒 狄 ，你 还 有 几 名
+是 未 曾 污 秽 自 己 衣 服 的 ，
+他 们 要 穿 白 衣 与 我 同 行 ，
+因 为 他 们 是 配 得 过 的 。</text>
+<ref>启示录 3:4</ref>
+</parol>
+<parol book='40' chapter='5' verse='8' id='Mt5v8'>
+<text>清 心 的 人 有 福 了 ，
+因 为 他 们 必 得 见 神 。</text>
+<ref>马太福音 5:8</ref>
+</parol>
+</theword>
+<theword date='2017-02-27'>
+<title>每日金句 二月二十七日 星期一</title>
+<parol book='20' chapter='3' verse='29' id='Prv3v29'>
+<text>你 的 邻 舍 既 在 你 附 近 安 居 ，
+你 不 可 设 计 害 他 。</text>
+<ref>箴言 3:29</ref>
+</parol>
+<parol book='45' chapter='13' verse='8' id='R13v8'>
+<text>凡 事 都 不 可 亏 欠 人 ，
+惟 有 彼 此 相 爱 要 常 以 为 亏 欠 ，
+因 为 爱 人 的 就 完 全 了 律 法 。</text>
+<ref>罗马书 13:8</ref>
+</parol>
+</theword>
+<theword date='2017-02-28'>
+<title>每日金句 二月二十八日 星期二</title>
+<parol book='19' chapter='115' verse='16' id='Ps115v16'>
+<text>天，是耶和华的天。
+地，他却给了世人。</text>
+<ref>诗篇 115:16</ref>
+</parol>
+<parol book='40' chapter='21' verse='33' id='Mt21v33'>
+<intro>耶 稣 说 一 个 比 喻 :</intro>
+<text>有 个 家 主 栽 了 一 个 葡 萄 园 ，
+周 围 圈 上 篱 笆 ， 里 面 挖 了 一 个 压 酒 池 ，
+盖 了 一 座 楼 ， 租 给 园 户 ，
+就 往 外 国 去 了 。</text>
+<ref>马太福音 21:33</ref>
+</parol>
+</theword>
+<theword date='2017-03-01'>
+<title>每日金句 三月一日 星期三</title>
+<parol book='19' chapter='119' verse='97' id='Ps119v97'>
+<text>我 何 等 爱 慕 你 的 律 法 ，
+终 日 不 住 地 思 想 。</text>
+<ref>诗篇 119:97</ref>
+</parol>
+<parol book='40' chapter='5' verse='18' id='Mt5v18'>
+<text>就 是 到 天 地 都 废 去 了 ，
+律 法 的 一 点 一 画 也 不 能 废 去 ，
+都 要 成 全 。</text>
+<ref>马太福音 5:18</ref>
+</parol>
+</theword>
+<theword date='2017-03-02'>
+<title>每日金句 三月二日 星期四</title>
+<parol book='22' chapter='8' verse='6' id='Ct8v6-7'>
+<text>因 为 爱 情 如 死 之 坚 强 。
+嫉 恨 如 阴 间 之 残 忍 。
+所 发 的 电 光 ， 是 火 焰 的 电 光 ， 是 耶 和 华 的 烈 焰 。
+爱 情 众 水 不 能 息 灭 ，
+大 水 也 不 能 淹 没 。</text>
+<ref>雅歌 8:6-7上</ref>
+</parol>
+<parol book='43' chapter='15' verse='13' id='J15v13'>
+<intro>耶 稣 说:</intro>
+<text>人 为 朋 友 舍 命 ，
+人 的 爱 心 没 有 比 这 个 大 的 。</text>
+<ref>约翰福音 15:13</ref>
+</parol>
+</theword>
+<theword date='2017-03-03'>
+<title>每日金句 三月三日 星期五</title>
+<parol book='40' chapter='14' verse='23' id='Mt14v23'>
+<text>耶 稣 就 独 自 上 山 祷 告 。</text>
+<ref>马太福音 14:23上</ref>
+</parol>
+<parol book='47' chapter='13' verse='4' id='2K13v4'>
+<text>基 督 因 软 弱 被 钉 在 十 字 架 上 ，
+却 因 神 的 大 能 仍 然 活 着 。</text>
+<ref>哥林多后书 13:4 上</ref>
+</parol>
+</theword>
+<theword date='2017-03-04'>
+<title>每日金句 三月四日 星期六</title>
+<parol book='20' chapter='16' verse='6' id='Prv16v6'>
+<text>因 怜 悯 诚 实 ， 罪 孽 得 赎 ；
+敬 畏 耶 和 华 的 ， 远 离 恶 事 。</text>
+<ref>箴言 16:6</ref>
+</parol>
+<parol book='46' chapter='3' verse='15' id='1K3v15'>
+<text>人 的 工 程 若 被 烧 了 ，他 就 要 受 亏 损 ，
+自 己 却 要 得 救 ； 虽 然 得 救 ，
+乃 像 从 火 里 经 过 的 一 样 。</text>
+<ref>哥林多前书 3:15</ref>
+</parol>
+</theword>
+<theword date='2017-03-05'>
+<title>每日金句 三月五日 星期日</title>
+<parol book='44' chapter='5' verse='25' id='Act5v25'>
+<text>有 一 个 人 来 禀 报 说 ：
+你 们 收 在 监 里 的 人 ，
+现 在 站 在 殿 里 教 训 百 姓 。</text>
+<ref>使徒行传 5:25</ref>
+</parol>
+<parol book='43' chapter='8' verse='36' id='J8v36'>
+<text>所 以 天 父 的 儿 子 若 叫 你 们 自 由 ，
+你 们 就 真 自 由 了 。</text>
+<ref>约翰福音 8:36</ref>
+</parol>
+</theword>
+<theword date='2017-03-06'>
+<title>每日金句 三月六日 星期一</title>
+<parol book='19' chapter='80' verse='19' id='Ps80v19'>
+<text>... 求 你 救 活 我 们 ， 我 们 就 要 求 告 你 的 名 。</text>
+<ref>诗篇 80:18下</ref>
+</parol>
+<parol book='19' chapter='138' verse='3' id='Ps138v3'>
+<text>我 呼 求 的 日 子 ， 你 就 应 允 我 ，
+鼓 励 我 ， 使 我 心 里 有 能 力 。</text>
+<ref>诗篇 138:3</ref>
+</parol>
+</theword>
+<theword date='2017-03-07'>
+<title>每日金句 三月七日 星期二</title>
+<parol book='4' chapter='20' verse='11' id='Nu20v11'>
+<text>摩 西 举 手 ，
+用 杖 击 打 磐 石 两 下 ，
+就 有 许 多 水 流 出 来 ，
+会 众 和 他 们 的 牲 畜 都 喝 了 。</text>
+<ref>民数记 20:11</ref>
+</parol>
+<parol book='46' chapter='10' verse='4' id='1K10v4'>
+<text>以 色 列 人 所 喝 的 ，
+是 出 於 随 着 他 们 的 灵 磐 石 ；
+那 磐 石 就 是 基 督 。</text>
+<ref>哥林多前书 10:4</ref>
+</parol>
+</theword>
+<theword date='2017-03-08'>
+<title>每日金句 三月八日 星期三</title>
+<parol book='9' chapter='7' verse='3' id='1Sm7v3'>
+<text>撒 母 耳 对 以 色 列 全 家 说 ：
+你 们 若 一 心 归 顺 耶 和 华 ，
+就 要 把 外 邦 的 神 和 亚 斯 他 录 从 你 们 中 间 除 掉 ，
+专 心 归 向 耶 和 华 ， 单 单 地 事 奉 他 。
+他 必 救 你 们 脱 离 非 利 士 人 的 手 。</text>
+<ref>撒母耳记上 7:3</ref>
+</parol>
+<parol book='46' chapter='8' verse='5' id='1K8v5-6'>
+<text>虽 有 称 为 神 的 ， 或 在 天 ， 或 在 地 ，
+就 如 那 许 多 的 神 ， 许 多 的 主 ；
+然 而 我 们 只 有 一 位 神 ， 就 是 父 ，
+万 物 都 本 於 他 ；
+我 们 也 归 於 他 ─ 并 有 一 位 主 ，
+就 是 耶 稣 基 督 ─ 万 物 都 是 藉 着 他 有 的 ；
+我 们 也 是 藉 着 他 有 的 。</text>
+<ref>哥林多前书 8:5-6</ref>
+</parol>
+</theword>
+<theword date='2017-03-09'>
+<title>每日金句 三月九日 星期四</title>
+<parol book='19' chapter='89' verse='9' id='Ps89v9'>
+<text>耶 和 华 ─ 万 军 之 神 啊 ，
+哪 一 个 大 能 者 像 你 耶 和 华 ？
+你 的 信 实 是 在 你 的 四 围 。</text>
+<ref>诗篇 89:8</ref>
+</parol>
+<parol book='40' chapter='8' verse='31' id='Mt8v31'>
+<text>鬼 就 央 求 耶 稣 ， 说 ：
+若 把 我 们 赶 出 去 ，
+就 打 发 我 们 进 入 猪 群 罢 ！</text>
+<ref>马太福音 8:31</ref>
+</parol>
+</theword>
+<theword date='2017-03-10'>
+<title>每日金句 三月十日 星期五</title>
+<parol book='19' chapter='118' verse='6' id='Ps118v6'>
+<text>有 耶 和 华 帮 助 我 ， 我 必 不 惧 怕 ，
+人 能 把 我 怎 麽 样 呢 ？</text>
+<ref>诗篇 118:6</ref>
+</parol>
+<parol book='19' chapter='40' verse='5' id='Ps40v5'>
+<text>那 倚 靠 耶 和 华 ... 这 人 便 为 有 福 ！</text>
+<ref>诗篇 40:4</ref>
+</parol>
+</theword>
+<theword date='2017-03-11'>
+<title>每日金句 三月十一日 星期六</title>
+<parol book='19' chapter='119' verse='45' id='Ps119v45'>
+<text>我 要 自 由 而 行 ，
+因 我 素 来 考 究 你 的 训 词 。</text>
+<ref>诗篇 119:45</ref>
+</parol>
+<parol book='47' chapter='3' verse='17' id='2K3v17'>
+<text>主 就 是 那 灵 ； 主 的 灵 在 那 里 ， 那 里 就 得 以 自 由 。</text>
+<ref>哥林多后书 3:17</ref>
+</parol>
+</theword>
+<theword date='2017-03-12'>
+<title>每日金句 三月十二日 星期日</title>
+<parol book='48' chapter='3' verse='26' id='G3v26'>
+<text>你 们 因 信 基 督 耶 稣 都 是 神 的 儿 子 。</text>
+<ref>加拉太书 3:26</ref>
+</parol>
+<parol book='62' chapter='3' verse='1' id='1J3v1'>
+<text>你 看 父 赐 给 我 们 是 何 等 的 慈 爱 ，
+使 我 们 得 称 为 神 的 儿 女 ...</text>
+<ref>约翰一书 3:1</ref>
+</parol>
+</theword>
+<theword date='2017-03-13'>
+<title>每日金句 三月十三日 星期一</title>
+<parol book='1' chapter='41' verse='55' id='Gn41v55'>
+<text>及 至 埃 及 全 地 有 了 饥 荒 ，
+众 民 向 法 老 哀 求 粮 食 ，
+法 老 对 他 们 说 ：
+你 们 往 约 瑟 那 里 去 ，
+凡 他 所 说 的 ， 你 们 都 要 做 。</text>
+<ref>创世记 41:55</ref>
+</parol>
+<parol book='43' chapter='6' verse='13' id='J6v13'>
+<text>门 徒 便 将 那 五 个 大 麦 饼 的 零 碎 ，
+就 是 众 人 吃 了 剩 下 的 ， 收 拾 起 来 ，
+装 满 了 十 二 个 篮 子 。</text>
+<ref>约翰福音 6:13</ref>
+</parol>
+</theword>
+<theword date='2017-03-14'>
+<title>每日金句 三月十四日 星期二</title>
+<parol book='40' chapter='26' verse='75' id='Mt26v75'>
+<text>彼 得 想 起 耶 稣 所 说 的 话 ：
+鸡 叫 以 先 ， 你 要 三 次 不 认 我 。
+他 就 出 去 痛 哭 。</text>
+<ref>马太福音 26:75</ref>
+</parol>
+<parol book='40' chapter='16' verse='24' id='Mt16v24'>
+<text>耶 稣 对 门 徒 说 ：
+若 有 人 要 跟 从 我 ，
+就 当 舍 己 ，
+背 起 他 的 十 字 架 来 跟 从 我 。</text>
+<ref>马太福音 16:24</ref>
+</parol>
+</theword>
+<theword date='2017-03-15'>
+<title>每日金句 三月十五日 星期三</title>
+<parol book='19' chapter='78' verse='4' id='Ps78v4'>
+<text>我 们 不 将 这 些 事 向 他 们 的 子 孙 隐 瞒 。
+要 将 耶 和 华 的 美 德 和 他 的 能 力 ，
+并 他 奇 妙 的 作 为 ，
+述 说 给 后 代 听 。</text>
+<ref>诗篇 78:4</ref>
+</parol>
+<parol book='19' chapter='34' verse='2' id='Ps34v2'>
+<text>我 要 时 时 称 颂 耶 和 华 ；
+赞 美 他 的 话 必 常 在 我 口 中 。</text>
+<ref>诗篇 34:1</ref>
+</parol>
+</theword>
+<theword date='2017-03-16'>
+<title>每日金句 三月十六日 星期四</title>
+<parol book='1' chapter='18' verse='23' id='Gn18v23-24'>
+<intro>亚 伯 拉 罕 問 耶 和 华 有关 所 多 玛 和 蛾 摩 拉 的事:</intro>
+<text>无 论 善 恶 ， 你 都 要 剿 灭 麽 。
+假 若 那 城 里 有 五 十 个 义 人 ， 你 还 剿 灭 那 地 方 麽 。
+不 为 城 里 这 五 十 个 义 人 饶 恕 其 中 的 人 麽 。</text>
+<ref>创世记 18:23-24</ref>
+</parol>
+<parol book='42' chapter='19' verse='41' id='L19v41-42'>
+<text>耶 稣 快 到 耶 路 撒 冷 ，
+看 见 城 ， 就 为 他 哀 哭 ， 说 ：
+巴 不 得 你 在 这 日 子 知 道 关 系 你 平 安 的 事 ；
+无 奈 这 事 现 在 是 隐 藏 的 ， 叫 你 的 眼 看 不 出 来 。</text>
+<ref>路加福音 19:41-42</ref>
+</parol>
+</theword>
+<theword date='2017-03-17'>
+<title>每日金句 三月十七日 星期五</title>
+<parol book='23' chapter='40' verse='13' id='Is40v13'>
+<text>谁曾测度耶和华的心，
+或作他的谋士指教他呢？</text>
+<ref>以赛亚书 40:13</ref>
+</parol>
+<parol book='43' chapter='15' verse='26' id='J15v26'>
+<intro>耶 稣 对 门 徒 说：</intro>
+<text>但 我 要 从 父 那 里 差 保 惠 师 来 ，
+就 是 从 父 出 来 真 理 的 圣 灵 ；
+他 来 了 ， 就 要 为 我 作 见 证 。</text>
+<ref>约翰福音 15:26</ref>
+</parol>
+</theword>
+<theword date='2017-03-18'>
+<title>每日金句 三月十八日 星期六</title>
+<parol book='42' chapter='24' verse='7' id='L24v7'>
+<text>人 子 必 须 被 交 在 罪 人 手 里 ，
+钉 在 十 字 架 上 ， 第 三 日 复 活 。</text>
+<ref>路加福音 24:7</ref>
+</parol>
+<parol book='46' chapter='15' verse='43' id='1K15v43'>
+<text>所 种 的 是 羞 辱 的 ， 复 活 的 是 荣 耀 的 ；
+所 种 的 是 软 弱 的 ， 复 活 的 是 强 壮 的 ...</text>
+<ref>哥林多前书 15:43</ref>
+</parol>
+</theword>
+<theword date='2017-03-19'>
+<title>每日金句 三月十九日 星期日</title>
+<parol book='41' chapter='9' verse='7' id='Mc9v7-8'>
+<text>有 一 朵 云 彩 来 遮 盖 他 们 ；
+也 有 声 音 从 云 彩 里 出 来 ， 说 ：
+这 是 我 的 爱 子 ， 你 们 要 听 他 。
+门 徒 忽 然 周 围 一 看 ，
+不 再 见 一 人 ， 只 见 耶 稣 同 他 们 在 那 里 。</text>
+<ref>马可福音 9:7-8</ref>
+</parol>
+<parol book='43' chapter='12' verse='45' id='J12v45'>
+<intro>耶 稣 大 声 说：</intro>
+<text>人 看 见 我 ， 就 是 看 见 那 差 我 来 的 。</text>
+<ref>约翰福音 12:45</ref>
+</parol>
+</theword>
+<theword date='2017-03-20'>
+<title>每日金句 三月二十日 星期一</title>
+<parol book='49' chapter='4' verse='3' id='E4v3'>
+<text>用 和 平 彼 此 联 络 ，
+竭 力 保 守 圣 灵 所 赐 合 而 为 一 的 心 。</text>
+<ref>以弗所书 4:3</ref>
+</parol>
+<parol book='45' chapter='12' verse='18' id='R12v18'>
+<text>若 是 能 行 ，
+总 要 尽 力 与 众 人 和 睦 。</text>
+<ref>罗马书 12:18</ref>
+</parol>
+</theword>
+<theword date='2017-03-21'>
+<title>每日金句 三月二十一日 星期二</title>
+<parol book='2' chapter='23' verse='7' id='Ex23v7'>
+<text>当 远 离 虚 假 的 事 。</text>
+<ref>出埃及记 23:7 上</ref>
+</parol>
+<parol book='49' chapter='4' verse='28' id='E4v28'>
+<text>从 前 偷 窃 的 ，不 要 再 偷 ；
+总 要 劳 力 ， 亲 手 做 正 经 事 ，
+就 可 有 馀 分 给 那 缺 少 的 人 。</text>
+<ref>以弗所书 4:28</ref>
+</parol>
+</theword>
+<theword date='2017-03-22'>
+<title>每日金句 三月二十二日 星期三</title>
+<parol book='43' chapter='4' verse='36' id='J4v36'>
+<text>收 割 的 人 得 工 价 ，
+积 蓄 五 谷 到 永 生 ，
+叫 撒 种 的 和 收 割 的 一 同 快 乐 。</text>
+<ref>约翰福音 4:36</ref>
+</parol>
+<parol book='46' chapter='3' verse='8' id='1K3v8'>
+<text>栽 种 的 和 浇 灌 的 ， 都 是 一 样 ，
+但 将 来 各 人 要 照 自 己 的 工 夫 得 自 己 的 赏 赐 。</text>
+<ref>哥林多前书 3:8</ref>
+</parol>
+</theword>
+<theword date='2017-03-23'>
+<title>每日金句 三月二十三日 星期四</title>
+<parol book='28' chapter='11' verse='4' id='Hos11v4'>
+<intro>主 说 关 于 以 色 列:</intro>
+<text>我 用 慈 绳 爱 索 牵 引 他 们 ...</text>
+<ref>何西阿书 11:4上</ref>
+</parol>
+<parol book='44' chapter='16' verse='30' id='Act16v30-31'>
+<intro>禁 卒 对 保 罗 和 西 拉 说：</intro>
+<text>二 位 先 生 ，我 当 怎 样 行 才 可 以 得 救 ？
+他 们 说 ： 当 信 主 耶 稣 ，
+你 和 你 一 家 都 必 得 救 。</text>
+<ref>使徒行传 16:30-31</ref>
+</parol>
+</theword>
+<theword date='2017-03-24'>
+<title>每日金句 三月二十四日 星期五</title>
+<parol book='19' chapter='38' verse='22' id='Ps38v22'>
+<text>耶 和 华 阿 ， 求 你 不 要 撇 弃 我 。
+我 的 神 阿 ， 求 你 不 要 远 离 我 。</text>
+<ref>诗篇 38:21</ref>
+</parol>
+<parol book='19' chapter='33' verse='4' id='Ps33v4'>
+<text>因 为 耶 和 华 的 言 语 正 直 。
+凡 他 所 作 的 ， 尽 都 诚 实 。</text>
+<ref>诗篇 33:4</ref>
+</parol>
+</theword>
+<theword date='2017-03-25'>
+<title>每日金句 三月二十五日 星期六</title>
+<parol book='23' chapter='65' verse='8' id='Is65v8'>
+<text>耶和华如此说，
+葡萄中寻得新酒，
+人就说，不要毁坏，
+因为福在其中。
+我因我仆人的缘故也必照样而行，
+不将他们全然毁灭。</text>
+<ref>以赛亚书 65:8</ref>
+</parol>
+<parol book='45' chapter='11' verse='5' id='R11v5'>
+<intro>关于以色列保罗写到：</intro>
+<text>如今也是这样，
+照着拣选的恩典还有所留的馀数。</text>
+<ref>罗马书 11:5</ref>
+</parol>
+</theword>
+<theword date='2017-03-26'>
+<title>每日金句 三月二十六日 星期日</title>
+<parol book='41' chapter='5' verse='33' id='Mc5v33-34'>
+<text>那 女 人 知 道 在 自 己 身 上 所 成 的 事 ，
+就 恐 惧 战 兢 ， 来 俯 伏 在 耶 稣 跟 前 ，
+将 实 情 全 告 诉 他 。
+耶 稣 对 他 说 ：
+女 儿 ， 你 的 信 救 了 你 ，
+平 平 安 安 的 回 去 罢 ！
+你 的 灾 病 痊 愈 了 。</text>
+<ref>马可福音 5:33-34</ref>
+</parol>
+<parol book='41' chapter='10' verse='52' id='Mc10v52'>
+<intro>耶 稣 对 巴 底 买说 ：</intro>
+<text>你 去 罢 ！ 你 的 信 救 了 你 了 。
+瞎 子 立 刻 看 见 了 ，
+就 在 路 上 跟 随 耶 稣 。</text>
+<ref>马可福音 10:52</ref>
+</parol>
+</theword>
+<theword date='2017-03-27'>
+<title>每日金句 三月二十七日 星期一</title>
+<parol book='41' chapter='5' verse='19' id='Mc5v19'>
+<intro>耶 稣 对 那 个 被 污 鬼 咐 着 的 人 说:</intro>
+<text>... 你 回 家 去 ，
+到 你 的 亲 属 那 里 ，
+将 主 为 你 所 作 的 ， 是 何 等 大 的 事 ，
+是 怎 样 怜 悯 你 ， 都 告 诉 他 们 。</text>
+<ref>马可福音 5:19</ref>
+</parol>
+<parol book='41' chapter='6' verse='12' id='Mc6v12-13'>
+<text>门 徒 就 出 去 传 道 ，
+叫 人 悔 改 ，又 赶 出 许 多 的 鬼 ，
+用 油 抹 了 许 多 病 人 ，
+治 好 他 们 。</text>
+<ref>马可福音 6:12-13</ref>
+</parol>
+</theword>
+<theword date='2017-03-28'>
+<title>每日金句 三月二十八日 星期二</title>
+<parol book='19' chapter='34' verse='5' id='Ps34v5'>
+<text>我 曾 寻 求 耶 和 华 ，
+他 就 应 允 我 ，
+救 我 脱 离 了 一 切 的 恐 惧 。</text>
+<ref>诗篇 34:4</ref>
+</parol>
+<parol book='19' chapter='50' verse='15' id='Ps50v15'>
+<text>要在患难之日求告我，我必搭救你。你也要荣耀我。</text>
+<ref>诗篇 50:15</ref>
+</parol>
+</theword>
+<theword date='2017-03-29'>
+<title>每日金句 三月二十九日 星期三</title>
+<parol book='19' chapter='95' verse='6' id='Ps95v6'>
+<text>来 啊 ， 我 们 要 屈 身 敬 拜 ，
+在 造 我 们 的 耶 和 华 面 前 跪 下 。</text>
+<ref>诗篇 95:6</ref>
+</parol>
+<parol book='44' chapter='21' verse='5' id='Act21v5'>
+<text>他 们 众 人 同 妻 子 儿 女 ，
+送 我 们 到 城 外 ，
+我 们 都 跪 在 岸 上 祷 告 ， 彼 此 辞 别 。</text>
+<ref>使徒行传 21:5下</ref>
+</parol>
+</theword>
+<theword date='2017-03-30'>
+<title>每日金句 三月三十日 星期四</title>
+<parol book='1' chapter='9' verse='8' id='Gn9v8-10'>
+<text>神 晓 谕 挪 亚 和 他 的 儿 子 说 ：
+我 与 你 们 和 你 们 的 後 裔 立 约 ，
+并 与 你 们 这 里 的 一 切 活 物 ...</text>
+<ref>创世记 9:8-10</ref>
+</parol>
+<parol book='26' chapter='1' verse='28' id='Ez1v28'>
+<text>下 雨 的 日 子 ，
+云 中 虹 的 形 状 怎 样 ，
+周 围 光 辉 的 形 状 也 是 怎 样 。
+这 就 是 耶 和 华 荣 耀 的 形 像 。
+我 一 看 见 就 俯 伏 在 地 ，
+又 听 见 一 位 说 话 的 声 音 。</text>
+<ref>以西结书 1:28</ref>
+</parol>
+</theword>
+<theword date='2017-03-31'>
+<title>每日金句 三月三十一日 星期五</title>
+<parol book='19' chapter='103' verse='11' id='Ps103v11'>
+<text>天 离 地 何 等 的 高 ，
+他 的 慈 爱 向 敬 畏 他 的 人
+也 是 何 等 的 大 ！</text>
+<ref>诗篇 103:11</ref>
+</parol>
+<parol book='40' chapter='7' verse='11' id='Mt7v11'>
+<text>你们虽然不好，
+尚且知道拿好东西给儿女，
+何况你们在天上的父，
+岂不更把好东西给求他的人麽。</text>
+<ref>马太福音 7:11</ref>
+</parol>
+</theword>
+<theword date='2017-04-01'>
+<title>每日金句 四月一日 星期六</title>
+<parol book='48' chapter='1' verse='8' id='G1v8'>
+<intro>保 罗 写 道：</intro>
+<text>但 无 论 是 我 们 ， 是 天 上 来 的 使 者 ，
+若 传 福 音 给 你 们 ，
+与 我 们 所 传 给 你 们 的 不 同 ，
+他 就 应 当 被 咒 诅 。</text>
+<ref>加拉太书 1:8</ref>
+</parol>
+<parol book='54' chapter='4' verse='16' id='1T4v16'>
+<intro>保 罗 写 信 给 提 摩 太:</intro>
+<text>你 要 谨 慎 自 己 和 自 己 的 教 训 ，
+要 在 这 些 事 上 恒 心 ； 因 为 这 样 行 ，
+又 能 救 自 己 ， 又 能 救 听 你 的 人 。</text>
+<ref>提摩太前书 4:16</ref>
+</parol>
+</theword>
+<theword date='2017-04-02'>
+<title>每日金句 四月二日 星期日</title>
+<parol book='27' chapter='10' verse='11' id='Dn10v11'>
+<intro>但 以 理 描 述 异 象:</intro>
+<text>他 对 我 说 ： 大 蒙 眷 爱 的 但 以 理 啊 ，
+要 明 白 我 与 你 所 说 的 话 ，
+只 管 站 起 来 ，因 为 我 现 在 奉 差 遣 来 到 你 这 里 。
+他 对 我 说 这 话 ， 我 便 战 战 兢 兢 地 立 起 来 。</text>
+<ref>但以理书 10:11</ref>
+</parol>
+<parol book='2' chapter='24' verse='7' id='Ex24v7'>
+<text>耶 和 华 所 吩 咐 的 ，
+我 们 都 必 遵 行 。</text>
+<ref>出埃及记 24:7下</ref>
+</parol>
+</theword>
+<theword date='2017-04-03'>
+<title>每日金句 四月三日 星期一</title>
+<parol book='19' chapter='7' verse='9' id='Ps7v9'>
+<text>耶 和 华 向 众 民 施 行 审 判 .</text>
+<ref>诗篇 7:8 上</ref>
+</parol>
+<parol book='66' chapter='16' verse='7' id='Ap16v7'>
+<text>我又听见祭坛中有声音说，
+是的，主神，全能者阿，
+你的判断义哉，诚哉。</text>
+<ref>启示录 16:7</ref>
+</parol>
+</theword>
+<theword date='2017-04-04'>
+<title>每日金句 四月四日 星期二</title>
+<parol book='41' chapter='1' verse='31' id='Mc1v31'>
+<text>耶 稣 拉 着 西 门 的 岳 母 的 手 ，
+扶 他 起 来 ， 热 就 退 了 ，
+他 就 服 事 他 们 。</text>
+<ref>马可福音 1:31</ref>
+</parol>
+<parol book='19' chapter='116' verse='12' id='Ps116v12'>
+<text>我 拿 甚 麽 报 答 耶 和 华
+向 我 所 赐 的 一 切 厚 恩 ？</text>
+<ref>诗篇 116:12</ref>
+</parol>
+</theword>
+<theword date='2017-04-05'>
+<title>每日金句 四月五日 星期三</title>
+<parol book='47' chapter='2' verse='14' id='2K2v14'>
+<text>感 谢 神 ！
+常 帅 领 我 们 在 基 督 里 夸 胜 ，
+并 藉 着 我 们 在 各 处 显 扬
+那 因 认 识 基 督 而 有 的 香 气 。</text>
+<ref>哥林多后书 2:14</ref>
+</parol>
+<parol book='40' chapter='5' verse='16' id='Mt5v16'>
+<text>你们的光也当这样照在人前，
+叫他们看见你们的好行为，
+便将荣耀归给你们在天上的父。</text>
+<ref>马太福音 5:16</ref>
+</parol>
+</theword>
+<theword date='2017-04-06'>
+<title>每日金句 四月六日 星期四</title>
+<parol book='1' chapter='1' verse='1' id='Gn1v1'>
+<text>起 初 ，
+神 创 造 天 地 。</text>
+<ref>创世记 1:1</ref>
+</parol>
+<parol book='19' chapter='136' verse='2' id='Ps136v2'>
+<text>你 们 要 称 谢 万 神 之 神 ，
+因 他 的 慈 爱 永 远 长 存 。</text>
+<ref>诗篇 136:2</ref>
+</parol>
+</theword>
+<theword date='2017-04-07'>
+<title>每日金句 四月七日 星期五</title>
+<parol book='41' chapter='8' verse='29' id='Mc8v29'>
+<text>彼 得 回 答 说 ： 你 是 基 督 。</text>
+<ref>马可福音 8:29 下</ref>
+</parol>
+<parol book='40' chapter='27' verse='54' id='Mt27v54'>
+<text>百 夫 长 和 一 同 看 守 耶 稣 的 人
+看 见 地 震 并 所 经 历 的 事 ， 就
+极 其 害 怕 ， 说 ：
+这 真 是 神 的 儿 子 了 ！</text>
+<ref>马太福音 27:54</ref>
+</parol>
+</theword>
+<theword date='2017-04-08'>
+<title>每日金句 四月八日 星期六</title>
+<parol book='19' chapter='91' verse='1' id='Ps91v1-2'>
+<text>住 在 至 高 者 隐 密 处 的 ，
+必 住 在 全 能 者 的 荫 下 。
+我 要 论 到 耶 和 华 说 ：
+他 是 我 的 避 难 所 ， 是 我 的 山 寨 ，
+是 我 的 神 ， 是 我 所 倚 靠 的 。</text>
+<ref>诗篇 91:1-2</ref>
+</parol>
+<parol book='45' chapter='8' verse='31' id='R8v31'>
+<text>神若帮助我们，谁能抵挡我们呢？</text>
+<ref>罗马书 8:31 下</ref>
+</parol>
+</theword>
+<theword date='2017-04-09'>
+<title>每日金句 四月九日 星期日</title>
+<parol book='40' chapter='11' verse='14' id='Mt11v14'>
+<intro>耶 稣 告 诉 人群 关 于 施 洗 约 翰：</intro>
+<text>你 们 若 肯 领 受 ，
+这 人 就 是 那 应 当 来 的 以 利 亚 。</text>
+<ref>马太福音 11:14</ref>
+</parol>
+<parol book='42' chapter='1' verse='17' id='L1v17'>
+<intro>天 使 说 关 于 约 翰:</intro>
+<text>他 必 有 以 利 亚 的 心 志 能 力 ，
+行 在 主 的 前 面 ， 叫 为 父 的 心 转 向 儿 女 ，
+叫 悖 逆 的 人 转 从 义 人 的 智 慧 。
+又 为 主 豫 备 合 用 的 百 姓 。</text>
+<ref>路加福音 1:17</ref>
+</parol>
+</theword>
+<theword date='2017-04-10'>
+<title>每日金句 四月十日 星期一</title>
+<parol book='41' chapter='6' verse='7' id='Mc6v7'>
+<text>耶 稣 叫 了 十 二 个 门 徒 来 ，
+差 遣 他 们 两 个 两 个 的 出 去 。
+也 赐 给 他 们 权 柄 ， 制 伏 污 鬼 。</text>
+<ref>马可福音 6:7</ref>
+</parol>
+<parol book='40' chapter='28' verse='18' id='Mt28v18-20'>
+<intro>耶 稣 说:</intro>
+<text>天 上 ， 地 下 所 有 的 权 柄 ， 都 赐 给 我 了 。
+所 以 你 们 要 去 ， 使 万 民 作 我 的 门 徒 ，
+奉 父 子 圣 灵 的 名 ， 给 他 们 施 洗 。
+凡 我 所 吩 咐 你 们 的 ，都 教 训 他 们 遵 守 ，
+我 就 常 与 你 们 同 在 ， 直 到 世 界 的 末 了 。</text>
+<ref>马太福音 28:18-20</ref>
+</parol>
+</theword>
+<theword date='2017-04-11'>
+<title>每日金句 四月十一日 星期二</title>
+<parol book='51' chapter='3' verse='12' id='Kol3v12'>
+<text>所 以 ， 你 们 既 是 神 的 选 民 ，
+圣 洁 蒙 爱 的 人 ，
+就 要 存 怜 悯 、 恩 慈 、
+谦 虚 、 温 柔 、 忍 耐 的 心 。</text>
+<ref>歌罗西书 3:12</ref>
+</parol>
+<parol book='40' chapter='5' verse='39' id='Mt5v39'>
+<text>... 不 要 与 恶 人 作 对 。
+有 人 打 你 的 右 脸 ，
+连 左 脸 也 转 过 来 由 他 打 ...</text>
+<ref>马太福音 5:39</ref>
+</parol>
+</theword>
+<theword date='2017-04-12'>
+<title>每日金句 四月十二日 星期三</title>
+<parol book='19' chapter='62' verse='10' id='Ps62v10'>
+<text>下 流 人 真 是 虚 空 ，
+上 流 人 也 是 虚 假 。
+放 在 天 平 里 就 必 浮 起 。
+他 们 一 共 比 空 气 还 轻 。</text>
+<ref>诗篇 62:9</ref>
+</parol>
+<parol book='46' chapter='15' verse='42' id='1K15v42'>
+<text>所 种 的 是 必 朽 坏 的 ， 复 活 的 是 不 朽 坏 的 。</text>
+<ref>哥林多前书 15:42下</ref>
+</parol>
+</theword>
+<theword date='2017-04-13'>
+<title>每日金句 四月十三日 星期四</title>
+<parol book='43' chapter='8' verse='12' id='J8v12'>
+<text>耶稣又对众人说，
+我是世上的光。
+跟从我的，就不在黑暗里走，
+必要得着生命的光。</text>
+<ref>约翰福音 8:12</ref>
+</parol>
+<parol book='47' chapter='4' verse='4' id='2K4v4'>
+<text>此 等 不 信 之 人
+被 这 世 界 的 神 弄 瞎 了 心 眼 ，
+不 叫 基 督 荣 耀 福 音 的 光 照 着 他 们 。
+基 督 本 是 神 的 像 。</text>
+<ref>哥林多后书 4:4</ref>
+</parol>
+</theword>
+<theword date='2017-04-14'>
+<title>每日金句 四月十四日 星期五</title>
+<parol book='1' chapter='19' verse='13' id='Gn19v13'>
+<intro>两 天 使 到 了 所 多 玛 对 罗 得 说 :</intro>
+<text>我 们 要 毁 灭 这 地 方 ；
+因 为 城 内 罪 恶 的 声 音 在 耶 和 华 面 前 甚 大 ，
+耶 和 华 差 我 们 来 ， 要 毁 灭 这 地 方 。</text>
+<ref>创世记 19:13</ref>
+</parol>
+<parol book='19' chapter='33' verse='10' id='Ps33v10'>
+<text>耶 和 华 使 列 国 的 筹 算 归 於 无 有 ，
+使 众 民 的 思 念 无 有 功 效 。</text>
+<ref>诗篇 33:10</ref>
+</parol>
+</theword>
+<theword date='2017-04-15'>
+<title>每日金句 四月十五日 星期六</title>
+<parol book='51' chapter='3' verse='25' id='Kol3v25'>
+<text>那行不义的，
+必受不义的报应。
+主不偏待人。</text>
+<ref>歌罗西书 3:25</ref>
+</parol>
+<parol book='60' chapter='1' verse='17' id='1P1v17'>
+<text>你 们 既 称 那 不 偏 待 人 、
+按 各 人 行 为 审 判 人 的 主 为 父 ，
+就 当 存 敬 畏 的 心 度 你 们 在 世 寄 居 的 日 子 。</text>
+<ref>彼得前书 1:17</ref>
+</parol>
+</theword>
+<theword date='2017-04-16'>
+<title>每日金句 四月十六日 星期日</title>
+<parol book='19' chapter='10' verse='17' id='Ps10v17'>
+<text>耶 和 华 啊 ， 谦 卑 人 的 心 愿 ， 你 早 已 知 道 。
+你 必 预 备 他 们 的 心 ， 也 必 侧 耳 听 他 们 的 祈 求 。</text>
+<ref>诗篇 10:17</ref>
+</parol>
+<parol book='40' chapter='8' verse='25' id='Mt8v25-26'>
+<text>门 徒 来 叫 醒 了 耶 稣 ， 说 ：
+主 阿 ， 救 我 们 ， 我 们 丧 命 啦 ！
+耶 稣 说 ：
+你 们 这 小 信 的 人 哪 ， 为 甚 麽 胆 怯 呢 ？
+於 是 起 来 ， 斥 责 风 和 海 ，
+风 和 海 就 大 大 的 平 静 了
+。</text>
+<ref>马太福音 8:25-26</ref>
+</parol>
+</theword>
+<theword date='2017-04-17'>
+<title>每日金句 四月十七日 星期一</title>
+<parol book='58' chapter='10' verse='25' id='H10v25'>
+<text>你 们 不 可 停 止 聚 会 ，
+好 像 那 些 停 止 惯 了 的 人 ，
+倒 要 彼 此 劝 勉 。</text>
+<ref>希伯来书 10:25 上</ref>
+</parol>
+<parol book='19' chapter='81' verse='14' id='Ps81v14'>
+<text>甚 愿 我 的 民 肯 听 从 我 ...</text>
+<ref>诗篇 81:13上</ref>
+</parol>
+</theword>
+<theword date='2017-04-18'>
+<title>每日金句 四月十八日 星期二</title>
+<parol book='43' chapter='1' verse='5' id='J1v5'>
+<text>光 照 在 黑 暗 里 ，
+黑 暗 却 不 接 受 光 。</text>
+<ref>约翰福音 1:5</ref>
+</parol>
+<parol book='49' chapter='5' verse='8' id='E5v8-9'>
+<text>从前你们是暗昧的，
+但如今在主里面是光明的，
+行事为人就当像光明的子女。
+光明所结的果子，
+就是一切良善，公义，诚实。</text>
+<ref>以弗所书 5:8-9</ref>
+</parol>
+</theword>
+<theword date='2017-04-19'>
+<title>每日金句 四月十九日 星期三</title>
+<parol book='40' chapter='16' verse='8' id='Mt16v8-9'>
+<intro>耶 稣 对 门 徒 说 ：</intro>
+<text>你 们 这 小 信 的 人 ，
+为 甚 麽 因 为 没 有 饼 彼 此 议 论 呢 ？
+你 们 还 不 明 白 麽 ？ 不 记 得 那 五 个 饼 分 给 五 千 人 、
+又 收 拾 了 多 少 篮 子 的 零 碎 麽 ？</text>
+<ref>马太福音 16:8-9</ref>
+</parol>
+<parol book='26' chapter='36' verse='23' id='Ez36v23'>
+<text>我 在 他 们 眼 前 ， 在 你 们 身 上 显 为 圣 的 时 候 ，
+他 们 就 知 道 我 是 耶 和 华 。
+这 是 主 耶 和 华 说 的 。</text>
+<ref>以西结书 36:23 下</ref>
+</parol>
+</theword>
+<theword date='2017-04-20'>
+<title>每日金句 四月二十日 星期四</title>
+<parol book='24' chapter='2' verse='2' id='Jr2v2'>
+<text>... 耶 和 华 如 此 说 ：
+你 幼 年 的 恩 爱 ，
+婚 姻 的 爱 情 ，
+你 怎 样 在 旷 野 ，
+在 未 曾 耕 种 之 地 跟 随 我 ，
+我 都 记 得 。</text>
+<ref>耶利米书 2:2</ref>
+</parol>
+<parol book='58' chapter='6' verse='10' id='H6v10'>
+<text>因 为 神 并 非 不 公 义 ，
+竟 忘 记 你 们 所 做 的 工 和 你 们 为 他 名 所 显 的 爱 心 ，
+就 是 先 前 伺 候 圣 徒 ， 如 今 还 是 伺 候 。</text>
+<ref>希伯来书 6:10</ref>
+</parol>
+</theword>
+<theword date='2017-04-21'>
+<title>每日金句 四月二十一日 星期五</title>
+<parol book='40' chapter='19' verse='17' id='Mt19v17'>
+<text>耶 稣 对 他 说 ：
+你 为 甚 麽 以 善 事 问 我 呢 ？
+只 有 一 位 是 善 的 。
+你 若 要 进 入 永 生 ， 就 当 遵 守 诫 命 。</text>
+<ref>马太福音 19:17</ref>
+</parol>
+<parol book='24' chapter='9' verse='22' id='Jr9v22-23'>
+<text>智 慧 人 不 要 因 他 的 智 慧 夸 口 ，
+勇 士 不 要 因 他 的 勇 力 夸 口 ，
+财 主 不 要 因 他 的 财 物 夸 口 。
+夸 口 的 却 因 他 有 聪 明 ，
+认 识 我 是 耶 和 华 ，
+又 知 道 我 喜 悦 在 世 上
+施 行 慈 爱 、 公 平 ， 和 公 义 ， 以 此 夸 口 。</text>
+<ref>耶利米书 9:23-24</ref>
+</parol>
+</theword>
+<theword date='2017-04-22'>
+<title>每日金句 四月二十二日 星期六</title>
+<parol book='1' chapter='3' verse='8' id='Gn3v8'>
+<text>那 人 和 他 妻 子 听 见 神 的 声 音 ，
+躲 避 耶 和 华 神 的 面 。</text>
+<ref>创世记 3:8</ref>
+</parol>
+<parol book='19' chapter='100' verse='1' id='Ps100v1-2'>
+<text>普 天 下 当 向 耶 和 华 欢 呼 ！
+你 们 当 乐 意 事 奉 耶 和 华 ，
+当 来 向 他 歌 唱 ！</text>
+<ref>诗篇 100:1-2</ref>
+</parol>
+</theword>
+<theword date='2017-04-23'>
+<title>每日金句 四月二十三日 星期日</title>
+<parol book='25' chapter='3' verse='57' id='Thr3v57'>
+<text>我 求 告 你 的 日 子 ，
+你 临 近 我 ，
+说 ： 不 要 惧 怕 ！</text>
+<ref>耶利米哀歌 3:57</ref>
+</parol>
+<parol book='45' chapter='10' verse='12' id='R10v12-13'>
+<text>犹 太 人 和 希 利 尼 人 并 没 有 分 别 ，
+因 为 众 人 同 有 一 位 主 ；
+他 也 厚 待 一 切 求 告 他 的 人 。
+因 为 凡 求 告 主 名 的 ， 就 必 得 救 。</text>
+<ref>罗马书 10:12-13</ref>
+</parol>
+</theword>
+<theword date='2017-04-24'>
+<title>每日金句 四月二十四日 星期一</title>
+<parol book='19' chapter='145' verse='17' id='Ps145v17'>
+<text>耶 和 华 在 他 一 切 所 行 的 ， 无 不 公 义 ；
+在 他 一 切 所 做 的 都 有 慈 爱 。</text>
+<ref>诗篇 145:17</ref>
+</parol>
+<parol book='45' chapter='11' verse='29' id='R11v29'>
+<text>神的恩赐和选召，
+是没有后悔的。</text>
+<ref>罗马书 11:29</ref>
+</parol>
+</theword>
+<theword date='2017-04-25'>
+<title>每日金句 四月二十五日 星期二</title>
+<parol book='52' chapter='5' verse='8' id='1Th5v8'>
+<text>但 我 们 既 然 属 乎 白 昼 ， 就 应 当 谨 守 ，
+把 信 和 爱 当 作 护 心 镜 遮 胸 ，
+把 得 救 的 盼 望 当 作 头 盔 戴 上 。</text>
+<ref>帖撒罗尼迦前书 5:8</ref>
+</parol>
+<parol book='62' chapter='1' verse='7' id='1J1v7'>
+<text>我 们 若 在 光 明 中 行 ，如 同 神 在 光 明 中 ，
+就 彼 此 相 交 ，
+他 儿 子 耶 稣 的 血 也 洗 净 我 们 一 切 的 罪 。</text>
+<ref>约翰一书 1:7</ref>
+</parol>
+</theword>
+<theword date='2017-04-26'>
+<title>每日金句 四月二十六日 星期三</title>
+<parol book='43' chapter='4' verse='51' id='J4v51'>
+<text>那 大 臣 正 下 去 的 时 候 ，
+他 的 仆 人 迎 见 他 ， 说 ，
+他 的 儿 子 活 了 。</text>
+<ref>约翰福音 4:51</ref>
+</parol>
+<parol book='43' chapter='5' verse='25' id='J5v25'>
+<intro>耶 稣 说:</intro>
+<text>... 时 候 将 到 ， 现 在 就 是 了 ，
+死 人 要 听 见 神 儿 子 的 声 音 ，
+听 见 的 人 就 要 活 了 。</text>
+<ref>约翰福音 5:25</ref>
+</parol>
+</theword>
+<theword date='2017-04-27'>
+<title>每日金句 四月二十七日 星期四</title>
+<parol book='46' chapter='15' verse='5' id='1K15v5'>
+<text>基 督 显 给 矶 法 看 ， 然 後 显 给 十 二 使 徒 看 。</text>
+<ref>哥林多前书 15:5</ref>
+</parol>
+<parol book='55' chapter='1' verse='10' id='2T1v10'>
+<text>但 如 今 藉 着 我 们 救 主 基 督 耶 稣 的 显 现
+才 表 明 出 来 了 。
+他 已 经 把 死 废 去 ，
+藉 着 福 音 ，
+将 不 能 坏 的 生 命 彰 显 出 来 。</text>
+<ref>提摩太后书 1:10</ref>
+</parol>
+</theword>
+<theword date='2017-04-28'>
+<title>每日金句 四月二十八日 星期五</title>
+<parol book='23' chapter='60' verse='10' id='Is60v10'>
+<text>... 我 曾 发 怒 击 打 你 ，
+现 今 却 施 恩 怜 恤 你 。</text>
+<ref>以赛亚书 60:10</ref>
+</parol>
+<parol book='33' chapter='7' verse='19' id='Mch7v19'>
+<text>必再怜悯我们，
+将我们的罪孽踏在脚下，
+又将我们的一切罪投于深海。</text>
+<ref>弥迦书 7:19</ref>
+</parol>
+</theword>
+<theword date='2017-04-29'>
+<title>每日金句 四月二十九日 星期六</title>
+<parol book='24' chapter='32' verse='42' id='Jr32v42'>
+<text>因 为 耶 和 华 如 此 说 ：
+我 怎 样 使 这 一 切 大 祸 临 到 这 百 姓 ，
+我 也 要 照 样 使 我 所 应 许 他 们 的 一 切 福 乐 都 临 到 他 们 。</text>
+<ref>耶利米书 32:42</ref>
+</parol>
+<parol book='19' chapter='4' verse='7' id='Ps4v7'>
+<text>有许多人说，
+谁能指示我们什么好处？
+耶和华阿，
+求你仰起脸来，光照我们。</text>
+<ref>诗篇 4:6</ref>
+</parol>
+</theword>
+<theword date='2017-04-30'>
+<title>每日金句 四月三十日 星期日</title>
+<parol book='1' chapter='6' verse='8' id='Gn6v8'>
+<text>惟有挪亚在耶和华眼前蒙恩。</text>
+<ref>创世记 6:8</ref>
+</parol>
+<parol book='47' chapter='13' verse='13' id='2K13v13'>
+<text>愿主耶稣基督的恩惠，
+神的慈爱，
+圣灵的感动，
+常与你们众人同在。</text>
+<ref>哥林多后书 13:14</ref>
+</parol>
+</theword>
+<theword date='2017-05-01'>
+<title>每日金句 五月一日 星期一</title>
+<parol book='19' chapter='16' verse='8' id='Ps16v8'>
+<text>我将耶和华常摆在我面前。
+因他在我右边，我便不至摇动。</text>
+<ref>诗篇 16:8</ref>
+</parol>
+<parol book='42' chapter='21' verse='28' id='L21v28'>
+<intro>耶 稣 说：</intro>
+<text>一 有 这 些 事 ，
+你 们 就 当 挺 身 昂 首 ，
+因 为 你 们 得 赎 的 日 子 近 了 。</text>
+<ref>路加福音 21:28</ref>
+</parol>
+</theword>
+<theword date='2017-05-02'>
+<title>每日金句 五月二日 星期二</title>
+<parol book='42' chapter='10' verse='21' id='L10v21'>
+<text>正 当 那 时 ， 耶 稣 被 圣 灵 感 动 就 欢 乐 ， 说 ：
+父 阿 ， 天 地 的 主 ， 我 感 谢 你 ！
+因 为 你 将 这 些 事 向 聪 明 通 达 人 就 藏 起 来 ，
+向 婴 孩 就 显 出 来 。
+父 阿 ！ 是 的 ， 因 为 你 的 美 意 本 是 如 此 。</text>
+<ref>路加福音 10:21</ref>
+</parol>
+<parol book='46' chapter='1' verse='20' id='1K1v20'>
+<text>智慧人在那里文士在那里？
+这世上的辩士在那里？
+神岂不是叫这世上的智慧变成愚拙麽？</text>
+<ref>哥林多前书 1:20</ref>
+</parol>
+</theword>
+<theword date='2017-05-03'>
+<title>每日金句 五月三日 星期三</title>
+<parol book='58' chapter='2' verse='3' id='H2v3'>
+<text>我 们 若 忽 略 这 麽 大 的 救 恩 ，怎 能 逃 罪 呢 ？
+这 救 恩 起 先 是 主 亲 自 讲 的 ，
+後 来 是 听 见 的 人 给 我 们 证 实 了 。</text>
+<ref>希伯来书 2:3</ref>
+</parol>
+<parol book='19' chapter='139' verse='9' id='Ps139v9-10'>
+<text>我 若 展 开 清 晨 的 翅 膀 ，
+飞 到 海 极 居 住 ， 就 是 在 那 里 ，
+你 的 手 必 引 导 我 ；
+你 的 右 手 也 必 扶 持 我 。</text>
+<ref>诗篇 139:9-10</ref>
+</parol>
+</theword>
+<theword date='2017-05-04'>
+<title>每日金句 五月四日 星期四</title>
+<parol book='26' chapter='37' verse='23' id='Ez37v23'>
+<text>我 却 要 救 他 们 出 离 一 切 的 住 处 ，
+就 是 他 们 犯 罪 的 地 方 ； 我 要 洁 净 他 们 ，
+如 此 ， 他 们 要 作 我 的 子 民 ，
+我 要 作 他 们 的 神 。</text>
+<ref>以西结书 37:23下</ref>
+</parol>
+<parol book='66' chapter='21' verse='3' id='Ap21v3'>
+<intro>约翰写：</intro>
+<text>我听见有大声音从宝座出来说，
+看哪，神的帐幕在人间。
+他要与人同住，他们要作他的子民，
+神要亲自与他们同在，作他们的神。</text>
+<ref>启示录 21:3</ref>
+</parol>
+</theword>
+<theword date='2017-05-05'>
+<title>每日金句 五月五日 星期五</title>
+<parol book='1' chapter='26' verse='3' id='Gn26v3'>
+<text>你 寄 居 在 这 地 ，
+我 必 与 你 同 在 ， 赐 福 给 你 ...</text>
+<ref>创世记 26:3</ref>
+</parol>
+<parol book='45' chapter='9' verse='16' id='R9v16'>
+<text>这 不 在 乎 那 定 意 的 ， 也 不 在 乎 那 奔 跑 的 ，
+只 在 乎 发 怜 悯 的 神 。</text>
+<ref>罗马书 9:16</ref>
+</parol>
+</theword>
+<theword date='2017-05-06'>
+<title>每日金句 五月六日 星期六</title>
+<parol book='19' chapter='33' verse='9' id='Ps33v9'>
+<text>他说有，就有。
+命立，就立。</text>
+<ref>诗篇 33:9</ref>
+</parol>
+<parol book='42' chapter='21' verse='33' id='L21v33'>
+<intro>耶 稣 基 督 说：</intro>
+<text>天地要废去，
+我的话却不能废去。</text>
+<ref>路加福音 21:33</ref>
+</parol>
+</theword>
+<theword date='2017-05-07'>
+<title>每日金句 五月七日 星期日</title>
+<parol book='19' chapter='117' verse='1' id='Ps117v1'>
+<text>万 国 啊 ， 你 们 都 当 赞 美 耶 和 华 ！
+万 民 哪 ， 你 们 都 当 颂 赞 他 ！</text>
+<ref>诗篇 117:1</ref>
+</parol>
+<parol book='11' chapter='8' verse='60' id='1Rg8v60'>
+<text>地 上 的 万 民 都 知 道
+惟 独 耶 和 华 是 神 ， 并 无 别 神 。</text>
+<ref>列王纪上 8:60</ref>
+</parol>
+</theword>
+<theword date='2017-05-08'>
+<title>每日金句 五月八日 星期一</title>
+<parol book='46' chapter='4' verse='20' id='1K4v20'>
+<text>因 为 神 的 国 不 在 乎 言 语 ，
+乃 在 乎 权 能 。</text>
+<ref>哥林多前书 4:20</ref>
+</parol>
+<parol book='14' chapter='25' verse='8' id='2Chr25v8'>
+<text>神能助人得胜，
+也能使人倾败。</text>
+<ref>历代志下 25:8</ref>
+</parol>
+</theword>
+<theword date='2017-05-09'>
+<title>每日金句 五月九日 星期二</title>
+<parol book='40' chapter='5' verse='13' id='Mt5v13'>
+<text>你 们 是 世 上 的 盐 。
+盐 若 失 了 味 ，
+怎 能 叫 他 再 咸 呢 ？</text>
+<ref>马太福音 5:13 上</ref>
+</parol>
+<parol book='66' chapter='3' verse='15' id='Ap3v15-16'>
+<text>我知道的行为，你也不冷也不热。
+我巴不得你或冷或热。
+你既如温水，也不冷也不热，
+所以我必从我口中把你吐出去。</text>
+<ref>启示录 3:15-16</ref>
+</parol>
+</theword>
+<theword date='2017-05-10'>
+<title>每日金句 五月十日 星期三</title>
+<parol book='10' chapter='7' verse='18' id='2Sm7v18'>
+<intro>大 卫 王 说：</intro>
+<text>主 耶 和 华 啊 ， 我 是 谁 ？ 我 的 家 算 甚 麽 ？
+你 竟 使 我 到 这 地 步 呢 ？</text>
+<ref>撒母耳记下 7:18</ref>
+</parol>
+<parol book='46' chapter='15' verse='10' id='1K15v10'>
+<intro>保 罗 写 道：</intro>
+<text>然 而 ， 我 今 日 成 了 何 等 人 ，
+是 蒙 神 的 恩 才 成 的 ，
+并 且 他 所 赐 我 的 恩 不 是 徒 然 的 。
+我 比 众 使 徒 格 外 劳 苦 ；
+这 原 不 是 我 ，
+乃 是 神 的 恩 与 我 同 在 。</text>
+<ref>哥林多前书 15:10</ref>
+</parol>
+</theword>
+<theword date='2017-05-11'>
+<title>每日金句 五月十一日 星期四</title>
+<parol book='1' chapter='2' verse='15' id='Gn2v15'>
+<text>耶 和 华 神 将 那 人 安 置 在 伊 甸 园 ，
+使 他  修 理 ， 看 守 。</text>
+<ref>创世记 2:15</ref>
+</parol>
+<parol book='43' chapter='17' verse='15' id='J17v15'>
+<intro>耶稣祷告：</intro>
+<text>我不求你叫他们离开世界，
+只求你保守他们脱离那恶者。</text>
+<ref>约翰福音 17:15</ref>
+</parol>
+</theword>
+<theword date='2017-05-12'>
+<title>每日金句 五月十二日 星期五</title>
+<parol book='33' chapter='5' verse='4' id='Mch5v4'>
+<intro>弥 迦 说 对 于 伯 利 恒 ， 以 法 他 掌 权 的 人:</intro>
+<text>这 位 必 作 我 们 的 平 安 。</text>
+<ref>弥迦书 5:5上</ref>
+</parol>
+<parol book='42' chapter='2' verse='15' id='L2v15'>
+<text>众 天 使 离 开 他 们 升 天 去 了 ，
+牧 羊 的 人 彼 此 说 ，
+我 们 往 伯 利 恒 去 ，
+看 看 所 成 的 事 ，
+就 是 主 所 指 示 我 们 的 。</text>
+<ref>路加福音 2:15</ref>
+</parol>
+</theword>
+<theword date='2017-05-13'>
+<title>每日金句 五月十三日 星期六</title>
+<parol book='54' chapter='6' verse='7' id='1T6v7-8'>
+<text>我 们 没 有 带 甚 麽 到 世 上 来 ，
+也 不 能 带 甚 麽 去 。
+只 要 有 衣 有 食 ，
+就 当 知 足 。</text>
+<ref>提摩太前书 6:7-8</ref>
+</parol>
+<parol book='40' chapter='6' verse='26' id='Mt6v26'>
+<text>你 们 看 那 天 上 的 飞 鸟 ，
+也 不 种 ， 也 不 收 ， 也 不 积 蓄 在 仓 里 ，
+你 们 的 天 父 尚 且 养 活 他 。
+你 们 不 比 飞 鸟 贵 重 得 多 麽 。</text>
+<ref>马太福音 6:26</ref>
+</parol>
+</theword>
+<theword date='2017-05-14'>
+<title>每日金句 五月十四日 星期日</title>
+<parol book='7' chapter='6' verse='23' id='Jdc6v23-24'>
+<text>耶 和 华 对 基 甸 说 ，
+你 放 心 ，
+不 要 惧 怕 ， 你 必 不 至 死 。
+于 是 基 甸 在 那 里 为 耶 和 华 筑 了 一 座 坛 ，
+起 名 叫 耶 和 华 沙 龙 （ 就 是 耶 和 华 赐 平 安 的 意 思 ） 。</text>
+<ref>士师记 6:23-24</ref>
+</parol>
+<parol book='42' chapter='1' verse='30' id='L1v30'>
+<text>天 使 对 他 说 ，
+马 利 亚 不 要 怕 。
+你 在 神 面 前 已 经 蒙 恩 了 。</text>
+<ref>路加福音 1:30</ref>
+</parol>
+</theword>
+<theword date='2017-05-15'>
+<title>每日金句 五月十五日 星期一</title>
+<parol book='18' chapter='16' verse='19' id='Job16v19'>
+<text>现今，在天有我的见证，
+在上有我的中保。</text>
+<ref>约伯记 16:19</ref>
+</parol>
+<parol book='19' chapter='88' verse='9' id='Ps88v9-10'>
+<text>... 我 被 拘 困 ， 不 得 出 来 。
+我 的 眼 睛 因 困 苦 而 乾 瘪 。
+耶 和 华 啊 ， 我 天 天 求 告 你 ，
+向 你 举 手 。</text>
+<ref>诗篇 88:8-9下</ref>
+</parol>
+</theword>
+<theword date='2017-05-16'>
+<title>每日金句 五月十六日 星期二</title>
+<parol book='43' chapter='14' verse='9' id='J14v9'>
+<text>耶 稣 对 他 说 ： 腓 力 ，
+我 与 你 们 同 在 这 样 长 久 ，
+你 还 不 认 识 我 麽 ？
+人 看 见 了 我 ，就 是 看 见 了 父 ...</text>
+<ref>约翰福音 14:9</ref>
+</parol>
+<parol book='61' chapter='3' verse='18' id='2P3v18'>
+<text>你 们 却 要 在 我 们 主 ─
+救 主 耶 稣 基 督 的 恩 典 和 知 识 上 有 长 进 。
+愿 荣 耀 归 给 他 ，
+从 今 直 到 永 远 。</text>
+<ref>彼得后书 3:18</ref>
+</parol>
+</theword>
+<theword date='2017-05-17'>
+<title>每日金句 五月十七日 星期三</title>
+<parol book='59' chapter='4' verse='10' id='Jc4v10'>
+<text>务 要 在 主 面 前 自 卑 ，
+主 就 必 叫 你 们 升 高 。</text>
+<ref>雅各书 4:10</ref>
+</parol>
+<parol book='42' chapter='18' verse='14' id='L18v14'>
+<text>...
+自 高 的 ， 必 降 为 卑 ；
+自 卑 的 ， 必 升 为 高 。</text>
+<ref>路加福音 18:14</ref>
+</parol>
+</theword>
+<theword date='2017-05-18'>
+<title>每日金句 五月十八日 星期四</title>
+<parol book='24' chapter='8' verse='4' id='Jr8v4'>
+<text>人 跌 倒 ， 不 再 起 来 麽 。
+人 转 去 ， 不 再 转 来 麽 。</text>
+<ref>耶利米书 8:4下</ref>
+</parol>
+<parol book='40' chapter='3' verse='2' id='Mt3v2'>
+<intro>施 洗 约 翰 传 道 说  ：</intro>
+<text>天 国 近 了 ， 你 们 应 当 悔 改 ！</text>
+<ref>马太福音 3:2</ref>
+</parol>
+</theword>
+<theword date='2017-05-19'>
+<title>每日金句 五月十九日 星期五</title>
+<parol book='40' chapter='13' verse='33' id='Mt13v33'>
+<text>耶 稣 又 对 他 们 讲 个 比 喻 说 ，
+天 国 好 像 面 酵 ，
+有 妇 人 拿 来 ， 藏 在 三 斗 面 里 ，
+直 等 全 团 都 发 起 来 。</text>
+<ref>马太福音 13:33</ref>
+</parol>
+<parol book='44' chapter='4' verse='4' id='Act4v4'>
+<text>但 听 道 之 人 有 许 多 信 的 ，
+男 丁 数 目 约 到 五 千 。</text>
+<ref>使徒行传 4:4</ref>
+</parol>
+</theword>
+<theword date='2017-05-20'>
+<title>每日金句 五月二十日 星期六</title>
+<parol book='19' chapter='27' verse='14' id='Ps27v14'>
+<text>要 等 候 耶 和 华 。
+当 壮 胆 ， 坚 固 你 的 心 。
+我 再 说 ， 要 等 候 耶 和 华 。</text>
+<ref>诗篇 27:14</ref>
+</parol>
+<parol book='47' chapter='4' verse='16' id='2K4v16'>
+<text>我们不丧胆。外体虽然毁坏，
+内心却一天新似一天。</text>
+<ref>哥林多后书 4:16</ref>
+</parol>
+</theword>
+<theword date='2017-05-21'>
+<title>每日金句 五月二十一日 星期日</title>
+<parol book='52' chapter='5' verse='17' id='1Th5v17'>
+<text>不 住 的 祷 告 ...</text>
+<ref>帖撒罗尼迦前书 5:17</ref>
+</parol>
+<parol book='24' chapter='29' verse='13' id='Jr29v13-14'>
+<text>你们寻求我，若专心寻求我，就必寻见。这是耶和华说的。</text>
+<ref>耶利米书 29:13-14</ref>
+</parol>
+</theword>
+<theword date='2017-05-22'>
+<title>每日金句 五月二十二日 星期一</title>
+<parol book='33' chapter='5' verse='3' id='Mch5v3'>
+<intro>弥 迦 宣 告作 掌 权 的：</intro>
+<text>他 必 起 来 ，
+倚 靠 耶 和 华 的 大 能 ，
+并 耶 和 华 ─ 他 神 之 名 的 威 严 ， 牧 养 他 的 羊 群 。
+他 们 要 安 然 居 住 ；
+因 为 他 必 日 见 尊 大 ， 直 到 地 极 。</text>
+<ref>弥迦书 5:4</ref>
+</parol>
+<parol book='44' chapter='2' verse='39' id='Act2v39'>
+<intro>彼 得 对 犹 太 人 说：</intro>
+<text>因 为 这 应 许 是 给 你 们 和 你 们 的 儿 女 ，
+并 一 切 在 远 方 的 人 ，
+就 是 主 ─ 我 们 神 所 召 来 的 。</text>
+<ref>使徒行传 2:39</ref>
+</parol>
+</theword>
+<theword date='2017-05-23'>
+<title>每日金句 五月二十三日 星期二</title>
+<parol book='45' chapter='14' verse='9' id='R14v9'>
+<text>因 此 基 督 死 了 ， 又 活 了 ，
+为 要 作 死 人 并 活 人 的 主 。</text>
+<ref>罗马书 14:9</ref>
+</parol>
+<parol book='66' chapter='1' verse='17' id='Ap1v17-18'>
+<text>不要惧怕。
+我是首先的，我是末后的，又是那存活的。
+我曾死过，现在又活了，
+直活到永永远远。
+并且拿着死亡和阴间的钥匙。</text>
+<ref>启示录 1:17-18</ref>
+</parol>
+</theword>
+<theword date='2017-05-24'>
+<title>每日金句 五月二十四日 星期三</title>
+<parol book='11' chapter='8' verse='58' id='1Rg8v58'>
+<text>使 我 们 的 心 归 向 他 ，
+遵 行 他 的 道 ...</text>
+<ref>列王纪上 8:58上</ref>
+</parol>
+<parol book='49' chapter='2' verse='10' id='E2v10'>
+<text>我们原是他的工作，
+在基督耶稣里造成的，
+为要叫我们行善，
+就是神所豫备叫我们行的。</text>
+<ref>以弗所书 2:10</ref>
+</parol>
+</theword>
+<theword date='2017-05-25'>
+<title>每日金句 五月二十五日 星期四</title>
+<parol book='62' chapter='3' verse='8' id='1J3v8'>
+<text>犯 罪 的 是 属 魔 鬼 ，
+因 为 魔 鬼 从 起 初 就 犯 罪 。
+神 的 儿 子 显 现 出 来 ，
+为 要 除 灭 魔 鬼 的 作 为 。</text>
+<ref>约翰一书 3:8</ref>
+</parol>
+<parol book='46' chapter='15' verse='26' id='1K15v26'>
+<text>尽 末 了 所 毁 灭 的 仇 敌 ， 就 是 死 。</text>
+<ref>哥林多前书 15:26</ref>
+</parol>
+</theword>
+<theword date='2017-05-26'>
+<title>每日金句 五月二十六日 星期五</title>
+<parol book='48' chapter='1' verse='22' id='G1v22-24'>
+<intro>保 罗 写 道：</intro>
+<text>那 时 ， 犹 太 信 基 督 的 各 教 会
+都 没 有 见 过 我 的 面 。
+不 过 听 说 那 从 前 逼 迫 我 们 的 ，
+现 在 传 扬 他 原 先 所 残 害 的 真 道 。
+他 们 就 为 我 的 缘 故 ， 归 荣 耀 给 神。</text>
+<ref>加拉太书 1:22-24</ref>
+</parol>
+<parol book='46' chapter='13' verse='6' id='1K13v6'>
+<text>不 喜 欢 不 义 ，
+只 喜 欢 真 理 。</text>
+<ref>哥林多前书 13:6</ref>
+</parol>
+</theword>
+<theword date='2017-05-27'>
+<title>每日金句 五月二十七日 星期六</title>
+<parol book='19' chapter='94' verse='9' id='Ps94v9'>
+<text>造 耳 朵 的 ， 难 道 自 己 不 听 见 麽 ？
+造 眼 睛 的 ， 难 道 自 己 不 看 见 麽 ？</text>
+<ref>诗篇 94:9</ref>
+</parol>
+<parol book='19' chapter='121' verse='3' id='Ps121v3'>
+<text>他 必 不 叫 你 的 脚 摇 动 ；
+保 护 你 的 必 不 打 盹 ！</text>
+<ref>诗篇 121:3</ref>
+</parol>
+</theword>
+<theword date='2017-05-28'>
+<title>每日金句 五月二十八日 星期日</title>
+<parol book='24' chapter='30' verse='20' id='Jr30v20'>
+<text>... 他 们 的 会 众 坚 立 在 我 面 前 ...</text>
+<ref>耶利米书 30:20上</ref>
+</parol>
+<parol book='40' chapter='16' verse='18' id='Mt16v18'>
+<intro>耶 稣 说：</intro>
+<text>我 还 告 诉 你 ， 你 是 彼 得 ，
+我 要 把 我 的 教 会 建 造 在 这 磐 石 上 ；
+阴 间 的 权 柄 ，不 能 胜 过 他 。</text>
+<ref>马太福音 16:18</ref>
+</parol>
+</theword>
+<theword date='2017-05-29'>
+<title>每日金句 五月二十九日 星期一</title>
+<parol book='19' chapter='34' verse='12' id='Ps34v12'>
+<text>众 弟 子 啊 ， 你 们 当 来 听 我 的 话 ！
+我 要 将 敬 畏 耶 和 华 的 道 教 训 你 们 。</text>
+<ref>诗篇 34:11</ref>
+</parol>
+<parol book='42' chapter='18' verse='17' id='L18v17'>
+<text>凡 要 承 受 神 国 的 ，
+若 不 像 小 孩 子 ， 断 不 能 进 去 。</text>
+<ref>路加福音 18:17</ref>
+</parol>
+</theword>
+<theword date='2017-05-30'>
+<title>每日金句 五月三十日 星期二</title>
+<parol book='5' chapter='26' verse='15' id='Dt26v15'>
+<text>求 你 从 天 上 、 你 的 圣 所 垂 看 ，
+赐 福 给 你 的 百 姓 以 色 列
+与 你 所 赐 给 我 们 的 地 ...</text>
+<ref>申命记 26:15</ref>
+</parol>
+<parol book='43' chapter='16' verse='7' id='J16v7'>
+<intro>耶稣对门徒说：</intro>
+<text>我去是与你们有益的。
+我若不去，保惠师就不到你们这里来。
+我若去，就差他来。</text>
+<ref>约翰福音 16:7</ref>
+</parol>
+</theword>
+<theword date='2017-05-31'>
+<title>每日金句 五月三十一日 星期三</title>
+<parol book='27' chapter='2' verse='44' id='Dn2v44'>
+<text>... 天 上 的 神 必 另 立 一 国 ， 永 不 败 坏 。</text>
+<ref>但以理书 2:44上</ref>
+</parol>
+<parol book='40' chapter='18' verse='3' id='Mt18v3'>
+<intro>耶 稣 说:</intro>
+<text>你 们 若 不 回 转 ， 变 成 小 孩 子 的 样 式 ，
+断 不 得 进 天 国 。</text>
+<ref>马太福音 18:3</ref>
+</parol>
+</theword>
+<theword date='2017-06-01'>
+<title>每日金句 六月一日 星期四</title>
+<parol book='46' chapter='12' verse='4' id='1K12v4-5'>
+<text>恩 赐 原 有 分 别 ， 圣 灵 却 是 一 位 。
+职 事 也 有 分 别 ， 主 却 是 一 位 。</text>
+<ref>哥林多前书 12:4-5</ref>
+</parol>
+<parol book='49' chapter='4' verse='7' id='E4v7'>
+<text>我 们 各 人 蒙 恩 ，
+都 是 照 基 督 所 量 给 各 人 的 恩 赐 。</text>
+<ref>以弗所书 4:7</ref>
+</parol>
+</theword>
+<theword date='2017-06-02'>
+<title>每日金句 六月二日 星期五</title>
+<parol book='9' chapter='10' verse='6' id='1Sm10v6'>
+<intro>撒 母 耳 对扫 罗 说 ：</intro>
+<text>耶 和 华 的 灵 必 大 大 感 动 你 ，
+你 就 与 他 们 一 同 受 感 说 话 ；
+你 要 变 为 新 人 。</text>
+<ref>撒母耳记上 10:6</ref>
+</parol>
+<parol book='42' chapter='24' verse='49' id='L24v49'>
+<intro>耶 稣 对 门 徒说 :</intro>
+<text>我 要 将 我 父 所 应 许 的 降 在 你 们 身 上 ，
+你 们 要 在 城 里 等 候 ，
+直 到 你 们 领 受 从 上 头 来 的 能 力 。</text>
+<ref>路加福音 24:49</ref>
+</parol>
+</theword>
+<theword date='2017-06-03'>
+<title>每日金句 六月三日 星期六</title>
+<parol book='46' chapter='15' verse='1' id='1K15v1'>
+<text>弟 兄 们 ， 我 如 今
+把 先 前 所 传 给 你 们 的 福 音 告 诉 你 们 知 道 ；
+这 福 音 你 们 也 领 受 了 ，
+又 靠 着 站 立 得 住 ...</text>
+<ref>哥林多前书 15:1</ref>
+</parol>
+<parol book='52' chapter='2' verse='4' id='1Th2v4'>
+<text>但 神 既 然 验 中 了 我 们 ，
+把 福 音 托 付 我 们 ， 我 们 就 照 样 讲 ，
+不 是 要 讨 人 喜 欢 ， 乃 是 要 讨 那 察 验 我 们 心 的 神 喜 欢 。</text>
+<ref>帖撒罗尼迦前书 2:4</ref>
+</parol>
+</theword>
+<theword date='2017-06-04'>
+<title>每日金句 六月四日 星期日</title>
+<parol book='44' chapter='7' verse='51' id='Act7v51'>
+<intro>司提反对犹太人说：</intro>
+<text>你们这硬着颈项，
+心与耳未受割礼的人，
+常时抗拒圣灵。
+你们的祖宗怎样，
+你们也怎样。</text>
+<ref>使徒行传 7:51</ref>
+</parol>
+<parol book='20' chapter='3' verse='34' id='Prv3v34'>
+<text>赐 恩 给 谦 卑 的 人 。</text>
+<ref>箴言 3:34 下</ref>
+</parol>
+</theword>
+<theword date='2017-06-05'>
+<title>每日金句 六月五日 星期一</title>
+<parol book='19' chapter='103' verse='8' id='Ps103v8'>
+<text>耶 和 华 有 怜 悯 ， 有 恩 典 ，
+不 轻 易 发 怒 ， 且 有 丰 盛 的 慈 爱 。</text>
+<ref>诗篇 103:8</ref>
+</parol>
+<parol book='42' chapter='6' verse='36' id='L6v36'>
+<text>你 们 要 慈 悲 ，
+像 你 们 的 父 慈 悲 一 样 。</text>
+<ref>路加福音 6:36</ref>
+</parol>
+</theword>
+<theword date='2017-06-06'>
+<title>每日金句 六月六日 星期二</title>
+<parol book='45' chapter='13' verse='10' id='R13v10'>
+<text>爱 是 不 加 害 与 人 的 ，
+所 以 爱 就 完 全 了 律 法 。</text>
+<ref>罗马书 13:10</ref>
+</parol>
+<parol book='3' chapter='19' verse='18' id='Lv19v18'>
+<text>... 要 爱 人 如 己 。 我 是 耶 和 华 。</text>
+<ref>利未记 19:18 下</ref>
+</parol>
+</theword>
+<theword date='2017-06-07'>
+<title>每日金句 六月七日 星期三</title>
+<parol book='45' chapter='8' verse='34' id='R8v34'>
+<text>谁 能 定 他 们 的 罪 呢 ？
+有 基 督 耶 稣 已 经 死 了 ，
+而 且 从 死 里 复 活 ， 现 今 在 神 的 右 边 ，
+也 替 我 们 祈 求 。</text>
+<ref>罗马书 8:34</ref>
+</parol>
+<parol book='58' chapter='1' verse='3' id='H1v3'>
+<text>儿 子 是 神 荣 耀 所 发 的 光 辉 ，
+是 神 本 体 的 真 像 ， 常 用 他 权 能 的 命 令 托 住 万 有 。
+他 洗 净 了 人 的 罪 ， 就 坐 在 高 天 至 大 者 的 右 边 。</text>
+<ref>希伯来书 1:3</ref>
+</parol>
+</theword>
+<theword date='2017-06-08'>
+<title>每日金句 六月八日 星期四</title>
+<parol book='19' chapter='126' verse='1' id='Ps126v1'>
+<text>当耶和华将那些被掳的带回锡安的时候，
+我们好像做梦的人。</text>
+<ref>诗篇 126:1</ref>
+</parol>
+<parol book='45' chapter='5' verse='10' id='R5v10'>
+<text>因 为 我 们 作 仇 敌 的 时 候 ，
+且 藉 着 神 儿 子 的 死 ， 得 与 神 和 好 ；
+既 已 和 好 ，
+就 更 要 因 他 的 生 得 救 了 。</text>
+<ref>罗马书 5:10</ref>
+</parol>
+</theword>
+<theword date='2017-06-09'>
+<title>每日金句 六月九日 星期五</title>
+<parol book='1' chapter='37' verse='14' id='Gn37v14'>
+<text>... 你 去 看 看 你 哥 哥 们 平 安 不 平 安 ...</text>
+<ref>创世记 37:14 上</ref>
+</parol>
+<parol book='49' chapter='6' verse='22' id='E6v22'>
+<intro>保 罗 写 道：</intro>
+<text>我 特 意 打 发 他 到 你 们 那 里 去 ，
+好 叫 你 们 知 道 我 们 的 光 景 ，
+又 叫 他 安 慰 你 们 的 心 。</text>
+<ref>以弗所书 6:22</ref>
+</parol>
+</theword>
+<theword date='2017-06-10'>
+<title>每日金句 六月十日 星期六</title>
+<parol book='42' chapter='10' verse='36' id='L10v36-37'>
+<intro>耶 稣 对 律 法 师 说 :</intro>
+<text>你 想 ， 这 三 个 人
+那 一 个 是 落 在 强 盗 手 中 的 邻 舍 呢 ？
+他 说 ： 是 怜 悯 他 的 。
+耶 稣 说 ： 你 去 照 样 行 罢 。</text>
+<ref>路加福音 10:36-37</ref>
+</parol>
+<parol book='45' chapter='15' verse='2' id='R15v2'>
+<text>我 们 各 人 务 要 叫 邻 舍 喜 悦 ，
+使 他 得 益 处 ， 建 立 德 行 。</text>
+<ref>罗马书 15:2</ref>
+</parol>
+</theword>
+<theword date='2017-06-11'>
+<title>每日金句 六月十一日 星期日</title>
+<parol book='19' chapter='111' verse='2' id='Ps111v2'>
+<text>耶 和 华 的 作 为 本 为 大 ；
+凡 喜 爱 的 都 必 考 察 。</text>
+<ref>诗篇 111:2</ref>
+</parol>
+<parol book='40' chapter='13' verse='10' id='Mt13v10-11'>
+<text>门 徒 进 前 来 ， 问 耶 稣 说 ：
+对 众 人 讲 话 ， 为 甚 麽 用 比 喻 呢 ？
+耶 稣 回 答 说 ：
+因 为 天 国 的 奥 秘 只 叫 你 们 知 道 ，
+不 叫 他 们 知 道 。</text>
+<ref>马太福音 13:10-11</ref>
+</parol>
+</theword>
+<theword date='2017-06-12'>
+<title>每日金句 六月十二日 星期一</title>
+<parol book='19' chapter='41' verse='2' id='Ps41v2'>
+<text>眷顾贫穷的有福了。
+他遭难的日子，耶和华必搭救他。</text>
+<ref>诗篇 41:1</ref>
+</parol>
+<parol book='40' chapter='25' verse='34' id='Mt25v34'>
+<text>於 是 王 要 向 那 右 边 的 说 ：
+你 们 这 蒙 我 父 赐 福 的 ，
+可 来 承 受 那 创 世 以 来 为 你 们 所 预 备 的 国 ...</text>
+<ref>马太福音 25:34</ref>
+</parol>
+</theword>
+<theword date='2017-06-13'>
+<title>每日金句 六月十三日 星期二</title>
+<parol book='23' chapter='44' verse='3' id='Is44v3'>
+<text>因 为 我 要 将 水 浇 灌 口 渴 的 人 ，
+将 河 浇 灌 乾 旱 之 地 。
+我 要 将 我 的 灵 浇 灌 你 的 后 裔 ，
+将 我 的 福 浇 灌 你 的 子 孙 。</text>
+<ref>以赛亚书 44:3</ref>
+</parol>
+<parol book='23' chapter='45' verse='8' id='Is45v8'>
+<text>诸天哪，自上而滴。
+穹苍降下公义，
+地面开裂，产出救恩，
+使公义一同发生，
+这都是我耶和华所造的。</text>
+<ref>以赛亚书 45:8</ref>
+</parol>
+</theword>
+<theword date='2017-06-14'>
+<title>每日金句 六月十四日 星期三</title>
+<parol book='60' chapter='2' verse='24' id='1P2v24'>
+<text>因 基 督 受 的 鞭 伤 ， 你 们 便 得 了 医 治 。</text>
+<ref>彼得前书 2:24下</ref>
+</parol>
+<parol book='49' chapter='1' verse='7' id='E1v7'>
+<text>我 们 藉 这 爱 子 的 血 得 蒙 救 赎 ，
+过 犯 得 以 赦 免 ，
+乃 是 照 他 丰 富 的 恩 典 。</text>
+<ref>以弗所书 1:7</ref>
+</parol>
+</theword>
+<theword date='2017-06-15'>
+<title>每日金句 六月十五日 星期四</title>
+<parol book='24' chapter='14' verse='21' id='Jr14v21'>
+<text>求 你 为 你 名 的 缘 故 ， 不 厌 恶 我 们 ，
+不 辱 没 你 荣 耀 的 宝 座 。</text>
+<ref>耶利米书 14:21上</ref>
+</parol>
+<parol book='55' chapter='2' verse='13' id='2T2v13'>
+<text>我们纵然失信，
+他仍是可信的。
+因为他不能背乎自己。</text>
+<ref>提摩太后书 2:13</ref>
+</parol>
+</theword>
+<theword date='2017-06-16'>
+<title>每日金句 六月十六日 星期五</title>
+<parol book='19' chapter='32' verse='1' id='Ps32v1'>
+<text>得 赦 免 其 过 、 遮 盖 其 罪 的 ，
+这 人 是 有 福 的 ！</text>
+<ref>诗篇 32:1</ref>
+</parol>
+<parol book='19' chapter='130' verse='4' id='Ps130v4'>
+<text>但 在 你 有 赦 免 之 恩 ，
+要 叫 人 敬 畏 你 。</text>
+<ref>诗篇 130:4</ref>
+</parol>
+</theword>
+<theword date='2017-06-17'>
+<title>每日金句 六月十七日 星期六</title>
+<parol book='23' chapter='66' verse='10' id='Is66v10'>
+<text>你 们 爱 慕 耶 路 撒 冷 的 ，
+都 要 与 他 一 同 欢 喜 快 乐 。
+你 们 为 他 悲 哀 的 ，
+都 要 与 他 一 同 乐 上 加 乐 。</text>
+<ref>以赛亚书 66:10</ref>
+</parol>
+<parol book='47' chapter='1' verse='24' id='2K1v24'>
+<intro>保 罗 写 道:</intro>
+<text>我 们 并 不 是 辖 管 你 们 的 信 心 ，
+乃 是 帮 助 你 们 的 快 乐 。
+因 为 你 们 凭 信 才 站 立 得 住 。</text>
+<ref>哥林多后书 1:24</ref>
+</parol>
+</theword>
+<theword date='2017-06-18'>
+<title>每日金句 六月十八日 星期日</title>
+<parol book='41' chapter='15' verse='17' id='Mc15v17-18'>
+<text>他 们 给 他 穿 上 紫 袍 ，
+又 用 荆 棘 编 作 冠 冕 给 他 戴 上 ，
+就 庆 贺 他 说 ： 恭 喜 ， 犹 太 人 的 王 阿 ！</text>
+<ref>马可福音 15:17-18</ref>
+</parol>
+<parol book='41' chapter='15' verse='39' id='Mc15v39'>
+<text>对 面 站 着 的 百 夫 长
+看 见 耶 稣 这 样 喊 叫 断 气 ，
+就 说 ： 这 人 真 是 神 的 儿 子 ！</text>
+<ref>马可福音 15:39</ref>
+</parol>
+</theword>
+<theword date='2017-06-19'>
+<title>每日金句 六月十九日 星期一</title>
+<parol book='28' chapter='6' verse='1' id='Hos6v1'>
+<text>来 罢 ， 我 们 归 向 耶 和 华 ！
+他 撕 裂 我 们 ， 也 必 医 治 ；
+他 打 伤 我 们 ， 也 必 缠 裹 。</text>
+<ref>何西阿书 6:1</ref>
+</parol>
+<parol book='45' chapter='9' verse='14' id='R9v14-15'>
+<text>难 道 神 有 甚 麽 不 公 平 麽 ？
+断 乎 没 有 ！ 因 他 对 摩 西 说 ：
+我 要 怜 悯 谁 就 怜 悯 谁 ，
+要 恩 待 谁 就 恩 待 谁 。</text>
+<ref>罗马书 9:14-15</ref>
+</parol>
+</theword>
+<theword date='2017-06-20'>
+<title>每日金句 六月二十日 星期二</title>
+<parol book='42' chapter='14' verse='13' id='L14v13-14'>
+<intro>耶 稣 说:</intro>
+<text>你 摆 设 筵 席 ， 倒 要 请 那 贫 穷 的 、
+残 废 的 、 瘸 腿 的 、 瞎 眼 的 ，
+你 就 有 福 了 ！因 为 他 们 没 有 甚 麽 可 报 答 你 。
+到 义 人 复 活 的 时 候 ， 你 要 得 着 报 答 。</text>
+<ref>路加福音 14:13-14</ref>
+</parol>
+<parol book='58' chapter='13' verse='2' id='H13v2'>
+<text>不 可 忘 记 用 爱 心 接 待 客 旅 ；
+因 为 曾 有 接 待 客 旅 的 ，
+不 知 不 觉 就 接 待 了 天 使 。</text>
+<ref>希伯来书 13:2</ref>
+</parol>
+</theword>
+<theword date='2017-06-21'>
+<title>每日金句 六月二十一日 星期三</title>
+<parol book='41' chapter='16' verse='16' id='Mc16v16'>
+<text>信 而 受 洗 的 ， 必 然 得 救 ；
+不 信 的 ， 必 被 定 罪 。</text>
+<ref>马可福音 16:16</ref>
+</parol>
+<parol book='41' chapter='5' verse='35' id='Mc5v35-36'>
+<text>... 有 人 从 管 会 堂 的 家 里 来 ， 说 ：
+你 的 女 儿 死 了 ，
+何 必 还 劳 动 先 生 呢 ？
+耶 稣 听 见 所 说 的 话 ，
+就 对 管 会 堂 的 说 ：
+不 要 怕 ， 只 要 信 ！</text>
+<ref>马可福音 5:35-36</ref>
+</parol>
+</theword>
+<theword date='2017-06-22'>
+<title>每日金句 六月二十二日 星期四</title>
+<parol book='46' chapter='15' verse='51' id='1K15v51'>
+<intro>保罗 写 道：</intro>
+<text>我 们 不 是 都 要 睡 觉 ，
+乃 是 都 要 改 变 ...</text>
+<ref>哥林多前书 15:51 下</ref>
+</parol>
+<parol book='40' chapter='24' verse='31' id='Mt24v31'>
+<text>他 要 差 遣 使 者 ， 用 号 筒 的 大 声 ，
+将 他 的 选 民 ， 从 四 方 ，
+从 天 这 边 到 天 那 边 ， 都 招 聚 了 来 。</text>
+<ref>马太福音 24:31</ref>
+</parol>
+</theword>
+<theword date='2017-06-23'>
+<title>每日金句 六月二十三日 星期五</title>
+<parol book='38' chapter='1' verse='3' id='Zch1v3'>
+<text>... 你 们 要 转 向 我 ，
+我 就 转 向 你 们 。</text>
+<ref>撒迦利亚书 1:3下</ref>
+</parol>
+<parol book='20' chapter='29' verse='1' id='Prv29v1'>
+<text>人 屡 次 受 责 罚 ， 仍 然 硬 着 颈 项 ；
+他 必 顷 刻 败 坏 ， 无 法 可 治 。</text>
+<ref>箴言 29:1</ref>
+</parol>
+</theword>
+<theword date='2017-06-24'>
+<title>每日金句 六月二十四日 星期六</title>
+<parol book='59' chapter='4' verse='17' id='Jc4v17'>
+<text>人 若 知 道 行 善 ，
+却 不 去 行 ，
+这 就 是 他 的 罪 了 。</text>
+<ref>雅各书 4:17</ref>
+</parol>
+<parol book='62' chapter='3' verse='17' id='1J3v17'>
+<text>凡 有 世 上 财 物 的 ，
+看 见 弟 兄 穷 乏 ，
+却 塞 住 怜 恤 的 心 ，
+爱 神 的 心 怎 能 存 在 他 里 面 呢 ？</text>
+<ref>约翰一书 3:17</ref>
+</parol>
+</theword>
+<theword date='2017-06-25'>
+<title>每日金句 六月二十五日 星期日</title>
+<parol book='46' chapter='3' verse='17' id='1K3v17'>
+<text>... 神 的 殿 是 圣 的 ，
+这 殿 就 是 你 们 。</text>
+<ref>哥林多前书 3:17下</ref>
+</parol>
+<parol book='49' chapter='2' verse='19' id='E2v19-20'>
+<text>这样，你们不再作外人，和客旅，
+是与圣徒同国，是神家里的人了。
+并且被建造在使徒和先知的根基上，
+有基督耶稣自己为房角石。</text>
+<ref>以弗所书 2:19-20</ref>
+</parol>
+</theword>
+<theword date='2017-06-26'>
+<title>每日金句 六月二十六日 星期一</title>
+<parol book='19' chapter='147' verse='14' id='Ps147v14'>
+<text>他 使 你 境 内 平 安 ...</text>
+<ref>诗篇 147:14上</ref>
+</parol>
+<parol book='38' chapter='9' verse='8' id='Zch9v8'>
+<intro>神 说：</intro>
+<text>我 必 在 我 家 的 四 围 安 营 ...</text>
+<ref>撒迦利亚书 9:8</ref>
+</parol>
+</theword>
+<theword date='2017-06-27'>
+<title>每日金句 六月二十七日 星期二</title>
+<parol book='44' chapter='5' verse='9' id='Act5v9'>
+<intro>彼 得 对 撒 非 喇 说 ：</intro>
+<text>你 们 为 甚 麽 同 心 试 探 主 的 灵 呢 ？
+埋 葬 你 丈 夫 之 人 的 脚 已 到 门 口 ，
+他 们 也 要 把 你 抬 出 去 。</text>
+<ref>使徒行传 5:9</ref>
+</parol>
+<parol book='40' chapter='4' verse='7' id='Mt4v7'>
+<text>... 不 可 试 探 主 ─ 你 的 神 。</text>
+<ref>马太福音 4:7下</ref>
+</parol>
+</theword>
+<theword date='2017-06-28'>
+<title>每日金句 六月二十八日 星期三</title>
+<parol book='19' chapter='19' verse='12' id='Ps19v12'>
+<text>况 且 你 的 仆 人 因 此 受 警 戒 ，
+守 着 这 些 便 有 大 赏 。</text>
+<ref>诗篇 19:11</ref>
+</parol>
+<parol book='63' chapter='1' verse='8' id='2J1v8'>
+<text>你 们 要 小 心 ，
+不 要 失 去 你 们 所 做 的 工 ，
+乃 要 得 着 满 足 的 赏 赐 。</text>
+<ref>约翰二书 8</ref>
+</parol>
+</theword>
+<theword date='2017-06-29'>
+<title>每日金句 六月二十九日 星期四</title>
+<parol book='44' chapter='2' verse='41' id='Act2v41'>
+<text>於 是 领 受 他 话 的 人 就 受 了 洗 。
+那 一 天 ， 门 徒 约 添 了 三 千 人 。</text>
+<ref>使徒行传 2:41</ref>
+</parol>
+<parol book='51' chapter='2' verse='12' id='Kol2v12'>
+<text>你 们 既 受 洗 与 他 一 同 埋 葬 ，
+也 就 在 此 与 他 一 同 复 活 ，
+都 因 信 那 叫 他 从 死 里 复 活 神 的 功 用 。</text>
+<ref>歌罗西书 2:12</ref>
+</parol>
+</theword>
+<theword date='2017-06-30'>
+<title>每日金句 六月三十日 星期五</title>
+<parol book='50' chapter='4' verse='13' id='Ph4v13'>
+<intro>保 罗 写 道：</intro>
+<text>我 靠 着 那 加 给 我 力 量 的 ，
+凡 事 都 能 做 。</text>
+<ref>腓立比书 4:13</ref>
+</parol>
+<parol book='19' chapter='18' verse='30' id='Ps18v30'>
+<text>藉 着 我 的 神 跳 过 墙 垣 。</text>
+<ref>诗篇 18:29 下</ref>
+</parol>
+</theword>
+<theword date='2017-07-01'>
+<title>每日金句 七月一日 星期六</title>
+<parol book='36' chapter='3' verse='14' id='Zph3v14-15'>
+<text>锡 安 的 民 哪 ，应 当 歌 唱 ！
+以 色 列 啊 ，应 当 欢 呼 ！
+耶 路 撒 冷 的 民 哪 ，应 当 满 心 欢 喜 快 乐 ！
+耶 和 华 已 经 除 去 你 的 刑 罚 ，
+赶 出 你 的 仇 敌 。</text>
+<ref>西番雅书 3:14-15</ref>
+</parol>
+<parol book='9' chapter='30' verse='6' id='1Sm30v6'>
+<text>大 卫 却 倚 靠 耶 和 华 他 的 神 ， 心 里 坚 固 。</text>
+<ref>撒母耳记上 30:6下</ref>
+</parol>
+</theword>
+<theword date='2017-07-02'>
+<title>每日金句 七月二日 星期日</title>
+<parol book='18' chapter='13' verse='9' id='Job13v9'>
+<text>人 欺 哄 人 ， 你 们 也 要 照 样 欺 哄 神 麽 ？</text>
+<ref>约伯记 13:9 下</ref>
+</parol>
+<parol book='48' chapter='6' verse='7' id='G6v7'>
+<text>不要自欺，神是轻慢不得的。
+人种的是什么，收的也是什么。</text>
+<ref>加拉太书 6:7</ref>
+</parol>
+</theword>
+<theword date='2017-07-03'>
+<title>每日金句 七月三日 星期一</title>
+<parol book='20' chapter='20' verse='9' id='Prv20v9'>
+<text>谁 能 说 ，
+我 洁 净 了 我 的 心 ，
+我 脱 净 了 我 的 罪 ？</text>
+<ref>箴言 20:9</ref>
+</parol>
+<parol book='45' chapter='8' verse='2' id='R8v2'>
+<text>因 为 赐 生 命 圣 灵 的 律 ，
+在 基 督 耶 稣 里 释 放 了 我 ，
+使 我 脱 离 罪 和 死 的 律 了 。</text>
+<ref>罗马书 8:2</ref>
+</parol>
+</theword>
+<theword date='2017-07-04'>
+<title>每日金句 七月四日 星期二</title>
+<parol book='23' chapter='40' verse='3' id='Is40v3'>
+<text>在 旷 野 有 人 声 喊 着 说 ，
+当 豫 备 耶 和 华 的 路 ，
+在 沙 漠 地 修 平 我 们 神 的 道 。</text>
+<ref>以赛亚书 40:3</ref>
+</parol>
+<parol book='43' chapter='3' verse='30' id='J3v30'>
+<intro>约 翰 说:</intro>
+<text>他 必 兴 旺 ， 我 必 衰 微 。</text>
+<ref>约翰福音 3:30</ref>
+</parol>
+</theword>
+<theword date='2017-07-05'>
+<title>每日金句 七月五日 星期三</title>
+<parol book='24' chapter='4' verse='3' id='Jr4v3'>
+<text>要 开 垦 你 们 的 荒 地 ，
+不 要 撒 种 在 荆 棘 中 。</text>
+<ref>耶利米书 4:3下</ref>
+</parol>
+<parol book='28' chapter='10' verse='12' id='Hos10v12'>
+<text>你 们 要 为 自 己 栽 种 公 义 ，
+就 能 收 割 慈 爱 。</text>
+<ref>何西阿书 10:12上</ref>
+</parol>
+</theword>
+<theword date='2017-07-06'>
+<title>每日金句 七月六日 星期四</title>
+<parol book='44' chapter='1' verse='5' id='Act1v5'>
+<intro>耶 稣说:</intro>
+<text>约 翰 是 用 水 施 洗 。
+但 不 多 几 日 ，
+你 们 要 受 圣 灵 的 洗 。</text>
+<ref>使徒行传 1:5</ref>
+</parol>
+<parol book='29' chapter='3' verse='1' id='Joel3v1'>
+<text>以 後 ， 我 要 将 我 的 灵 浇 灌 凡 有 血 气 的 。
+你 们 的 儿 女 要 说 预 言 ；
+你 们 的 老 年 人 要 做 异 梦 ，
+少 年 人 要 见 异 象 。</text>
+<ref>约珥书 2:28</ref>
+</parol>
+</theword>
+<theword date='2017-07-07'>
+<title>每日金句 七月七日 星期五</title>
+<parol book='28' chapter='2' verse='1' id='Hos2v1'>
+<text>从 前 在 甚 麽 地 方 对 他 们 说
+你 们 不 是 我 的 子 民 ，
+将 来 在 那 里 必 对 他 们 说
+你 们 是 永 生 神 的 儿 子 。</text>
+<ref>何西阿书 1:10 下</ref>
+</parol>
+<parol book='62' chapter='5' verse='12' id='1J5v12'>
+<text>人 有 了 神 的 儿 子 就 有 生 命 ，
+没 有 神 的 儿 子 就 没 有 生 命 。</text>
+<ref>约翰一书 5:12</ref>
+</parol>
+</theword>
+<theword date='2017-07-08'>
+<title>每日金句 七月八日 星期六</title>
+<parol book='19' chapter='40' verse='18' id='Ps40v18_I'>
+<text>但 我 是 困 苦 穷 乏 的 ，
+主 仍 顾 念 我 。</text>
+<ref>诗篇 40:17 上</ref>
+</parol>
+<parol book='42' chapter='12' verse='11' id='L12v11-12'>
+<intro>耶 稣 对 门 徒 说 ：</intro>
+<text>人 带 你 们 到 会 堂 ，
+并 官 府 和 有 权 柄 的 人 面 前 ，
+不 要 思 虑 怎 麽 分 诉 ，说 甚 麽 话 ；
+因 为 正 在 那 时 候 ， 圣 灵 要 指 教 你 们 当 说 的 话 。</text>
+<ref>路加福音 12:11-12</ref>
+</parol>
+</theword>
+<theword date='2017-07-09'>
+<title>每日金句 七月九日 星期日</title>
+<parol book='42' chapter='5' verse='26' id='L5v26'>
+<text>众 人 都 惊 奇 ，
+也 归 荣 耀 与 神 ， 并 且 满 心 惧 怕 ， 说 ：
+我 们 今 日 看 见 非 常 的 事 了 。</text>
+<ref>路加福音 5:26</ref>
+</parol>
+<parol book='44' chapter='12' verse='14' id='Act12v14-15'>
+<intro>天 使 救 彼 得 脱 离 监 狱 :</intro>
+<text>听 得 是 彼 得 的 声 音 ，
+就 欢 喜 的 顾 不 得 开 门 ，
+跑 进 去 告 诉 众 人 说 ： 彼 得 站 在 门 外 。 他 们 说 ： 你 是 疯 了 ！</text>
+<ref>使徒行传 12:14-15上</ref>
+</parol>
+</theword>
+<theword date='2017-07-10'>
+<title>每日金句 七月十日 星期一</title>
+<parol book='22' chapter='8' verse='4' id='Ct8v4'>
+<text>耶 路 撒 冷 的 众 女 子 啊 ，我 嘱 咐 你 们 ：
+不 要 惊 动 、不 要 叫 醒 我 所 亲 爱 的 ，
+等 他 自 己 情 愿 。</text>
+<ref>雅歌 8:4</ref>
+</parol>
+<parol book='19' chapter='37' verse='4' id='Ps37v4'>
+<text>又 要 以 耶 和 华 为 乐 ，
+他 就 将 你 心 里 所 求 的 赐 给 你 。</text>
+<ref>诗篇 37:4</ref>
+</parol>
+</theword>
+<theword date='2017-07-11'>
+<title>每日金句 七月十一日 星期二</title>
+<parol book='2' chapter='23' verse='9' id='Ex23v9'>
+<text>不 可 欺 压 寄 居 的 ； 因 为 你 们 在 埃 及 地 作 过 寄 居 的 ， 知 道 寄 居 的 心 。</text>
+<ref>出埃及记 23:9</ref>
+</parol>
+<parol book='46' chapter='10' verse='24' id='1K10v24'>
+<text>无 论 何 人 ， 不 要 求 自 己 的 益 处 ，
+乃 要 求 别 人 的 益 处 。</text>
+<ref>哥林多前书 10:24</ref>
+</parol>
+</theword>
+<theword date='2017-07-12'>
+<title>每日金句 七月十二日 星期三</title>
+<parol book='40' chapter='24' verse='13' id='Mt24v13'>
+<text>忍 耐 到 底 的 ，
+必 然 得 救 。</text>
+<ref>马太福音 24:13</ref>
+</parol>
+<parol book='58' chapter='3' verse='6' id='H3v6'>
+<text>但 基 督 为 儿 子 ，
+治 理 神 的 家 。
+我 们 若 将 可 夸 的 盼 望 和 胆 量 ， 坚 持 到 底 ，
+便 是 他 的 家 了 。</text>
+<ref>希伯来书 3:6</ref>
+</parol>
+</theword>
+<theword date='2017-07-13'>
+<title>每日金句 七月十三日 星期四</title>
+<parol book='44' chapter='19' verse='11' id='Act19v11'>
+<text>神 藉 保 罗 的 手 ，行 了 些 非 常 的 奇 事 。</text>
+<ref>使徒行传 19:11</ref>
+</parol>
+<parol book='18' chapter='9' verse='10' id='Job9v10'>
+<text>他 行 大 事 ， 不 可 测 度 ，
+行 奇 事 ， 不 可 胜 数 。</text>
+<ref>约伯记 9:10</ref>
+</parol>
+</theword>
+<theword date='2017-07-14'>
+<title>每日金句 七月十四日 星期五</title>
+<parol book='1' chapter='39' verse='19' id='Gn39v19'>
+<intro>波 提 乏 的 妻 子 誣 告 约 瑟 ：</intro>
+<text>约 瑟 的 主 人 听 见 他 妻 子 对 他 所 说 的 话 ，说 ：
+你 的 仆 人 如 此 如 此 待 我 ，
+他 就 生 气 ...</text>
+<ref>创世记 39:19</ref>
+</parol>
+<parol book='60' chapter='2' verse='23' id='1P2v23'>
+<text>耶稣被骂不还口。
+受害不说威吓的话。
+只将自己交托那按公义审判人的主。</text>
+<ref>彼得前书 2:23</ref>
+</parol>
+</theword>
+<theword date='2017-07-15'>
+<title>每日金句 七月十五日 星期六</title>
+<parol book='26' chapter='36' verse='29' id='Ez36v29'>
+<text>我必救你们脱离一切的污秽。</text>
+<ref>以西结书 36:29</ref>
+</parol>
+<parol book='19' chapter='66' verse='10' id='Ps66v10'>
+<text>神阿，
+你曾试验我们，
+熬炼我们，
+如熬炼银子一样。</text>
+<ref>诗篇 66:10</ref>
+</parol>
+</theword>
+<theword date='2017-07-16'>
+<title>每日金句 七月十六日 星期日</title>
+<parol book='39' chapter='3' verse='6' id='Ml3v6'>
+<text>我 ─ 耶 和 华 是 不 改 变 的 。</text>
+<ref>玛拉基书 3:6 上</ref>
+</parol>
+<parol book='53' chapter='3' verse='3' id='2Th3v3'>
+<text>但主是信实的，要坚固你们，
+保护你们脱离那恶者。</text>
+<ref>帖撒罗尼迦后书 3:3</ref>
+</parol>
+</theword>
+<theword date='2017-07-17'>
+<title>每日金句 七月十七日 星期一</title>
+<parol book='5' chapter='1' verse='29' id='Dt1v29-30'>
+<text>不 要 惊 恐 ， 也 不 要 怕 他 们 。
+在 你 们 前 面 行 的 耶 和 华 你 们 的 神 必 为 你 们 争 战 ，
+正 如 他 在 埃 及 和 旷 野 ，
+在 你 们 眼 前 所 行 的 一 样 。</text>
+<ref>申命记 1:29-30</ref>
+</parol>
+<parol book='43' chapter='16' verse='33' id='J16v33'>
+<intro>耶稣对门徒说：</intro>
+<text>我将这事告诉你们，
+是叫你们在我里面有平安。
+在世上你们有苦难。
+但你们可以放心，
+我已经胜了世界。</text>
+<ref>约翰福音 16:33</ref>
+</parol>
+</theword>
+<theword date='2017-07-18'>
+<title>每日金句 七月十八日 星期二</title>
+<parol book='19' chapter='119' verse='76' id='Ps119v76'>
+<text>求 你 照 着 应 许 仆 人 的 话 ，
+以 慈 爱 安 慰 我 。</text>
+<ref>诗篇 119:76</ref>
+</parol>
+<parol book='42' chapter='2' verse='25' id='L2v25'>
+<text>在 耶 路 撒 冷 有 一 个 人 名 叫 西 面 ，
+这 人 又 公 义 又 虔 诚 ，
+素 常 盼 望 以 色 列 的 安 慰 者 来 到 ，
+又 有 圣 灵 在 他 身 上 。</text>
+<ref>路加福音 2:25</ref>
+</parol>
+</theword>
+<theword date='2017-07-19'>
+<title>每日金句 七月十九日 星期三</title>
+<parol book='24' chapter='10' verse='24' id='Jr10v24'>
+<text>耶 和 华 啊 ， 求 你 从 宽 惩 治 我 ，
+不 要 在 你 的 怒 中 惩 治 我 ，
+恐 怕 使 我 归 於 无 有 。</text>
+<ref>耶利米书 10:24</ref>
+</parol>
+<parol book='20' chapter='3' verse='12' id='Prv3v12'>
+<text>耶和华所爱的，他必责备。
+正如父亲责备所喜爱的儿子。</text>
+<ref>箴言 3:12</ref>
+</parol>
+</theword>
+<theword date='2017-07-20'>
+<title>每日金句 七月二十日 星期四</title>
+<parol book='6' chapter='21' verse='45' id='Jos21v45'>
+<text>耶 和 华 应 许 赐 福 给 以 色 列 家 的 话
+一 句 也 没 有 落 空 ，
+都 应 验 了 。</text>
+<ref>约书亚记 21:45</ref>
+</parol>
+<parol book='23' chapter='25' verse='1' id='Is25v1'>
+<text>耶 和 华 啊 ， 你 是 我 的 神 ；
+我 要 尊 崇 你 ， 我 要 称 赞 你 的 名 。
+因 为 你 以 忠 信 诚
+实 行 过 奇 妙 的 事 ，
+成 就 你 古 时 所 定 的 。</text>
+<ref>以赛亚书 25:1</ref>
+</parol>
+</theword>
+<theword date='2017-07-21'>
+<title>每日金句 七月二十一日 星期五</title>
+<parol book='47' chapter='8' verse='9' id='2K8v9'>
+<text>你 们 知 道 我 们 主 耶 稣 基 督 的 恩 典 ：
+他 本 来 富 足 ，却 为 你 们 成 了 贫 穷 ，
+叫 你 们 因 他 的 贫 穷 ， 可 以 成 为 富 足 。</text>
+<ref>哥林多后书 8:9</ref>
+</parol>
+<parol book='47' chapter='5' verse='19' id='2K5v19'>
+<text>这就是神在基督里叫世人与自己和好，
+不将他们的过犯归到他们身上。
+并且将这和好的道理托付了我们。</text>
+<ref>哥林多后书 5:19</ref>
+</parol>
+</theword>
+<theword date='2017-07-22'>
+<title>每日金句 七月二十二日 星期六</title>
+<parol book='19' chapter='34' verse='7' id='Ps34v7'>
+<text>我 这 困 苦 人 呼 求 ， 耶 和 华 便 垂 听 ，
+救 我 脱 离 一 切 患 难 。</text>
+<ref>诗篇 34:6</ref>
+</parol>
+<parol book='19' chapter='91' verse='15' id='Ps91v15'>
+<intro>神 说:</intro>
+<text>他 若 求 告 我 ， 我 就 应 允 他 。
+他 在 急 难 中 ， 我 要 与 他 同 在 。
+我 要 搭 救 他 ， 使 他 尊 贵 。</text>
+<ref>诗篇 91:15</ref>
+</parol>
+</theword>
+<theword date='2017-07-23'>
+<title>每日金句 七月二十三日 星期日</title>
+<parol book='2' chapter='21' verse='16' id='Ex21v16'>
+<text>拐 带 人 口 ， 或 是 把 人 卖 了 ，
+或 是 留 在 他 手 下 ，
+必 要 把 他 治 死 。</text>
+<ref>出埃及记 21:16</ref>
+</parol>
+<parol book='45' chapter='6' verse='23' id='R6v23'>
+<text>罪的工价乃是死。
+惟有神的恩赐，
+在我们的主基督耶稣里乃是永生。</text>
+<ref>罗马书 6:23</ref>
+</parol>
+</theword>
+<theword date='2017-07-24'>
+<title>每日金句 七月二十四日 星期一</title>
+<parol book='40' chapter='5' verse='23' id='Mt5v23-24'>
+<text>所 以 ， 你 在 祭 坛 上 献 礼 物 的 时 候 ，
+若 想 起 弟 兄 向 你 怀 怨 ，
+就 把 礼 物 留 在 坛 前 ，
+先 去 同 弟 兄 和 好 ，
+然 後 来 献 礼 物 。</text>
+<ref>马太福音 5:23-24</ref>
+</parol>
+<parol book='3' chapter='19' verse='17' id='Lv19v17'>
+<text>不 可 心 里 恨 你 的 弟 兄 ；
+总 要 指 摘 你 的 邻 舍 ，
+免 得 因 他 担 罪 。</text>
+<ref>利未记 19:17</ref>
+</parol>
+</theword>
+<theword date='2017-07-25'>
+<title>每日金句 七月二十五日 星期二</title>
+<parol book='43' chapter='15' verse='27' id='J15v27'>
+<intro>耶 稣 对 门 徒 说：</intro>
+<text>你 们 也 要 作 见 证 ，
+因 为 你 们 从 起 头 就 与 我 同 在 。</text>
+<ref>约翰福音 15:27</ref>
+</parol>
+<parol book='44' chapter='26' verse='16' id='Act26v16'>
+<intro>主对保罗说：</intro>
+<text>你起来站着，
+我特意向你显现，
+要派你作执事作见证，
+将你所看见的事，
+和我将要指示你的事，
+证明出来。</text>
+<ref>使徒行传 26:16</ref>
+</parol>
+</theword>
+<theword date='2017-07-26'>
+<title>每日金句 七月二十六日 星期三</title>
+<parol book='46' chapter='13' verse='5' id='1K13v5'>
+<text>爱是不作害羞的事。
+不求自己的益处。</text>
+<ref>哥林多前书 13:5</ref>
+</parol>
+<parol book='48' chapter='5' verse='14' id='G5v14'>
+<text>因 为 全 律 法 都 包 在 「
+爱 人 如 己 」 这 一 句 话 之 内 了 。</text>
+<ref>加拉太书 5:14</ref>
+</parol>
+</theword>
+<theword date='2017-07-27'>
+<title>每日金句 七月二十七日 星期四</title>
+<parol book='53' chapter='1' verse='11' id='2Th1v11'>
+<text>我 们 常 为 你 们 祷 告 ，
+愿 我 们 的 神 看 你 们 配 得 过 所 蒙 的 召 ，
+又 用 大 能 成 就 你 们 一 切 所 羡 慕 的 良 善
+和 一 切 因 信 心 所 做 的 工 夫 ...</text>
+<ref>帖撒罗尼迦后书 1:11</ref>
+</parol>
+<parol book='40' chapter='25' verse='21' id='Mt25v21'>
+<text>主 人 说 ， 好 ，
+你 这 又 良 善 又 忠 心 的 仆 人 。
+你 在 不 多 的 事 上 有 忠 心 ，
+我 把 许 多 事 派 你 管 理 。
+可 以 进 来 享 受 你 主 人 的 快 乐 。</text>
+<ref>马太福音 25:21</ref>
+</parol>
+</theword>
+<theword date='2017-07-28'>
+<title>每日金句 七月二十八日 星期五</title>
+<parol book='43' chapter='14' verse='14' id='J14v14'>
+<text>你 们 若 奉 我 的 名 求 甚 麽 ，
+我 必 成 就 。</text>
+<ref>约翰福音 14:14</ref>
+</parol>
+<parol book='59' chapter='1' verse='5' id='Jc1v5'>
+<text>你 们 中 间 若 有 缺 少 智 慧 的 ，
+应 当 求 那 厚 赐 与 众 人 、
+也 不 斥 责 人 的 神 ，
+主 就 必 赐 给 他 。</text>
+<ref>雅各书 1:5</ref>
+</parol>
+</theword>
+<theword date='2017-07-29'>
+<title>每日金句 七月二十九日 星期六</title>
+<parol book='3' chapter='19' verse='34' id='Lv19v34'>
+<text>...并 要 爱 同 居 的 外 人 如 己 ...</text>
+<ref>利未记 19:34</ref>
+</parol>
+<parol book='40' chapter='22' verse='39' id='Mt22v39'>
+<text>... 就 是 要 爱 人 如 己 。</text>
+<ref>马太福音 22:39 下</ref>
+</parol>
+</theword>
+<theword date='2017-07-30'>
+<title>每日金句 七月三十日 星期日</title>
+<parol book='48' chapter='5' verse='25' id='G5v25'>
+<text>我 们 若 是 靠 圣 灵 得 生 ，
+就 当 靠 圣 灵 行 事 。</text>
+<ref>加拉太书 5:25</ref>
+</parol>
+<parol book='45' chapter='6' verse='11' id='R6v11'>
+<text>你 们 向 罪 也 当 看 自 己 是 死 的 。
+向 神 在 基 督 耶 稣 里 却 当 看 自 己 是 活 的 。</text>
+<ref>罗马书 6:11</ref>
+</parol>
+</theword>
+<theword date='2017-07-31'>
+<title>每日金句 七月三十一日 星期一</title>
+<parol book='23' chapter='59' verse='1' id='Is59v1'>
+<text>耶 和 华 的 膀 臂 并 非 缩 短 ， 不 能 拯 救 ，
+耳 朵 并 非 发 沉 ， 不 能 听 见 ...</text>
+<ref>以赛亚书 59:1</ref>
+</parol>
+<parol book='43' chapter='10' verse='10' id='J10v10'>
+<intro>耶 稣 说：</intro>
+<text>我 来 了 ， 是 要 叫 羊 得 生 命 ， 并 且 得 的 更 丰 盛 。</text>
+<ref>约翰福音 10:10 下</ref>
+</parol>
+</theword>
+<theword date='2017-08-01'>
+<title>每日金句 八月一日 星期二</title>
+<parol book='19' chapter='23' verse='1' id='Ps23v1'>
+<text>耶 和 华 是 我 的 牧 者 ，
+我 必 不 致 缺 乏 。</text>
+<ref>诗篇 23:1</ref>
+</parol>
+<parol book='5' chapter='2' verse='7' id='Dt2v7_V'>
+<text>这四十年，
+耶和华你的神常与你同在，
+故此你一无所缺。</text>
+<ref>申命记 2:7</ref>
+</parol>
+</theword>
+<theword date='2017-08-02'>
+<title>每日金句 八月二日 星期三</title>
+<parol book='6' chapter='1' verse='9' id='Jos1v9'>
+<text>不 要 惧 怕 ， 也 不 要 惊 惶 。
+因 为 你 无 论 往 哪 里 去 ，
+耶 和 华 你 的 神 必 与 你 同 在 。</text>
+<ref>约书亚记 1:9下</ref>
+</parol>
+<parol book='40' chapter='10' verse='28' id='Mt10v28'>
+<text>那 杀 身 体 ， 不 能 杀 灵 魂 的 ，不 要 怕 他 们 ；
+惟 有 能 把 身 体 和 灵 魂 都 灭 在 地 狱 里 的 ， 正 要 怕 他 。</text>
+<ref>马太福音 10:28</ref>
+</parol>
+</theword>
+<theword date='2017-08-03'>
+<title>每日金句 八月三日 星期四</title>
+<parol book='19' chapter='71' verse='16' id='Ps71v16'>
+<text>我 要 来 说 主 ─ 耶 和 华 大 能 的 事 ；
+我 单 要 提 说 你 的 公 义 。</text>
+<ref>诗篇 71:16</ref>
+</parol>
+<parol book='19' chapter='24' verse='10' id='Ps24v10'>
+<text>荣 耀 的 王 是 谁 呢 ？
+万 军 之 耶 和 华 ，
+他 是 荣 耀 的 王 ！</text>
+<ref>诗篇 24:10</ref>
+</parol>
+</theword>
+<theword date='2017-08-04'>
+<title>每日金句 八月四日 星期五</title>
+<parol book='20' chapter='21' verse='2' id='Prv21v2'>
+<text>人 所 行 的 ， 在 自 己 眼 中 都 看 为 正 ；
+惟 有 耶 和 华 衡 量 人 心 。</text>
+<ref>箴言 21:2</ref>
+</parol>
+<parol book='41' chapter='8' verse='36' id='Mc8v36'>
+<text>人 就 是 赚 得 全 世 界 ，
+赔 上 自 己 的 生 命 ，
+有 甚 麽 益 处 呢 ？</text>
+<ref>马可福音 8:36</ref>
+</parol>
+</theword>
+<theword date='2017-08-05'>
+<title>每日金句 八月五日 星期六</title>
+<parol book='46' chapter='12' verse='24' id='1K12v24-25'>
+<text>我 们 俊 美 的 肢 体 ， 自 然 用 不 着 装 饰 ；
+但 神 配 搭 这 身 子 ， 把 加 倍 的 体 面 给 那 有 缺 欠 的 肢 体 ， 免 得 身 上 分 门 别 类 ，
+总 要 肢 体 彼 此 相 顾 。</text>
+<ref>哥林多前书 12:24-25</ref>
+</parol>
+<parol book='20' chapter='14' verse='31' id='Prv14v31'>
+<text>欺 压 贫 寒 的 ， 是 辱 没 造 他 的 主 。
+怜 悯 穷 乏 的 ， 乃 是 尊 敬 主 。</text>
+<ref>箴言 14:31</ref>
+</parol>
+</theword>
+<theword date='2017-08-06'>
+<title>每日金句 八月六日 星期日</title>
+<parol book='24' chapter='15' verse='18' id='Jr15v18'>
+<text>我 的 痛 苦 为 何 长 久 不 止 呢 。
+我 的 伤 痕 为 何 无 法 医 治 ， 不 能 痊 愈 呢 。
+难 道 你 待 我 有 诡 诈 ，
+像 流 乾 的 河 道 麽 。</text>
+<ref>耶利米书 15:18</ref>
+</parol>
+<parol book='47' chapter='12' verse='10' id='2K12v10'>
+<intro>保 罗 写 道：</intro>
+<text>我为基督的缘故，就以软弱，
+凌辱，急难，逼迫，困苦，
+为可喜乐的。
+因我什么时候软弱，什么时候就刚强了。</text>
+<ref>哥林多后书 12:10</ref>
+</parol>
+</theword>
+<theword date='2017-08-07'>
+<title>每日金句 八月七日 星期一</title>
+<parol book='51' chapter='1' verse='18' id='Kol1v18'>
+<text>基 督 也 是 教 会 全 体 之 首 。
+他 是 元 始 ， 是 从 死 里 首 先 复 生 的 ，
+使 他 可 以 在 凡 事 上 居 首 位 。</text>
+<ref>歌罗西书 1:18</ref>
+</parol>
+<parol book='62' chapter='4' verse='19' id='1J4v19'>
+<text>我 们 爱 ，
+因 为 神 先 爱 我 们 。</text>
+<ref>约翰一书 4:19</ref>
+</parol>
+</theword>
+<theword date='2017-08-08'>
+<title>每日金句 八月八日 星期二</title>
+<parol book='19' chapter='74' verse='21' id='Ps74v21'>
+<text>不 要 叫 受 欺 压 的 人 蒙 羞 回 去 ；
+要 叫 困 苦 穷 乏 的 人 赞 美 你 的 名 。</text>
+<ref>诗篇 74:21</ref>
+</parol>
+<parol book='42' chapter='8' verse='47' id='L8v47'>
+<text>那 女 人 知 道 不 能 隐 藏 ，
+就 战 战 兢 兢 的 来 俯 伏 在 耶 稣 脚 前 ，
+把 摸 他 的 缘 故 和 怎 样 立 刻 得 好 了 ，
+当 着 众 人 都 说 出 来 。</text>
+<ref>路加福音 8:47</ref>
+</parol>
+</theword>
+<theword date='2017-08-09'>
+<title>每日金句 八月九日 星期三</title>
+<parol book='5' chapter='4' verse='10' id='Dt4v10'>
+<text>你 为 我 招 聚 百 姓 ，
+我 要 叫 他 们 听 见 我 的 话 ，
+使 他 们 存 活 在 世 的 日 子 ，
+可 以 学 习 敬 畏 我 ，
+又 可 以 教 训 儿 女 这 样 行 。</text>
+<ref>申命记 4:10 下</ref>
+</parol>
+<parol book='66' chapter='19' verse='5' id='Ap19v5'>
+<text>... 神 的 众 仆 人 哪 ， 凡 敬 畏 他 的 ，
+无 论 大 小 ， 都 要 赞 美 我 们 的 神 ！</text>
+<ref>启示录 19:5</ref>
+</parol>
+</theword>
+<theword date='2017-08-10'>
+<title>每日金句 八月十日 星期四</title>
+<parol book='5' chapter='6' verse='5' id='Dt6v5'>
+<text>你 要 尽 心 ，
+尽 性 ，
+尽 力
+爱 耶 和 华 你 的 神 。</text>
+<ref>申命记 6:5</ref>
+</parol>
+<parol book='6' chapter='23' verse='11' id='Jos23v11'>
+<text>你 们 要 分 外 谨 慎 ， 爱 耶 和 华 ─ 你 们 的 神 。</text>
+<ref>约书亚记 23:11</ref>
+</parol>
+</theword>
+<theword date='2017-08-11'>
+<title>每日金句 八月十一日 星期五</title>
+<parol book='46' chapter='12' verse='6' id='1K12v6-7'>
+<text>功 用 也 有 分 别 ，
+神 却 是 一 位 ，
+在 众 人 里 面 运 行 一 切 的 事 。
+圣 灵 显 在 各 人 身 上 ， 是 叫 人 得 益 处 。</text>
+<ref>哥林多前书 12:6-7</ref>
+</parol>
+<parol book='45' chapter='12' verse='5' id='R12v5-6'>
+<text>我 们 这 许 多 人 ， 在 基 督 里 成 为 一 身 ，
+互 相 联 络 作 肢 体 ， 也 是 如 此 。
+按 我 们 所 得 的 恩 赐 ，
+各 有 不 同 。</text>
+<ref>罗马书 12:5-6</ref>
+</parol>
+</theword>
+<theword date='2017-08-12'>
+<title>每日金句 八月十二日 星期六</title>
+<parol book='27' chapter='4' verse='32' id='Dn4v32'>
+<text>在天上的万军和世上的居民中，
+他都凭自己的意旨行事。
+无人能拦住他手，或问他说，
+你做什么呢？</text>
+<ref>但以理书 4:35</ref>
+</parol>
+<parol book='44' chapter='11' verse='17' id='Act11v17'>
+<intro>彼 得 说:</intro>
+<text>神 既 然 给 他 们 恩 赐 ，
+像 在 我 们 信 主 耶 稣 基 督 的 时 候 给 了 我 们 一 样 ；
+我 是 谁 ， 能 拦 阻 神 呢 ！</text>
+<ref>使徒行传 11:17</ref>
+</parol>
+</theword>
+<theword date='2017-08-13'>
+<title>每日金句 八月十三日 星期日</title>
+<parol book='40' chapter='23' verse='39' id='Mt23v39'>
+<intro>耶 稣 说:</intro>
+<text>我 告 诉 你 们 ，
+从 今 以 後 ，你 们 不 得 再 见 我 ，
+直 等 到 你 们 说 ：
+奉 主 名 来 的  应 当 称 颂 的 。</text>
+<ref>马太福音 23:39</ref>
+</parol>
+<parol book='66' chapter='1' verse='7' id='Ap1v7'>
+<text>看 哪 ， 耶 稣 基 督 驾 云 降 临 ！
+众 目 要 看 见 他 ，
+连 刺 他 的 人 也 要 看 见 他 ...</text>
+<ref>启示录 1:7上</ref>
+</parol>
+</theword>
+<theword date='2017-08-14'>
+<title>每日金句 八月十四日 星期一</title>
+<parol book='14' chapter='36' verse='16' id='2Chr36v16'>
+<text>他 们 却 嘻 笑 神 的 使 者 ，
+藐 视 他 的 言 语 ， 讥 诮 他 的 先 知 ，
+以 致 耶 和 华 的 忿 怒 向 他 的 百 姓 发 作 ，
+无 法 可 救 。</text>
+<ref>历代志下 36:16</ref>
+</parol>
+<parol book='45' chapter='3' verse='3' id='R3v3-4'>
+<text>即 便 有 不 信 的 ，这 有 何 妨 呢 ？
+难 道 他 们 的 不 信 就 废 掉 神 的 信 麽 ？
+断 乎 不 能 ！</text>
+<ref>罗马书 3:3-4 上</ref>
+</parol>
+</theword>
+<theword date='2017-08-15'>
+<title>每日金句 八月十五日 星期二</title>
+<parol book='42' chapter='9' verse='6' id='L9v6'>
+<text>门 徒 就 出 去 ， 走 遍 各 乡
+宣 传 福 音 ， 到 处 治 病 。</text>
+<ref>路加福音 9:6</ref>
+</parol>
+<parol book='44' chapter='5' verse='42' id='Act5v42'>
+<text>他 们 就 每 日 在 殿 里 、 在 家 里 、
+不 住 的 教 训 人 ，
+传 耶 稣 是 基 督 。</text>
+<ref>使徒行传 5:42</ref>
+</parol>
+</theword>
+<theword date='2017-08-16'>
+<title>每日金句 八月十六日 星期三</title>
+<parol book='58' chapter='13' verse='5' id='H13v5'>
+<text>你 们 存 心 不 可 贪 爱 钱 财 ，
+要 以 自 己 所 有 的 为 足 ；
+因 为 主 曾 说 ：
+我 总 不 撇 下 你 ， 也 不 丢 弃 你 。</text>
+<ref>希伯来书 13:5</ref>
+</parol>
+<parol book='41' chapter='4' verse='19' id='Mc4v19'>
+<text>后 来 有 世 上 的 思 虑 ，
+钱 财 的 迷 惑 ， 和 别 样 的 私 欲 ，
+进 来 把 道 挤 住 了 ， 就 不 能 结 实 。</text>
+<ref>马可福音 4:19</ref>
+</parol>
+</theword>
+<theword date='2017-08-17'>
+<title>每日金句 八月十七日 星期四</title>
+<parol book='19' chapter='23' verse='3' id='Ps23v3'>
+<text>为 自 己 的 名 引 导 我 走 义 路 。</text>
+<ref>诗篇 23:3 下</ref>
+</parol>
+<parol book='60' chapter='2' verse='25' id='1P2v25'>
+<text>你们从前好像迷路的羊。
+如今却归到你们灵魂的牧人监督了。</text>
+<ref>彼得前书 2:25</ref>
+</parol>
+</theword>
+<theword date='2017-08-18'>
+<title>每日金句 八月十八日 星期五</title>
+<parol book='19' chapter='57' verse='8' id='Ps57v8'>
+<text>神 啊 ， 我 心 坚 定 ，
+我 心 坚 定 ；
+我 要 唱 诗 ， 我 要 歌 颂 ！</text>
+<ref>诗篇 57:7</ref>
+</parol>
+<parol book='19' chapter='147' verse='1' id='Ps147v1'>
+<text>你 们 要 赞 美 耶 和 华 ！
+因 歌 颂 我 们 的 神 为 善 为 美 ；
+赞 美 的 话 是 合 宜 的 。</text>
+<ref>诗篇 147:1</ref>
+</parol>
+</theword>
+<theword date='2017-08-19'>
+<title>每日金句 八月十九日 星期六</title>
+<parol book='11' chapter='3' verse='9' id='1Rg3v9'>
+<intro>所 罗 门 祷 告 说：</intro>
+<text>所 以 求 你 赐 我 智 慧 ，
+可 以 判 断 你 的 民 ， 能 辨 别 是 非 。</text>
+<ref>列王纪上 3:9 上</ref>
+</parol>
+<parol book='51' chapter='3' verse='2' id='Kol3v2'>
+<text>你们要思念上面的事，
+不要思念地上的事。</text>
+<ref>歌罗西书 3:2</ref>
+</parol>
+</theword>
+<theword date='2017-08-20'>
+<title>每日金句 八月二十日 星期日</title>
+<parol book='19' chapter='8' verse='10' id='Ps8v10'>
+<text>耶 和 华 ─ 我 们 的 主 啊 ，
+你 的 名 在 全 地 何 其 美 ！</text>
+<ref>诗篇 8:9</ref>
+</parol>
+<parol book='47' chapter='4' verse='15' id='2K4v15'>
+<text>凡 事 都 是 为 你 们 ，
+好 叫 恩 惠 因 人 多 越 发 加 增 ，
+感 谢 格 外 显 多 ， 以 致 荣 耀 归 与 神 。</text>
+<ref>哥林多后书 4:15</ref>
+</parol>
+</theword>
+<theword date='2017-08-21'>
+<title>每日金句 八月二十一日 星期一</title>
+<parol book='19' chapter='5' verse='12' id='Ps5v12'>
+<text>凡 投 靠 你 的 ， 愿 他 们 喜 乐 ，
+时 常 欢 呼 ， 因 为 你 护 庇 他 们 ...</text>
+<ref>诗篇 5:11上</ref>
+</parol>
+<parol book='60' chapter='1' verse='6' id='1P1v6'>
+<text>因 此 ， 你 们 是 大 有 喜 乐 ，
+但 如 今 ， 在 百 般 的 试 炼 中 暂 时 忧 愁 。</text>
+<ref>彼得前书 1:6</ref>
+</parol>
+</theword>
+<theword date='2017-08-22'>
+<title>每日金句 八月二十二日 星期二</title>
+<parol book='43' chapter='21' verse='17' id='J21v17'>
+<text>西门彼得对耶稣说，
+主阿，你是无所不知的，
+你知道我爱你。</text>
+<ref>约翰福音 21:17</ref>
+</parol>
+<parol book='11' chapter='8' verse='39' id='1Rg8v39'>
+<text>惟 有 你 知 道 世 人 的 心 ...</text>
+<ref>列王纪上 8:39 下</ref>
+</parol>
+</theword>
+<theword date='2017-08-23'>
+<title>每日金句 八月二十三日 星期三</title>
+<parol book='19' chapter='150' verse='2' id='Ps150v2'>
+<text>要因他大能的作为赞美他，
+按着他极美的大德赞美他。</text>
+<ref>诗篇 150:2</ref>
+</parol>
+<parol book='10' chapter='7' verse='22' id='2Sm7v22'>
+<text>主 耶 和 华 啊 ，你 本 为 大 ，
+照 我 们 耳 中 听 见 ，
+没 有 可 比 你 的 ；
+除 你 以 外 再 无 神 。</text>
+<ref>撒母耳记下 7:22</ref>
+</parol>
+</theword>
+<theword date='2017-08-24'>
+<title>每日金句 八月二十四日 星期四</title>
+<parol book='19' chapter='80' verse='15' id='Ps80v15-16'>
+<text>眷 顾 这 葡 萄 树 ，
+保 护 你 右 手 所 栽 的
+和 你 为 自 已 所 坚 固 的 枝 子 。</text>
+<ref>诗篇 80:14-15 下</ref>
+</parol>
+<parol book='45' chapter='8' verse='33' id='R8v33'>
+<text>谁能控告神所拣选的人呢？
+有神称他们为义了。</text>
+<ref>罗马书 8:33</ref>
+</parol>
+</theword>
+<theword date='2017-08-25'>
+<title>每日金句 八月二十五日 星期五</title>
+<parol book='19' chapter='118' verse='18' id='Ps118v18'>
+<text>耶 和 华 虽 严 严 地 惩 治 我 ，
+却 未 曾 将 我 交 於 死 亡 。</text>
+<ref>诗篇 118:18</ref>
+</parol>
+<parol book='26' chapter='18' verse='23' id='Ez18v23'>
+<text>主 耶 和 华 说 ，
+恶 人 死 亡 ， 岂 是 我 喜 悦 的 麽 。
+不 是 喜 悦 他 回 头 离 开 所 行 的 道 存 活 麽 。</text>
+<ref>以西结书 18:23</ref>
+</parol>
+</theword>
+<theword date='2017-08-26'>
+<title>每日金句 八月二十六日 星期六</title>
+<parol book='19' chapter='145' verse='15' id='Ps145v15'>
+<text>万 民 都 举 目 仰 望 你 ；
+你 随 时 给 他 们 食 物 。</text>
+<ref>诗篇 145:15</ref>
+</parol>
+<parol book='42' chapter='12' verse='6' id='L12v6'>
+<text>五 个 麻 雀 不 是 卖 二 分 银 子 麽 ？
+但 在 神 面 前 ， 一 个 也 不 忘 记 ...</text>
+<ref>路加福音 12:6</ref>
+</parol>
+</theword>
+<theword date='2017-08-27'>
+<title>每日金句 八月二十七日 星期日</title>
+<parol book='18' chapter='28' verse='24' id='Job28v24'>
+<text>他鉴察直到地极，
+遍观普天之下。</text>
+<ref>约伯记 28:24</ref>
+</parol>
+<parol book='41' chapter='4' verse='22' id='Mc4v22'>
+<text>掩 藏 的 事 ， 没 有 不 显 出 来 的 。
+隐 瞒 的 事 ， 没 有 不 露 出 来 的 。</text>
+<ref>马可福音 4:22</ref>
+</parol>
+</theword>
+<theword date='2017-08-28'>
+<title>每日金句 八月二十八日 星期一</title>
+<parol book='11' chapter='19' verse='11' id='1Rg19v11'>
+<text>那 时 耶 和 华 从 那 里 经 过 ，
+在 他 面 前 有 烈 风 大 作 ，
+崩 山 碎 石 ，
+耶 和 华 却 不 在 风 中 ...</text>
+<ref>列王纪上 19:11</ref>
+</parol>
+<parol book='42' chapter='17' verse='20' id='L17v20-21'>
+<text>法 利 赛 人 问 ：
+神 的 国 几 时 来 到 ？
+耶 稣 回 答 说 ：
+神 的 国 来 到 不 是 眼 所 能 见 的 。
+人 也 不 得 说 ： 看 哪 ， 在 这 里 ！ 看 哪 ， 在 那 里 ！ 因 为 神 的 国 就 在 你 们 心 里 。</text>
+<ref>路加福音 17:20-21</ref>
+</parol>
+</theword>
+<theword date='2017-08-29'>
+<title>每日金句 八月二十九日 星期二</title>
+<parol book='15' chapter='7' verse='28' id='Esr7v28'>
+<text>因 耶 和 华 ─ 我 神 的 手 帮 助 我 ，
+我 就 得 以 坚 强 ...</text>
+<ref>以斯拉记 7:28 下</ref>
+</parol>
+<parol book='23' chapter='51' verse='16' id='Is51v16'>
+<text>我 将 我 的 话 传 给 你 ，
+用 我 的 手 影 哨 蔽 你...</text>
+<ref>以赛亚书 51:16上</ref>
+</parol>
+</theword>
+<theword date='2017-08-30'>
+<title>每日金句 八月三十日 星期三</title>
+<parol book='18' chapter='1' verse='21' id='Job1v21'>
+<text>赏 赐 的 是 耶 和 华 ， 收 取 的 也 是 耶 和 华 。
+耶 和 华 的 名 是 应 当 称 颂 的 。</text>
+<ref>约伯记 1:21 下</ref>
+</parol>
+<parol book='43' chapter='1' verse='16' id='J1v16'>
+<text>从 他 丰 满 的 恩 典 里 ，
+我 们 都 领 受 了 ， 而 且 恩 上 加 恩 。</text>
+<ref>约翰福音 1:16</ref>
+</parol>
+</theword>
+<theword date='2017-08-31'>
+<title>每日金句 八月三十一日 星期四</title>
+<parol book='19' chapter='87' verse='7' id='Ps87v7'>
+<text>我 的 泉 源 都 在 你 里 面 。</text>
+<ref>诗篇 87:7 下</ref>
+</parol>
+<parol book='43' chapter='4' verse='14' id='J4v14'>
+<intro>耶 稣 基 督 说：</intro>
+<text>人若喝我所赐的水就永远不渴。
+我所赐的水，
+要在他里头成为泉源，
+直涌到永生。</text>
+<ref>约翰福音 4:14</ref>
+</parol>
+</theword>
+<theword date='2017-09-01'>
+<title>每日金句 九月一日 星期五</title>
+<parol book='24' chapter='15' verse='20' id='Jr15v20'>
+<text>因 我 与 你 同 在 ，
+要 拯 救 你 ， 搭 救 你 。
+这 是 耶 和 华 说 的 。</text>
+<ref>耶利米书 15:20 下</ref>
+</parol>
+<parol book='44' chapter='5' verse='19' id='Act5v19-20'>
+<text>主 的 使 者 ，
+夜 间 开 了 监 门 ，
+领 他 们 出 来 ， 说 ，
+你 们 去 站 在 殿 里 ，
+把 这 生 命 的 道 ， 都 讲 给 百 姓 听 。</text>
+<ref>使徒行传 5:19-20</ref>
+</parol>
+</theword>
+<theword date='2017-09-02'>
+<title>每日金句 九月二日 星期六</title>
+<parol book='23' chapter='43' verse='1' id='Is43v1'>
+<text>雅 各 阿 ，
+创 造 你 的 耶 和 华 ，
+以 色 列 阿 ， 造 成 你 的 那 位 ，
+现 在 如 此 说 ， 你 不 要 害 怕 ， 因 为 我 救 赎 了 你 。
+我 曾 题 你 的 名 召 你 ， 你 是 属 我 的 。</text>
+<ref>以赛亚书 43:1</ref>
+</parol>
+<parol book='44' chapter='22' verse='16' id='Act22v16'>
+<intro>亚 拿 尼 对 保 罗  说:</intro>
+<text>现 在 你 为 甚 麽 耽 延 呢 ？
+起 来 ，
+求 告 他 的 名 受 洗 ，
+洗 去 你 的 罪 。</text>
+<ref>使徒行传 22:16</ref>
+</parol>
+</theword>
+<theword date='2017-09-03'>
+<title>每日金句 九月三日 星期日</title>
+<parol book='26' chapter='37' verse='5' id='Ez37v5'>
+<intro>以 西 结 在 骸 骨 的 山谷:</intro>
+<text>主 耶 和 华 对 这 些 骸 骨 如 此 说 ：
+我 必 使 气 息 进 入 你 们 里 面 ，
+你 们 就 要 活 了 。</text>
+<ref>以西结书 37:5</ref>
+</parol>
+<parol book='27' chapter='12' verse='2' id='Dn12v2'>
+<text>睡 在 尘 埃 中 的 ， 必 有 多 人 复 醒 。
+其 中 有 得 永 生 的 ，
+有 受 羞 辱 永 远 被 憎 恶 的 。</text>
+<ref>但以理书 12:2</ref>
+</parol>
+</theword>
+<theword date='2017-09-04'>
+<title>每日金句 九月四日 星期一</title>
+<parol book='27' chapter='2' verse='20' id='Dn2v20'>
+<text>神 的 名 是 应 当 称 颂 的 ！ 从 亘 古 直 到 永 远 ，
+因 为 智 慧 能 力 都 属 乎 他 。</text>
+<ref>但以理书 2:20</ref>
+</parol>
+<parol book='19' chapter='147' verse='5' id='Ps147v5'>
+<text>我 们 的 主 为 大 ， 最 有 能 力 ；
+他 的 智 慧 无 法 测 度 。</text>
+<ref>诗篇 147:5</ref>
+</parol>
+</theword>
+<theword date='2017-09-05'>
+<title>每日金句 九月五日 星期二</title>
+<parol book='43' chapter='1' verse='11' id='J1v11'>
+<text>他 到 自 己 的 地 方 来 ，
+自 己 的 人 倒 不 接 待 他 。</text>
+<ref>约翰福音 1:11</ref>
+</parol>
+<parol book='43' chapter='3' verse='19' id='J3v19'>
+<text>光来到世间，
+世人因自己的行为是恶的，
+不爱光倒爱黑暗，
+定他们的罪就是在此。</text>
+<ref>约翰福音 3:19</ref>
+</parol>
+</theword>
+<theword date='2017-09-06'>
+<title>每日金句 九月六日 星期三</title>
+<parol book='16' chapter='4' verse='9' id='Neh4v9'>
+<text>仇 敌 听 见 我 们 知 道 他 们 的 心 意 ，
+见 神 也 破 坏 他 们 的 计 谋 ， 就 不 来 了 。
+我 们 都 回 到 城 墙 那 里 ， 各 做 各 的 工 。</text>
+<ref>尼希米记 4:15</ref>
+</parol>
+<parol book='23' chapter='60' verse='18' id='Is60v18'>
+<text>你 地 上 不 再 听 见 强 暴 的 事 ，
+境 内 不 再 听 见 荒 凉 毁 灭 的 事 。
+你 必 称 你 的 墙 为 拯 救 ，
+称 你 的 门 为 赞 美 。</text>
+<ref>以赛亚书 60:18</ref>
+</parol>
+</theword>
+<theword date='2017-09-07'>
+<title>每日金句 九月七日 星期四</title>
+<parol book='26' chapter='36' verse='27' id='Ez36v27'>
+<text>我 必 将 我 的 灵 放 在 你 们 里 面 ，
+使 你 们 顺 从 我 的 律 例 ，
+谨 守 遵 行 我 的 典 章 。</text>
+<ref>以西结书 36:27</ref>
+</parol>
+<parol book='43' chapter='3' verse='5' id='J3v5'>
+<intro>耶 稣 回 答 尼 哥 底 母 ， 是 犹 太 人 的 官, 说 :</intro>
+<text>人 若 不 是 从 水 和 圣 灵 生 的 ，
+就 不 能 进 神 的 国 。</text>
+<ref>约翰福音 3:5 下</ref>
+</parol>
+</theword>
+<theword date='2017-09-08'>
+<title>每日金句 九月八日 星期五</title>
+<parol book='38' chapter='8' verse='16' id='Zch8v16'>
+<text>你 们 所 当 行 的 是 这 样 ，
+各 人 与 邻 舍 说 话 诚 实 ，
+在 城 门 口 按 至 理 判 断 ，
+使 人 和 睦 。</text>
+<ref>撒迦利亚书 8:16</ref>
+</parol>
+<parol book='55' chapter='4' verse='2' id='2T4v2'>
+<intro>保 罗 写 给 提 摩 太:</intro>
+<text>务 要 传 道 。
+无 论 得 时 不 得 时 ，总 要 专 心 ，
+并 用 百 般 的 忍 耐 ， 各 样 的 教 训 ，
+责 备 人 ， 警 戒 人 ， 劝 勉 人 。</text>
+<ref>提摩太后书 4:2</ref>
+</parol>
+</theword>
+<theword date='2017-09-09'>
+<title>每日金句 九月九日 星期六</title>
+<parol book='24' chapter='8' verse='10' id='Jr8v10'>
+<text>... 他 们 从 最 小 的 到 至 大 的
+都 一 味 地 贪 婪 ，
+从 先 知 到 祭 司
+都 行 事 虚 谎 。</text>
+<ref>耶利米书 8:10下</ref>
+</parol>
+<parol book='40' chapter='6' verse='24' id='Mt6v24'>
+<text>一个人不能事奉两个主。
+不是恶这个爱那个，就是重这个轻那个。
+你们不能又事奉神，又事奉玛门。</text>
+<ref>马太福音 6:24</ref>
+</parol>
+</theword>
+<theword date='2017-09-10'>
+<title>每日金句 九月十日 星期日</title>
+<parol book='1' chapter='13' verse='8' id='Gn13v8'>
+<text>亚 伯 兰 就 对 罗 得 说 ： 你 我 不 可 相 争 ，
+你 的 牧 人 和 我 的 牧 人 也 不 可 相 争 ，
+因 为 我 们 是 骨 肉 ( 原 文 作 弟 兄 ) 。</text>
+<ref>创世记 13:8</ref>
+</parol>
+<parol book='59' chapter='3' verse='18' id='Jc3v18'>
+<text>并 且 使 人 和 平 的 ，
+是 用 和 平 所 栽 种 的 义 果 。</text>
+<ref>雅各书 3:18</ref>
+</parol>
+</theword>
+<theword date='2017-09-11'>
+<title>每日金句 九月十一日 星期一</title>
+<parol book='42' chapter='20' verse='25' id='L20v25'>
+<text>该 撒 的 物 当 归 给 该 撒 ，
+神 的 物 当 归 给 神 。</text>
+<ref>路加福音 20:25</ref>
+</parol>
+<parol book='44' chapter='8' verse='20' id='Act8v20-21'>
+<text>彼 得 对 西 门 说 ：
+你 的 银 子 和 你 一 同 灭 亡 罢 ！
+因 你 想 神 的 恩 赐 是 可 以 用 钱 买 的 。
+你 在 这 道 上 无 分 无 关 ；
+因 为 在 神 面 前 ， 你 的 心 不 正 。</text>
+<ref>使徒行传 8:20-21</ref>
+</parol>
+</theword>
+<theword date='2017-09-12'>
+<title>每日金句 九月十二日 星期二</title>
+<parol book='19' chapter='115' verse='2' id='Ps115v2-3'>
+<text>为何容外邦人说，
+他们的神在哪里呢？
+然而，我们的神在天上。
+都随自己的意旨行事。</text>
+<ref>诗篇 115:2-3</ref>
+</parol>
+<parol book='61' chapter='3' verse='3' id='2P3v3-4'>
+<text>... 该 知 道 在 末 世 必 有 好 讥 诮 的 人
+随 从 自 己 的 私 欲 出 来 讥 诮 说 ：
+「 主 要 降 临 的 应 许 在 那 里 呢 ？
+因 为 从 列 祖 睡 了 以 来 ，
+万 物 与 起 初 创 造 的 时 候 仍 是 一 样 。」</text>
+<ref>彼得后书 3:3-4</ref>
+</parol>
+</theword>
+<theword date='2017-09-13'>
+<title>每日金句 九月十三日 星期三</title>
+<parol book='26' chapter='18' verse='32' id='Ez18v32'>
+<text>... 你 们 当 回 头 而 存 活 。</text>
+<ref>以西结书 18:32下</ref>
+</parol>
+<parol book='61' chapter='3' verse='9' id='2P3v9'>
+<text>主 所 应 许 的 尚 未 成 就 ，
+有 人 以 为 他 是 耽 延 ，
+其 实 不 是 耽 延 ， 乃 是 宽 容 你 们 ，
+不 愿 有 一 人 沉 沦 ，
+乃 愿 人 人 都 悔 改 。</text>
+<ref>彼得后书 3:9</ref>
+</parol>
+</theword>
+<theword date='2017-09-14'>
+<title>每日金句 九月十四日 星期四</title>
+<parol book='23' chapter='54' verse='10' id='Is54v10'>
+<text>大山可以挪开，小山可以迁移。
+但我的慈爱必不离开你，
+我平安的约也不迁移。
+这是怜恤你的耶和华说的。</text>
+<ref>以赛亚书 54:10</ref>
+</parol>
+<parol book='55' chapter='4' verse='22' id='2T4v22'>
+<text>愿 主 与 你 的 灵 同 在 。
+愿 恩 惠 常 与 你 们 同 在 ！</text>
+<ref>提摩太后书 4:22</ref>
+</parol>
+</theword>
+<theword date='2017-09-15'>
+<title>每日金句 九月十五日 星期五</title>
+<parol book='43' chapter='6' verse='27' id='J6v27'>
+<text>不 要 为 那 必 坏 的 食 物 劳 力 ，
+要 为 那 存 到 永 生 的 食 物 劳 力 ，
+就 是 人 子 要 赐 给 你 们 的 。
+因 为 人 子 是 父 神 所 印 证 的 。</text>
+<ref>约翰福音 6:27</ref>
+</parol>
+<parol book='61' chapter='3' verse='11' id='2P3v11'>
+<intro>保 罗  对 于 世 界 末 日 、 写 道 :</intro>
+<text>这 一 切 既 然 都 要 如 此 销 化 ，
+你 们 为 人 该 当 怎 样 圣 洁 ，
+怎 样 敬 虔 。</text>
+<ref>彼得后书 3:11</ref>
+</parol>
+</theword>
+<theword date='2017-09-16'>
+<title>每日金句 九月十六日 星期六</title>
+<parol book='1' chapter='2' verse='2' id='Gn2v2'>
+<text>到 第 七 日 ，
+神 造 物 的 工 已 经 完 毕 ，
+就 在 第 七 日 歇 了 他 一 切 的 工 ，
+安 息 了 。</text>
+<ref>创世记 2:2</ref>
+</parol>
+<parol book='58' chapter='4' verse='10' id='H4v10'>
+<text>因为那进入安息的，
+乃是歇了自己的工，
+正如神歇了他的工一样。</text>
+<ref>希伯来书 4:10</ref>
+</parol>
+</theword>
+<theword date='2017-09-17'>
+<title>每日金句 九月十七日 星期日</title>
+<parol book='42' chapter='5' verse='5' id='L5v5'>
+<text>西 门 说 ：
+夫 子 ， 我 们 整 夜 劳 力 ， 并 没 有 打 着 甚 麽 。
+但 依 从 你 的 话 ， 我 就 下 网 。</text>
+<ref>路加福音 5:5</ref>
+</parol>
+<parol book='44' chapter='5' verse='29' id='Act5v29'>
+<text>彼 得 和 众 使 徒 回 答 说 ，
+顺 从 神 ， 不 顺 从 人 ， 是 应 当 的 。</text>
+<ref>使徒行传 5:29</ref>
+</parol>
+</theword>
+<theword date='2017-09-18'>
+<title>每日金句 九月十八日 星期一</title>
+<parol book='19' chapter='142' verse='8' id='Ps142v8'>
+<text>求 你 领 我 出 离 被 囚 之 地 ，
+我 好 称 赞 你 的 名 。
+义 人 必 环 绕 我 ，
+因 为 你 是 用 厚 恩 待 我 。</text>
+<ref>诗篇 142:7</ref>
+</parol>
+<parol book='51' chapter='3' verse='16' id='Kol3v16'>
+<text>当用各样的智慧，
+把基督的道里，
+丰丰富富的存在心里，
+用诗章，颂词，灵歌，
+彼此教导，互相劝戒，心被恩感歌颂神。</text>
+<ref>歌罗西书 3:16</ref>
+</parol>
+</theword>
+<theword date='2017-09-19'>
+<title>每日金句 九月十九日 星期二</title>
+<parol book='9' chapter='2' verse='7' id='1Sm2v7-8'>
+<text>他使人贫穷，也使人富足，
+使人卑微，也使人高贵。
+他从灰尘里抬举贫寒人，
+从粪堆中提拔穷乏人。</text>
+<ref>撒母耳记上 2:7-8</ref>
+</parol>
+<parol book='19' chapter='75' verse='8' id='Ps75v8'>
+<text>惟 有 神 断 定 ；
+他 使 这 人 降 卑 ， 使 那 人 升 高 。</text>
+<ref>诗篇 75:7</ref>
+</parol>
+</theword>
+<theword date='2017-09-20'>
+<title>每日金句 九月二十日 星期三</title>
+<parol book='23' chapter='29' verse='19' id='Is29v19'>
+<text>谦卑人，必因耶和华增添欢喜。
+人间贫穷的，必因以色列的圣者快乐。</text>
+<ref>以赛亚书 29:19</ref>
+</parol>
+<parol book='42' chapter='6' verse='20' id='L6v20'>
+<text>耶稣举目看着门徒说，
+你们贫穷的人有福了。
+因为神的国是你们的。</text>
+<ref>路加福音 6:20</ref>
+</parol>
+</theword>
+<theword date='2017-09-21'>
+<title>每日金句 九月二十一日 星期四</title>
+<parol book='43' chapter='14' verse='18' id='J14v18'>
+<intro>耶 稣 说：</intro>
+<text>我 不 撇 下 你 们 为 孤 儿 ，
+我 必 到 你 们 这 里 来 。</text>
+<ref>约翰福音 14:18</ref>
+</parol>
+<parol book='3' chapter='26' verse='12' id='Lv26v12'>
+<text>我 要 在 你 们 中 间 行 走 ；
+我 要 作 你 们 的 神 ，
+你 们 要 作 我 的 子 民 。</text>
+<ref>利未记 26:12</ref>
+</parol>
+</theword>
+<theword date='2017-09-22'>
+<title>每日金句 九月二十二日 星期五</title>
+<parol book='58' chapter='13' verse='20' id='H13v20-21'>
+<text>但 愿 赐 平 安 的 神 ，
+就 是 那 凭 永 约 之 血 、
+使 群 羊 的 大 牧 人 ─
+我 主 耶 稣 从 死 里 复 活 的 神 ，
+在 各 样 善 事 上 成 全 你 们 ，
+叫 你 们 遵 行 他 的 旨 意 ；
+又 藉 着 耶 稣 基 督 在 你 们 心 里 行 他 所 喜 悦 的 事 。</text>
+<ref>希伯来书 13:20-21</ref>
+</parol>
+<parol book='45' chapter='6' verse='13' id='R6v13'>
+<text>也 不 要 将 你 们 的 肢 体 献 给 罪 作 不 义 的 器 具 ；
+倒 要 像 从 死 里 复 活 的 人 ，
+将 自 己 献 给 神 ，
+并 将 肢 体 作 义 的 器 具 献 给 神 。</text>
+<ref>罗马书 6:13</ref>
+</parol>
+</theword>
+<theword date='2017-09-23'>
+<title>每日金句 九月二十三日 星期六</title>
+<parol book='24' chapter='2' verse='21' id='Jr2v21'>
+<text>我 栽 你 是 上 等 的 葡 萄 树 ，
+全 然 是 真 种 子 ；
+你 怎 麽 向 我 变 为 外 邦 葡 萄 树 的 坏 枝 子 呢 ？</text>
+<ref>耶利米书 2:21</ref>
+</parol>
+<parol book='58' chapter='3' verse='12' id='H3v12'>
+<text>弟兄们，你们要谨慎，
+免得你们中间，
+或有人存着不信的恶心，
+把永生神离弃了。</text>
+<ref>希伯来书 3:12</ref>
+</parol>
+</theword>
+<theword date='2017-09-24'>
+<title>每日金句 九月二十四日 星期日</title>
+<parol book='43' chapter='7' verse='18' id='J7v18'>
+<text>人 凭 着 自 己 说 ，是 求 自 己 的 荣 耀 ；
+惟 有 求 那 差 他 来 者 的 荣 耀 ，
+这 人 是 真 的 ， 在 他 心 里 没 有 不 义 。</text>
+<ref>约翰福音 7:18</ref>
+</parol>
+<parol book='66' chapter='3' verse='8' id='Ap3v8'>
+<text>我知道你的行为，
+你略有一点力量，
+也曾遵守我的道，
+没有弃绝我的名。</text>
+<ref>启示录 3:8</ref>
+</parol>
+</theword>
+<theword date='2017-09-25'>
+<title>每日金句 九月二十五日 星期一</title>
+<parol book='7' chapter='10' verse='15' id='Jdc10v15'>
+<text>以 色 列 人 对 耶 和 华 说 ：
+我 们 犯 罪 了 ，
+任 凭 你 随 意 待 我 们 罢 ！
+只 求 你 今 日 拯 救 我 们 。</text>
+<ref>士师记 10:15</ref>
+</parol>
+<parol book='42' chapter='18' verse='13' id='L18v13'>
+<text>那税吏远远的站着，
+连举目望天也不敢，
+只捶着胸说，
+神阿，开恩可怜我这个罪人。</text>
+<ref>路加福音 18:13</ref>
+</parol>
+</theword>
+<theword date='2017-09-26'>
+<title>每日金句 九月二十六日 星期二</title>
+<parol book='19' chapter='130' verse='3' id='Ps130v3'>
+<text>主 ─ 耶 和 华 啊 ， 你 若 究 察 罪 孽 ，
+谁 能 站 得 住 呢 ？</text>
+<ref>诗篇 130:3</ref>
+</parol>
+<parol book='42' chapter='23' verse='34' id='L23v34'>
+<text>当下耶稣说，父阿，赦免他们。
+因为他们所作的，他们不晓得。</text>
+<ref>路加福音 23:34</ref>
+</parol>
+</theword>
+<theword date='2017-09-27'>
+<title>每日金句 九月二十七日 星期三</title>
+<parol book='40' chapter='18' verse='13' id='Mt18v13'>
+<text>若 是 找 着 了 ， 我 实 在 告 诉 你 们 ，
+他 为 这 一 只 羊 欢 喜 ，
+比 为 那 没 有 迷 路 的 九 十 九 只 欢 喜 还 大 呢 ！</text>
+<ref>马太福音 18:13</ref>
+</parol>
+<parol book='42' chapter='15' verse='7' id='L15v7'>
+<text>我 告 诉 你 们 ， 一 个 罪 人 悔 改 ，
+在 天 上 也 要 这 样 为 他 欢 喜 ，
+较 比 为 九 十 九 个 不 用 悔 改 的 义 人
+欢 喜 更 大 。</text>
+<ref>路加福音 15:7</ref>
+</parol>
+</theword>
+<theword date='2017-09-28'>
+<title>每日金句 九月二十八日 星期四</title>
+<parol book='24' chapter='27' verse='5' id='Jr27v5'>
+<text>我 用 大 能 和 伸 出 来 的 膀 臂 ，
+创 造 大 地 和 地 上 的 人 民 、 牲 畜 。
+我 看 给 谁 相 宜 ，
+就 把 地 给 谁 。</text>
+<ref>耶利米书 27:5</ref>
+</parol>
+<parol book='42' chapter='1' verse='32' id='L1v32'>
+<intro>天 使 对 马 利 亚 说 关于她 的 儿 子：</intro>
+<text>他 要 为 大 ，
+称 为 至 高 者 的 儿 子 ；
+主 神 要 把 他 祖 大 卫 的 位 给 他 。</text>
+<ref>路加福音 1:32</ref>
+</parol>
+</theword>
+<theword date='2017-09-29'>
+<title>每日金句 九月二十九日 星期五</title>
+<parol book='5' chapter='32' verse='46' id='Dt32v46-47'>
+<text>摩 西 向 以 色 列 众 人 说 完 了 这 一 切 的 话 ，
+我 今 日 所 警 教 你 们 的 ， 你 们 都 要 放 在 心 上 。
+要 吩 咐 你 们 的 子 孙 谨 守 遵 行 这 律 法 上 的 话 。
+因 为 这 不 是 虚 空 ， 与 你 们 无 关 的 事 ， 乃 是 你 们 的 生 命 。</text>
+<ref>申命记 32:46-47</ref>
+</parol>
+<parol book='23' chapter='55' verse='3' id='Is55v3'>
+<text>你 们 当 就 近 我 来 ；
+侧 耳 而 听 ， 就 必 得 活 。</text>
+<ref>以赛亚书 55:3 上</ref>
+</parol>
+</theword>
+<theword date='2017-09-30'>
+<title>每日金句 九月三十日 星期六</title>
+<parol book='43' chapter='14' verse='10' id='J14v10'>
+<intro>耶 稣 对 腓 力 说:</intro>
+<text>我 在 父 里 面 ， 父 在 我 里 面 ，
+你 不 信 麽 。
+我 对 你 们 所 说 的 话 ，
+不 是 凭 着 自 己 说 的 ，
+乃 是 住 在 我 里 面 的 父 作 他 自 己 的 事 。</text>
+<ref>约翰福音 14:10</ref>
+</parol>
+<parol book='61' chapter='1' verse='21' id='2P1v21'>
+<text>因 为 豫 言 从 来 没 有 出 于 人 意 的 ，
+乃 是 人 被 圣 灵 感 动
+说 出 神 的 话 来 。</text>
+<ref>彼得后书 1:21</ref>
+</parol>
+</theword>
+<theword date='2017-10-01'>
+<title>每日金句 十月一日 星期日</title>
+<parol book='9' chapter='26' verse='23' id='1Sm26v23_2'>
+<intro>大卫 对 扫 罗 说：</intro>
+<text>今 日 耶 和 华 将 王 交 在 我 手 里 ， 我 却 不 肯 伸 手 害 耶 和 华 的 受 膏 者 。</text>
+<ref>撒母耳记上 26:23 上</ref>
+</parol>
+<parol book='19' chapter='51' verse='16' id='Ps51v16'>
+<text>神 啊 ， 你 是 拯 救 我 的 神 ；
+求 你 救 我 脱 离 流 人 血 的 罪 ！
+我 的 舌 头 就 高 声 歌 唱 你 的 公 义 。</text>
+<ref>诗篇 51:14</ref>
+</parol>
+</theword>
+<theword date='2017-10-02'>
+<title>每日金句 十月二日 星期一</title>
+<parol book='40' chapter='4' verse='24' id='Mt4v24'>
+<text>他 的 名 声 就 传 遍 了 叙 利 亚 。
+那 里 的 人 把 一 切 害 病 的 ，
+就 是 害 各 样 疾 病 、
+各 样 疼 痛 的 和 被 鬼 附 的 、 癫 痫 的 、 瘫 痪 的 ，
+都 带 了 来 ， 耶 稣 就 治 好 了 他 们 。</text>
+<ref>马太福音 4:24</ref>
+</parol>
+<parol book='24' chapter='3' verse='22' id='Jr3v22'>
+<text>你们这背道的儿女阿，回来吧。
+我要医治你们背道的病。
+看哪，我们来到你这里，
+因你是耶和华我们的神。</text>
+<ref>耶利米书 3:22</ref>
+</parol>
+</theword>
+<theword date='2017-10-03'>
+<title>每日金句 十月三日 星期二</title>
+<parol book='62' chapter='2' verse='10' id='1J2v10'>
+<text>爱弟兄的就是住在光明中，
+在他并没有绊跌的缘由。</text>
+<ref>约翰一书 2:10</ref>
+</parol>
+<parol book='46' chapter='16' verse='14' id='1K16v14'>
+<text>凡 你 们 所 做 的 都 要 凭 爱 心 而 做 。</text>
+<ref>哥林多前书 16:14</ref>
+</parol>
+</theword>
+<theword date='2017-10-04'>
+<title>每日金句 十月四日 星期三</title>
+<parol book='19' chapter='25' verse='15' id='Ps25v15'>
+<text>我 的 眼 目 时 常 仰 望 耶 和 华 ，
+因 为 他 必 将 我 的 脚 从 网 里 拉 出 来 。</text>
+<ref>诗篇 25:15</ref>
+</parol>
+<parol book='55' chapter='4' verse='18' id='2T4v18'>
+<text>主必救我脱离诸般的凶恶，
+也必救我进他的天国。
+愿荣耀归给他，
+直到永永远远。阿们。</text>
+<ref>提摩太后书 4:18</ref>
+</parol>
+</theword>
+<theword date='2017-10-05'>
+<title>每日金句 十月五日 星期四</title>
+<parol book='19' chapter='146' verse='8' id='Ps146v8_l'>
+<text>... 耶 和 华 喜 爱 义 人 。</text>
+<ref>诗篇 146:8</ref>
+</parol>
+<parol book='23' chapter='50' verse='8' id='Is50v8'>
+<text>称 我 为 义 的 与 我 相 近 ；
+谁 与 我 争 论 ...</text>
+<ref>以赛亚书 50:8</ref>
+</parol>
+</theword>
+<theword date='2017-10-06'>
+<title>每日金句 十月六日 星期五</title>
+<parol book='19' chapter='34' verse='9' id='Ps34v9'>
+<text>你们要尝尝主恩的滋味，
+便知道他是美善。
+投靠他的人有福了。</text>
+<ref>诗篇 34:8</ref>
+</parol>
+<parol book='43' chapter='6' verse='55' id='J6v55'>
+<intro>耶 稣 对 犹 太 人说:</intro>
+<text>我 的 肉 真 是 可 吃 的 ，
+我 的 血 真 是 可 喝 的 。</text>
+<ref>约翰福音 6:55</ref>
+</parol>
+</theword>
+<theword date='2017-10-07'>
+<title>每日金句 十月七日 星期六</title>
+<parol book='23' chapter='60' verse='2' id='Is60v2'>
+<text>看 哪 ， 黑 暗 遮 盖 大 地 ，
+幽 暗 遮 盖 万 民 ，
+耶 和 华 却 要 显 现 照 耀 你 ；
+他 的 荣 耀 要 现 在 你 身 上 。</text>
+<ref>以赛亚书 60:2</ref>
+</parol>
+<parol book='58' chapter='10' verse='23' id='H10v23'>
+<text>也要坚守我们所承认的指望，不至摇动。
+因为那应许我们的是信实的。</text>
+<ref>希伯来书 10:23</ref>
+</parol>
+</theword>
+<theword date='2017-10-08'>
+<title>每日金句 十月八日 星期日</title>
+<parol book='40' chapter='8' verse='20' id='Mt8v20'>
+<intro>耶 稣 对 文 士 说 ：</intro>
+<text>狐 狸 有 洞 ， 天 空 的 飞 鸟 有 窝 ，
+人 子 却 没 有 枕 头 的 地 方 。</text>
+<ref>马太福音 8:20</ref>
+</parol>
+<parol book='42' chapter='9' verse='23' id='L9v23'>
+<intro>耶 稣 说：</intro>
+<text>若 有 人 要 跟 从 我 ，
+就 当 舍 己 ，
+天 天 背 起 他 的 十 字 架 来 跟 从 我 。</text>
+<ref>路加福音 9:23</ref>
+</parol>
+</theword>
+<theword date='2017-10-09'>
+<title>每日金句 十月九日 星期一</title>
+<parol book='1' chapter='24' verse='40' id='Gn24v40'>
+<intro>亚 伯 拉 罕 对 他 的 仆 人说:</intro>
+<text>我 所 事 奉 的 耶 和 华 必 要 差 遣 他 的 使 者 与 你 同 去 ，
+叫 你 的 道 路 通 达 。</text>
+<ref>创世记 24:40上</ref>
+</parol>
+<parol book='59' chapter='4' verse='15' id='Jc4v15'>
+<text>你们只当说，
+主若愿意，我们就可以活着，
+也可以作这事，或作那事。</text>
+<ref>雅各书 4:15</ref>
+</parol>
+</theword>
+<theword date='2017-10-10'>
+<title>每日金句 十月十日 星期二</title>
+<parol book='4' chapter='11' verse='29' id='Nu11v29'>
+<intro>摩 西 对 约 书 亚 说 ：</intro>
+<text>惟 愿 耶 和 华 的 百 姓 都 受 感 说 话 ！
+愿 耶 和 华 把 他 的 灵 降 在 他 们 身 上 ！</text>
+<ref>民数记 11:29 下</ref>
+</parol>
+<parol book='43' chapter='14' verse='16' id='J14v16-17'>
+<intro>耶 稣 基 督 说：</intro>
+<text>我要求父，父就另外赐给你们一位保惠师，
+叫他永远与你们同在。
+就是真理的圣灵。</text>
+<ref>约翰福音 14:16-17</ref>
+</parol>
+</theword>
+<theword date='2017-10-11'>
+<title>每日金句 十月十一日 星期三</title>
+<parol book='11' chapter='8' verse='52' id='1Rg8v52'>
+<text>愿 你 的 眼 目 看 顾 仆 人 ，
+听 你 民 以 色 列 的 祈 求 ，
+无 论 何 时 向 你 祈 求 ，
+愿 你 垂 听 。</text>
+<ref>列王纪上 8:52</ref>
+</parol>
+<parol book='19' chapter='118' verse='25' id='Ps118v25'>
+<text>耶 和 华 阿 ， 求 你 拯 救 。
+耶 和 华 阿 ， 求 你 使 我 们 亨 通 。</text>
+<ref>诗篇 118:25</ref>
+</parol>
+</theword>
+<theword date='2017-10-12'>
+<title>每日金句 十月十二日 星期四</title>
+<parol book='14' chapter='16' verse='9' id='2Chr16v9'>
+<text>耶和华的眼目遍察全地，
+要显大能帮助向他心存诚实的人。</text>
+<ref>历代志下 16:9 上</ref>
+</parol>
+<parol book='19' chapter='119' verse='2' id='Ps119v2'>
+<text>遵守他的法度，
+一心寻求他的，
+这人便为有福。</text>
+<ref>诗篇 119:2</ref>
+</parol>
+</theword>
+<theword date='2017-10-13'>
+<title>每日金句 十月十三日 星期五</title>
+<parol book='42' chapter='21' verse='14' id='L21v14'>
+<intro>耶 稣 说:</intro>
+<text>所 以 ， 你 们 当 立 定 心 意 ，
+不 要 预 先 思 想 怎 样 分 诉 ...</text>
+<ref>路加福音 21:14</ref>
+</parol>
+<parol book='44' chapter='4' verse='29' id='Act4v29'>
+<text>他 们 恐 吓 我 们 ，
+现 在 求 主 鉴 察 ，
+一 面 叫 你 仆 人 大 放 胆 量 讲 你 的 道 ...</text>
+<ref>使徒行传 4:29</ref>
+</parol>
+</theword>
+<theword date='2017-10-14'>
+<title>每日金句 十月十四日 星期六</title>
+<parol book='5' chapter='32' verse='39' id='Dt32v39_I'>
+<text>我 使 人 死 ， 我 使 人 活 ；
+我 损 伤 ， 我 也 医 治 ，
+并 无 人 能 从 我 手 中 救 出 来 。</text>
+<ref>申命记 32:39 下</ref>
+</parol>
+<parol book='42' chapter='12' verse='4' id='L12v4'>
+<text>那 杀 身 体 以 後 不 能 再 作 甚 麽 的 ，
+不 要 怕 他 们 。</text>
+<ref>路加福音 12:4  下</ref>
+</parol>
+</theword>
+<theword date='2017-10-15'>
+<title>每日金句 十月十五日 星期日</title>
+<parol book='40' chapter='16' verse='21' id='Mt16v21'>
+<text>... 耶 稣 才 指 示 门 徒 ，
+他 必 须 上 耶 路 撒 冷 去 ，
+受 长 老 、 祭 司 长 、 文 士 许 多 的 苦 ，
+并 且 被 杀 ， 第 三 日 复 活 。</text>
+<ref>马太福音 16:21</ref>
+</parol>
+<parol book='42' chapter='13' verse='33' id='L13v33'>
+<intro>耶 稣 对 法 利 赛 人 说:</intro>
+<text>虽 然 这 样 ， 今 天 明 天 后 天 我 必 须 前 行 。
+因 为 先 知 在 耶 路 撒 冷 之 外 丧 命 是 不 能 的 。</text>
+<ref>路加福音 13:33</ref>
+</parol>
+</theword>
+<theword date='2017-10-16'>
+<title>每日金句 十月十六日 星期一</title>
+<parol book='54' chapter='2' verse='5' id='1T2v5-6'>
+<text>因 为 只 有 一 位 神 ，
+在 神 和 人 中 间 ，只 有 一 位 中 保 ，
+乃 是 降 世 为 人 的 基 督 耶 稣 ；
+他 舍 自 己 作 万 人 的 赎 价 ...</text>
+<ref>提摩太前书 2:5-6</ref>
+</parol>
+<parol book='48' chapter='1' verse='4' id='G1v4'>
+<text>基督照我们父神的旨意为我们的罪舍己，
+要救我们脱离这罪恶的世代。</text>
+<ref>加拉太书 1:4</ref>
+</parol>
+</theword>
+<theword date='2017-10-17'>
+<title>每日金句 十月十七日 星期二</title>
+<parol book='43' chapter='16' verse='23' id='J16v23'>
+<intro>耶 稣 对 门 徒 说：</intro>
+<text>你 们 若 向 父 求 甚 麽 ，
+他 必 因 我 的 名 赐 给 你 们 。</text>
+<ref>约翰福音 16:23 上</ref>
+</parol>
+<parol book='66' chapter='22' verse='17' id='Ap22v17'>
+<text>口 渴 的 人 也 当 来 ；
+愿 意 的 ，都 可 以 白 白 取 生 命 的 水 喝 。</text>
+<ref>启示录 22:17 下</ref>
+</parol>
+</theword>
+<theword date='2017-10-18'>
+<title>每日金句 十月十八日 星期三</title>
+<parol book='43' chapter='6' verse='37' id='J6v37'>
+<intro>耶 稣 说:</intro>
+<text>凡 父 所 赐 给 我 的 人 必 到 我 这 里 来 ；
+到 我 这 里 来 的 ， 我 总 不 丢 弃 他 。</text>
+<ref>约翰福音 6:37</ref>
+</parol>
+<parol book='41' chapter='10' verse='48' id='Mc10v48-49'>
+<text>有 许 多 人 责 备 他 ， 不 许 他 作 声 。
+他 却 越 发 大 声 喊 着 说 ：
+大 卫 的 子 孙 哪 ， 可 怜 我 罢 ！
+耶 稣 就 站 住 ， 说 ： 叫 过 他 来 。
+他 们 就 叫 那 瞎 子 ， 对 他 说 ：
+放 心 ，起 来 ！ 他 叫 你 啦 。</text>
+<ref>马可福音 10:48-49</ref>
+</parol>
+</theword>
+<theword date='2017-10-19'>
+<title>每日金句 十月十九日 星期四</title>
+<parol book='42' chapter='22' verse='29' id='L22v29'>
+<intro>耶 稣 对 门 徒 说 ：</intro>
+<text>我 将 国 赐 给 你 们 ， 正 如 我 父 赐 给 我 一 样 。</text>
+<ref>路加福音 22:29</ref>
+</parol>
+<parol book='43' chapter='18' verse='36' id='J18v36'>
+<text>耶 稣 回 答 彼 拉 多 说 ：
+我 的 国 不 属 这 世 界 ；
+我 的 国 若 属 这 世 界 ，
+我 的 臣 仆 必 要 争 战 ，
+使 我 不 至 於 被 交 给 犹 太 人 。</text>
+<ref>约翰福音 18:36</ref>
+</parol>
+</theword>
+<theword date='2017-10-20'>
+<title>每日金句 十月二十日 星期五</title>
+<parol book='19' chapter='25' verse='18' id='Ps25v18'>
+<text>求 你 看 顾 我 的 困 苦 ， 我 的 艰 难 ，
+赦 免 我 一 切 的 罪 。</text>
+<ref>诗篇 25:18</ref>
+</parol>
+<parol book='62' chapter='1' verse='9' id='1J1v9'>
+<text>我们若认自己的罪，
+神是信实的，是公义的，
+必要赦免我们的罪，
+洗净我们一切的不义。</text>
+<ref>约翰一书 1:9</ref>
+</parol>
+</theword>
+<theword date='2017-10-21'>
+<title>每日金句 十月二十一日 星期六</title>
+<parol book='42' chapter='19' verse='5' id='L19v5-6'>
+<text>耶 稣 对 他 说 ：
+撒 该 ， 快 下 来 ！
+今 天 我 必 住 在 你 家 里 。
+他 就 急 忙 下 来 ， 欢 欢 喜 喜 的 接 待 耶 稣 。</text>
+<ref>路加福音 19:5-6</ref>
+</parol>
+<parol book='43' chapter='3' verse='7' id='J3v7'>
+<intro>耶 稣 对 尼 哥 底 母 说:</intro>
+<text>我 说 ： 『 你 们 必 须 重 生 』 ，
+你 不 要 以 为 希 奇 。</text>
+<ref>约翰福音 3:7</ref>
+</parol>
+</theword>
+<theword date='2017-10-22'>
+<title>每日金句 十月二十二日 星期日</title>
+<parol book='19' chapter='16' verse='6' id='Ps16v6'>
+<text>用 绳 量 给 我 的 地 界 ， 坐 落 在 佳 美 之 处 ；
+我 的 产 业 实 在 美 好 。</text>
+<ref>诗篇 16:6</ref>
+</parol>
+<parol book='49' chapter='1' verse='11' id='E1v11'>
+<text>我 们 也 在 他 里 面 得 了 基 业 ；
+这 原 是 那 位 随 己 意 行 、
+做 万 事 的 ， 照 着 他 旨 意 所 预 定 的 ...</text>
+<ref>以弗所书 1:11</ref>
+</parol>
+</theword>
+<theword date='2017-10-23'>
+<title>每日金句 十月二十三日 星期一</title>
+<parol book='2' chapter='23' verse='8' id='Ex23v8'>
+<text>不 可 受 贿 赂 ；
+因 为 贿 赂 能 叫 明 眼 人 变 瞎 了 ，
+又 能 颠 倒 义 人 的 话 。</text>
+<ref>出埃及记 23:8</ref>
+</parol>
+<parol book='54' chapter='6' verse='10' id='1T6v10'>
+<text>贪 财 是 万 恶 之 根 。</text>
+<ref>提摩太前书 6:10上</ref>
+</parol>
+</theword>
+<theword date='2017-10-24'>
+<title>每日金句 十月二十四日 星期二</title>
+<parol book='19' chapter='5' verse='2' id='Ps5v2-3'>
+<text>耶 和 华 啊 ，求 你 留 心 听 我 的 言 语 ，顾 念 我 的 心 思 ！
+我 的 王 我 的 神 啊 ，求 你 垂 听 我 呼 求 的 声 音 ！
+因 为 我 向 你 祈 祷 。</text>
+<ref>诗篇 5:1-2</ref>
+</parol>
+<parol book='43' chapter='16' verse='20' id='J16v20'>
+<intro>耶 稣 对 门 徒 说：</intro>
+<text>... 你 们 将 要 痛 哭 、 哀 号 ， 世 人 倒 要 喜 乐 ；
+你 们 将 要 忧 愁 ， 然 而 你 们 的 忧 愁 要 变 为 喜 乐 。</text>
+<ref>约翰福音 16:20</ref>
+</parol>
+</theword>
+<theword date='2017-10-25'>
+<title>每日金句 十月二十五日 星期三</title>
+<parol book='19' chapter='3' verse='3' id='Ps3v3-4'>
+<text>有 许 多 人 议 论 我 说 ： 他 得 不 着 神 的 帮 助 。
+但 你 ─ 耶 和 华 是 我 四 围 的 盾 牌 ，
+是 我 的 荣 耀 ， 又 是 叫 我 抬 起 头 来 的 。</text>
+<ref>诗篇 3:2-3</ref>
+</parol>
+<parol book='45' chapter='5' verse='2' id='R5v2'>
+<text>我 们 又 藉 着 我 们 的 主 耶 稣 基 督 ，
+因 信 得 进 入 现 在 所 站 的 这 恩 典 中 ，
+并 且 欢 欢 喜 喜 盼 望 神 的 荣 耀 。</text>
+<ref>罗马书 5:2</ref>
+</parol>
+</theword>
+<theword date='2017-10-26'>
+<title>每日金句 十月二十六日 星期四</title>
+<parol book='19' chapter='32' verse='10' id='Ps32v10'>
+<text>恶 人 必 多 受 苦 楚 ；
+惟 独 倚 靠 耶 和 华 的 必 有 慈 爱 四 面 环 绕 他 。</text>
+<ref>诗篇 32:10</ref>
+</parol>
+<parol book='39' chapter='3' verse='18' id='Ml3v18'>
+<text>那 时 ， 你 们 必 归 回 ，
+将 善 人 和 恶 人 。
+事 奉 神 的 和 不 事 奉 神 的 ， 分 别 出 来 。</text>
+<ref>玛拉基书 3:18</ref>
+</parol>
+</theword>
+<theword date='2017-10-27'>
+<title>每日金句 十月二十七日 星期五</title>
+<parol book='43' chapter='6' verse='48' id='J6v48'>
+<intro>耶 稣 说:</intro>
+<text>我 就 是 生 命 的 粮 。</text>
+<ref>约翰福音 6:48</ref>
+</parol>
+<parol book='19' chapter='105' verse='40' id='Ps105v40-42'>
+<text>他 ...并 用 天 上 的 粮 食 叫 他 们 饱 足。
+他 打 开 磐 石 ，水 就 涌 出 ；
+在 乾 旱 之 处 ， 水 流 成 河 。
+这 都 因 他 记 念 他 的 圣 言
+和 他 的 仆 人 亚 伯 拉 罕 。</text>
+<ref>诗篇 105:40-42</ref>
+</parol>
+</theword>
+<theword date='2017-10-28'>
+<title>每日金句 十月二十八日 星期六</title>
+<parol book='53' chapter='1' verse='2' id='2Th1v2'>
+<text>愿 恩 惠 、 平 安
+从 父 神 和 主 耶 稣 基 督 归 与 你 们 ！</text>
+<ref>帖撒罗尼迦后书 1:2</ref>
+</parol>
+<parol book='4' chapter='6' verse='26' id='Nu6v26'>
+<text>愿耶和华向你仰脸，
+赐你平安。</text>
+<ref>民数记 6:26</ref>
+</parol>
+</theword>
+<theword date='2017-10-29'>
+<title>每日金句 十月二十九日 星期日</title>
+<parol book='35' chapter='1' verse='2' id='Hab1v2'>
+<text>他 说 ： 耶 和 华 啊 ！ 我 呼 求 你 ，你 不 应 允 ， 要 到 几 时 呢 ？
+我 因 强 暴 哀 求 你 ， 你 还 不 拯 救 。</text>
+<ref>哈巴谷书 1:2</ref>
+</parol>
+<parol book='19' chapter='130' verse='1' id='Ps130v1-2'>
+<text>耶 和 华 啊 ，我 从 深 处 向 你 求 告 ！
+主 啊 ， 求 你 听 我 的 声 音 ！</text>
+<ref>诗篇 130:1-2</ref>
+</parol>
+</theword>
+<theword date='2017-10-30'>
+<title>每日金句 十月三十日 星期一</title>
+<parol book='12' chapter='20' verse='3' id='2Rg20v3'>
+<intro>希 西 家 病 得 要 死 祷 告 说 :</intro>
+<text>耶 和 华 啊 ，
+求 你 记 念 我 在 你 面 前
+怎 样 存 完 全 的 心 ，按 诚 实 行 事 ，
+又 做 你 眼 中 所 看 为 善 的 。
+希 西 家 就 痛 哭 了 。</text>
+<ref>列王纪下 20:3</ref>
+</parol>
+<parol book='19' chapter='30' verse='12' id='Ps30v12'>
+<text>你已将我的哀哭变为跳舞，
+将我的麻衣脱去，
+给我披上喜乐。</text>
+<ref>诗篇 30:11</ref>
+</parol>
+</theword>
+<theword date='2017-10-31'>
+<title>每日金句 十月三十一日 星期二</title>
+<parol book='23' chapter='53' verse='11' id='Is53v11_D'>
+<text>有 许 多 人 因 认 识 我 的 义 仆 得 称 为 义 ；
+并 且 他 要 担 当 他 们 的 罪 孽 。</text>
+<ref>以赛亚书 53:11 下</ref>
+</parol>
+<parol book='40' chapter='5' verse='17' id='Mt5v17'>
+<intro>耶 稣 说：</intro>
+<text>莫 想 我 来 要 废 掉 律 法 和 先 知 。
+我 来 不 是 要 废 掉 ， 乃 是 要 成 全 。</text>
+<ref>马太福音 5:17</ref>
+</parol>
+</theword>
+<theword date='2017-11-01'>
+<title>每日金句 十一月一日 星期三</title>
+<parol book='29' chapter='2' verse='11' id='Joel2v11-12'>
+<text>耶和华的日子大而可畏。
+谁能当得起呢？
+耶和华说，
+虽然如此。
+你们应当禁食，哭泣，悲哀，一心归向我。</text>
+<ref>约珥书 2:11-12 下</ref>
+</parol>
+<parol book='42' chapter='15' verse='10' id='L15v10'>
+<intro>耶 稣 说：</intro>
+<text>我 告 诉 你 们 ， 一 个 罪 人 悔 改 ，
+在 神 的 使 者 面 前 也 是 这 样 为 他 欢 喜 。</text>
+<ref>路加福音 15:10</ref>
+</parol>
+</theword>
+<theword date='2017-11-02'>
+<title>每日金句 十一月二日 星期四</title>
+<parol book='19' chapter='65' verse='8' id='Ps65v8'>
+<text>使 诸 海 的 响 声 和 其 中 波 浪 的 响 声 ，
+并 万 民 的 喧 哗 ，
+都 平 静 了 。</text>
+<ref>诗篇 65:7</ref>
+</parol>
+<parol book='40' chapter='8' verse='26' id='Mt8v26'>
+<text>于是起来，斥责风和海，风和海就大大的平静了。</text>
+<ref>马太福音 8:26</ref>
+</parol>
+</theword>
+<theword date='2017-11-03'>
+<title>每日金句 十一月三日 星期五</title>
+<parol book='1' chapter='1' verse='25' id='Gn1v25'>
+<text>於 是 神 造 出 野 兽 ， 各 从 其 类 ；
+牲 畜 ， 各 从 其 类 ；
+地 上 一 切 昆 虫 ， 各 从 其 类 。
+神 看 着 是 好 的 。</text>
+<ref>创世记 1:25</ref>
+</parol>
+<parol book='45' chapter='8' verse='20' id='R8v20-21'>
+<text>受 造 之 物 服 在 虚 空 之 下 ， 不 是 自 己 愿 意 ，
+乃 是 因 那 叫 他 如 此 的 。
+但 受 造 之 物 仍 然 指 望 脱 离 败 坏 的 辖 制 ，
+得 享 神 儿 女 自 由 的 荣 耀 。</text>
+<ref>罗马书 8:20-21</ref>
+</parol>
+</theword>
+<theword date='2017-11-04'>
+<title>每日金句 十一月四日 星期六</title>
+<parol book='18' chapter='9' verse='4' id='Job9v4'>
+<text>神心里有智慧，且大有能力。
+谁向神刚硬而得亨通呢？</text>
+<ref>约伯记 9:4</ref>
+</parol>
+<parol book='19' chapter='147' verse='3' id='Ps147v3'>
+<text>他 医 好 伤 心 的 人 ，
+裹 好 他 们 的 伤 处 。</text>
+<ref>诗篇 147:3</ref>
+</parol>
+</theword>
+<theword date='2017-11-05'>
+<title>每日金句 十一月五日 星期日</title>
+<parol book='2' chapter='15' verse='2' id='Ex15v2_D'>
+<text>这 是 我 的 神 ，
+我 要 赞 美 他 ，
+是 我 父 亲 的 神 ，
+我 要 尊 崇 他 。</text>
+<ref>出埃及记 15:2 下</ref>
+</parol>
+<parol book='19' chapter='20' verse='8' id='Ps20v8'>
+<text>有 人 靠 车 ， 有 人 靠 马 ，
+但 我 们 要 提 到 耶 和 华 我 们 神 的 名 。</text>
+<ref>诗篇 20:7</ref>
+</parol>
+</theword>
+<theword date='2017-11-06'>
+<title>每日金句 十一月六日 星期一</title>
+<parol book='49' chapter='2' verse='6' id='E2v6'>
+<text>他 又 叫 我 们
+与 基 督 耶 稣 一 同 复 活 ，
+一 同 坐 在 天 上 ...</text>
+<ref>以弗所书 2:6</ref>
+</parol>
+<parol book='45' chapter='6' verse='4' id='R6v4'>
+<text>所 以 ，我 们 藉 着 洗 礼 归 入 死 ，和 他 一 同 埋 葬 ，
+原 是 叫 我 们 一 举 一 动 有 新 生 的 样 式 ，
+像 基 督 藉 着 父 的 荣 耀
+从 死 里 复 活 一 样 。</text>
+<ref>罗马书 6:4</ref>
+</parol>
+</theword>
+<theword date='2017-11-07'>
+<title>每日金句 十一月七日 星期二</title>
+<parol book='19' chapter='119' verse='77' id='Ps119v77'>
+<text>愿 你 的 慈 悲 临 到 我 ， 使 我 存 活 ...</text>
+<ref>诗篇 119:77上</ref>
+</parol>
+<parol book='40' chapter='26' verse='39' id='Mt26v39'>
+<intro>耶 稣 祷 告 说:</intro>
+<text>... 我 父 阿 ，
+倘 若 可 行 ， 求 你 叫 这 杯 离 开 我 。
+然 而 ， 不 要 照 我 的 意 思 ， 只 要 照 你 的 意 思 。</text>
+<ref>马太福音 26:39</ref>
+</parol>
+</theword>
+<theword date='2017-11-08'>
+<title>每日金句 十一月八日 星期三</title>
+<parol book='19' chapter='109' verse='31' id='Ps109v31'>
+<text>因 为 他 必 站 在 穷 乏 人 的 右 边 ，
+要 救 他 脱 离 审 判 他 灵 魂 的 人 。</text>
+<ref>诗篇 109:31</ref>
+</parol>
+<parol book='14' chapter='19' verse='6' id='2Chr19v6'>
+<text>约 沙 法 对 他 们 说 ，
+你 们 办 事 应 当 谨 慎 。
+因 为 你 们 判 断 不 是 为 人 ， 乃 是 为 耶 和 华 。
+判 断 的 时 候 ， 他 必 与 你 们 同 在 。</text>
+<ref>历代志下 19:6</ref>
+</parol>
+</theword>
+<theword date='2017-11-09'>
+<title>每日金句 十一月九日 星期四</title>
+<parol book='3' chapter='22' verse='32' id='Lv22v32'>
+<text>你 们 不 可 亵 渎 我 的 圣 名 ...</text>
+<ref>利未记 22:32 上</ref>
+</parol>
+<parol book='40' chapter='6' verse='9' id='Mt6v9'>
+<text>你们祷告，要这样说，
+我们在天上的父，
+愿人都尊你的名为圣。</text>
+<ref>马太福音 6:9</ref>
+</parol>
+</theword>
+<theword date='2017-11-10'>
+<title>每日金句 十一月十日 星期五</title>
+<parol book='38' chapter='12' verse='10' id='Zch12v10_A'>
+<text>我 必 将 那 施 恩 叫 人 恳 求 的 灵 ，
+浇 灌 大 卫 家 和 耶 路 撒 冷 的 居 民 。</text>
+<ref>撒迦利亚书 12:10上</ref>
+</parol>
+<parol book='45' chapter='9' verse='4' id='R9v4-5'>
+<text>他 们 是 以 色 列 人 ； 那 儿 子 的 名 分 、
+荣 耀 、 诸 约 、 律 法 、
+礼 仪 、 应 许 都 是 他 们 的 。
+列 祖 就 是 他 们 的 祖 宗 ，
+按 肉 体 说 ， 基 督 也 是 从 他 们 出 来 的 ，
+他 是 在 万 有 之 上 ， 永 远 可 称 颂 的 神 。</text>
+<ref>罗马书 9:4-5</ref>
+</parol>
+</theword>
+<theword date='2017-11-11'>
+<title>每日金句 十一月十一日 星期六</title>
+<parol book='42' chapter='1' verse='13' id='L1v13'>
+<text>天 使 对 他 说 ：
+撒 迦 利 亚 ， 不 要 害 怕 ，
+因 为 你 的 祈 祷 已 经 被 听 见 了 。
+你 的 妻 子 以 利 沙 伯 要 给 你 生 一 个 儿 子 ，
+你 要 给 他 起 名 叫 约 翰 。</text>
+<ref>路加福音 1:13</ref>
+</parol>
+<parol book='9' chapter='1' verse='27' id='1Sm1v27'>
+<intro>哈拿对以利说：</intro>
+<text>我祈求为要得这孩子。
+耶和华已将我所求的赐给我了。</text>
+<ref>撒母耳记上 1:27</ref>
+</parol>
+</theword>
+<theword date='2017-11-12'>
+<title>每日金句 十一月十二日 星期日</title>
+<parol book='46' chapter='6' verse='12' id='1K6v12'>
+<intro>给 腓 写：</intro>
+<text>凡 事 我 都 可 行 ，
+但 不 都 有 益 处 。
+凡 事 我 都 可 行 ，
+但 无 论 那 一 件 ， 我 总 不 受 他 的 辖 制 。</text>
+<ref>哥林多前书 6:12</ref>
+</parol>
+<parol book='49' chapter='5' verse='10' id='E5v10-11'>
+<text>总 要 察 验 何 为 主 所 喜 悦 的 事 。
+那 暗 昧 无 益 的 事 ， 不 要 与 人 同 行 ， 倒 要 责 备 行 这 事 的 人.</text>
+<ref>以弗所书 5:10-11</ref>
+</parol>
+</theword>
+<theword date='2017-11-13'>
+<title>每日金句 十一月十三日 星期一</title>
+<parol book='19' chapter='78' verse='3' id='Ps78v3-4'>
+<text>是我们所听见所知道的，
+也是我们的祖宗告诉我们的。
+我们不将这些事向他们的子孙隐瞒。</text>
+<ref>诗篇 78:3-4 上</ref>
+</parol>
+<parol book='44' chapter='14' verse='27' id='Act14v27'>
+<text>巴 拿 巴 、保 罗 到 了 那 里 ，
+聚 集 了 会 众 ，
+就 述 说 神 藉 他 们 所 行 的 一 切 事 ，
+并 神 怎 样 为 外 邦 人 开 了 信 道 的 门 。</text>
+<ref>使徒行传 14:27</ref>
+</parol>
+</theword>
+<theword date='2017-11-14'>
+<title>每日金句 十一月十四日 星期二</title>
+<parol book='23' chapter='55' verse='6' id='Is55v6'>
+<text>当 趁 耶 和 华 可 寻 梢 的 时 候 寻 梢 他 ，
+相 近 的 时 候 求 告 他 。</text>
+<ref>以赛亚书 55:6</ref>
+</parol>
+<parol book='42' chapter='11' verse='9' id='L11v9'>
+<text>你们祈求就给你们。
+寻梢就寻见。
+叩门就给你们开门。</text>
+<ref>路加福音 11:9</ref>
+</parol>
+</theword>
+<theword date='2017-11-15'>
+<title>每日金句 十一月十五日 星期三</title>
+<parol book='43' chapter='9' verse='2' id='J9v2-3'>
+<text>门 徒 问 耶 稣 说 ：
+拉 比 ， 这 人 生 来 是 瞎 眼 的 ，是 谁 犯 了 罪 ？
+是 这 人 呢 ？ 是 他 父 母 呢 ？
+耶 稣 回 答 说 ：
+也 不 是 这 人 犯 了 罪 ， 也 不 是 他 父 母 犯 了 罪 ，
+是 要 在 他 身 上 显 出 神 的 作 为 来 。</text>
+<ref>约翰福音 9:2-3</ref>
+</parol>
+<parol book='40' chapter='9' verse='2' id='Mt9v2'>
+<text>有 人 用 褥 子 抬 着 一 个 瘫 子 到 耶 稣 跟 前 来 。
+耶 稣 见 他 们 的 信 心 ， 就 对 瘫 子 说 ：
+小 子 ， 放 心 罢 ！ 你 的 罪 赦 了 。</text>
+<ref>马太福音 9:2</ref>
+</parol>
+</theword>
+<theword date='2017-11-16'>
+<title>每日金句 十一月十六日 星期四</title>
+<parol book='19' chapter='146' verse='8' id='Ps146v8'>
+<text>耶 和 华 扶 起 被 压 下 的 人 。</text>
+<ref>诗篇 146:8 上</ref>
+</parol>
+<parol book='44' chapter='3' verse='6' id='Act3v6'>
+<text>彼 得 说 ： 金 银 我 都 没 有 ，
+只 把 我 所 有 的 给 你 ：
+我 奉 拿 撒 勒 人 耶 稣 基 督 的 名 ， 叫 你 起 来 行 走 ！</text>
+<ref>使徒行传 3:6</ref>
+</parol>
+</theword>
+<theword date='2017-11-17'>
+<title>每日金句 十一月十七日 星期五</title>
+<parol book='41' chapter='14' verse='38' id='Mc14v38'>
+<text>总 要 儆 醒 祷 告 ， 免 得 入 了 迷 惑 。</text>
+<ref>马可福音 14:38上</ref>
+</parol>
+<parol book='49' chapter='6' verse='18' id='E6v18'>
+<text>靠 着 圣 灵 ，
+随 时 多 方 祷 告 祈 求 ；
+并 要 在 此 儆 醒 不 倦 ，
+为 众 圣 徒 祈 求 ...</text>
+<ref>以弗所书 6:18</ref>
+</parol>
+</theword>
+<theword date='2017-11-18'>
+<title>每日金句 十一月十八日 星期六</title>
+<parol book='2' chapter='1' verse='7' id='Ex1v7'>
+<text>以 色 列 人 生 养 众 多 ，
+并 且 繁 茂 ， 极 其 强 盛 ，
+满 了 那 地 。</text>
+<ref>出埃及记 1:7</ref>
+</parol>
+<parol book='3' chapter='26' verse='9' id='Lv26v9'>
+<text>我要眷顾你们，
+使你们生养众多，
+也要与你们坚定所立的约。</text>
+<ref>利未记 26:9</ref>
+</parol>
+</theword>
+<theword date='2017-11-19'>
+<title>每日金句 十一月十九日 星期日</title>
+<parol book='23' chapter='40' verse='26' id='Is40v26'>
+<text>你 们 向 上 举 目 ，
+看 谁 创 造 这 万 象 ，
+按 数 目 领 出 ， 他 一 一 称 其 名 ...</text>
+<ref>以赛亚书 40:26上</ref>
+</parol>
+<parol book='45' chapter='1' verse='20' id='R1v20'>
+<text>自从造天地以来，
+神的永能和神性是明明可知的，
+虽是眼不能见，
+但藉着所造之物，
+就可以晓得，叫人无可推诿。</text>
+<ref>罗马书 1:20</ref>
+</parol>
+</theword>
+<theword date='2017-11-20'>
+<title>每日金句 十一月二十日 星期一</title>
+<parol book='37' chapter='2' verse='8' id='Hgg2v8'>
+<text>万 军 之 耶 和 华 说 ：
+银 子 是 我 的 ， 金 子 也 是 我 的 。</text>
+<ref>哈该书 2:8</ref>
+</parol>
+<parol book='40' chapter='6' verse='20' id='Mt6v20'>
+<text>只要积攒财宝在天上，
+天上没有虫子咬，
+不能锈坏，
+也没有贼挖窟窿来偷。</text>
+<ref>马太福音 6:20</ref>
+</parol>
+</theword>
+<theword date='2017-11-21'>
+<title>每日金句 十一月二十一日 星期二</title>
+<parol book='24' chapter='2' verse='35' id='Jr2v35'>
+<text>你 还 说 ： 我 无 辜 ；
+耶 和 华 的 怒 气 必 定 向 我 消 了 。
+看 哪 ， 我 必 审 问 你 ；
+因 你 自 说 ： 我 没 有 犯 罪 。</text>
+<ref>耶利米书 2:35</ref>
+</parol>
+<parol book='45' chapter='5' verse='9' id='R5v9'>
+<text>现在我们既靠着他的血称义，
+就更要藉着他免去神的忿怒。</text>
+<ref>罗马书 5:9</ref>
+</parol>
+</theword>
+<theword date='2017-11-22'>
+<title>每日金句 十一月二十二日 星期三</title>
+<parol book='19' chapter='77' verse='3' id='Ps77v3'>
+<text>我 在 患 难 之 日 寻 求 主 ；
+我 在 夜 间 不 住 地 举 手 祷 告 ；
+我 的 心 不 肯 受 安 慰 。</text>
+<ref>诗篇 77:2</ref>
+</parol>
+<parol book='58' chapter='5' verse='7' id='H5v7'>
+<text>基 督 在 肉 体 的 时 候 ，
+既 大 声 哀 哭 ， 流 泪 祷 告 ，
+恳 求 那 能 救 他 免 死 的 主 ，
+就 因 他 的 虔 诚 蒙 了 应 允 。</text>
+<ref>希伯来书 5:7</ref>
+</parol>
+</theword>
+<theword date='2017-11-23'>
+<title>每日金句 十一月二十三日 星期四</title>
+<parol book='2' chapter='15' verse='26' id='Ex15v26'>
+<text>因 为 我 ─ 耶 和 华 是 医 治 你 的 。</text>
+<ref>出埃及记 15:26 下</ref>
+</parol>
+<parol book='41' chapter='2' verse='17' id='Mc2v17'>
+<intro>耶 稣 对 法 利 赛 人 中 的 文 士 说：</intro>
+<text>康 健 的 人 用 不 着 医 生 ，
+有 病 的 人 才 用 得 着 。
+我 来 本 不 是 召 义 人 ， 乃 是 召 罪 人 。</text>
+<ref>马可福音 2:17</ref>
+</parol>
+</theword>
+<theword date='2017-11-24'>
+<title>每日金句 十一月二十四日 星期五</title>
+<parol book='42' chapter='23' verse='45' id='L23v45'>
+<intro>耶 稣 断 气 前 :</intro>
+<text>日 头 变 黑 了 ；
+殿 里 的 幔 子 从 当 中 裂 为 两 半 。</text>
+<ref>路加福音 23:45</ref>
+</parol>
+<parol book='58' chapter='9' verse='12' id='H9v12'>
+<text>并 且 不 用 山 羊 和 牛 犊 的 血 ，
+乃 用 自 己 的 血 ，
+只 一 次 进 入 圣 所 ，
+成 了 永 远 赎 罪 的 事 。</text>
+<ref>希伯来书 9:12</ref>
+</parol>
+</theword>
+<theword date='2017-11-25'>
+<title>每日金句 十一月二十五日 星期六</title>
+<parol book='1' chapter='31' verse='3' id='Gn31v3'>
+<text>耶 和 华 对 雅 各 说 ：
+你 要 回 你 祖 、你 父 之 地 ，
+到 你 亲 族 那 里 去 ，
+我 必 与 你 同 在 。</text>
+<ref>创世记 31:3</ref>
+</parol>
+<parol book='1' chapter='50' verse='24' id='Gn50v24'>
+<text>约 瑟 对 他 弟 兄 们 说 ： 我 要 死 了 ，
+但 神 必 定 看 顾 你 们 ，
+领 你 们 从 这 地 上 去 ， 到 他 起 誓 所 应 许 给 亚 伯 拉 罕 、 以 撒 、 雅 各 之 地 。</text>
+<ref>创世记 50:24</ref>
+</parol>
+</theword>
+<theword date='2017-11-26'>
+<title>每日金句 十一月二十六日 星期日</title>
+<parol book='47' chapter='11' verse='30' id='2K11v30'>
+<intro>保 罗 写 道：</intro>
+<text>我 若 必 须 自 夸 ，
+就 夸 那 关 乎 我 软 弱 的 事 便 了 。</text>
+<ref>哥林多后书 11:30</ref>
+</parol>
+<parol book='46' chapter='1' verse='31' id='1K1v31'>
+<text>... 夸 口 的 ，
+当 指 着 主 夸 口 。</text>
+<ref>哥林多前书 1:31</ref>
+</parol>
+</theword>
+<theword date='2017-11-27'>
+<title>每日金句 十一月二十七日 星期一</title>
+<parol book='45' chapter='6' verse='22' id='R6v22'>
+<text>但 现 今 ， 你 们 既 从 罪 里 得 了 释 放 ，
+作 了 神 的 奴 仆 ，
+就 有 成 圣 的 果 子 ，
+那 结 局 就 是 永 生 。</text>
+<ref>罗马书 6:22</ref>
+</parol>
+<parol book='66' chapter='2' verse='7' id='Ap2v7'>
+<text>圣 灵 向 众 教 会 所 说 的 话 ，
+凡 有 耳 的 ， 就 应 当 听 。
+得 胜 的 ，
+我 必 将 神 乐 园 中 生 命 树 的 果 子 赐 给 他 吃 。</text>
+<ref>启示录 2:7</ref>
+</parol>
+</theword>
+<theword date='2017-11-28'>
+<title>每日金句 十一月二十八日 星期二</title>
+<parol book='42' chapter='16' verse='16' id='L16v16'>
+<intro>耶 稣 说:</intro>
+<text>律 法 和 先 知 到 约 翰 为 止 ，
+从 此 神 国 的 福 音 传 开 了 ，
+人 人 努 力 要 进 去 。</text>
+<ref>路加福音 16:16</ref>
+</parol>
+<parol book='40' chapter='18' verse='2' id='Mt18v2-3'>
+<text>耶 稣 便 叫 一 个 小 孩 子 来 ，
+使 他 站 在 他 们 当 中 ，说 ：
+我 实 在 告 诉 你 们 ，
+你 们 若 不 回 转 ， 变 成 小 孩 子 的 样 式 ，
+断 不 得 进 天 国 。</text>
+<ref>马太福音 18:2-3</ref>
+</parol>
+</theword>
+<theword date='2017-11-29'>
+<title>每日金句 十一月二十九日 星期三</title>
+<parol book='23' chapter='43' verse='18' id='Is43v18-19'>
+<text>你 们 不 要 记 念 从 前 的 事 ，
+也 不 要 思 想 古 时 的 事 。
+看 哪 ，我 要 做 一 件 新 事 ； 如 今 要 发 现 ，
+你 们 岂 不 知 道 麽 ？</text>
+<ref>以赛亚书 43:18-19</ref>
+</parol>
+<parol book='42' chapter='2' verse='18' id='L2v18-19'>
+<text>凡 听 见 的 ， 就 诧 异 牧 羊 之 人 对 他 们 所 说 的 话 。
+马 利 亚 却 把 这 一 切 的 事 存 在 心 里 ， 反 复 思 想 。</text>
+<ref>路加福音 2:18-19</ref>
+</parol>
+</theword>
+<theword date='2017-11-30'>
+<title>每日金句 十一月三十日 星期四</title>
+<parol book='19' chapter='33' verse='5' id='Ps33v5'>
+<text>他喜爱仁义公平。
+遍地满了耶和华的慈爱。</text>
+<ref>诗篇 33:5</ref>
+</parol>
+<parol book='45' chapter='2' verse='4' id='R2v4'>
+<text>还是你藐视他丰富的恩慈，宽容，忍耐，
+不晓得他的恩慈是领你悔改呢？</text>
+<ref>罗马书 2:4</ref>
+</parol>
+</theword>
+<theword date='2017-12-01'>
+<title>每日金句 十二月一日 星期五</title>
+<parol book='40' chapter='13' verse='37' id='Mt13v37'>
+<text>耶 稣 回 答 门 徒 说 ：
+那 撒 好 种 的 就 是 人 子 。</text>
+<ref>马太福音 13:37</ref>
+</parol>
+<parol book='41' chapter='4' verse='31' id='Mc4v31-32'>
+<text>神 的 国 好 像 一 粒 芥 菜 种 ，
+种 在 地 里 的 时 候 ，
+虽 比 地 上 的 百 种 都 小 ，
+但 种 上 以 後 ，就 长 起 来 ，
+比 各 样 的 菜 都 大 ，又 长 出 大 枝 来 ，
+甚 至 天 上 的 飞 鸟 可 以 宿 在 他 的 荫 下 。</text>
+<ref>马可福音 4:31-32</ref>
+</parol>
+</theword>
+<theword date='2017-12-02'>
+<title>每日金句 十二月二日 星期六</title>
+<parol book='23' chapter='12' verse='1' id='Is12v1'>
+<text>耶 和 华 啊 ，我 要 称 谢 你 ！
+因 为 你 虽 然 向 我 发 怒 ，
+你 的 怒 气 却 已 转 消 ；
+你 又 安 慰 了 我 。</text>
+<ref>以赛亚书 12:1</ref>
+</parol>
+<parol book='40' chapter='15' verse='26' id='Mt15v26-27'>
+<intro>耶 稣 回 答 迦 南 妇 人 说:</intro>
+<text>不 好 拿 儿 女 的 饼 丢 给 狗 吃 。
+妇 人 说 ：
+主 阿 ， 不 错 ；
+但 是 狗 也 吃 他 主 人 桌 子 上 掉 下 来 的 碎 渣 儿 。</text>
+<ref>马太福音 15:26-27</ref>
+</parol>
+</theword>
+<theword date='2017-12-03'>
+<title>每日金句 十二月三日 星期日</title>
+<parol book='45' chapter='1' verse='7' id='R1v7'>
+<text>愿 恩 惠 、 平 安 从 我 们 的 父 神
+并 主 耶 稣 基 督 归 与 你 们 ！</text>
+<ref>罗马书 1:7下</ref>
+</parol>
+<parol book='50' chapter='4' verse='7' id='Ph4v7'>
+<text>神所赐出人意外的平安，
+必在基督耶稣里，
+保守你们的心怀意念。</text>
+<ref>腓立比书 4:7</ref>
+</parol>
+</theword>
+<theword date='2017-12-04'>
+<title>每日金句 十二月四日 星期一</title>
+<parol book='52' chapter='5' verse='12' id='1Th5v12-13'>
+<text>弟 兄 们 ， 我 们 劝 你 们
+敬 重 那 在 你 们 中 间 劳 苦 的 人 ，
+就 是 在 主 里 面 治 理 你 们 、 劝 戒 你 们 的 。
+又 因 他 们 所 做 的 工 ，
+用 爱 心 格 外 尊 重 他 们 。</text>
+<ref>帖撒罗尼迦前书 5:12-13</ref>
+</parol>
+<parol book='5' chapter='32' verse='7' id='Dt32v7'>
+<text>你当追想上古之日，思念历代之年。
+问你的父亲，他必指示你。
+问你的长者，他必告诉你。</text>
+<ref>申命记 32:7</ref>
+</parol>
+</theword>
+<theword date='2017-12-05'>
+<title>每日金句 十二月五日 星期二</title>
+<parol book='42' chapter='24' verse='26' id='L24v26'>
+<text>基 督 这 样 受 害 ，
+又 进 入 他 的 荣 耀 ，
+岂 不 是 应 当 的 麽 ？</text>
+<ref>路加福音 24:26</ref>
+</parol>
+<parol book='60' chapter='3' verse='18' id='1P3v18'>
+<text>基 督 也 曾 一 次 为 罪 受 苦 ，
+就 是 义 的 代 替 不 义 的 ，
+为 要 引 我 们 到 神 面 前 。</text>
+<ref>彼得前书 3:18 上</ref>
+</parol>
+</theword>
+<theword date='2017-12-06'>
+<title>每日金句 十二月六日 星期三</title>
+<parol book='19' chapter='119' verse='82' id='Ps119v82'>
+<text>我 因 盼 望 你 的 应 许 眼 睛 失 明 ，
+说 ： 你 何 时 安 慰 我 ？</text>
+<ref>诗篇 119:82</ref>
+</parol>
+<parol book='42' chapter='11' verse='28' id='L11v28'>
+<text>耶稣说，是却还不如听神之道
+而遵守的人有福。</text>
+<ref>路加福音 11:28</ref>
+</parol>
+</theword>
+<theword date='2017-12-07'>
+<title>每日金句 十二月七日 星期四</title>
+<parol book='16' chapter='8' verse='8' id='Neh8v8'>
+<text>他 们 清 清 楚 楚 地 念 神 的 律 法 书 ，
+讲 明 意 思 ，
+使 百 姓 明 白 所 念 的 。</text>
+<ref>尼希米记 8:8</ref>
+</parol>
+<parol book='55' chapter='3' verse='16' id='2T3v16-17'>
+<text>圣 经 都 是 神 所 默 示 的 ，
+於 教 训 、督 责 、 使 人 归 正 、
+教 导 人 学 义 都 是 有 益 的 ，
+叫 属 神 的 人 得 以 完 全 ，
+预 备 行 各 样 的 善 事 。</text>
+<ref>提摩太后书 3:16-17</ref>
+</parol>
+</theword>
+<theword date='2017-12-08'>
+<title>每日金句 十二月八日 星期五</title>
+<parol book='19' chapter='9' verse='10' id='Ps9v10'>
+<text>耶 和 华 又 要 给 受 欺 压 的 人 作 高 台 ，
+在 患 难 的 时 候 作 高 台 。</text>
+<ref>诗篇 9:9</ref>
+</parol>
+<parol book='58' chapter='6' verse='18' id='H6v18'>
+<text>藉 这 两 件 不 更 改 的 事 ，
+神 决 不 能 说 谎 ，
+好 叫 我 们 这 逃 往 避 难 所 、
+持 定 摆 在 我 们 前 头 指 望 的 人
+可 以 大 得 勉 励 。</text>
+<ref>希伯来书 6:18</ref>
+</parol>
+</theword>
+<theword date='2017-12-09'>
+<title>每日金句 十二月九日 星期六</title>
+<parol book='46' chapter='4' verse='5' id='1K4v5'>
+<text>所 以 ， 时 候 未 到 ， 甚 麽 都 不 要 论 断 ，
+只 等 主 来 ， 他 要 照 出 暗 中 的 隐 情 ，
+显 明 人 心 的 意 念 。
+那 时 ， 各 人 要 从 神 那 里 得 着 称 赞 。</text>
+<ref>哥林多前书 4:5</ref>
+</parol>
+<parol book='43' chapter='3' verse='20' id='J3v20-21'>
+<text>作 恶 的 便 恨 光 ， 并 不 来 就 光 ，
+恐 怕 他 的 行 为 受 责 备 。
+但 行 真 理 的 必 来 就 光 ，
+要 显 明 他 所 行 的 是 靠 神 而 行 。</text>
+<ref>约翰福音 3:20-21</ref>
+</parol>
+</theword>
+<theword date='2017-12-10'>
+<title>每日金句 十二月十日 星期日</title>
+<parol book='2' chapter='12' verse='31' id='Ex12v31'>
+<text>夜 间 ，法 老 召 了 摩 西 、亚 伦 来 ，说 ：
+起 来 ！ 连 你 们 带 以 色 列 人 ，
+从 我 民 中 出 去 ， 依 你 们 所 说 的 ，
+去 事 奉 耶 和 华 罢 ！</text>
+<ref>出埃及记 12:31</ref>
+</parol>
+<parol book='44' chapter='13' verse='17' id='Act13v17'>
+<text>这 以 色 列 民 的 神
+拣 选 了 我 们 的 祖 宗 ，
+当 民 寄 居 埃 及 的 时 候 抬 举 他 们 ，
+用 大 能 的 手 领 他 们 出 来 。</text>
+<ref>使徒行传 13:17</ref>
+</parol>
+</theword>
+<theword date='2017-12-11'>
+<title>每日金句 十二月十一日 星期一</title>
+<parol book='64' chapter='1' verse='13' id='3J1v13-14'>
+<text>我 原 有 许 多 事 要 写 给 你 ，
+却 不 愿 意 用 笔 墨 写 给 你 ，
+但 盼 望 快 快 的 见 你 ， 我 们 就 当 面 谈 论 。</text>
+<ref>约翰三书 13-14</ref>
+</parol>
+<parol book='43' chapter='21' verse='25' id='J21v25'>
+<intro>保 罗 写:</intro>
+<text>耶 稣 所 行 的 事 还 有 许 多 ，
+若 是 一 一 的 都 写 出 来 ，
+我 想 ， 所 写 的 书
+就 是 世 界 也 容 不 下 了 。</text>
+<ref>约翰福音 21:25</ref>
+</parol>
+</theword>
+<theword date='2017-12-12'>
+<title>每日金句 十二月十二日 星期二</title>
+<parol book='22' chapter='3' verse='1' id='Ct3v1'>
+<text>我 夜 间 躺 卧 在 床 上 ，
+寻 找 我 心 所 爱 的 ；
+我 寻 找 他 ， 却 寻 不 见 。</text>
+<ref>雅歌 3:1</ref>
+</parol>
+<parol book='66' chapter='3' verse='20' id='Ap3v20'>
+<text>看 哪 ， 我 站 在 门 外 叩 门 ，
+若 有 听 见 我 声 音 就 开 门 的 ，
+我 要 进 到 他 那 里 去 ，
+我 与 他 他 与 我 一 同 坐 席 。</text>
+<ref>启示录 3:20</ref>
+</parol>
+</theword>
+<theword date='2017-12-13'>
+<title>每日金句 十二月十三日 星期三</title>
+<parol book='1' chapter='1' verse='27' id='Gn1v27-28'>
+<text>乃 是 照 着 神 的 形 像 造 男 造 女 。
+神 就 赐 福 给 他 们 ，
+又 对 他 们 说 ：
+要 生 养 众 多 ，遍 满 地 面 ，
+治 理 这 地 。</text>
+<ref>创世记 1:27-28 上</ref>
+</parol>
+<parol book='40' chapter='7' verse='19' id='Mt7v19'>
+<text>凡不结好果子的树，
+就砍下来，
+丢在火里。</text>
+<ref>马太福音 7:19</ref>
+</parol>
+</theword>
+<theword date='2017-12-14'>
+<title>每日金句 十二月十四日 星期四</title>
+<parol book='23' chapter='42' verse='1' id='Is42v1'>
+<text>看 哪 ， 我 的 仆 人 ─
+我 所 扶 持 所 拣 选 、
+心 里 所 喜 悦 的 ！</text>
+<ref>以赛亚书 42:1上</ref>
+</parol>
+<parol book='50' chapter='2' verse='7' id='Ph2v7'>
+<text>反 倒 虚 己 ，
+取 了 奴 仆 的 形 像 ，
+成 为 人 的 样 式 ...</text>
+<ref>腓立比书 2:7</ref>
+</parol>
+</theword>
+<theword date='2017-12-15'>
+<title>每日金句 十二月十五日 星期五</title>
+<parol book='42' chapter='22' verse='42' id='L22v42'>
+<intro>耶 稣 说 :</intro>
+<text>父 阿 ！ 你 若 愿 意 ，就 把 这 杯 撤 去 ；
+然 而 ， 不 要 成 就 我 的 意 思 ， 只 要 成 就 你 的 意 思 。</text>
+<ref>路加福音 22:42</ref>
+</parol>
+<parol book='58' chapter='5' verse='8' id='H5v8'>
+<text>他 虽 然 为 儿 子 ，
+还 是 因 所 受 的 苦 难 学 了 顺 从 。</text>
+<ref>希伯来书 5:8</ref>
+</parol>
+</theword>
+<theword date='2017-12-16'>
+<title>每日金句 十二月十六日 星期六</title>
+<parol book='23' chapter='44' verse='8' id='Is44v8'>
+<text>你 们 不 要 恐 惧 ， 也 不 要 害 怕 。
+我 岂 不 是 从 上 古 就 说 明 指 示 你 们 麽 ？
+并 且 你 们 是 我 的 见 证 ！</text>
+<ref>以赛亚书 44:8上</ref>
+</parol>
+<parol book='44' chapter='1' verse='8' id='Act1v8'>
+<intro>耶稣对使徒说：</intro>
+<text>但圣灵降临在你们身上，
+你们就必得着能力。
+并要在耶路撒冷，
+犹太全地，和撒玛利亚，
+直到地极，作我的见证。</text>
+<ref>使徒行传 1:8</ref>
+</parol>
+</theword>
+<theword date='2017-12-17'>
+<title>每日金句 十二月十七日 星期日</title>
+<parol book='23' chapter='26' verse='16' id='Is26v16'>
+<text>耶 和 华 啊 ， 他 们 在 急 难 中 寻 求 你 ；
+你 的 惩 罚 临 到 他 们 身 上 ，
+他 们 就 倾 心 吐 胆 祷 告 你 。</text>
+<ref>以赛亚书 26:16</ref>
+</parol>
+<parol book='52' chapter='2' verse='2' id='1Th2v2'>
+<intro>保 罗 写 道：</intro>
+<text>我 们 从 前 在 腓 立 比 被 害 受 辱 ，
+这 是 你 们 知 道 的 ；
+然 而 还 是 靠 我 们 的 神 放 开 胆 量 ，
+在 大 争 战 中
+把 神 的 福 音 传 给 你 们 。</text>
+<ref>帖撒罗尼迦前书 2:2</ref>
+</parol>
+</theword>
+<theword date='2017-12-18'>
+<title>每日金句 十二月十八日 星期一</title>
+<parol book='27' chapter='3' verse='17' id='Dn3v17'>
+<intro>沙 得 拉 ， 米 煞 ， 亚 伯 尼 歌 对 尼 布 甲 尼 撒 王说 ：</intro>
+<text>我 们 所 事 奉 的 神
+能 将 我 们 从 烈 火 的 窑 中 救 出 来 。
+王 啊 ， 他 也 必 救 我 们 脱 离 你 的 手 。</text>
+<ref>但以理书 3:17</ref>
+</parol>
+<parol book='58' chapter='13' verse='6' id='H13v6'>
+<text>我们可以放胆说，
+主是帮助我的，我必不惧怕。
+人能把我怎麽样呢？</text>
+<ref>希伯来书 13:6</ref>
+</parol>
+</theword>
+<theword date='2017-12-19'>
+<title>每日金句 十二月十九日 星期二</title>
+<parol book='19' chapter='48' verse='15' id='Ps48v15'>
+<text>因 为 这 神 永 永 远 远 为 我 们 的 神 ；
+他 必 作 我 们 引 路 的 ， 直 到 死 时 。</text>
+<ref>诗篇 48:14</ref>
+</parol>
+<parol book='19' chapter='100' verse='5' id='Ps100v5'>
+<text>因 为 耶 和 华 本 为 善 。
+他 的 慈 爱 存 到 永 远 ；
+他 的 信 实 直 到 万 代 。</text>
+<ref>诗篇 100:5</ref>
+</parol>
+</theword>
+<theword date='2017-12-20'>
+<title>每日金句 十二月二十日 星期三</title>
+<parol book='24' chapter='21' verse='14' id='Jr21v14'>
+<text>耶 和 华 又 说 ，
+我 必 按 你 们 作 事 的 结 果
+刑 罚 你 们 。</text>
+<ref>耶利米书 21:14上</ref>
+</parol>
+<parol book='63' chapter='1' verse='9' id='2J1v9'>
+<text>凡 越 过 基 督 教 训 ，
+不 常 守 着 的 ，
+就 没 有 神 。
+常 守 这 教 训 的 ，
+就 有 父 又 有 子 。</text>
+<ref>约翰二书 1:9</ref>
+</parol>
+</theword>
+<theword date='2017-12-21'>
+<title>每日金句 十二月二十一日 星期四</title>
+<parol book='5' chapter='7' verse='6' id='Dt7v6'>
+<text>因 为 你 归 耶 和 华 ─ 你 神 为 圣 洁 的 民 ；
+耶 和 华 ─ 你 神 从 地 上 的 万 民 中 拣 选 你，
+特 作 自 己 的 子 民 。</text>
+<ref>申命记 7:6</ref>
+</parol>
+<parol book='59' chapter='2' verse='5' id='Jc2v5'>
+<text>神岂不是拣选了世上的贫穷人，
+叫他们在信上富足，
+并承受他所应许给那些爱他之人的国麽？</text>
+<ref>雅各书 2:5</ref>
+</parol>
+</theword>
+<theword date='2017-12-22'>
+<title>每日金句 十二月二十二日 星期五</title>
+<parol book='2' chapter='23' verse='1' id='Ex23v1'>
+<text>不 可 随 夥 布 散 谣 言 .</text>
+<ref>出埃及记 23:1 上</ref>
+</parol>
+<parol book='40' chapter='28' verse='15' id='Mt28v15'>
+<intro>关 于 门 徒 把 耶 稣 尸 体 偷 去 了 的 谎 言:</intro>
+<text>兵 丁 受 了 银 钱 ， 就 照 所 嘱 咐 他 们 的 去 行 。
+这 话 就 传 说 在 犹 太 人 中 间 ， 直 到 今 日 。</text>
+<ref>马太福音 28:15</ref>
+</parol>
+</theword>
+<theword date='2017-12-23'>
+<title>每日金句 十二月二十三日 星期六</title>
+<parol book='11' chapter='18' verse='21' id='1Rg18v21'>
+<text>以 利 亚 前 来 对 众 民 说 ，
+你 们 心 持 两 意 要 到 几 时 呢 。
+若 耶 和 华 是 神 ， 就 当 顺 从 耶 和 华 。
+若 巴 力 是 神 ， 就 当 顺 从 巴 力 。</text>
+<ref>列王纪上 18:21上</ref>
+</parol>
+<parol book='64' chapter='1' verse='11' id='3J1v11'>
+<text>亲 爱 的 兄 弟 阿 ，
+不 要 效 法 恶 ， 只 要 效 法 善 。
+行 善 的 属 乎 神 ；
+行 恶 的 未 曾 见 过 神 。</text>
+<ref>约翰三书 11</ref>
+</parol>
+</theword>
+<theword date='2017-12-24'>
+<title>每日金句 十二月二十四日 星期日</title>
+<parol book='54' chapter='6' verse='17' id='1T6v17'>
+<text>你 要 嘱 咐 那 些 今 世 富 足 的 人 ，
+不 要 自 高 ，
+也 不 要 倚 靠 无 定 的 钱 财 ；
+只 要 倚 靠 那 厚 赐 百 物
+给 我 们 享 受 的 神 。</text>
+<ref>提摩太前书 6:17</ref>
+</parol>
+<parol book='25' chapter='3' verse='24' id='Thr3v24'>
+<text>我心里说，耶和华是我的分，
+因此，我要仰望他。</text>
+<ref>耶利米哀歌 3:24</ref>
+</parol>
+</theword>
+<theword date='2017-12-25'>
+<title>每日金句 十二月二十五日 星期一</title>
+<parol book='19' chapter='115' verse='13' id='Ps115v13'>
+<text>凡 敬 畏 耶 和 华 的 ，
+无 论 大 小 ，
+主 必 赐 福 给 他 。</text>
+<ref>诗篇 115:13</ref>
+</parol>
+<parol book='44' chapter='10' verse='34' id='Act10v34-35'>
+<text>彼得就开口说，
+我真看出神是不偏待人。
+原来各国中，
+那敬畏主行义的人，
+都为主所悦纳。</text>
+<ref>使徒行传 10:34-35</ref>
+</parol>
+</theword>
+<theword date='2017-12-26'>
+<title>每日金句 十二月二十六日 星期二</title>
+<parol book='12' chapter='19' verse='15' id='2Rg19v15'>
+<text>坐 在 二 基 路 伯 上 耶 和 华 ─ 以 色 列 的 神 啊 ，
+你 是 天 下 万 国 的 神 ，
+你 曾 创 造 天 地 。</text>
+<ref>列王纪下 19:15</ref>
+</parol>
+<parol book='19' chapter='72' verse='11' id='Ps72v11'>
+<text>诸王都要叩拜他，
+万国都要事奉他。</text>
+<ref>诗篇 72:11</ref>
+</parol>
+</theword>
+<theword date='2017-12-27'>
+<title>每日金句 十二月二十七日 星期三</title>
+<parol book='43' chapter='5' verse='30' id='J5v30'>
+<intro>耶 稣 说:</intro>
+<text>我 凭 着 自 己 不 能 作 什 么 。
+我 怎 麽 听 见 ， 就 怎 麽 审 判 。
+我 的 审 判 也 是 公 平 的 。
+因 为 我 不 求 自 己 的 意 思 ，
+只 求 那 差 我 来 者 的 意 思 。</text>
+<ref>约翰福音 5:30</ref>
+</parol>
+<parol book='62' chapter='2' verse='17' id='1J2v17'>
+<text>这世界，和其上的情欲，都要过去。
+唯独遵行神旨意的，是永远常存。</text>
+<ref>约翰一书 2:17</ref>
+</parol>
+</theword>
+<theword date='2017-12-28'>
+<title>每日金句 十二月二十八日 星期四</title>
+<parol book='43' chapter='11' verse='26' id='J11v26'>
+<intro>耶 稣 说 :</intro>
+<text>凡 活 着 信 我 的 人
+必 永 远 不 死 。</text>
+<ref>约翰福音 11:26 上</ref>
+</parol>
+<parol book='62' chapter='2' verse='25' id='1J2v25'>
+<text>主 所 应 许 我 们 的 就 是 永 生 。</text>
+<ref>约翰一书 2:25</ref>
+</parol>
+</theword>
+<theword date='2017-12-29'>
+<title>每日金句 十二月二十九日 星期五</title>
+<parol book='43' chapter='1' verse='6' id='J1v6-7'>
+<text>有 一 个 人 ， 是 从 神 那 里 差 来 的 ， 名 叫 约 翰 。
+这 人 来 ， 为 要 作 见 证 ，就 是 为 光 作 见 证 ，
+叫 众 人 因 他 可 以 信 。</text>
+<ref>约翰福音 1:6-7</ref>
+</parol>
+<parol book='45' chapter='10' verse='17' id='R10v17'>
+<text>可 见 信 道 是 从 听 道 来 的 ，
+听 道 是 从 基 督 的 话 来 的 。</text>
+<ref>罗马书 10:17</ref>
+</parol>
+</theword>
+<theword date='2017-12-30'>
+<title>每日金句 十二月三十日 星期六</title>
+<parol book='19' chapter='71' verse='9' id='Ps71v9'>
+<text>我 年 老 的 时 候 ， 求 你 不 要 丢 弃 我 。
+我 力 气 衰 弱 的 时 候 ， 求 你 不 要 离 弃 我 。</text>
+<ref>诗篇 71:9</ref>
+</parol>
+<parol book='43' chapter='19' verse='26' id='J19v26-27'>
+<text>耶 稣 见 母 亲 和 他 所 爱 的 那 个 门 徒 站 在 旁 边 ，
+就 对 他 说 ， 母 亲 ，看 你 的 儿 子 。
+又 对 那 门 徒 说 ， 看 你 的 母 亲 。
+从 此 那 门 徒 就 接 他 到 自 己 家 里 去 了 。</text>
+<ref>约翰福音 19:26-27</ref>
+</parol>
+</theword>
+<theword date='2017-12-31'>
+<title>每日金句 十二月三十一日 星期日</title>
+<parol book='26' chapter='37' verse='12' id='Ez37v12'>
+<text>主耶和华如此说，
+我的民哪，我必开你们的坟墓，
+使你们从坟墓中出来，
+领你们进入以色列地。</text>
+<ref>以西结书 37:12</ref>
+</parol>
+<parol book='49' chapter='2' verse='4' id='E2v4-5'>
+<text>他爱我们的大爱，
+当我们死在过犯中的时候，
+便叫我们与基督一同活过来。</text>
+<ref>以弗所书 2:4-5</ref>
+</parol>
+</theword>
+</thewordfile>

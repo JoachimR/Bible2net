@@ -1,0 +1,135 @@
+import de.reiss.bible2net.theword.ApkSignatureLoader
+
+apply plugin: "com.android.application"
+apply plugin: 'io.fabric'
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-kapt"
+apply plugin: "kotlin-android-extensions"
+
+android {
+
+    compileSdkVersion versions.compile_sdk
+    buildToolsVersion versions.build_tools
+
+    defaultConfig {
+        applicationId "de.reiss.bible2net.theword"
+        minSdkVersion versions.min_sdk
+        targetSdkVersion versions.target_sdk
+
+        versionCode isIdeBuild ? 1 : app_version_code
+        versionName app_version_name
+
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "de.reiss.bible2net.theword.testutil.AppTestRunner"
+
+        resConfigs "en,de"
+    }
+
+    signingConfigs {
+        release {
+            def propertiesFile = new File('apk_signature.properties')
+            def apkSignatureLoader = new ApkSignatureLoader()
+            def apkSignature = apkSignatureLoader.loadApkSignature(propertiesFile)
+            if (apkSignature != null) {
+                storeFile = apkSignature.storeFile
+                storePassword = apkSignature.storePassword
+                keyAlias = apkSignature.keyAlias
+                keyPassword = apkSignature.keyPassword
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            ext.enableCrashlytics = false
+        }
+    }
+
+    sourceSets {
+        androidTest.java.srcDirs += "src/test-common/java"
+        test.java.srcDirs += "src/test-common/java"
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+}
+
+kapt {
+    generateStubs = true
+}
+
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
+
+    compile project(":database")
+    compile project(":logger")
+    compile project(":downloader")
+    compile project(":twdparser")
+    compile project(":events")
+
+    compile "com.android.support:appcompat-v7:$versions.support_lib"
+    compile "com.android.support:design:$versions.support_lib"
+    compile "com.android.support:recyclerview-v7:$versions.support_lib"
+    compile "com.android.support:cardview-v7:$versions.support_lib"
+
+    compile 'com.takisoft.fix:preference-v7:26.1.0.2'
+    compile 'com.takisoft.fix:preference-v7-extras:26.1.0.2'
+
+    compile "android.arch.lifecycle:runtime:$versions.arch_runtime"
+    compile "android.arch.lifecycle:extensions:$versions.arch"
+    kapt "android.arch.lifecycle:compiler:$versions.arch"
+
+    compile "com.google.android.gms:play-services-gcm:$versions.play_service"
+
+    compile("com.crashlytics.sdk.android:crashlytics:$versions.crashlytics@aar") {
+        transitive = true
+    }
+
+    compile "com.google.dagger:dagger:2.11"
+    kapt "com.google.dagger:dagger-compiler:2.11"
+    provided "org.glassfish:javax.annotation:10.0-b28"
+
+    testCompile "junit:junit:$versions.junit"
+    testCompile "com.nhaarman:mockito-kotlin-kt1.1:1.5.0", {
+        exclude group: "org.jetbrains.kotlin"
+    }
+    testCompile("android.arch.core:core-testing:$versions.arch", {
+        exclude group: 'com.android.support', module: 'support-compat'
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-core-utils'
+    })
+
+    androidTestCompile("com.android.support.test:runner:0.5") {
+        exclude group: "com.android.support"
+    }
+    androidTestCompile("com.android.support.test:rules:0.5") {
+        exclude group: "com.android.support"
+    }
+    androidTestCompile("com.android.support.test.espresso:espresso-core:2.2.2") {
+        exclude group: "com.android.support"
+    }
+    androidTestCompile("com.android.support.test.espresso:espresso-contrib:2.2.2") {
+        exclude group: "com.android.support"
+    }
+    androidTestCompile("com.android.support.test.espresso:espresso-intents:2.2.2") {
+        exclude group: "com.android.support"
+    }
+
+    androidTestCompile "org.mockito:mockito-android:2.7.21"
+    androidTestCompile "com.nhaarman:mockito-kotlin-kt1.1:1.5.0", {
+        exclude group: "org.jetbrains.kotlin"
+    }
+
+}

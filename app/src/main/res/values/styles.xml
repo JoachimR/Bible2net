@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppTheme" parent="@style/PreferenceFixTheme.Light.DarkActionBar" />
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar</item>
+    </style>
+
+    <style name="AppThemeBlue" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary_blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_blue</item>
+        <item name="colorAccent">@color/colorAccent_blue</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar_blue</item>
+    </style>
+
+    <style name="AppThemeGrey" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary_grey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_grey</item>
+        <item name="colorAccent">@color/colorAccent_grey</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar_grey</item>
+    </style>
+
+    <style name="AppThemeGreen" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary_green</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_green</item>
+        <item name="colorAccent">@color/colorAccent_green</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar_green</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Splash" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="AppThemeBlue.NoActionBar" parent="AppThemeBlue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeGrey.NoActionBar" parent="AppThemeGrey">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeGreen.NoActionBar" parent="AppThemeGreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MaximumContentWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+</resources>

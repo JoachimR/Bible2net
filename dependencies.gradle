@@ -1,0 +1,19 @@
+ext.versions = [
+        kotlin               : "1.1.51",
+        min_sdk              : 16,
+        target_sdk           : 26,
+        compile_sdk          : 26,
+        build_tools          : "26.0.2",
+        support_lib          : "26.1.0",
+        arch_runtime         : "1.0.0",
+        arch                 : "1.0.0-beta1",
+        play_service         : "11.4.2",
+        junit                : "4.12",
+        fabric               : "1.24.2",
+        crashlytics          : "2.6.8",
+        eventbus             : "3.0.0",
+        okhttp               : "3.8.1",
+        retrofit             : "2.3.0",
+        moshi                : "1.5.0",
+        curlloggerinterceptor: "0.1"
+]

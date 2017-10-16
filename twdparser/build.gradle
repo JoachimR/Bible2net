@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+
+    compileSdkVersion versions.compile_sdk
+    buildToolsVersion versions.build_tools
+
+    defaultConfig {
+        minSdkVersion versions.min_sdk
+        targetSdkVersion versions.target_sdk
+    }
+
+    sourceSets {
+        test.resources.srcDirs += 'src/test/resources'
+    }
+
+}
+
+dependencies {
+    compile project(':model')
+    compile project(':logger')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
+    compile 'org.jsoup:jsoup:1.10.3'
+    testCompile "junit:junit:$versions.junit"
+}
