@@ -9,10 +9,8 @@ import android.widget.RemoteViews
 import android.widget.RemoteViewsService
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
-import de.reiss.bible2net.theword.formattedDate
 import de.reiss.bible2net.theword.logger.logErrorWithCrashlytics
 import de.reiss.bible2net.theword.logger.logWarnWithCrashlytics
-import de.reiss.bible2net.theword.model.TheWord
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.util.htmlize
 import java.util.*
@@ -21,45 +19,28 @@ class ListProvider(private val context: Context) : RemoteViewsService.RemoteView
 
     private val list = ArrayList<CharSequence>()
 
-    private val repository: WidgetRepository by lazy {
-        App.component.widgetRepository
-    }
-
     private val appPreferences: AppPreferences by lazy {
         App.component.appPreferences
     }
 
     init {
-        refreshTheWordForWidgets()
+        refreshContent()
     }
 
-    private fun refreshTheWordForWidgets() {
-        repository.loadWordForToday(
-                onWordLoaded = {
-                    applyLoadedText(
-                            if (it == null) {
-                                context.getString(R.string.no_content)
-                            } else {
-                                widgetText(it, includeDate = appPreferences.widgetShowDate())
-                            }
-                    )
-                })
-    }
-
-    private fun applyLoadedText(it: String) {
+    private fun refreshContent() {
         list.clear()
-        list.add(htmlize(it))
+        list.add(htmlize(WidgetRefresher.currentWidgetText))
     }
 
     override fun onCreate() {
-        refreshTheWordForWidgets()
+        refreshContent()
     }
 
     override fun onDestroy() {
     }
 
     override fun onDataSetChanged() {
-        refreshTheWordForWidgets()
+        refreshContent()
     }
 
     override fun getCount() = list.size
@@ -119,32 +100,5 @@ class ListProvider(private val context: Context) : RemoteViewsService.RemoteView
             // background color set in WidgetProvider
         }
     }
-
-    private fun widgetText(theWord: TheWord, includeDate: Boolean): String {
-        return StringBuilder().apply {
-            if (includeDate) {
-                append(formattedDate(context = context, time = theWord.date.time))
-                append("<br><br>")
-            }
-
-            if (theWord.content.intro1.isNotEmpty()) {
-                append(theWord.content.intro1)
-                append("<br><br>")
-            }
-            append(theWord.content.text1)
-            append("<br>")
-            append(theWord.content.ref1)
-            append("<br><br>")
-
-            if (theWord.content.intro2.isNotEmpty()) {
-                append(theWord.content.intro2)
-                append("<br><br>")
-            }
-            append(theWord.content.text2)
-            append("<br>")
-            append(theWord.content.ref2)
-        }.toString()
-    }
-
 
 }

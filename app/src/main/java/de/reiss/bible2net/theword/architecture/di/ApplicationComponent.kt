@@ -13,7 +13,7 @@ import de.reiss.bible2net.theword.note.list.NoteListRepository
 import de.reiss.bible2net.theword.notification.NotificationHelper
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.preferences.AppPreferencesRepository
-import de.reiss.bible2net.theword.widget.WidgetRepository
+import de.reiss.bible2net.theword.widget.WidgetRefresher
 
 @ApplicationScope
 @Component(modules = arrayOf(
@@ -39,7 +39,7 @@ interface ApplicationComponent {
     val noteListRepository: NoteListRepository
     val noteExportRepository: NoteExportRepository
 
-    val widgetRepository: WidgetRepository
+    val widgetRefresher: WidgetRefresher
 
     val bibleListUpdater: BibleListUpdater
 

@@ -9,7 +9,6 @@ import de.reiss.bible2net.theword.architecture.di.ContextModule
 import de.reiss.bible2net.theword.architecture.di.DaggerApplicationComponent
 import de.reiss.bible2net.theword.architecture.di.DatabaseModule
 import de.reiss.bible2net.theword.notification.NotificationService
-import de.reiss.bible2net.theword.widget.WidgetProvider
 import io.fabric.sdk.android.Fabric
 
 open class App : Application() {
@@ -34,7 +33,7 @@ open class App : Application() {
                 .build())
         NotificationService.schedule(this)
         initPrefs()
-        WidgetProvider.refreshWidgets()
+        component.widgetRefresher.execute()
     }
 
     private fun initPrefs() {

@@ -5,11 +5,13 @@ import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
 import android.preference.PreferenceManager
 import android.support.annotation.StringRes
+import android.support.v4.content.ContextCompat
+import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.events.FontSizeChanged
 import de.reiss.bible2net.theword.events.postMessageEvent
 import de.reiss.bible2net.theword.util.extensions.change
-import de.reiss.bible2net.theword.widget.WidgetProvider
+import de.reiss.bible2net.theword.widget.WidgetRefresher
 
 open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListener {
 
@@ -22,6 +24,10 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     val preferences: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
 
+    val widgetRefresher: WidgetRefresher by lazy {
+        App.component.widgetRefresher
+    }
+
     init {
         registerListener(this)
     }
@@ -29,7 +35,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
         if (sharedPreferences == preferences) {
             if (isWidgetPref(key)) {
-                WidgetProvider.refreshWidgets()
+                widgetRefresher.execute()
             } else {
                 if (key == str(R.string.pref_fontsize_key)) {
                     postMessageEvent(FontSizeChanged())
@@ -80,7 +86,8 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     fun widgetShowDate() = prefBoolean(R.string.pref_widget_showdate_key, true)
 
-    fun widgetFontColor() = prefInt(R.string.pref_widget_fontcolor_key, 0)
+    fun widgetFontColor() = prefInt(R.string.pref_widget_fontcolor_key,
+            ContextCompat.getColor(context, R.color.font_black))
 
     fun widgetFontSize() = prefInt(
             stringRes = R.string.pref_widget_fontsize_key,
