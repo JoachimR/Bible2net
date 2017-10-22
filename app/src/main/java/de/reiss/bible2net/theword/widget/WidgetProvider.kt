@@ -20,7 +20,7 @@ class WidgetProvider : AppWidgetProvider() {
 
         private const val REQUEST_CODE_CLICK_WIDGET = 13
 
-        fun refreshWidgets() {
+        fun triggerWidgetRefresh() {
             val context = App.component.context
             val appWidgetManager = AppWidgetManager.getInstance(context)
             val appWidgetIds = appWidgetManager.getAppWidgetIds(
