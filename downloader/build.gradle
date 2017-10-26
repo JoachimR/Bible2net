@@ -18,17 +18,15 @@ android {
 }
 
 dependencies {
+    compile libraries.kotlin.lib
 
     compile project(":model")
     compile project(":logger")
 
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
-
-    compile "com.squareup.okhttp3:okhttp:$versions.okhttp"
-    compile "com.squareup.retrofit2:retrofit:$versions.retrofit"
-    compile "com.squareup.retrofit2:converter-moshi:$versions.retrofit"
-    compile "com.squareup.moshi:moshi:$versions.moshi"
-    compile "com.squareup.moshi:moshi-adapters:$versions.moshi"
-
-    compile "com.github.grapesnberries:curlloggerinterceptor:$versions.curlloggerinterceptor"
+    compile libraries.okhttp
+    compile libraries.retrofit.core
+    compile libraries.retrofit.moshi
+    compile libraries.moshi.core
+    compile libraries.moshi.adapters
+    compile libraries.curlloggerinterceptor
 }

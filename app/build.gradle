@@ -8,13 +8,13 @@ apply plugin: "kotlin-android-extensions"
 
 android {
 
-    compileSdkVersion versions.compile_sdk
+    compileSdkVersion sdk.compile
     buildToolsVersion versions.build_tools
 
     defaultConfig {
-        applicationId "de.reiss.bible2net.theword"
-        minSdkVersion versions.min_sdk
-        targetSdkVersion versions.target_sdk
+        applicationId  "de.reiss.bible2net.theword"
+        minSdkVersion sdk.min
+        targetSdkVersion sdk.target
 
         versionCode isIdeBuild ? 1 : app_version_code
         versionName app_version_name
@@ -65,13 +65,8 @@ android {
 
 }
 
-kapt {
-    generateStubs = true
-}
-
-
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
+    compile libraries.kotlin.lib
 
     compile project(":database")
     compile project(":logger")
@@ -79,57 +74,34 @@ dependencies {
     compile project(":twdparser")
     compile project(":events")
 
-    compile "com.android.support:appcompat-v7:$versions.support_lib"
-    compile "com.android.support:design:$versions.support_lib"
-    compile "com.android.support:recyclerview-v7:$versions.support_lib"
-    compile "com.android.support:cardview-v7:$versions.support_lib"
+    compile libraries.support.app_compat
+    compile libraries.support.design
+    compile libraries.support.recycler_view
+    compile libraries.support.card_view
 
-    compile 'com.takisoft.fix:preference-v7:26.1.0.2'
-    compile 'com.takisoft.fix:preference-v7-extras:26.1.0.2'
+    compile libraries.preference_fix.core
+    compile libraries.preference_fix.extras
 
-    compile "android.arch.lifecycle:runtime:$versions.arch_runtime"
-    compile "android.arch.lifecycle:extensions:$versions.arch"
-    kapt "android.arch.lifecycle:compiler:$versions.arch"
+    compile libraries.arch.runtime
+    compile libraries.arch.extensions
+    kapt libraries.arch.compiler
 
-    compile "com.google.android.gms:play-services-gcm:$versions.play_service"
+    compile libraries.play_services.gcm
 
-    compile("com.crashlytics.sdk.android:crashlytics:$versions.crashlytics@aar") {
-        transitive = true
-    }
+    compile libraries.dagger.core
+    kapt libraries.dagger.compiler
+    provided libraries.dagger.glassfish
 
-    compile "com.google.dagger:dagger:2.11"
-    kapt "com.google.dagger:dagger-compiler:2.11"
-    provided "org.glassfish:javax.annotation:10.0-b28"
+    testCompile libraries.junit
+    testCompile libraries.mockito_kotlin
+    testCompile libraries.arch.core_testing
 
-    testCompile "junit:junit:$versions.junit"
-    testCompile "com.nhaarman:mockito-kotlin-kt1.1:1.5.0", {
-        exclude group: "org.jetbrains.kotlin"
-    }
-    testCompile("android.arch.core:core-testing:$versions.arch", {
-        exclude group: 'com.android.support', module: 'support-compat'
-        exclude group: 'com.android.support', module: 'support-annotations'
-        exclude group: 'com.android.support', module: 'support-core-utils'
-    })
-
-    androidTestCompile("com.android.support.test:runner:0.5") {
-        exclude group: "com.android.support"
-    }
-    androidTestCompile("com.android.support.test:rules:0.5") {
-        exclude group: "com.android.support"
-    }
-    androidTestCompile("com.android.support.test.espresso:espresso-core:2.2.2") {
-        exclude group: "com.android.support"
-    }
-    androidTestCompile("com.android.support.test.espresso:espresso-contrib:2.2.2") {
-        exclude group: "com.android.support"
-    }
-    androidTestCompile("com.android.support.test.espresso:espresso-intents:2.2.2") {
-        exclude group: "com.android.support"
-    }
-
-    androidTestCompile "org.mockito:mockito-android:2.7.21"
-    androidTestCompile "com.nhaarman:mockito-kotlin-kt1.1:1.5.0", {
-        exclude group: "org.jetbrains.kotlin"
-    }
+    androidTestCompile libraries.support.test_runner
+    androidTestCompile libraries.support.test_rules
+    androidTestCompile libraries.espresso.core
+    androidTestCompile libraries.espresso.contrib
+    androidTestCompile libraries.espresso.intents
+    androidTestCompile libraries.mockito_android
+    androidTestCompile libraries.mockito_kotlin
 
 }

@@ -24,7 +24,7 @@ class ChooseDayDialog : DialogFragment() {
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val position = arguments.getInt(KEY_INITIAL_POSITION, -1)
+        val position = arguments?.getInt(KEY_INITIAL_POSITION, -1) ?: -1
         if (position == -1) {
             throw IllegalStateException("no position given")
         }

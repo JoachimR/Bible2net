@@ -18,9 +18,12 @@ android {
 }
 
 dependencies {
+    compile libraries.kotlin.lib
+
     compile project(':model')
     compile project(':logger')
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
-    compile 'org.jsoup:jsoup:1.10.3'
-    testCompile "junit:junit:$versions.junit"
+
+    compile libraries.jsoup
+
+    testCompile libraries.junit
 }

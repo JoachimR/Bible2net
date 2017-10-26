@@ -1,5 +1,5 @@
 ext {
-    app_version_code = 127
+    app_version_code = 128
     app_version_name = "4.0.0 ($app_version_code)"
 
     isIdeBuild = project.properties['android.injected.invoked.from.ide'] == 'true'

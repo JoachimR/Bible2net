@@ -14,6 +14,7 @@ android {
 
 dependencies {
     compile project(':model')
-    compile "android.arch.persistence.room:runtime:$versions.arch"
-    annotationProcessor "android.arch.persistence.room:compiler:$versions.arch"
+
+    compile libraries.arch.room.runtime
+    annotationProcessor libraries.arch.room.compiler
 }

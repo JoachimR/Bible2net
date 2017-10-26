@@ -48,11 +48,11 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
-        time = arguments.getLong(KEY_TIME, -1)
+        time = arguments?.getLong(KEY_TIME, -1) ?: -1
         if (time < 0) {
             throw IllegalStateException("no time given")
         }
-        theWordContent = arguments.getParcelable(KEY_THE_WORD_CONTENT)
+        theWordContent = arguments?.getParcelable(KEY_THE_WORD_CONTENT)
                 ?: throw IllegalStateException("no word content given")
 
         preFillTextDone = savedInstanceState?.getBoolean(KEY_PRE_FILL_TEXT_DONE) ?: false
@@ -85,17 +85,18 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
             }
 
             R.id.menu_edit_note_share -> {
-                viewModel.note()?.let { note ->
-                    activity?.hideKeyboard()
-                    displayDialog(ShareDialog.createInstance(
-                            context = context,
-                            time = note.date.time,
-                            theWordContent = note.theWordContent,
-                            note = note.noteText))
-                    return true
+                activity?.let { activity ->
+                    viewModel.note()?.let { note ->
+                        activity.hideKeyboard()
+                        displayDialog(ShareDialog.createInstance(
+                                context = activity,
+                                time = note.date.time,
+                                theWordContent = note.theWordContent,
+                                note = note.noteText))
+                        return true
+                    }
                 }
             }
-
         }
         return super.onOptionsItemSelected(item)
     }

@@ -1,6 +1,6 @@
 buildscript {
     apply from: 'dependencies.gradle'
-    apply from: 'versions.gradle'
+    apply from: 'app_version.gradle'
 
     repositories {
         jcenter()
@@ -13,13 +13,19 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-rc1'
+        classpath 'com.android.tools.build:gradle:3.0.0'
+
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
         classpath "io.fabric.tools:gradle:$versions.fabric"
     }
 }
 
+plugins {
+    id 'com.github.ben-manes.versions' version '0.16.0'
+}
+
 allprojects {
+
     repositories {
         jcenter()
         mavenCentral()
@@ -27,6 +33,7 @@ allprojects {
             url 'https://maven.google.com'
         }
     }
+
 }
 
 task clean(type: Delete) {

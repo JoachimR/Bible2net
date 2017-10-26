@@ -32,21 +32,31 @@ class ShareDialog : DialogFragment() {
     private lateinit var input: EditText
 
     override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog =
-            AlertDialog.Builder(activity)
-                    .setTitle(R.string.share_dialog_title)
-                    .setNegativeButton(R.string.dialog_cancel, null)
-                    .setPositiveButton(R.string.share_dialog_ok, { _, _ ->
-                        startActivity(shareIntent())
-                        dismiss()
-                    })
-                    .setView(createLayout())
-                    .create()
+            activity.let { activity ->
+                if (activity == null) {
+                    throw NullPointerException()
+                }
+                AlertDialog.Builder(activity)
+                        .setTitle(R.string.share_dialog_title)
+                        .setNegativeButton(R.string.dialog_cancel, null)
+                        .setPositiveButton(R.string.share_dialog_ok, { _, _ ->
+                            startActivity(shareIntent())
+                            dismiss()
+                        })
+                        .setView(createLayout())
+                        .create()
+            }
 
     @SuppressLint("InflateParams")
     private fun createLayout() =
-            activity.layoutInflater.inflate(R.layout.share_dialog, null).apply {
-                input = findViewById<EditText>(R.id.share_dialog_input).apply {
-                    setText(arguments.getString(KEY_INITIAL_CONTENT) ?: "")
+            activity.let { activity ->
+                if (activity == null) {
+                    throw NullPointerException()
+                }
+                layoutInflater.inflate(R.layout.share_dialog, null).apply {
+                    input = findViewById<EditText>(R.id.share_dialog_input).apply {
+                        setText(arguments?.getString(KEY_INITIAL_CONTENT) ?: "")
+                    }
                 }
             }
 

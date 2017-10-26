@@ -31,7 +31,7 @@ class AppPreferencesFragment : PreferenceFragmentCompatDividers() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        bibles = arguments.getParcelableArrayList(LIST_BIBLES)
+        bibles = arguments?.getParcelableArrayList(LIST_BIBLES) ?: arrayListOf()
     }
 
     override fun onCreatePreferencesFix(savedInstanceState: Bundle?, rootKey: String?) {
@@ -50,7 +50,7 @@ class AppPreferencesFragment : PreferenceFragmentCompatDividers() {
         }
     }
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (findPreference(getString(R.string.pref_language_key)) as ListPreference).apply {
             entries = bibles.map { it.bibleName }.toTypedArray()

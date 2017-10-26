@@ -1,5 +1,6 @@
 package de.reiss.bible2net.theword.main.content
 
+import android.app.Dialog
 import android.os.Bundle
 import android.support.v4.app.DialogFragment
 import android.support.v7.app.AlertDialog
@@ -21,20 +22,30 @@ class FontSizePreferenceDialog : DialogFragment() {
         App.component.appPreferences
     }
 
-    override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog =
-            AlertDialog.Builder(activity)
-                    .setTitle(getString(R.string.fontsize_dialog_title))
-                    .setCancelable(true)
-                    .setPositiveButton(activity.getString(R.string.fontsize_dialog_ok)) { _, _ ->
-                        dismiss()
-                    }
-                    .setView(initDialogUi())
-                    .create()
+    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog =
+            activity.let { activity ->
+                if (activity == null) {
+                    throw NullPointerException()
+                }
+                AlertDialog.Builder(activity)
+                        .setTitle(getString(R.string.fontsize_dialog_title))
+                        .setCancelable(true)
+                        .setPositiveButton(activity.getString(R.string.fontsize_dialog_ok)) { _, _ ->
+                            dismiss()
+                        }
+                        .setView(initDialogUi())
+                        .create()
+            }
 
     private fun initDialogUi(): View {
-        return activity.layoutInflater.inflate(R.layout.fontsize_dialog, null).apply {
+        activity.let { activity ->
+            if (activity == null) {
+                throw NullPointerException()
+            }
 
-            findViewById<SeekBar>(R.id.fontsize_dialog_seekbar).apply {
+            val view = activity.layoutInflater.inflate(R.layout.fontsize_dialog, null)
+
+            view.findViewById<SeekBar>(R.id.fontsize_dialog_seekbar).apply {
 
                 progress = appPreferences.fontSize()
 
@@ -56,6 +67,8 @@ class FontSizePreferenceDialog : DialogFragment() {
 
                 })
             }
+
+            return view
         }
     }
 

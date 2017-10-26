@@ -38,9 +38,13 @@ abstract class AppFragmentWithSdCard<T : ViewModel>(@LayoutRes private val fragm
         }
     }
 
-    private fun hasExternalStoragePermission() =
-            Build.VERSION.SDK_INT < Build.VERSION_CODES.M
-                    || checkSelfPermission(context, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
+    private fun hasExternalStoragePermission(): Boolean {
+
+        return (Build.VERSION.SDK_INT < Build.VERSION_CODES.M
+                || context?.let {
+            checkSelfPermission(it, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
+        } ?: false)
+    }
 
     abstract fun onSdCardPermissionGranted()
 

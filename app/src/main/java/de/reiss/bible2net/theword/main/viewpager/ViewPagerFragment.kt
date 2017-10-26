@@ -70,8 +70,8 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
     }
 
     private fun loadPosition(savedInstanceState: Bundle?) {
-        val initialPos = arguments.getInt(KEY_INITIAL_POS, INVALID_POSITION)
-        arguments.remove(KEY_INITIAL_POS)
+        val initialPos = arguments?.getInt(KEY_INITIAL_POS, INVALID_POSITION) ?: -1
+        arguments?.remove(KEY_INITIAL_POS)
         savedPosition = when {
             initialPos != INVALID_POSITION -> initialPos
             else -> savedInstanceState?.getInt(KEY_CURRENT_POSITION)

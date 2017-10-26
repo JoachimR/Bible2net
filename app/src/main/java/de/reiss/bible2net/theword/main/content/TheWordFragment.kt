@@ -56,7 +56,7 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
-        position = arguments.getInt(KEY_POSITION, -1)
+        position = arguments?.getInt(KEY_POSITION, -1) ?: -1
         if (position < 0) {
             throw IllegalStateException("date position unknown")
         }
@@ -156,6 +156,7 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
     }
 
     private fun updateUi() {
+        val context = context ?: return
         val theWord = viewModel.theWord()
 
         the_word_date.text = formattedDate(context, date().time)
@@ -186,7 +187,7 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
             }
         }
 
-        activity.invalidateOptionsMenu()
+        activity?.invalidateOptionsMenu()
 
         updateStyle()
     }
@@ -230,13 +231,15 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
     private fun date() = DaysPositionUtil.dayFor(position).time
 
     private fun share() {
-        viewModel.theWord()?.let { theWord ->
-            displayDialog(ShareDialog.createInstance(
-                    context = context,
-                    time = theWord.date.time,
-                    theWordContent = theWord.content,
-                    note = viewModel.note()?.noteText ?: ""
-            ))
+        context?.let { context ->
+            viewModel.theWord()?.let { theWord ->
+                displayDialog(ShareDialog.createInstance(
+                        context = context,
+                        time = theWord.date.time,
+                        theWordContent = theWord.content,
+                        note = viewModel.note()?.noteText ?: ""
+                ))
+            }
         }
     }
 

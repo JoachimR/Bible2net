@@ -15,8 +15,9 @@ android {
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
-    compile("com.crashlytics.sdk.android:crashlytics:$versions.crashlytics@aar") {
+    compile libraries.kotlin.lib
+
+    compile(libraries.crashlytics) {
         transitive = true
     }
 }
