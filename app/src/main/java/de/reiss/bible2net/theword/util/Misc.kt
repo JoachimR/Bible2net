@@ -1,7 +1,11 @@
 package de.reiss.bible2net.theword.util
 
+import android.content.ClipData
+import android.content.ClipboardManager
 import android.content.Context
 import android.text.Html
+import de.reiss.bible2net.theword.App
+import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.formattedDate
 import de.reiss.bible2net.theword.model.TheWordContent
 
@@ -40,3 +44,12 @@ fun contentAsString(context: Context, time: Long, theWordContent: TheWordContent
                 append(note)
             }
         }.toString()
+
+fun copyToClipboard(context: Context, text: String) {
+    clipboardManager.primaryClip =
+            ClipData.newPlainText(context.getString(R.string.app_name), text)
+}
+
+private val clipboardManager: ClipboardManager by lazy {
+    App.component.clipboardManager
+}

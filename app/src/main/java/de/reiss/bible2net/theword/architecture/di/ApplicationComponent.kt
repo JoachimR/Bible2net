@@ -1,5 +1,6 @@
 package de.reiss.bible2net.theword.architecture.di
 
+import android.content.ClipboardManager
 import android.content.Context
 import dagger.Component
 import de.reiss.bible2net.theword.bible.BibleRepository
@@ -30,6 +31,7 @@ import de.reiss.bible2net.theword.widget.WidgetRefresher
 interface ApplicationComponent {
 
     val context: Context
+    val clipboardManager: ClipboardManager
 
     val theWordRepository: TheWordRepository
     val viewPagerRepository: ViewPagerRepository

@@ -24,6 +24,7 @@ import de.reiss.bible2net.theword.model.TheWord
 import de.reiss.bible2net.theword.note.edit.EditNoteActivity
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.preferences.AppPreferencesActivity
+import de.reiss.bible2net.theword.util.copyToClipboard
 import de.reiss.bible2net.theword.util.extensions.*
 import de.reiss.bible2net.theword.util.htmlize
 import kotlinx.android.synthetic.main.the_word.*
@@ -133,6 +134,22 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
             activity?.let {
                 it.startActivity(AppPreferencesActivity.createIntent(it))
             }
+        }
+
+        the_word_ref1.setOnLongClickListener {
+            context?.let {
+                copyToClipboard(it, the_word_ref1.text.toString())
+                showShortSnackbar(message = R.string.copied_to_clipboard)
+            }
+            true
+        }
+
+        the_word_ref2.setOnLongClickListener {
+            context?.let {
+                copyToClipboard(it, the_word_ref2.text.toString())
+                showShortSnackbar(message = R.string.copied_to_clipboard)
+            }
+            true
         }
     }
 

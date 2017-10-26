@@ -130,4 +130,5 @@
     <string name="fontsize_dialog_title">Set font size</string>
     <string name="fontsize_dialog_ok">Done</string>
     <string name="menu_font_size">Change font size</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
 </resources>
