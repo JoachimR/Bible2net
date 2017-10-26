@@ -12,7 +12,7 @@ android {
     buildToolsVersion versions.build_tools
 
     defaultConfig {
-        applicationId  "de.reiss.bible2net.theword"
+        applicationId "de.reiss.bible2net.theword"
         minSdkVersion sdk.min
         targetSdkVersion sdk.target
 
@@ -22,8 +22,6 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         testInstrumentationRunner "de.reiss.bible2net.theword.testutil.AppTestRunner"
-
-        resConfigs "en,de"
     }
 
     signingConfigs {
@@ -43,13 +41,11 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
         }
         debug {
             minifyEnabled false
-            shrinkResources false
             ext.enableCrashlytics = false
         }
     }
