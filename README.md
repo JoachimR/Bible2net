@@ -4,7 +4,7 @@ This is the Android app for the content provided by <a href="https://bible2.net"
 
 [![Download from Google Play](http://www.android.com/images/brand/android_app_on_play_large.png "Download from Google Play")](https://play.google.com/store/apps/details?id=de.reiss.bible2net.theword)
 
-![screenshots](https://github.com/JoachimR/Bible2net/blob/master/art/github_promo.png "App Screenshots")
+<a href="https://play.google.com/store/apps/details?id=de.reiss.bible2net.theword"><img src="https://github.com/JoachimR/Bible2net/blob/master/art/github_promo.png"></a>
 
 # License
 Copyright (C) 2014-2017 Joachim Reiß
