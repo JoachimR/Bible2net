@@ -3,12 +3,12 @@ apply plugin: "kotlin-android"
 
 android {
 
-    compileSdkVersion versions.compile_sdk
+    compileSdkVersion sdk.compile
     buildToolsVersion versions.build_tools
 
     defaultConfig {
-        minSdkVersion versions.min_sdk
-        targetSdkVersion versions.target_sdk
+        minSdkVersion sdk.min
+        targetSdkVersion sdk.target
     }
 
     sourceSets {

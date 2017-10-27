@@ -1,5 +1,1 @@
-<manifest package="de.reiss.bible2net.theword.logger">
-
-    <application />
-
-</manifest>
+<manifest package="de.reiss.bible2net.theword.logger" />
