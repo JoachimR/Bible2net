@@ -88,6 +88,10 @@ dependencies {
     kapt libraries.dagger.compiler
     provided libraries.dagger.glassfish
 
+    compile(libraries.crashlytics) {
+        transitive = true
+    }
+
     testCompile libraries.junit
     testCompile libraries.mockito_kotlin
     testCompile libraries.arch.core_testing

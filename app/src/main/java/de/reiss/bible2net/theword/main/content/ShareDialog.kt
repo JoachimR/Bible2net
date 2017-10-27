@@ -1,6 +1,7 @@
 package de.reiss.bible2net.theword.main.content
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -43,20 +44,15 @@ class ShareDialog : DialogFragment() {
                             startActivity(shareIntent())
                             dismiss()
                         })
-                        .setView(createLayout())
+                        .setView(createLayout(activity))
                         .create()
             }
 
     @SuppressLint("InflateParams")
-    private fun createLayout() =
-            activity.let { activity ->
-                if (activity == null) {
-                    throw NullPointerException()
-                }
-                layoutInflater.inflate(R.layout.share_dialog, null).apply {
-                    input = findViewById<EditText>(R.id.share_dialog_input).apply {
-                        setText(arguments?.getString(KEY_INITIAL_CONTENT) ?: "")
-                    }
+    private fun createLayout(activity: Activity) =
+            activity.layoutInflater.inflate(R.layout.share_dialog, null).apply {
+                input = findViewById<EditText>(R.id.share_dialog_input).apply {
+                    setText(arguments?.getString(KEY_INITIAL_CONTENT) ?: "")
                 }
             }
 
