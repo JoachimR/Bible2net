@@ -60,8 +60,8 @@
             android:dialogTitle="@string/pref_widget_fontcolor_title"
             android:key="@string/pref_widget_fontcolor_key"
             android:title="@string/pref_widget_fontcolor_title"
-            app:colors="@array/pref_font_colors"
-            app:size="large" />
+            app:pref_colors="@array/pref_font_colors"
+            app:pref_size="large" />
 
         <SeekBarPreference
             android:defaultValue="@string/pref_widget_fontsize_default"

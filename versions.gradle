@@ -1,6 +1,6 @@
 ext.versions = [
         kotlin                : "1.1.51",
-        build_tools           : "26.0.2",
+        build_tools           : "27.0.0",
         support_lib           : "27.0.0",
         arch_runtime          : "1.0.3",
         arch                  : "1.0.0-rc1",
@@ -17,8 +17,8 @@ ext.versions = [
         espresso              : "3.0.1",
         dagger                : "2.12",
         glassfish             : "10.0-b28",
-        gradle_versions_plugin: "0.16.0",
-        preference_fix        : "26.1.0.2",
+        gradle_versions_plugin: "0.17.0",
+        preference_fix        : "27.0.0.0",
         mockito_android       : "2.11.0",
         mockito_kotlin        : "kt1.1:1.5.0",
         jsoup                 : "1.10.3"
