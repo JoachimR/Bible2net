@@ -47,10 +47,22 @@
             android:label="@string/edit_note_title"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <!--android:launchMode="singleTop" so that search intent does not create new instance-->
         <activity
             android:name=".note.list.NoteListActivity"
             android:label="@string/note_list_title"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+        </activity>
 
         <activity
             android:name=".note.details.NoteDetailsActivity"

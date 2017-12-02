@@ -6,9 +6,7 @@ import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.whenever
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
-import de.reiss.bible2net.theword.database.NoteItem
 import de.reiss.bible2net.theword.database.NoteItemDao
-import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.testutil.TestExecutor
 import de.reiss.bible2net.theword.testutil.blockingObserve
 import de.reiss.bible2net.theword.testutil.sampleNoteItem
@@ -34,7 +32,7 @@ class NoteListRepositoryTest {
     }
 
     @Test
-    fun `when 0 items available then repo returns empty list`() {
+    fun `when 0 items available then repo returns empty unfiltered list`() {
         whenever(noteItemDao.all()).thenReturn(emptyList())
 
         val result = loadItemsFromRepo()
@@ -42,34 +40,29 @@ class NoteListRepositoryTest {
         assertEquals(AsyncLoadStatus.SUCCESS, result.loadStatus)
         val data = result.data ?: throw NullPointerException()
 
-        assertEquals(0, data.size)
+        assertEquals(0, data.allItems.size)
     }
 
     @Test
-    fun `when 1 item available then repo returns list with 1 item`() {
-        val databaseItems = listOf(sampleNoteItem(0))
-        checkFor(databaseItems)
+    fun `when 1 item available then repo returns unfiltered list with 1 item`() {
+        checkList(1)
     }
 
     @Test
-    fun `when 99 items available then repo returns list with 99 items`() {
-        val databaseItems = (1..99).map { sampleNoteItem(it) }
-        checkFor(databaseItems)
+    fun `when 99 items available then repo returns unfiltered list with 99 items`() {
+        checkList(99)
     }
 
-    private fun checkFor(databaseItems: List<NoteItem>) {
+    private fun checkList(amount: Int) {
+        val databaseItems = (1..amount).map { sampleNoteItem(it) }
         whenever(noteItemDao.all()).thenReturn(databaseItems)
-
         val result = loadItemsFromRepo()
-
         assertEquals(AsyncLoadStatus.SUCCESS, result.loadStatus)
         val data = result.data ?: throw NullPointerException()
-
-        assertEquals(databaseItems.size, data.size)
-
+        assertEquals(databaseItems.size, data.allItems.size)
         for ((index, databaseItem) in databaseItems.withIndex()) {
 
-            val note = data[index]
+            val note = data.allItems[index]
 
             assertEquals(databaseItem.date, note.date)
             assertEquals(databaseItem.note, note.noteText)
@@ -90,8 +83,9 @@ class NoteListRepositoryTest {
         }
     }
 
-    private fun loadItemsFromRepo(): AsyncLoad<List<Note>> {
-        val liveData = MutableLiveData<AsyncLoad<List<Note>>>()
+    private fun loadItemsFromRepo(): AsyncLoad<FilteredNotes> {
+        val liveData = MutableLiveData<AsyncLoad<FilteredNotes>>()
+        liveData.value = AsyncLoad.success(FilteredNotes())
         repository.getAllNotes(result = liveData)
         return liveData.blockingObserve() ?: throw NullPointerException()
     }

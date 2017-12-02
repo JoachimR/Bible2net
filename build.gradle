@@ -15,7 +15,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
 
         classpath libraries.kotlin.plugin
         classpath "io.fabric.tools:gradle:$versions.fabric"
@@ -23,7 +23,7 @@ buildscript {
 }
 
 plugins {
-    id 'com.github.ben-manes.versions' version '0.16.0'
+    id 'com.github.ben-manes.versions' version '0.17.0'
 }
 
 allprojects {

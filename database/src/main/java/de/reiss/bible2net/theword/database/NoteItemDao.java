@@ -26,7 +26,7 @@ public interface NoteItemDao {
     List<Long> insertOrReplace(NoteItem... items);
 
     @Delete
-    void delete(NoteItem... item);
+    int delete(NoteItem... item);
 
     @Query("DELETE FROM NoteItem")
     void clear();

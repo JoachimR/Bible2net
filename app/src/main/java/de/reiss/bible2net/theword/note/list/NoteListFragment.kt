@@ -4,6 +4,7 @@ package de.reiss.bible2net.theword.note.list
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProvider
 import android.arch.lifecycle.ViewModelProviders
+import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View.GONE
 import android.view.View.VISIBLE
@@ -25,14 +26,17 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
 
     }
 
-    private lateinit var listItemAdapter: NoteListItemAdapter
+    private val listItemAdapter = NoteListItemAdapter(noteClickListener = this)
 
     override fun initViews() {
-        listItemAdapter = NoteListItemAdapter(noteClickListener = this)
-
         with(note_list_recycler_view) {
             layoutManager = LinearLayoutManager(context)
             adapter = listItemAdapter
+            addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
+        }
+
+        note_list_swipe_to_refresh.setOnRefreshListener {
+            tryLoadNotes()
         }
     }
 
@@ -44,12 +48,13 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
             loadViewModelProvider().get(NoteListViewModel::class.java)
 
     override fun initViewModelObservers() {
-        viewModel.notesLiveData().observe(this, Observer<AsyncLoad<List<Note>>> {
+        viewModel.notesLiveData().observe(this, Observer<AsyncLoad<FilteredNotes>> {
             updateUi()
         })
     }
 
-    override fun onAppFragmentReady() {
+    override fun onResume() {
+        super.onResume()
         tryLoadNotes()
     }
 
@@ -57,9 +62,12 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
         activity?.let {
             it.startActivity(NoteDetailsActivity.createIntent(
                     context = it,
-                    date = note.date,
                     note = note))
         }
+    }
+
+    fun applyFilter(query: String) {
+        tryRefreshFilter(query)
     }
 
     private fun tryLoadNotes() {
@@ -68,21 +76,33 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
         }
     }
 
-    private fun updateUi() {
-        note_list_loading.visibility = GONE
-        note_list_no_notes.visibility = GONE
-        note_list_recycler_view.visibility = GONE
+    private fun tryRefreshFilter(query: String) {
+        if (viewModel.isLoadingNotes().not()) {
+            viewModel.applyNewFilter(query)
+        }
+    }
 
+    private fun updateUi() {
         if (viewModel.isLoadingNotes()) {
-            note_list_loading.visibility = VISIBLE
+            note_list_swipe_to_refresh.isRefreshing = true
         } else {
-            NoteListBuilder.buildList(viewModel.notes()).let { listItems ->
-                if (listItems.isEmpty()) {
-                    note_list_no_notes.visibility = VISIBLE
-                } else {
-                    note_list_recycler_view.visibility = VISIBLE
-                    listItemAdapter.updateContent(listItems)
-                }
+            note_list_swipe_to_refresh.isRefreshing = false
+            val filteredNotes = viewModel.notes()
+
+            val listItems = NoteListBuilder.buildList(filteredNotes.filteredItems)
+            if (listItems.isEmpty()) {
+                note_list_recycler_view.visibility = GONE
+                note_list_no_notes.visibility = VISIBLE
+                note_list_no_notes_text.text =
+                        if (filteredNotes.allItems.isEmpty()) {
+                            getString(R.string.no_notes)
+                        } else {
+                            getString(R.string.no_notes_for_filter, filteredNotes.query)
+                        }
+            } else {
+                note_list_no_notes.visibility = GONE
+                note_list_recycler_view.visibility = VISIBLE
+                listItemAdapter.updateContent(listItems)
             }
         }
     }

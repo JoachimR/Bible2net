@@ -74,7 +74,8 @@
     <string name="notes_export_success">Export nach %1$s/%2$s fertig</string>
     <string name="notes_export_error">Fehler: Konnte nicht erfolgreich exporiteren nach %1$s/%2$s …</string>
     <string name="btn_export_export_now">Jetzt exportieren</string>
-    <string name="no_notes">Sie haben noch keine Notizen. Sie können jeden Tag Notizen unterhalb des dargestellten Worts hinzufügen.</string>
+    <string name="no_notes">Sie haben noch keine Notizen. Sie können jeden Tag Notizen unterhalb des dargestellten Texts hinzufügen.</string>
+    <string name="no_notes_for_filter">Keine Notizen gefunden die den Text \'%1$s\' enthalten</string>
     <string name="edit_note">Notiz editieren</string>
     <string name="snackbar_retry">Nochmal</string>
     <string name="cd_the_word_no_content">Kein Inhalt für dieses Datum vorhanden</string>
@@ -129,4 +130,12 @@
     <string name="fontsize_dialog_ok">Fertig</string>
     <string name="menu_font_size">Ändere Schriftgröße</string>
     <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="action_search">Suche</string>
+    <string name="note_list_export">Notiz exportieren</string>
+    <string name="note_details_error_deleting_note">Konnte diese Notiz nicht löschen…</string>
+    <string name="confirm_delete_dialog_title">Wirklich löschen?</string>
+    <string name="confirm_delete_dialog_ok">Löschen</string>
+    <string name="menu_note_details_edit">Editieren</string>
+    <string name="note_details_error_reload_note">Konnte diese Notiz nicht neu laden…</string>
+    <string name="note_details_note_header">Notizen:</string>
 </resources>

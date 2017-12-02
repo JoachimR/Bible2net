@@ -7,4 +7,16 @@
         android:title="@string/menu_note_details_share"
         app:showAsAction="ifRoom" />
 
+    <item
+        android:id="@+id/menu_note_details_delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="@string/menu_note_details_delete"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_note_details_edit"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="@string/menu_note_details_edit"
+        app:showAsAction="never" />
+
 </menu>

@@ -1,55 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_list_swipe_to_refresh"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/note_list_recycler_view"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
-        tools:listitem="@layout/note_list_item" />
+        android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:id="@+id/note_list_no_notes"
-        style="@style/MaximumContentWidth"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        tools:ignore="UseCompoundDrawables">
-
-        <ImageView
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/note_list_recycler_view"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:contentDescription="@string/cd_no_notes"
-            android:tint="@color/md_grey_300"
-            app:srcCompat="@drawable/ic_block_black_24dp" />
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="8dp"
+            tools:listitem="@layout/note_list_item" />
 
-        <TextView
-            style="@style/Base.TextAppearance.AppCompat.Subhead"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:id="@+id/note_list_no_notes"
+            style="@style/MaximumContentWidth"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:gravity="center"
-            android:text="@string/no_notes" />
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:ignore="UseCompoundDrawables">
 
-    </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/cd_no_notes"
+                android:tint="@color/md_grey_300"
+                app:srcCompat="@drawable/ic_block_black_24dp" />
 
-    <de.reiss.bible2net.theword.util.view.FadingProgressBar
-        android:id="@+id/note_list_loading"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-7dp"
-        android:indeterminate="true"
-        android:visibility="gone"
-        tools:visibility="visible" />
+            <TextView
+                android:id="@+id/note_list_no_notes_text"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/no_notes" />
 
-</FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

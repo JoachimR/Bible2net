@@ -78,6 +78,15 @@ fun Fragment.showLongSnackbar(@StringRes message: Int,
     }
 }
 
+fun Fragment.showIndefiniteSnackbar(@StringRes message: Int,
+                                    action: (() -> Unit)? = null,
+                                    actionLabel: String? = null,
+                                    callback: (() -> Unit)? = null) {
+    activity?.let {
+        doShowSnackbar(it, getString(message), Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
+    }
+}
+
 
 private fun doShowSnackbar(activity: Activity,
                            message: String,

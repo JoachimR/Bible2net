@@ -131,27 +131,23 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
 
     private fun updateUi() {
         when {
-
             viewModel.storeSuccess() -> {
                 activity?.supportFinishAfterTransition()
             }
 
             viewModel.isLoading() -> {
-                refreshToolbarMenu()
                 edit_note_loading.loading = true
                 edit_note_input_root.visibility = GONE
                 edit_note_load_error.visibility = GONE
             }
 
             viewModel.loadError() -> {
-                refreshToolbarMenu()
                 edit_note_loading.loading = false
                 edit_note_input_root.visibility = GONE
                 edit_note_load_error.visibility = VISIBLE
             }
 
             viewModel.storeError() -> {
-                refreshToolbarMenu()
                 edit_note_loading.loading = false
                 edit_note_input_root.visibility = VISIBLE
                 edit_note_load_error.visibility = GONE
@@ -166,7 +162,6 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
             }
 
             else -> {
-                refreshToolbarMenu()
                 edit_note_loading.loading = false
                 edit_note_input_root.visibility = VISIBLE
                 edit_note_load_error.visibility = GONE
@@ -179,6 +174,8 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
                 }
             }
         }
+
+        activity?.invalidateOptionsMenu()
     }
 
     private fun tryLoad() {
@@ -195,10 +192,6 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
                     theWordContent = theWordContent
             )
         }
-    }
-
-    private fun refreshToolbarMenu() {
-        activity?.invalidateOptionsMenu()
     }
 
 }

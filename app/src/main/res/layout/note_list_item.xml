@@ -4,7 +4,8 @@
     android:id="@+id/note_list_item_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?selectableItemBackground">
+    android:background="@color/md_white_1000"
+    android:foreground="?selectableItemBackground">
 
     <LinearLayout
         style="@style/MaximumContentWidth"
@@ -24,18 +25,12 @@
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:ellipsize="end"
             android:maxLines="2"
             tools:text="Some note" />
-
-        <View
-            android:id="@+id/note_list_item_bottom_divider"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@color/md_grey_300" />
 
     </LinearLayout>
 

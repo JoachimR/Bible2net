@@ -4,7 +4,6 @@ import android.view.View
 import android.widget.TextView
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.formattedDate
-import de.reiss.bible2net.theword.util.extensions.goneElseVisible
 import de.reiss.bible2net.theword.util.extensions.onClick
 import de.reiss.bible2net.theword.util.view.ListItemViewHolder
 import de.reiss.bible2net.theword.util.view.StableListItem
@@ -16,7 +15,6 @@ class NoteListItemViewHolder(layout: View,
     private val context = layout.context
     private val noteDate = layout.findViewById<TextView>(R.id.note_list_item_date)
     private val noteText = layout.findViewById<TextView>(R.id.note_list_item_text)
-    private val bottomDivider = layout.findViewById<View>(R.id.note_list_item_bottom_divider)
 
     private var item: NoteListItem? = null
 
@@ -33,7 +31,6 @@ class NoteListItemViewHolder(layout: View,
             this.item = item
             noteDate.text = formattedDate(context, item.note.date.time)
             noteText.text = item.note.noteText
-            bottomDivider.goneElseVisible(isLastItem)
         }
     }
 

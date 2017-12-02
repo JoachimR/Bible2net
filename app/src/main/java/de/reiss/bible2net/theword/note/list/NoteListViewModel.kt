@@ -5,11 +5,14 @@ import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus.LOADING
-import de.reiss.bible2net.theword.model.Note
 
 open class NoteListViewModel(private val repository: NoteListRepository) : ViewModel() {
 
-    private val notesLiveData: MutableLiveData<AsyncLoad<List<Note>>> = MutableLiveData()
+    private val notesLiveData: MutableLiveData<AsyncLoad<FilteredNotes>> = MutableLiveData()
+
+    init {
+        notesLiveData.value = AsyncLoad.success(FilteredNotes())
+    }
 
     open fun notesLiveData() = notesLiveData
 
@@ -17,7 +20,11 @@ open class NoteListViewModel(private val repository: NoteListRepository) : ViewM
         repository.getAllNotes(notesLiveData())
     }
 
-    fun notes() = notesLiveData().value?.data ?: emptyList()
+    open fun applyNewFilter(query: String) {
+        repository.applyNewFilter(query, notesLiveData())
+    }
+
+    fun notes() = notesLiveData().value?.data ?: FilteredNotes(emptyList(), emptyList(), "")
 
     fun isLoadingNotes() = notesLiveData().value?.loadStatus == LOADING
 

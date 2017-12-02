@@ -11,7 +11,7 @@ data class AsyncLoad<out T>(val loadStatus: AsyncLoadStatus,
         fun <T> success(newData: T? = null, message: String? = null): AsyncLoad<T> =
                 AsyncLoad(SUCCESS, newData, message)
 
-        fun <T> error(oldData: T? = null, message: String): AsyncLoad<T> =
+        fun <T> error(oldData: T? = null, message: String? = null): AsyncLoad<T> =
                 AsyncLoad(ERROR, oldData, message)
 
         fun <T> loading(oldData: T? = null, message: String? = null): AsyncLoad<T> =

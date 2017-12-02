@@ -76,7 +76,8 @@
     <string name="notes_export_success">Export to %1$s/%2$s finished</string>
     <string name="notes_export_error">Error: Could not export successfully to %1$s/%2$s …</string>
     <string name="btn_export_export_now">Export now</string>
-    <string name="no_notes">You don\'t have any notes yet.\nYou can add notes every day below the displayed word.</string>
+    <string name="no_notes">You don\'t have any notes yet.\nYou can add notes every day below the displayed text.</string>
+    <string name="no_notes_for_filter">No notes found that contain the text \'%1$s\'</string>
     <string name="edit_note">edit</string>
     <string name="snackbar_retry">Retry</string>
     <string name="cd_the_word_no_content">No content for this date</string>
@@ -131,4 +132,13 @@
     <string name="fontsize_dialog_ok">Done</string>
     <string name="menu_font_size">Change font size</string>
     <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="action_search">Search</string>
+    <string name="note_list_export">Export notes</string>
+    <string name="menu_note_details_delete">Delete</string>
+    <string name="note_details_error_deleting_note">Could not delete this note…</string>
+    <string name="confirm_delete_dialog_title">Really delete?</string>
+    <string name="confirm_delete_dialog_ok">Delete</string>
+    <string name="menu_note_details_edit">Edit</string>
+    <string name="note_details_error_reload_note">Could not reload this note…</string>
+    <string name="note_details_note_header">Notes:</string>
 </resources>
