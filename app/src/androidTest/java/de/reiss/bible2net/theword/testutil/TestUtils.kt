@@ -32,6 +32,7 @@ import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.lifecycle.ActivityLifecycleMonitorRegistry
 import android.support.test.runner.lifecycle.Stage
 import android.support.v4.app.FragmentActivity
+import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.widget.AppCompatImageButton
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
@@ -162,7 +163,7 @@ fun checkTextsAreDisplayed(@StringRes vararg stringResIds: Int) {
     }
 }
 
-fun checkTextsAreDisplayed(strings: Array<String>) {
+fun checkTextsAreDisplayed(vararg strings: String) {
     for (s in strings) {
         onView(firstMatch(withText(s))).check(matches(isDisplayed()))
     }
@@ -471,5 +472,28 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
 
         }
     }
+
+}
+
+fun assertSwipeToRefreshState(@IdRes resId: Int,
+                              shouldBeRefreshing: Boolean) {
+    onView(withId(resId))
+            .check(matches(
+                    if (shouldBeRefreshing) {
+                        isRefreshing()
+                    } else {
+                        not(isRefreshing())
+                    }
+            ))
+}
+
+private fun isRefreshing() = object : TypeSafeMatcher<View>() {
+
+    override fun describeTo(description: Description) {
+        description.appendText("is a SwipeRefreshLayout that is currently refreshing")
+    }
+
+    override fun matchesSafely(item: View?) =
+            (item as? SwipeRefreshLayout)?.isRefreshing ?: false
 
 }

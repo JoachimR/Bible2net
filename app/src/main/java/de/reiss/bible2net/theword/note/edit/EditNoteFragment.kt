@@ -69,7 +69,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
     }
 
     override fun onPrepareOptionsMenu(menu: Menu) {
-        viewModel.isLoading().let { loading ->
+        viewModel.isLoadingOrStoring().let { loading ->
             menu.findItem(R.id.menu_edit_note_save).isVisible = loading.not()
             menu.findItem(R.id.menu_edit_note_save_disabled).isVisible = loading
         }
@@ -115,7 +115,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
     }
 
     override fun initViewModelObservers() {
-        viewModel.loadNoteLiveData().observe(this, Observer<AsyncLoad<Note>> {
+        viewModel.loadNoteLiveData().observe(this, Observer<AsyncLoad<Note?>> {
             updateUi()
         })
         viewModel.storeNoteLiveData().observe(this, Observer<AsyncLoad<Void>> {
@@ -135,7 +135,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
                 activity?.supportFinishAfterTransition()
             }
 
-            viewModel.isLoading() -> {
+            viewModel.isLoadingOrStoring() -> {
                 edit_note_loading.loading = true
                 edit_note_input_root.visibility = GONE
                 edit_note_load_error.visibility = GONE
@@ -179,13 +179,13 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
     }
 
     private fun tryLoad() {
-        if (viewModel.isLoading().not()) {
+        if (viewModel.isLoadingOrStoring().not()) {
             viewModel.loadNote(Date(time).withZeroDayTime())
         }
     }
 
     private fun tryStore() {
-        if (viewModel.isLoading().not()) {
+        if (viewModel.isLoadingOrStoring().not()) {
             viewModel.storeNote(
                     date = Date(time).withZeroDayTime(),
                     text = edit_note_input.text.toString(),

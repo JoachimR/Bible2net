@@ -11,7 +11,7 @@ import java.util.*
 
 open class EditNoteViewModel(private val repository: EditNoteRepository) : ViewModel() {
 
-    private val loadNoteLiveData: MutableLiveData<AsyncLoad<Note>> = MutableLiveData()
+    private val loadNoteLiveData: MutableLiveData<AsyncLoad<Note?>> = MutableLiveData()
     private val storeNoteLiveData: MutableLiveData<AsyncLoad<Void>> = MutableLiveData()
 
     open fun loadNoteLiveData() = loadNoteLiveData
@@ -27,7 +27,7 @@ open class EditNoteViewModel(private val repository: EditNoteRepository) : ViewM
 
     fun note() = loadNoteLiveData().value?.data
 
-    fun isLoading() = loadNoteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
+    fun isLoadingOrStoring() = loadNoteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
             || storeNoteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
 
     fun loadError() = loadNoteLiveData().value?.loadStatus == AsyncLoadStatus.ERROR

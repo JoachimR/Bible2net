@@ -14,7 +14,7 @@ import java.util.*
 
 class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
 
-    private val loadNoteLiveData = MutableLiveData<AsyncLoad<Note>>()
+    private val loadNoteLiveData = MutableLiveData<AsyncLoad<Note?>>()
     private val storeNoteLiveData = MutableLiveData<AsyncLoad<Void>>()
 
     private val mockedViewModel = mock<EditNoteViewModel> {
@@ -53,15 +53,24 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
 
     @Test
     fun whenLoadSuccessThenShowInput() {
-        loadNoteLiveData.postValue(AsyncLoad.success())
+        loadNoteLiveData.postValue(AsyncLoad.success(sampleNote(0)))
 
         assertDisplayed(R.id.edit_note_input_root)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)
     }
 
     @Test
+    fun whenLoadSuccessButNothingFoundThenShowEmptyNote() {
+        loadNoteLiveData.postValue(AsyncLoad.success(null))
+
+        assertDisplayed(R.id.edit_note_input_root)
+        checkIsTextSet { R.id.edit_note_input to "" }
+        assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)
+    }
+
+    @Test
     fun whenLoadErrorThenHideInputAndShowLoadError() {
-        loadNoteLiveData.postValue(AsyncLoad.error(message = ""))
+        loadNoteLiveData.postValue(AsyncLoad.error())
 
         assertDisplayed(R.id.edit_note_load_error)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_input_root)
@@ -69,7 +78,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
 
     @Test
     fun whenStoreErrorThenShowInputAndShowStoreErrorSnackbar() {
-        storeNoteLiveData.postValue(AsyncLoad.error(message = ""))
+        storeNoteLiveData.postValue(AsyncLoad.error())
 
         assertDisplayed(R.id.edit_note_input_root)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)

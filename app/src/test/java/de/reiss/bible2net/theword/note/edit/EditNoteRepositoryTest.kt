@@ -79,7 +79,7 @@ class EditNoteRepositoryTest {
             throw RuntimeException("some exception occurred")
         }
 
-        val liveData = MutableLiveData<AsyncLoad<Note>>()
+        val liveData = MutableLiveData<AsyncLoad<Note?>>()
         repository.loadNote(Date(), liveData)
         val result = liveData.blockingObserve() ?: throw NullPointerException()
 

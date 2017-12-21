@@ -44,5 +44,4 @@ class NoteDetailsActivity : AppActivity(), ConfirmDeleteDialog.Listener {
     private fun findNoteDetailsFragment() =
             findFragmentIn(R.id.note_details_fragment) as? NoteDetailsFragment
 
-
 }

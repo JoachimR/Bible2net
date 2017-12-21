@@ -1,5 +1,5 @@
 ext.sdk = [
         min    : 16,
-        target : 26,
-        compile: 26,
+        target : 27,
+        compile: 27,
 ]
