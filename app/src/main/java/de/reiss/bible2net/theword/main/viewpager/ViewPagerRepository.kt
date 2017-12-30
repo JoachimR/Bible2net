@@ -42,18 +42,21 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
 
         executor.execute {
 
-            val storedItems = readStoredItems(bible, fromDate, toDate)
-            val expectedAmountOfDays = fromDate.amountOfDaysInRange(toDate)
+            val from = fromDate.withZeroDayTime()
+            val until = toDate.withZeroDayTime()
+
+            val storedItems = readStoredItems(bible, from, until)
+            val expectedAmountOfDays = from.amountOfDaysInRange(until)
 
             if (storedItems == null || storedItems.size < expectedAmountOfDays) {
                 logWarn {
                     "Not enough items found (actual:${storedItems?.size ?: 0}, " +
                             "expected:$expectedAmountOfDays) for bible '$bible' in date range: " +
-                            fromDate.asDateString() + " - " + toDate.asDateString() +
+                            from.asDateString() + " - " + until.asDateString() +
                             ". Will try to download and store items"
                 }
 
-                val databaseUpdated = downloadAndStoreItems(bible, fromDate, toDate)
+                val databaseUpdated = downloadAndStoreItems(bible, from, until)
 
                 // always return success, we only tried update
                 result.postValue(AsyncLoad.success(bible))

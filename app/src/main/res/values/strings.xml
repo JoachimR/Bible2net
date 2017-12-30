@@ -126,8 +126,8 @@
     <string name="share_app_title">Share app</string>
     <string name="pref_app_show_daily_notification_summary_off">No Notifications</string>
     <string name="pref_app_show_daily_notification_summary_on">Display The Word as a notification every day</string>
-    <string name="pref_shownotes_summary_off">Notizen hidden</string>
-    <string name="pref_shownotes_summary_on">Notizen visible below the bible verses</string>
+    <string name="pref_shownotes_summary_off">Notes hidden</string>
+    <string name="pref_shownotes_summary_on">Notes visible below the bible verses</string>
     <string name="fontsize_dialog_title">Set font size</string>
     <string name="fontsize_dialog_ok">Done</string>
     <string name="menu_font_size">Change font size</string>

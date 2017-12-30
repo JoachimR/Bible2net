@@ -132,6 +132,7 @@
     <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
     <string name="action_search">Suche</string>
     <string name="note_list_export">Notiz exportieren</string>
+    <string name="menu_note_details_delete">Löschen</string>
     <string name="note_details_error_deleting_note">Konnte diese Notiz nicht löschen…</string>
     <string name="confirm_delete_dialog_title">Wirklich löschen?</string>
     <string name="confirm_delete_dialog_ok">Löschen</string>

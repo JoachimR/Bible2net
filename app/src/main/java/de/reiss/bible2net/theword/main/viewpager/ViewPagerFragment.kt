@@ -136,7 +136,13 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     fun onMessageEvent(event: TwdDownloadRequested) {
-        tryRefresh()
+        if (viewModel.isLoadingContent().not()) {
+            appPreferences.chosenBible?.let { chosenBible ->
+                viewModel.prepareContentFor(
+                        bible = chosenBible,
+                        date = event.year.time)
+            }
+        }
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)

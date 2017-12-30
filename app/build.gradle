@@ -13,7 +13,9 @@ android {
 
     defaultConfig {
         applicationId "de.reiss.bible2net.theword"
+
         minSdkVersion sdk.min
+
         targetSdkVersion sdk.target
 
         versionCode isIdeBuild ? 1 : app_version_code

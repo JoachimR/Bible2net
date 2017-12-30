@@ -224,7 +224,7 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
         the_word_text2.textSize = contentSize
         the_word_ref2.textSize = refSize
         the_word_note_header.textSize = noteHeaderSize
-        the_word_note_content.textSize = refSize
+        the_word_note_content.textSize = noteContentSize
         the_word_note_edit.textSize = noteContentSize
 
         the_word_note.visibleElseGone(appPreferences.showNotes())
