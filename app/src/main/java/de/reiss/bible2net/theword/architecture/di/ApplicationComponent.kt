@@ -19,17 +19,19 @@ import de.reiss.bible2net.theword.preferences.AppPreferencesRepository
 import de.reiss.bible2net.theword.widget.WidgetRefresher
 
 @ApplicationScope
-@Component(modules = arrayOf(
-        ContextModule::class,
-        AndroidModule::class,
-        DatabaseModule::class,
-        PreferenceModule::class,
-        ExecutorModule::class,
-        OkHttpModule::class,
-        RetrofitModule::class,
-        DownloaderModule::class,
-        NotesExportModule::class
-))
+@Component(
+        modules = [
+            ContextModule::class,
+            AndroidModule::class,
+            DatabaseModule::class,
+            PreferenceModule::class,
+            ExecutorModule::class,
+            OkHttpModule::class,
+            RetrofitModule::class,
+            DownloaderModule::class,
+            NotesExportModule::class
+        ]
+)
 interface ApplicationComponent {
 
     val context: Context

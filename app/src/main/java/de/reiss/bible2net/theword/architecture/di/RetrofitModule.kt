@@ -11,7 +11,11 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.*
 
-@Module(includes = arrayOf(OkHttpModule::class))
+@Module(
+        includes = [
+            OkHttpModule::class
+        ]
+)
 open class RetrofitModule {
 
     @Provides
