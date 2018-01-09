@@ -33,13 +33,15 @@ open class TheWordRepository @Inject constructor(private val executor: Executor,
             bibleListUpdater.tryUpdateBiblesIfNeeded()
 
             val bibleItem = bibleItemDao.find(appPreferences.chosenBible)
-                    ?: throw IllegalStateException("Unknown bible")
-
-            val fromDatabase = theWordItemDao.byDate(bibleItem.id, date.withZeroDayTime())
-            if (fromDatabase == null) {
-                result.postValue(AsyncLoad.error(message = "Content not found"))
+            if (bibleItem == null) {
+                result.postValue(AsyncLoad.error(message = "Bible not found"))
             } else {
-                result.postValue(AsyncLoad.success(dbItemToTheWord(bibleItem.bible, fromDatabase)))
+                val fromDatabase = theWordItemDao.byDate(bibleItem.id, date.withZeroDayTime())
+                if (fromDatabase == null) {
+                    result.postValue(AsyncLoad.error(message = "Content not found"))
+                } else {
+                    result.postValue(AsyncLoad.success(dbItemToTheWord(bibleItem.bible, fromDatabase)))
+                }
             }
 
         }
