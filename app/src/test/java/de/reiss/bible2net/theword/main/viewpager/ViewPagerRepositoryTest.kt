@@ -55,12 +55,26 @@ class ViewPagerRepositoryTest {
                 theWordItemDao,
                 bibleItemDao,
                 widgetRefresher)
+    }
 
-        mockBibleDatabaseResult(bibleItem)
+    @Test
+    fun `when bible not found then repo tries to download`() {
+        whenever(bibleItemDao.all()).thenReturn(emptyList())
+        whenever(bibleItemDao.find(any())).thenReturn(null)
+
+        val liveData = MutableLiveData<AsyncLoad<String>>()
+        repository.getItemsFor(
+                bible = bibleItem.bible,
+                fromDate = date.firstDayOfYear(),
+                toDate = date.lastDayOfYear(),
+                result = liveData)
+        val result = liveData.blockingObserve() ?: throw NullPointerException()
+        assertEquals(AsyncLoadStatus.SUCCESS, result.loadStatus)
     }
 
     @Test
     fun `when 0 items available then repo tries to download`() {
+        mockBibleDatabaseResult(bibleItem)
         setItemsAvailable(0)
 
         // repo tries to download list but fails downloading
@@ -69,6 +83,7 @@ class ViewPagerRepositoryTest {
 
     @Test
     fun `when 99 items available then repo tries to download`() {
+        mockBibleDatabaseResult(bibleItem)
         setItemsAvailable(99)
 
         // repo tries to download because some items are missing for the current year
@@ -77,6 +92,7 @@ class ViewPagerRepositoryTest {
 
     @Test
     fun `when 365 items available then no download happening`() {
+        mockBibleDatabaseResult(bibleItem)
         setItemsAvailable(365)
 
         // no need for download
@@ -85,6 +101,7 @@ class ViewPagerRepositoryTest {
 
     @Test
     fun `when 366 items available then no download happening`() {
+        mockBibleDatabaseResult(bibleItem)
         setItemsAvailable(366)
 
         // no need for download

@@ -3,6 +3,7 @@ package de.reiss.bible2net.theword.main.viewpager
 import android.arch.lifecycle.MutableLiveData
 import android.support.annotation.WorkerThread
 import de.reiss.bible2net.theword.architecture.AsyncLoad
+import de.reiss.bible2net.theword.database.BibleItem
 import de.reiss.bible2net.theword.database.BibleItemDao
 import de.reiss.bible2net.theword.database.TheWordItem
 import de.reiss.bible2net.theword.database.TheWordItemDao
@@ -148,11 +149,15 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
         val parsed = TwdParser.parse(twdData)
 
         val twd = parsed.first()
-        val bibleItem = bibleItemDao.find(twd.bible)
+        if (bibleItemDao.find(twd.bible) == null) {
+            bibleItemDao.insert(BibleItem(twd.bible, twd.bibleName, twd.bibleLanguageCode))
+        }
+
+        val bibleItemId = bibleItemDao.find(twd.bible)?.id
                 ?: throw IllegalStateException("Bible ${twd.bible} not found in database")
 
         val items = parsed.map {
-            asDatabaseItem(bibleItem.id, it)
+            asDatabaseItem(bibleItemId, it)
         }.toTypedArray()
 
         val inserted = theWordItemDao.insertOrReplace(*items)
