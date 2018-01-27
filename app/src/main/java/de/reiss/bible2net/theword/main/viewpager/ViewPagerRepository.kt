@@ -20,7 +20,7 @@ import de.reiss.bible2net.theword.util.extensions.amountOfDaysInRange
 import de.reiss.bible2net.theword.util.extensions.asDateString
 import de.reiss.bible2net.theword.util.extensions.extractYear
 import de.reiss.bible2net.theword.util.extensions.withZeroDayTime
-import de.reiss.bible2net.theword.widget.WidgetRefresher
+import de.reiss.bible2net.theword.widget.triggerWidgetRefresh
 import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
@@ -29,8 +29,7 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
                                                    private val listDownloader: ListDownloader,
                                                    private val fileDownloader: FileDownloader,
                                                    private val theWordItemDao: TheWordItemDao,
-                                                   private val bibleItemDao: BibleItemDao,
-                                                   private val widgetRefresher: WidgetRefresher) {
+                                                   private val bibleItemDao: BibleItemDao) {
 
     open fun getItemsFor(bible: String,
                          fromDate: Date,
@@ -63,7 +62,7 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
                 result.postValue(AsyncLoad.success(bible))
 
                 if (databaseUpdated) {
-                    widgetRefresher.execute()
+                    triggerWidgetRefresh()
                 }
             } else {
                 result.postValue(AsyncLoad.success(bible))

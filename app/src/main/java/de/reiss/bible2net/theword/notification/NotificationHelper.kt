@@ -99,15 +99,13 @@ open class NotificationHelper @Inject constructor(private val context: Context,
 
     @RequiresApi(Build.VERSION_CODES.O)
     private fun createNotificationChannel(notificationManager: NotificationManager) {
-        NotificationChannel(NOTIFICATION_CHANNEL_ID,
-                NOTIFICATION_CHANNEL_NAME,
-                NotificationManager.IMPORTANCE_LOW).apply {
-            enableLights(false)
-            enableVibration(false)
-            setShowBadge(false)
-        }.let {
-            notificationManager.createNotificationChannel(it)
-        }
+        notificationManager.createNotificationChannel(
+                NotificationChannel(NOTIFICATION_CHANNEL_ID, NOTIFICATION_CHANNEL_NAME,
+                        NotificationManager.IMPORTANCE_LOW).apply {
+                    enableLights(false)
+                    enableVibration(false)
+                    setShowBadge(false)
+                })
     }
 
 }

@@ -17,7 +17,6 @@ import de.reiss.bible2net.theword.testutil.sampleTheWordItem
 import de.reiss.bible2net.theword.util.extensions.firstDayOfYear
 import de.reiss.bible2net.theword.util.extensions.lastDayOfYear
 import de.reiss.bible2net.theword.util.extensions.withZeroDayTime
-import de.reiss.bible2net.theword.widget.WidgetRefresher
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
@@ -39,8 +38,6 @@ class ViewPagerRepositoryTest {
     private val listDownloader = mock<ListDownloader>()
     private val fileDownloader = mock<FileDownloader>()
 
-    private val widgetRefresher = mock<WidgetRefresher>()
-
     private val bibleItem = BibleItem("testBible", "testBibleName", "testLanguageCode")
             .apply { id = 1 }
 
@@ -53,8 +50,7 @@ class ViewPagerRepositoryTest {
                 listDownloader,
                 fileDownloader,
                 theWordItemDao,
-                bibleItemDao,
-                widgetRefresher)
+                bibleItemDao)
     }
 
     @Test

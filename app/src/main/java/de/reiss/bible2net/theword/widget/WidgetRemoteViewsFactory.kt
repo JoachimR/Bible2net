@@ -15,7 +15,7 @@ import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.util.htmlize
 import java.util.*
 
-class ListProvider(private val context: Context) : RemoteViewsService.RemoteViewsFactory {
+class WidgetRemoteViewsFactory(private val context: Context) : RemoteViewsService.RemoteViewsFactory {
 
     private val list = ArrayList<CharSequence>()
 
@@ -23,24 +23,24 @@ class ListProvider(private val context: Context) : RemoteViewsService.RemoteView
         App.component.appPreferences
     }
 
-    init {
-        refreshContent()
-    }
-
-    private fun refreshContent() {
-        list.clear()
-        list.add(htmlize(WidgetRefresher.currentWidgetText))
+    private val widgetRefresher: WidgetRefresher by lazy {
+        App.component.widgetRefresher
     }
 
     override fun onCreate() {
-        refreshContent()
     }
 
     override fun onDestroy() {
     }
 
+    /**
+     * From the documentation:
+     * expensive tasks can be safely performed synchronously within this method.
+     * In the interim, the old data will be displayed within the widget.
+     */
     override fun onDataSetChanged() {
-        refreshContent()
+        list.clear()
+        list.add(htmlize(widgetRefresher.retrieveWidgetText()))
     }
 
     override fun getCount() = list.size

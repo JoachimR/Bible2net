@@ -11,47 +11,26 @@ import de.reiss.bible2net.theword.model.TheWord
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.util.extensions.withZeroDayTime
 import java.util.*
-import java.util.concurrent.Executor
 import javax.inject.Inject
-import javax.inject.Named
 
 open class WidgetRefresher @Inject constructor(private val context: Context,
-                                               @Named("widget") private val executor: Executor,
                                                private val theWordItemDao: TheWordItemDao,
                                                private val bibleItemDao: BibleItemDao,
                                                private val appPreferences: AppPreferences) {
 
-    companion object {
-
-        var currentWidgetText: String = ""
-
-    }
-
-    open fun execute() {
-        refreshWidgetText { text ->
-            currentWidgetText = text
-            WidgetProvider.triggerWidgetRefresh()
-        }
-    }
-
-    private fun refreshWidgetText(onRefreshed: (String) -> Unit) {
-        executor.execute {
-
-            val theWord = findTheWord(Date().withZeroDayTime())
-            val text =
-                    if (theWord == null) {
-                        context.getString(R.string.no_content)
-                    } else {
-                        widgetText(
-                                context = context,
-                                theWord = theWord,
-                                includeDate = appPreferences.widgetShowDate()
-                        )
-                    }
-
-            onRefreshed(text)
-        }
-    }
+    @WorkerThread
+    fun retrieveWidgetText(): String =
+            findTheWord(Date().withZeroDayTime()).let { theWord ->
+                if (theWord == null) {
+                    context.getString(R.string.no_content)
+                } else {
+                    widgetText(
+                            context = context,
+                            theWord = theWord,
+                            includeDate = appPreferences.widgetShowDate()
+                    )
+                }
+            }
 
     @WorkerThread
     private fun findTheWord(date: Date): TheWord? =
@@ -87,6 +66,5 @@ open class WidgetRefresher @Inject constructor(private val context: Context,
                 append("<br>")
                 append(theWord.content.ref2)
             }.toString()
-
 
 }

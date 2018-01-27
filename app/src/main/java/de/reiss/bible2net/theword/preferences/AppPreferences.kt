@@ -6,12 +6,11 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener
 import android.preference.PreferenceManager
 import android.support.annotation.StringRes
 import android.support.v4.content.ContextCompat
-import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.events.FontSizeChanged
 import de.reiss.bible2net.theword.events.postMessageEvent
 import de.reiss.bible2net.theword.util.extensions.change
-import de.reiss.bible2net.theword.widget.WidgetRefresher
+import de.reiss.bible2net.theword.widget.triggerWidgetRefresh
 
 open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListener {
 
@@ -24,10 +23,6 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     val preferences: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
 
-    val widgetRefresher: WidgetRefresher by lazy {
-        App.component.widgetRefresher
-    }
-
     init {
         registerListener(this)
     }
@@ -35,7 +30,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
         if (sharedPreferences == preferences) {
             if (isWidgetPref(key)) {
-                widgetRefresher.execute()
+                triggerWidgetRefresh()
             } else {
                 if (key == str(R.string.pref_fontsize_key)) {
                     postMessageEvent(FontSizeChanged())

@@ -1,19 +1,17 @@
 package de.reiss.bible2net.theword.architecture.di
 
 import android.app.Application
-import android.arch.persistence.room.Room
 import dagger.Module
 import dagger.Provides
+import de.reiss.bible2net.theword.database.BibleItemDao
+import de.reiss.bible2net.theword.database.NoteItemDao
 import de.reiss.bible2net.theword.database.TheWordDatabase
+import de.reiss.bible2net.theword.database.TheWordItemDao
 
 @Module
-open class DatabaseModule(val application: Application) {
+open class DatabaseModule(private val application: Application) {
 
-    open fun getDatabase(): TheWordDatabase = Room.databaseBuilder(
-            application,
-            TheWordDatabase::class.java,
-            "TheWordDatabase.db"
-    ).build()
+    open fun getDatabase(): TheWordDatabase = TheWordDatabase.create(application)
 
     @Provides
     @ApplicationScope
@@ -21,14 +19,14 @@ open class DatabaseModule(val application: Application) {
 
     @Provides
     @ApplicationScope
-    open fun theWordItemDao() = getDatabase().theWordItemDao()
+    open fun theWordItemDao(): TheWordItemDao = getDatabase().theWordItemDao()
 
     @Provides
     @ApplicationScope
-    open fun bibleItemDao() = getDatabase().bibleItemDao()
+    open fun bibleItemDao(): BibleItemDao = getDatabase().bibleItemDao()
 
     @Provides
     @ApplicationScope
-    open fun noteItemDao() = getDatabase().noteItemDao()
+    open fun noteItemDao(): NoteItemDao = getDatabase().noteItemDao()
 
 }

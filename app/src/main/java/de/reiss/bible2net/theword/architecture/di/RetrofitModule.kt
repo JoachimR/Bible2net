@@ -26,8 +26,7 @@ open class RetrofitModule {
 
     @Provides
     @ApplicationScope
-    open fun retrofit(okHttpClient: OkHttpClient, moshi: Moshi): Retrofit = Retrofit.Builder().
-            baseUrl(BASE_URL)
+    open fun retrofit(okHttpClient: OkHttpClient, moshi: Moshi): Retrofit = Retrofit.Builder().baseUrl(BASE_URL)
             .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()
