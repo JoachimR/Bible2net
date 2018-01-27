@@ -20,7 +20,7 @@ class WidgetProvider : AppWidgetProvider() {
 
         private const val REQUEST_CODE_CLICK_WIDGET = 13
 
-        fun triggerWidgetRefresh() {
+        fun refresh() {
             val context = App.component.context
             val appWidgetManager = AppWidgetManager.getInstance(context)
             val appWidgetIds = appWidgetManager.getAppWidgetIds(
@@ -60,18 +60,17 @@ class WidgetProvider : AppWidgetProvider() {
         } catch (e: Exception) {
             logErrorWithCrashlytics(e) { "Error when updating widget" }
         }
-
     }
 
     private fun updateWidgetListView(context: Context, appWidgetId: Int): RemoteViews {
         val remoteViews = RemoteViews(context.packageName, R.layout.widget_layout)
 
-        //RemoteViews Service needed to provide adapter for ListView
+        // RemoteViews Service needed to provide adapter for ListView
         val serviceIntent = Intent(context, WidgetService::class.java)
                 .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
         serviceIntent.data = Uri.parse(serviceIntent.toUri(Intent.URI_INTENT_SCHEME))
 
-        //setting adapter to listView of the widget
+        // setting adapter to listView of the widget
         remoteViews.setRemoteAdapter(R.id.widget_list_view, serviceIntent)
 
         setClickMethod(context, remoteViews)

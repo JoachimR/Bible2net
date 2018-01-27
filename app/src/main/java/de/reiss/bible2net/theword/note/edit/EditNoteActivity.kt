@@ -37,8 +37,8 @@ class EditNoteActivity : AppActivity() {
             if (time == -1L) {
                 throw IllegalStateException("No time given for note")
             }
-            val theWordContent = intent.getParcelableExtra<TheWordContent>(KEY_THE_WORD_CONTENT) ?:
-                    throw IllegalStateException("No word given for note")
+            val theWordContent = intent.getParcelableExtra<TheWordContent>(KEY_THE_WORD_CONTENT)
+                    ?: throw IllegalStateException("No word given for note")
 
             replaceFragmentIn(
                     container = R.id.edit_note_fragment_container,
