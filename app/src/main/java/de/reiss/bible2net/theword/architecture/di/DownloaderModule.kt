@@ -7,7 +7,12 @@ import de.reiss.bible2net.theword.downloader.list.ListDownloader
 import de.reiss.bible2net.theword.downloader.list.TwdService
 import okhttp3.OkHttpClient
 
-@Module(includes = arrayOf(OkHttpModule::class, RetrofitModule::class))
+@Module(
+        includes = [
+            OkHttpModule::class,
+            RetrofitModule::class
+        ]
+)
 open class DownloaderModule {
 
     @Provides

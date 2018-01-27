@@ -4,12 +4,18 @@ import android.content.Context
 import com.grapesnberries.curllogger.CurlLoggerInterceptor
 import dagger.Module
 import dagger.Provides
+import de.reiss.bible2net.theword.architecture.UserAgentInterceptor
+import de.reiss.bible2net.theword.util.appVersion
 import okhttp3.Cache
 import okhttp3.OkHttpClient
 import java.io.File
 
-@Module(includes = arrayOf(ContextModule::class))
-open class OkHttpModule() {
+@Module(
+        includes = [
+            ContextModule::class
+        ]
+)
+open class OkHttpModule {
 
     @Provides
     @ApplicationScope
@@ -26,10 +32,11 @@ open class OkHttpModule() {
 
     @Provides
     @ApplicationScope
-    open fun okHttpClient(cache: Cache): OkHttpClient =
+    open fun okHttpClient(context: Context, cache: Cache): OkHttpClient =
             OkHttpClient.Builder()
                     .cache(cache)
                     .addInterceptor(CurlLoggerInterceptor("TheWord"))
+                    .addNetworkInterceptor(UserAgentInterceptor("The Word", appVersion(context)))
                     .build()
 
 }

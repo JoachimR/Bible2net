@@ -5,7 +5,11 @@ import dagger.Module
 import dagger.Provides
 import de.reiss.bible2net.theword.preferences.AppPreferences
 
-@Module(includes = arrayOf(ContextModule::class))
+@Module(
+        includes = [
+            ContextModule::class
+        ]
+)
 class PreferenceModule {
 
     @Provides

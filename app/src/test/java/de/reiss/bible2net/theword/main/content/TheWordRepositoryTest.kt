@@ -62,6 +62,18 @@ class TheWordRepositoryTest {
     }
 
     @Test
+    fun `when bible not found return error with message`() {
+        whenever(bibleItemDao.find(any()))
+                .thenReturn(null)
+
+
+        val result = loadTheWordFromRepo()
+
+        assertEquals(ERROR, result.loadStatus)
+        assertEquals("Bible not found", result.message)
+    }
+
+    @Test
     fun `when word not found return error with message`() {
         whenever(theWordItemDao.byDate(any(), any()))
                 .thenReturn(null)

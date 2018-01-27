@@ -7,6 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppActivity
+import de.reiss.bible2net.theword.util.appVersion
 import kotlinx.android.synthetic.main.about_activity.*
 
 class AboutActivity : AppActivity() {
@@ -24,7 +25,7 @@ class AboutActivity : AppActivity() {
         setSupportActionBar(about_toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        about_app_version.text = appVersion()
+        about_app_version.text = appVersion(this)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -45,10 +46,5 @@ class AboutActivity : AppActivity() {
                 }
                 else -> super.onOptionsItemSelected(item)
             }
-
-    private fun appVersion(): String {
-        val version = packageManager.getPackageInfo(packageName, 0).versionName
-        return getString(R.string.app_version, version)
-    }
 
 }
