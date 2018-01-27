@@ -9,6 +9,10 @@ import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.formattedDate
 import de.reiss.bible2net.theword.model.TheWordContent
 
+fun appVersion(context: Context): String {
+    val version = context.packageManager.getPackageInfo(context.packageName, 0).versionName
+    return context.getString(R.string.app_version, version)
+}
 
 @Suppress("DEPRECATION")
 fun htmlize(text: String) =

@@ -8,7 +8,11 @@ import dagger.Module
 import dagger.Provides
 
 
-@Module(includes = arrayOf(ContextModule::class))
+@Module(
+        includes = [
+            ContextModule::class
+        ]
+)
 class AndroidModule {
 
     @Provides
