@@ -13,8 +13,8 @@ android {
 }
 
 dependencies {
-    compile project(':model')
+    implement project(':model')
 
-    compile libraries.arch.room.runtime
+    implement libraries.arch.room.runtime
     annotationProcessor libraries.arch.room.compiler
 }

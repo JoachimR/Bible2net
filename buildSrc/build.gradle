@@ -18,8 +18,8 @@ repositories {
     jcenter()
 }
 
-dependencies{
-    compile libraries.kotlin.lib
+dependencies {
+    implement libraries.kotlin.lib
 }
 
 apply plugin: 'kotlin'

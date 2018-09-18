@@ -64,46 +64,46 @@ android {
 }
 
 dependencies {
-    compile libraries.kotlin.lib
+    implement libraries.kotlin.lib
 
-    compile project(":database")
-    compile project(":logger")
-    compile project(":downloader")
-    compile project(":twdparser")
-    compile project(":events")
+    implement project(":database")
+    implement project(":logger")
+    implement project(":downloader")
+    implement project(":twdparser")
+    implement project(":events")
 
-    compile libraries.support.app_compat
-    compile libraries.support.design
-    compile libraries.support.recycler_view
-    compile libraries.support.card_view
+    implement libraries.support.app_compat
+    implement libraries.support.design
+    implement libraries.support.recycler_view
+    implement libraries.support.card_view
 
-    compile libraries.preference_fix.core
-    compile libraries.preference_fix.extras
+    implement libraries.preference_fix.core
+    implement libraries.preference_fix.extras
 
-    compile libraries.arch.runtime
-    compile libraries.arch.extensions
+    implement libraries.arch.runtime
+    implement libraries.arch.extensions
     kapt libraries.arch.compiler
 
-    compile libraries.play_services.gcm
+    implement libraries.play_services.gcm
 
-    compile libraries.dagger.core
+    implement libraries.dagger.core
     kapt libraries.dagger.compiler
     provided libraries.dagger.glassfish
 
-    compile(libraries.crashlytics) {
+    implement(libraries.crashlytics) {
         transitive = true
     }
 
-    testCompile libraries.junit
-    testCompile libraries.mockito_kotlin
-    testCompile libraries.arch.core_testing
+    testImplement libraries.junit
+    testImplement libraries.mockito_kotlin
+    testImplement libraries.arch.core_testing
 
-    androidTestCompile libraries.support.test_runner
-    androidTestCompile libraries.support.test_rules
-    androidTestCompile libraries.espresso.core
-    androidTestCompile libraries.espresso.contrib
-    androidTestCompile libraries.espresso.intents
-    androidTestCompile libraries.mockito_android
-    androidTestCompile libraries.mockito_kotlin
+    androidTestImplement libraries.support.test_runner
+    androidTestImplement libraries.support.test_rules
+    androidTestImplement libraries.espresso.core
+    androidTestImplement libraries.espresso.contrib
+    androidTestImplement libraries.espresso.intents
+    androidTestImplement libraries.mockito_android
+    androidTestImplement libraries.mockito_kotlin
 
 }
