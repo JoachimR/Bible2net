@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.architecture.di
 
 import com.squareup.moshi.Moshi
-import com.squareup.moshi.Rfc3339DateJsonAdapter
+import com.squareup.moshi.adapters.Rfc3339DateJsonAdapter
 import dagger.Module
 import dagger.Provides
 import de.reiss.bible2net.theword.downloader.BASE_URL

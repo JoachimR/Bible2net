@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
 
@@ -13,8 +15,10 @@ android {
 }
 
 dependencies {
-    implement project(':model')
+    implementation libraries.kotlin.lib
 
-    implement libraries.arch.room.runtime
-    annotationProcessor libraries.arch.room.compiler
+    api project(':model')
+
+    api libraries.arch.room.runtime
+    kapt libraries.arch.room.compiler
 }

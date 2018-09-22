@@ -86,6 +86,15 @@
 
             </LinearLayout>
 
+            <Button
+                android:id="@+id/about_privacy_policy_button"
+                android:layout_marginTop="16dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/privacy_policy"
+                android:layout_height="wrap_content" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

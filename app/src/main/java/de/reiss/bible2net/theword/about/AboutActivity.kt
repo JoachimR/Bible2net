@@ -8,6 +8,7 @@ import android.view.MenuItem
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppActivity
 import de.reiss.bible2net.theword.util.appVersion
+import de.reiss.bible2net.theword.util.extensions.onClick
 import kotlinx.android.synthetic.main.about_activity.*
 
 class AboutActivity : AppActivity() {
@@ -26,6 +27,10 @@ class AboutActivity : AppActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         about_app_version.text = appVersion(this)
+
+        about_privacy_policy_button.onClick {
+            startActivity(PrivacyPolicyActivity.createIntent(this))
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -64,46 +64,46 @@ android {
 }
 
 dependencies {
-    implement libraries.kotlin.lib
+    implementation libraries.kotlin.lib
 
-    implement project(":database")
-    implement project(":logger")
-    implement project(":downloader")
-    implement project(":twdparser")
-    implement project(":events")
+    implementation project(":database")
+    implementation project(":logger")
+    implementation project(":downloader")
+    implementation project(":twdparser")
+    implementation project(":events")
 
-    implement libraries.support.app_compat
-    implement libraries.support.design
-    implement libraries.support.recycler_view
-    implement libraries.support.card_view
+    implementation libraries.support.app_compat
+    implementation libraries.support.design
+    implementation libraries.support.recycler_view
+    implementation libraries.support.card_view
 
-    implement libraries.preference_fix.core
-    implement libraries.preference_fix.extras
+    implementation libraries.preference_fix.core
+    implementation libraries.preference_fix.extras
 
-    implement libraries.arch.runtime
-    implement libraries.arch.extensions
+    implementation libraries.arch.runtime
+    implementation libraries.arch.extensions
     kapt libraries.arch.compiler
 
-    implement libraries.play_services.gcm
+    implementation libraries.play_services.gcm
 
-    implement libraries.dagger.core
+    implementation libraries.dagger.core
     kapt libraries.dagger.compiler
     provided libraries.dagger.glassfish
 
-    implement(libraries.crashlytics) {
+    implementation(libraries.crashlytics) {
         transitive = true
     }
 
-    testImplement libraries.junit
-    testImplement libraries.mockito_kotlin
-    testImplement libraries.arch.core_testing
+    testImplementation libraries.junit
+    testImplementation libraries.mockito_kotlin
+    testImplementation libraries.arch.core_testing
 
-    androidTestImplement libraries.support.test_runner
-    androidTestImplement libraries.support.test_rules
-    androidTestImplement libraries.espresso.core
-    androidTestImplement libraries.espresso.contrib
-    androidTestImplement libraries.espresso.intents
-    androidTestImplement libraries.mockito_android
-    androidTestImplement libraries.mockito_kotlin
+    androidTestImplementation libraries.support.test_runner
+    androidTestImplementation libraries.support.test_rules
+    androidTestImplementation libraries.espresso.core
+    androidTestImplementation libraries.espresso.contrib
+    androidTestImplementation libraries.espresso.intents
+    androidTestImplementation libraries.mockito_android
+    androidTestImplementation libraries.mockito_kotlin
 
 }

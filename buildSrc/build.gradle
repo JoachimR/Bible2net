@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    implement libraries.kotlin.lib
+    implementation libraries.kotlin.lib
 }
 
 apply plugin: 'kotlin'

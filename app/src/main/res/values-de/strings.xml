@@ -139,4 +139,5 @@
     <string name="menu_note_details_edit">Editieren</string>
     <string name="note_details_error_reload_note">Konnte diese Notiz nicht neu laden…</string>
     <string name="note_details_note_header">Notizen:</string>
+    <string name="privacy_policy">Datenschutzerklärung</string>
 </resources>
