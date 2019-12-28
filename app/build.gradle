@@ -64,7 +64,7 @@ android {
 }
 
 dependencies {
-    implementation libraries.kotlin.lib
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
 
     implementation project(":database")
     implementation project(":logger")
@@ -72,38 +72,38 @@ dependencies {
     implementation project(":twdparser")
     implementation project(":events")
 
-    implementation libraries.support.app_compat
-    implementation libraries.support.design
-    implementation libraries.support.recycler_view
-    implementation libraries.support.card_view
+    implementation "com.android.support:appcompat-v7:$versions.support_lib"
+    implementation "com.android.support:design:$versions.support_lib"
+    implementation "com.android.support:recyclerview-v7:$versions.support_lib"
+    implementation "com.android.support:cardview-v7:$versions.support_lib"
 
-    implementation libraries.preference_fix.core
-    implementation libraries.preference_fix.extras
+    implementation "com.takisoft.fix:preference-v7:28.0.0.0"
+    implementation "com.takisoft.fix:preference-v7-extras:28.0.0.0"
 
-    implementation libraries.arch.runtime
-    implementation libraries.arch.extensions
-    kapt libraries.arch.compiler
+    implementation "android.arch.lifecycle:runtime:1.1.1"
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    kapt "android.arch.lifecycle:compiler:1.1.1"
 
-    implementation libraries.play_services.gcm
+    implementation "com.google.android.gms:play-services-gcm:17.0.0"
 
-    implementation libraries.dagger.core
-    kapt libraries.dagger.compiler
-    provided libraries.dagger.glassfish
+    implementation "com.google.dagger:dagger:2.25.2"
+    kapt "com.google.dagger:dagger-compiler:2.25.2"
+    compileOnly "org.glassfish:javax.annotation:10.0-b28"
 
-    implementation(libraries.crashlytics) {
+    implementation("com.crashlytics.sdk.android:crashlytics:2.9.5@aar") {
         transitive = true
     }
 
-    testImplementation libraries.junit
-    testImplementation libraries.mockito_kotlin
-    testImplementation libraries.arch.core_testing
+    testImplementation "junit:junit:4.12"
+    testImplementation "com.nhaarman:mockito-kotlin-kt1.1:1.6.0"
+    testImplementation "android.arch.core:core-testing:1.1.1"
 
-    androidTestImplementation libraries.support.test_runner
-    androidTestImplementation libraries.support.test_rules
-    androidTestImplementation libraries.espresso.core
-    androidTestImplementation libraries.espresso.contrib
-    androidTestImplementation libraries.espresso.intents
-    androidTestImplementation libraries.mockito_android
-    androidTestImplementation libraries.mockito_kotlin
+    androidTestImplementation "com.android.support.test:runner:1.0.2.support_test"
+    androidTestImplementation "com.android.support.test:rules:1.0.2.support_test"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:3.0.2"
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:3.0.2"
+    androidTestImplementation "com.android.support.test.espresso:espresso-intents:3.0.2"
+    androidTestImplementation "org.mockito:mockito-android:3.1.0"
+    androidTestImplementation "com.nhaarman:mockito-kotlin-kt1.1:1.6.0"
 
 }

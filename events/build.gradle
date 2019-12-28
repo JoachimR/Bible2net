@@ -14,7 +14,7 @@ android {
 }
 
 dependencies {
-    compile libraries.kotlin.lib
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
 
-    compile libraries.eventbus
+    api "org.greenrobot:eventbus:3.1.1"
 }
