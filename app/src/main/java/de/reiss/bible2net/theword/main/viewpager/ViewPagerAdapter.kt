@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.main.viewpager
 
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentStatePagerAdapter
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentStatePagerAdapter
 import de.reiss.bible2net.theword.DaysPositionUtil
 import de.reiss.bible2net.theword.main.content.TheWordFragment
 

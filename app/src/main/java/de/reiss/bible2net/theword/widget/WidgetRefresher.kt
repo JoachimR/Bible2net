@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.widget
 
 import android.content.Context
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.database.BibleItemDao
 import de.reiss.bible2net.theword.database.TheWordItemDao

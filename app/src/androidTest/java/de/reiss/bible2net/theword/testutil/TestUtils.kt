@@ -6,39 +6,39 @@ import android.app.Activity
 import android.app.Instrumentation
 import android.content.res.Resources
 import android.os.Build
-import android.support.annotation.IdRes
-import android.support.annotation.LayoutRes
-import android.support.annotation.StringRes
-import android.support.design.internal.NavigationMenuView
-import android.support.test.InstrumentationRegistry
-import android.support.test.espresso.*
-import android.support.test.espresso.Espresso.onData
-import android.support.test.espresso.Espresso.onView
-import android.support.test.espresso.action.ViewActions
-import android.support.test.espresso.action.ViewActions.*
-import android.support.test.espresso.assertion.ViewAssertions.doesNotExist
-import android.support.test.espresso.assertion.ViewAssertions.matches
-import android.support.test.espresso.contrib.PickerActions
-import android.support.test.espresso.contrib.RecyclerViewActions
-import android.support.test.espresso.intent.Intents.intended
-import android.support.test.espresso.intent.Intents.intending
-import android.support.test.espresso.intent.matcher.IntentMatchers.hasComponent
-import android.support.test.espresso.matcher.BoundedMatcher
-import android.support.test.espresso.matcher.RootMatchers
-import android.support.test.espresso.matcher.RootMatchers.isDialog
-import android.support.test.espresso.matcher.ViewMatchers
-import android.support.test.espresso.matcher.ViewMatchers.*
-import android.support.test.rule.ActivityTestRule
-import android.support.test.runner.lifecycle.ActivityLifecycleMonitorRegistry
-import android.support.test.runner.lifecycle.Stage
-import android.support.v4.app.FragmentActivity
-import android.support.v4.widget.SwipeRefreshLayout
-import android.support.v7.widget.AppCompatImageButton
-import android.support.v7.widget.RecyclerView
-import android.support.v7.widget.Toolbar
+import androidx.annotation.IdRes
+import androidx.annotation.LayoutRes
+import androidx.annotation.StringRes
+import androidx.test.platform.app.InstrumentationRegistry
+import androidx.test.espresso.*
+import androidx.test.espresso.Espresso.onData
+import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.action.ViewActions
+import androidx.test.espresso.action.ViewActions.*
+import androidx.test.espresso.assertion.ViewAssertions.doesNotExist
+import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.contrib.PickerActions
+import androidx.test.espresso.contrib.RecyclerViewActions
+import androidx.test.espresso.intent.Intents.intended
+import androidx.test.espresso.intent.Intents.intending
+import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
+import androidx.test.espresso.matcher.BoundedMatcher
+import androidx.test.espresso.matcher.RootMatchers
+import androidx.test.espresso.matcher.RootMatchers.isDialog
+import androidx.test.espresso.matcher.ViewMatchers
+import androidx.test.espresso.matcher.ViewMatchers.*
+import androidx.test.rule.ActivityTestRule
+import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry
+import androidx.test.runner.lifecycle.Stage
+import androidx.fragment.app.FragmentActivity
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import androidx.appcompat.widget.AppCompatImageButton
+import androidx.recyclerview.widget.RecyclerView
+import androidx.appcompat.widget.Toolbar
 import android.view.View
 import android.view.WindowManager
 import android.widget.*
+import com.google.android.material.internal.NavigationMenuView
 import org.hamcrest.BaseMatcher
 import org.hamcrest.Description
 import org.hamcrest.Matcher
@@ -72,13 +72,13 @@ fun clickOnNegativeAlertDialogButton() {
 }
 
 fun assertTextInSnackbar(string: String) {
-    onView(allOf(withId(android.support.design.R.id.snackbar_text), withText(string)))
-            .check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
+    onView(allOf(withId(com.google.android.material.R.id.snackbar_text), withText(string)))
+            .check(matches(withEffectiveVisibility(Visibility.VISIBLE)));
 }
 
 fun assertTextInSnackbar(@StringRes stringResId: Int) {
-    onView(allOf(withId(android.support.design.R.id.snackbar_text), withText(stringResId)))
-            .check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
+    onView(allOf(withId(com.google.android.material.R.id.snackbar_text), withText(stringResId)))
+            .check(matches(withEffectiveVisibility(Visibility.VISIBLE)));
 }
 
 fun assertSnackbarIsDisplayed() {
@@ -86,7 +86,7 @@ fun assertSnackbarIsDisplayed() {
 }
 
 private fun onSnackbar(): ViewInteraction =
-        onView(withId(android.support.design.R.id.snackbar_text))
+        onView(withId(com.google.android.material.R.id.snackbar_text))
 
 fun overflowButtonMatcher(): Matcher<View> {
     return anyOf(
@@ -226,7 +226,7 @@ fun setNumberPicker(value: Int): ViewAction {
                 "Set the number picker value"
 
         override fun getConstraints(): Matcher<View> =
-                ViewMatchers.isAssignableFrom(NumberPicker::class.java)
+                isAssignableFrom(NumberPicker::class.java)
 
     }
 }
@@ -262,7 +262,7 @@ fun clickOnItemOnMenuPopupWindow(activity: Activity, text: String) {
 }
 
 fun selectItemOnSpinner(@IdRes spinner: Int, @StringRes text: Int) {
-    selectItemOnSpinner(spinner, InstrumentationRegistry.getTargetContext().getString(text))
+    selectItemOnSpinner(spinner, InstrumentationRegistry.getInstrumentation().targetContext.getString(text))
 }
 
 private fun selectItemOnSpinner(@IdRes spinner: Int, text: String) {
@@ -317,15 +317,15 @@ private fun hasItemsCount(count: Int): ViewAssertion {
             throw e
         }
 
-        assertEquals(count.toLong(), view.adapter.itemCount.toLong())
+        assertEquals(count.toLong(), view.adapter!!.itemCount.toLong())
     }
 }
 
 fun setEditText(arg: () -> Pair<Int, String>) {
     val pair = arg()
     onView(withId(pair.first))
-            .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText(pair.second))
+            .perform(clearText())
+            .perform(typeText(pair.second))
     Espresso.closeSoftKeyboard()
 }
 
@@ -341,7 +341,7 @@ private fun onErrorFromTextInputLayout(@IdRes textInputLayoutId: Int): ViewInter
 
 fun getCurrentFragmentActivity(): FragmentActivity {
     var currentActivity: FragmentActivity? = null
-    InstrumentationRegistry.getInstrumentation().runOnMainSync({
+    InstrumentationRegistry.getInstrumentation().runOnMainSync {
         val resumedActivities = ActivityLifecycleMonitorRegistry.getInstance().getActivitiesInStage(Stage.RESUMED)
         if (resumedActivities.iterator().hasNext()) {
             val next = resumedActivities.iterator().next()
@@ -349,7 +349,7 @@ fun getCurrentFragmentActivity(): FragmentActivity {
                 currentActivity = next
             }
         }
-    })
+    }
     return currentActivity!!
 }
 
@@ -455,7 +455,7 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
                 var childView: View? = null
                 val recyclerView = view.rootView.findViewById<RecyclerView>(recyclerViewId)
                 if (recyclerView.id == recyclerViewId) {
-                    childView = recyclerView.layoutManager.findViewByPosition(position)
+                    childView = recyclerView.layoutManager?.findViewByPosition(position)
                 }
 
                 if (childView == null) {

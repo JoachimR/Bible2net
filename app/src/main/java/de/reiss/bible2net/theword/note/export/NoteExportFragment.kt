@@ -1,8 +1,8 @@
 package de.reiss.bible2net.theword.note.export
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProvider
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragmentWithSdCard

@@ -1,13 +1,13 @@
 package de.reiss.bible2net.theword.architecture
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import android.support.annotation.LayoutRes
-import android.support.annotation.VisibleForTesting
-import android.support.v4.app.DialogFragment
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
+import androidx.annotation.LayoutRes
+import androidx.annotation.VisibleForTesting
+import androidx.fragment.app.DialogFragment
+import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

@@ -7,8 +7,8 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Build
-import android.support.annotation.RequiresApi
-import android.support.v4.app.NotificationCompat
+import androidx.annotation.RequiresApi
+import androidx.core.app.NotificationCompat
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.SplashScreenActivity
 import de.reiss.bible2net.theword.database.BibleItemDao

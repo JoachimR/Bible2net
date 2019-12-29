@@ -9,7 +9,7 @@ apply plugin: "kotlin-android-extensions"
 android {
 
     compileSdkVersion sdk.compile
-    buildToolsVersion versions.build_tools
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         applicationId "de.reiss.bible2net.theword"
@@ -24,6 +24,15 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         testInstrumentationRunner "de.reiss.bible2net.theword.testutil.AppTestRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
     signingConfigs {
@@ -64,7 +73,7 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
 
     implementation project(":database")
     implementation project(":logger")
@@ -72,17 +81,17 @@ dependencies {
     implementation project(":twdparser")
     implementation project(":events")
 
-    implementation "com.android.support:appcompat-v7:$versions.support_lib"
-    implementation "com.android.support:design:$versions.support_lib"
-    implementation "com.android.support:recyclerview-v7:$versions.support_lib"
-    implementation "com.android.support:cardview-v7:$versions.support_lib"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
 
     implementation "com.takisoft.fix:preference-v7:28.0.0.0"
     implementation "com.takisoft.fix:preference-v7-extras:28.0.0.0"
 
-    implementation "android.arch.lifecycle:runtime:1.1.1"
-    implementation "android.arch.lifecycle:extensions:1.1.1"
-    kapt "android.arch.lifecycle:compiler:1.1.1"
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    kapt 'androidx.lifecycle:lifecycle-compiler:2.1.0'
 
     implementation "com.google.android.gms:play-services-gcm:17.0.0"
 
@@ -96,13 +105,13 @@ dependencies {
 
     testImplementation "junit:junit:4.12"
     testImplementation "com.nhaarman:mockito-kotlin-kt1.1:1.6.0"
-    testImplementation "android.arch.core:core-testing:1.1.1"
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
 
-    androidTestImplementation "com.android.support.test:runner:1.0.2.support_test"
-    androidTestImplementation "com.android.support.test:rules:1.0.2.support_test"
-    androidTestImplementation "com.android.support.test.espresso:espresso-core:3.0.2"
-    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:3.0.2"
-    androidTestImplementation "com.android.support.test.espresso:espresso-intents:3.0.2"
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
     androidTestImplementation "org.mockito:mockito-android:3.1.0"
     androidTestImplementation "com.nhaarman:mockito-kotlin-kt1.1:1.6.0"
 

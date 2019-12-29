@@ -1,8 +1,8 @@
 package de.reiss.bible2net.theword.preferences
 
 import android.content.Context
-import android.support.annotation.StringRes
-import android.support.annotation.StyleRes
+import androidx.annotation.StringRes
+import androidx.annotation.StyleRes
 import de.reiss.bible2net.theword.R
 
 enum class AppTheme(@StringRes val prefKey: Int, @StyleRes val theme: Int) {

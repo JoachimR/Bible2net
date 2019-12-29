@@ -3,7 +3,7 @@ package de.reiss.bible2net.theword.main.content
 import android.app.DatePickerDialog
 import android.app.Dialog
 import android.os.Bundle
-import android.support.v4.app.DialogFragment
+import androidx.fragment.app.DialogFragment
 import de.reiss.bible2net.theword.DaysPositionUtil
 import de.reiss.bible2net.theword.events.ViewPagerMoveRequest
 import de.reiss.bible2net.theword.events.eventBus

@@ -2,9 +2,9 @@ package de.reiss.bible2net.theword.testutil
 
 import android.annotation.SuppressLint
 import android.app.Activity
-import android.support.test.InstrumentationRegistry
-import android.support.test.rule.ActivityTestRule
-import android.support.v4.app.Fragment
+import androidx.test.platform.app.InstrumentationRegistry
+import androidx.test.rule.ActivityTestRule
+import androidx.fragment.app.Fragment
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.UnderTestAppActivity
 import org.junit.Rule
@@ -38,7 +38,7 @@ abstract class FragmentTest<T : Fragment> {
                     fragment = createFragment()
                     fragmentManager
                             .beginTransaction()
-                            .replace(R.id.under_test_content_view, fragment, FRAGMENT_TAG)
+                            .replace(R.id.under_test_content_view, fragment!!, FRAGMENT_TAG)
                             .commitNow()
                 })
     }

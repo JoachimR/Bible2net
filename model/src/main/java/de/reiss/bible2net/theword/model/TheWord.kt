@@ -17,9 +17,9 @@ data class TheWord(val bible: String,
     }
 
     constructor(source: Parcel) : this(
-            source.readString(),
+            source.readString()!!,
             source.readSerializable() as Date,
-            source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)
+            source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)!!
     )
 
     override fun describeContents() = 0

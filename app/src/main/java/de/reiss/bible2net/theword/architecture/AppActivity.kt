@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.architecture
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import de.reiss.bible2net.theword.App
 

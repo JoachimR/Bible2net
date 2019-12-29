@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.preferences
 
 import android.os.Bundle
-import android.support.v7.preference.ListPreference
+import androidx.preference.ListPreference
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

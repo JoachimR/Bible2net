@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.util.extensions
 
 import android.app.Activity
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 import de.reiss.bible2net.theword.events.eventBus
 
 fun Activity.registerToEventBus() {

@@ -1,11 +1,9 @@
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-kapt'
 
 android {
 
     compileSdkVersion sdk.compile
-    buildToolsVersion versions.build_tools
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion sdk.min
@@ -15,10 +13,8 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
-
     api project(':model')
 
-    api "android.arch.lifecycle:runtime:1.1.1"
-    kapt "android.arch.lifecycle:compiler:1.1.1"
+    api 'androidx.room:room-runtime:2.2.3'
+    annotationProcessor 'androidx.room:room-compiler:2.2.3'
 }

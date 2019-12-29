@@ -1,9 +1,9 @@
 package de.reiss.bible2net.theword.util.extensions
 
-import android.support.annotation.IdRes
-import android.support.v4.app.DialogFragment
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
+import androidx.annotation.IdRes
+import androidx.fragment.app.DialogFragment
+import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 
 fun AppCompatActivity.replaceFragmentIn(@IdRes container: Int, fragment: Fragment) {
     supportFragmentManager

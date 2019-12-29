@@ -1,8 +1,10 @@
 package de.reiss.bible2net.theword.downloader.list
 
 import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
 import java.util.*
 
+@JsonClass(generateAdapter = true)
 data class Twd11(@field:Json(name = "category") val category: String,
                  @field:Json(name = "year") val year: Int,
                  @field:Json(name = "lang") val language: String,

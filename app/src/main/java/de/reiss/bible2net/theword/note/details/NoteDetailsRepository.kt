@@ -1,6 +1,6 @@
 package de.reiss.bible2net.theword.note.details
 
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.MutableLiveData
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.database.NoteItemDao
 import de.reiss.bible2net.theword.database.converter.Converter

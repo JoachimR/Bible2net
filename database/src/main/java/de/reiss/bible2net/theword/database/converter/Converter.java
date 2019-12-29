@@ -1,8 +1,6 @@
 package de.reiss.bible2net.theword.database.converter;
 
 
-import org.jetbrains.annotations.Nullable;
-
 import de.reiss.bible2net.theword.database.NoteItem;
 import de.reiss.bible2net.theword.database.TheWordItem;
 import de.reiss.bible2net.theword.model.Note;
@@ -11,8 +9,7 @@ import de.reiss.bible2net.theword.model.TheWordContent;
 
 public class Converter {
 
-    @Nullable
-    public static TheWord theWordItemToTheWord(String bible, @Nullable TheWordItem theWordItem) {
+    public static TheWord theWordItemToTheWord(String bible, TheWordItem theWordItem) {
         if (theWordItem == null) {
             return null;
         }
@@ -23,8 +20,7 @@ public class Converter {
                 theWordItem.id2, theWordItem.intro2, theWordItem.text2, theWordItem.ref2));
     }
 
-    @Nullable
-    public static Note noteItemToNote(@Nullable NoteItem noteItem) {
+    public static Note noteItemToNote(NoteItem noteItem) {
         if (noteItem == null) {
             return null;
         }

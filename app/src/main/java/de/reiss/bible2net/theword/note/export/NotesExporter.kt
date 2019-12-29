@@ -1,6 +1,6 @@
 package de.reiss.bible2net.theword.note.export
 
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.bible2net.theword.database.NoteItem
 import de.reiss.bible2net.theword.logger.logErrorWithCrashlytics
 import de.reiss.bible2net.theword.util.extensions.asDateString

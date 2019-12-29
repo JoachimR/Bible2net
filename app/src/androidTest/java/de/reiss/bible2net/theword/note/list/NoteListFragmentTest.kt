@@ -1,8 +1,8 @@
 package de.reiss.bible2net.theword.note.list
 
-import android.arch.lifecycle.MutableLiveData
-import android.support.test.espresso.assertion.ViewAssertions.matches
-import android.support.test.espresso.matcher.ViewMatchers.withText
+import androidx.lifecycle.MutableLiveData
+import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.nhaarman.mockito_kotlin.any
 import com.nhaarman.mockito_kotlin.doReturn
 import com.nhaarman.mockito_kotlin.mock

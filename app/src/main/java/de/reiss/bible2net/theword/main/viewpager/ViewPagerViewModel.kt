@@ -1,8 +1,8 @@
 package de.reiss.bible2net.theword.main.viewpager
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
 import de.reiss.bible2net.theword.util.extensions.firstDayOfYear

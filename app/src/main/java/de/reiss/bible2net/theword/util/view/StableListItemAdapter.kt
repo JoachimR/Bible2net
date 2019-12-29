@@ -1,15 +1,15 @@
 package de.reiss.bible2net.theword.util.view
 
-import android.support.annotation.LayoutRes
-import android.support.v7.util.DiffUtil
-import android.support.v7.widget.RecyclerView
+import androidx.annotation.LayoutRes
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import java.lang.IllegalArgumentException
 
 
-abstract class StableListItemAdapter : RecyclerView.Adapter<ListItemViewHolder>() {
+abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView.Adapter<ListItemViewHolder>() {
 
     init {
         setHasStableIds(true)

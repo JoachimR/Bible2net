@@ -1,10 +1,10 @@
 package de.reiss.bible2net.theword.util.extensions
 
 import android.app.Activity
-import android.support.annotation.StringRes
-import android.support.design.widget.BaseTransientBottomBar
-import android.support.design.widget.Snackbar
-import android.support.v4.app.Fragment
+import androidx.annotation.StringRes
+import com.google.android.material.snackbar.BaseTransientBottomBar
+import com.google.android.material.snackbar.Snackbar
+import androidx.fragment.app.Fragment
 import de.reiss.bible2net.theword.R
 
 
@@ -27,18 +27,18 @@ fun Activity.showIndefiniteSnackbar(message: String,
         doShowSnackbar(this, message, Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
 
 fun Fragment.showShortSnackbar(message: String,
-                               action: (() -> Unit)? = null,
-                               actionLabel: String? = null,
-                               callback: (() -> Unit)? = null) {
+                                                                        action: (() -> Unit)? = null,
+                                                                        actionLabel: String? = null,
+                                                                        callback: (() -> Unit)? = null) {
     activity?.let {
         doShowSnackbar(it, message, Snackbar.LENGTH_SHORT, action, actionLabel, callback)
     }
 }
 
 fun Fragment.showLongSnackbar(message: String,
-                              action: (() -> Unit)? = null,
-                              actionLabel: String? = null,
-                              callback: (() -> Unit)? = null) {
+                                                                       action: (() -> Unit)? = null,
+                                                                       actionLabel: String? = null,
+                                                                       callback: (() -> Unit)? = null) {
     activity?.let {
         doShowSnackbar(it, message, Snackbar.LENGTH_LONG, action, actionLabel, callback)
     }
@@ -63,25 +63,25 @@ fun Activity.showIndefiniteSnackbar(@StringRes message: Int,
         doShowSnackbar(this, getString(message), Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
 
 fun Fragment.showShortSnackbar(@StringRes message: Int,
-                               action: (() -> Unit)? = null,
-                               actionLabel: String? = null,
-                               callback: (() -> Unit)? = null) = activity?.let {
+                                                                        action: (() -> Unit)? = null,
+                                                                        actionLabel: String? = null,
+                                                                        callback: (() -> Unit)? = null) = activity?.let {
     doShowSnackbar(it, getString(message), Snackbar.LENGTH_SHORT, action, actionLabel, callback)
 }
 
 fun Fragment.showLongSnackbar(@StringRes message: Int,
-                              action: (() -> Unit)? = null,
-                              actionLabel: String? = null,
-                              callback: (() -> Unit)? = null) {
+                                                                       action: (() -> Unit)? = null,
+                                                                       actionLabel: String? = null,
+                                                                       callback: (() -> Unit)? = null) {
     activity?.let {
         doShowSnackbar(it, getString(message), Snackbar.LENGTH_LONG, action, actionLabel, callback)
     }
 }
 
 fun Fragment.showIndefiniteSnackbar(@StringRes message: Int,
-                                    action: (() -> Unit)? = null,
-                                    actionLabel: String? = null,
-                                    callback: (() -> Unit)? = null) {
+                                                                             action: (() -> Unit)? = null,
+                                                                             actionLabel: String? = null,
+                                                                             callback: (() -> Unit)? = null) {
     activity?.let {
         doShowSnackbar(it, getString(message), Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
     }
