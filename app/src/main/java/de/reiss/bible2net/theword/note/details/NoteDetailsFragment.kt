@@ -72,7 +72,7 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
 
     override fun defineViewModelProvider(): ViewModelProvider =
             ViewModelProviders.of(this, NoteDetailsViewModel.Factory(
-                    arguments!!.getParcelable(KEY_NOTE), App.component.noteDetailsRepository))
+                    arguments!!.getParcelable(KEY_NOTE)!!, App.component.noteDetailsRepository))
 
     override fun defineViewModel(): NoteDetailsViewModel =
             loadViewModelProvider().get(NoteDetailsViewModel::class.java)

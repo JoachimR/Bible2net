@@ -29,7 +29,7 @@ class ChooseDayDialog : DialogFragment() {
             throw IllegalStateException("no position given")
         }
         val calendar = DaysPositionUtil.dayFor(position)
-        return DatePickerDialog(activity,
+        return DatePickerDialog(activity!!,
                 onDateSetListener(),
                 calendar.get(Calendar.YEAR),
                 calendar.get(Calendar.MONTH),
