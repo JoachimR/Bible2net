@@ -53,8 +53,9 @@ class AppPreferencesFragment : PreferenceFragmentCompatDividers() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (findPreference(getString(R.string.pref_language_key)) as ListPreference).apply {
-            entries = bibles.map { it.bibleName }.toTypedArray()
-            entryValues = bibles.map { it.key }.toTypedArray()
+            val bibleList = bibles.toList().sortedBy { it.languageCode }
+            entries = bibleList.map { """[${it.languageCode}]   ${it.bibleName}""" }.toTypedArray()
+            entryValues = bibleList.map { it.key }.toTypedArray()
         }
 
         findPreference(getString(R.string.pref_show_daily_notification_key)).apply {
