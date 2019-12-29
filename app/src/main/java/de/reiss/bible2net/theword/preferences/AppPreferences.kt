@@ -18,7 +18,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
         private const val KEY_LAST_TIME_BIBLES_UPDATED = "LAST_TIME_BIBLES_UPDATED"
 
-        private const val MAX_AGE_BIBLES_LAST_UPDATED = 2 * 604800000 // 2 weeks
+        private const val MAX_AGE_BIBLES_LAST_UPDATED = 86400000 // 1 day
     }
 
     val preferences: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
