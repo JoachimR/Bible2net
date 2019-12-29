@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android'
 android {
 
     compileSdkVersion sdk.compile
-    buildToolsVersion versions.build_tools
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion sdk.min
@@ -18,12 +18,12 @@ android {
 }
 
 dependencies {
-    compile libraries.kotlin.lib
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
 
-    compile project(':model')
-    compile project(':logger')
+    implementation project(':model')
+    implementation project(':logger')
 
-    compile libraries.jsoup
+    implementation "org.jsoup:jsoup:1.11.3"
 
-    testCompile libraries.junit
+    testImplementation "junit:junit:4.12"
 }

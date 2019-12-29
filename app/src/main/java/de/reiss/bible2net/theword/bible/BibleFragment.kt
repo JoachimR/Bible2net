@@ -1,10 +1,10 @@
 package de.reiss.bible2net.theword.bible
 
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProvider
-import android.arch.lifecycle.ViewModelProviders
-import android.support.v7.widget.LinearLayoutManager
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
+import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import de.reiss.bible2net.theword.App

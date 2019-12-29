@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword
 
 import android.app.Application
-import android.support.v7.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import com.crashlytics.android.Crashlytics
 import com.crashlytics.android.core.CrashlyticsCore
 import de.reiss.bible2net.theword.architecture.di.ApplicationComponent

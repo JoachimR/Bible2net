@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
 import android.preference.PreferenceManager
-import android.support.annotation.StringRes
-import android.support.v4.content.ContextCompat
+import androidx.annotation.StringRes
+import androidx.core.content.ContextCompat
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.events.FontSizeChanged
 import de.reiss.bible2net.theword.events.postMessageEvent

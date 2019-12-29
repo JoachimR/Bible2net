@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.main.content
 
-import android.arch.lifecycle.MutableLiveData
-import android.support.test.runner.AndroidJUnit4
+import androidx.lifecycle.MutableLiveData
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.nhaarman.mockito_kotlin.any
 import com.nhaarman.mockito_kotlin.doReturn
 import com.nhaarman.mockito_kotlin.mock

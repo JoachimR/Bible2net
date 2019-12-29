@@ -1,11 +1,11 @@
 package de.reiss.bible2net.theword.architecture
 
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.os.Build
-import android.support.annotation.LayoutRes
-import android.support.v4.app.ActivityCompat.checkSelfPermission
+import androidx.annotation.LayoutRes
+import androidx.core.app.ActivityCompat.checkSelfPermission
 
 abstract class AppFragmentWithSdCard<T : ViewModel>(@LayoutRes private val fragmentLayout: Int)
     : AppFragment<T>(fragmentLayout) {

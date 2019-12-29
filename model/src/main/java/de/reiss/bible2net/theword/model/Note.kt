@@ -12,8 +12,8 @@ data class Note(val date: Date,
 
     constructor(source: Parcel) : this(
             source.readSerializable() as Date,
-            source.readString(),
-            source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)
+            source.readString()!!,
+            source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)!!
     )
 
     override fun describeContents() = 0

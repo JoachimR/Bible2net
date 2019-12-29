@@ -12,7 +12,7 @@ open class ListDownloader(private val twdService: TwdService) {
     open fun downloadList(): List<Twd11>? {
         try {
             val response = twdService.list().execute()
-            if (response?.isSuccessful == true) {
+            if (response.isSuccessful) {
                 return response.body()
             }
         } catch (e: Exception) {

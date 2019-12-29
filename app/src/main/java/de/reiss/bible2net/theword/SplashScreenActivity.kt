@@ -3,7 +3,7 @@ package de.reiss.bible2net.theword
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import de.reiss.bible2net.theword.bible.BibleActivity
 import de.reiss.bible2net.theword.main.MainActivity
 

@@ -1,10 +1,11 @@
 apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
+apply plugin: "kotlin-kapt"
 
 android {
 
     compileSdkVersion sdk.compile
-    buildToolsVersion versions.build_tools
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion sdk.min
@@ -15,18 +16,29 @@ android {
         test.resources.srcDirs += "src/test/resources"
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
 }
 
 dependencies {
-    compile libraries.kotlin.lib
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
 
-    compile project(":model")
-    compile project(":logger")
+    implementation project(":model")
+    implementation project(":logger")
 
-    compile libraries.okhttp
-    compile libraries.retrofit.core
-    compile libraries.retrofit.moshi
-    compile libraries.moshi.core
-    compile libraries.moshi.adapters
-    compile libraries.curlloggerinterceptor
+    api "com.squareup.okhttp3:okhttp:4.2.2"
+    api "com.squareup.retrofit2:retrofit:2.6.2"
+    api "com.squareup.retrofit2:converter-moshi:2.6.2"
+    api "com.squareup.moshi:moshi:1.9.2"
+    api "com.squareup.moshi:moshi-adapters:1.9.2"
+    api "com.squareup.moshi:moshi-kotlin:1.9.2"
+    api "com.github.grapesnberries:curlloggerinterceptor:0.1"
+    kapt "com.squareup.moshi:moshi-kotlin-codegen:1.9.2"
 }

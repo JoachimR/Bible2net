@@ -1,8 +1,8 @@
 package de.reiss.bible2net.theword.util.extensions
 
 import android.content.Context
-import android.support.annotation.StringRes
-import android.support.v4.app.Fragment
+import androidx.annotation.StringRes
+import androidx.fragment.app.Fragment
 import android.widget.Toast
 
 

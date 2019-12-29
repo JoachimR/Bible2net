@@ -1,6 +1,6 @@
 package de.reiss.bible2net.theword.main
 
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.bible2net.theword.database.BibleItem
 import de.reiss.bible2net.theword.database.BibleItemDao
 import de.reiss.bible2net.theword.downloader.list.ListDownloader
