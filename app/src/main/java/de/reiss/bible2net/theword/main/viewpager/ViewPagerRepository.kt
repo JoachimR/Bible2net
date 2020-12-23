@@ -13,7 +13,6 @@ import de.reiss.bible2net.theword.downloader.list.ListDownloader
 import de.reiss.bible2net.theword.downloader.list.Twd11
 import de.reiss.bible2net.theword.logger.logInfo
 import de.reiss.bible2net.theword.logger.logWarn
-import de.reiss.bible2net.theword.logger.logWarnWithCrashlytics
 import de.reiss.bible2net.theword.twdparser.TwdItem
 import de.reiss.bible2net.theword.twdparser.TwdParser
 import de.reiss.bible2net.theword.util.extensions.amountOfDaysInRange
@@ -121,7 +120,7 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
 
                 override fun onError(url: String,
                                      message: String?) {
-                    logWarnWithCrashlytics { "$url download error" }
+                    logWarn { "$url download error" }
                 }
 
                 override fun onFinished(url: String,

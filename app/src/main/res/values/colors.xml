@@ -25,6 +25,8 @@
     <color name="grey300">@color/md_grey_500</color>
     <color name="white">@color/md_white_1000</color>
 
+    <color name="default_font_color">@color/font_black</color>
+
     <color name="font_white">#FFFFFF</color>
     <color name="font_grey">#9E9E9E</color>
     <color name="font_black">#000000</color>

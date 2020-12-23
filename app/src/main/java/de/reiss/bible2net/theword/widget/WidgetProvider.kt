@@ -11,7 +11,7 @@ import android.widget.RemoteViews
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.SplashScreenActivity
-import de.reiss.bible2net.theword.logger.logErrorWithCrashlytics
+import de.reiss.bible2net.theword.logger.logError
 import de.reiss.bible2net.theword.preferences.AppPreferences
 
 class WidgetProvider : AppWidgetProvider() {
@@ -58,7 +58,7 @@ class WidgetProvider : AppWidgetProvider() {
             }
             super.onUpdate(context, appWidgetManager, appWidgetIds)
         } catch (e: Exception) {
-            logErrorWithCrashlytics(e) { "Error when updating widget" }
+            logError(e) { "Error when updating widget" }
         }
     }
 

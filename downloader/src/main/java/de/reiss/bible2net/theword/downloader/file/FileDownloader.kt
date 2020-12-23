@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.downloader.file
 
 import android.webkit.URLUtil
-import de.reiss.bible2net.theword.logger.logWarnWithCrashlytics
+import de.reiss.bible2net.theword.logger.logWarn
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
@@ -32,7 +32,7 @@ open class FileDownloader(private val okHttpClient: OkHttpClient) {
                         }
             }
         } catch (e: Exception) {
-            logWarnWithCrashlytics(e) { "error when trying to download $url" }
+            logWarn(e) { "error when trying to download $url" }
             listener.onError(url, "error when downloading")
         }
     }

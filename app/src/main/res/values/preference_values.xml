@@ -52,7 +52,7 @@
         <item>widgetbg_transpimg_yellow</item>
     </string-array>
 
-    <integer-array name="pref_font_colors" translatable="false">
+    <string-array name="pref_font_colors" translatable="false">
         <item>@color/font_white</item>
         <item>@color/font_grey</item>
         <item>@color/font_black</item>
@@ -64,6 +64,6 @@
         <item>@color/font_dark_green</item>
         <item>@color/font_purple</item>
         <item>@color/font_pink</item>
-    </integer-array>
+    </string-array>
 
 </resources>

@@ -1,17 +1,16 @@
 package de.reiss.bible2net.theword.preferences
 
 import android.os.Bundle
-import androidx.preference.ListPreference
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import com.takisoft.fix.support.v7.preference.PreferenceFragmentCompatDividers
+import androidx.preference.ListPreference
+import androidx.preference.PreferenceFragmentCompat
+import androidx.preference.SwitchPreferenceCompat
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.model.Bible
 import de.reiss.bible2net.theword.util.extensions.isPlayServiceAvailable
 
 
-class AppPreferencesFragment : PreferenceFragmentCompatDividers() {
+class AppPreferencesFragment : PreferenceFragmentCompat() {
 
     companion object {
 
@@ -34,32 +33,19 @@ class AppPreferencesFragment : PreferenceFragmentCompatDividers() {
         bibles = arguments?.getParcelableArrayList(LIST_BIBLES) ?: arrayListOf()
     }
 
-    override fun onCreatePreferencesFix(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setPreferencesFromResource(R.xml.preferences, rootKey)
-    }
-
-    override fun onCreateView(inflater: LayoutInflater,
-                              container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        try {
-            return super.onCreateView(inflater, container, savedInstanceState)
-        } finally {
-            setDividerPreferences(PreferenceFragmentCompatDividers.DIVIDER_PADDING_CHILD
-                    or PreferenceFragmentCompatDividers.DIVIDER_CATEGORY_AFTER_LAST
-                    or PreferenceFragmentCompatDividers.DIVIDER_CATEGORY_BETWEEN)
-        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (findPreference(getString(R.string.pref_language_key)) as ListPreference).apply {
-            val bibleList = bibles.toList().sortedBy { it.languageCode }
+        (findPreference(getString(R.string.pref_language_key)) as ListPreference?)?.apply {
+            val bibleList = bibles.toList().sortedWith(compareBy({ it.languageCode }, { it.bibleName }))
             entries = bibleList.map { """[${it.languageCode}]   ${it.bibleName}""" }.toTypedArray()
             entryValues = bibleList.map { it.key }.toTypedArray()
         }
-
-        findPreference(getString(R.string.pref_show_daily_notification_key)).apply {
-            val playServiceAvailable = context.isPlayServiceAvailable()
+        (findPreference(getString(R.string.pref_show_daily_notification_key)) as SwitchPreferenceCompat?)?.apply {
+            val playServiceAvailable = requireContext().isPlayServiceAvailable()
             isVisible = playServiceAvailable
             setDefaultValue(playServiceAvailable)
         }

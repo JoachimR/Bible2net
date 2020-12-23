@@ -3,7 +3,7 @@ package de.reiss.bible2net.theword.preferences
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import de.reiss.bible2net.theword.R
@@ -58,7 +58,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     fun currentTheme(): AppTheme {
         val chosenTheme = prefString(R.string.pref_theme_key, R.string.pref_theme_default)
-        return AppTheme.find(context, chosenTheme) ?: AppTheme.RED_TEAL
+        return AppTheme.find(context, chosenTheme!!) ?: AppTheme.RED_TEAL
     }
 
     var lastTimeBiblesUpdated: Long
@@ -91,7 +91,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     fun widgetCentered() = prefBoolean(R.string.pref_widget_centered_text_key, true)
 
     fun widgetBackground(): String = prefString(R.string.pref_widget_backgroundcolor_key,
-            R.string.pref_widget_backgroundcolor_default)
+            R.string.pref_widget_backgroundcolor_default)!!
 
     fun changeFontSize(newFontSize: Int) {
         val min = Integer.parseInt(str(R.string.pref_fontsize_min))

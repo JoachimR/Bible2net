@@ -10,7 +10,7 @@ import androidx.annotation.WorkerThread
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.database.NoteItem
 import de.reiss.bible2net.theword.database.NoteItemDao
-import de.reiss.bible2net.theword.logger.logErrorWithCrashlytics
+import de.reiss.bible2net.theword.logger.logError
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.twdparser.dateFromString
 import java.util.concurrent.Executor
@@ -41,7 +41,7 @@ class MigrateTo127 @Inject constructor(val context: Context,
                 migrateDatabases()
             }
         } catch (e: Exception) {
-            logErrorWithCrashlytics(e) {
+            logError(e) {
                 "error when trying to migrate preferences to version app 126"
             }
         }
@@ -53,7 +53,7 @@ class MigrateTo127 @Inject constructor(val context: Context,
                 WordsDbCommunicator(context).deleteAll()
                 migrateNotesDatabase()
             } catch (e: Exception) {
-                logErrorWithCrashlytics(e) {
+                logError(e) {
                     "error when trying to delete or migrate old databases"
                 }
             }
@@ -130,7 +130,7 @@ class MigrateTo127 @Inject constructor(val context: Context,
             try {
                 edit.putInt(context.getString(R.string.pref_fontsize_key), Integer.parseInt(it))
             } catch (e: Exception) {
-                logErrorWithCrashlytics(e) { "error when trying to migrate app font size" }
+                logError(e) { "error when trying to migrate app font size" }
             }
         }
 
@@ -145,7 +145,7 @@ class MigrateTo127 @Inject constructor(val context: Context,
                 edit.putInt(context.getString(R.string.pref_widget_fontsize_key),
                         Integer.parseInt(it))
             } catch (e: Exception) {
-                logErrorWithCrashlytics(e) { "error when trying to migrate widget font size" }
+                logError(e) { "error when trying to migrate widget font size" }
             }
         }
 
@@ -154,7 +154,7 @@ class MigrateTo127 @Inject constructor(val context: Context,
                 val color = Color.parseColor(it)
                 edit.putInt(context.getString(R.string.pref_widget_fontcolor_key), color)
             } catch (e: Exception) {
-                logErrorWithCrashlytics(e) { "error when trying to migrate widget font color" }
+                logError(e) { "error when trying to migrate widget font color" }
             }
         }
 

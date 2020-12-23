@@ -1,5 +1,0 @@
-ext.sdk = [
-        min    : 21,
-        target : 28,
-        compile: 28,
-]

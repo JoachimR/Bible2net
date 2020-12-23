@@ -2,12 +2,11 @@ apply plugin: 'com.android.library'
 
 android {
 
-    compileSdkVersion sdk.compile
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 29
 
     defaultConfig {
-        minSdkVersion sdk.min
-        targetSdkVersion sdk.target
+        minSdkVersion 21
+        targetSdkVersion 29
     }
 
 }
@@ -15,6 +14,6 @@ android {
 dependencies {
     api project(':model')
 
-    api 'androidx.room:room-runtime:2.2.3'
-    annotationProcessor 'androidx.room:room-compiler:2.2.3'
+    api 'androidx.room:room-runtime:2.2.6'
+    annotationProcessor 'androidx.room:room-compiler:2.2.6'
 }

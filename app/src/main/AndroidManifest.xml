@@ -15,10 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="d457eb0b0027f507330abbd4d12282f89b4fbe83" />
-
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar.Splash">

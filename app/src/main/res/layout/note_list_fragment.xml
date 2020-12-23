@@ -32,8 +32,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:contentDescription="@string/cd_no_notes"
-                android:tint="@color/md_grey_300"
-                app:srcCompat="@drawable/ic_block_black_24dp" />
+                app:srcCompat="@drawable/ic_block_black_24dp"
+                app:tint="@color/md_grey_300" />
 
             <TextView
                 android:id="@+id/note_list_no_notes_text"
