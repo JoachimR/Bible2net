@@ -6,9 +6,9 @@ import android.os.Parcelable
 data class Bible(val key: String, val bibleName: String, val languageCode: String) : Parcelable {
 
     constructor(source: Parcel) : this(
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!
     )
 
     override fun describeContents() = 0
@@ -26,5 +26,4 @@ data class Bible(val key: String, val bibleName: String, val languageCode: Strin
             override fun newArray(size: Int): Array<Bible?> = arrayOfNulls(size)
         }
     }
-
 }

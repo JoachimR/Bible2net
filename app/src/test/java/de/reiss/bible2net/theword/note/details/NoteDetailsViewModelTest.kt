@@ -36,5 +36,4 @@ class NoteDetailsViewModelTest {
         viewModel.deleteNote()
         verify(repository).deleteNote(eq(note), any())
     }
-
 }

@@ -15,10 +15,8 @@ enum class AppTheme(@StringRes val prefKey: Int, @StyleRes val theme: Int) {
     companion object {
 
         fun find(context: Context, key: String): AppTheme? =
-                values().firstOrNull {
-                    context.getString(it.prefKey) == key
-                }
-
+            values().firstOrNull {
+                context.getString(it.prefKey) == key
+            }
     }
-
 }

@@ -9,13 +9,10 @@ import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.UnderTestAppActivity
 import org.junit.Rule
 
-
 abstract class FragmentTest<T : Fragment> {
 
     companion object {
-
         val FRAGMENT_TAG = "fragment_under_test"
-
     }
 
     @get:Rule
@@ -32,14 +29,16 @@ abstract class FragmentTest<T : Fragment> {
     protected fun launchFragment() {
         val fragmentManager = activityRule.activity.supportFragmentManager
 
-        runOnUiThreadAndIdleSync(activityRule,
-                Runnable {
-                    fragment = createFragment()
-                    fragmentManager
-                            .beginTransaction()
-                            .replace(R.id.under_test_content_view, fragment!!, FRAGMENT_TAG)
-                            .commitNow()
-                })
+        runOnUiThreadAndIdleSync(
+            activityRule,
+            Runnable {
+                fragment = createFragment()
+                fragmentManager
+                    .beginTransaction()
+                    .replace(R.id.under_test_content_view, fragment!!, FRAGMENT_TAG)
+                    .commitNow()
+            }
+        )
     }
 
     private fun runOnUiThreadAndIdleSync(rule: ActivityTestRule<*>, runnable: Runnable) {
@@ -50,5 +49,4 @@ abstract class FragmentTest<T : Fragment> {
             throw RuntimeException(throwable)
         }
     }
-
 }

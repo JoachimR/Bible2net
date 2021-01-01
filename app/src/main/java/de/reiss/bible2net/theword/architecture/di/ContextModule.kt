@@ -12,5 +12,4 @@ open class ContextModule(context: Context) {
     @Provides
     @ApplicationScope
     open fun context(): Context = applicationContext
-
 }

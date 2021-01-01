@@ -28,5 +28,4 @@ open class DatabaseModule(private val application: Application) {
     @Provides
     @ApplicationScope
     open fun noteItemDao(): NoteItemDao = getDatabase().noteItemDao()
-
 }

@@ -15,5 +15,4 @@ open class NotesExportModule {
     @Provides
     @ApplicationScope
     open fun notesExporter(fileProvider: FileProvider): NotesExporter = NotesExporter(fileProvider)
-
 }

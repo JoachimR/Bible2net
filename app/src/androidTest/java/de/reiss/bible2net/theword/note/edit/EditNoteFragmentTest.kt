@@ -7,10 +7,16 @@ import com.nhaarman.mockito_kotlin.mock
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.model.Note
-import de.reiss.bible2net.theword.testutil.*
+import de.reiss.bible2net.theword.testutil.FragmentTest
+import de.reiss.bible2net.theword.testutil.assertDisplayed
+import de.reiss.bible2net.theword.testutil.assertNotDisplayed
+import de.reiss.bible2net.theword.testutil.assertTextInSnackbar
+import de.reiss.bible2net.theword.testutil.checkIsTextSet
+import de.reiss.bible2net.theword.testutil.sampleNote
+import de.reiss.bible2net.theword.testutil.sampleTheWordContent
 import org.junit.Before
 import org.junit.Test
-import java.util.*
+import java.util.Date
 
 class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
 
@@ -23,12 +29,12 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     }
 
     override fun createFragment(): EditNoteFragment =
-            EditNoteFragment.createInstance(Date().time, sampleTheWordContent(0))
-                    .apply {
-                        viewModelProvider = mock {
-                            on { get(any<Class<EditNoteViewModel>>()) } doReturn mockedViewModel
-                        }
-                    }
+        EditNoteFragment.createInstance(Date().time, sampleTheWordContent(0))
+            .apply {
+                viewModelProvider = mock {
+                    on { get(any<Class<EditNoteViewModel>>()) } doReturn mockedViewModel
+                }
+            }
 
     @Before
     fun setUp() {
@@ -84,5 +90,4 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)
         assertTextInSnackbar(activity.getString(R.string.edit_note_store_error))
     }
-
 }

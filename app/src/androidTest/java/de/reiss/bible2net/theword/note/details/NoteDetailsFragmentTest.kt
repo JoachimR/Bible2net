@@ -7,7 +7,12 @@ import com.nhaarman.mockito_kotlin.mock
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.model.Note
-import de.reiss.bible2net.theword.testutil.*
+import de.reiss.bible2net.theword.testutil.FragmentTest
+import de.reiss.bible2net.theword.testutil.assertActivityIsFinished
+import de.reiss.bible2net.theword.testutil.assertDisplayed
+import de.reiss.bible2net.theword.testutil.assertNotDisplayed
+import de.reiss.bible2net.theword.testutil.checkTextsAreDisplayed
+import de.reiss.bible2net.theword.testutil.sampleNote
 import de.reiss.bible2net.theword.util.contentAsString
 import org.junit.Before
 import org.junit.Test
@@ -25,12 +30,12 @@ class NoteDetailsFragmentTest : FragmentTest<NoteDetailsFragment>() {
     }
 
     override fun createFragment(): NoteDetailsFragment =
-            NoteDetailsFragment.createInstance(note)
-                    .apply {
-                        viewModelProvider = mock {
-                            on { get(any<Class<NoteDetailsViewModel>>()) } doReturn mockedViewModel
-                        }
-                    }
+        NoteDetailsFragment.createInstance(note)
+            .apply {
+                viewModelProvider = mock {
+                    on { get(any<Class<NoteDetailsViewModel>>()) } doReturn mockedViewModel
+                }
+            }
 
     @Before
     fun setUp() {
@@ -60,10 +65,10 @@ class NoteDetailsFragmentTest : FragmentTest<NoteDetailsFragment>() {
         noteLiveData.postValue(AsyncLoad.success(note))
 
         checkTextsAreDisplayed(
-                contentAsString(activity, note.date.time, note.theWordContent, ""),
-                note.noteText)
+            contentAsString(activity, note.date.time, note.theWordContent, ""),
+            note.noteText
+        )
 
         assertNotDisplayed(R.id.note_details_loading)
     }
-
 }

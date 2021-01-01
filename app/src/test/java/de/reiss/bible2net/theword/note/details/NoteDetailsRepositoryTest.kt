@@ -2,7 +2,11 @@ package de.reiss.bible2net.theword.note.details
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
-import com.nhaarman.mockito_kotlin.*
+import com.nhaarman.mockito_kotlin.any
+import com.nhaarman.mockito_kotlin.eq
+import com.nhaarman.mockito_kotlin.mock
+import com.nhaarman.mockito_kotlin.verify
+import com.nhaarman.mockito_kotlin.whenever
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
 import de.reiss.bible2net.theword.database.NoteItemDao
@@ -91,5 +95,4 @@ class NoteDetailsRepositoryTest {
         repository.deleteNote(note, liveData)
         return liveData.blockingObserve() ?: throw NullPointerException()
     }
-
 }

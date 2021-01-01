@@ -17,14 +17,14 @@ open class NoteExportViewModel(private val repository: NoteExportRepository) : V
 
     fun isExporting() = exportLiveData().value is Exporting
 
-    class Factory(private val repository: NoteExportRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: NoteExportRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 
             @Suppress("UNCHECKED_CAST")
             return NoteExportViewModel(repository) as T
         }
-
     }
 
     fun clearLiveData() {

@@ -2,18 +2,20 @@ package de.reiss.bible2net.theword.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import java.util.*
+import java.util.Date
 
-data class Note(val date: Date,
-                val noteText: String,
-                val theWordContent: TheWordContent) : Comparable<Note>, Parcelable {
+data class Note(
+    val date: Date,
+    val noteText: String,
+    val theWordContent: TheWordContent
+) : Comparable<Note>, Parcelable {
 
     override fun compareTo(other: Note) = this.date.compareTo(other.date)
 
     constructor(source: Parcel) : this(
-            source.readSerializable() as Date,
-            source.readString()!!,
-            source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)!!
+        source.readSerializable() as Date,
+        source.readString()!!,
+        source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)!!
     )
 
     override fun describeContents() = 0

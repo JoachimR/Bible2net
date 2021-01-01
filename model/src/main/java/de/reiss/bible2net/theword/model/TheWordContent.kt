@@ -3,36 +3,38 @@ package de.reiss.bible2net.theword.model
 import android.os.Parcel
 import android.os.Parcelable
 
-data class TheWordContent(val book1: String,
-                          val chapter1: String,
-                          val verse1: String,
-                          val id1: String,
-                          val intro1: String,
-                          val text1: String,
-                          val ref1: String,
-                          val book2: String,
-                          val chapter2: String,
-                          val verse2: String,
-                          val id2: String,
-                          val intro2: String,
-                          val text2: String,
-                          val ref2: String) : Parcelable {
+data class TheWordContent(
+    val book1: String,
+    val chapter1: String,
+    val verse1: String,
+    val id1: String,
+    val intro1: String,
+    val text1: String,
+    val ref1: String,
+    val book2: String,
+    val chapter2: String,
+    val verse2: String,
+    val id2: String,
+    val intro2: String,
+    val text2: String,
+    val ref2: String
+) : Parcelable {
 
     constructor(source: Parcel) : this(
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!,
-            source.readString()!!
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!,
+        source.readString()!!
     )
 
     override fun describeContents() = 0
@@ -56,9 +58,12 @@ data class TheWordContent(val book1: String,
 
     companion object {
         @JvmField
-        val CREATOR: Parcelable.Creator<TheWordContent> = object : Parcelable.Creator<TheWordContent> {
-            override fun createFromParcel(source: Parcel): TheWordContent = TheWordContent(source)
-            override fun newArray(size: Int): Array<TheWordContent?> = arrayOfNulls(size)
-        }
+        val CREATOR: Parcelable.Creator<TheWordContent> =
+            object : Parcelable.Creator<TheWordContent> {
+                override fun createFromParcel(source: Parcel): TheWordContent =
+                    TheWordContent(source)
+
+                override fun newArray(size: Int): Array<TheWordContent?> = arrayOfNulls(size)
+            }
     }
 }

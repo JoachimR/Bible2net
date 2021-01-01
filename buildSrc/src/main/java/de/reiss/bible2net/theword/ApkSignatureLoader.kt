@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword
 
 import java.io.File
-import java.util.*
+import java.util.Properties
 
 @Suppress("unused")
 class ApkSignatureLoader {

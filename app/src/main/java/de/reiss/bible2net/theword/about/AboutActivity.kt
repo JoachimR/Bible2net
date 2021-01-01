@@ -15,7 +15,7 @@ class AboutActivity : AppActivity() {
 
     companion object {
         fun createIntent(context: Context): Intent =
-                Intent(context, AboutActivity::class.java)
+            Intent(context, AboutActivity::class.java)
     }
 
     private lateinit var binding: AboutActivityBinding
@@ -40,16 +40,20 @@ class AboutActivity : AppActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem) =
-            when (item.itemId) {
-                R.id.about_share -> {
-                    val text = getString(R.string.share_app, getString(R.string.play_store_url))
-                    startActivity(Intent.createChooser(Intent()
+        when (item.itemId) {
+            R.id.about_share -> {
+                val text = getString(R.string.share_app, getString(R.string.play_store_url))
+                startActivity(
+                    Intent.createChooser(
+                        Intent()
                             .setAction(Intent.ACTION_SEND)
                             .putExtra(Intent.EXTRA_TEXT, text)
                             .setType("text/plain"),
-                            getString(R.string.share_app_title)))
-                    true
-                }
-                else -> super.onOptionsItemSelected(item)
+                        getString(R.string.share_app_title)
+                    )
+                )
+                true
             }
+            else -> super.onOptionsItemSelected(item)
+        }
 }

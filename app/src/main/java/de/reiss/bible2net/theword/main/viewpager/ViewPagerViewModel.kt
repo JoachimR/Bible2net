@@ -7,10 +7,12 @@ import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
 import de.reiss.bible2net.theword.util.extensions.firstDayOfYear
 import de.reiss.bible2net.theword.util.extensions.lastDayOfYear
-import java.util.*
+import java.util.Date
 
-open class ViewPagerViewModel(initialBible: String,
-                              private val repository: ViewPagerRepository) : ViewModel() {
+open class ViewPagerViewModel(
+    initialBible: String,
+    private val repository: ViewPagerRepository
+) : ViewModel() {
 
     private val loadYearLiveData: MutableLiveData<AsyncLoad<String>> = MutableLiveData()
 
@@ -22,10 +24,10 @@ open class ViewPagerViewModel(initialBible: String,
 
     open fun prepareContentFor(bible: String, date: Date) {
         repository.getItemsFor(
-                bible = bible,
-                fromDate = date.firstDayOfYear(),
-                toDate = date.lastDayOfYear(),
-                result = loadYearLiveData()
+            bible = bible,
+            fromDate = date.firstDayOfYear(),
+            toDate = date.lastDayOfYear(),
+            result = loadYearLiveData()
         )
     }
 
@@ -33,15 +35,15 @@ open class ViewPagerViewModel(initialBible: String,
 
     fun isLoadingContent() = loadYearLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
 
-    class Factory(private val initialBible: String,
-                  private val repository: ViewPagerRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(
+        private val initialBible: String,
+        private val repository: ViewPagerRepository
+    ) : ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 
             @Suppress("UNCHECKED_CAST")
             return ViewPagerViewModel(initialBible, repository) as T
         }
-
     }
-
 }

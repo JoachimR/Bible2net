@@ -6,7 +6,6 @@ import de.reiss.bible2net.theword.util.view.StableListItem
 object BibleListBuilder {
 
     fun buildList(bibles: List<Bible>): List<StableListItem> = bibles
-            .sortedBy { it.languageCode }
-            .map { BibleListItem(it) }
-
+        .sortedBy { it.languageCode }
+        .map { BibleListItem(it) }
 }

@@ -20,7 +20,7 @@ class NoteListActivity : AppActivity() {
 
     companion object {
         fun createIntent(context: Context): Intent =
-                Intent(context, NoteListActivity::class.java)
+            Intent(context, NoteListActivity::class.java)
     }
 
     private lateinit var binding: NoteListActivityBinding
@@ -38,8 +38,9 @@ class NoteListActivity : AppActivity() {
 
         if (findFragmentIn(R.id.note_list_fragment) == null) {
             replaceFragmentIn(
-                    container = R.id.note_list_fragment,
-                    fragment = NoteListFragment.createInstance())
+                container = R.id.note_list_fragment,
+                fragment = NoteListFragment.createInstance()
+            )
         }
     }
 
@@ -55,45 +56,47 @@ class NoteListActivity : AppActivity() {
                     search("")
                     false
                 }
-                setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+                setOnQueryTextListener(
+                    object : SearchView.OnQueryTextListener {
 
-                    override fun onQueryTextSubmit(query: String?): Boolean {
-                        hideKeyboard()
-                        search(query ?: "")
-                        return true
+                        override fun onQueryTextSubmit(query: String?): Boolean {
+                            hideKeyboard()
+                            search(query ?: "")
+                            return true
+                        }
+
+                        override fun onQueryTextChange(newText: String?): Boolean {
+                            search(newText ?: "")
+                            return true
+                        }
                     }
-
-                    override fun onQueryTextChange(newText: String?): Boolean {
-                        search(newText ?: "")
-                        return true
-                    }
-
-                })
+                )
             }
 
-            setOnActionExpandListener(object : MenuItem.OnActionExpandListener {
+            setOnActionExpandListener(
+                object : MenuItem.OnActionExpandListener {
 
-                override fun onMenuItemActionExpand(item: MenuItem?) = true // expands view
+                    override fun onMenuItemActionExpand(item: MenuItem?) = true // expands view
 
-                override fun onMenuItemActionCollapse(item: MenuItem?): Boolean {
-                    search("")
-                    return true // collapses view
+                    override fun onMenuItemActionCollapse(item: MenuItem?): Boolean {
+                        search("")
+                        return true // collapses view
+                    }
                 }
-            })
-
+            )
         }
 
         return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem) =
-            when (item.itemId) {
-                R.id.menu_note_list_export -> {
-                    startActivity(NoteExportActivity.createIntent(this))
-                    true
-                }
-                else -> super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            R.id.menu_note_list_export -> {
+                startActivity(NoteExportActivity.createIntent(this))
+                true
             }
+            else -> super.onOptionsItemSelected(item)
+        }
 
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)

@@ -1,10 +1,9 @@
 package de.reiss.bible2net.theword.util.extensions
 
 import android.content.Context
+import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
-import android.widget.Toast
-
 
 fun Context.showShortToast(message: String) {
     Toast.makeText(this, message, Toast.LENGTH_SHORT).show()

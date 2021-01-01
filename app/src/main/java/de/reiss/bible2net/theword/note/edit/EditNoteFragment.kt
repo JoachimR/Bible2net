@@ -1,9 +1,13 @@
 package de.reiss.bible2net.theword.note.edit
 
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View.GONE
 import android.view.View.VISIBLE
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
@@ -19,9 +23,11 @@ import de.reiss.bible2net.theword.util.extensions.hideKeyboard
 import de.reiss.bible2net.theword.util.extensions.onClick
 import de.reiss.bible2net.theword.util.extensions.showLongSnackbar
 import de.reiss.bible2net.theword.util.extensions.withZeroDayTime
-import java.util.*
+import java.util.Date
 
-class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>(R.layout.edit_note_fragment) {
+class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>(
+    R.layout.edit_note_fragment
+) {
 
     companion object {
         private const val KEY_TIME = "KEY_TIME"
@@ -49,7 +55,7 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
             throw IllegalStateException("no time given")
         }
         theWordContent = arguments?.getParcelable(KEY_THE_WORD_CONTENT)
-                ?: throw IllegalStateException("no word content given")
+            ?: throw IllegalStateException("no word content given")
 
         preFillTextDone = savedInstanceState?.getBoolean(KEY_PRE_FILL_TEXT_DONE) ?: false
     }
@@ -83,11 +89,14 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
                 activity?.let { activity ->
                     viewModel.note()?.let { note ->
                         activity.hideKeyboard()
-                        displayDialog(ShareDialog.createInstance(
+                        displayDialog(
+                            ShareDialog.createInstance(
                                 context = activity,
                                 time = note.date.time,
                                 theWordContent = note.theWordContent,
-                                note = note.noteText))
+                                note = note.noteText
+                            )
+                        )
                         return true
                     }
                 }
@@ -97,14 +106,18 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, EditNoteViewModel.Factory(
-                    App.component.editNoteRepository))
+        ViewModelProviders.of(
+            this,
+            EditNoteViewModel.Factory(
+                App.component.editNoteRepository
+            )
+        )
 
     override fun defineViewModel(): EditNoteViewModel =
-            loadViewModelProvider().get(EditNoteViewModel::class.java)
+        loadViewModelProvider().get(EditNoteViewModel::class.java)
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
-            EditNoteFragmentBinding.inflate(inflater, container, false)
+        EditNoteFragmentBinding.inflate(inflater, container, false)
 
     override fun initViews() {
         binding.editNoteLoadErrorRetry.onClick {
@@ -113,12 +126,18 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
     }
 
     override fun initViewModelObservers() {
-        viewModel.loadNoteLiveData().observe(this, Observer<AsyncLoad<Note?>> {
-            updateUi()
-        })
-        viewModel.storeNoteLiveData().observe(this, Observer<AsyncLoad<Void>> {
-            updateUi()
-        })
+        viewModel.loadNoteLiveData().observe(
+            this,
+            Observer<AsyncLoad<Note?>> {
+                updateUi()
+            }
+        )
+        viewModel.storeNoteLiveData().observe(
+            this,
+            Observer<AsyncLoad<Void>> {
+                updateUi()
+            }
+        )
     }
 
     override fun onAppFragmentReady() {
@@ -147,13 +166,14 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
                 binding.editNoteInputRoot.visibility = VISIBLE
                 binding.editNoteLoadError.visibility = GONE
                 showLongSnackbar(
-                        message = R.string.edit_note_store_error,
-                        action = {
-                            tryStore()
-                        },
-                        callback = {
-                            viewModel.onStoreErrorShown()
-                        })
+                    message = R.string.edit_note_store_error,
+                    action = {
+                        tryStore()
+                    },
+                    callback = {
+                        viewModel.onStoreErrorShown()
+                    }
+                )
             }
             else -> {
                 binding.editNoteLoading.setLoading(false)
@@ -181,11 +201,10 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
     private fun tryStore() {
         if (viewModel.isLoadingOrStoring().not()) {
             viewModel.storeNote(
-                    date = Date(time).withZeroDayTime(),
-                    text = binding.editNoteInput.text.toString(),
-                    theWordContent = theWordContent
+                date = Date(time).withZeroDayTime(),
+                text = binding.editNoteInput.text.toString(),
+                theWordContent = theWordContent
             )
         }
     }
 }
-

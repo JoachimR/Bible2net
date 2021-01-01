@@ -5,5 +5,4 @@ import de.reiss.bible2net.theword.model.Bible
 interface BibleClickListener {
 
     fun onBibleClicked(bible: Bible)
-
 }

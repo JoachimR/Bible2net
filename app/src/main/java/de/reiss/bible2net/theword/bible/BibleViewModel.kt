@@ -19,14 +19,13 @@ class BibleViewModel(private val repository: BibleRepository) : ViewModel() {
 
     fun isLoadingBibles() = biblesLiveData.value?.loadStatus == AsyncLoadStatus.LOADING
 
-    class Factory(private val repository: BibleRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: BibleRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 
             @Suppress("UNCHECKED_CAST")
             return BibleViewModel(repository) as T
         }
-
     }
-
 }

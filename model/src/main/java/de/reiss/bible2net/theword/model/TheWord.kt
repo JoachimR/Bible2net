@@ -2,11 +2,13 @@ package de.reiss.bible2net.theword.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import java.util.*
+import java.util.Date
 
-data class TheWord(val bible: String,
-                   val date: Date,
-                   val content: TheWordContent) : Comparable<TheWord>, Parcelable {
+data class TheWord(
+    val bible: String,
+    val date: Date,
+    val content: TheWordContent
+) : Comparable<TheWord>, Parcelable {
 
     companion object {
         @JvmField
@@ -17,9 +19,9 @@ data class TheWord(val bible: String,
     }
 
     constructor(source: Parcel) : this(
-            source.readString()!!,
-            source.readSerializable() as Date,
-            source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)!!
+        source.readString()!!,
+        source.readSerializable() as Date,
+        source.readParcelable<TheWordContent>(TheWordContent::class.java.classLoader)!!
     )
 
     override fun describeContents() = 0
@@ -31,5 +33,4 @@ data class TheWord(val bible: String,
     }
 
     override fun compareTo(other: TheWord): Int = this.date.compareTo(other.date)
-
 }

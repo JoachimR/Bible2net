@@ -1,8 +1,8 @@
 package de.reiss.bible2net.theword
 
 import de.reiss.bible2net.theword.util.extensions.maxDayTime
-import java.util.*
-
+import java.util.Calendar
+import java.util.Date
 
 object DaysPositionUtil {
 
@@ -28,12 +28,11 @@ object DaysPositionUtil {
     private fun positionFor(date: Date) = calcPosition(date)
 
     private fun calcPosition(date: Date) =
-            Math.round((millisSinceFirstDay(date) / DURATION_ONE_DAY).toFloat())
+        Math.round((millisSinceFirstDay(date) / DURATION_ONE_DAY).toFloat())
 
     private fun millisSinceFirstDay(date: Date) =
-            Calendar.getInstance().apply {
-                time = date
-                maxDayTime()
-            }.timeInMillis - FIRST_DAY_OF_TIME.timeInMillis
-
+        Calendar.getInstance().apply {
+            time = date
+            maxDayTime()
+        }.timeInMillis - FIRST_DAY_OF_TIME.timeInMillis
 }

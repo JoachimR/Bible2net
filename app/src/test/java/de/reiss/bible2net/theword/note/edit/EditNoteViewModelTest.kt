@@ -9,7 +9,7 @@ import de.reiss.bible2net.theword.testutil.sampleTheWordContent
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.util.*
+import java.util.Date
 
 class EditNoteViewModelTest {
 
@@ -39,5 +39,4 @@ class EditNoteViewModelTest {
         viewModel.storeNote(date, text, theWordContent)
         verify(repository).updateNote(eq(date), eq(text), eq(theWordContent), any())
     }
-
 }

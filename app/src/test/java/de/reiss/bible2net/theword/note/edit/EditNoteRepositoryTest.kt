@@ -2,7 +2,11 @@ package de.reiss.bible2net.theword.note.edit
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
-import com.nhaarman.mockito_kotlin.*
+import com.nhaarman.mockito_kotlin.any
+import com.nhaarman.mockito_kotlin.mock
+import com.nhaarman.mockito_kotlin.never
+import com.nhaarman.mockito_kotlin.verify
+import com.nhaarman.mockito_kotlin.whenever
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
 import de.reiss.bible2net.theword.database.NoteItemDao
@@ -15,7 +19,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.util.*
+import java.util.Date
 
 @Suppress("IllegalIdentifier")
 class EditNoteRepositoryTest {
@@ -101,5 +105,4 @@ class EditNoteRepositoryTest {
         repository.updateNote(Date(), text, sampleTheWordContent(0), liveData)
         return liveData.blockingObserve() ?: throw NullPointerException()
     }
-
 }

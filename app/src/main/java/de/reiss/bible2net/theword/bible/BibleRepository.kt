@@ -8,9 +8,11 @@ import de.reiss.bible2net.theword.model.Bible
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-class BibleRepository @Inject constructor(private val executor: Executor,
-                                          private val bibleListUpdater: BibleListUpdater,
-                                          private val bibleItemDao: BibleItemDao) {
+class BibleRepository @Inject constructor(
+    private val executor: Executor,
+    private val bibleListUpdater: BibleListUpdater,
+    private val bibleItemDao: BibleItemDao
+) {
 
     fun updateBibles(result: MutableLiveData<AsyncLoad<List<Bible>>>) {
         val oldData = result.value?.data
@@ -25,5 +27,4 @@ class BibleRepository @Inject constructor(private val executor: Executor,
             result.postValue(AsyncLoad.success(allData))
         }
     }
-
 }

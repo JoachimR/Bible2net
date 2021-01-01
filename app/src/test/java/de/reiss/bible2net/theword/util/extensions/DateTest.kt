@@ -2,7 +2,7 @@ package de.reiss.bible2net.theword.util.extensions
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import java.util.*
+import java.util.Calendar
 
 class DateTest {
 
@@ -28,5 +28,4 @@ class DateTest {
         assertEquals(365, b.amountOfDaysInRange(a))
         assertEquals(1, b.amountOfDaysInRange(b))
     }
-
 }

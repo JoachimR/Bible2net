@@ -38,7 +38,5 @@ class NoteListBuilderTest {
                 assertEquals(modelList[index].noteText, listItem.note.noteText)
             }
         }
-
     }
-
 }

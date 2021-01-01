@@ -24,12 +24,15 @@ class WidgetProvider : AppWidgetProvider() {
             val context = App.component.context
             val appWidgetManager = AppWidgetManager.getInstance(context)
             val appWidgetIds = appWidgetManager.getAppWidgetIds(
-                    ComponentName(context, WidgetProvider::class.java))
+                ComponentName(context, WidgetProvider::class.java)
+            )
 
             // send layout change update
-            context.sendBroadcast(Intent(context, WidgetProvider::class.java)
+            context.sendBroadcast(
+                Intent(context, WidgetProvider::class.java)
                     .putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds)
-                    .setAction("android.appwidget.action.APPWIDGET_UPDATE"))
+                    .setAction("android.appwidget.action.APPWIDGET_UPDATE")
+            )
 
             // send data change update
             appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
@@ -44,14 +47,17 @@ class WidgetProvider : AppWidgetProvider() {
         super.onReceive(context, intent)
         AppWidgetManager.getInstance(context).apply {
             notifyAppWidgetViewDataChanged(
-                    getAppWidgetIds(ComponentName(context, WidgetProvider::class.java)),
-                    R.id.widget_list_view)
+                getAppWidgetIds(ComponentName(context, WidgetProvider::class.java)),
+                R.id.widget_list_view
+            )
         }
     }
 
-    override fun onUpdate(context: Context,
-                          appWidgetManager: AppWidgetManager,
-                          appWidgetIds: IntArray) {
+    override fun onUpdate(
+        context: Context,
+        appWidgetManager: AppWidgetManager,
+        appWidgetIds: IntArray
+    ) {
         try {
             for (id in appWidgetIds) {
                 appWidgetManager.updateAppWidget(id, updateWidgetListView(context, id))
@@ -67,7 +73,7 @@ class WidgetProvider : AppWidgetProvider() {
 
         // RemoteViews Service needed to provide adapter for ListView
         val serviceIntent = Intent(context, WidgetService::class.java)
-                .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
+            .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
         serviceIntent.data = Uri.parse(serviceIntent.toUri(Intent.URI_INTENT_SCHEME))
 
         // setting adapter to listView of the widget
@@ -79,15 +85,21 @@ class WidgetProvider : AppWidgetProvider() {
     }
 
     private fun setClickMethod(context: Context, remoteViews: RemoteViews) {
-        val pendingIntent = PendingIntent.getActivity(context, REQUEST_CODE_CLICK_WIDGET,
-                SplashScreenActivity.createIntent(context), PendingIntent.FLAG_UPDATE_CURRENT)
+        val pendingIntent = PendingIntent.getActivity(
+            context,
+            REQUEST_CODE_CLICK_WIDGET,
+            SplashScreenActivity.createIntent(context),
+            PendingIntent.FLAG_UPDATE_CURRENT
+        )
         remoteViews.setPendingIntentTemplate(R.id.widget_list_view, pendingIntent)
     }
 
     private fun setBackground(context: Context, remoteViews: RemoteViews) {
-        val identifier = context.resources.getIdentifier(appPreferences.widgetBackground(),
-                "drawable", context.packageName)
+        val identifier = context.resources.getIdentifier(
+            appPreferences.widgetBackground(),
+            "drawable",
+            context.packageName
+        )
         remoteViews.setImageViewResource(R.id.widget_background, identifier)
     }
-
 }

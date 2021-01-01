@@ -1,6 +1,5 @@
 package de.reiss.bible2net.theword.main.viewpager
 
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View.GONE
@@ -23,10 +22,11 @@ import de.reiss.bible2net.theword.util.extensions.registerToEventBus
 import de.reiss.bible2net.theword.util.extensions.unregisterFromEventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
-import java.util.*
+import java.util.Calendar
 
-
-class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewModel>(R.layout.view_pager_fragment) {
+class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewModel>(
+    R.layout.view_pager_fragment
+) {
 
     companion object {
 
@@ -76,7 +76,8 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
         arguments?.remove(KEY_INITIAL_POS)
         savedPosition = when {
             initialPos != INVALID_POSITION -> initialPos
-            else -> savedInstanceState?.getInt(KEY_CURRENT_POSITION)
+            else ->
+                savedInstanceState?.getInt(KEY_CURRENT_POSITION)
                     ?: DaysPositionUtil.positionFor(Calendar.getInstance())
         }
     }
@@ -87,7 +88,7 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
     }
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
-            ViewPagerFragmentBinding.inflate(inflater, container, false)
+        ViewPagerFragmentBinding.inflate(inflater, container, false)
 
     override fun initViews() {
         adapter = ViewPagerAdapter(childFragmentManager)
@@ -95,23 +96,29 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            appPreferences.chosenBible.let { chosenBible ->
-                if (chosenBible == null) {
-                    throw IllegalStateException("No bible chosen")
-                }
-                return ViewModelProviders.of(this,
-                        ViewPagerViewModel.Factory(
-                                initialBible = chosenBible,
-                                repository = App.component.viewPagerRepository))
+        appPreferences.chosenBible.let { chosenBible ->
+            if (chosenBible == null) {
+                throw IllegalStateException("No bible chosen")
             }
+            return ViewModelProviders.of(
+                this,
+                ViewPagerViewModel.Factory(
+                    initialBible = chosenBible,
+                    repository = App.component.viewPagerRepository
+                )
+            )
+        }
 
     override fun defineViewModel(): ViewPagerViewModel =
-            loadViewModelProvider().get(ViewPagerViewModel::class.java)
+        loadViewModelProvider().get(ViewPagerViewModel::class.java)
 
     override fun initViewModelObservers() {
-        viewModel.loadYearLiveData().observe(this, Observer<AsyncLoad<String>> {
-            updateUi()
-        })
+        viewModel.loadYearLiveData().observe(
+            this,
+            Observer<AsyncLoad<String>> {
+                updateUi()
+            }
+        )
     }
 
     override fun onAppFragmentReady() {
@@ -127,7 +134,7 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
                     throw IllegalStateException("Loading unknown content")
                 } else {
                     binding.viewPagerLoadingText.text =
-                            getString(R.string.view_pager_loading_content, it)
+                        getString(R.string.view_pager_loading_content, it)
                 }
             }
             binding.viewPagerLoading.visibility = VISIBLE
@@ -144,8 +151,9 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
         if (viewModel.isLoadingContent().not()) {
             appPreferences.chosenBible?.let { chosenBible ->
                 viewModel.prepareContentFor(
-                        bible = chosenBible,
-                        date = event.year.time)
+                    bible = chosenBible,
+                    date = event.year.time
+                )
             }
         }
     }
@@ -159,8 +167,9 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
         if (viewModel.isLoadingContent().not()) {
             appPreferences.chosenBible?.let { chosenBible ->
                 viewModel.prepareContentFor(
-                        bible = chosenBible,
-                        date = DaysPositionUtil.dayFor(savedPosition).time)
+                    bible = chosenBible,
+                    date = DaysPositionUtil.dayFor(savedPosition).time
+                )
             }
         }
     }

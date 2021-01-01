@@ -8,7 +8,6 @@ import com.google.android.gms.gcm.PeriodicTask
 import com.google.android.gms.gcm.TaskParams
 import de.reiss.bible2net.theword.App
 
-
 class NotificationService : GcmTaskService() {
 
     companion object {
@@ -17,14 +16,15 @@ class NotificationService : GcmTaskService() {
 
         fun schedule(context: Context) {
             GcmNetworkManager.getInstance(context)
-                    .schedule(PeriodicTask.Builder()
-                            .setService(NotificationService::class.java)
-                            .setTag(NOTIFICATION_TAG)
-                            .setPeriod(86400) // 24 hours
-                            .setFlex(3600) // 1 hour
-                            .build())
+                .schedule(
+                    PeriodicTask.Builder()
+                        .setService(NotificationService::class.java)
+                        .setTag(NOTIFICATION_TAG)
+                        .setPeriod(86400) // 24 hours
+                        .setFlex(3600) // 1 hour
+                        .build()
+                )
         }
-
     }
 
     private lateinit var helper: NotificationHelper
@@ -38,5 +38,4 @@ class NotificationService : GcmTaskService() {
         helper.tryShowNotification()
         return RESULT_SUCCESS // avoids rescheduling
     }
-
 }

@@ -7,7 +7,7 @@ import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
 import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.model.TheWordContent
-import java.util.*
+import java.util.Date
 
 open class EditNoteViewModel(private val repository: EditNoteRepository) : ViewModel() {
 
@@ -27,8 +27,8 @@ open class EditNoteViewModel(private val repository: EditNoteRepository) : ViewM
 
     fun note() = loadNoteLiveData().value?.data
 
-    fun isLoadingOrStoring() = loadNoteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
-            || storeNoteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
+    fun isLoadingOrStoring() = loadNoteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING ||
+        storeNoteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
 
     fun loadError() = loadNoteLiveData().value?.loadStatus == AsyncLoadStatus.ERROR
 
@@ -41,14 +41,13 @@ open class EditNoteViewModel(private val repository: EditNoteRepository) : ViewM
         }
     }
 
-    class Factory(private val repository: EditNoteRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: EditNoteRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 
             @Suppress("UNCHECKED_CAST")
             return EditNoteViewModel(repository) as T
         }
-
     }
-
 }

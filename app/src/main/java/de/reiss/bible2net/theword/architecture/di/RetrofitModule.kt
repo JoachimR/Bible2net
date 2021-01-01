@@ -9,24 +9,25 @@ import de.reiss.bible2net.theword.downloader.list.TwdService
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
-import java.util.*
+import java.util.Date
 
 @Module(
-        includes = [
-            OkHttpModule::class
-        ]
+    includes = [
+        OkHttpModule::class
+    ]
 )
 open class RetrofitModule {
 
     @Provides
     @ApplicationScope
     open fun moshi(): Moshi = Moshi.Builder()
-            .add(Date::class.java, Rfc3339DateJsonAdapter())
-            .build()
+        .add(Date::class.java, Rfc3339DateJsonAdapter())
+        .build()
 
     @Provides
     @ApplicationScope
-    open fun retrofit(okHttpClient: OkHttpClient, moshi: Moshi): Retrofit = Retrofit.Builder().baseUrl(BASE_URL)
+    open fun retrofit(okHttpClient: OkHttpClient, moshi: Moshi): Retrofit =
+        Retrofit.Builder().baseUrl(BASE_URL)
             .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()
@@ -34,6 +35,5 @@ open class RetrofitModule {
     @Provides
     @ApplicationScope
     open fun twdService(okHttpClient: OkHttpClient, retrofit: Retrofit): TwdService =
-            retrofit.create(TwdService::class.java)
-
+        retrofit.create(TwdService::class.java)
 }

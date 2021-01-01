@@ -18,16 +18,19 @@ import de.reiss.bible2net.theword.formattedDate
 import de.reiss.bible2net.theword.model.TheWord
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.util.extensions.withZeroDayTime
-import java.util.*
+import java.util.Date
+import java.util.Random
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class NotificationHelper @Inject constructor(private val context: Context,
-                                                  private val notificationManager: NotificationManager,
-                                                  private val executor: Executor,
-                                                  private val appPreferences: AppPreferences,
-                                                  private val theWordItemDao: TheWordItemDao,
-                                                  private val bibleItemDao: BibleItemDao) {
+open class NotificationHelper @Inject constructor(
+    private val context: Context,
+    private val notificationManager: NotificationManager,
+    private val executor: Executor,
+    private val appPreferences: AppPreferences,
+    private val theWordItemDao: TheWordItemDao,
+    private val bibleItemDao: BibleItemDao
+) {
 
     companion object {
 
@@ -35,7 +38,6 @@ open class NotificationHelper @Inject constructor(private val context: Context,
         val NOTIFICATION_CHANNEL_NAME = "Daily Word"
 
         val NOTIFICATION_ID = 7
-
     }
 
     init {
@@ -67,45 +69,57 @@ open class NotificationHelper @Inject constructor(private val context: Context,
     }
 
     private fun createNotification(context: Context, theWord: TheWord) =
-            NotificationCompat.Builder(context, NOTIFICATION_CHANNEL_ID)
-                    .setSmallIcon(R.drawable.ic_daily_word)
-                    .setContentTitle(formattedDate(context, theWord.date.time))
-                    .setStyle(NotificationCompat.BigTextStyle()
-                            .bigText(wordToText(theWord)))
-                    .setLargeIcon(BitmapFactory.decodeResource(
-                            context.resources, R.mipmap.ic_launcher))
-                    .setAutoCancel(true)
-                    .setContentIntent(pendingIntent(context))
-                    .build()
+        NotificationCompat.Builder(context, NOTIFICATION_CHANNEL_ID)
+            .setSmallIcon(R.drawable.ic_daily_word)
+            .setContentTitle(formattedDate(context, theWord.date.time))
+            .setStyle(
+                NotificationCompat.BigTextStyle()
+                    .bigText(wordToText(theWord))
+            )
+            .setLargeIcon(
+                BitmapFactory.decodeResource(
+                    context.resources,
+                    R.mipmap.ic_launcher
+                )
+            )
+            .setAutoCancel(true)
+            .setContentIntent(pendingIntent(context))
+            .build()
 
     private fun pendingIntent(context: Context) =
-            PendingIntent.getActivity(context, createUniqueRequestCode(),
-                    SplashScreenActivity.createIntent(context)
-                            .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP),
-                    PendingIntent.FLAG_UPDATE_CURRENT)
+        PendingIntent.getActivity(
+            context,
+            createUniqueRequestCode(),
+            SplashScreenActivity.createIntent(context)
+                .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP),
+            PendingIntent.FLAG_UPDATE_CURRENT
+        )
 
     private fun createUniqueRequestCode() = Random().nextInt(100)
 
     private fun wordToText(theWord: TheWord) =
-            StringBuilder().apply {
-                append(theWord.content.text1)
-                append(" ")
-                append(theWord.content.ref1)
-                append("\n")
-                append(theWord.content.text2)
-                append(" ")
-                append(theWord.content.ref2)
-            }.toString()
+        StringBuilder().apply {
+            append(theWord.content.text1)
+            append(" ")
+            append(theWord.content.ref1)
+            append("\n")
+            append(theWord.content.text2)
+            append(" ")
+            append(theWord.content.ref2)
+        }.toString()
 
     @RequiresApi(Build.VERSION_CODES.O)
     private fun createNotificationChannel(notificationManager: NotificationManager) {
         notificationManager.createNotificationChannel(
-                NotificationChannel(NOTIFICATION_CHANNEL_ID, NOTIFICATION_CHANNEL_NAME,
-                        NotificationManager.IMPORTANCE_LOW).apply {
-                    enableLights(false)
-                    enableVibration(false)
-                    setShowBadge(false)
-                })
+            NotificationChannel(
+                NOTIFICATION_CHANNEL_ID,
+                NOTIFICATION_CHANNEL_NAME,
+                NotificationManager.IMPORTANCE_LOW
+            ).apply {
+                enableLights(false)
+                enableVibration(false)
+                setShowBadge(false)
+            }
+        )
     }
-
 }

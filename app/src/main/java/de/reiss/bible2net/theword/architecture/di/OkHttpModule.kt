@@ -11,9 +11,9 @@ import okhttp3.OkHttpClient
 import java.io.File
 
 @Module(
-        includes = [
-            ContextModule::class
-        ]
+    includes = [
+        ContextModule::class
+    ]
 )
 open class OkHttpModule {
 
@@ -28,15 +28,14 @@ open class OkHttpModule {
     @Provides
     @ApplicationScope
     open fun cache(cacheFile: File): Cache =
-            Cache(cacheFile, (16 * 1024 * 1024).toLong())
+        Cache(cacheFile, (16 * 1024 * 1024).toLong())
 
     @Provides
     @ApplicationScope
     open fun okHttpClient(context: Context, cache: Cache): OkHttpClient =
-            OkHttpClient.Builder()
-                    .cache(cache)
-                    .addInterceptor(CurlLoggerInterceptor("TheWord"))
-                    .addNetworkInterceptor(UserAgentInterceptor("The Word", appVersion(context)))
-                    .build()
-
+        OkHttpClient.Builder()
+            .cache(cache)
+            .addInterceptor(CurlLoggerInterceptor("TheWord"))
+            .addNetworkInterceptor(UserAgentInterceptor("The Word", appVersion(context)))
+            .build()
 }

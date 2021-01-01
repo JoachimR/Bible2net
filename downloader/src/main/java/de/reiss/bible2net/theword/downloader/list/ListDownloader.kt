@@ -4,8 +4,6 @@ import de.reiss.bible2net.theword.logger.logWarn
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.lang.Exception
-
 
 open class ListDownloader(private val twdService: TwdService) {
 
@@ -24,24 +22,26 @@ open class ListDownloader(private val twdService: TwdService) {
 
     open fun downloadListAsync(callback: DownloadListCallback) {
 
-        twdService.list().enqueue(object : Callback<List<Twd11>> {
+        twdService.list().enqueue(
+            object : Callback<List<Twd11>> {
 
-            override fun onResponse(call: Call<List<Twd11>>,
-                                    response: Response<List<Twd11>>?) {
-                if (response?.isSuccessful == true) {
-                    response.body()?.let {
-                        callback.onListDownloadFinished(success = true, data = it)
-                        return
+                override fun onResponse(
+                    call: Call<List<Twd11>>,
+                    response: Response<List<Twd11>>?
+                ) {
+                    if (response?.isSuccessful == true) {
+                        response.body()?.let {
+                            callback.onListDownloadFinished(success = true, data = it)
+                            return
+                        }
                     }
+                    callback.onListDownloadFinished(success = false)
                 }
-                callback.onListDownloadFinished(success = false)
-            }
 
-            override fun onFailure(call: Call<List<Twd11>>, throwable: Throwable) {
-                callback.onListDownloadFinished(success = false)
+                override fun onFailure(call: Call<List<Twd11>>, throwable: Throwable) {
+                    callback.onListDownloadFinished(success = false)
+                }
             }
-
-        })
+        )
     }
-
 }

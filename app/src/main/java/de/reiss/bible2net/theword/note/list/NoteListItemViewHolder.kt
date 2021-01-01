@@ -1,4 +1,4 @@
-package  de.reiss.bible2net.theword.note.list
+package de.reiss.bible2net.theword.note.list
 
 import android.view.View
 import android.widget.TextView
@@ -8,9 +8,11 @@ import de.reiss.bible2net.theword.util.extensions.onClick
 import de.reiss.bible2net.theword.util.view.ListItemViewHolder
 import de.reiss.bible2net.theword.util.view.StableListItem
 
-class NoteListItemViewHolder(layout: View,
-                             private val noteClickListener: NoteClickListener)
-    : ListItemViewHolder(layout) {
+class NoteListItemViewHolder(
+    layout: View,
+    private val noteClickListener: NoteClickListener
+) :
+    ListItemViewHolder(layout) {
 
     private val context = layout.context
     private val noteDate = layout.findViewById<TextView>(R.id.note_list_item_date)
@@ -33,5 +35,4 @@ class NoteListItemViewHolder(layout: View,
             noteText.text = item.note.noteText
         }
     }
-
 }

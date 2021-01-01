@@ -17,8 +17,11 @@ import de.reiss.bible2net.theword.databinding.NoteListFragmentBinding
 import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.note.details.NoteDetailsActivity
 
-class NoteListFragment : AppFragment<NoteListFragmentBinding, NoteListViewModel>(R.layout.note_list_fragment),
-        NoteClickListener {
+class NoteListFragment :
+    AppFragment<NoteListFragmentBinding, NoteListViewModel>(
+        R.layout.note_list_fragment
+    ),
+    NoteClickListener {
 
     companion object {
         fun createInstance() = NoteListFragment()
@@ -27,7 +30,7 @@ class NoteListFragment : AppFragment<NoteListFragmentBinding, NoteListViewModel>
     private val listItemAdapter = NoteListItemAdapter(noteClickListener = this)
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
-            NoteListFragmentBinding.inflate(inflater, container, false)
+        NoteListFragmentBinding.inflate(inflater, container, false)
 
     override fun initViews() {
         with(binding.noteListRecyclerView) {
@@ -38,16 +41,23 @@ class NoteListFragment : AppFragment<NoteListFragmentBinding, NoteListViewModel>
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, NoteListViewModel.Factory(
-                    App.component.noteListRepository))
+        ViewModelProviders.of(
+            this,
+            NoteListViewModel.Factory(
+                App.component.noteListRepository
+            )
+        )
 
     override fun defineViewModel(): NoteListViewModel =
-            loadViewModelProvider().get(NoteListViewModel::class.java)
+        loadViewModelProvider().get(NoteListViewModel::class.java)
 
     override fun initViewModelObservers() {
-        viewModel.notesLiveData().observe(this, Observer<AsyncLoad<FilteredNotes>> {
-            updateUi()
-        })
+        viewModel.notesLiveData().observe(
+            this,
+            Observer<AsyncLoad<FilteredNotes>> {
+                updateUi()
+            }
+        )
     }
 
     override fun onResume() {
@@ -91,11 +101,11 @@ class NoteListFragment : AppFragment<NoteListFragmentBinding, NoteListViewModel>
                 binding.noteListRecyclerView.visibility = GONE
                 binding.noteListNoNotes.visibility = VISIBLE
                 binding.noteListNoNotesText.text =
-                        if (filteredNotes.allItems.isEmpty()) {
-                            getString(R.string.no_notes)
-                        } else {
-                            getString(R.string.no_notes_for_filter, filteredNotes.query)
-                        }
+                    if (filteredNotes.allItems.isEmpty()) {
+                        getString(R.string.no_notes)
+                    } else {
+                        getString(R.string.no_notes_for_filter, filteredNotes.query)
+                    }
             } else {
                 binding.noteListRecyclerView.visibility = VISIBLE
                 binding.noteListNoNotes.visibility = GONE

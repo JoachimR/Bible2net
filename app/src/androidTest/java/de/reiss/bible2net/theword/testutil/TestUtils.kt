@@ -8,7 +8,12 @@ import android.content.res.Resources
 import android.os.Build
 import android.view.View
 import android.view.WindowManager
-import android.widget.*
+import android.widget.DatePicker
+import android.widget.EditText
+import android.widget.ImageButton
+import android.widget.NumberPicker
+import android.widget.TextView
+import android.widget.TimePicker
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes
 import androidx.annotation.StringRes
@@ -16,10 +21,19 @@ import androidx.appcompat.widget.AppCompatImageButton
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
-import androidx.test.espresso.*
+import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onData
 import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.action.ViewActions.*
+import androidx.test.espresso.Root
+import androidx.test.espresso.UiController
+import androidx.test.espresso.ViewAction
+import androidx.test.espresso.ViewAssertion
+import androidx.test.espresso.ViewInteraction
+import androidx.test.espresso.action.ViewActions.clearText
+import androidx.test.espresso.action.ViewActions.click
+import androidx.test.espresso.action.ViewActions.swipeLeft
+import androidx.test.espresso.action.ViewActions.swipeRight
+import androidx.test.espresso.action.ViewActions.typeText
 import androidx.test.espresso.assertion.ViewAssertions.doesNotExist
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.contrib.PickerActions
@@ -30,7 +44,18 @@ import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
 import androidx.test.espresso.matcher.BoundedMatcher
 import androidx.test.espresso.matcher.RootMatchers
 import androidx.test.espresso.matcher.RootMatchers.isDialog
-import androidx.test.espresso.matcher.ViewMatchers.*
+import androidx.test.espresso.matcher.ViewMatchers.Visibility
+import androidx.test.espresso.matcher.ViewMatchers.hasDescendant
+import androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom
+import androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA
+import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
+import androidx.test.espresso.matcher.ViewMatchers.isEnabled
+import androidx.test.espresso.matcher.ViewMatchers.withClassName
+import androidx.test.espresso.matcher.ViewMatchers.withContentDescription
+import androidx.test.espresso.matcher.ViewMatchers.withEffectiveVisibility
+import androidx.test.espresso.matcher.ViewMatchers.withId
+import androidx.test.espresso.matcher.ViewMatchers.withParent
+import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry
@@ -39,7 +64,12 @@ import com.google.android.material.internal.NavigationMenuView
 import org.hamcrest.BaseMatcher
 import org.hamcrest.Description
 import org.hamcrest.Matcher
-import org.hamcrest.Matchers.*
+import org.hamcrest.Matchers.`is`
+import org.hamcrest.Matchers.allOf
+import org.hamcrest.Matchers.anyOf
+import org.hamcrest.Matchers.endsWith
+import org.hamcrest.Matchers.instanceOf
+import org.hamcrest.Matchers.not
 import org.hamcrest.TypeSafeMatcher
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
@@ -70,12 +100,12 @@ fun clickOnNegativeAlertDialogButton() {
 
 fun assertTextInSnackbar(string: String) {
     onView(allOf(withId(com.google.android.material.R.id.snackbar_text), withText(string)))
-            .check(matches(withEffectiveVisibility(Visibility.VISIBLE)));
+        .check(matches(withEffectiveVisibility(Visibility.VISIBLE)))
 }
 
 fun assertTextInSnackbar(@StringRes stringResId: Int) {
     onView(allOf(withId(com.google.android.material.R.id.snackbar_text), withText(stringResId)))
-            .check(matches(withEffectiveVisibility(Visibility.VISIBLE)));
+        .check(matches(withEffectiveVisibility(Visibility.VISIBLE)))
 }
 
 fun assertSnackbarIsDisplayed() {
@@ -83,58 +113,62 @@ fun assertSnackbarIsDisplayed() {
 }
 
 private fun onSnackbar(): ViewInteraction =
-        onView(withId(com.google.android.material.R.id.snackbar_text))
+    onView(withId(com.google.android.material.R.id.snackbar_text))
 
 fun overflowButtonMatcher(): Matcher<View> {
     return anyOf(
-            withContentDescription("More options"),
-            withClassName(endsWith("OverflowMenuButton")))
+        withContentDescription("More options"),
+        withClassName(endsWith("OverflowMenuButton"))
+    )
 }
 
 fun pickTime(hours: Int, minutes: Int) {
     onView(withClassName(`is`(TimePicker::class.java.name)))
-            .inRoot(isDialog())
-            .perform(PickerActions.setTime(hours, minutes))
+        .inRoot(isDialog())
+        .perform(PickerActions.setTime(hours, minutes))
 
     onView(withId(android.R.id.button1))
-            .inRoot(isDialog())
-            .perform(click())
+        .inRoot(isDialog())
+        .perform(click())
 }
 
 fun pickDate(year: Int, monthOfYear: Int, dayOfMonth: Int) {
     onView(withClassName(`is`(DatePicker::class.java.name)))
-            .inRoot(isDialog())
-            .perform(PickerActions.setDate(year, monthOfYear, dayOfMonth))
+        .inRoot(isDialog())
+        .perform(PickerActions.setDate(year, monthOfYear, dayOfMonth))
 
     onView(withId(android.R.id.button1))
-            .inRoot(isDialog())
-            .perform(click())
+        .inRoot(isDialog())
+        .perform(click())
 }
 
 fun swipeLeftInViewPager(@IdRes viewPagerResId: Int) {
-    onView(withId(viewPagerResId)).perform(swipeLeft());
+    onView(withId(viewPagerResId)).perform(swipeLeft())
 }
 
 fun swipeRightInViewPager(@IdRes viewPagerResId: Int) {
-    onView(withId(viewPagerResId)).perform(swipeRight());
+    onView(withId(viewPagerResId)).perform(swipeRight())
 }
 
 private fun androidHomeMatcher(): Matcher<View> {
     return allOf(
-            withParent(withClassName(`is`(Toolbar::class.java.name))),
-            withClassName(anyOf(
-                    `is`(ImageButton::class.java.name),
-                    `is`(AppCompatImageButton::class.java.name)
-            )))
+        withParent(withClassName(`is`(Toolbar::class.java.name))),
+        withClassName(
+            anyOf(
+                `is`(ImageButton::class.java.name),
+                `is`(AppCompatImageButton::class.java.name)
+            )
+        )
+    )
 }
 
 fun mockActivityIntent(clazz: Class<*>) {
     intending(hasComponent(clazz.name))
-            .respondWith(nullActivityResult())
+        .respondWith(nullActivityResult())
 }
 
 private fun nullActivityResult(): Instrumentation.ActivityResult =
-        Instrumentation.ActivityResult(Activity.RESULT_CANCELED, null)
+    Instrumentation.ActivityResult(Activity.RESULT_CANCELED, null)
 
 fun assertIntendedActivity(clazz: Class<*>) {
     intended(hasComponent(clazz.name))
@@ -144,13 +178,17 @@ fun assertActivityResultOK(activity: Activity) {
     val field = Activity::class.java.getDeclaredField("mResultCode")
     field.isAccessible = true
     val resultCode = field.getInt(activity)
-    assertTrue("The activity result code is not Activity.RESULT_OK.",
-            resultCode == Activity.RESULT_OK)
+    assertTrue(
+        "The activity result code is not Activity.RESULT_OK.",
+        resultCode == Activity.RESULT_OK
+    )
 }
 
 fun scrollToAndClickNavigationDrawerItem(viewMatcher: Matcher<View>) {
     onView(withClassName(`is`(NavigationMenuView::class.java.name)))
-            .perform(RecyclerViewActions.scrollTo<RecyclerView.ViewHolder>(hasDescendant(viewMatcher)))
+        .perform(
+            RecyclerViewActions.scrollTo<RecyclerView.ViewHolder>(hasDescendant(viewMatcher))
+        )
     onView(viewMatcher).perform(click())
 }
 
@@ -220,11 +258,10 @@ fun setNumberPicker(value: Int): ViewAction {
         }
 
         override fun getDescription(): String =
-                "Set the number picker value"
+            "Set the number picker value"
 
         override fun getConstraints(): Matcher<View> =
-                isAssignableFrom(NumberPicker::class.java)
-
+            isAssignableFrom(NumberPicker::class.java)
     }
 }
 
@@ -254,18 +291,21 @@ fun assertDisabled(@IdRes vararg viewResIds: Int) {
 
 fun clickOnItemOnMenuPopupWindow(activity: Activity, text: String) {
     onView(withText(text))
-            .inRoot(RootMatchers.withDecorView(not(`is`(activity.window.decorView))))
-            .perform(click())
+        .inRoot(RootMatchers.withDecorView(not(`is`(activity.window.decorView))))
+        .perform(click())
 }
 
 fun selectItemOnSpinner(@IdRes spinner: Int, @StringRes text: Int) {
-    selectItemOnSpinner(spinner, InstrumentationRegistry.getInstrumentation().targetContext.getString(text))
+    selectItemOnSpinner(
+        spinner,
+        InstrumentationRegistry.getInstrumentation().targetContext.getString(text)
+    )
 }
 
 private fun selectItemOnSpinner(@IdRes spinner: Int, text: String) {
     onData(allOf(`is`(instanceOf<Any>(String::class.java)), `is`(text)))
-            .inAdapterView(withId(spinner))
-            .perform(click())
+        .inAdapterView(withId(spinner))
+        .perform(click())
     Espresso.pressBack()
 }
 
@@ -280,24 +320,30 @@ fun runOnUiThreadAndIdleSync(rule: ActivityTestRule<*>, runnable: Runnable) {
     } catch (throwable: Throwable) {
         throw RuntimeException(throwable)
     }
-
 }
 
-fun onRecyclerView(@IdRes recyclerViewResId: Int,
-                   itemPosition: Int,
-                   @IdRes viewInItem: Int): ViewInteraction {
+fun onRecyclerView(
+    @IdRes recyclerViewResId: Int,
+    itemPosition: Int,
+    @IdRes viewInItem: Int
+): ViewInteraction {
     onView(withId(recyclerViewResId)).perform(
-            RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(itemPosition))
+        RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(itemPosition)
+    )
 
-    return onView(RecyclerViewMatcher.withRecyclerView(recyclerViewResId)
-            .atPositionOnView(itemPosition, viewInItem))
+    return onView(
+        RecyclerViewMatcher.withRecyclerView(recyclerViewResId)
+            .atPositionOnView(itemPosition, viewInItem)
+    )
 }
 
-fun clickOnRecyclerView(@IdRes recyclerViewResId: Int,
-                        itemPosition: Int,
-                        @IdRes viewInItem: Int) {
+fun clickOnRecyclerView(
+    @IdRes recyclerViewResId: Int,
+    itemPosition: Int,
+    @IdRes viewInItem: Int
+) {
     onRecyclerView(recyclerViewResId, itemPosition, viewInItem)
-            .perform(click())
+        .perform(click())
 }
 
 fun assertRecyclerViewEmpty(@IdRes recyclerViewResId: Int) {
@@ -321,8 +367,8 @@ private fun hasItemsCount(count: Int): ViewAssertion {
 fun setEditText(arg: () -> Pair<Int, String>) {
     val pair = arg()
     onView(withId(pair.first))
-            .perform(clearText())
-            .perform(typeText(pair.second))
+        .perform(clearText())
+        .perform(typeText(pair.second))
     Espresso.closeSoftKeyboard()
 }
 
@@ -331,15 +377,21 @@ fun assertTextInputLayoutErrorShown(@LayoutRes view: Int, @StringRes text: Int) 
 }
 
 private fun onErrorFromTextInputLayout(@IdRes textInputLayoutId: Int): ViewInteraction {
-    return onView(allOf(isDescendantOfA(withId(textInputLayoutId)),
+    return onView(
+        allOf(
+            isDescendantOfA(withId(textInputLayoutId)),
             not(isAssignableFrom(EditText::class.java)),
-            isAssignableFrom(TextView::class.java)))
+            isAssignableFrom(TextView::class.java)
+        )
+    )
 }
 
 fun getCurrentFragmentActivity(): FragmentActivity {
     var currentActivity: FragmentActivity? = null
     InstrumentationRegistry.getInstrumentation().runOnMainSync {
-        val resumedActivities = ActivityLifecycleMonitorRegistry.getInstance().getActivitiesInStage(Stage.RESUMED)
+        val resumedActivities = ActivityLifecycleMonitorRegistry.getInstance().getActivitiesInStage(
+            Stage.RESUMED
+        )
         if (resumedActivities.iterator().hasNext()) {
             val next = resumedActivities.iterator().next()
             if (next is FragmentActivity) {
@@ -381,7 +433,6 @@ private fun <T> firstMatch(matcher: Matcher<T>): Matcher<T> {
             description.appendText(matcher.toString())
         }
     }
-
 }
 
 fun assertAlphaValue(@IdRes viewResId: Int, alpha: Float) {
@@ -397,9 +448,7 @@ private fun withAlpha(alpha: Float): Matcher<View> {
         override fun describeTo(description: Description) {
             description.appendText("with alpha value: ")
         }
-
     }
-
 }
 
 enum class AlertDialogButton(@IdRes val resId: Int) {
@@ -420,8 +469,7 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
     companion object {
 
         fun withRecyclerView(recyclerViewId: Int): RecyclerViewMatcher =
-                RecyclerViewMatcher(recyclerViewId)
-
+            RecyclerViewMatcher(recyclerViewId)
     }
 
     fun atPosition(position: Int): Matcher<View> = atPositionOnView(position, -1)
@@ -436,11 +484,11 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
                 var idDescription = Integer.toString(recyclerViewId)
                 resources?.let { resources ->
                     idDescription =
-                            try {
-                                resources.getResourceName(recyclerViewId)
-                            } catch (e: Resources.NotFoundException) {
-                                String.format("%s (resource name not found)", recyclerViewId)
-                            }
+                        try {
+                            resources.getResourceName(recyclerViewId)
+                        } catch (e: Resources.NotFoundException) {
+                            String.format("%s (resource name not found)", recyclerViewId)
+                        }
                 }
                 description.appendText("with id: $idDescription")
             }

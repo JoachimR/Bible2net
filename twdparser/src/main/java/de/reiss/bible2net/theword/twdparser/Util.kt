@@ -1,11 +1,11 @@
 package de.reiss.bible2net.theword.twdparser
 
-
 import android.annotation.SuppressLint
 import de.reiss.bible2net.theword.logger.logWarn
 import java.text.ParseException
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Calendar
+import java.util.Date
 
 @SuppressLint("SimpleDateFormat")
 private fun simpleDateFormat() = SimpleDateFormat("yyyy-MM-dd") // use function for thread safety

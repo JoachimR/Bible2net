@@ -13,9 +13,10 @@ import de.reiss.bible2net.theword.logger.logError
 import de.reiss.bible2net.theword.logger.logWarn
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.util.htmlize
-import java.util.*
+import java.util.ArrayList
 
-class WidgetRemoteViewsFactory(private val context: Context) : RemoteViewsService.RemoteViewsFactory {
+class WidgetRemoteViewsFactory(private val context: Context) :
+    RemoteViewsService.RemoteViewsFactory {
 
     private val list = ArrayList<CharSequence>()
 
@@ -79,17 +80,24 @@ class WidgetRemoteViewsFactory(private val context: Context) : RemoteViewsServic
             else
                 R.id.tv_widget_content_uncentered
 
-            setViewVisibility(R.id.tv_widget_content_centered,
-                    if (widgetCentered) View.VISIBLE else View.GONE)
-            setViewVisibility(R.id.tv_widget_content_uncentered,
-                    if (widgetCentered) View.GONE else View.VISIBLE)
+            setViewVisibility(
+                R.id.tv_widget_content_centered,
+                if (widgetCentered) View.VISIBLE else View.GONE
+            )
+            setViewVisibility(
+                R.id.tv_widget_content_uncentered,
+                if (widgetCentered) View.GONE else View.VISIBLE
+            )
 
             setTextViewText(textView, item)
 
             setTextColor(textView, appPreferences.widgetFontColor())
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                setTextViewTextSize(textView, TypedValue.COMPLEX_UNIT_SP,
-                        appPreferences.widgetFontSize())
+                setTextViewTextSize(
+                    textView,
+                    TypedValue.COMPLEX_UNIT_SP,
+                    appPreferences.widgetFontSize()
+                )
             } else {
                 setFloat(textView, "setTextSize", appPreferences.widgetFontSize())
             }
@@ -100,5 +108,4 @@ class WidgetRemoteViewsFactory(private val context: Context) : RemoteViewsServic
             // background color set in WidgetProvider
         }
     }
-
 }

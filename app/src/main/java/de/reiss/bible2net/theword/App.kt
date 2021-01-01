@@ -14,7 +14,6 @@ open class App : Application() {
 
         @JvmStatic
         lateinit var component: ApplicationComponent
-
     }
 
     override fun onCreate() {
@@ -34,9 +33,8 @@ open class App : Application() {
     }
 
     open fun createComponent(): ApplicationComponent =
-            DaggerApplicationComponent.builder()
-                    .contextModule(ContextModule(this))
-                    .databaseModule(DatabaseModule(this))
-                    .build()
-
+        DaggerApplicationComponent.builder()
+            .contextModule(ContextModule(this))
+            .databaseModule(DatabaseModule(this))
+            .build()
 }

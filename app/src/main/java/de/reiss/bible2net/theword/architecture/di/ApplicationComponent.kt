@@ -20,17 +20,17 @@ import de.reiss.bible2net.theword.widget.WidgetRefresher
 
 @ApplicationScope
 @Component(
-        modules = [
-            ContextModule::class,
-            AndroidModule::class,
-            DatabaseModule::class,
-            PreferenceModule::class,
-            ExecutorModule::class,
-            OkHttpModule::class,
-            RetrofitModule::class,
-            DownloaderModule::class,
-            NotesExportModule::class
-        ]
+    modules = [
+        ContextModule::class,
+        AndroidModule::class,
+        DatabaseModule::class,
+        PreferenceModule::class,
+        ExecutorModule::class,
+        OkHttpModule::class,
+        RetrofitModule::class,
+        DownloaderModule::class,
+        NotesExportModule::class
+    ]
 )
 interface ApplicationComponent {
 
@@ -56,5 +56,4 @@ interface ApplicationComponent {
     val migrateTo127: MigrateTo127
 
     val searchManager: SearchManager
-
 }

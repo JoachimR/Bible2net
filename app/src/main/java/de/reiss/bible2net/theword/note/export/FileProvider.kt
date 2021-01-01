@@ -7,7 +7,7 @@ import java.io.BufferedOutputStream
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
-import java.util.*
+import java.util.Date
 
 open class FileProvider {
 
@@ -17,11 +17,11 @@ open class FileProvider {
 
     open val directory by lazy {
         Environment.getExternalStorageDirectory().toString() +
-                File.separator + directoryName
+            File.separator + directoryName
     }
 
     open fun isExternalStorageWritable() =
-            Environment.MEDIA_MOUNTED == Environment.getExternalStorageState()
+        Environment.MEDIA_MOUNTED == Environment.getExternalStorageState()
 
     open fun createBufferedOutputStream(): BufferedOutputStream? {
         try {
@@ -41,5 +41,4 @@ open class FileProvider {
         file.createNewFile()
         return file
     }
-
 }

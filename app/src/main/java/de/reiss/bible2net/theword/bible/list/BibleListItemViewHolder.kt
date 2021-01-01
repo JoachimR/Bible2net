@@ -8,9 +8,11 @@ import de.reiss.bible2net.theword.util.extensions.onClick
 import de.reiss.bible2net.theword.util.view.ListItemViewHolder
 import de.reiss.bible2net.theword.util.view.StableListItem
 
-class BibleListItemViewHolder(layout: View,
-                              private val bibleClickListener: BibleClickListener)
-    : ListItemViewHolder(layout) {
+class BibleListItemViewHolder(
+    layout: View,
+    private val bibleClickListener: BibleClickListener
+) :
+    ListItemViewHolder(layout) {
 
     private val context = layout.context
     private val language = layout.findViewById<TextView>(R.id.bible_item_language)
@@ -33,5 +35,4 @@ class BibleListItemViewHolder(layout: View,
             bibleName.text = item.bible.bibleName
         }
     }
-
 }

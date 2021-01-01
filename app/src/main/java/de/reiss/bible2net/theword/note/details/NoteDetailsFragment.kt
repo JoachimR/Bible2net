@@ -1,7 +1,11 @@
 package de.reiss.bible2net.theword.note.details
 
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
@@ -16,7 +20,9 @@ import de.reiss.bible2net.theword.note.edit.EditNoteActivity
 import de.reiss.bible2net.theword.util.contentAsString
 import de.reiss.bible2net.theword.util.extensions.showIndefiniteSnackbar
 
-class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsViewModel>(R.layout.note_details_fragment) {
+class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsViewModel>(
+    R.layout.note_details_fragment
+) {
 
     companion object {
         private const val KEY_NOTE = "KEY_NOTE"
@@ -46,42 +52,53 @@ class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsV
     }
 
     override fun onOptionsItemSelected(item: MenuItem) =
-            when (item.itemId) {
-                R.id.menu_note_details_share -> {
-                    onShareClicked()
-                    true
-                }
-                R.id.menu_note_details_edit -> {
-                    onEditClicked()
-                    true
-                }
-                R.id.menu_note_details_delete -> {
-                    onDeleteClicked()
-                    true
-                }
-                else -> super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            R.id.menu_note_details_share -> {
+                onShareClicked()
+                true
             }
+            R.id.menu_note_details_edit -> {
+                onEditClicked()
+                true
+            }
+            R.id.menu_note_details_delete -> {
+                onDeleteClicked()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
-            NoteDetailsFragmentBinding.inflate(inflater, container, false)
+        NoteDetailsFragmentBinding.inflate(inflater, container, false)
 
     override fun initViews() {
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, NoteDetailsViewModel.Factory(
-                    arguments!!.getParcelable(KEY_NOTE)!!, App.component.noteDetailsRepository))
+        ViewModelProviders.of(
+            this,
+            NoteDetailsViewModel.Factory(
+                requireArguments().getParcelable(KEY_NOTE)!!,
+                App.component.noteDetailsRepository
+            )
+        )
 
     override fun defineViewModel(): NoteDetailsViewModel =
-            loadViewModelProvider().get(NoteDetailsViewModel::class.java)
+        loadViewModelProvider().get(NoteDetailsViewModel::class.java)
 
     override fun initViewModelObservers() {
-        viewModel.noteLiveData().observe(this, Observer<AsyncLoad<Note>> {
-            updateUi()
-        })
-        viewModel.deleteLiveData().observe(this, Observer<AsyncLoad<Void>> {
-            updateUi()
-        })
+        viewModel.noteLiveData().observe(
+            this,
+            Observer<AsyncLoad<Note>> {
+                updateUi()
+            }
+        )
+        viewModel.deleteLiveData().observe(
+            this,
+            Observer<AsyncLoad<Void>> {
+                updateUi()
+            }
+        )
     }
 
     override fun onResume() {
@@ -104,20 +121,26 @@ class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsV
     private fun onShareClicked() {
         val context = context ?: return
         val note = viewModel.loadedNote()
-        displayDialog(ShareDialog.createInstance(
+        displayDialog(
+            ShareDialog.createInstance(
                 context = context,
                 time = note.date.time,
                 theWordContent = note.theWordContent,
-                note = note.noteText))
+                note = note.noteText
+            )
+        )
     }
 
     private fun onEditClicked() {
         val activity = activity ?: return
         val note = viewModel.loadedNote()
-        activity.startActivity(EditNoteActivity.createIntent(
+        activity.startActivity(
+            EditNoteActivity.createIntent(
                 context = activity,
                 date = note.date,
-                theWordContent = note.theWordContent))
+                theWordContent = note.theWordContent
+            )
+        )
     }
 
     private fun onDeleteClicked() {
@@ -148,30 +171,30 @@ class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsV
 
                 when {
                     viewModel.errorDeleting() -> showIndefiniteSnackbar(
-                            message = R.string.note_details_error_deleting_note,
-                            action = {
-                                tryDeleteNote()
-                            },
-                            callback = {
-                                viewModel.resetDeleteError()
-                            }
+                        message = R.string.note_details_error_deleting_note,
+                        action = {
+                            tryDeleteNote()
+                        },
+                        callback = {
+                            viewModel.resetDeleteError()
+                        }
                     )
                     viewModel.errorLoading() -> showIndefiniteSnackbar(
-                            message = R.string.note_details_error_reload_note,
-                            action = {
-                                tryLoadNote()
-                            },
-                            callback = {
-                                viewModel.resetLoadError()
-                            }
+                        message = R.string.note_details_error_reload_note,
+                        action = {
+                            tryLoadNote()
+                        },
+                        callback = {
+                            viewModel.resetLoadError()
+                        }
                     )
                     else -> {
                         val note = viewModel.loadedNote()
                         binding.noteDetailsWord.text = contentAsString(
-                                context = context,
-                                time = note.date.time,
-                                theWordContent = note.theWordContent,
-                                note = ""
+                            context = context,
+                            time = note.date.time,
+                            theWordContent = note.theWordContent,
+                            note = ""
                         )
                         binding.noteDetailsNote.text = note.noteText
                     }

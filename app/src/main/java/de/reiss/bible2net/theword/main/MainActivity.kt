@@ -20,7 +20,7 @@ import de.reiss.bible2net.theword.note.list.NoteListActivity
 import de.reiss.bible2net.theword.preferences.AppPreferencesActivity
 import de.reiss.bible2net.theword.util.extensions.findFragmentIn
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
-import java.util.*
+import java.util.Calendar
 
 class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -76,10 +76,10 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
     private fun refreshFragment() {
         if (findFragmentIn(R.id.main_fragment_container) == null) {
             replaceFragmentIn(
-                    container = R.id.main_fragment_container,
-                    fragment = ViewPagerFragment.createInstance(
-                            DaysPositionUtil.positionFor(Calendar.getInstance())
-                    )
+                container = R.id.main_fragment_container,
+                fragment = ViewPagerFragment.createInstance(
+                    DaysPositionUtil.positionFor(Calendar.getInstance())
+                )
             )
         }
     }
@@ -95,11 +95,13 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
     }
 
     private fun initNav() {
-        val toggle = ActionBarDrawerToggle(this,
-                binding.mainDrawer,
-                binding.mainToolbar,
-                R.string.navigation_drawer_open,
-                R.string.navigation_drawer_close)
+        val toggle = ActionBarDrawerToggle(
+            this,
+            binding.mainDrawer,
+            binding.mainToolbar,
+            R.string.navigation_drawer_open,
+            R.string.navigation_drawer_close
+        )
         binding.mainDrawer.addDrawerListener(toggle)
         toggle.syncState()
 

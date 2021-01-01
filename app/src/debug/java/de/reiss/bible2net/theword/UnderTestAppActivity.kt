@@ -15,5 +15,4 @@ class UnderTestAppActivity : AppActivity() {
         setContentView(contentView)
         this.contentView = contentView
     }
-
 }

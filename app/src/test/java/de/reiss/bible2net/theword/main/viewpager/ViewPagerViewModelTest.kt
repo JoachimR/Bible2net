@@ -11,7 +11,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.util.*
+import java.util.Date
 
 @Suppress("IllegalIdentifier")
 class ViewPagerViewModelTest {
@@ -26,7 +26,6 @@ class ViewPagerViewModelTest {
 
     private val date = Date()
 
-
     @Before
     fun setUp() {
         viewModel = ViewPagerViewModel(initialBible = bible, repository = repository)
@@ -40,14 +39,14 @@ class ViewPagerViewModelTest {
         val dateCaptor = argumentCaptor<Date>()
 
         verify(repository).getItemsFor(
-                bible = bibleCaptor.capture(),
-                fromDate = dateCaptor.capture(),
-                toDate = dateCaptor.capture(),
-                result = any())
+            bible = bibleCaptor.capture(),
+            fromDate = dateCaptor.capture(),
+            toDate = dateCaptor.capture(),
+            result = any()
+        )
 
         assertEquals(bible, bibleCaptor.firstValue)
         assertEquals(date.firstDayOfYear(), dateCaptor.firstValue)
         assertEquals(date.lastDayOfYear(), dateCaptor.secondValue)
     }
-
 }

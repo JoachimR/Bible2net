@@ -1,6 +1,6 @@
 package de.reiss.bible2net.theword.events
 
-import java.util.*
+import java.util.Calendar
 
 sealed class AppEventMessage
 

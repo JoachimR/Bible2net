@@ -7,7 +7,6 @@ import de.reiss.bible2net.theword.util.extensions.asDateString
 import java.io.BufferedOutputStream
 import java.io.IOException
 
-
 open class NotesExporter(private val fileProvider: FileProvider) {
 
     open val fileName = fileProvider.fileName
@@ -77,7 +76,6 @@ open class NotesExporter(private val fileProvider: FileProvider) {
             private const val END_ROW = "\n</row>"
             private const val START_COL = "\n<col name='"
             private const val END_COL = "</col>"
-
         }
 
         @Throws(IOException::class)
@@ -122,7 +120,5 @@ open class NotesExporter(private val fileProvider: FileProvider) {
             val stg = START_COL + name + CLOSING_WITH_TICK + value + END_COL
             bufferedOutputStream.write(stg.toByteArray())
         }
-
     }
-
 }

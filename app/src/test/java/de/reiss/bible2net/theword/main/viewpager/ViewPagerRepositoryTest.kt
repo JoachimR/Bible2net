@@ -2,7 +2,12 @@ package de.reiss.bible2net.theword.main.viewpager
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
-import com.nhaarman.mockito_kotlin.*
+import com.nhaarman.mockito_kotlin.any
+import com.nhaarman.mockito_kotlin.mock
+import com.nhaarman.mockito_kotlin.never
+import com.nhaarman.mockito_kotlin.times
+import com.nhaarman.mockito_kotlin.verify
+import com.nhaarman.mockito_kotlin.whenever
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
 import de.reiss.bible2net.theword.database.BibleItem
@@ -21,8 +26,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.util.*
-
+import java.util.Date
 
 @Suppress("IllegalIdentifier")
 class ViewPagerRepositoryTest {
@@ -39,18 +43,19 @@ class ViewPagerRepositoryTest {
     private val fileDownloader = mock<FileDownloader>()
 
     private val bibleItem = BibleItem("testBible", "testBibleName", "testLanguageCode")
-            .apply { id = 1 }
+        .apply { id = 1 }
 
     private val date = Date().withZeroDayTime()
 
     @Before
     fun setUp() {
         repository = ViewPagerRepository(
-                TestExecutor(),
-                listDownloader,
-                fileDownloader,
-                theWordItemDao,
-                bibleItemDao)
+            TestExecutor(),
+            listDownloader,
+            fileDownloader,
+            theWordItemDao,
+            bibleItemDao
+        )
     }
 
     @Test
@@ -60,10 +65,11 @@ class ViewPagerRepositoryTest {
 
         val liveData = MutableLiveData<AsyncLoad<String>>()
         repository.getItemsFor(
-                bible = bibleItem.bible,
-                fromDate = date.firstDayOfYear(),
-                toDate = date.lastDayOfYear(),
-                result = liveData)
+            bible = bibleItem.bible,
+            fromDate = date.firstDayOfYear(),
+            toDate = date.lastDayOfYear(),
+            result = liveData
+        )
         val result = liveData.blockingObserve() ?: throw NullPointerException()
         assertEquals(AsyncLoadStatus.SUCCESS, result.loadStatus)
     }
@@ -113,10 +119,11 @@ class ViewPagerRepositoryTest {
     private fun loadItemsFromRepo() {
         val liveData = MutableLiveData<AsyncLoad<String>>()
         repository.getItemsFor(
-                bible = bibleItem.bible,
-                fromDate = date.firstDayOfYear(),
-                toDate = date.lastDayOfYear(),
-                result = liveData)
+            bible = bibleItem.bible,
+            fromDate = date.firstDayOfYear(),
+            toDate = date.lastDayOfYear(),
+            result = liveData
+        )
         val result = liveData.blockingObserve() ?: throw NullPointerException()
         assertEquals(AsyncLoadStatus.SUCCESS, result.loadStatus)
         assertEquals(bibleItem.bible, result.data)
@@ -124,15 +131,14 @@ class ViewPagerRepositoryTest {
 
     private fun mockTheWordDatabaseResult(result: List<TheWordItem>) {
         whenever(theWordItemDao.range(any(), any(), any()))
-                .thenReturn(result)
+            .thenReturn(result)
 
         whenever(theWordItemDao.all())
-                .thenReturn(result)
+            .thenReturn(result)
     }
 
     private fun mockBibleDatabaseResult(bibleItem: BibleItem) {
         whenever(bibleItemDao.all()).thenReturn(listOf(bibleItem))
         whenever(bibleItemDao.find(any())).thenReturn(bibleItem)
     }
-
 }

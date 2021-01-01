@@ -25,9 +25,9 @@ class BibleActivity : AppCompatActivity() {
     }
 
     private val prefChangedListener: SharedPreferences.OnSharedPreferenceChangeListener =
-            SharedPreferences.OnSharedPreferenceChangeListener { _, _ ->
-                redirectIfBibleChosen()
-            }
+        SharedPreferences.OnSharedPreferenceChangeListener { _, _ ->
+            redirectIfBibleChosen()
+        }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,8 +47,8 @@ class BibleActivity : AppCompatActivity() {
     private fun initFragment() {
         if (findFragmentIn(R.id.bible_fragment_container) == null) {
             replaceFragmentIn(
-                    container = R.id.bible_fragment_container,
-                    fragment = BibleFragment.createInstance()
+                container = R.id.bible_fragment_container,
+                fragment = BibleFragment.createInstance()
             )
         }
     }
@@ -61,5 +61,4 @@ class BibleActivity : AppCompatActivity() {
         }
         return false
     }
-
 }

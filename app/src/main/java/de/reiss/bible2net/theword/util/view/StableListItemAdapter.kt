@@ -1,21 +1,19 @@
 package de.reiss.bible2net.theword.util.view
 
-import androidx.annotation.LayoutRes
-import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import java.lang.IllegalArgumentException
+import androidx.annotation.LayoutRes
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.RecyclerView
 
-
-abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView.Adapter<ListItemViewHolder>() {
+abstract class StableListItemAdapter : RecyclerView.Adapter<ListItemViewHolder>() {
 
     init {
         setHasStableIds(true)
     }
 
-    override final fun setHasStableIds(hasStableIds: Boolean) {
+    final override fun setHasStableIds(hasStableIds: Boolean) {
         if (!hasStableIds) {
             throw IllegalArgumentException("StableListItemAdapter does not allow unstable ids")
         }
@@ -32,7 +30,7 @@ abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView
     }
 
     protected fun inflate(viewGroup: ViewGroup, @LayoutRes layoutResId: Int): View =
-            LayoutInflater.from(viewGroup.context).inflate(layoutResId, viewGroup, false)
+        LayoutInflater.from(viewGroup.context).inflate(layoutResId, viewGroup, false)
 
     override fun getItemId(position: Int): Long = getItem(position).stableId()
 
@@ -44,20 +42,20 @@ abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView
 
     protected fun getItem(position: Int): StableListItem = list[position]
 
-    private class StableDiffCallback(private val oldList: List<StableListItem>,
-                                     private val newList: List<StableListItem>)
-        : DiffUtil.Callback() {
+    private class StableDiffCallback(
+        private val oldList: List<StableListItem>,
+        private val newList: List<StableListItem>
+    ) :
+        DiffUtil.Callback() {
 
         override fun getOldListSize() = oldList.size
 
         override fun getNewListSize() = newList.size
 
         override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int) =
-                oldList[oldItemPosition].stableId() == newList[newItemPosition].stableId()
+            oldList[oldItemPosition].stableId() == newList[newItemPosition].stableId()
 
         override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int) =
-                oldList[oldItemPosition] == newList[newItemPosition]
-
+            oldList[oldItemPosition] == newList[newItemPosition]
     }
-
 }

@@ -10,7 +10,10 @@ import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.whenever
 import de.reiss.bible2net.theword.database.NoteItem
 import de.reiss.bible2net.theword.database.NoteItemDao
-import de.reiss.bible2net.theword.note.export.NoteExportStatus.*
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportError
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportSuccess
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.NoNotes
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.NoPermission
 import de.reiss.bible2net.theword.testutil.TestExecutor
 import de.reiss.bible2net.theword.testutil.sampleNoteItem
 import org.junit.Assert.assertTrue
@@ -97,5 +100,4 @@ class NoteExportRepositoryTest {
         latch.await(2, TimeUnit.SECONDS)
         return value
     }
-
 }

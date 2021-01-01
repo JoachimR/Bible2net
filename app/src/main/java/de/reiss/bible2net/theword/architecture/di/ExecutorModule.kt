@@ -11,5 +11,4 @@ open class ExecutorModule {
     @Provides
     @ApplicationScope
     fun executor(): Executor = Executors.newFixedThreadPool(5)
-
 }

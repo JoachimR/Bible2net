@@ -3,9 +3,9 @@ package de.reiss.bible2net.theword.preferences
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
-import androidx.preference.PreferenceManager
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
+import androidx.preference.PreferenceManager
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.events.FontSizeChanged
 import de.reiss.bible2net.theword.events.postMessageEvent
@@ -39,12 +39,14 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
         }
     }
 
-    private fun isWidgetPref(key: String): Boolean = (key == str(R.string.pref_language_key)
-            || key == str(R.string.pref_widget_fontsize_key)
-            || key == str(R.string.pref_widget_fontcolor_key)
-            || key == str(R.string.pref_widget_backgroundcolor_key)
-            || key == str(R.string.pref_widget_showdate_key)
-            || key == str(R.string.pref_widget_centered_text_key))
+    private fun isWidgetPref(key: String): Boolean = (
+        key == str(R.string.pref_language_key) ||
+            key == str(R.string.pref_widget_fontsize_key) ||
+            key == str(R.string.pref_widget_fontcolor_key) ||
+            key == str(R.string.pref_widget_backgroundcolor_key) ||
+            key == str(R.string.pref_widget_showdate_key) ||
+            key == str(R.string.pref_widget_centered_text_key)
+        )
 
     fun registerListener(listener: OnSharedPreferenceChangeListener) {
         preferences.registerOnSharedPreferenceChangeListener(listener)
@@ -68,50 +70,61 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
         }
 
     fun biblesNeedUpdate() =
-            lastTimeBiblesUpdated < System.currentTimeMillis() - MAX_AGE_BIBLES_LAST_UPDATED
+        lastTimeBiblesUpdated < System.currentTimeMillis() - MAX_AGE_BIBLES_LAST_UPDATED
 
     fun showNotes() = prefBoolean(R.string.pref_shownotes_key, true)
 
     fun shouldShowDailyNotification() =
-            prefBoolean(R.string.pref_show_daily_notification_key, false)
+        prefBoolean(R.string.pref_show_daily_notification_key, false)
 
     fun fontSize() = prefInt(
-            stringRes = R.string.pref_fontsize_key,
-            default = Integer.parseInt(str(R.string.pref_fontsize_max)))
+        stringRes = R.string.pref_fontsize_key,
+        default = Integer.parseInt(str(R.string.pref_fontsize_max))
+    )
 
     fun widgetShowDate() = prefBoolean(R.string.pref_widget_showdate_key, true)
 
-    fun widgetFontColor() = prefInt(R.string.pref_widget_fontcolor_key,
-            ContextCompat.getColor(context, R.color.font_black))
+    fun widgetFontColor() = prefInt(
+        R.string.pref_widget_fontcolor_key,
+        ContextCompat.getColor(context, R.color.font_black)
+    )
 
     fun widgetFontSize() = prefInt(
-            stringRes = R.string.pref_widget_fontsize_key,
-            default = Integer.parseInt(str(R.string.pref_widget_fontsize_default))).toFloat()
+        stringRes = R.string.pref_widget_fontsize_key,
+        default = Integer.parseInt(str(R.string.pref_widget_fontsize_default))
+    ).toFloat()
 
     fun widgetCentered() = prefBoolean(R.string.pref_widget_centered_text_key, true)
 
-    fun widgetBackground(): String = prefString(R.string.pref_widget_backgroundcolor_key,
-            R.string.pref_widget_backgroundcolor_default)!!
+    fun widgetBackground(): String = prefString(
+        R.string.pref_widget_backgroundcolor_key,
+        R.string.pref_widget_backgroundcolor_default
+    )!!
 
     fun changeFontSize(newFontSize: Int) {
         val min = Integer.parseInt(str(R.string.pref_fontsize_min))
         val max = Integer.parseInt(str(R.string.pref_fontsize_max))
-        val changeValue = if (newFontSize < min) min else if (newFontSize > max) max else newFontSize
+        val changeValue = when {
+            newFontSize < min -> min
+            newFontSize > max -> max
+            else -> newFontSize
+        }
         preferences.change {
             putInt(str(R.string.pref_fontsize_key), changeValue)
         }
     }
 
     private fun prefString(@StringRes stringRes: Int, @StringRes defaultStringRes: Int? = null) =
-            preferences.getString(str(stringRes),
-                    if (defaultStringRes != null) str(defaultStringRes) else null)
+        preferences.getString(
+            str(stringRes),
+            if (defaultStringRes != null) str(defaultStringRes) else null
+        )
 
     private fun prefBoolean(@StringRes stringRes: Int, default: Boolean) =
-            preferences.getBoolean(str(stringRes), default)
+        preferences.getBoolean(str(stringRes), default)
 
     private fun prefInt(@StringRes stringRes: Int, default: Int) =
-            preferences.getInt(str(stringRes), default)
+        preferences.getInt(str(stringRes), default)
 
     private fun str(@StringRes stringRes: Int) = context.getString(stringRes)
-
 }

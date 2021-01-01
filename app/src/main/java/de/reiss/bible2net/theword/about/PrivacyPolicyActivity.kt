@@ -10,7 +10,7 @@ class PrivacyPolicyActivity : AppActivity() {
 
     companion object {
         fun createIntent(context: Context): Intent =
-                Intent(context, PrivacyPolicyActivity::class.java)
+            Intent(context, PrivacyPolicyActivity::class.java)
     }
 
     private lateinit var binding: PrivacyPolicyActivityBinding
@@ -22,7 +22,6 @@ class PrivacyPolicyActivity : AppActivity() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        binding.webView.loadUrl("file:///android_asset/privacy_policy.html");
+        binding.webView.loadUrl("file:///android_asset/privacy_policy.html")
     }
-
 }

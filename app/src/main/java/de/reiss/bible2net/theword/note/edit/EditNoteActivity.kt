@@ -10,7 +10,7 @@ import de.reiss.bible2net.theword.model.TheWordContent
 import de.reiss.bible2net.theword.util.extensions.findFragmentIn
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
 import de.reiss.bible2net.theword.util.extensions.withZeroDayTime
-import java.util.*
+import java.util.Date
 
 class EditNoteActivity : AppActivity() {
 
@@ -19,9 +19,9 @@ class EditNoteActivity : AppActivity() {
         private const val KEY_THE_WORD_CONTENT = "KEY_THE_WORD_CONTENT"
 
         fun createIntent(context: Context, date: Date, theWordContent: TheWordContent): Intent =
-                Intent(context, EditNoteActivity::class.java)
-                        .putExtra(KEY_TIME, date.withZeroDayTime().time)
-                        .putExtra(KEY_THE_WORD_CONTENT, theWordContent)
+            Intent(context, EditNoteActivity::class.java)
+                .putExtra(KEY_TIME, date.withZeroDayTime().time)
+                .putExtra(KEY_THE_WORD_CONTENT, theWordContent)
     }
 
     private lateinit var binding: EditNoteActivityBinding
@@ -39,11 +39,12 @@ class EditNoteActivity : AppActivity() {
                 throw IllegalStateException("No time given for note")
             }
             val theWordContent = intent.getParcelableExtra<TheWordContent>(KEY_THE_WORD_CONTENT)
-                    ?: throw IllegalStateException("No word given for note")
+                ?: throw IllegalStateException("No word given for note")
 
             replaceFragmentIn(
-                    container = R.id.edit_note_fragment_container,
-                    fragment = EditNoteFragment.createInstance(time, theWordContent))
+                container = R.id.edit_note_fragment_container,
+                fragment = EditNoteFragment.createInstance(time, theWordContent)
+            )
         }
     }
 }

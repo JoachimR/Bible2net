@@ -16,15 +16,16 @@ import de.reiss.bible2net.theword.twdparser.dateFromString
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-class MigrateTo127 @Inject constructor(val context: Context,
-                                       val executor: Executor,
-                                       val noteItemDao: NoteItemDao,
-                                       val appPreferences: AppPreferences) {
+class MigrateTo127 @Inject constructor(
+    val context: Context,
+    val executor: Executor,
+    val noteItemDao: NoteItemDao,
+    val appPreferences: AppPreferences
+) {
 
     companion object {
 
-        const val migrateKey = "PERFORMED_MIGRATION_TO_127";
-
+        const val migrateKey = "PERFORMED_MIGRATION_TO_127"
     }
 
     fun migrateIfNeeded() {
@@ -80,22 +81,24 @@ class MigrateTo127 @Inject constructor(val context: Context,
                 // a note in the new database for this date
                 val item = noteItemDao.byDate(date)
                 if (item == null) {
-                    val noteItem = NoteItem(date,
-                            cursor.getString(cursor.getColumnIndex("book1")),
-                            cursor.getString(cursor.getColumnIndex("chapter1")),
-                            cursor.getString(cursor.getColumnIndex("verse1")),
-                            cursor.getString(cursor.getColumnIndex("id1")),
-                            cursor.getString(cursor.getColumnIndex("intro1")),
-                            cursor.getString(cursor.getColumnIndex("text1")),
-                            cursor.getString(cursor.getColumnIndex("ref1")),
-                            cursor.getString(cursor.getColumnIndex("book2")),
-                            cursor.getString(cursor.getColumnIndex("chapter2")),
-                            cursor.getString(cursor.getColumnIndex("verse2")),
-                            cursor.getString(cursor.getColumnIndex("id2")),
-                            cursor.getString(cursor.getColumnIndex("intro2")),
-                            cursor.getString(cursor.getColumnIndex("text2")),
-                            cursor.getString(cursor.getColumnIndex("ref2")),
-                            cursor.getString(cursor.getColumnIndex("note")))
+                    val noteItem = NoteItem(
+                        date,
+                        cursor.getString(cursor.getColumnIndex("book1")),
+                        cursor.getString(cursor.getColumnIndex("chapter1")),
+                        cursor.getString(cursor.getColumnIndex("verse1")),
+                        cursor.getString(cursor.getColumnIndex("id1")),
+                        cursor.getString(cursor.getColumnIndex("intro1")),
+                        cursor.getString(cursor.getColumnIndex("text1")),
+                        cursor.getString(cursor.getColumnIndex("ref1")),
+                        cursor.getString(cursor.getColumnIndex("book2")),
+                        cursor.getString(cursor.getColumnIndex("chapter2")),
+                        cursor.getString(cursor.getColumnIndex("verse2")),
+                        cursor.getString(cursor.getColumnIndex("id2")),
+                        cursor.getString(cursor.getColumnIndex("intro2")),
+                        cursor.getString(cursor.getColumnIndex("text2")),
+                        cursor.getString(cursor.getColumnIndex("ref2")),
+                        cursor.getString(cursor.getColumnIndex("note"))
+                    )
                     noteItemDao.insertOrReplace(noteItem)
                 }
             }
@@ -105,11 +108,11 @@ class MigrateTo127 @Inject constructor(val context: Context,
     private fun cleanOldPreferences(preferences: SharedPreferences) {
         val edit = preferences.edit()
         preferences.all
-                .map { it.key }
-                .filter { keysAfterMigration.contains(it).not() }
-                .forEach {
-                    edit.remove(it)
-                }
+            .map { it.key }
+            .filter { keysAfterMigration.contains(it).not() }
+            .forEach {
+                edit.remove(it)
+            }
         edit.apply()
     }
 
@@ -142,8 +145,10 @@ class MigrateTo127 @Inject constructor(val context: Context,
 
         preferences.getString("pref_widget_fontsize_key", null)?.let {
             try {
-                edit.putInt(context.getString(R.string.pref_widget_fontsize_key),
-                        Integer.parseInt(it))
+                edit.putInt(
+                    context.getString(R.string.pref_widget_fontsize_key),
+                    Integer.parseInt(it)
+                )
             } catch (e: Exception) {
                 logError(e) { "error when trying to migrate widget font size" }
             }
@@ -159,12 +164,14 @@ class MigrateTo127 @Inject constructor(val context: Context,
         }
 
         preferences.getString("pref_widget_backgroundcolor_key", null)?.let {
-            edit.putString(context.getString(R.string.pref_widget_backgroundcolor_key),
-                    if (it == "border_content_transparent") {
-                        context.getString(R.string.pref_widget_backgroundcolor_default)
-                    } else {
-                        it
-                    })
+            edit.putString(
+                context.getString(R.string.pref_widget_backgroundcolor_key),
+                if (it == "border_content_transparent") {
+                    context.getString(R.string.pref_widget_backgroundcolor_default)
+                } else {
+                    it
+                }
+            )
         }
 
         preferences.getBoolean("pref_widget_centered_text_key", true).let {
@@ -180,17 +187,17 @@ class MigrateTo127 @Inject constructor(val context: Context,
 
     private val keysAfterMigration: List<String> by lazy {
         listOf<String>(
-                migrateKey,
-                context.getString(R.string.pref_theme_key),
-                context.getString(R.string.pref_language_key),
-                context.getString(R.string.pref_fontsize_key),
-                context.getString(R.string.pref_shownotes_key),
-                context.getString(R.string.pref_widget_backgroundcolor_key),
-                context.getString(R.string.pref_widget_fontcolor_key),
-                context.getString(R.string.pref_widget_fontsize_key),
-                context.getString(R.string.pref_widget_showdate_key),
-                context.getString(R.string.pref_widget_centered_text_key),
-                context.getString(R.string.pref_show_daily_notification_key)
+            migrateKey,
+            context.getString(R.string.pref_theme_key),
+            context.getString(R.string.pref_language_key),
+            context.getString(R.string.pref_fontsize_key),
+            context.getString(R.string.pref_shownotes_key),
+            context.getString(R.string.pref_widget_backgroundcolor_key),
+            context.getString(R.string.pref_widget_fontcolor_key),
+            context.getString(R.string.pref_widget_fontsize_key),
+            context.getString(R.string.pref_widget_showdate_key),
+            context.getString(R.string.pref_widget_centered_text_key),
+            context.getString(R.string.pref_show_daily_notification_key)
         )
     }
 
@@ -203,13 +210,43 @@ class MigrateTo127 @Inject constructor(val context: Context,
         override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
         }
 
-        fun cursorForAll(): Cursor = readableDatabase.query("notes", null, null, null, null, null, null)
+        fun cursorForAll(): Cursor = readableDatabase.query(
+            "notes",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        )
 
-        private val createTableStatement = "CREATE TABLE notes ( __id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT NOT NULL, language TEXT NOT NULL, book1 TEXT NOT NULL, chapter1 TEXT NOT NULL, verse1 TEXT NOT NULL, id1 TEXT NOT NULL, intro1 TEXT NOT NULL, text1 TEXT NOT NULL, ref1 TEXT NOT NULL, book2 TEXT NOT NULL, chapter2 TEXT NOT NULL, verse2 TEXT NOT NULL, id2 TEXT NOT NULL, intro2 TEXT NOT NULL, text2 TEXT NOT NULL, ref2 TEXT NOT NULL, note TEXT NOT NULL );"
-
+        private val createTableStatement = "CREATE TABLE notes " +
+            "( " +
+            "__id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+            "date TEXT NOT NULL, language TEXT NOT NULL, " +
+            "book1 TEXT NOT NULL, chapter1 TEXT NOT NULL, " +
+            "verse1 TEXT NOT NULL, " +
+            "id1 TEXT NOT NULL, " +
+            "intro1 TEXT NOT NULL, " +
+            "text1 TEXT NOT NULL, " +
+            "ref1 TEXT NOT NULL, " +
+            "book2 TEXT NOT NULL, " +
+            "chapter2 TEXT NOT NULL, " +
+            "verse2 TEXT NOT NULL, " +
+            "id2 TEXT NOT NULL, " +
+            "intro2 TEXT NOT NULL, " +
+            "text2 TEXT NOT NULL, " +
+            "ref2 TEXT NOT NULL, " +
+            "note TEXT NOT NULL " +
+            ");"
     }
 
-    class WordsDbCommunicator(context: Context) : SQLiteOpenHelper(context, "worddb2017v4", null, 18) {
+    class WordsDbCommunicator(context: Context) : SQLiteOpenHelper(
+        context,
+        "worddb2017v4",
+        null,
+        18
+    ) {
 
         override fun onCreate(db: SQLiteDatabase) {
             writableDatabase.execSQL(createTableStatement)
@@ -222,7 +259,26 @@ class MigrateTo127 @Inject constructor(val context: Context,
             writableDatabase.delete("thewords", null, null)
         }
 
-        private val createTableStatement = "CREATE TABLE thewords ( __id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT NOT NULL, language TEXT NOT NULL, book1 TEXT NOT NULL, chapter1 TEXT NOT NULL, verse1 TEXT NOT NULL, id1 TEXT NOT NULL, intro1 TEXT NOT NULL, text1 TEXT NOT NULL, ref1 TEXT NOT NULL, book2 TEXT NOT NULL, chapter2 TEXT NOT NULL, verse2 TEXT NOT NULL, id2 TEXT NOT NULL, intro2 TEXT NOT NULL, text2 TEXT NOT NULL, ref2 TEXT NOT NULL )  ; "
+        private val createTableStatement =
+            "CREATE TABLE thewords " +
+                "( " +
+                "__id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "date TEXT NOT NULL, " +
+                "language TEXT NOT NULL, " +
+                "book1 TEXT NOT NULL, " +
+                "chapter1 TEXT NOT NULL, " +
+                "verse1 TEXT NOT NULL, " +
+                "id1 TEXT NOT NULL, " +
+                "intro1 TEXT NOT NULL, " +
+                "text1 TEXT NOT NULL, " +
+                "ref1 TEXT NOT NULL, " +
+                "book2 TEXT NOT NULL, " +
+                "chapter2 TEXT NOT NULL, " +
+                "verse2 TEXT NOT NULL, " +
+                "id2 TEXT NOT NULL, " +
+                "intro2 TEXT NOT NULL, " +
+                "text2 TEXT NOT NULL, " +
+                "ref2 TEXT NOT NULL " +
+                "); "
     }
-
 }

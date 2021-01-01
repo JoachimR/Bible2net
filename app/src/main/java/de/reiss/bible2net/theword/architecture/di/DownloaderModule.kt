@@ -8,21 +8,20 @@ import de.reiss.bible2net.theword.downloader.list.TwdService
 import okhttp3.OkHttpClient
 
 @Module(
-        includes = [
-            OkHttpModule::class,
-            RetrofitModule::class
-        ]
+    includes = [
+        OkHttpModule::class,
+        RetrofitModule::class
+    ]
 )
 open class DownloaderModule {
 
     @Provides
     @ApplicationScope
     open fun fileDownloader(okHttpClient: OkHttpClient): FileDownloader =
-            FileDownloader(okHttpClient)
+        FileDownloader(okHttpClient)
 
     @Provides
     @ApplicationScope
     open fun listDownloader(twdService: TwdService): ListDownloader =
-            ListDownloader(twdService)
-
+        ListDownloader(twdService)
 }

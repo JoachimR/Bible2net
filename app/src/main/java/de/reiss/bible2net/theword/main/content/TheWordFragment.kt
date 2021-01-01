@@ -1,9 +1,13 @@
 package de.reiss.bible2net.theword.main.content
 
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View.GONE
 import android.view.View.VISIBLE
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
@@ -24,12 +28,19 @@ import de.reiss.bible2net.theword.note.edit.EditNoteActivity
 import de.reiss.bible2net.theword.preferences.AppPreferences
 import de.reiss.bible2net.theword.preferences.AppPreferencesActivity
 import de.reiss.bible2net.theword.util.copyToClipboard
-import de.reiss.bible2net.theword.util.extensions.*
+import de.reiss.bible2net.theword.util.extensions.onClick
+import de.reiss.bible2net.theword.util.extensions.registerToEventBus
+import de.reiss.bible2net.theword.util.extensions.showShortSnackbar
+import de.reiss.bible2net.theword.util.extensions.textOrHide
+import de.reiss.bible2net.theword.util.extensions.unregisterFromEventBus
+import de.reiss.bible2net.theword.util.extensions.visibleElseGone
 import de.reiss.bible2net.theword.util.htmlize
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
-class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(R.layout.the_word_fragment) {
+class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(
+    R.layout.the_word_fragment
+) {
 
     companion object {
         private const val KEY_POSITION = "KEY_POSITION"
@@ -67,21 +78,21 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(R.
     }
 
     override fun onOptionsItemSelected(item: MenuItem) =
-            when (item.itemId) {
-                R.id.menu_share -> {
-                    share()
-                    true
-                }
-                R.id.menu_font_size -> {
-                    displayDialog(FontSizePreferenceDialog.createInstance())
-                    true
-                }
-                R.id.menu_date_pick -> {
-                    displayDialog(ChooseDayDialog.createInstance(position))
-                    true
-                }
-                else -> super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            R.id.menu_share -> {
+                share()
+                true
             }
+            R.id.menu_font_size -> {
+                displayDialog(FontSizePreferenceDialog.createInstance())
+                true
+            }
+            R.id.menu_date_pick -> {
+                displayDialog(ChooseDayDialog.createInstance(position))
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
 
     override fun onStart() {
         super.onStart()
@@ -95,41 +106,49 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(R.
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, TheWordViewModel.Factory(
-                    App.component.theWordRepository))
+        ViewModelProviders.of(
+            this,
+            TheWordViewModel.Factory(
+                App.component.theWordRepository
+            )
+        )
 
     override fun defineViewModel(): TheWordViewModel =
-            loadViewModelProvider().get(TheWordViewModel::class.java)
+        loadViewModelProvider().get(TheWordViewModel::class.java)
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
-            TheWordFragmentBinding.inflate(inflater, container, false)
+        TheWordFragmentBinding.inflate(inflater, container, false)
 
     override fun initViews() {
         with(binding.emptyRoot) {
             tryDownload.onClick {
                 appPreferences.chosenBible?.let { chosenBible ->
-                    postMessageEvent(TwdDownloadRequested(
+                    postMessageEvent(
+                        TwdDownloadRequested(
                             bible = chosenBible,
                             year = DaysPositionUtil.dayFor(position)
-                    ))
+                        )
+                    )
                 }
             }
             changeTranslation.onClick {
                 activity?.let {
                     it.startActivity(AppPreferencesActivity.createIntent(it))
                 }
-            }            
+            }
         }
-        
+
         with(binding.contentRoot) {
             noteEdit.onClick {
                 viewModel.theWord()?.let { theWord ->
                     activity?.let {
-                        it.startActivity(EditNoteActivity.createIntent(
+                        it.startActivity(
+                            EditNoteActivity.createIntent(
                                 context = it,
                                 date = theWord.date,
                                 theWordContent = theWord.content
-                        ))
+                            )
+                        )
                     }
                 }
             }
@@ -161,12 +180,8 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(R.
     }
 
     override fun initViewModelObservers() {
-        viewModel.theWordLiveData().observe(this, Observer<AsyncLoad<TheWord>> {
-            updateUi()
-        })
-        viewModel.noteLiveData().observe(this, Observer<AsyncLoad<Note>> {
-            updateUi()
-        })
+        viewModel.theWordLiveData().observe(this, { updateUi() })
+        viewModel.noteLiveData().observe(this, { updateUi() })
     }
 
     private fun updateUi() {
@@ -200,7 +215,6 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(R.
                     text2.text = htmlize(theWord.content.text2)
                     ref2.text = theWord.content.ref2
                 }
-
             }
         }
 
@@ -251,12 +265,14 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(R.
     private fun share() {
         context?.let { context ->
             viewModel.theWord()?.let { theWord ->
-                displayDialog(ShareDialog.createInstance(
+                displayDialog(
+                    ShareDialog.createInstance(
                         context = context,
                         time = theWord.date.time,
                         theWordContent = theWord.content,
                         note = viewModel.note()?.noteText ?: ""
-                ))
+                    )
+                )
             }
         }
     }

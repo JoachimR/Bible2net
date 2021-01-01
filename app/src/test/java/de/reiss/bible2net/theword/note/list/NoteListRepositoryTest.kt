@@ -15,7 +15,6 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
-
 @Suppress("IllegalIdentifier")
 class NoteListRepositoryTest {
 
@@ -89,5 +88,4 @@ class NoteListRepositoryTest {
         repository.getAllNotes(result = liveData)
         return liveData.blockingObserve() ?: throw NullPointerException()
     }
-
 }

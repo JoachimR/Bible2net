@@ -6,7 +6,6 @@ import de.reiss.bible2net.theword.util.view.StableListItem
 object NoteListBuilder {
 
     fun buildList(notes: List<Note>): List<StableListItem> = notes
-            .sortedBy { it.date }
-            .map { NoteListItem(it) }
-
+        .sortedBy { it.date }
+        .map { NoteListItem(it) }
 }

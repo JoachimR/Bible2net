@@ -16,8 +16,8 @@ class NoteDetailsActivity : AppActivity(), ConfirmDeleteDialog.Listener {
         private const val KEY_NOTE = "KEY_NOTE"
 
         fun createIntent(context: Context, note: Note): Intent =
-                Intent(context, NoteDetailsActivity::class.java)
-                        .putExtra(KEY_NOTE, note)
+            Intent(context, NoteDetailsActivity::class.java)
+                .putExtra(KEY_NOTE, note)
     }
 
     private lateinit var binding: NoteDetailsActivityBinding
@@ -31,9 +31,10 @@ class NoteDetailsActivity : AppActivity(), ConfirmDeleteDialog.Listener {
 
         if (findNoteDetailsFragment() == null) {
             replaceFragmentIn(
-                    container = R.id.note_details_fragment,
-                    fragment = NoteDetailsFragment.createInstance(
-                            intent.getParcelableExtra(KEY_NOTE))
+                container = R.id.note_details_fragment,
+                fragment = NoteDetailsFragment.createInstance(
+                    intent.getParcelableExtra(KEY_NOTE)
+                )
             )
         }
     }
@@ -43,6 +44,5 @@ class NoteDetailsActivity : AppActivity(), ConfirmDeleteDialog.Listener {
     }
 
     private fun findNoteDetailsFragment() =
-            findFragmentIn(R.id.note_details_fragment) as? NoteDetailsFragment
-
+        findFragmentIn(R.id.note_details_fragment) as? NoteDetailsFragment
 }

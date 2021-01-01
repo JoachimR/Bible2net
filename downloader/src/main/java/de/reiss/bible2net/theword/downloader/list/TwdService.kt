@@ -5,7 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Url
 
-
 interface TwdService {
 
     @GET("twd11/?format=json")
@@ -13,5 +12,4 @@ interface TwdService {
 
     @GET
     fun downloadTwd(@Url fileUrl: String): Call<ResponseBody>
-
 }

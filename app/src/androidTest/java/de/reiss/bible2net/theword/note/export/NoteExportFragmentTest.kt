@@ -5,8 +5,17 @@ import com.nhaarman.mockito_kotlin.any
 import com.nhaarman.mockito_kotlin.doReturn
 import com.nhaarman.mockito_kotlin.mock
 import de.reiss.bible2net.theword.R
-import de.reiss.bible2net.theword.note.export.NoteExportStatus.*
-import de.reiss.bible2net.theword.testutil.*
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportError
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportSuccess
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.Exporting
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.NoNotes
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.NoPermission
+import de.reiss.bible2net.theword.testutil.FragmentTest
+import de.reiss.bible2net.theword.testutil.assertDisabled
+import de.reiss.bible2net.theword.testutil.assertDisplayed
+import de.reiss.bible2net.theword.testutil.assertEnabled
+import de.reiss.bible2net.theword.testutil.assertNotDisplayed
+import de.reiss.bible2net.theword.testutil.assertTextInSnackbar
 import org.junit.Before
 import org.junit.Test
 
@@ -19,11 +28,11 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
     }
 
     override fun createFragment(): NoteExportFragment = NoteExportFragment.createInstance()
-            .apply {
-                viewModelProvider = mock {
-                    on { get(any<Class<NoteExportViewModel>>()) } doReturn mockedViewModel
-                }
+        .apply {
+            viewModelProvider = mock {
+                on { get(any<Class<NoteExportViewModel>>()) } doReturn mockedViewModel
             }
+        }
 
     @Before
     fun setUp() {
@@ -77,5 +86,4 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
         assertEnabled(R.id.note_export_start)
         assertTextInSnackbar(activity.getString(R.string.notes_export_success, directory, fileName))
     }
-
 }

@@ -16,7 +16,9 @@ import de.reiss.bible2net.theword.databinding.BibleFragmentBinding
 import de.reiss.bible2net.theword.model.Bible
 import de.reiss.bible2net.theword.util.extensions.onClick
 
-class BibleFragment : AppFragment<BibleFragmentBinding, BibleViewModel>(R.layout.bible_fragment), BibleClickListener {
+class BibleFragment :
+    AppFragment<BibleFragmentBinding, BibleViewModel>(R.layout.bible_fragment),
+    BibleClickListener {
 
     companion object {
         fun createInstance() = BibleFragment()
@@ -29,7 +31,7 @@ class BibleFragment : AppFragment<BibleFragmentBinding, BibleViewModel>(R.layout
     private lateinit var bibleListItemAdapter: BibleListItemAdapter
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
-            BibleFragmentBinding.inflate(inflater, container, false)
+        BibleFragmentBinding.inflate(inflater, container, false)
 
     override fun initViews() {
         bibleListItemAdapter = BibleListItemAdapter(bibleClickListener = this)
@@ -45,11 +47,15 @@ class BibleFragment : AppFragment<BibleFragmentBinding, BibleViewModel>(R.layout
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, BibleViewModel.Factory(
-                    App.component.bibleRepository))
+        ViewModelProviders.of(
+            this,
+            BibleViewModel.Factory(
+                App.component.bibleRepository
+            )
+        )
 
     override fun defineViewModel(): BibleViewModel =
-            loadViewModelProvider().get(BibleViewModel::class.java)
+        loadViewModelProvider().get(BibleViewModel::class.java)
 
     override fun initViewModelObservers() {
         viewModel.biblesLiveData.observe(this, { onResourceChange() })

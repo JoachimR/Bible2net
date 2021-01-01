@@ -1,6 +1,6 @@
 package de.reiss.bible2net.theword.util.extensions
 
-import java.util.*
+import java.util.Calendar
 
 fun Calendar.minDateTime() {
     set(Calendar.HOUR_OF_DAY, 0)

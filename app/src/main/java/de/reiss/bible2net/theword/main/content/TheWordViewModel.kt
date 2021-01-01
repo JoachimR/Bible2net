@@ -7,7 +7,7 @@ import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.architecture.AsyncLoadStatus
 import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.model.TheWord
-import java.util.*
+import java.util.Date
 
 open class TheWordViewModel(private val repository: TheWordRepository) : ViewModel() {
 
@@ -34,14 +34,13 @@ open class TheWordViewModel(private val repository: TheWordRepository) : ViewMod
 
     fun isLoadingNote() = noteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
 
-    class Factory(private val repository: TheWordRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: TheWordRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 
             @Suppress("UNCHECKED_CAST")
             return TheWordViewModel(repository) as T
         }
-
     }
-
 }

@@ -26,12 +26,12 @@ class ViewPagerFragmentTest : FragmentTest<ViewPagerFragment>() {
     }
 
     override fun createFragment(): ViewPagerFragment =
-            ViewPagerFragment.createInstance()
-                    .apply {
-                        viewModelProvider = mock {
-                            on { get(any<Class<ViewPagerViewModel>>()) } doReturn mockedViewModel
-                        }
-                    }
+        ViewPagerFragment.createInstance()
+            .apply {
+                viewModelProvider = mock {
+                    on { get(any<Class<ViewPagerViewModel>>()) } doReturn mockedViewModel
+                }
+            }
 
     @Before
     fun setUp() {
@@ -54,5 +54,4 @@ class ViewPagerFragmentTest : FragmentTest<ViewPagerFragment>() {
         assertDisplayed(R.id.view_pager)
         assertNotDisplayed(R.id.view_pager_loading)
     }
-
 }

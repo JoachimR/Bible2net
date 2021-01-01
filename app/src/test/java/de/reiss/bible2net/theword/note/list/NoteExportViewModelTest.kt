@@ -34,5 +34,4 @@ class NoteExportViewModelTest {
         viewModel.applyNewFilter(query)
         verify(repository).applyNewFilter(eq(query), any())
     }
-
 }

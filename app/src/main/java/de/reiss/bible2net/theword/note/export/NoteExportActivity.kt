@@ -13,7 +13,7 @@ class NoteExportActivity : AppActivity() {
 
     companion object {
         fun createIntent(context: Context): Intent =
-                Intent(context, NoteExportActivity::class.java)
+            Intent(context, NoteExportActivity::class.java)
     }
 
     private lateinit var binding: NoteExportActivityBinding
@@ -27,9 +27,9 @@ class NoteExportActivity : AppActivity() {
 
         if (findFragmentIn(R.id.note_export_fragment) == null) {
             replaceFragmentIn(
-                    container = R.id.note_export_fragment,
-                    fragment = NoteExportFragment.createInstance())
+                container = R.id.note_export_fragment,
+                fragment = NoteExportFragment.createInstance()
+            )
         }
     }
-
 }

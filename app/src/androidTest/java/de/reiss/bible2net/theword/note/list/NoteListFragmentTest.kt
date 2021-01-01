@@ -9,7 +9,12 @@ import com.nhaarman.mockito_kotlin.mock
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.model.Note
-import de.reiss.bible2net.theword.testutil.*
+import de.reiss.bible2net.theword.testutil.FragmentTest
+import de.reiss.bible2net.theword.testutil.assertDisplayed
+import de.reiss.bible2net.theword.testutil.assertNotDisplayed
+import de.reiss.bible2net.theword.testutil.assertRecyclerViewItemsCount
+import de.reiss.bible2net.theword.testutil.onRecyclerView
+import de.reiss.bible2net.theword.testutil.sampleNote
 import org.junit.Before
 import org.junit.Test
 
@@ -22,12 +27,12 @@ class NoteListFragmentTest : FragmentTest<NoteListFragment>() {
     }
 
     override fun createFragment(): NoteListFragment =
-            NoteListFragment.createInstance()
-                    .apply {
-                        viewModelProvider = mock {
-                            on { get(any<Class<NoteListViewModel>>()) } doReturn mockedViewModel
-                        }
-                    }
+        NoteListFragment.createInstance()
+            .apply {
+                viewModelProvider = mock {
+                    on { get(any<Class<NoteListViewModel>>()) } doReturn mockedViewModel
+                }
+            }
 
     @Before
     fun setUp() {
@@ -81,10 +86,10 @@ class NoteListFragmentTest : FragmentTest<NoteListFragment>() {
 
     private fun assertNoteIsDisplayedAt(note: Note, index: Int) {
         onRecyclerView(
-                recyclerViewResId = R.id.note_list_recycler_view,
-                itemPosition = index,
-                viewInItem = R.id.note_list_item_text)
-                .check(matches(withText(note.noteText)))
+            recyclerViewResId = R.id.note_list_recycler_view,
+            itemPosition = index,
+            viewInItem = R.id.note_list_item_text
+        )
+            .check(matches(withText(note.noteText)))
     }
-
 }

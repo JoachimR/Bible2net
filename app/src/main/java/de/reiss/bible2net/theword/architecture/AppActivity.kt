@@ -1,8 +1,8 @@
 package de.reiss.bible2net.theword.architecture
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import de.reiss.bible2net.theword.App
 
 abstract class AppActivity : AppCompatActivity() {
@@ -19,5 +19,4 @@ abstract class AppActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
-
 }

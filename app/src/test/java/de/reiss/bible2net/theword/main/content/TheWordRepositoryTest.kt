@@ -26,7 +26,7 @@ import org.junit.Assert.assertNull
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.util.*
+import java.util.Date
 
 @Suppress("IllegalIdentifier")
 class TheWordRepositoryTest {
@@ -43,7 +43,7 @@ class TheWordRepositoryTest {
     private val appPreferences: AppPreferences = mock()
 
     private val bibleItem = BibleItem("testBible", "testBibleName", "testLanguageCode")
-            .apply { id = 1 }
+        .apply { id = 1 }
 
     private val date = Date().withZeroDayTime()
 
@@ -53,19 +53,19 @@ class TheWordRepositoryTest {
         whenever(bibleItemDao.find(any())).thenReturn(bibleItem)
 
         repository = TheWordRepository(
-                executor = TestExecutor(),
-                bibleListUpdater = bibleListUpdater,
-                theWordItemDao = theWordItemDao,
-                bibleItemDao = bibleItemDao,
-                noteItemDao = noteItemDao,
-                appPreferences = appPreferences)
+            executor = TestExecutor(),
+            bibleListUpdater = bibleListUpdater,
+            theWordItemDao = theWordItemDao,
+            bibleItemDao = bibleItemDao,
+            noteItemDao = noteItemDao,
+            appPreferences = appPreferences
+        )
     }
 
     @Test
     fun `when bible not found return error with message`() {
         whenever(bibleItemDao.find(any()))
-                .thenReturn(null)
-
+            .thenReturn(null)
 
         val result = loadTheWordFromRepo()
 
@@ -76,8 +76,7 @@ class TheWordRepositoryTest {
     @Test
     fun `when word not found return error with message`() {
         whenever(theWordItemDao.byDate(any(), any()))
-                .thenReturn(null)
-
+            .thenReturn(null)
 
         val result = loadTheWordFromRepo()
 
@@ -90,7 +89,7 @@ class TheWordRepositoryTest {
         val item = sampleTheWordItem(number = 0, bibleId = bibleItem.id)
 
         whenever(theWordItemDao.byDate(any(), any()))
-                .thenReturn(item)
+            .thenReturn(item)
 
         val result = loadTheWordFromRepo()
 
@@ -118,8 +117,7 @@ class TheWordRepositoryTest {
     @Test
     fun `when note not found return null`() {
         whenever(noteItemDao.byDate(any()))
-                .thenReturn(null)
-
+            .thenReturn(null)
 
         val result = loadNoteFromRepo()
 
@@ -132,7 +130,7 @@ class TheWordRepositoryTest {
         val item = sampleNoteItem(number = 0)
 
         whenever(noteItemDao.byDate(any()))
-                .thenReturn(item)
+            .thenReturn(item)
 
         val result = loadNoteFromRepo()
 
@@ -169,5 +167,4 @@ class TheWordRepositoryTest {
         repository.getNoteFor(date, liveData)
         return liveData.blockingObserve() ?: throw NullPointerException()
     }
-
 }

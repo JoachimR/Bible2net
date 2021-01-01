@@ -6,12 +6,14 @@ import de.reiss.bible2net.theword.database.NoteItemDao
 import de.reiss.bible2net.theword.database.converter.Converter
 import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.model.TheWordContent
-import java.util.*
+import java.util.Locale
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class NoteListRepository @Inject constructor(private val executor: Executor,
-                                                  private val noteItemDao: NoteItemDao) {
+open class NoteListRepository @Inject constructor(
+    private val executor: Executor,
+    private val noteItemDao: NoteItemDao
+) {
 
     open fun getAllNotes(result: MutableLiveData<AsyncLoad<FilteredNotes>>) {
         val oldData = result.value?.data ?: return
@@ -20,25 +22,31 @@ open class NoteListRepository @Inject constructor(private val executor: Executor
         executor.execute {
             val query = oldData.query
             val allItems = noteItemDao.all()
-                    .mapNotNull {
-                        Converter.noteItemToNote(it)
-                    }
+                .mapNotNull {
+                    Converter.noteItemToNote(it)
+                }
 
             if (query.isEmpty()) {
-                result.postValue(AsyncLoad.success(
+                result.postValue(
+                    AsyncLoad.success(
                         FilteredNotes(
-                                allItems = allItems,
-                                filteredItems = allItems,
-                                query = query)
-                ))
+                            allItems = allItems,
+                            filteredItems = allItems,
+                            query = query
+                        )
+                    )
+                )
             } else {
                 val filteredItems = filter(query, allItems)
-                result.postValue(AsyncLoad.success(
+                result.postValue(
+                    AsyncLoad.success(
                         FilteredNotes(
-                                allItems = allItems,
-                                filteredItems = filteredItems,
-                                query = query)
-                ))
+                            allItems = allItems,
+                            filteredItems = filteredItems,
+                            query = query
+                        )
+                    )
+                )
             }
         }
     }
@@ -46,12 +54,15 @@ open class NoteListRepository @Inject constructor(private val executor: Executor
     open fun applyNewFilter(query: String, result: MutableLiveData<AsyncLoad<FilteredNotes>>) {
         val unfiltered = result.value?.data ?: return
         if (query.isEmpty()) {
-            result.postValue(AsyncLoad.success(
+            result.postValue(
+                AsyncLoad.success(
                     FilteredNotes(
-                            allItems = unfiltered.allItems,
-                            filteredItems = unfiltered.allItems,
-                            query = query)
-            ))
+                        allItems = unfiltered.allItems,
+                        filteredItems = unfiltered.allItems,
+                        query = query
+                    )
+                )
+            )
             return
         }
 
@@ -60,34 +71,37 @@ open class NoteListRepository @Inject constructor(private val executor: Executor
         executor.execute {
             val filteredItems = filter(query, unfiltered.allItems)
 
-            result.postValue(AsyncLoad.success(
+            result.postValue(
+                AsyncLoad.success(
                     FilteredNotes(
-                            allItems = unfiltered.allItems,
-                            filteredItems = filteredItems,
-                            query = query)
-            ))
+                        allItems = unfiltered.allItems,
+                        filteredItems = filteredItems,
+                        query = query
+                    )
+                )
+            )
         }
     }
 
     private fun filter(query: String, noteList: List<Note>) =
-            query.lowerCase().let { match ->
-                noteList.filter {
-                    it.noteText.lowerCase().contains(match) || it.theWordContent.contains(match)
-                }
+        query.lowerCase().let { match ->
+            noteList.filter {
+                it.noteText.lowerCase().contains(match) || it.theWordContent.contains(match)
             }
+        }
 
     private fun TheWordContent.contains(match: String) =
-            this.chapter1.lowerCase().contains(match)
-                    || this.verse1.lowerCase().contains(match)
-                    || this.intro1.lowerCase().contains(match)
-                    || this.text1.lowerCase().contains(match)
-                    || this.ref1.lowerCase().contains(match)
-                    || this.book2.lowerCase().contains(match)
-                    || this.chapter2.lowerCase().contains(match)
-                    || this.verse2.lowerCase().contains(match)
-                    || this.intro2.lowerCase().contains(match)
-                    || this.text2.lowerCase().contains(match)
-                    || this.ref2.lowerCase().contains(match)
+        this.chapter1.lowerCase().contains(match) ||
+            this.verse1.lowerCase().contains(match) ||
+            this.intro1.lowerCase().contains(match) ||
+            this.text1.lowerCase().contains(match) ||
+            this.ref1.lowerCase().contains(match) ||
+            this.book2.lowerCase().contains(match) ||
+            this.chapter2.lowerCase().contains(match) ||
+            this.verse2.lowerCase().contains(match) ||
+            this.intro2.lowerCase().contains(match) ||
+            this.text2.lowerCase().contains(match) ||
+            this.ref2.lowerCase().contains(match)
 
     private fun String.lowerCase() = this.toLowerCase(Locale.getDefault())
 }

@@ -21,7 +21,7 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
 
     companion object {
         fun createIntent(context: Context): Intent =
-                Intent(context, AppPreferencesActivity::class.java)
+            Intent(context, AppPreferencesActivity::class.java)
     }
 
     private lateinit var binding: PreferenceActivityBinding
@@ -35,13 +35,20 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
         setSupportActionBar(binding.preferencesToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        viewModel = ViewModelProviders.of(this, AppPreferencesViewModel.Factory(
-                App.component.appPreferencesRepository))
-                .get(AppPreferencesViewModel::class.java)
+        viewModel = ViewModelProviders.of(
+            this,
+            AppPreferencesViewModel.Factory(
+                App.component.appPreferencesRepository
+            )
+        )
+            .get(AppPreferencesViewModel::class.java)
 
-        viewModel.biblesLiveData.observe(this, Observer<AsyncLoad<List<Bible>>> {
-            updateUi()
-        })
+        viewModel.biblesLiveData.observe(
+            this,
+            Observer<AsyncLoad<List<Bible>>> {
+                updateUi()
+            }
+        )
 
         App.component.appPreferences.registerListener(this)
     }
@@ -65,17 +72,22 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
             binding.preferencesLoading.setLoading(false)
             binding.preferencesFragmentContainer.visibility = VISIBLE
 
-            if (supportFragmentManager.findFragmentById(R.id.preferences_fragment_container) == null) {
-                replaceFragmentIn(R.id.preferences_fragment_container,
-                        AppPreferencesFragment.newInstance(viewModel.bibles()))
+            if (supportFragmentManager
+                .findFragmentById(R.id.preferences_fragment_container) == null
+            ) {
+                replaceFragmentIn(
+                    R.id.preferences_fragment_container,
+                    AppPreferencesFragment.newInstance(viewModel.bibles())
+                )
             }
         }
     }
 
     private fun restartApp() {
-        startActivity(SplashScreenActivity.createIntent(this)
-                .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
+        startActivity(
+            SplashScreenActivity.createIntent(this)
+                .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        )
         supportFinishAfterTransition()
     }
 }
-

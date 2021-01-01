@@ -1,21 +1,22 @@
 package de.reiss.bible2net.theword.architecture
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.annotation.LayoutRes
-import androidx.annotation.VisibleForTesting
-import androidx.fragment.app.DialogFragment
-import androidx.fragment.app.Fragment
-import androidx.appcompat.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.LayoutRes
+import androidx.annotation.VisibleForTesting
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.DialogFragment
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import androidx.viewbinding.ViewBinding
 import de.reiss.bible2net.theword.util.extensions.displayDialog
 
-
-abstract class AppFragment<VB : ViewBinding, VM : ViewModel>(@LayoutRes private val fragmentLayout: Int) : Fragment() {
+abstract class AppFragment<VB : ViewBinding, VM : ViewModel>(
+    @LayoutRes private val fragmentLayout: Int
+) : Fragment() {
 
     var viewModelProvider: ViewModelProvider? = null
 
@@ -48,9 +49,11 @@ abstract class AppFragment<VB : ViewBinding, VM : ViewModel>(@LayoutRes private 
         return viewModelProvider!!
     }
 
-    override fun onCreateView(inflater: LayoutInflater,
-                              container: ViewGroup?,
-                              savedInstanceState: Bundle?): View {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
         _binding = inflateViewBinding(inflater, container)
         return binding.root
     }
@@ -79,5 +82,4 @@ abstract class AppFragment<VB : ViewBinding, VM : ViewModel>(@LayoutRes private 
     protected fun displayDialog(dialogFragment: DialogFragment) {
         (activity as? AppCompatActivity?)?.displayDialog(dialogFragment)
     }
-
 }
