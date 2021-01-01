@@ -5,6 +5,7 @@ import com.nhaarman.mockito_kotlin.any
 import com.nhaarman.mockito_kotlin.doReturn
 import com.nhaarman.mockito_kotlin.mock
 import de.reiss.bible2net.theword.R
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.*
 import de.reiss.bible2net.theword.testutil.*
 import org.junit.Before
 import org.junit.Test
@@ -31,7 +32,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
 
     @Test
     fun whenExportingThenShowLoadingAndDisableStartButton() {
-        exportLiveData.postValue(ExportingStatus())
+        exportLiveData.postValue(Exporting)
 
         assertDisplayed(R.id.note_export_loading)
         assertDisabled(R.id.note_export_start)
@@ -39,7 +40,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
 
     @Test
     fun whenNoPermissionThenShowNoPermissionMessage() {
-        exportLiveData.postValue(NoPermissionStatus())
+        exportLiveData.postValue(NoPermission)
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
@@ -48,7 +49,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
 
     @Test
     fun whenNoNotesToExportThenShowNoNotesToExportMessage() {
-        exportLiveData.postValue(NoNotesStatus())
+        exportLiveData.postValue(NoNotes)
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
@@ -59,7 +60,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
     fun whenExportErrorThenShowExportErrorMessage() {
         val directory = "testDirectory"
         val fileName = "testFileName"
-        exportLiveData.postValue(ExportErrorStatus(directory, fileName))
+        exportLiveData.postValue(ExportError(directory, fileName))
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
@@ -70,7 +71,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
     fun whenExportSuccessThenShowExportSuccessMessage() {
         val directory = "testDirectory"
         val fileName = "testFileName"
-        exportLiveData.postValue(ExportSuccessStatus(directory, fileName))
+        exportLiveData.postValue(ExportSuccess(directory, fileName))
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)

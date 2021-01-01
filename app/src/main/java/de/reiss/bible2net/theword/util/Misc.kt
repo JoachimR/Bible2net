@@ -4,6 +4,7 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.text.Html
+import android.text.Spanned
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.formattedDate
@@ -15,7 +16,7 @@ fun appVersion(context: Context): String {
 }
 
 @Suppress("DEPRECATION")
-fun htmlize(text: String) =
+fun htmlize(text: String): Spanned =
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
             Html.fromHtml(text, Html.FROM_HTML_MODE_LEGACY)
         } else {

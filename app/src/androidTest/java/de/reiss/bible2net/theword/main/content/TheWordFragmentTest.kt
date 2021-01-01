@@ -46,16 +46,16 @@ class TheWordFragmentTest : FragmentTest<TheWordFragment>() {
     fun whenLoadingThenShowLoading() {
         theWordLiveData.postValue(AsyncLoad.loading())
 
-        assertDisplayed(R.id.the_word_loading)
-        assertNotDisplayed(R.id.the_word_empty_root, R.id.the_word_content_root)
+        assertDisplayed(R.id.loading)
+        assertNotDisplayed(R.id.empty_root, R.id.content_root)
     }
 
     @Test
     fun whenEmptyThenShowEmpty() {
         theWordLiveData.postValue(AsyncLoad.success(null))
 
-        assertDisplayed(R.id.the_word_empty_root)
-        assertNotDisplayed(R.id.the_word_loading, R.id.the_word_content_root)
+        assertDisplayed(R.id.empty_root)
+        assertNotDisplayed(R.id.loading, R.id.content_root)
     }
 
     @Test
@@ -63,25 +63,25 @@ class TheWordFragmentTest : FragmentTest<TheWordFragment>() {
         val theWord = sampleTheWord(0, "testBible")
         theWordLiveData.postValue(AsyncLoad.success(theWord))
 
-        assertDisplayed(R.id.the_word_content_root)
-        assertNotDisplayed(R.id.the_word_loading, R.id.the_word_empty_root)
+        assertDisplayed(R.id.content_root)
+        assertNotDisplayed(R.id.loading, R.id.empty_root)
         checkIsTextSet {
-            R.id.the_word_intro1 to theWord.content.intro1
+            R.id.intro1 to theWord.content.intro1
         }
         checkIsTextSet {
-            R.id.the_word_text1 to theWord.content.text1
+            R.id.text1 to theWord.content.text1
         }
         checkIsTextSet {
-            R.id.the_word_ref1 to theWord.content.ref1
+            R.id.ref1 to theWord.content.ref1
         }
         checkIsTextSet {
-            R.id.the_word_intro2 to theWord.content.intro2
+            R.id.intro2 to theWord.content.intro2
         }
         checkIsTextSet {
-            R.id.the_word_text2 to theWord.content.text2
+            R.id.text2 to theWord.content.text2
         }
         checkIsTextSet {
-            R.id.the_word_ref2 to theWord.content.ref2
+            R.id.ref2 to theWord.content.ref2
         }
     }
 

@@ -9,7 +9,7 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/privacy_policy_toolbar"
+            android:id="@+id/toolbar"
             style="@style/Widget.MaterialComponents.Toolbar.Primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -17,7 +17,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <WebView
-        android:id="@+id/privacy_policy_web_view"
+        android:id="@+id/web_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"

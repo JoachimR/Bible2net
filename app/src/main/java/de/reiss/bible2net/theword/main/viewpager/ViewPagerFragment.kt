@@ -1,30 +1,32 @@
 package de.reiss.bible2net.theword.main.viewpager
 
 
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View.GONE
+import android.view.View.VISIBLE
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
-import android.os.Bundle
-import android.view.View.GONE
-import android.view.View.VISIBLE
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.DaysPositionUtil
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
 import de.reiss.bible2net.theword.architecture.AsyncLoad
+import de.reiss.bible2net.theword.databinding.ViewPagerFragmentBinding
 import de.reiss.bible2net.theword.events.DatabaseRefreshed
 import de.reiss.bible2net.theword.events.TwdDownloadRequested
 import de.reiss.bible2net.theword.events.ViewPagerMoveRequest
 import de.reiss.bible2net.theword.events.postMessageEvent
 import de.reiss.bible2net.theword.util.extensions.registerToEventBus
 import de.reiss.bible2net.theword.util.extensions.unregisterFromEventBus
-import kotlinx.android.synthetic.main.view_pager_fragment.*
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import java.util.*
 
 
-class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fragment) {
+class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewModel>(R.layout.view_pager_fragment) {
 
     companion object {
 
@@ -84,9 +86,12 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
         super.onSaveInstanceState(outState)
     }
 
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+            ViewPagerFragmentBinding.inflate(inflater, container, false)
+
     override fun initViews() {
         adapter = ViewPagerAdapter(childFragmentManager)
-        view_pager.adapter = adapter
+        binding.viewPager.adapter = adapter
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
@@ -121,15 +126,15 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
                 if (it == null) {
                     throw IllegalStateException("Loading unknown content")
                 } else {
-                    view_pager_loading_text.text =
+                    binding.viewPagerLoadingText.text =
                             getString(R.string.view_pager_loading_content, it)
                 }
             }
-            view_pager_loading.visibility = VISIBLE
-            view_pager.visibility = GONE
+            binding.viewPagerLoading.visibility = VISIBLE
+            binding.viewPager.visibility = GONE
         } else {
-            view_pager_loading.visibility = GONE
-            view_pager.visibility = VISIBLE
+            binding.viewPagerLoading.visibility = GONE
+            binding.viewPager.visibility = VISIBLE
             postMessageEvent(DatabaseRefreshed())
         }
     }
@@ -161,9 +166,8 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
     }
 
     private fun goToPosition(positionInFocus: Int) {
-        view_pager.currentItem = positionInFocus
+        binding.viewPager.currentItem = positionInFocus
     }
 
-    private fun currentPosition() = view_pager.currentItem
-
+    private fun currentPosition() = binding.viewPager.currentItem
 }

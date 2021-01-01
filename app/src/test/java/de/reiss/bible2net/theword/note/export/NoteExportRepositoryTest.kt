@@ -10,6 +10,7 @@ import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.whenever
 import de.reiss.bible2net.theword.database.NoteItem
 import de.reiss.bible2net.theword.database.NoteItemDao
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.*
 import de.reiss.bible2net.theword.testutil.TestExecutor
 import de.reiss.bible2net.theword.testutil.sampleNoteItem
 import org.junit.Assert.assertTrue
@@ -44,7 +45,7 @@ class NoteExportRepositoryTest {
 
         val result = tryExport()
 
-        assertTrue(result is NoPermissionStatus)
+        assertTrue(result is NoPermission)
     }
 
     @Test
@@ -54,7 +55,7 @@ class NoteExportRepositoryTest {
 
         val result = tryExport()
 
-        assertTrue(result is NoNotesStatus)
+        assertTrue(result is NoNotes)
     }
 
     @Test
@@ -65,7 +66,7 @@ class NoteExportRepositoryTest {
 
         val result = tryExport()
 
-        assertTrue(result is ExportSuccessStatus)
+        assertTrue(result is ExportSuccess)
     }
 
     @Test
@@ -76,7 +77,7 @@ class NoteExportRepositoryTest {
 
         val result = tryExport()
 
-        assertTrue(result is ExportErrorStatus)
+        assertTrue(result is ExportError)
     }
 
     private fun tryExport(): NoteExportStatus {

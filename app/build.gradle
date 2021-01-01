@@ -3,7 +3,6 @@ import de.reiss.bible2net.theword.ApkSignatureLoader
 apply plugin: "com.android.application"
 apply plugin: "kotlin-android"
 apply plugin: "kotlin-kapt"
-apply plugin: "kotlin-android-extensions"
 
 android {
 
@@ -22,6 +21,10 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         testInstrumentationRunner "de.reiss.bible2net.theword.testutil.AppTestRunner"
+    }
+
+    buildFeatures {
+        viewBinding true
     }
 
     compileOptions {

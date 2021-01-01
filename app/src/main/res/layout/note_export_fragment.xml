@@ -8,6 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <TextView
@@ -20,8 +21,9 @@
         <Button
             android:id="@+id/note_export_start"
             style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:text="@string/btn_export_export_now" />
 
     </LinearLayout>

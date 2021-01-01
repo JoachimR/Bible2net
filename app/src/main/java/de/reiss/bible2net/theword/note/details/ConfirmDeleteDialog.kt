@@ -1,22 +1,18 @@
 package de.reiss.bible2net.theword.note.details
 
 import android.os.Bundle
-import androidx.fragment.app.DialogFragment
 import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.DialogFragment
 import de.reiss.bible2net.theword.R
 
 class ConfirmDeleteDialog : DialogFragment() {
 
     companion object {
-
         fun createInstance() = ConfirmDeleteDialog()
-
     }
 
     interface Listener {
-
         fun onDeleteConfirmed()
-
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog = activity!!.let { activity ->
@@ -32,5 +28,4 @@ class ConfirmDeleteDialog : DialogFragment() {
                 }
                 .create()
     }
-
 }

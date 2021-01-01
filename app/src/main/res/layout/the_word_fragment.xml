@@ -17,7 +17,7 @@
             android:paddingBottom="16dp">
 
             <TextView
-                android:id="@+id/the_word_date"
+                android:id="@+id/date"
                 style="?attr/textAppearanceSubtitle1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -35,13 +35,13 @@
                 android:layout_height="wrap_content">
 
                 <include
-                    android:id="@+id/the_word_empty_root"
-                    layout="@layout/the_word_empty"
+                    android:id="@+id/empty_root"
+                    layout="@layout/the_word_fragment_empty"
                     android:visibility="gone" />
 
                 <include
-                    android:id="@+id/the_word_content_root"
-                    layout="@layout/the_word_content"
+                    android:id="@+id/content_root"
+                    layout="@layout/the_word_fragment_content"
                     android:visibility="gone" />
 
             </FrameLayout>
@@ -51,7 +51,7 @@
     </androidx.core.widget.NestedScrollView>
 
     <de.reiss.bible2net.theword.util.view.LoadingProgressBar
-        android:id="@+id/the_word_loading"
+        android:id="@+id/loading"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

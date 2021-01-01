@@ -1,29 +1,24 @@
 package de.reiss.bible2net.theword.note.details
 
-
+import android.os.Bundle
+import android.view.*
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
-import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
 import de.reiss.bible2net.theword.architecture.AsyncLoad
+import de.reiss.bible2net.theword.databinding.NoteDetailsFragmentBinding
 import de.reiss.bible2net.theword.main.content.ShareDialog
 import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.note.edit.EditNoteActivity
 import de.reiss.bible2net.theword.util.contentAsString
 import de.reiss.bible2net.theword.util.extensions.showIndefiniteSnackbar
-import kotlinx.android.synthetic.main.note_details_fragment.*
 
-
-class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_details_fragment) {
+class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsViewModel>(R.layout.note_details_fragment) {
 
     companion object {
-
         private const val KEY_NOTE = "KEY_NOTE"
 
         fun createInstance(note: Note) = NoteDetailsFragment().apply {
@@ -66,6 +61,9 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
                 }
                 else -> super.onOptionsItemSelected(item)
             }
+
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+            NoteDetailsFragmentBinding.inflate(inflater, container, false)
 
     override fun initViews() {
     }
@@ -137,16 +135,16 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
 
         when {
             viewModel.isDeleting() -> {
-                note_details_loading.setLoading(true)
+                binding.noteDetailsLoading.setLoading(true)
             }
             viewModel.successfullyDeleted() -> {
                 activity?.supportFinishAfterTransition()
             }
             viewModel.isLoading() -> {
-                note_details_loading.setLoading(true)
+                binding.noteDetailsLoading.setLoading(true)
             }
             else -> {
-                note_details_loading.setLoading(false)
+                binding.noteDetailsLoading.setLoading(false)
 
                 when {
                     viewModel.errorDeleting() -> showIndefiniteSnackbar(
@@ -169,18 +167,17 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
                     )
                     else -> {
                         val note = viewModel.loadedNote()
-                        note_details_word.text = contentAsString(
+                        binding.noteDetailsWord.text = contentAsString(
                                 context = context,
                                 time = note.date.time,
                                 theWordContent = note.theWordContent,
                                 note = ""
                         )
-                        note_details_note.text = note.noteText
+                        binding.noteDetailsNote.text = note.noteText
                     }
                 }
             }
         }
         activity?.invalidateOptionsMenu()
     }
-
 }

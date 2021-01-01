@@ -29,7 +29,7 @@
         android:text="@string/no_content" />
 
     <Button
-        android:id="@+id/the_word_try_download"
+        android:id="@+id/try_download"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         android:text="@string/no_content_download" />
 
     <Button
-        android:id="@+id/the_word_change_translation"
+        android:id="@+id/change_translation"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

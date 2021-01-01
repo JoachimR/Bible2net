@@ -2,13 +2,12 @@ package de.reiss.bible2net.theword.testutil
 
 import android.annotation.SuppressLint
 import android.app.Activity
+import androidx.fragment.app.Fragment
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
-import androidx.fragment.app.Fragment
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.UnderTestAppActivity
 import org.junit.Rule
-import java.lang.RuntimeException
 
 
 abstract class FragmentTest<T : Fragment> {

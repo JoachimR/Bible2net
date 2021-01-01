@@ -2,10 +2,10 @@ package de.reiss.bible2net.theword.main.content
 
 import android.app.Dialog
 import android.os.Bundle
-import androidx.fragment.app.DialogFragment
-import androidx.appcompat.app.AlertDialog
 import android.view.View
 import android.widget.SeekBar
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.DialogFragment
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.preferences.AppPreferences
@@ -13,9 +13,7 @@ import de.reiss.bible2net.theword.preferences.AppPreferences
 class FontSizePreferenceDialog : DialogFragment() {
 
     companion object {
-
         fun createInstance() = FontSizePreferenceDialog()
-
     }
 
     private val appPreferences: AppPreferences by lazy {
@@ -71,5 +69,4 @@ class FontSizePreferenceDialog : DialogFragment() {
             return view
         }
     }
-
 }

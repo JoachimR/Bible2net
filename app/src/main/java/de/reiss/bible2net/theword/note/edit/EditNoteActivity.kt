@@ -5,17 +5,16 @@ import android.content.Intent
 import android.os.Bundle
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppActivity
+import de.reiss.bible2net.theword.databinding.EditNoteActivityBinding
 import de.reiss.bible2net.theword.model.TheWordContent
 import de.reiss.bible2net.theword.util.extensions.findFragmentIn
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
 import de.reiss.bible2net.theword.util.extensions.withZeroDayTime
-import kotlinx.android.synthetic.main.edit_note_activity.*
 import java.util.*
 
 class EditNoteActivity : AppActivity() {
 
     companion object {
-
         private const val KEY_TIME = "KEY_TIME"
         private const val KEY_THE_WORD_CONTENT = "KEY_THE_WORD_CONTENT"
 
@@ -23,13 +22,15 @@ class EditNoteActivity : AppActivity() {
                 Intent(context, EditNoteActivity::class.java)
                         .putExtra(KEY_TIME, date.withZeroDayTime().time)
                         .putExtra(KEY_THE_WORD_CONTENT, theWordContent)
-
     }
+
+    private lateinit var binding: EditNoteActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.edit_note_activity)
-        setSupportActionBar(edit_note_toolbar)
+        binding = EditNoteActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.editNoteToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         if (findFragmentIn(R.id.edit_note_fragment_container) == null) {
@@ -45,5 +46,4 @@ class EditNoteActivity : AppActivity() {
                     fragment = EditNoteFragment.createInstance(time, theWordContent))
         }
     }
-
 }

@@ -5,27 +5,28 @@ import android.content.Intent
 import android.os.Bundle
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppActivity
+import de.reiss.bible2net.theword.databinding.NoteDetailsActivityBinding
 import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.util.extensions.findFragmentIn
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
-import kotlinx.android.synthetic.main.note_details_activity.*
 
 class NoteDetailsActivity : AppActivity(), ConfirmDeleteDialog.Listener {
 
     companion object {
-
         private const val KEY_NOTE = "KEY_NOTE"
 
         fun createIntent(context: Context, note: Note): Intent =
                 Intent(context, NoteDetailsActivity::class.java)
                         .putExtra(KEY_NOTE, note)
-
     }
+
+    private lateinit var binding: NoteDetailsActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.note_details_activity)
-        setSupportActionBar(note_details_toolbar)
+        binding = NoteDetailsActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.noteDetailsToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         if (findNoteDetailsFragment() == null) {

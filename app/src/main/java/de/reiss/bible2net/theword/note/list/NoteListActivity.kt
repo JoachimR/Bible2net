@@ -4,26 +4,26 @@ import android.app.SearchManager
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.widget.SearchView
 import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.widget.SearchView
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppActivity
+import de.reiss.bible2net.theword.databinding.NoteListActivityBinding
 import de.reiss.bible2net.theword.note.export.NoteExportActivity
 import de.reiss.bible2net.theword.util.extensions.findFragmentIn
 import de.reiss.bible2net.theword.util.extensions.hideKeyboard
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
-import kotlinx.android.synthetic.main.note_list_activity.*
 
 class NoteListActivity : AppActivity() {
 
     companion object {
-
         fun createIntent(context: Context): Intent =
                 Intent(context, NoteListActivity::class.java)
-
     }
+
+    private lateinit var binding: NoteListActivityBinding
 
     private val searchManager: SearchManager by lazy {
         App.component.searchManager
@@ -31,8 +31,9 @@ class NoteListActivity : AppActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.note_list_activity)
-        setSupportActionBar(note_list_toolbar)
+        binding = NoteListActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.noteListToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         if (findFragmentIn(R.id.note_list_fragment) == null) {
@@ -95,6 +96,7 @@ class NoteListActivity : AppActivity() {
             }
 
     override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
         if (Intent.ACTION_SEARCH == intent?.action) {
             search(intent.getStringExtra(SearchManager.QUERY) ?: "")
         }
@@ -103,5 +105,4 @@ class NoteListActivity : AppActivity() {
     private fun search(query: String) {
         (findFragmentIn(R.id.note_list_fragment) as? NoteListFragment)?.applyFilter(query)
     }
-
 }

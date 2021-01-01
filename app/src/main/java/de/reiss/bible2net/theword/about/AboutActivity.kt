@@ -7,28 +7,29 @@ import android.view.Menu
 import android.view.MenuItem
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppActivity
+import de.reiss.bible2net.theword.databinding.AboutActivityBinding
 import de.reiss.bible2net.theword.util.appVersion
 import de.reiss.bible2net.theword.util.extensions.onClick
-import kotlinx.android.synthetic.main.about_activity.*
 
 class AboutActivity : AppActivity() {
 
     companion object {
-
         fun createIntent(context: Context): Intent =
                 Intent(context, AboutActivity::class.java)
-
     }
+
+    private lateinit var binding: AboutActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.about_activity)
-        setSupportActionBar(about_toolbar)
+        binding = AboutActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        about_app_version.text = appVersion(this)
+        binding.appVersion.text = appVersion(this)
 
-        about_privacy_policy_button.onClick {
+        binding.privacyPolicyButton.onClick {
             startActivity(PrivacyPolicyActivity.createIntent(this))
         }
     }
@@ -51,5 +52,4 @@ class AboutActivity : AppActivity() {
                 }
                 else -> super.onOptionsItemSelected(item)
             }
-
 }

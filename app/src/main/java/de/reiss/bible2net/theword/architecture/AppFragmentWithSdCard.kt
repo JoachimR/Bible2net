@@ -1,19 +1,18 @@
 package de.reiss.bible2net.theword.architecture
 
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
-import androidx.lifecycle.ViewModel
 import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.os.Build
 import androidx.annotation.LayoutRes
 import androidx.core.app.ActivityCompat.checkSelfPermission
+import androidx.lifecycle.ViewModel
+import androidx.viewbinding.ViewBinding
 
-abstract class AppFragmentWithSdCard<T : ViewModel>(@LayoutRes private val fragmentLayout: Int)
-    : AppFragment<T>(fragmentLayout) {
+abstract class AppFragmentWithSdCard<VB : ViewBinding, VM : ViewModel>(@LayoutRes private val fragmentLayout: Int)
+    : AppFragment<VB, VM>(fragmentLayout) {
 
     companion object {
-
         private val REQUEST_WRITE_EXTERNAL_STORAGE = 11
-
     }
 
     fun requestSdCardPermission() {

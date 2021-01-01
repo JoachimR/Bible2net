@@ -15,7 +15,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.lang.RuntimeException
 import java.util.*
 
 @Suppress("IllegalIdentifier")

@@ -6,14 +6,19 @@ import android.app.Activity
 import android.app.Instrumentation
 import android.content.res.Resources
 import android.os.Build
+import android.view.View
+import android.view.WindowManager
+import android.widget.*
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes
 import androidx.annotation.StringRes
-import androidx.test.platform.app.InstrumentationRegistry
+import androidx.appcompat.widget.AppCompatImageButton
+import androidx.appcompat.widget.Toolbar
+import androidx.fragment.app.FragmentActivity
+import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.*
 import androidx.test.espresso.Espresso.onData
 import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.action.ViewActions.*
 import androidx.test.espresso.assertion.ViewAssertions.doesNotExist
 import androidx.test.espresso.assertion.ViewAssertions.matches
@@ -25,19 +30,11 @@ import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
 import androidx.test.espresso.matcher.BoundedMatcher
 import androidx.test.espresso.matcher.RootMatchers
 import androidx.test.espresso.matcher.RootMatchers.isDialog
-import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.*
+import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry
 import androidx.test.runner.lifecycle.Stage
-import androidx.fragment.app.FragmentActivity
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import androidx.appcompat.widget.AppCompatImageButton
-import androidx.recyclerview.widget.RecyclerView
-import androidx.appcompat.widget.Toolbar
-import android.view.View
-import android.view.WindowManager
-import android.widget.*
 import com.google.android.material.internal.NavigationMenuView
 import org.hamcrest.BaseMatcher
 import org.hamcrest.Description
@@ -469,31 +466,6 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
                     view === targetView
                 }
             }
-
         }
     }
-
-}
-
-fun assertSwipeToRefreshState(@IdRes resId: Int,
-                              shouldBeRefreshing: Boolean) {
-    onView(withId(resId))
-            .check(matches(
-                    if (shouldBeRefreshing) {
-                        isRefreshing()
-                    } else {
-                        not(isRefreshing())
-                    }
-            ))
-}
-
-private fun isRefreshing() = object : TypeSafeMatcher<View>() {
-
-    override fun describeTo(description: Description) {
-        description.appendText("is a SwipeRefreshLayout that is currently refreshing")
-    }
-
-    override fun matchesSafely(item: View?) =
-            (item as? SwipeRefreshLayout)?.isRefreshing ?: false
-
 }

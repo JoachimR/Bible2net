@@ -7,18 +7,18 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
+import de.reiss.bible2net.theword.databinding.BibleActivityBinding
 import de.reiss.bible2net.theword.main.MainActivity
 import de.reiss.bible2net.theword.util.extensions.findFragmentIn
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
-import kotlinx.android.synthetic.main.bible_activity.*
 
 class BibleActivity : AppCompatActivity() {
 
     companion object {
-
         fun createIntent(context: Context): Intent = Intent(context, BibleActivity::class.java)
-
     }
+
+    private lateinit var binding: BibleActivityBinding
 
     private val appPreferences by lazy {
         App.component.appPreferences
@@ -31,8 +31,9 @@ class BibleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.bible_activity)
-        setSupportActionBar(bible_toolbar)
+        binding = BibleActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.toolbar)
 
         if (redirectIfBibleChosen()) {
             return

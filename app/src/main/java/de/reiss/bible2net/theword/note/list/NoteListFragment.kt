@@ -1,35 +1,36 @@
 package de.reiss.bible2net.theword.note.list
 
-
+import android.view.LayoutInflater
+import android.view.View.GONE
+import android.view.View.VISIBLE
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import android.view.View.GONE
-import android.view.View.VISIBLE
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
 import de.reiss.bible2net.theword.architecture.AsyncLoad
+import de.reiss.bible2net.theword.databinding.NoteListFragmentBinding
 import de.reiss.bible2net.theword.model.Note
 import de.reiss.bible2net.theword.note.details.NoteDetailsActivity
-import kotlinx.android.synthetic.main.note_list_fragment.*
 
-
-class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragment),
+class NoteListFragment : AppFragment<NoteListFragmentBinding, NoteListViewModel>(R.layout.note_list_fragment),
         NoteClickListener {
 
     companion object {
-
         fun createInstance() = NoteListFragment()
-
     }
 
     private val listItemAdapter = NoteListItemAdapter(noteClickListener = this)
 
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+            NoteListFragmentBinding.inflate(inflater, container, false)
+
     override fun initViews() {
-        with(note_list_recycler_view) {
+        with(binding.noteListRecyclerView) {
             layoutManager = LinearLayoutManager(context)
             adapter = listItemAdapter
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
@@ -56,9 +57,7 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
 
     override fun onNoteClicked(note: Note) {
         activity?.let {
-            it.startActivity(NoteDetailsActivity.createIntent(
-                    context = it,
-                    note = note))
+            it.startActivity(NoteDetailsActivity.createIntent(context = it, note = note))
         }
     }
 
@@ -80,29 +79,28 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
 
     private fun updateUi() {
         if (viewModel.isLoadingNotes()) {
-            note_list_loading.setLoading(true)
-            note_list_no_notes.visibility = GONE
-            note_list_recycler_view.visibility = GONE
+            binding.noteListLoading.setLoading(true)
+            binding.noteListNoNotes.visibility = GONE
+            binding.noteListRecyclerView.visibility = GONE
         } else {
-            note_list_loading.setLoading(false)
+            binding.noteListLoading.setLoading(false)
             val filteredNotes = viewModel.notes()
 
             val listItems = NoteListBuilder.buildList(filteredNotes.filteredItems)
             if (listItems.isEmpty()) {
-                note_list_recycler_view.visibility = GONE
-                note_list_no_notes.visibility = VISIBLE
-                note_list_no_notes_text.text =
+                binding.noteListRecyclerView.visibility = GONE
+                binding.noteListNoNotes.visibility = VISIBLE
+                binding.noteListNoNotesText.text =
                         if (filteredNotes.allItems.isEmpty()) {
                             getString(R.string.no_notes)
                         } else {
                             getString(R.string.no_notes_for_filter, filteredNotes.query)
                         }
             } else {
-                note_list_recycler_view.visibility = VISIBLE
-                note_list_no_notes.visibility = GONE
+                binding.noteListRecyclerView.visibility = VISIBLE
+                binding.noteListNoNotes.visibility = GONE
                 listItemAdapter.updateContent(listItems)
             }
         }
     }
-
 }

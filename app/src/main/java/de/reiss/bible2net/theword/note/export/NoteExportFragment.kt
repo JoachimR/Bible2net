@@ -1,25 +1,29 @@
 package de.reiss.bible2net.theword.note.export
 
+import android.view.LayoutInflater
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragmentWithSdCard
+import de.reiss.bible2net.theword.databinding.NoteExportFragmentBinding
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.*
 import de.reiss.bible2net.theword.util.extensions.onClick
 import de.reiss.bible2net.theword.util.extensions.showShortSnackbar
-import kotlinx.android.synthetic.main.note_export_fragment.*
 
-class NoteExportFragment : AppFragmentWithSdCard<NoteExportViewModel>(R.layout.note_export_fragment) {
+class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, NoteExportViewModel>(R.layout.note_export_fragment) {
 
     companion object {
-
         fun createInstance() = NoteExportFragment()
-
     }
 
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+            NoteExportFragmentBinding.inflate(inflater, container, false)
+
     override fun initViews() {
-        note_export_start.onClick {
+        binding.noteExportStart.onClick {
             tryExportNotes()
         }
     }
@@ -56,7 +60,7 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportViewModel>(R.layout.n
     private fun updateUi() {
         val status = viewModel.exportLiveData().value ?: return
 
-        val isExporting = status is ExportingStatus
+        val isExporting = status is Exporting
         updateLoading(isExporting)
 
         if (isExporting.not()) {
@@ -70,18 +74,15 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportViewModel>(R.layout.n
 
     private fun messageFor(status: NoteExportStatus) =
             when (status) {
-                is NoPermissionStatus -> getString(R.string.can_not_write_to_sdcard)
-                is NoNotesStatus -> getString(R.string.notes_export_no_notes)
-                is ExportErrorStatus -> getString(R.string.notes_export_error,
-                        status.directory, status.fileName)
-                is ExportSuccessStatus -> getString(R.string.notes_export_success,
-                        status.directory, status.fileName)
-                else -> throw IllegalStateException("invalid status")
+                NoPermission -> getString(R.string.can_not_write_to_sdcard)
+                NoNotes -> getString(R.string.notes_export_no_notes)
+                is ExportError -> getString(R.string.notes_export_error, status.directory, status.fileName)
+                is ExportSuccess -> getString(R.string.notes_export_success, status.directory, status.fileName)
+                Exporting -> throw IllegalStateException("invalid status")
             }
 
     private fun updateLoading(loading: Boolean) {
-        note_export_loading.setLoading(loading)
-        note_export_start.isEnabled = !loading
+        binding.noteExportLoading.setLoading(loading)
+        binding.noteExportStart.isEnabled = !loading
     }
-
 }

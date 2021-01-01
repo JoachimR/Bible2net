@@ -3,6 +3,7 @@ package de.reiss.bible2net.theword.note.export
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import de.reiss.bible2net.theword.note.export.NoteExportStatus.Exporting
 
 open class NoteExportViewModel(private val repository: NoteExportRepository) : ViewModel() {
 
@@ -14,7 +15,7 @@ open class NoteExportViewModel(private val repository: NoteExportRepository) : V
         repository.exportNotes(exportLiveData())
     }
 
-    fun isExporting() = exportLiveData().value is ExportingStatus
+    fun isExporting() = exportLiveData().value is Exporting
 
     class Factory(private val repository: NoteExportRepository) : ViewModelProvider.NewInstanceFactory() {
 
@@ -31,5 +32,4 @@ open class NoteExportViewModel(private val repository: NoteExportRepository) : V
             exportLiveData().postValue(null)
         }
     }
-
 }

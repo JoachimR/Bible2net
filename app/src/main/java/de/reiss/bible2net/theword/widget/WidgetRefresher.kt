@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.annotation.WorkerThread
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.database.BibleItemDao
+import de.reiss.bible2net.theword.database.TheWordItem
 import de.reiss.bible2net.theword.database.TheWordItemDao
 import de.reiss.bible2net.theword.database.converter.Converter
 import de.reiss.bible2net.theword.formattedDate
@@ -36,9 +37,8 @@ open class WidgetRefresher @Inject constructor(private val context: Context,
     private fun findTheWord(date: Date): TheWord? =
             appPreferences.chosenBible?.let { chosenBible ->
                 bibleItemDao.find(chosenBible)?.let { bibleItem ->
-                    theWordItemDao.byDate(bibleItem.id, date)?.let { theWordItem ->
-                        return Converter.theWordItemToTheWord(bibleItem.bible, theWordItem)
-                    }
+                    val item: TheWordItem? = theWordItemDao.byDate(bibleItem.id, date)
+                    return item?.let { Converter.theWordItemToTheWord(bibleItem.bible, it) }
                 }
             }
 

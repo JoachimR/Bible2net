@@ -1,19 +1,18 @@
 package de.reiss.bible2net.theword.main.content
 
+import android.os.Bundle
+import android.view.*
+import android.view.View.GONE
+import android.view.View.VISIBLE
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
-import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
-import android.view.View.GONE
-import android.view.View.VISIBLE
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.DaysPositionUtil
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
 import de.reiss.bible2net.theword.architecture.AsyncLoad
+import de.reiss.bible2net.theword.databinding.TheWordFragmentBinding
 import de.reiss.bible2net.theword.events.DatabaseRefreshed
 import de.reiss.bible2net.theword.events.FontSizeChanged
 import de.reiss.bible2net.theword.events.TwdDownloadRequested
@@ -27,17 +26,12 @@ import de.reiss.bible2net.theword.preferences.AppPreferencesActivity
 import de.reiss.bible2net.theword.util.copyToClipboard
 import de.reiss.bible2net.theword.util.extensions.*
 import de.reiss.bible2net.theword.util.htmlize
-import kotlinx.android.synthetic.main.the_word.*
-import kotlinx.android.synthetic.main.the_word_content.*
-import kotlinx.android.synthetic.main.the_word_empty.*
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
-
-class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
+class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(R.layout.the_word_fragment) {
 
     companion object {
-
         private const val KEY_POSITION = "KEY_POSITION"
 
         fun createInstance(position: Int) = TheWordFragment().apply {
@@ -45,7 +39,6 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
                 putInt(KEY_POSITION, position)
             }
         }
-
     }
 
     private val appPreferences: AppPreferences by lazy {
@@ -108,48 +101,52 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
     override fun defineViewModel(): TheWordViewModel =
             loadViewModelProvider().get(TheWordViewModel::class.java)
 
-    override fun initViews() {
-        the_word_try_download.onClick {
-            appPreferences.chosenBible?.let { chosenBible ->
-                postMessageEvent(TwdDownloadRequested(
-                        bible = chosenBible,
-                        year = DaysPositionUtil.dayFor(position)
-                ))
-            }
-        }
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+            TheWordFragmentBinding.inflate(inflater, container, false)
 
-        the_word_note_edit.onClick {
-            viewModel.theWord()?.let { theWord ->
-                activity?.let {
-                    it.startActivity(EditNoteActivity.createIntent(
-                            context = it,
-                            date = theWord.date,
-                            theWordContent = theWord.content
+    override fun initViews() {
+        with(binding.emptyRoot) {
+            tryDownload.onClick {
+                appPreferences.chosenBible?.let { chosenBible ->
+                    postMessageEvent(TwdDownloadRequested(
+                            bible = chosenBible,
+                            year = DaysPositionUtil.dayFor(position)
                     ))
                 }
             }
+            changeTranslation.onClick {
+                activity?.let {
+                    it.startActivity(AppPreferencesActivity.createIntent(it))
+                }
+            }            
         }
-
-        the_word_change_translation.onClick {
-            activity?.let {
-                it.startActivity(AppPreferencesActivity.createIntent(it))
+        
+        with(binding.contentRoot) {
+            noteEdit.onClick {
+                viewModel.theWord()?.let { theWord ->
+                    activity?.let {
+                        it.startActivity(EditNoteActivity.createIntent(
+                                context = it,
+                                date = theWord.date,
+                                theWordContent = theWord.content
+                        ))
+                    }
+                }
             }
-        }
-
-        the_word_ref1.setOnLongClickListener {
-            context?.let {
-                copyToClipboard(it, the_word_ref1.text.toString())
-                showShortSnackbar(message = R.string.copied_to_clipboard)
+            ref1.setOnLongClickListener {
+                context?.let {
+                    copyToClipboard(it, ref1.text.toString())
+                    showShortSnackbar(message = R.string.copied_to_clipboard)
+                }
+                true
             }
-            true
-        }
-
-        the_word_ref2.setOnLongClickListener {
-            context?.let {
-                copyToClipboard(it, the_word_ref2.text.toString())
-                showShortSnackbar(message = R.string.copied_to_clipboard)
+            ref2.setOnLongClickListener {
+                context?.let {
+                    copyToClipboard(it, ref2.text.toString())
+                    showShortSnackbar(message = R.string.copied_to_clipboard)
+                }
+                true
             }
-            true
         }
     }
 
@@ -176,31 +173,34 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
         val context = context ?: return
         val theWord = viewModel.theWord()
 
-        the_word_date.text = formattedDate(context, date().time)
+        binding.date.text = formattedDate(context, date().time)
 
         when {
-
             viewModel.isLoadingTheWord() -> {
-                the_word_loading.setLoading(true)
+                binding.loading.setLoading(true)
             }
 
             (viewModel.isErrorForTheWord() || theWord == null) -> {
-                the_word_loading.setLoading(false)
-                the_word_empty_root.visibility = VISIBLE
-                the_word_content_root.visibility = GONE
+                binding.loading.setLoading(false)
+                binding.emptyRoot.root.visibility = VISIBLE
+                binding.contentRoot.root.visibility = GONE
             }
 
             viewModel.isSuccessForTheWord() -> {
-                the_word_loading.setLoading(false)
-                the_word_empty_root.visibility = GONE
-                the_word_content_root.visibility = VISIBLE
+                binding.loading.setLoading(false)
+                binding.emptyRoot.root.visibility = GONE
 
-                the_word_intro1.textOrHide(htmlize(theWord.content.intro1))
-                the_word_text1.text = htmlize(theWord.content.text1)
-                the_word_ref1.text = theWord.content.ref1
-                the_word_intro2.textOrHide(htmlize(theWord.content.intro2))
-                the_word_text2.text = htmlize(theWord.content.text2)
-                the_word_ref2.text = theWord.content.ref2
+                with(binding.contentRoot) {
+                    root.visibility = VISIBLE
+
+                    intro1.textOrHide(htmlize(theWord.content.intro1))
+                    text1.text = htmlize(theWord.content.text1)
+                    ref1.text = theWord.content.ref1
+                    intro2.textOrHide(htmlize(theWord.content.intro2))
+                    text2.text = htmlize(theWord.content.text2)
+                    ref2.text = theWord.content.ref2
+                }
+
             }
         }
 
@@ -216,27 +216,28 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
         val noteHeaderSize = (size * 0.6).toFloat()
         val noteContentSize = (size * 0.75).toFloat()
 
-        the_word_date.textSize = contentSize
-        the_word_intro1.textSize = contentSize
-        the_word_text1.textSize = contentSize
-        the_word_ref1.textSize = refSize
-        the_word_intro2.textSize = contentSize
-        the_word_text2.textSize = contentSize
-        the_word_ref2.textSize = refSize
-        the_word_note_header.textSize = noteHeaderSize
-        the_word_note_content.textSize = noteContentSize
-        the_word_note_edit.textSize = noteContentSize
+        binding.date.textSize = contentSize
+        with(binding.contentRoot) {
+            intro1.textSize = contentSize
+            text1.textSize = contentSize
+            ref1.textSize = refSize
+            intro2.textSize = contentSize
+            text2.textSize = contentSize
+            ref2.textSize = refSize
+            noteHeader.textSize = noteHeaderSize
+            noteContent.textSize = noteContentSize
+            noteEdit.textSize = noteContentSize
 
-        the_word_note.visibleElseGone(appPreferences.showNotes())
-        if (viewModel.isLoadingNote().not()) {
-            the_word_note_content.text = viewModel.note()?.noteText ?: ""
+            note.visibleElseGone(appPreferences.showNotes())
+
+            if (viewModel.isLoadingNote().not()) {
+                noteContent.text = viewModel.note()?.noteText ?: ""
+            }
         }
-
     }
 
     private fun tryLoad() {
         val date = date()
-
         if (viewModel.isLoadingTheWord().not()) {
             viewModel.loadTheWord(date)
         }
@@ -259,5 +260,4 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
             }
         }
     }
-
 }

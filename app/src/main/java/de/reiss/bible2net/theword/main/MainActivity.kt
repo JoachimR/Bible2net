@@ -3,33 +3,32 @@ package de.reiss.bible2net.theword.main
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.navigation.NavigationView
+import android.view.MenuItem
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import androidx.appcompat.app.ActionBarDrawerToggle
-import android.view.MenuItem
+import com.google.android.material.navigation.NavigationView
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.DaysPositionUtil
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.about.AboutActivity
 import de.reiss.bible2net.theword.architecture.AppActivity
 import de.reiss.bible2net.theword.bible.BibleActivity
+import de.reiss.bible2net.theword.databinding.MainActivityBinding
 import de.reiss.bible2net.theword.main.viewpager.ViewPagerFragment
 import de.reiss.bible2net.theword.note.list.NoteListActivity
 import de.reiss.bible2net.theword.preferences.AppPreferencesActivity
 import de.reiss.bible2net.theword.util.extensions.findFragmentIn
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
-import kotlinx.android.synthetic.main.main_activity.*
 import java.util.*
-
 
 class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     companion object {
-
         fun createIntent(context: Context): Intent = Intent(context, MainActivity::class.java)
-
     }
+
+    private lateinit var binding: MainActivityBinding
 
     private val appPreferences by lazy {
         App.component.appPreferences
@@ -37,8 +36,9 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
-        setSupportActionBar(main_toolbar)
+        binding = MainActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.mainToolbar)
 
         if (redirectIfChosenBibleMissing()) {
             return
@@ -69,7 +69,7 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
                 startActivity(AboutActivity.createIntent(this))
             }
         }
-        main_drawer.closeDrawer(GravityCompat.START)
+        binding.mainDrawer.closeDrawer(GravityCompat.START)
         return true
     }
 
@@ -96,18 +96,17 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
 
     private fun initNav() {
         val toggle = ActionBarDrawerToggle(this,
-                main_drawer,
-                main_toolbar,
+                binding.mainDrawer,
+                binding.mainToolbar,
                 R.string.navigation_drawer_open,
                 R.string.navigation_drawer_close)
-        main_drawer.addDrawerListener(toggle)
+        binding.mainDrawer.addDrawerListener(toggle)
         toggle.syncState()
 
-        main_nav.setNavigationItemSelectedListener(this)
+        binding.mainNav.setNavigationItemSelectedListener(this)
     }
 
     private fun goToSettings() {
         startActivity(AppPreferencesActivity.createIntent(this))
     }
-
 }

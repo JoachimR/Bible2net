@@ -1,7 +1,7 @@
 package de.reiss.bible2net.theword.main.viewpager
 
-import androidx.lifecycle.MutableLiveData
 import androidx.annotation.WorkerThread
+import androidx.lifecycle.MutableLiveData
 import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.database.BibleItem
 import de.reiss.bible2net.theword.database.BibleItemDao

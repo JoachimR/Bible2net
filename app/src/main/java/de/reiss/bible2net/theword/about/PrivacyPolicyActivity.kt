@@ -3,26 +3,26 @@ package de.reiss.bible2net.theword.about
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppActivity
-import kotlinx.android.synthetic.main.privacy_policy_activity.*
+import de.reiss.bible2net.theword.databinding.PrivacyPolicyActivityBinding
 
 class PrivacyPolicyActivity : AppActivity() {
 
     companion object {
-
         fun createIntent(context: Context): Intent =
                 Intent(context, PrivacyPolicyActivity::class.java)
-
     }
+
+    private lateinit var binding: PrivacyPolicyActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.privacy_policy_activity)
-        setSupportActionBar(privacy_policy_toolbar)
+        binding = PrivacyPolicyActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        privacy_policy_web_view.loadUrl("file:///android_asset/privacy_policy.html");
+        binding.webView.loadUrl("file:///android_asset/privacy_policy.html");
     }
 
 }

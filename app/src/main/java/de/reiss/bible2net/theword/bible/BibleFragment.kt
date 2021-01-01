@@ -1,29 +1,25 @@
 package de.reiss.bible2net.theword.bible
 
-
-import androidx.lifecycle.Observer
+import android.view.LayoutInflater
+import android.view.View.GONE
+import android.view.View.VISIBLE
+import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import android.view.View.GONE
-import android.view.View.VISIBLE
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
-import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.bible.list.BibleListBuilder
 import de.reiss.bible2net.theword.bible.list.BibleListItemAdapter
+import de.reiss.bible2net.theword.databinding.BibleFragmentBinding
 import de.reiss.bible2net.theword.model.Bible
 import de.reiss.bible2net.theword.util.extensions.onClick
-import kotlinx.android.synthetic.main.bible_fragment.*
 
-
-class BibleFragment : AppFragment<BibleViewModel>(R.layout.bible_fragment), BibleClickListener {
+class BibleFragment : AppFragment<BibleFragmentBinding, BibleViewModel>(R.layout.bible_fragment), BibleClickListener {
 
     companion object {
-
         fun createInstance() = BibleFragment()
-
     }
 
     private val appPreferences by lazy {
@@ -32,15 +28,18 @@ class BibleFragment : AppFragment<BibleViewModel>(R.layout.bible_fragment), Bibl
 
     private lateinit var bibleListItemAdapter: BibleListItemAdapter
 
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+            BibleFragmentBinding.inflate(inflater, container, false)
+
     override fun initViews() {
         bibleListItemAdapter = BibleListItemAdapter(bibleClickListener = this)
 
-        with(bible_recycler_view) {
+        with(binding.recyclerView) {
             layoutManager = LinearLayoutManager(context)
             adapter = bibleListItemAdapter
         }
 
-        bible_no_bibles_refresh.onClick {
+        binding.noBiblesRefresh.onClick {
             tryRefresh()
         }
     }
@@ -53,9 +52,7 @@ class BibleFragment : AppFragment<BibleViewModel>(R.layout.bible_fragment), Bibl
             loadViewModelProvider().get(BibleViewModel::class.java)
 
     override fun initViewModelObservers() {
-        viewModel.biblesLiveData.observe(this, Observer<AsyncLoad<List<Bible>>> {
-            onResourceChange()
-        })
+        viewModel.biblesLiveData.observe(this, { onResourceChange() })
     }
 
     override fun onAppFragmentReady() {
@@ -73,22 +70,21 @@ class BibleFragment : AppFragment<BibleViewModel>(R.layout.bible_fragment), Bibl
     }
 
     private fun onResourceChange() {
-        bible_loading_bibles.visibility = GONE
-        bible_no_bibles.visibility = GONE
-        bible_recycler_view.visibility = GONE
+        binding.loading.visibility = GONE
+        binding.noBibles.visibility = GONE
+        binding.recyclerView.visibility = GONE
 
         if (viewModel.isLoadingBibles()) {
-            bible_loading_bibles.visibility = VISIBLE
+            binding.loading.visibility = VISIBLE
         } else {
             BibleListBuilder.buildList(viewModel.bibles()).let { listItems ->
                 if (listItems.isEmpty()) {
-                    bible_no_bibles.visibility = VISIBLE
+                    binding.noBibles.visibility = VISIBLE
                 } else {
-                    bible_recycler_view.visibility = VISIBLE
+                    binding.recyclerView.visibility = VISIBLE
                     bibleListItemAdapter.updateContent(listItems)
                 }
             }
         }
     }
-
 }

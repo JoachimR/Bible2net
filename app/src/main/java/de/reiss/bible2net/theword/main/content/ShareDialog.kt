@@ -5,9 +5,9 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.DialogFragment
-import androidx.appcompat.app.AlertDialog
 import android.widget.EditText
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.DialogFragment
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.model.TheWordContent
 import de.reiss.bible2net.theword.util.contentAsString
@@ -40,10 +40,10 @@ class ShareDialog : DialogFragment() {
                 AlertDialog.Builder(activity)
                         .setTitle(R.string.share_dialog_title)
                         .setNegativeButton(R.string.dialog_cancel, null)
-                        .setPositiveButton(R.string.share_dialog_ok, { _, _ ->
+                        .setPositiveButton(R.string.share_dialog_ok) { _, _ ->
                             startActivity(shareIntent())
                             dismiss()
-                        })
+                        }
                         .setView(createLayout(activity))
                         .create()
             }
