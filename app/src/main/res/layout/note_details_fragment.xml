@@ -15,43 +15,39 @@
 
             <TextView
                 android:id="@+id/note_details_word"
-                style="@style/TextAppearance.AppCompat.Body1"
+                style="?attr/textAppearanceSubtitle1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                tools:text="some word" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/grey300" />
+                android:textStyle="bold"
+                tools:text="@tools:sample/lorem/random" />
 
             <TextView
                 android:id="@+id/note_details_note_header"
-                style="@style/TextAppearance.AppCompat.Caption"
+                style="?attr/textAppearanceCaption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="32dp"
                 android:layout_marginRight="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/note_details_note_header" />
 
             <TextView
                 android:id="@+id/note_details_note"
-                style="@style/TextAppearance.AppCompat.Body2"
+                style="?attr/textAppearanceBody1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                tools:text="some note" />
+                android:layout_marginBottom="16dp"
+                tools:text="@tools:sample/lorem/random" />
 
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
 
-    <de.reiss.bible2net.theword.util.view.FadingProgressBar
+    <de.reiss.bible2net.theword.util.view.LoadingProgressBar
         android:id="@+id/note_details_loading"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"

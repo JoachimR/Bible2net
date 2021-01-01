@@ -181,17 +181,17 @@ class TheWordFragment : AppFragment<TheWordViewModel>(R.layout.the_word) {
         when {
 
             viewModel.isLoadingTheWord() -> {
-                the_word_loading.loading = true
+                the_word_loading.setLoading(true)
             }
 
             (viewModel.isErrorForTheWord() || theWord == null) -> {
-                the_word_loading.loading = false
+                the_word_loading.setLoading(false)
                 the_word_empty_root.visibility = VISIBLE
                 the_word_content_root.visibility = GONE
             }
 
             viewModel.isSuccessForTheWord() -> {
-                the_word_loading.loading = false
+                the_word_loading.setLoading(false)
                 the_word_empty_root.visibility = GONE
                 the_word_content_root.visibility = VISIBLE
 

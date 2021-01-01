@@ -18,7 +18,7 @@
 
             <TextView
                 android:id="@+id/the_word_date"
-                style="@style/TextAppearance.AppCompat.Subhead"
+                style="?attr/textAppearanceSubtitle1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -50,7 +50,7 @@
 
     </androidx.core.widget.NestedScrollView>
 
-    <de.reiss.bible2net.theword.util.view.FadingProgressBar
+    <de.reiss.bible2net.theword.util.view.LoadingProgressBar
         android:id="@+id/the_word_loading"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"

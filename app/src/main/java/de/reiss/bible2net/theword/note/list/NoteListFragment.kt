@@ -34,10 +34,6 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
             adapter = listItemAdapter
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
         }
-
-        note_list_swipe_to_refresh.setOnRefreshListener {
-            tryLoadNotes()
-        }
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
@@ -84,9 +80,11 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
 
     private fun updateUi() {
         if (viewModel.isLoadingNotes()) {
-            note_list_swipe_to_refresh.isRefreshing = true
+            note_list_loading.setLoading(true)
+            note_list_no_notes.visibility = GONE
+            note_list_recycler_view.visibility = GONE
         } else {
-            note_list_swipe_to_refresh.isRefreshing = false
+            note_list_loading.setLoading(false)
             val filteredNotes = viewModel.notes()
 
             val listItems = NoteListBuilder.buildList(filteredNotes.filteredItems)
@@ -100,8 +98,8 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
                             getString(R.string.no_notes_for_filter, filteredNotes.query)
                         }
             } else {
-                note_list_no_notes.visibility = GONE
                 note_list_recycler_view.visibility = VISIBLE
+                note_list_no_notes.visibility = GONE
                 listItemAdapter.updateContent(listItems)
             }
         }

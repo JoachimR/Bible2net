@@ -4,34 +4,41 @@
     android:id="@+id/note_list_item_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/md_white_1000"
-    android:foreground="?selectableItemBackground">
+    android:background="?attr/selectableItemBackground">
 
-    <LinearLayout
+    <RelativeLayout
         style="@style/MaximumContentWidth"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:background="?attr/selectableItemBackground"
+        android:minHeight="64dp"
+        android:paddingHorizontal="16dp">
 
         <TextView
             android:id="@+id/note_list_item_date"
-            style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            tools:text="2017-09-04" />
+            android:maxLines="1"
+            android:paddingStart="0dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textColor="@color/list_item_tint"
+            tools:text="@tools:sample/lorem/random" />
 
         <TextView
             android:id="@+id/note_list_item_text"
-            style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:ellipsize="end"
+            android:layout_below="@id/note_list_item_date"
+            android:layout_gravity="center_vertical"
             android:maxLines="2"
-            tools:text="Some note" />
+            android:paddingStart="0dp"
+            android:paddingEnd="16dp"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/list_item_tint"
+            tools:text="@tools:sample/lorem/random" />
 
-    </LinearLayout>
+    </RelativeLayout>
 
 </FrameLayout>

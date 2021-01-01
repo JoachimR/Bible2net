@@ -137,16 +137,16 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
 
         when {
             viewModel.isDeleting() -> {
-                note_details_loading.loading = true
+                note_details_loading.setLoading(true)
             }
             viewModel.successfullyDeleted() -> {
                 activity?.supportFinishAfterTransition()
             }
             viewModel.isLoading() -> {
-                note_details_loading.loading = true
+                note_details_loading.setLoading(true)
             }
             else -> {
-                note_details_loading.loading = false
+                note_details_loading.setLoading(false)
 
                 when {
                     viewModel.errorDeleting() -> showIndefiniteSnackbar(

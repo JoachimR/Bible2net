@@ -3,23 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/pref_screen_settings_title">
 
-    <PreferenceCategory android:title="@string/pref_app_category_title">
+    <PreferenceCategory
+        android:title="@string/pref_app_category_title"
+        app:iconSpaceReserved="false">
 
         <ListPreference
             android:key="@string/pref_language_key"
             android:summary="%s"
-            android:title="@string/pref_language_title" />
+            android:title="@string/pref_language_title"
+            app:iconSpaceReserved="false" />
 
         <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_show_daily_notification_key"
             android:summaryOff="@string/pref_app_show_daily_notification_summary_off"
             android:summaryOn="@string/pref_app_show_daily_notification_summary_on"
-            android:title="@string/pref_app_show_daily_notification_title" />
+            android:title="@string/pref_app_show_daily_notification_title"
+            app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/pref_display_category_title">
+    <PreferenceCategory
+        android:title="@string/pref_display_category_title"
+        app:iconSpaceReserved="false">
 
         <ListPreference
             android:defaultValue="@string/pref_theme_default"
@@ -27,13 +33,15 @@
             android:entryValues="@array/pref_theme_themes_values"
             android:key="@string/pref_theme_key"
             android:summary="%s"
-            android:title="@string/pref_theme_title" />
+            android:title="@string/pref_theme_title"
+            app:iconSpaceReserved="false" />
 
         <SeekBarPreference
             android:defaultValue="@string/pref_fontsize_default"
             android:key="@string/pref_fontsize_key"
             android:max="@string/pref_fontsize_max"
             android:title="@string/pref_fontsize_title"
+            app:iconSpaceReserved="false"
             app:min="@string/pref_fontsize_min"
             app:showSeekBarValue="true" />
 
@@ -42,11 +50,14 @@
             android:key="@string/pref_shownotes_key"
             android:summaryOff="@string/pref_shownotes_summary_off"
             android:summaryOn="@string/pref_shownotes_summary_on"
-            android:title="@string/pref_shownotes_title" />
+            android:title="@string/pref_shownotes_title"
+            app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/pref_widget_category_title">
+    <PreferenceCategory
+        android:title="@string/pref_widget_category_title"
+        app:iconSpaceReserved="false">
 
         <ListPreference
             android:defaultValue="@string/pref_widget_backgroundcolor_default"
@@ -54,7 +65,8 @@
             android:entryValues="@array/pref_widget_backgroundcolor_colors_values"
             android:key="@string/pref_widget_backgroundcolor_key"
             android:summary="%s"
-            android:title="@string/pref_widget_backgroundcolor_title" />
+            android:title="@string/pref_widget_backgroundcolor_title"
+            app:iconSpaceReserved="false" />
 
         <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
             android:defaultValue="@color/default_font_color"
@@ -62,6 +74,7 @@
             android:title="@string/pref_widget_fontcolor_title"
             app:colorChoices="@array/pref_font_colors"
             app:colorShape="circle"
+            app:iconSpaceReserved="false"
             app:numColumns="5"
             app:showDialog="true"
             app:viewSize="large" />
@@ -71,18 +84,21 @@
             android:key="@string/pref_widget_fontsize_key"
             android:max="@string/pref_widget_fontsize_max"
             android:title="@string/pref_widget_fontsize_title"
+            app:iconSpaceReserved="false"
             app:min="@string/pref_widget_fontsize_min"
             app:showSeekBarValue="true" />
 
         <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_widget_showdate_key"
-            android:title="@string/pref_widget_showdate_title" />
+            android:title="@string/pref_widget_showdate_title"
+            app:iconSpaceReserved="false" />
 
         <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_widget_centered_text_key"
-            android:title="@string/pref_widget_centered_text_title" />
+            android:title="@string/pref_widget_centered_text_title"
+            app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
 

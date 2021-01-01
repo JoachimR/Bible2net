@@ -17,7 +17,7 @@
 
         <activity
             android:name=".SplashScreenActivity"
-            android:theme="@style/AppTheme.NoActionBar.Splash">
+            android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -27,12 +27,12 @@
         <activity
             android:name=".bible.BibleActivity"
             android:label="@string/bible_activity_title"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
 
         <activity
             android:name=".main.MainActivity"
             android:label="@string/main_activity_title"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
 
         <activity
             android:name=".preferences.AppPreferencesActivity"
@@ -41,14 +41,14 @@
         <activity
             android:name=".note.edit.EditNoteActivity"
             android:label="@string/edit_note_title"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
 
         <!--android:launchMode="singleTop" so that search intent does not create new instance-->
         <activity
             android:name=".note.list.NoteListActivity"
             android:label="@string/note_list_title"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
 
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -63,22 +63,22 @@
         <activity
             android:name=".note.details.NoteDetailsActivity"
             android:label="@string/note_details_title"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
 
         <activity
             android:name=".note.export.NoteExportActivity"
             android:label="@string/note_export_title"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
 
         <activity
             android:name=".about.AboutActivity"
             android:label="@string/about_title"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
 
         <activity
             android:name=".about.PrivacyPolicyActivity"
             android:label="@string/privacy_policy"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
 
         <service
             android:name=".notification.NotificationService"

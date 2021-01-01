@@ -136,19 +136,19 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
             }
 
             viewModel.isLoadingOrStoring() -> {
-                edit_note_loading.loading = true
+                edit_note_loading.setLoading(true)
                 edit_note_input_root.visibility = GONE
                 edit_note_load_error.visibility = GONE
             }
 
             viewModel.loadError() -> {
-                edit_note_loading.loading = false
+                edit_note_loading.setLoading(false)
                 edit_note_input_root.visibility = GONE
                 edit_note_load_error.visibility = VISIBLE
             }
 
             viewModel.storeError() -> {
-                edit_note_loading.loading = false
+                edit_note_loading.setLoading(false)
                 edit_note_input_root.visibility = VISIBLE
                 edit_note_load_error.visibility = GONE
                 showLongSnackbar(
@@ -162,7 +162,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
             }
 
             else -> {
-                edit_note_loading.loading = false
+                edit_note_loading.setLoading(false)
                 edit_note_input_root.visibility = VISIBLE
                 edit_note_load_error.visibility = GONE
 

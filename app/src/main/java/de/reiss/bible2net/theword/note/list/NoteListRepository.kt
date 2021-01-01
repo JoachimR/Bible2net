@@ -5,6 +5,7 @@ import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.database.NoteItemDao
 import de.reiss.bible2net.theword.database.converter.Converter
 import de.reiss.bible2net.theword.model.Note
+import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
@@ -65,26 +66,25 @@ open class NoteListRepository @Inject constructor(private val executor: Executor
                             query = query)
             ))
         }
-
-
     }
 
     private fun filter(query: String, noteList: List<Note>) =
-            query.toLowerCase().let { match ->
+            query.lowerCase().let { match ->
                 noteList.filter {
-                    it.noteText.toLowerCase().contains(match)
-                            || it.theWordContent.chapter1.toLowerCase().contains(match)
-                            || it.theWordContent.verse1.toLowerCase().contains(match)
-                            || it.theWordContent.intro1.toLowerCase().contains(match)
-                            || it.theWordContent.text1.toLowerCase().contains(match)
-                            || it.theWordContent.ref1.toLowerCase().contains(match)
-                            || it.theWordContent.book2.toLowerCase().contains(match)
-                            || it.theWordContent.chapter2.toLowerCase().contains(match)
-                            || it.theWordContent.verse2.toLowerCase().contains(match)
-                            || it.theWordContent.intro2.toLowerCase().contains(match)
-                            || it.theWordContent.text2.toLowerCase().contains(match)
-                            || it.theWordContent.ref2.toLowerCase().contains(match)
+                    it.noteText.lowerCase().contains(match)
+                            || it.theWordContent.chapter1.lowerCase().contains(match)
+                            || it.theWordContent.verse1.lowerCase().contains(match)
+                            || it.theWordContent.intro1.lowerCase().contains(match)
+                            || it.theWordContent.text1.lowerCase().contains(match)
+                            || it.theWordContent.ref1.lowerCase().contains(match)
+                            || it.theWordContent.book2.lowerCase().contains(match)
+                            || it.theWordContent.chapter2.lowerCase().contains(match)
+                            || it.theWordContent.verse2.lowerCase().contains(match)
+                            || it.theWordContent.intro2.lowerCase().contains(match)
+                            || it.theWordContent.text2.lowerCase().contains(match)
+                            || it.theWordContent.ref2.lowerCase().contains(match)
                 }
             }
 
+    private fun String.lowerCase() = this.toLowerCase(Locale.getDefault())
 }

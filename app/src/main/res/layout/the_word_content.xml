@@ -25,7 +25,7 @@
 
             <TextView
                 android:id="@+id/the_word_intro1"
-                style="@style/TextAppearance.AppCompat.Caption"
+                style="?attr/textAppearanceCaption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -34,7 +34,7 @@
 
             <TextView
                 android:id="@+id/the_word_text1"
-                style="@style/TextAppearance.AppCompat.Body1"
+                style="?attr/textAppearanceBody1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -43,7 +43,7 @@
 
             <TextView
                 android:id="@+id/the_word_ref1"
-                style="@style/TextAppearance.AppCompat.Caption"
+                style="?attr/textAppearanceCaption"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -74,7 +74,7 @@
 
             <TextView
                 android:id="@+id/the_word_intro2"
-                style="@style/TextAppearance.AppCompat.Caption"
+                style="?attr/textAppearanceCaption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -83,7 +83,7 @@
 
             <TextView
                 android:id="@+id/the_word_text2"
-                style="@style/TextAppearance.AppCompat.Body1"
+                style="?attr/textAppearanceBody1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -92,7 +92,7 @@
 
             <TextView
                 android:id="@+id/the_word_ref2"
-                style="@style/TextAppearance.AppCompat.Caption"
+                style="?attr/textAppearanceCaption"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -127,7 +127,7 @@
 
                 <TextView
                     android:id="@+id/the_word_note_header"
-                    style="@style/TextAppearance.AppCompat.Subhead"
+                    style="?attr/textAppearanceSubtitle1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
@@ -137,7 +137,7 @@
 
                 <TextView
                     android:id="@+id/the_word_note_content"
-                    style="@style/TextAppearance.AppCompat.Body1"
+                    style="?attr/textAppearanceBody1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
@@ -149,7 +149,7 @@
 
             <Button
                 android:id="@+id/the_word_note_edit"
-                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"

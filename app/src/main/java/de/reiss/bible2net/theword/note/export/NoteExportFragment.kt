@@ -80,7 +80,7 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportViewModel>(R.layout.n
             }
 
     private fun updateLoading(loading: Boolean) {
-        note_export_loading.loading = loading
+        note_export_loading.setLoading(loading)
         note_export_start.isEnabled = !loading
     }
 

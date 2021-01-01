@@ -23,7 +23,7 @@
 
         <TextView
             android:id="@+id/bible_item_language"
-            style="@style/TextAppearance.AppCompat.Body2"
+            style="?attr/textAppearanceBody2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -32,7 +32,7 @@
 
         <TextView
             android:id="@+id/bible_item_bible_name"
-            style="@style/TextAppearance.AppCompat.Body1"
+            style="?attr/textAppearanceBody1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Schlachterrrrrrrrrrrrrrrr 2000" />

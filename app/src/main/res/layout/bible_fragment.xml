@@ -59,12 +59,12 @@
         tools:visibility="visible">
 
         <TextView
-            style="@style/TextAppearance.AppCompat.Body1"
+            style="?attr/textAppearanceBody1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bible_loading_bibles" />
 
-        <de.reiss.bible2net.theword.util.view.FadingProgressBar
+        <de.reiss.bible2net.theword.util.view.LoadingProgressBar
             style="@style/Widget.AppCompat.ProgressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -82,7 +82,7 @@
         tools:visibility="visible">
 
         <TextView
-            style="@style/TextAppearance.AppCompat.Body1"
+            style="?attr/textAppearanceBody1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bible_no_bibles" />
@@ -92,12 +92,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:contentDescription="@string/bible_no_bibles"
-            android:tint="@color/md_grey_500"
             app:srcCompat="@drawable/ic_block_black_24dp" />
 
         <Button
             android:id="@+id/bible_no_bibles_refresh"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

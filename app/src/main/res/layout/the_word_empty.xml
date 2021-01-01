@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginEnd="16dp"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp"
     android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
     android:layout_marginTop="32dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
     android:gravity="center"
     android:orientation="vertical"
     android:visibility="gone"
@@ -18,11 +18,10 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:contentDescription="@string/cd_the_word_no_content"
-        android:tint="@color/md_grey_300"
         app:srcCompat="@drawable/ic_block_black_24dp" />
 
     <TextView
-        style="@style/TextAppearance.AppCompat.Body1"
+        style="?attr/textAppearanceBody1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -31,15 +30,15 @@
 
     <Button
         android:id="@+id/the_word_try_download"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/no_content_download" />
 
     <Button
         android:id="@+id/the_word_change_translation"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"

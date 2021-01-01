@@ -316,7 +316,7 @@ class ParserTest {
 
     private fun readTwd(xmlFileName: String): String {
         val reader = BufferedReader(InputStreamReader(
-                javaClass.classLoader.getResourceAsStream(xmlFileName)))
+                javaClass.classLoader!!.getResourceAsStream(xmlFileName)))
 
         val total = StringBuilder()
 

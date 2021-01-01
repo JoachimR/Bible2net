@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar</item>
+    </style>
+
+    <style name="AppThemeBlue" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary_blue</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant_blue</item>
+        <item name="colorSecondary">@color/colorSecondary_blue</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar_blue</item>
+    </style>
+
+    <style name="AppThemeGrey" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary_grey</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant_grey</item>
+        <item name="colorSecondary">@color/colorSecondary_grey</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar_grey</item>
+    </style>
+
+    <style name="AppThemeGreen" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary_green</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant_green</item>
+        <item name="colorSecondary">@color/colorSecondary_green</item>
+        <item name="backgroundDrawerHeader">@drawable/side_nav_bar_green</item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+</resources>

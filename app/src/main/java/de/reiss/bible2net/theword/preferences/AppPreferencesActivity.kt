@@ -58,10 +58,10 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
 
     private fun updateUi() {
         if (viewModel.isLoadingBibles()) {
-            preferences_loading.loading = true
+            preferences_loading.setLoading(true)
             preferences_fragment_container.visibility = GONE
         } else {
-            preferences_loading.loading = false
+            preferences_loading.setLoading(false)
             preferences_fragment_container.visibility = VISIBLE
 
             if (supportFragmentManager.findFragmentById(R.id.preferences_fragment_container) == null) {
