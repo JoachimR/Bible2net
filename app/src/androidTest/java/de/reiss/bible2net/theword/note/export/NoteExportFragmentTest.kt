@@ -67,23 +67,21 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
 
     @Test
     fun whenExportErrorThenShowExportErrorMessage() {
-        val directory = "testDirectory"
         val fileName = "testFileName"
-        exportLiveData.postValue(ExportError(directory, fileName))
+        exportLiveData.postValue(ExportError(fileName))
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
-        assertTextInSnackbar(activity.getString(R.string.notes_export_error, directory, fileName))
+        assertTextInSnackbar(activity.getString(R.string.notes_export_error, fileName))
     }
 
     @Test
     fun whenExportSuccessThenShowExportSuccessMessage() {
-        val directory = "testDirectory"
         val fileName = "testFileName"
-        exportLiveData.postValue(ExportSuccess(directory, fileName))
+        exportLiveData.postValue(ExportSuccess(fileName))
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
-        assertTextInSnackbar(activity.getString(R.string.notes_export_success, directory, fileName))
+        assertTextInSnackbar(activity.getString(R.string.notes_export_success, fileName))
     }
 }

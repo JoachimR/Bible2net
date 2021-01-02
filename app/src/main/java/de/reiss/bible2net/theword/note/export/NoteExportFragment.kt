@@ -90,16 +90,8 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, Note
         when (status) {
             NoPermission -> getString(R.string.can_not_write_to_sdcard)
             NoNotes -> getString(R.string.notes_export_no_notes)
-            is ExportError -> getString(
-                R.string.notes_export_error,
-                status.directory,
-                status.fileName
-            )
-            is ExportSuccess -> getString(
-                R.string.notes_export_success,
-                status.directory,
-                status.fileName
-            )
+            is ExportError -> getString(R.string.notes_export_error, status.fileName)
+            is ExportSuccess -> getString(R.string.notes_export_success, status.fileName)
             Exporting -> throw IllegalStateException("invalid status")
         }
 

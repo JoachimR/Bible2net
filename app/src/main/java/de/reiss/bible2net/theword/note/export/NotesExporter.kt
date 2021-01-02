@@ -10,7 +10,6 @@ import java.io.IOException
 open class NotesExporter(private val fileProvider: FileProvider) {
 
     open val fileName = fileProvider.fileName
-    open val directory = fileProvider.directory
 
     @WorkerThread
     open fun exportNotes(notes: List<NoteItem>): Boolean {

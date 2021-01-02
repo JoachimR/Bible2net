@@ -1,16 +1,21 @@
 package de.reiss.bible2net.theword.architecture.di
 
+import android.content.Context
 import dagger.Module
 import dagger.Provides
 import de.reiss.bible2net.theword.note.export.FileProvider
 import de.reiss.bible2net.theword.note.export.NotesExporter
 
-@Module
+@Module(
+    includes = [
+        ContextModule::class
+    ]
+)
 open class NotesExportModule {
 
     @Provides
     @ApplicationScope
-    open fun fileProvider() = FileProvider()
+    open fun fileProvider(context: Context) = FileProvider(context)
 
     @Provides
     @ApplicationScope

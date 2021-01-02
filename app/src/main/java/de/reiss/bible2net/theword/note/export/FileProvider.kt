@@ -1,5 +1,6 @@
 package de.reiss.bible2net.theword.note.export
 
+import android.content.Context
 import android.os.Environment
 import de.reiss.bible2net.theword.logger.logWarn
 import de.reiss.bible2net.theword.util.extensions.asDateString
@@ -9,16 +10,9 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.util.Date
 
-open class FileProvider {
-
-    private val directoryName = "WordsNotes"
+open class FileProvider(private val context: Context) {
 
     val fileName = "${Date().asDateString()}_wordnotes.xml"
-
-    open val directory by lazy {
-        Environment.getExternalStorageDirectory().toString() +
-            File.separator + directoryName
-    }
 
     open fun isExternalStorageWritable() =
         Environment.MEDIA_MOUNTED == Environment.getExternalStorageState()
@@ -35,7 +29,8 @@ open class FileProvider {
     }
 
     private fun createFile(): File {
-        val dir = File(directory)
+        val absoluteDir = context.getExternalFilesDir(null)!!.absoluteFile.toString()
+        val dir = File(absoluteDir)
         dir.mkdirs()
         val file = File(dir, fileName)
         file.createNewFile()

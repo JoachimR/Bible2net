@@ -35,9 +35,9 @@ open class NoteExportRepository @Inject constructor(
 
                 liveData.postValue(
                     if (exportResult) {
-                        ExportSuccess(notesExporter.directory, notesExporter.fileName)
+                        ExportSuccess(notesExporter.fileName)
                     } else {
-                        ExportError(notesExporter.directory, notesExporter.fileName)
+                        ExportError(notesExporter.fileName)
                     }
                 )
             }
