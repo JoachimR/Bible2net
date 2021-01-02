@@ -13,6 +13,12 @@
         <item>Grau/Türkis</item>
         <item>Grün/Braun</item>
     </string-array>
+    <string name="pref_design_title">Design</string>
+    <string-array name="pref_design_options_displayed">
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>System Einstellung</item>
+    </string-array>
     <string name="pref_language_title">Übersetzung</string>
     <string name="pref_app_category_title">App Einstellungen</string>
     <string name="pref_fontsize_title">Schriftgröße</string>

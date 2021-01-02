@@ -2,6 +2,7 @@
 <resources>
 
     <string name="pref_theme_key" translatable="false">theme</string>
+    <string name="pref_design_key" translatable="false">design</string>
 
     <string name="pref_language_key" translatable="false">language</string>
     <string name="pref_fontsize_key" translatable="false">fontsize</string>

@@ -60,7 +60,12 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     fun currentTheme(): AppTheme {
         val chosenTheme = prefString(R.string.pref_theme_key, R.string.pref_theme_default)
-        return AppTheme.find(context, chosenTheme!!) ?: AppTheme.RED_TEAL
+        return AppTheme.find(context, chosenTheme!!) ?: AppTheme.default()
+    }
+
+    fun currentDesign(): AppDesign {
+        val chosenDesign = prefString(R.string.pref_design_key, R.string.pref_design_option_default)
+        return AppDesign.find(context, chosenDesign!!) ?: AppDesign.default()
     }
 
     var lastTimeBiblesUpdated: Long

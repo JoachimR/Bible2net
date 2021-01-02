@@ -13,6 +13,7 @@ enum class AppTheme(@StringRes val prefKey: Int, @StyleRes val theme: Int) {
     GREEN_BROWN(R.string.pref_theme_value_green_brown, R.style.AppThemeGreen);
 
     companion object {
+        fun default(): AppTheme = RED_TEAL
 
         fun find(context: Context, key: String): AppTheme? =
             values().firstOrNull {

@@ -6,15 +6,13 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View.GONE
 import android.view.View.VISIBLE
-import androidx.lifecycle.Observer
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.SplashScreenActivity
 import de.reiss.bible2net.theword.architecture.AppActivity
-import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.databinding.PreferenceActivityBinding
-import de.reiss.bible2net.theword.model.Bible
 import de.reiss.bible2net.theword.util.extensions.replaceFragmentIn
 
 class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferenceChangeListener {
@@ -43,12 +41,7 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
         )
             .get(AppPreferencesViewModel::class.java)
 
-        viewModel.biblesLiveData.observe(
-            this,
-            Observer<AsyncLoad<List<Bible>>> {
-                updateUi()
-            }
-        )
+        viewModel.biblesLiveData.observe(this, { updateUi() })
 
         App.component.appPreferences.registerListener(this)
     }
@@ -59,8 +52,14 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
     }
 
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
-        if (key == getString(R.string.pref_theme_key)) {
-            restartApp()
+        when (key) {
+            getString(R.string.pref_theme_key) -> {
+                restartApp()
+            }
+            getString(R.string.pref_design_key) -> {
+                val nightMode = App.component.appPreferences.currentDesign().nightMode
+                AppCompatDelegate.setDefaultNightMode(nightMode)
+            }
         }
     }
 

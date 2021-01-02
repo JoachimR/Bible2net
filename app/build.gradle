@@ -6,14 +6,14 @@ apply plugin: "kotlin-kapt"
 
 android {
 
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     defaultConfig {
         applicationId "de.reiss.bible2net.theword"
 
         minSdkVersion 21
 
-        targetSdkVersion 29
+        targetSdkVersion 30
 
         versionCode isIdeBuild ? 1 : app_version_code
         versionName app_version_name

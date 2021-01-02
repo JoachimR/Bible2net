@@ -28,6 +28,15 @@
         app:iconSpaceReserved="false">
 
         <ListPreference
+            android:defaultValue="@string/pref_design_option_default"
+            android:entries="@array/pref_design_options_displayed"
+            android:entryValues="@array/pref_design_options_values"
+            android:key="@string/pref_design_key"
+            android:summary="%s"
+            android:title="@string/pref_design_title"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
             android:defaultValue="@string/pref_theme_default"
             android:entries="@array/pref_theme_themes_displayed"
             android:entryValues="@array/pref_theme_themes_values"

@@ -15,6 +15,12 @@
         <item>Grey/Cyan</item>
         <item>Green/Brown</item>
     </string-array>
+    <string name="pref_design_title">Design</string>
+    <string-array name="pref_design_options_displayed">
+        <item>Bright</item>
+        <item>Dark</item>
+        <item>System Setting</item>
+    </string-array>
     <string name="pref_language_title">Translation</string>
     <string name="pref_app_category_title">Application settings</string>
     <string name="pref_fontsize_title">Content Font Size</string>
