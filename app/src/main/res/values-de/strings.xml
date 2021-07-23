@@ -2,7 +2,7 @@
     <string name="navigation_drawer_open">Öffne Navigation</string>
     <string name="navigation_drawer_close">Schließe Navigation</string>
     <string name="app_name">Das Wort</string>
-    <string name="info_general">Die app zeigt Das Wort, erstellt von </string>
+    <string name="info_general">"Die App zeigt Das Wort, erstellt von "</string>
     <string name="source_code_prefix">Quellcode:</string>
     <string name="info_participate">Wenn Sie beim Erstellen von neuen Inhalten mithelfen möchten, bitte besuchen Sie:</string>
     <string name="pref_screen_settings_title">Einstellungen</string>
@@ -17,10 +17,10 @@
     <string-array name="pref_design_options_displayed">
         <item>Hell</item>
         <item>Dunkel</item>
-        <item>System Einstellung</item>
+        <item>System-Einstellung</item>
     </string-array>
     <string name="pref_language_title">Übersetzung</string>
-    <string name="pref_app_category_title">App Einstellungen</string>
+    <string name="pref_app_category_title">App-Einstellungen</string>
     <string name="pref_fontsize_title">Schriftgröße</string>
     <string name="pref_shownotes_title">Zeige Notizen</string>
     <string name="pref_widget_category_title">Widget Einstellungen</string>
@@ -54,7 +54,7 @@
         <item>Weißer Container</item>
         <item>Gelber Container</item>
     </string-array>
-    <string name="pref_widget_fontcolor_title">Widget Schritfarbe</string>
+    <string name="pref_widget_fontcolor_title">Widget Schriftfarbe</string>
     <string-array name="pref_widget_fontcolor_colors_displayed">
         <item>Weiß</item>
         <item>Grau</item>
@@ -109,7 +109,7 @@
     <string name="share_dialog_ok">Teilen</string>
     <string name="share_dialog_input_hint">Text zum Teilen</string>
     <string name="share_dialog_chooser_title">Teilen</string>
-    <string name="pref_display_category_title">Anzeige Einstellungen</string>
+    <string name="pref_display_category_title">Anzeige-Einstellungen</string>
     <string name="pref_app_show_daily_notification_title">Tägliche Benachrichtigung</string>
     <string name="can_not_write_to_sdcard">Konnte nicht auf die SD Karte zugreifen</string>
     <string name="note_export_subhead">Exportiere alle Notizen auf die SD Karte</string>
@@ -123,7 +123,7 @@
     <string name="menu_edit_note_share">Teilen</string>
     <string name="note_details_title">Notiz Details</string>
     <string name="menu_note_details_share">Teilen</string>
-    <string name="about_title">About</string>
+    <string name="about_title">Info</string>
     <string name="about_share">Teilen</string>
     <string name="developer_prefix">Android Entwickler:</string>
     <string name="info_prefix">Info:</string>
