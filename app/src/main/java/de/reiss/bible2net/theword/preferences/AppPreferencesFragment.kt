@@ -8,6 +8,7 @@ import androidx.preference.SwitchPreferenceCompat
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.model.Bible
 import de.reiss.bible2net.theword.util.extensions.isPlayServiceAvailable
+import de.reiss.bible2net.theword.util.sortBibles
 
 class AppPreferencesFragment : PreferenceFragmentCompat() {
 
@@ -40,11 +41,9 @@ class AppPreferencesFragment : PreferenceFragmentCompat() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (findPreference(getString(R.string.pref_language_key)) as ListPreference?)?.apply {
-            val bibleList = bibles.toList().sortedWith(
-                compareBy({ it.languageCode }, { it.bibleName })
-            )
-            entries = bibleList.map { """[${it.languageCode}]   ${it.bibleName}""" }.toTypedArray()
-            entryValues = bibleList.map { it.key }.toTypedArray()
+            val sortedList = sortBibles(bibles)
+            entries = sortedList.map { """[${it.languageCode}]   ${it.bibleName}""" }.toTypedArray()
+            entryValues = sortedList.map { it.key }.toTypedArray()
         }
         (
             findPreference(getString(R.string.pref_show_daily_notification_key))

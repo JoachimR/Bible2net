@@ -10,11 +10,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
-import de.reiss.bible2net.theword.bible.list.BibleListBuilder
+import de.reiss.bible2net.theword.bible.list.BibleListItem
 import de.reiss.bible2net.theword.bible.list.BibleListItemAdapter
 import de.reiss.bible2net.theword.databinding.BibleFragmentBinding
 import de.reiss.bible2net.theword.model.Bible
 import de.reiss.bible2net.theword.util.extensions.onClick
+import de.reiss.bible2net.theword.util.sortBibles
 
 class BibleFragment :
     AppFragment<BibleFragmentBinding, BibleViewModel>(R.layout.bible_fragment),
@@ -83,7 +84,7 @@ class BibleFragment :
         if (viewModel.isLoadingBibles()) {
             binding.loading.visibility = VISIBLE
         } else {
-            BibleListBuilder.buildList(viewModel.bibles()).let { listItems ->
+            sortBibles(viewModel.bibles()).map { BibleListItem(it) }.let { listItems ->
                 if (listItems.isEmpty()) {
                     binding.noBibles.visibility = VISIBLE
                 } else {
