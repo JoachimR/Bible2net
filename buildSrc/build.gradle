@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.21"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.21"
 }
 
 apply plugin: 'kotlin'

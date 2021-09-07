@@ -17,6 +17,7 @@
 
         <activity
             android:name=".SplashScreenActivity"
+            android:exported="true"
             android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,6 +47,7 @@
         <!--android:launchMode="singleTop" so that search intent does not create new instance-->
         <activity
             android:name=".note.list.NoteListActivity"
+            android:exported="true"
             android:label="@string/note_list_title"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme">
@@ -93,7 +95,9 @@
             android:name=".widget.WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
-        <receiver android:name=".widget.WidgetProvider">
+        <receiver
+            android:name=".widget.WidgetProvider"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
