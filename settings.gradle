@@ -1,1 +1,1 @@
-include ':app', ':twdparser', ':model', ':downloader', ':database', ':logger', ':events'
+include ':app'

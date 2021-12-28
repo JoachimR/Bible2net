@@ -74,15 +74,9 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.21"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
 
-    implementation project(":database")
-    implementation project(":logger")
-    implementation project(":downloader")
-    implementation project(":twdparser")
-    implementation project(":events")
-
-    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.cardview:cardview:1.0.0'
@@ -90,15 +84,31 @@ dependencies {
     implementation 'androidx.preference:preference-ktx:1.1.1'
     implementation 'com.github.kizitonwose.colorpreference:support:1.1.0'
 
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
-    kapt 'androidx.lifecycle:lifecycle-compiler:2.3.1'
+    kapt 'androidx.lifecycle:lifecycle-compiler:2.4.0'
 
     implementation "com.google.android.gms:play-services-gcm:17.0.0"
 
-    implementation "com.google.dagger:dagger:2.30.1"
-    kapt "com.google.dagger:dagger-compiler:2.30.1"
-    compileOnly "org.glassfish:javax.annotation:10.0-b28"
+    implementation 'com.google.dagger:dagger-android:2.35.1'
+    kapt 'com.google.dagger:dagger-android-processor:2.40.5'
+    kapt 'com.google.dagger:dagger-compiler:2.30.1'
+
+    api "org.greenrobot:eventbus:3.1.1"
+
+    api 'androidx.room:room-runtime:2.4.0'
+    kapt 'androidx.room:room-compiler:2.4.0'
+
+    api "com.squareup.okhttp3:okhttp:4.9.2"
+    api "com.squareup.retrofit2:retrofit:2.6.2"
+    api "com.squareup.retrofit2:converter-moshi:2.6.2"
+    api "com.squareup.moshi:moshi:1.13.0"
+    api "com.squareup.moshi:moshi-adapters:1.13.0"
+    api "com.squareup.moshi:moshi-kotlin:1.13.0"
+    api "com.github.grapesnberries:curlloggerinterceptor:0.1"
+    kapt "com.squareup.moshi:moshi-kotlin-codegen:1.13.0"
+
+    implementation "org.jsoup:jsoup:1.14.3"
 
     testImplementation "junit:junit:4.13.2"
     testImplementation "com.nhaarman:mockito-kotlin-kt1.1:1.6.0"

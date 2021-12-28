@@ -49,8 +49,8 @@ abstract class AppFragmentWithSdCard<VB : ViewBinding, VM : ViewModel>(
         return (
             Build.VERSION.SDK_INT < Build.VERSION_CODES.M ||
                 context?.let {
-                checkSelfPermission(it, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
-            } ?: false
+                    checkSelfPermission(it, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
+                } ?: false
             )
     }
 
