@@ -1,12 +1,15 @@
-apply plugin: 'java'
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '2.0.21'
+}
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
-    }
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+kotlin {
+    jvmToolchain(17)
 }
 
 repositories {
@@ -14,7 +17,5 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
 }
-
-apply plugin: 'kotlin'

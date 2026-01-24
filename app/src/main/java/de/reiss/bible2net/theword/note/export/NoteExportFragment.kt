@@ -2,9 +2,7 @@ package de.reiss.bible2net.theword.note.export
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragmentWithSdCard
@@ -35,7 +33,7 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, Note
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-        ViewModelProviders.of(
+        ViewModelProvider(
             this,
             NoteExportViewModel.Factory(
                 App.component.noteExportRepository
@@ -43,15 +41,12 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, Note
         )
 
     override fun defineViewModel(): NoteExportViewModel =
-        loadViewModelProvider().get(NoteExportViewModel::class.java)
+        loadViewModelProvider()[NoteExportViewModel::class.java]
 
     override fun initViewModelObservers() {
-        viewModel.exportLiveData().observe(
-            this,
-            Observer<NoteExportStatus> {
-                updateUi()
-            }
-        )
+        viewModel.exportLiveData().observe(this) {
+            updateUi()
+        }
     }
 
     private fun tryExportNotes() {

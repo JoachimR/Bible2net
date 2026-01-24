@@ -5,9 +5,7 @@ import android.view.LayoutInflater
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.DaysPositionUtil
 import de.reiss.bible2net.theword.R
@@ -100,7 +98,7 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
             if (chosenBible == null) {
                 throw IllegalStateException("No bible chosen")
             }
-            return ViewModelProviders.of(
+            return ViewModelProvider(
                 this,
                 ViewPagerViewModel.Factory(
                     initialBible = chosenBible,
@@ -110,15 +108,12 @@ class ViewPagerFragment : AppFragment<ViewPagerFragmentBinding, ViewPagerViewMod
         }
 
     override fun defineViewModel(): ViewPagerViewModel =
-        loadViewModelProvider().get(ViewPagerViewModel::class.java)
+        loadViewModelProvider()[ViewPagerViewModel::class.java]
 
     override fun initViewModelObservers() {
-        viewModel.loadYearLiveData().observe(
-            this,
-            Observer<AsyncLoad<String>> {
-                updateUi()
-            }
-        )
+        viewModel.loadYearLiveData().observe(this) {
+            updateUi()
+        }
     }
 
     override fun onAppFragmentReady() {

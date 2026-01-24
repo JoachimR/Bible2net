@@ -89,7 +89,7 @@ class WidgetProvider : AppWidgetProvider() {
             context,
             REQUEST_CODE_CLICK_WIDGET,
             SplashScreenActivity.createIntent(context),
-            PendingIntent.FLAG_UPDATE_CURRENT
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_MUTABLE
         )
         remoteViews.setPendingIntentTemplate(R.id.widget_list_view, pendingIntent)
     }

@@ -2,7 +2,6 @@ package de.reiss.bible2net.theword.widget
 
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
@@ -92,15 +91,11 @@ class WidgetRemoteViewsFactory(private val context: Context) :
             setTextViewText(textView, item)
 
             setTextColor(textView, appPreferences.widgetFontColor())
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                setTextViewTextSize(
-                    textView,
-                    TypedValue.COMPLEX_UNIT_SP,
-                    appPreferences.widgetFontSize()
-                )
-            } else {
-                setFloat(textView, "setTextSize", appPreferences.widgetFontSize())
-            }
+            setTextViewTextSize(
+                textView,
+                TypedValue.COMPLEX_UNIT_SP,
+                appPreferences.widgetFontSize()
+            )
 
             // widget click event
             setOnClickFillInIntent(R.id.widget_row_root, Intent())

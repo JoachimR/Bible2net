@@ -2,7 +2,6 @@ package de.reiss.bible2net.theword.architecture
 
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
 import android.content.pm.PackageManager.PERMISSION_GRANTED
-import android.os.Build
 import androidx.annotation.LayoutRes
 import androidx.core.app.ActivityCompat.checkSelfPermission
 import androidx.lifecycle.ViewModel
@@ -45,13 +44,9 @@ abstract class AppFragmentWithSdCard<VB : ViewBinding, VM : ViewModel>(
     }
 
     private fun hasExternalStoragePermission(): Boolean {
-
-        return (
-            Build.VERSION.SDK_INT < Build.VERSION_CODES.M ||
-                context?.let {
-                    checkSelfPermission(it, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
-                } ?: false
-            )
+        return context?.let {
+            checkSelfPermission(it, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
+        } ?: false
     }
 
     abstract fun onSdCardPermissionGranted()

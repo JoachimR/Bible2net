@@ -6,7 +6,7 @@ import de.reiss.bible2net.theword.architecture.di.ApplicationComponent
 import de.reiss.bible2net.theword.architecture.di.ContextModule
 import de.reiss.bible2net.theword.architecture.di.DaggerApplicationComponent
 import de.reiss.bible2net.theword.architecture.di.DatabaseModule
-import de.reiss.bible2net.theword.notification.NotificationService
+import de.reiss.bible2net.theword.notification.NotificationWorker
 
 open class App : Application() {
 
@@ -23,7 +23,7 @@ open class App : Application() {
     }
 
     open fun initApp() {
-        NotificationService.schedule(this)
+        NotificationWorker.schedule(this)
         initPrefs()
     }
 

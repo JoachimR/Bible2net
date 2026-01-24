@@ -9,7 +9,6 @@ import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.DaysPositionUtil
 import de.reiss.bible2net.theword.R
@@ -102,7 +101,7 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-        ViewModelProviders.of(
+        ViewModelProvider(
             this,
             TheWordViewModel.Factory(
                 App.component.theWordRepository
@@ -110,7 +109,7 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(
         )
 
     override fun defineViewModel(): TheWordViewModel =
-        loadViewModelProvider().get(TheWordViewModel::class.java)
+        loadViewModelProvider()[TheWordViewModel::class.java]
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
         TheWordFragmentBinding.inflate(inflater, container, false)
@@ -176,8 +175,8 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(
     }
 
     override fun initViewModelObservers() {
-        viewModel.theWordLiveData().observe(this, { updateUi() })
-        viewModel.noteLiveData().observe(this, { updateUi() })
+        viewModel.theWordLiveData().observe(this) { updateUi() }
+        viewModel.noteLiveData().observe(this) { updateUi() }
     }
 
     private fun updateUi() {

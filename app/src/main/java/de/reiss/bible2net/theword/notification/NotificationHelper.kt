@@ -6,8 +6,6 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.graphics.BitmapFactory
-import android.os.Build
-import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.SplashScreenActivity
@@ -41,9 +39,7 @@ open class NotificationHelper @Inject constructor(
     }
 
     init {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            createNotificationChannel(notificationManager)
-        }
+        createNotificationChannel(notificationManager)
     }
 
     fun tryShowNotification() {
@@ -92,7 +88,7 @@ open class NotificationHelper @Inject constructor(
             createUniqueRequestCode(),
             SplashScreenActivity.createIntent(context)
                 .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP),
-            PendingIntent.FLAG_UPDATE_CURRENT
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
     private fun createUniqueRequestCode() = Random().nextInt(100)
@@ -108,7 +104,6 @@ open class NotificationHelper @Inject constructor(
             append(theWord.content.ref2)
         }.toString()
 
-    @RequiresApi(Build.VERSION_CODES.O)
     private fun createNotificationChannel(notificationManager: NotificationManager) {
         notificationManager.createNotificationChannel(
             NotificationChannel(
