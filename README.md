@@ -1,4 +1,4 @@
-The Word
+The Word test
 =======================
 This is the Android app for the content provided by <a href="https://bible2.net">bible2.net</a>
 
