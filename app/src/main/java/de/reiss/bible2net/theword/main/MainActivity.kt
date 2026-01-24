@@ -4,6 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
@@ -34,6 +36,12 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
         App.component.appPreferences
     }
 
+    private val drawerBackCallback = object : OnBackPressedCallback(false) {
+        override fun handleOnBackPressed() {
+            binding.mainDrawer.closeDrawer(GravityCompat.START)
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = MainActivityBinding.inflate(layoutInflater)
@@ -44,17 +52,9 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
             return
         }
 
+        onBackPressedDispatcher.addCallback(this, drawerBackCallback)
         initNav()
         refreshFragment()
-    }
-
-    override fun onBackPressed() {
-        val drawer = findViewById<DrawerLayout>(R.id.main_drawer)
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START)
-        } else {
-            super.onBackPressed()
-        }
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
@@ -103,6 +103,16 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
             R.string.navigation_drawer_close
         )
         binding.mainDrawer.addDrawerListener(toggle)
+        binding.mainDrawer.addDrawerListener(object : DrawerLayout.DrawerListener {
+            override fun onDrawerSlide(drawerView: View, slideOffset: Float) {}
+            override fun onDrawerOpened(drawerView: View) {
+                drawerBackCallback.isEnabled = true
+            }
+            override fun onDrawerClosed(drawerView: View) {
+                drawerBackCallback.isEnabled = false
+            }
+            override fun onDrawerStateChanged(newState: Int) {}
+        })
         toggle.syncState()
 
         binding.mainNav.setNavigationItemSelectedListener(this)

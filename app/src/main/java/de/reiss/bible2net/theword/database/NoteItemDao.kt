@@ -1,34 +1,30 @@
-package de.reiss.bible2net.theword.database;
+package de.reiss.bible2net.theword.database
 
-import androidx.room.Dao;
-import androidx.room.Delete;
-import androidx.room.Insert;
-import androidx.room.Query;
-
-import java.util.Date;
-import java.util.List;
-
-import static androidx.room.OnConflictStrategy.REPLACE;
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import java.util.Date
 
 @Dao
-public interface NoteItemDao {
+interface NoteItemDao {
 
     @Query("SELECT * FROM NoteItem")
-    List<NoteItem> all();
+    fun all(): List<NoteItem>
 
     @Query("SELECT * FROM NoteItem WHERE date = :date")
-    NoteItem byDate(Date date);
+    fun byDate(date: Date): NoteItem?
 
     @Query("SELECT * FROM NoteItem WHERE date BETWEEN :from AND :to")
-    List<NoteItem> range(Date from, Date to);
+    fun range(from: Date, to: Date): List<NoteItem>
 
-    @Insert(onConflict = REPLACE)
-    List<Long> insertOrReplace(NoteItem... items);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertOrReplace(vararg items: NoteItem): List<Long>
 
     @Delete
-    int delete(NoteItem... item);
+    fun delete(vararg item: NoteItem): Int
 
     @Query("DELETE FROM NoteItem")
-    void clear();
-
+    fun clear()
 }

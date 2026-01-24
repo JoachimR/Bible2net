@@ -34,7 +34,8 @@ open class TheWordRepository @Inject constructor(
         executor.execute {
             bibleListUpdater.tryUpdateBiblesIfNeeded()
 
-            val bibleItem = bibleItemDao.find(appPreferences.chosenBible)
+            val chosenBible = appPreferences.chosenBible
+            val bibleItem = chosenBible?.let { bibleItemDao.find(it) }
             if (bibleItem == null) {
                 result.postValue(AsyncLoad.error(message = "Bible not found"))
             } else {

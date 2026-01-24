@@ -1,32 +1,29 @@
-package de.reiss.bible2net.theword.database;
+package de.reiss.bible2net.theword.database
 
-import androidx.room.Dao;
-import androidx.room.Delete;
-import androidx.room.Insert;
-import androidx.room.OnConflictStrategy;
-import androidx.room.Query;
-
-import java.util.List;
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 
 @Dao
-public interface BibleItemDao {
+interface BibleItemDao {
 
     @Query("SELECT * FROM BibleItem")
-    List<BibleItem> all();
+    fun all(): List<BibleItem>
 
     @Query("SELECT * FROM BibleItem WHERE bible = :bible")
-    BibleItem find(String bible);
+    fun find(bible: String): BibleItem?
 
     @Insert(onConflict = OnConflictStrategy.ABORT)
-    long insert(BibleItem item);
+    fun insert(item: BibleItem): Long
 
     @Insert
-    long[] insertAll(BibleItem... items);
+    fun insertAll(vararg items: BibleItem): LongArray
 
     @Delete
-    void delete(BibleItem... item);
+    fun delete(vararg item: BibleItem)
 
     @Query("DELETE FROM BibleItem")
-    void clear();
-
+    fun clear()
 }

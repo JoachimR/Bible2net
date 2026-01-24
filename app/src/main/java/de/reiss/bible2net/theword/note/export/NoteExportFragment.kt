@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
-import de.reiss.bible2net.theword.architecture.AppFragmentWithSdCard
+import de.reiss.bible2net.theword.architecture.AppFragment
 import de.reiss.bible2net.theword.databinding.NoteExportFragmentBinding
 import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportError
 import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportSuccess
@@ -15,7 +15,7 @@ import de.reiss.bible2net.theword.note.export.NoteExportStatus.NoPermission
 import de.reiss.bible2net.theword.util.extensions.onClick
 import de.reiss.bible2net.theword.util.extensions.showShortSnackbar
 
-class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, NoteExportViewModel>(
+class NoteExportFragment : AppFragment<NoteExportFragmentBinding, NoteExportViewModel>(
     R.layout.note_export_fragment
 ) {
 
@@ -51,18 +51,8 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, Note
 
     private fun tryExportNotes() {
         if (viewModel.isExporting().not()) {
-            requestSdCardPermission()
-        }
-    }
-
-    override fun onSdCardPermissionGranted() {
-        if (viewModel.isExporting().not()) {
             viewModel.exportNotes()
         }
-    }
-
-    override fun onSdCardPermissionDenied() {
-        showShortSnackbar(R.string.can_not_write_to_sdcard)
     }
 
     private fun updateUi() {

@@ -103,5 +103,5 @@ open class NoteListRepository @Inject constructor(
             this.text2.lowerCase().contains(match) ||
             this.ref2.lowerCase().contains(match)
 
-    private fun String.lowerCase() = this.toLowerCase(Locale.getDefault())
+    private fun String.lowerCase() = this.lowercase(Locale.getDefault())
 }

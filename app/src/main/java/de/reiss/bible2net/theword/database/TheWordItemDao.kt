@@ -1,41 +1,41 @@
-package de.reiss.bible2net.theword.database;
+package de.reiss.bible2net.theword.database
 
-import androidx.room.Dao;
-import androidx.room.Delete;
-import androidx.room.Insert;
-import androidx.room.Query;
-import androidx.room.RoomWarnings;
-
-import java.util.Date;
-import java.util.List;
-
-import static androidx.room.OnConflictStrategy.REPLACE;
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import androidx.room.RoomWarnings
+import java.util.Date
 
 @Dao
-public interface TheWordItemDao {
+interface TheWordItemDao {
 
     @Query("SELECT * FROM TheWordItem")
-    List<TheWordItem> all();
+    fun all(): List<TheWordItem>
 
-    @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH)
-    @Query("SELECT * FROM TheWordItem" +
+    @SuppressWarnings(RoomWarnings.QUERY_MISMATCH)
+    @Query(
+        "SELECT * FROM TheWordItem" +
             " INNER JOIN BibleItem ON TheWordItem.bibleId = BibleItem.id" +
-            " WHERE BibleItem.id = :bibleId AND TheWordItem.date = :date")
-    TheWordItem byDate(int bibleId, Date date);
+            " WHERE BibleItem.id = :bibleId AND TheWordItem.date = :date"
+    )
+    fun byDate(bibleId: Int, date: Date): TheWordItem?
 
-    @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH)
-    @Query("SELECT * FROM TheWordItem" +
+    @SuppressWarnings(RoomWarnings.QUERY_MISMATCH)
+    @Query(
+        "SELECT * FROM TheWordItem" +
             " INNER JOIN BibleItem ON TheWordItem.bibleId = BibleItem.id" +
-            " WHERE BibleItem.id = :bibleId AND TheWordItem.date BETWEEN :from AND :to")
-    List<TheWordItem> range(int bibleId, Date from, Date to);
+            " WHERE BibleItem.id = :bibleId AND TheWordItem.date BETWEEN :from AND :to"
+    )
+    fun range(bibleId: Int, from: Date, to: Date): List<TheWordItem>
 
-    @Insert(onConflict = REPLACE)
-    List<Long> insertOrReplace(TheWordItem... items);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertOrReplace(vararg items: TheWordItem): List<Long>
 
     @Delete
-    void delete(TheWordItem... item);
+    fun delete(vararg item: TheWordItem)
 
     @Query("DELETE FROM TheWordItem")
-    void clear();
-
+    fun clear()
 }
