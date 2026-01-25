@@ -6,9 +6,7 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
@@ -75,7 +73,7 @@ class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsV
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-        ViewModelProviders.of(
+        ViewModelProvider(
             this,
             NoteDetailsViewModel.Factory(
                 requireArguments().getParcelable(KEY_NOTE)!!,
@@ -84,21 +82,15 @@ class NoteDetailsFragment : AppFragment<NoteDetailsFragmentBinding, NoteDetailsV
         )
 
     override fun defineViewModel(): NoteDetailsViewModel =
-        loadViewModelProvider().get(NoteDetailsViewModel::class.java)
+        loadViewModelProvider()[NoteDetailsViewModel::class.java]
 
     override fun initViewModelObservers() {
-        viewModel.noteLiveData().observe(
-            this,
-            Observer<AsyncLoad<Note>> {
-                updateUi()
-            }
-        )
-        viewModel.deleteLiveData().observe(
-            this,
-            Observer<AsyncLoad<Void>> {
-                updateUi()
-            }
-        )
+        viewModel.noteLiveData().observe(this) {
+            updateUi()
+        }
+        viewModel.deleteLiveData().observe(this) {
+            updateUi()
+        }
     }
 
     override fun onResume() {

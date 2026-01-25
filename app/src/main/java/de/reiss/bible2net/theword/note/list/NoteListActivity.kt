@@ -76,9 +76,9 @@ class NoteListActivity : AppActivity() {
             setOnActionExpandListener(
                 object : MenuItem.OnActionExpandListener {
 
-                    override fun onMenuItemActionExpand(item: MenuItem?) = true // expands view
+                    override fun onMenuItemActionExpand(item: MenuItem) = true // expands view
 
-                    override fun onMenuItemActionCollapse(item: MenuItem?): Boolean {
+                    override fun onMenuItemActionCollapse(item: MenuItem): Boolean {
                         search("")
                         return true // collapses view
                     }

@@ -5,7 +5,6 @@ import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
@@ -48,7 +47,7 @@ class BibleFragment :
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-        ViewModelProviders.of(
+        ViewModelProvider(
             this,
             BibleViewModel.Factory(
                 App.component.bibleRepository
@@ -56,10 +55,10 @@ class BibleFragment :
         )
 
     override fun defineViewModel(): BibleViewModel =
-        loadViewModelProvider().get(BibleViewModel::class.java)
+        loadViewModelProvider()[BibleViewModel::class.java]
 
     override fun initViewModelObservers() {
-        viewModel.biblesLiveData.observe(this, { onResourceChange() })
+        viewModel.biblesLiveData.observe(this) { onResourceChange() }
     }
 
     override fun onAppFragmentReady() {

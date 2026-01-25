@@ -2,12 +2,10 @@ package de.reiss.bible2net.theword.note.export
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
-import de.reiss.bible2net.theword.architecture.AppFragmentWithSdCard
+import de.reiss.bible2net.theword.architecture.AppFragment
 import de.reiss.bible2net.theword.databinding.NoteExportFragmentBinding
 import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportError
 import de.reiss.bible2net.theword.note.export.NoteExportStatus.ExportSuccess
@@ -17,7 +15,7 @@ import de.reiss.bible2net.theword.note.export.NoteExportStatus.NoPermission
 import de.reiss.bible2net.theword.util.extensions.onClick
 import de.reiss.bible2net.theword.util.extensions.showShortSnackbar
 
-class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, NoteExportViewModel>(
+class NoteExportFragment : AppFragment<NoteExportFragmentBinding, NoteExportViewModel>(
     R.layout.note_export_fragment
 ) {
 
@@ -35,7 +33,7 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, Note
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-        ViewModelProviders.of(
+        ViewModelProvider(
             this,
             NoteExportViewModel.Factory(
                 App.component.noteExportRepository
@@ -43,31 +41,18 @@ class NoteExportFragment : AppFragmentWithSdCard<NoteExportFragmentBinding, Note
         )
 
     override fun defineViewModel(): NoteExportViewModel =
-        loadViewModelProvider().get(NoteExportViewModel::class.java)
+        loadViewModelProvider()[NoteExportViewModel::class.java]
 
     override fun initViewModelObservers() {
-        viewModel.exportLiveData().observe(
-            this,
-            Observer<NoteExportStatus> {
-                updateUi()
-            }
-        )
+        viewModel.exportLiveData().observe(this) {
+            updateUi()
+        }
     }
 
     private fun tryExportNotes() {
         if (viewModel.isExporting().not()) {
-            requestSdCardPermission()
-        }
-    }
-
-    override fun onSdCardPermissionGranted() {
-        if (viewModel.isExporting().not()) {
             viewModel.exportNotes()
         }
-    }
-
-    override fun onSdCardPermissionDenied() {
-        showShortSnackbar(R.string.can_not_write_to_sdcard)
     }
 
     private fun updateUi() {

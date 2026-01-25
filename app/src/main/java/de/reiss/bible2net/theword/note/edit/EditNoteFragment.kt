@@ -8,13 +8,10 @@ import android.view.MenuItem
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.architecture.AppFragment
-import de.reiss.bible2net.theword.architecture.AsyncLoad
 import de.reiss.bible2net.theword.databinding.EditNoteFragmentBinding
 import de.reiss.bible2net.theword.main.content.ShareDialog
 import de.reiss.bible2net.theword.model.Note
@@ -106,7 +103,7 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-        ViewModelProviders.of(
+        ViewModelProvider(
             this,
             EditNoteViewModel.Factory(
                 App.component.editNoteRepository
@@ -114,7 +111,7 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
         )
 
     override fun defineViewModel(): EditNoteViewModel =
-        loadViewModelProvider().get(EditNoteViewModel::class.java)
+        loadViewModelProvider()[EditNoteViewModel::class.java]
 
     override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
         EditNoteFragmentBinding.inflate(inflater, container, false)
@@ -126,18 +123,12 @@ class EditNoteFragment : AppFragment<EditNoteFragmentBinding, EditNoteViewModel>
     }
 
     override fun initViewModelObservers() {
-        viewModel.loadNoteLiveData().observe(
-            this,
-            Observer<AsyncLoad<Note?>> {
-                updateUi()
-            }
-        )
-        viewModel.storeNoteLiveData().observe(
-            this,
-            Observer<AsyncLoad<Void>> {
-                updateUi()
-            }
-        )
+        viewModel.loadNoteLiveData().observe(this) {
+            updateUi()
+        }
+        viewModel.storeNoteLiveData().observe(this) {
+            updateUi()
+        }
     }
 
     override fun onAppFragmentReady() {

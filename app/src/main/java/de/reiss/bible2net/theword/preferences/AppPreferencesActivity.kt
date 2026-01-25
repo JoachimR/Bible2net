@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
 import de.reiss.bible2net.theword.App
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.SplashScreenActivity
@@ -33,15 +33,14 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
         setSupportActionBar(binding.preferencesToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        viewModel = ViewModelProviders.of(
+        viewModel = ViewModelProvider(
             this,
             AppPreferencesViewModel.Factory(
                 App.component.appPreferencesRepository
             )
-        )
-            .get(AppPreferencesViewModel::class.java)
+        )[AppPreferencesViewModel::class.java]
 
-        viewModel.biblesLiveData.observe(this, { updateUi() })
+        viewModel.biblesLiveData.observe(this) { updateUi() }
 
         App.component.appPreferences.registerListener(this)
     }
@@ -51,7 +50,7 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
         viewModel.loadBibles()
     }
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
         when (key) {
             getString(R.string.pref_theme_key) -> {
                 restartApp()

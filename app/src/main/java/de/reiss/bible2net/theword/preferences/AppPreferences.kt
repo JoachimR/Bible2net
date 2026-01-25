@@ -27,8 +27,8 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
         registerListener(this)
     }
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
-        if (sharedPreferences == preferences) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
+        if (sharedPreferences == preferences && key != null) {
             if (isWidgetPref(key)) {
                 triggerWidgetRefresh()
             } else {

@@ -7,7 +7,6 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
 import de.reiss.bible2net.theword.R
 import de.reiss.bible2net.theword.model.Bible
-import de.reiss.bible2net.theword.util.extensions.isPlayServiceAvailable
 import de.reiss.bible2net.theword.util.sortBibles
 
 class AppPreferencesFragment : PreferenceFragmentCompat() {
@@ -49,9 +48,8 @@ class AppPreferencesFragment : PreferenceFragmentCompat() {
             findPreference(getString(R.string.pref_show_daily_notification_key))
                 as SwitchPreferenceCompat?
             )?.apply {
-            val playServiceAvailable = requireContext().isPlayServiceAvailable()
-            isVisible = playServiceAvailable
-            setDefaultValue(playServiceAvailable)
+            isVisible = true
+            setDefaultValue(true)
         }
     }
 }

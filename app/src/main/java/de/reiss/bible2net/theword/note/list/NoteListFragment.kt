@@ -4,9 +4,7 @@ import android.view.LayoutInflater
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import de.reiss.bible2net.theword.App
@@ -41,7 +39,7 @@ class NoteListFragment :
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-        ViewModelProviders.of(
+        ViewModelProvider(
             this,
             NoteListViewModel.Factory(
                 App.component.noteListRepository
@@ -49,15 +47,12 @@ class NoteListFragment :
         )
 
     override fun defineViewModel(): NoteListViewModel =
-        loadViewModelProvider().get(NoteListViewModel::class.java)
+        loadViewModelProvider()[NoteListViewModel::class.java]
 
     override fun initViewModelObservers() {
-        viewModel.notesLiveData().observe(
-            this,
-            Observer<AsyncLoad<FilteredNotes>> {
-                updateUi()
-            }
-        )
+        viewModel.notesLiveData().observe(this) {
+            updateUi()
+        }
     }
 
     override fun onResume() {

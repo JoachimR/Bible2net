@@ -1,13 +1,13 @@
 package de.reiss.bible2net.theword.architecture.di
 
 import android.content.Context
-import com.grapesnberries.curllogger.CurlLoggerInterceptor
 import dagger.Module
 import dagger.Provides
 import de.reiss.bible2net.theword.architecture.UserAgentInterceptor
 import de.reiss.bible2net.theword.util.appVersion
 import okhttp3.Cache
 import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
 import java.io.File
 
 @Module(
@@ -35,7 +35,9 @@ open class OkHttpModule {
     open fun okHttpClient(context: Context, cache: Cache): OkHttpClient =
         OkHttpClient.Builder()
             .cache(cache)
-            .addInterceptor(CurlLoggerInterceptor("TheWord"))
-            .addNetworkInterceptor(UserAgentInterceptor("The Word", appVersion(context)))
+            .addInterceptor(HttpLoggingInterceptor().apply {
+                level = HttpLoggingInterceptor.Level.BASIC
+            })
+            .addInterceptor(UserAgentInterceptor("The Word", appVersion(context)))
             .build()
 }

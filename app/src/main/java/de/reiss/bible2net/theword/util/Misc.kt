@@ -15,13 +15,8 @@ fun appVersion(context: Context): String {
     return context.getString(R.string.app_version, version)
 }
 
-@Suppress("DEPRECATION")
 fun htmlize(text: String): Spanned =
-    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-        Html.fromHtml(text, Html.FROM_HTML_MODE_LEGACY)
-    } else {
-        Html.fromHtml(text)
-    }
+    Html.fromHtml(text, Html.FROM_HTML_MODE_LEGACY)
 
 fun contentAsString(context: Context, time: Long, theWordContent: TheWordContent, note: String) =
     StringBuilder().apply {
