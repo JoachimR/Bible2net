@@ -1,0 +1,14 @@
+package de.reiss.bible2net.theword2
+
+import android.content.Context
+import android.text.format.DateUtils.FORMAT_SHOW_DATE
+import android.text.format.DateUtils.FORMAT_SHOW_WEEKDAY
+import android.text.format.DateUtils.FORMAT_SHOW_YEAR
+import android.text.format.DateUtils.formatDateTime
+
+fun formattedDate(context: Context, time: Long): String =
+    formatDateTime(
+        context,
+        time,
+        FORMAT_SHOW_DATE or FORMAT_SHOW_YEAR or FORMAT_SHOW_WEEKDAY
+    )

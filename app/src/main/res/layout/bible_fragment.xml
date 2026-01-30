@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="@string/bible_loading_bibles" />
 
-        <de.reiss.bible2net.theword.util.view.LoadingProgressBar
+        <de.reiss.bible2net.theword2.util.view.LoadingProgressBar
             style="@style/Widget.AppCompat.ProgressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

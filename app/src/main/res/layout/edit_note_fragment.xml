@@ -56,7 +56,7 @@
 
     </LinearLayout>
 
-    <de.reiss.bible2net.theword.util.view.LoadingProgressBar
+    <de.reiss.bible2net.theword2.util.view.LoadingProgressBar
         android:id="@+id/edit_note_loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

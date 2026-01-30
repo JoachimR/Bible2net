@@ -28,11 +28,11 @@
 
 -dontwarn javax.annotation.**
 
--keep class android.support.v7.widget.SearchView { *; }
-
 -dontwarn okhttp3.**
 -dontwarn okio.**
 -dontwarn retrofit2.**
+-dontwarn com.google.re2j.Matcher
+-dontwarn com.google.re2j.Pattern
 
 -keepclassmembers class ** {
     @com.squareup.moshi.Json *;

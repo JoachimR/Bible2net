@@ -3,14 +3,14 @@ apply plugin: "kotlin-android"
 apply plugin: "com.google.devtools.ksp"
 
 android {
-    namespace "de.reiss.bible2net.theword"
+    namespace "de.reiss.bible2net.theword2"
 
     compileSdk = 36
 
     defaultConfig {
-        applicationId "de.reiss.bible2net.theword"
+        applicationId "de.reiss.bible2net.theword2"
 
-        minSdk 25
+        minSdk 26
 
         targetSdk 36
 
@@ -19,7 +19,7 @@ android {
 
         vectorDrawables.useSupportLibrary = true
 
-        testInstrumentationRunner "de.reiss.bible2net.theword.testutil.AppTestRunner"
+        testInstrumentationRunner "de.reiss.bible2net.theword2.testutil.AppTestRunner"
     }
 
     buildFeatures {
@@ -39,6 +39,7 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            debuggable false
         }
         debug {
             minifyEnabled false

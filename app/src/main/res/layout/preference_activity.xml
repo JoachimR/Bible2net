@@ -22,7 +22,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    <de.reiss.bible2net.theword.util.view.LoadingProgressBar
+    <de.reiss.bible2net.theword2.util.view.LoadingProgressBar
         android:id="@+id/preferences_loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

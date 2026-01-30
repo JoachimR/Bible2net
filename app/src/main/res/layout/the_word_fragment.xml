@@ -50,7 +50,7 @@
 
     </androidx.core.widget.NestedScrollView>
 
-    <de.reiss.bible2net.theword.util.view.LoadingProgressBar
+    <de.reiss.bible2net.theword2.util.view.LoadingProgressBar
         android:id="@+id/loading"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
