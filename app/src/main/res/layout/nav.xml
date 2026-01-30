@@ -7,8 +7,7 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp">
+    android:paddingRight="16dp">
 
     <ImageView
         android:layout_width="44dp"

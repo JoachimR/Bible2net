@@ -39,6 +39,7 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
+.idea/deviceManager.xml
 .idea/tasks.xml
 .idea/gradle.xml
 .idea/runConfigurations.xml

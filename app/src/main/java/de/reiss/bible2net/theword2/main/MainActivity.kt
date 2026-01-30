@@ -8,6 +8,9 @@ import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import de.reiss.bible2net.theword2.App
@@ -116,6 +119,14 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
         toggle.syncState()
 
         binding.mainNav.setNavigationItemSelectedListener(this)
+
+        val headerView = binding.mainNav.getHeaderView(0)
+        ViewCompat.setOnApplyWindowInsetsListener(binding.mainNav) { view, windowInsets ->
+            val insets = windowInsets.getInsets(WindowInsetsCompat.Type.statusBars())
+            headerView.updatePadding(top = insets.top + resources.getDimensionPixelSize(R.dimen.nav_header_vertical_spacing))
+            windowInsets
+        }
+        ViewCompat.requestApplyInsets(binding.mainNav)
     }
 
     private fun goToSettings() {

@@ -8,6 +8,7 @@
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
         <item name="colorSecondary">@color/colorSecondary</item>
         <item name="backgroundDrawerHeader">@drawable/side_nav_bar</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
     </style>
 
     <style name="AppThemeBlue" parent="BaseAppTheme">
@@ -15,6 +16,7 @@
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant_blue</item>
         <item name="colorSecondary">@color/colorSecondary_blue</item>
         <item name="backgroundDrawerHeader">@drawable/side_nav_bar_blue</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant_blue</item>
     </style>
 
     <style name="AppThemeGrey" parent="BaseAppTheme">
@@ -22,6 +24,7 @@
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant_grey</item>
         <item name="colorSecondary">@color/colorSecondary_grey</item>
         <item name="backgroundDrawerHeader">@drawable/side_nav_bar_grey</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant_grey</item>
     </style>
 
     <style name="AppThemeGreen" parent="BaseAppTheme">
@@ -29,6 +32,7 @@
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant_green</item>
         <item name="colorSecondary">@color/colorSecondary_green</item>
         <item name="backgroundDrawerHeader">@drawable/side_nav_bar_green</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant_green</item>
     </style>
 
     <style name="AppTheme.Splash">
