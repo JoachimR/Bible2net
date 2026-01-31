@@ -14,8 +14,7 @@ android {
 
         targetSdk 36
 
-        versionCode isIdeBuild ? 1 : app_version_code
-        versionName app_version_name
+        versionCode 3
 
         vectorDrawables.useSupportLibrary = true
 
