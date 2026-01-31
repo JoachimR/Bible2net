@@ -1,6 +1,7 @@
 package de.reiss.bible2net.theword2
 
 import android.app.Application
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.preference.PreferenceManager
 import de.reiss.bible2net.theword2.architecture.di.ApplicationComponent
 import de.reiss.bible2net.theword2.architecture.di.ContextModule
@@ -25,10 +26,16 @@ open class App : Application() {
     open fun initApp() {
         NotificationWorker.schedule(this)
         initPrefs()
+        initNightMode()
     }
 
     private fun initPrefs() {
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false)
+    }
+
+    private fun initNightMode() {
+        val nightMode = component.appPreferences.currentDesign().nightMode
+        AppCompatDelegate.setDefaultNightMode(nightMode)
     }
 
     open fun createComponent(): ApplicationComponent =

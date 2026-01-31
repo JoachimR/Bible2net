@@ -14,7 +14,7 @@ android {
 
         targetSdk 36
 
-        versionCode 3
+        versionCode 4
 
         vectorDrawables.useSupportLibrary = true
 
