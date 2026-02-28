@@ -184,3 +184,6 @@ gradle-app.setting
 
 apk_signature.properties
 *.key
+
+# Kotlin Language Server
+kls_database.db
