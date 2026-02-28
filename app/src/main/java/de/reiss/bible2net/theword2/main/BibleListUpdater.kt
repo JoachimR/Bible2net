@@ -25,17 +25,20 @@ open class BibleListUpdater @Inject constructor(
     }
 
     private fun updateBibleItems(jsonList: List<Twd11>) {
-        jsonList
-            .filter { jsonItem ->
-                jsonItem.bible.isNotEmpty() && jsonItem.bibleName.isNotEmpty()
-            }
-            .map { jsonItem ->
-                BibleItem(jsonItem.bible, jsonItem.bibleName, jsonItem.language)
-            }
+        val validBibles = jsonList
+            .filter { it.bible.isNotEmpty() && it.bibleName.isNotEmpty() }
+
+        validBibles
+            .map { BibleItem(it.bible, it.bibleName, it.language) }
             .forEach { bibleItem ->
                 if (bibleItemDao.find(bibleItem.bible) == null) {
                     bibleItemDao.insert(bibleItem)
                 }
             }
+
+        val apiBibleKeys = validBibles.map { it.bible }.toSet()
+        bibleItemDao.all()
+            .filter { it.bible !in apiBibleKeys }
+            .forEach { bibleItemDao.delete(it) }
     }
 }

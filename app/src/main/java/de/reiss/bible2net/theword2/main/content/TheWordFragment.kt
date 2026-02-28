@@ -1,5 +1,7 @@
 package de.reiss.bible2net.theword2.main.content
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -22,6 +24,7 @@ import de.reiss.bible2net.theword2.formattedDate
 import de.reiss.bible2net.theword2.note.edit.EditNoteActivity
 import de.reiss.bible2net.theword2.preferences.AppPreferences
 import de.reiss.bible2net.theword2.preferences.AppPreferencesActivity
+import de.reiss.bible2net.theword2.util.BibleServerUrlBuilder
 import de.reiss.bible2net.theword2.util.copyToClipboard
 import de.reiss.bible2net.theword2.util.extensions.onClick
 import de.reiss.bible2net.theword2.util.extensions.registerToEventBus
@@ -147,12 +150,30 @@ class TheWordFragment : AppFragment<TheWordFragmentBinding, TheWordViewModel>(
                     }
                 }
             }
+            ref1.onClick {
+                viewModel.theWord()?.let { theWord ->
+                    val url = BibleServerUrlBuilder.buildUrl(
+                        bible = theWord.bible,
+                        ref = theWord.content.ref1
+                    )
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+                }
+            }
             ref1.setOnLongClickListener {
                 context?.let {
                     copyToClipboard(it, ref1.text.toString())
                     showShortSnackbar(message = R.string.copied_to_clipboard)
                 }
                 true
+            }
+            ref2.onClick {
+                viewModel.theWord()?.let { theWord ->
+                    val url = BibleServerUrlBuilder.buildUrl(
+                        bible = theWord.bible,
+                        ref = theWord.content.ref2
+                    )
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+                }
             }
             ref2.setOnLongClickListener {
                 context?.let {
